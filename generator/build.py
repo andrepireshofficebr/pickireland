@@ -124,7 +124,16 @@ header{background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:
 .nav-links{display:flex;gap:4px;flex-wrap:wrap}
 .nav-links a{font-size:.88rem;font-weight:700;color:var(--mut);padding:8px 12px;border-radius:9px;transition:background .2s,color .2s}
 .nav-links a:hover{color:var(--green);background:var(--green-t);text-decoration:none}
-@media(max-width:860px){.nav-links a:nth-child(n+4):not(:last-child){display:none}}
+.nav-links a.extra{display:none}
+.menu-btn{display:none;background:none;border:0;cursor:pointer;padding:9px;color:var(--ink);border-radius:9px}
+.menu-btn:hover{background:var(--green-t)}
+@media(max-width:860px){
+.menu-btn{display:flex;align-items:center}
+.nav-links{display:none;position:absolute;top:66px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;padding:8px 22px 14px;gap:0;box-shadow:var(--sh-md);max-height:calc(100vh - 70px);overflow-y:auto}
+body.nav-open .nav-links{display:flex}
+.nav-links a{display:block !important;width:100%;padding:13px 10px;font-size:1.02rem;border-bottom:1px solid var(--line);border-radius:0}
+.nav-links a:last-child{border-bottom:none}
+}
 .disclosure{background:var(--green-t);font-size:.78rem;color:#33524a;padding:7px 0;text-align:center}
 .disclosure a{font-weight:700}
 /* page head */
@@ -241,9 +250,13 @@ def stars(r):
 
 def header_html(depth=0):
     p = "../" * depth
-    cats_links = "".join(f'<a href="{p}{c["category"]}/index.html">{c["name"]}</a>' for c in CATS[:5])
+    cats_links = "".join(
+        f'<a class="{"extra" if i >= 5 else ""}" href="{p}{c["category"]}/index.html">{c["name"]}</a>'
+        for i, c in enumerate(CATS))
+    burger = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>'
     return f"""<header><div class="wrap nav">
 <a class="logo" href="{p}index.html" aria-label="{SITE_NAME} home"><span class="mark">P</span>Pick<span>Ireland</span></a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))">{burger}</button>
 <nav class="nav-links" aria-label="Categories">{cats_links}<a href="{p}index.html#categories">All categories</a></nav>
 </div></header>
 <div class="disclosure">As an Amazon Associate, {SITE_NAME} earns from qualifying purchases. <a href="{p}affiliate-disclosure.html">Learn more</a></div>"""
@@ -495,14 +508,11 @@ with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as f:
     f.write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
 with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as f:
     f.write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
+with open(os.path.join(OUT, "CNAME"), "w") as f:
+    f.write("pickireland.best\n")
+open(os.path.join(OUT, ".nojekyll"), "w").close()
 
 linked = sum(1 for v in LINKS.values() if v.get("link"))
 imgs = sum(1 for v in LINKS.values() if v.get("image"))
 print(f"Built {len(all_pages)} pages into {os.path.abspath(OUT)}")
-print(f"Affiliate links filled: {linked} / 250 | images filled: {imgs} / 250")
-
-# CNAME for GitHub Pages custom domain
-with open(os.path.join(OUT, "CNAME"), "w") as f:
-    f.write("pickireland.best\n")
-# .nojekyll prevents GitHub Pages from running Jekyll processing
-open(os.path.join(OUT, ".nojekyll"), "w").close()
+print(f"Affiliate links filled: {linked} / 248 | images filled: {imgs} / 248")
