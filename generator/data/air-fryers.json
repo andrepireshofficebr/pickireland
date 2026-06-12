@@ -1,99 +1,755 @@
 {
-  "category": "air-fryers",
-  "name": "Air Fryers",
-  "emoji": "🍟",
-  "hub_intro": "The air fryer conquered the Irish kitchen for one simple reason: with electricity prices among Europe's highest, heating a whole oven to cook for two people stopped making sense. A typical air fryer uses 50–70% less energy than a conventional oven for everyday meals — and does chips better. We compare every size and budget, from compact singles to dual-drawer family machines.",
-  "guide": [
-    ["Size by household", "1–2 people: 3.5–5L. Families of 3–4: 6–8L or dual-zone. Batch cookers and big families: 9L+. Under-buying is the #1 regret in reviews — a too-small basket means cooking in frustrating rounds."],
-    ["Dual-zone or single?", "Two drawers let you cook mains and sides simultaneously at different temperatures — the feature families keep once they've had it. Singles are cheaper, smaller on the counter, and fine for one or two people."],
-    ["Energy savings are real", "An air fryer at ~1,500 W cooking for 20 minutes uses roughly 0.5 kWh (~18 cents). A fan oven preheated and run for 45 minutes uses 1.3–1.8 kWh (~45–65 cents). Cook five times a week and the machine pays for itself within a year or two."],
-    ["What actually matters", "Skip the 12-preset marketing. What separates good from bad: drawer build quality, even cooking without shaking religiously, dishwasher-safe parts, and a max temp of 200°C+. Ninja dominates because it nails these four."]
+ "category": "air-fryers",
+ "name": "Air Fryers",
+ "emoji": "🍟",
+ "hub_intro": "The air fryer conquered the Irish kitchen for one simple reason: with electricity prices among Europe's highest, heating a whole oven to cook for two people stopped making sense. A typical air fryer uses 50–70% less energy than a conventional oven for everyday meals — and does chips better. We compare every size and budget, from compact singles to dual-drawer family machines.",
+ "guide": [
+  [
+   "Size by household",
+   "1–2 people: 3.5–5L. Families of 3–4: 6–8L or dual-zone. Batch cookers and big families: 9L+. Under-buying is the #1 regret in reviews — a too-small basket means cooking in frustrating rounds."
   ],
-  "faqs": [
-    {"q": "Do air fryers really save money in Ireland?", "a": "Yes, meaningfully. Cooking a typical meal costs ~15–20 cents in an air fryer versus 45–65 cents in a fan oven at current rates. A family cooking five evenings a week saves roughly €80–120 a year — most machines pay for themselves inside 18 months."},
-    {"q": "What size air fryer should I buy?", "a": "3.5–5L for one or two people, 6–8L (or a dual-drawer) for a family of four, 9L+ for batch cooking. When in doubt, size up: the most common review complaint is a basket too small for a full family dinner."},
-    {"q": "Is a dual-zone air fryer worth it?", "a": "For families, yes — cooking chicken in one drawer and chips in the other, finishing together, removes the juggling that makes weeknight cooking stressful. For one or two people a quality single drawer is better value and counter space."},
-    {"q": "Ninja vs Tower vs Tefal — which brand?", "a": "Ninja leads on build quality, even cooking and resale value, at a price premium. Tower undercuts everyone with respectable quality. Tefal sits between, strong on capacity innovation. Our testing-based view: buy Ninja if budget allows, Tower if it doesn't."},
-    {"q": "Can an air fryer replace my oven?", "a": "For most weeknight cooking — chips, chicken, fish, roast veg, reheating — completely. You'll still want the oven for large roasts, multiple trays of baking, or pizza. Many Irish households now use the big oven once or twice a week at most."},
-    {"q": "How much electricity does an air fryer use?", "a": "Typical units draw 1,400–2,400 W but only heat intermittently. A 20-minute cook uses about 0.4–0.6 kWh — 15–22 cents at standard Irish rates. Night-rate owners on smart meters can batch-cook even cheaper."},
-    {"q": "Are air fryers healthy?", "a": "They achieve fried texture with 70–90% less oil than deep frying, cutting calories and acrylamide exposure versus a chip pan. They're a cooking method, not a health product — but replacing deep-fried food with air-fried is a clear nutritional win."},
-    {"q": "What can't an air fryer do?", "a": "Anything with wet batter (it drips before setting), very large roasts, and big baking trays. Steaks are better in a pan. Everything else from frozen chips to whole chickens (in 7L+ models) is fair game."}
+  [
+   "Dual-zone or single?",
+   "Two drawers let you cook mains and sides simultaneously at different temperatures — the feature families keep once they've had it. Singles are cheaper, smaller on the counter, and fine for one or two people."
   ],
-  "pages": [
-    {
-      "slug": "best-air-fryers-ireland",
-      "title": "5 Best Air Fryers in Ireland 2026 — Tested & Compared",
-      "desc": "Ireland's best air fryers compared on cooking quality, energy savings at Irish electricity rates, capacity and value. Top 5 for 2026.",
-      "h1": "The 5 Best Air Fryers in Ireland (2026)",
-      "intro": "Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Five machines stood out across budgets from €70 to €270.",
-      "faq_idx": [0, 1, 3],
-      "products": [
-        {"id": "afr-001", "name": "Ninja Air Fryer MAX PRO 6.2L (AF180UK)", "brand": "Ninja", "price": 149, "rating": 4.8, "badge": "Best Overall", "specs": {"Capacity": "6.2 L", "Power": "1,750 W", "Functions": "6 (incl. max crisp)", "Temp range": "40–240°C", "Dishwasher safe": "Yes", "Best for": "2–4 people"}, "pros": ["Crispiest results of anything we compared", "240°C Max Crisp nails frozen food", "Tank-like build quality"], "cons": ["Single drawer — no split cooking", "Chunky on the counter"], "verdict": "The best single-drawer air fryer on the Irish market: enough capacity for a small family, even cooking that doesn't demand babysitting, and Ninja durability."},
-        {"id": "afr-002", "name": "Ninja Foodi Dual Zone 7.6L (AF300UK)", "brand": "Ninja", "price": 199, "rating": 4.9, "badge": "Best for Families", "specs": {"Capacity": "7.6 L (2×3.8 L)", "Power": "2,470 W", "Functions": "6 per drawer", "Sync": "Finish-together", "Dishwasher safe": "Yes", "Best for": "3–5 people"}, "pros": ["Mains + sides done simultaneously", "SYNC finishes both drawers together", "The most-loved kitchen gadget in Ireland, justifiably"], "cons": ["Wide — measure your counter", "Premium price"], "verdict": "The family dinner machine. Chicken in drawer one, chips in drawer two, both ready at once — weeknight cooking permanently simplified."},
-        {"id": "afr-003", "name": "Tower Vortx 4L (T17087)", "brand": "Tower", "price": 69, "rating": 4.3, "badge": "Best Budget", "specs": {"Capacity": "4 L", "Power": "1,400 W", "Functions": "4", "Temp range": "80–200°C", "Dishwasher safe": "Basket only", "Best for": "1–2 people"}, "pros": ["Proper air frying under €70", "Compact footprint for small kitchens", "3-year warranty on registration"], "cons": ["Needs a mid-cook shake for even results", "Basic controls"], "verdict": "The honest cheap option: less refined than Ninja but the chips don't know that. Perfect first air fryer for singles, couples and students."},
-        {"id": "afr-004", "name": "Tefal Easy Fry Dual XXL 11L (EY942BG0)", "brand": "Tefal", "price": 159, "rating": 4.5, "badge": "Biggest Capacity Value", "specs": {"Capacity": "11 L (2 zones)", "Power": "2,700 W", "Functions": "8", "Sync": "Yes", "Dishwasher safe": "Yes", "Best for": "4–6 people"}, "pros": ["11L — largest dual-drawer sold here", "Feeds six without round two", "Aggressive pricing for the size"], "cons": ["Dominates serious counter space", "Crisping a notch behind Ninja"], "verdict": "The big-family answer: whole-household dinners in one go at a price Ninja can't match per litre. Bring a tape measure for your counter first."},
-        {"id": "afr-005", "name": "Philips 3000 Series Airfryer L (NA231/00)", "brand": "Philips", "price": 119, "rating": 4.5, "badge": "Most Even Cooking", "specs": {"Capacity": "6.2 L", "Power": "2,000 W", "Functions": "7", "Tech": "RapidAir starfish design", "Dishwasher safe": "Yes", "Best for": "2–4 people"}, "pros": ["RapidAir = least shaking required of any unit", "Philips reliability record", "Quiet operation"], "cons": ["Max 200°C vs Ninja's 240°C", "Subdued looks"], "verdict": "From the company that invented the category: the most forgiving air fryer for people who want to set, walk away, and not shake baskets."}
-      ]
-    },
-    {
-      "slug": "best-budget-air-fryers-under-100-ireland",
-      "title": "Best Air Fryers Under €100 in Ireland 2026 — Top 5 Cheap Picks",
-      "desc": "Five air fryers under €100 that actually cook well — compared on results, capacity and warranty for Irish budgets in 2026.",
-      "h1": "Best Air Fryers Under €100 in Ireland",
-      "intro": "Under €100 is where most first air fryers are bought — and where the gap between 'cheap and good' and 'cheap and disposable' is widest. The five below all crisp properly and carry real warranties; the differences are capacity, controls and how much shaking the basket demands. One of them embarrasses machines twice its price.",
-      "faq_idx": [3, 5, 7],
-      "products": [
-        {"id": "afr-006", "name": "Tower Vortx 4L (T17087)", "brand": "Tower", "price": 69, "rating": 4.3, "badge": "Best Under €100 Overall", "specs": {"Capacity": "4 L", "Power": "1,400 W", "Functions": "4", "Temp range": "80–200°C", "Warranty": "3 years (registered)", "Best for": "1–2 people"}, "pros": ["Reliable crisping at a giveaway price", "3-year warranty beats premium brands", "Small kitchen friendly"], "cons": ["Manual dial controls", "Shake required mid-cook"], "verdict": "The default budget buy. Tower has quietly become the value king of UK-Irish kitchens, and the 3-year warranty shows their confidence."},
-        {"id": "afr-007", "name": "COSORI 4.7L Pro LE", "brand": "COSORI", "price": 89, "rating": 4.6, "badge": "Best Quality Under €100", "specs": {"Capacity": "4.7 L", "Power": "1,500 W", "Functions": "9", "Temp range": "75–230°C", "Warranty": "2 years", "Best for": "2–3 people"}, "pros": ["230°C max — near-Ninja crisping", "Quietest budget unit we compared", "Square basket fits more than round rivals"], "cons": ["Lesser-known brand in Irish shops", "App features are fluff"], "verdict": "The internet's favourite budget air fryer for a reason: 90% of the Ninja experience at 55% of the price. Our pick if you can stretch to €89."},
-        {"id": "afr-008", "name": "Salter EK4548 XL 8L", "brand": "Salter", "price": 79, "rating": 4.1, "badge": "Most Capacity Under €100", "specs": {"Capacity": "8 L", "Power": "1,800 W", "Functions": "7", "Temp range": "80–200°C", "Warranty": "2 years", "Best for": "3–4 people"}, "pros": ["Family-size 8L under €80", "Viewing window — rare at this price", "Strong wattage for the capacity"], "cons": ["Less even than smaller units; rotate food", "Bulky"], "verdict": "Feeds a family of four for the price of a single-drawer toy. Demands a little more technique (rotate halfway) but the value is undeniable."},
-        {"id": "afr-009", "name": "Russell Hobbs SatisFry Air 5L", "brand": "Russell Hobbs", "price": 75, "rating": 4.2, "badge": "Best Brand Trust Budget", "specs": {"Capacity": "5 L", "Power": "1,650 W", "Functions": "7", "Temp range": "80–200°C", "Warranty": "2 years", "Best for": "2–3 people"}, "pros": ["Household-name support and spares", "5L hits the couple/small family sweet spot", "Often discounted to €60"], "cons": ["Average crisping speed", "Loud fan"], "verdict": "The comfortable choice: familiar brand, sensible size, frequent discounts. Watch for it under €65 — at that price it outvalues everything here."},
-        {"id": "afr-010", "name": "Ninja Air Fryer 3.8L (AF100UK)", "brand": "Ninja", "price": 99, "rating": 4.6, "badge": "Cheapest Ninja", "specs": {"Capacity": "3.8 L", "Power": "1,550 W", "Functions": "4", "Temp range": "60–210°C", "Warranty": "2 years", "Best for": "1–2 people"}, "pros": ["Genuine Ninja quality at €99", "Compact yet fits a 1.4 kg chicken", "Best resale value in the category"], "cons": ["3.8L limits family use", "Few functions vs COSORI"], "verdict": "The entry ticket to the best brand in the category. Couples who value cooking quality over capacity should spend their €99 here."}
-      ]
-    },
-    {
-      "slug": "best-dual-zone-air-fryers-ireland",
-      "title": "Best Dual Zone Air Fryers Ireland 2026 — Ninja vs Tefal vs Tower",
-      "desc": "Dual-drawer air fryers compared for Irish families: Ninja, Tefal, Tower and more on sync cooking, capacity and value. Top 5 for 2026.",
-      "h1": "Best Dual Zone Air Fryers in Ireland",
-      "intro": "Dual-zone is the air fryer feature with the highest keep-rate: once a family cooks mains and sides simultaneously with both finishing together, there's no going back to juggling. Ninja invented the category and still leads it, but Tefal and Tower now attack on capacity and price. We compared the five dual-drawer machines worth Irish counter space.",
-      "faq_idx": [2, 1, 0],
-      "products": [
-        {"id": "afr-011", "name": "Ninja Foodi Dual Zone 7.6L (AF300UK)", "brand": "Ninja", "price": 199, "rating": 4.9, "badge": "Best Dual Zone Overall", "specs": {"Capacity": "7.6 L (2×3.8)", "Power": "2,470 W", "Sync/Match": "Both", "Functions": "6 per drawer", "Dishwasher safe": "Yes", "Best for": "3–5 people"}, "pros": ["The original and still the benchmark", "SYNC timing genuinely works", "Even cooking in both drawers"], "cons": ["59 cm wide", "Never meaningfully discounted"], "verdict": "Ireland's favourite kitchen appliance, full stop. Every rival is measured against this — and none has beaten it on overall cooking quality yet."},
-        {"id": "afr-012", "name": "Ninja Double Stack XL 9.5L (SL400UK)", "brand": "Ninja", "price": 269, "rating": 4.7, "badge": "Best for Small Counters", "specs": {"Capacity": "9.5 L (2×4.75)", "Power": "2,470 W", "Sync/Match": "Both", "Footprint": "28 cm wide (vertical)", "Dishwasher safe": "Yes", "Best for": "4–6 people"}, "pros": ["Vertical design: more litres, half the width", "Two full-size drawers + racks = 4 layers", "Same Ninja cooking quality"], "cons": ["Tall — check under-cabinet clearance", "Top drawer slightly outperforms bottom"], "verdict": "Ninja's answer to the only complaint about the AF300: width. More capacity on a footprint the size of a kettle zone — galley-kitchen families, this is yours."},
-        {"id": "afr-013", "name": "Tefal Easy Fry Dual XXL 11L (EY942BG0)", "brand": "Tefal", "price": 159, "rating": 4.5, "badge": "Best Capacity Per Euro", "specs": {"Capacity": "11 L (2 zones)", "Power": "2,700 W", "Sync/Match": "Yes", "Functions": "8", "Dishwasher safe": "Yes", "Best for": "4–6 people"}, "pros": ["11L for €40 less than Ninja's 7.6L", "Highest wattage = fast preheats", "8 presets that are actually calibrated"], "cons": ["Crisping a half-step behind Ninja", "Very wide"], "verdict": "The rational family pick: 45% more capacity than the AF300 for less money. If your priority is feeding a crowd rather than perfect chip edges, Tefal wins."},
-        {"id": "afr-014", "name": "Tower Vortx Eco Dual Drawer 8.5L", "brand": "Tower", "price": 109, "rating": 4.2, "badge": "Best Budget Dual Zone", "specs": {"Capacity": "8.5 L (2×4.25)", "Power": "2,400 W", "Sync/Match": "Match only", "Functions": "10", "Dishwasher safe": "Yes", "Best for": "3–4 people"}, "pros": ["Dual-zone life under €110", "Decent 4.25L per drawer", "3-year registered warranty"], "cons": ["No finish-together sync — manual timing", "Build plainly cheaper than Ninja"], "verdict": "Dual drawers for half Ninja money. You lose the sync magic and some refinement; you keep the core trick of two simultaneous dishes. Fair trade at €109."},
-        {"id": "afr-015", "name": "Instant Vortex Plus VersaZone 8.5L", "brand": "Instant", "price": 169, "rating": 4.4, "badge": "Most Flexible", "specs": {"Capacity": "8.5 L (1 or 2 zones)", "Power": "1,700 W", "Sync/Match": "Both + removable divider", "Functions": "8", "Dishwasher safe": "Yes", "Best for": "3–5 people"}, "pros": ["Divider out = one huge 8.5L basket", "Whole chicken AND dual-zone in one machine", "ClearCook window"], "cons": ["Single heating element splits power in dual mode", "Slower than Ninja when divided"], "verdict": "The transformer: a big single-basket machine on Sunday, a dual-zone on Tuesday. No rival offers both shapes — flexibility seekers look no further."}
-      ]
-    },
-    {
-      "slug": "best-large-air-fryers-families-ireland",
-      "title": "Best Large Air Fryers for Big Families Ireland 2026 (9L+)",
-      "desc": "Feeding 5+ people? The best large-capacity 9L+ air fryers and multi-cookers in Ireland compared on real capacity and value. Top 5.",
-      "h1": "Best Large Air Fryers for Big Families in Ireland",
-      "intro": "For households of five-plus, most 'family' air fryers still mean cooking in rounds while someone's chips go cold. True big-family machines start at 9 litres and climb to oven-replacing 15L multi-cookers. We compared honest usable capacity — not marketing litres — plus whether each can handle a whole chicken, a full bag of frozen chips, or both at once.",
-      "faq_idx": [1, 4, 0],
-      "products": [
-        {"id": "afr-016", "name": "Ninja Double Stack XL 9.5L (SL400UK)", "brand": "Ninja", "price": 269, "rating": 4.7, "badge": "Best Large Overall", "specs": {"Capacity": "9.5 L (2×4.75)", "Power": "2,470 W", "Layers": "Up to 4 with racks", "Footprint": "Narrow vertical", "Dishwasher safe": "Yes", "Feeds": "4–6"}, "pros": ["Four food layers possible at once", "Doesn't eat the whole counter", "Ninja crisping consistency"], "cons": ["Premium price", "Learning curve for 4-layer cooking"], "verdict": "The big-family machine that respects your kitchen: four portions of mains plus two sides in one cycle, on a footprint narrower than a microwave."},
-        {"id": "afr-017", "name": "Tefal Easy Fry Dual XXL 11L", "brand": "Tefal", "price": 159, "rating": 4.5, "badge": "Best Value Large", "specs": {"Capacity": "11 L", "Power": "2,700 W", "Zones": "2 large", "Functions": "8", "Dishwasher safe": "Yes", "Feeds": "4–6"}, "pros": ["Largest dual-drawer, mid-range price", "Each zone fits a family side dish", "Fast preheat at 2,700 W"], "cons": ["Wide unit", "No 4-layer trick"], "verdict": "Maximum litres per euro in the large class. For families who want big and simple — two huge drawers, no racks, no fuss — Tefal owns this slot."},
-        {"id": "afr-018", "name": "Ninja Foodi MAX 15-in-1 SmartLid 7.5L", "brand": "Ninja", "price": 249, "rating": 4.6, "badge": "Best Multi-Cooker Hybrid", "specs": {"Capacity": "7.5 L pot", "Power": "1,760 W", "Functions": "15 (pressure, air fry, slow…)", "Probe": "Smart cook thermometer", "Dishwasher safe": "Yes", "Feeds": "4–6"}, "pros": ["Pressure-cooks AND air-crisps a whole chicken", "Replaces 4 appliances", "Probe takes guesswork out of roasts"], "cons": ["One pot — no parallel dishes", "Tall and heavy"], "verdict": "For families whose bottleneck is time, not just capacity: pressure-cook a roast in 25 minutes, crisp the skin in 10. Sunday dinner, weeknight schedule."},
-        {"id": "afr-019", "name": "Salter Fuzion Dual 9L", "brand": "Salter", "price": 119, "rating": 4.2, "badge": "Budget Big Capacity", "specs": {"Capacity": "9 L (2×4.5)", "Power": "2,200 W", "Zones": "2", "Functions": "8", "Dishwasher safe": "Yes", "Feeds": "4–5"}, "pros": ["9L dual-zone under €120", "Respectable per-drawer size", "Easy controls"], "cons": ["No sync mode", "Crisping needs a shake or two"], "verdict": "The budget route to feeding five: 90% of the Tefal's capacity for 75% of its price. Set two timers, give it a shake, dinner's done."},
-        {"id": "afr-020", "name": "Tower Vortx Vizion 14L Air Fryer Oven", "brand": "Tower", "price": 139, "rating": 4.1, "badge": "Best Oven-Style", "specs": {"Capacity": "14 L oven format", "Power": "2,000 W", "Racks": "3 levels + rotisserie", "Functions": "12", "Dishwasher safe": "Racks", "Feeds": "4–6"}, "pros": ["Rotisserie chicken at home", "Three flat racks suit pizzas and trays", "Glass door — watch everything"], "cons": ["Oven format crisps slower than drawers", "Interior light could be brighter"], "verdict": "Half air fryer, half mini-oven: trays, rotisserie and visibility that drawer machines can't offer. Best for families who bake and roast more than they chip."}
-      ]
-    },
-    {
-      "slug": "best-compact-air-fryers-small-kitchens-ireland",
-      "title": "Best Compact Air Fryers for Small Kitchens Ireland 2026",
-      "desc": "Small air fryers for apartments, small kitchens and singles in Ireland — compact footprints, real capacity, low energy. Top 5 compared.",
-      "h1": "Best Compact Air Fryers for Small Kitchens in Ireland",
-      "intro": "Apartment kitchens — and Ireland builds a lot of them now — force a question the air fryer industry ignores: what fits? A machine can be brilliant and still useless if it can't live on your counter. These five deliver real air-fried results from footprints smaller than a sheet of A4 (well, nearly), ranked on cooking quality per square centimetre.",
-      "faq_idx": [1, 5, 6],
-      "products": [
-        {"id": "afr-021", "name": "Ninja Air Fryer 3.8L (AF100UK)", "brand": "Ninja", "price": 99, "rating": 4.6, "badge": "Best Compact Overall", "specs": {"Capacity": "3.8 L", "Footprint": "27.5 × 36 cm", "Power": "1,550 W", "Functions": "4", "Dishwasher safe": "Yes", "Best for": "1–2 people"}, "pros": ["Full Ninja quality, two-thirds the size", "Still fits a small whole chicken", "Quiet for its power"], "cons": ["Couples cooking big portions will feel limits", "€99 for a small unit"], "verdict": "The compact machine that doesn't cook like one. If only one air fryer fits your kitchen, make it the one with the best brand behind it."},
-        {"id": "afr-022", "name": "COSORI Mini 2.1L", "brand": "COSORI", "price": 59, "rating": 4.4, "badge": "Smallest Worth Buying", "specs": {"Capacity": "2.1 L", "Footprint": "21 × 26.5 cm", "Power": "900 W", "Functions": "5", "Dishwasher safe": "Yes", "Best for": "1 person"}, "pros": ["Footprint of a kettle", "900 W sips electricity", "Ideal portion sizes for one"], "cons": ["One portion at a time, really", "No preheat function"], "verdict": "The studio-apartment special: dinner for one, snacks for two, counter space for everything else. The smallest air fryer that still does the job properly."},
-        {"id": "afr-023", "name": "Tower Vortx Compact 2.2L", "brand": "Tower", "price": 45, "rating": 4.0, "badge": "Cheapest Compact", "specs": {"Capacity": "2.2 L", "Footprint": "22 × 27 cm", "Power": "1,000 W", "Functions": "Dial control", "Dishwasher safe": "Basket", "Best for": "1 person"}, "pros": ["Air frying for €45", "Tiny and light — moves to a cupboard easily", "3-year registered warranty"], "cons": ["Dial controls, no precision", "Small batches only"], "verdict": "The toe-in-the-water buy: students, singles and the air-fryer-curious get the real experience for the price of a takeaway week."},
-        {"id": "afr-024", "name": "Philips 1000 Series 4.2L (NA120/00)", "brand": "Philips", "price": 79, "rating": 4.3, "badge": "Best Slim Design", "specs": {"Capacity": "4.2 L", "Footprint": "25 × 35 cm (slim tower)", "Power": "1,500 W", "Functions": "7", "Dishwasher safe": "Yes", "Best for": "1–3 people"}, "pros": ["4.2L squeezed into a slim vertical body", "RapidAir evenness, minimal shaking", "Looks good left out"], "cons": ["Taller than rivals — cabinet clearance", "200°C ceiling"], "verdict": "The clever shape: family-adjacent capacity on a single-person footprint by building up, not out. Narrow counters, meet your match."},
-        {"id": "afr-025", "name": "Instant Vortex Slim 5.7L", "brand": "Instant", "price": 109, "rating": 4.4, "badge": "Most Capacity Per Cm", "specs": {"Capacity": "5.7 L", "Footprint": "24 cm wide slim", "Power": "1,700 W", "Functions": "6", "Dishwasher safe": "Yes", "Best for": "2–4 people"}, "pros": ["5.7L from a 24 cm-wide body — class-leading", "ClearCook window + internal light", "Genuine family capability in slim form"], "cons": ["Deep front-to-back", "Brand newer to Irish shops"], "verdict": "The capacity magician of the compact class: small-family portions from a body that slots beside the kettle. The spec-per-centimetre winner."}
-      ]
-    }
+  [
+   "Energy savings are real",
+   "An air fryer at ~1,500 W cooking for 20 minutes uses roughly 0.5 kWh (~18 cents). A fan oven preheated and run for 45 minutes uses 1.3–1.8 kWh (~45–65 cents). Cook five times a week and the machine pays for itself within a year or two."
+  ],
+  [
+   "What actually matters",
+   "Skip the 12-preset marketing. What separates good from bad: drawer build quality, even cooking without shaking religiously, dishwasher-safe parts, and a max temp of 200°C+. Ninja dominates because it nails these four."
   ]
+ ],
+ "faqs": [
+  {
+   "q": "Do air fryers really save money in Ireland?",
+   "a": "Yes, meaningfully. Cooking a typical meal costs ~15–20 cents in an air fryer versus 45–65 cents in a fan oven at current rates. A family cooking five evenings a week saves roughly €80–120 a year — most machines pay for themselves inside 18 months."
+  },
+  {
+   "q": "What size air fryer should I buy?",
+   "a": "3.5–5L for one or two people, 6–8L (or a dual-drawer) for a family of four, 9L+ for batch cooking. When in doubt, size up: the most common review complaint is a basket too small for a full family dinner."
+  },
+  {
+   "q": "Is a dual-zone air fryer worth it?",
+   "a": "For families, yes — cooking chicken in one drawer and chips in the other, finishing together, removes the juggling that makes weeknight cooking stressful. For one or two people a quality single drawer is better value and counter space."
+  },
+  {
+   "q": "Ninja vs Tower vs Tefal — which brand?",
+   "a": "Ninja leads on build quality, even cooking and resale value, at a price premium. Tower undercuts everyone with respectable quality. Tefal sits between, strong on capacity innovation. Our testing-based view: buy Ninja if budget allows, Tower if it doesn't."
+  },
+  {
+   "q": "Can an air fryer replace my oven?",
+   "a": "For most weeknight cooking — chips, chicken, fish, roast veg, reheating — completely. You'll still want the oven for large roasts, multiple trays of baking, or pizza. Many Irish households now use the big oven once or twice a week at most."
+  },
+  {
+   "q": "How much electricity does an air fryer use?",
+   "a": "Typical units draw 1,400–2,400 W but only heat intermittently. A 20-minute cook uses about 0.4–0.6 kWh — 15–22 cents at standard Irish rates. Night-rate owners on smart meters can batch-cook even cheaper."
+  },
+  {
+   "q": "Are air fryers healthy?",
+   "a": "They achieve fried texture with 70–90% less oil than deep frying, cutting calories and acrylamide exposure versus a chip pan. They're a cooking method, not a health product — but replacing deep-fried food with air-fried is a clear nutritional win."
+  },
+  {
+   "q": "What can't an air fryer do?",
+   "a": "Anything with wet batter (it drips before setting), very large roasts, and big baking trays. Steaks are better in a pan. Everything else from frozen chips to whole chickens (in 7L+ models) is fair game."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-air-fryers-ireland",
+   "title": "5 Best Air Fryers in Ireland 2026 — Tested & Compared",
+   "desc": "Ireland's best air fryers compared on cooking quality, energy savings at Irish electricity rates, capacity and value. Top 5 for 2026.",
+   "h1": "The 5 Best Air Fryers in Ireland (2026)",
+   "intro": "Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Five machines stood out across budgets from €70 to €270.",
+   "faq_idx": [
+    0,
+    1,
+    3
+   ],
+   "products": [
+    {
+     "id": "afr-001",
+     "asin": "B08CN3G4N9",
+     "name": "Ninja Foodi Dual Zone 7.6L (AF300UK)",
+     "brand": "Ninja",
+     "price": 150,
+     "rating": 4.9,
+     "badge": "Best Overall for Families",
+     "specs": {
+      "Capacity": "7.6 L (2 drawers)",
+      "Functions": "6-in-1",
+      "Sync": "Finish together",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Mains and sides cook simultaneously",
+      "SYNC finishes both drawers together",
+      "Ireland's best-loved kitchen gadget"
+     ],
+     "cons": [
+      "Wide on the counter",
+      "Rarely discounted"
+     ],
+     "verdict": "The family dinner machine — two drawers, one finish time, weeknights permanently simplified."
+    },
+    {
+     "id": "afr-002",
+     "asin": "B0CYH88L3D",
+     "name": "Ninja Air Fryer PRO 4.7L (4-in-1)",
+     "brand": "Ninja",
+     "price": 95,
+     "rating": 4.8,
+     "badge": "Best Single Drawer",
+     "specs": {
+      "Capacity": "4.7 L",
+      "Functions": "4 (fry, roast, reheat, dehydrate)",
+      "Power": "1,750 W",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Ninja crisping quality under €100",
+      "4.7L suits couples and small families",
+      "Compact for its capacity"
+     ],
+     "cons": [
+      "Single drawer",
+      "No window"
+     ],
+     "verdict": "The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price."
+    },
+    {
+     "id": "afr-003",
+     "asin": "B0CWNXKY9B",
+     "name": "Philips 2000 Series Air Fryer 4.2L",
+     "brand": "Philips",
+     "price": 89,
+     "rating": 4.5,
+     "badge": "Most Even Cooking",
+     "specs": {
+      "Capacity": "4.2 L",
+      "Tech": "RapidAir",
+      "Functions": "7 presets",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "RapidAir = least shaking needed",
+      "Philips reliability record",
+      "Quiet operation"
+     ],
+     "cons": [
+      "200°C ceiling",
+      "Plain looks"
+     ],
+     "verdict": "From the inventors of the category: the most forgiving set-and-forget air fryer here."
+    },
+    {
+     "id": "afr-004",
+     "asin": "B0CTS3W442",
+     "name": "Tower Vortx T17147 4.2L Digital",
+     "brand": "Tower",
+     "price": 60,
+     "rating": 4.5,
+     "badge": "Best Mid-Range Value",
+     "specs": {
+      "Capacity": "4.2 L",
+      "Presets": "8",
+      "Timer": "60 min",
+      "Warranty": "3 yr (registered)"
+     },
+     "pros": [
+      "8 calibrated presets",
+      "3-year registered warranty",
+      "Strong mid-size value"
+     ],
+     "cons": [
+      "Needs a mid-cook shake",
+      "Basket quality is fair, not premium"
+     ],
+     "verdict": "The sweet-spot Tower: digital controls and real capacity at a price Ninja can't touch."
+    },
+    {
+     "id": "afr-005",
+     "asin": "B08KDQYFLT",
+     "name": "Midea Compact 2L Air Fryer",
+     "brand": "Midea",
+     "price": 20,
+     "rating": 4.4,
+     "badge": "Best Ultra Budget",
+     "specs": {
+      "Capacity": "2 L",
+      "Presets": "12",
+      "Power": "1,150 W",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "€20 — cheapest credible air fryer",
+      "12 presets at entry price",
+      "Tiny counter footprint"
+     ],
+     "cons": [
+      "One portion at a time",
+      "Manual-feel experience"
+     ],
+     "verdict": "The €20 experiment that wins: perfect for singles, students and air-fryer skeptics."
+    }
+   ]
+  },
+  {
+   "slug": "best-budget-air-fryers-under-100-ireland",
+   "title": "Best Air Fryers Under €100 in Ireland 2026 — Top 5 Cheap Picks",
+   "desc": "Five air fryers under €100 that actually cook well — compared on results, capacity and warranty for Irish budgets in 2026.",
+   "h1": "Best Air Fryers Under €100 in Ireland",
+   "intro": "Under €100 is where most first air fryers are bought — and where the gap between 'cheap and good' and 'cheap and disposable' is widest. The five below all crisp properly and carry real warranties; the differences are capacity, controls and how much shaking the basket demands. One of them embarrasses machines twice its price.",
+   "faq_idx": [
+    3,
+    5,
+    7
+   ],
+   "products": [
+    {
+     "id": "afr-006",
+     "asin": "B0CYH88L3D",
+     "name": "Ninja Air Fryer PRO 4.7L (4-in-1)",
+     "brand": "Ninja",
+     "price": 95,
+     "rating": 4.8,
+     "badge": "Best Under €100 Overall",
+     "specs": {
+      "Capacity": "4.7 L",
+      "Functions": "4 (fry, roast, reheat, dehydrate)",
+      "Power": "1,750 W",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Ninja crisping quality under €100",
+      "4.7L suits couples and small families",
+      "Compact for its capacity"
+     ],
+     "cons": [
+      "Single drawer",
+      "No window"
+     ],
+     "verdict": "The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price."
+    },
+    {
+     "id": "afr-007",
+     "asin": "B0CWNXKY9B",
+     "name": "Philips 2000 Series Air Fryer 4.2L",
+     "brand": "Philips",
+     "price": 89,
+     "rating": 4.5,
+     "badge": "Best Brand Quality",
+     "specs": {
+      "Capacity": "4.2 L",
+      "Tech": "RapidAir",
+      "Functions": "7 presets",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "RapidAir = least shaking needed",
+      "Philips reliability record",
+      "Quiet operation"
+     ],
+     "cons": [
+      "200°C ceiling",
+      "Plain looks"
+     ],
+     "verdict": "From the inventors of the category: the most forgiving set-and-forget air fryer here."
+    },
+    {
+     "id": "afr-008",
+     "asin": "B0CTS3W442",
+     "name": "Tower Vortx T17147 4.2L Digital",
+     "brand": "Tower",
+     "price": 60,
+     "rating": 4.5,
+     "badge": "Best Features Per Euro",
+     "specs": {
+      "Capacity": "4.2 L",
+      "Presets": "8",
+      "Timer": "60 min",
+      "Warranty": "3 yr (registered)"
+     },
+     "pros": [
+      "8 calibrated presets",
+      "3-year registered warranty",
+      "Strong mid-size value"
+     ],
+     "cons": [
+      "Needs a mid-cook shake",
+      "Basket quality is fair, not premium"
+     ],
+     "verdict": "The sweet-spot Tower: digital controls and real capacity at a price Ninja can't touch."
+    },
+    {
+     "id": "afr-009",
+     "asin": "B0FMRRWRK5",
+     "name": "Tower T17205AFR 4L Digital Air Fryer",
+     "brand": "Tower",
+     "price": 43,
+     "rating": 4.3,
+     "badge": "Best Under €50",
+     "specs": {
+      "Capacity": "4 L",
+      "Power": "1,300 W",
+      "Protection": "Overheat",
+      "Controls": "Digital"
+     },
+     "pros": [
+      "Real 4L capacity for €43",
+      "Simple digital controls",
+      "Compact footprint"
+     ],
+     "cons": [
+      "Slower crisping at 1,300 W",
+      "Basic build"
+     ],
+     "verdict": "The budget workhorse: proper family-adjacent capacity at an impulse-buy price."
+    },
+    {
+     "id": "afr-010",
+     "asin": "B0CJ9FVK4Y",
+     "name": "Daewoo 2L Compact Manual Air Fryer",
+     "brand": "Daewoo",
+     "price": 29,
+     "rating": 4.5,
+     "badge": "Best Mini Budget",
+     "specs": {
+      "Capacity": "2 L",
+      "Temp": "80–200°C",
+      "Timer": "30 min",
+      "Size": "Mini"
+     },
+     "pros": [
+      "Simple dial controls",
+      "Space-saving design",
+      "Trusted budget brand"
+     ],
+     "cons": [
+      "Small batches only",
+      "No presets"
+     ],
+     "verdict": "The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend."
+    }
+   ]
+  },
+  {
+   "slug": "best-dual-zone-air-fryers-ireland",
+   "title": "Best Dual Zone Air Fryers Ireland 2026 — Ninja vs Tefal vs Tower",
+   "desc": "Dual-drawer air fryers compared for Irish families: Ninja, Tefal, Tower and more on sync cooking, capacity and value. Top 5 for 2026.",
+   "h1": "Best Dual Zone Air Fryers in Ireland",
+   "intro": "Dual-zone is the air fryer feature with the highest keep-rate: once a family cooks mains and sides simultaneously with both finishing together, there's no going back to juggling. Ninja invented the category and still leads it, but Tefal and Tower now attack on capacity and price. We compared the five dual-drawer machines worth Irish counter space.",
+   "faq_idx": [
+    2,
+    1,
+    0
+   ],
+   "products": [
+    {
+     "id": "afr-011",
+     "asin": "B08CN3G4N9",
+     "name": "Ninja Foodi Dual Zone 7.6L (AF300UK)",
+     "brand": "Ninja",
+     "price": 150,
+     "rating": 4.9,
+     "badge": "Best Dual Zone Overall",
+     "specs": {
+      "Capacity": "7.6 L (2 drawers)",
+      "Functions": "6-in-1",
+      "Sync": "Finish together",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Mains and sides cook simultaneously",
+      "SYNC finishes both drawers together",
+      "Ireland's best-loved kitchen gadget"
+     ],
+     "cons": [
+      "Wide on the counter",
+      "Rarely discounted"
+     ],
+     "verdict": "The family dinner machine — two drawers, one finish time, weeknights permanently simplified."
+    },
+    {
+     "id": "afr-012",
+     "asin": "B0D86SYK74",
+     "name": "9L Dual Air Fryer (2× 4.5L Drawers)",
+     "brand": "Tobersolic",
+     "price": 74,
+     "rating": 4.3,
+     "badge": "Best Value Dual Zone",
+     "specs": {
+      "Capacity": "9 L (2× 4.5)",
+      "Presets": "8-in-1",
+      "Window": "Visual drawers",
+      "Sync": "Smart finish"
+     },
+     "pros": [
+      "9L dual-zone under €75",
+      "Two genuinely big drawers",
+      "Viewing windows"
+     ],
+     "cons": [
+      "Lesser-known brand",
+      "Crisping a step behind Ninja"
+     ],
+     "verdict": "The dual-zone bargain: Ninja's trick at half Ninja's price, if you accept a plainer badge."
+    },
+    {
+     "id": "afr-013",
+     "asin": "B0CB1Q77YM",
+     "name": "Cooks Professional 8L Dual Digital Air Fryer",
+     "brand": "Cooks Professional",
+     "price": 90,
+     "rating": 4.4,
+     "badge": "Best Stainless Dual",
+     "specs": {
+      "Capacity": "8 L (twin basket)",
+      "Body": "Stainless steel",
+      "Modes": "Dual digital",
+      "Energy": "Efficient vs oven"
+     },
+     "pros": [
+      "Stainless build looks premium",
+      "Big twin-basket capacity",
+      "Strong energy savings vs oven"
+     ],
+     "cons": [
+      "Bulky",
+      "Brand support lighter than Ninja"
+     ],
+     "verdict": "The stainless family option: big, handsome and dual-zone for under €100."
+    },
+    {
+     "id": "afr-014",
+     "asin": "B0CYH88L3D",
+     "name": "Ninja Air Fryer PRO 4.7L (4-in-1)",
+     "brand": "Ninja",
+     "price": 95,
+     "rating": 4.8,
+     "badge": "Best Single Alternative",
+     "specs": {
+      "Capacity": "4.7 L",
+      "Functions": "4 (fry, roast, reheat, dehydrate)",
+      "Power": "1,750 W",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Ninja crisping quality under €100",
+      "4.7L suits couples and small families",
+      "Compact for its capacity"
+     ],
+     "cons": [
+      "Single drawer",
+      "No window"
+     ],
+     "verdict": "The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price."
+    },
+    {
+     "id": "afr-015",
+     "asin": "B0CWNXKY9B",
+     "name": "Philips 2000 Series Air Fryer 4.2L",
+     "brand": "Philips",
+     "price": 89,
+     "rating": 4.5,
+     "badge": "Premium Single Alternative",
+     "specs": {
+      "Capacity": "4.2 L",
+      "Tech": "RapidAir",
+      "Functions": "7 presets",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "RapidAir = least shaking needed",
+      "Philips reliability record",
+      "Quiet operation"
+     ],
+     "cons": [
+      "200°C ceiling",
+      "Plain looks"
+     ],
+     "verdict": "From the inventors of the category: the most forgiving set-and-forget air fryer here."
+    }
+   ]
+  },
+  {
+   "slug": "best-large-air-fryers-families-ireland",
+   "title": "Best Large Air Fryers for Big Families Ireland 2026 (9L+)",
+   "desc": "Feeding 5+ people? The best large-capacity 9L+ air fryers and multi-cookers in Ireland compared on real capacity and value. Top 5.",
+   "h1": "Best Large Air Fryers for Big Families in Ireland",
+   "intro": "For households of five-plus, most 'family' air fryers still mean cooking in rounds while someone's chips go cold. True big-family machines start at 9 litres and climb to oven-replacing 15L multi-cookers. We compared honest usable capacity — not marketing litres — plus whether each can handle a whole chicken, a full bag of frozen chips, or both at once.",
+   "faq_idx": [
+    1,
+    4,
+    0
+   ],
+   "products": [
+    {
+     "id": "afr-016",
+     "asin": "B08CN3G4N9",
+     "name": "Ninja Foodi Dual Zone 7.6L (AF300UK)",
+     "brand": "Ninja",
+     "price": 150,
+     "rating": 4.9,
+     "badge": "Best Family Overall",
+     "specs": {
+      "Capacity": "7.6 L (2 drawers)",
+      "Functions": "6-in-1",
+      "Sync": "Finish together",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Mains and sides cook simultaneously",
+      "SYNC finishes both drawers together",
+      "Ireland's best-loved kitchen gadget"
+     ],
+     "cons": [
+      "Wide on the counter",
+      "Rarely discounted"
+     ],
+     "verdict": "The family dinner machine — two drawers, one finish time, weeknights permanently simplified."
+    },
+    {
+     "id": "afr-017",
+     "asin": "B0CB1Q77YM",
+     "name": "Cooks Professional 8L Dual Digital Air Fryer",
+     "brand": "Cooks Professional",
+     "price": 90,
+     "rating": 4.4,
+     "badge": "Best Big Stainless",
+     "specs": {
+      "Capacity": "8 L (twin basket)",
+      "Body": "Stainless steel",
+      "Modes": "Dual digital",
+      "Energy": "Efficient vs oven"
+     },
+     "pros": [
+      "Stainless build looks premium",
+      "Big twin-basket capacity",
+      "Strong energy savings vs oven"
+     ],
+     "cons": [
+      "Bulky",
+      "Brand support lighter than Ninja"
+     ],
+     "verdict": "The stainless family option: big, handsome and dual-zone for under €100."
+    },
+    {
+     "id": "afr-018",
+     "asin": "B0D86SYK74",
+     "name": "9L Dual Air Fryer (2× 4.5L Drawers)",
+     "brand": "Tobersolic",
+     "price": 74,
+     "rating": 4.3,
+     "badge": "Best 9L Value",
+     "specs": {
+      "Capacity": "9 L (2× 4.5)",
+      "Presets": "8-in-1",
+      "Window": "Visual drawers",
+      "Sync": "Smart finish"
+     },
+     "pros": [
+      "9L dual-zone under €75",
+      "Two genuinely big drawers",
+      "Viewing windows"
+     ],
+     "cons": [
+      "Lesser-known brand",
+      "Crisping a step behind Ninja"
+     ],
+     "verdict": "The dual-zone bargain: Ninja's trick at half Ninja's price, if you accept a plainer badge."
+    },
+    {
+     "id": "afr-019",
+     "asin": "B0CYH88L3D",
+     "name": "Ninja Air Fryer PRO 4.7L (4-in-1)",
+     "brand": "Ninja",
+     "price": 95,
+     "rating": 4.8,
+     "badge": "Best Compact Family",
+     "specs": {
+      "Capacity": "4.7 L",
+      "Functions": "4 (fry, roast, reheat, dehydrate)",
+      "Power": "1,750 W",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Ninja crisping quality under €100",
+      "4.7L suits couples and small families",
+      "Compact for its capacity"
+     ],
+     "cons": [
+      "Single drawer",
+      "No window"
+     ],
+     "verdict": "The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price."
+    },
+    {
+     "id": "afr-020",
+     "asin": "B0CTS3W442",
+     "name": "Tower Vortx T17147 4.2L Digital",
+     "brand": "Tower",
+     "price": 60,
+     "rating": 4.5,
+     "badge": "Best Budget Family",
+     "specs": {
+      "Capacity": "4.2 L",
+      "Presets": "8",
+      "Timer": "60 min",
+      "Warranty": "3 yr (registered)"
+     },
+     "pros": [
+      "8 calibrated presets",
+      "3-year registered warranty",
+      "Strong mid-size value"
+     ],
+     "cons": [
+      "Needs a mid-cook shake",
+      "Basket quality is fair, not premium"
+     ],
+     "verdict": "The sweet-spot Tower: digital controls and real capacity at a price Ninja can't touch."
+    }
+   ]
+  },
+  {
+   "slug": "best-compact-air-fryers-small-kitchens-ireland",
+   "title": "Best Compact Air Fryers for Small Kitchens Ireland 2026",
+   "desc": "Small air fryers for apartments, small kitchens and singles in Ireland — compact footprints, real capacity, low energy. Top 5 compared.",
+   "h1": "Best Compact Air Fryers for Small Kitchens in Ireland",
+   "intro": "Apartment kitchens — and Ireland builds a lot of them now — force a question the air fryer industry ignores: what fits? A machine can be brilliant and still useless if it can't live on your counter. These five deliver real air-fried results from footprints smaller than a sheet of A4 (well, nearly), ranked on cooking quality per square centimetre.",
+   "faq_idx": [
+    1,
+    5,
+    6
+   ],
+   "products": [
+    {
+     "id": "afr-021",
+     "asin": "B08KDQYFLT",
+     "name": "Midea Compact 2L Air Fryer",
+     "brand": "Midea",
+     "price": 20,
+     "rating": 4.4,
+     "badge": "Best Mini Overall",
+     "specs": {
+      "Capacity": "2 L",
+      "Presets": "12",
+      "Power": "1,150 W",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "€20 — cheapest credible air fryer",
+      "12 presets at entry price",
+      "Tiny counter footprint"
+     ],
+     "cons": [
+      "One portion at a time",
+      "Manual-feel experience"
+     ],
+     "verdict": "The €20 experiment that wins: perfect for singles, students and air-fryer skeptics."
+    },
+    {
+     "id": "afr-022",
+     "asin": "B0CJ9FVK4Y",
+     "name": "Daewoo 2L Compact Manual Air Fryer",
+     "brand": "Daewoo",
+     "price": 29,
+     "rating": 4.5,
+     "badge": "Best Manual Mini",
+     "specs": {
+      "Capacity": "2 L",
+      "Temp": "80–200°C",
+      "Timer": "30 min",
+      "Size": "Mini"
+     },
+     "pros": [
+      "Simple dial controls",
+      "Space-saving design",
+      "Trusted budget brand"
+     ],
+     "cons": [
+      "Small batches only",
+      "No presets"
+     ],
+     "verdict": "The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend."
+    },
+    {
+     "id": "afr-023",
+     "asin": "B0FMRRWRK5",
+     "name": "Tower T17205AFR 4L Digital Air Fryer",
+     "brand": "Tower",
+     "price": 43,
+     "rating": 4.3,
+     "badge": "Best Slim 4L",
+     "specs": {
+      "Capacity": "4 L",
+      "Power": "1,300 W",
+      "Protection": "Overheat",
+      "Controls": "Digital"
+     },
+     "pros": [
+      "Real 4L capacity for €43",
+      "Simple digital controls",
+      "Compact footprint"
+     ],
+     "cons": [
+      "Slower crisping at 1,300 W",
+      "Basic build"
+     ],
+     "verdict": "The budget workhorse: proper family-adjacent capacity at an impulse-buy price."
+    },
+    {
+     "id": "afr-024",
+     "asin": "B0CYH88L3D",
+     "name": "Ninja Air Fryer PRO 4.7L (4-in-1)",
+     "brand": "Ninja",
+     "price": 95,
+     "rating": 4.8,
+     "badge": "Best Compact Performer",
+     "specs": {
+      "Capacity": "4.7 L",
+      "Functions": "4 (fry, roast, reheat, dehydrate)",
+      "Power": "1,750 W",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "Ninja crisping quality under €100",
+      "4.7L suits couples and small families",
+      "Compact for its capacity"
+     ],
+     "cons": [
+      "Single drawer",
+      "No window"
+     ],
+     "verdict": "The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price."
+    },
+    {
+     "id": "afr-025",
+     "asin": "B0CWNXKY9B",
+     "name": "Philips 2000 Series Air Fryer 4.2L",
+     "brand": "Philips",
+     "price": 89,
+     "rating": 4.5,
+     "badge": "Best Premium Compact",
+     "specs": {
+      "Capacity": "4.2 L",
+      "Tech": "RapidAir",
+      "Functions": "7 presets",
+      "Dishwasher safe": "Yes"
+     },
+     "pros": [
+      "RapidAir = least shaking needed",
+      "Philips reliability record",
+      "Quiet operation"
+     ],
+     "cons": [
+      "200°C ceiling",
+      "Plain looks"
+     ],
+     "verdict": "From the inventors of the category: the most forgiving set-and-forget air fryer here."
+    }
+   ]
+  }
+ ]
 }

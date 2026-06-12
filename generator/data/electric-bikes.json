@@ -1,99 +1,755 @@
 {
-  "category": "electric-bikes",
-  "name": "Electric Bikes",
-  "emoji": "🚲",
-  "hub_intro": "Ireland is quietly becoming an e-bike country: the Cycle to Work scheme covers e-bikes up to €1,500, fuel and parking costs keep climbing, and EU-legal pedelecs (250 W, assist to 25 km/h) need no licence, tax or insurance. We compare the e-bikes that suit Irish commutes, hills and weather — from €700 folders to €2,500 trekking machines.",
-  "guide": [
-    ["The €1,500 Cycle to Work advantage", "If you're a PAYE employee, the Cycle to Work scheme lets you buy an e-bike up to €1,500 through salary sacrifice — saving up to 52% depending on your tax band. Many bikes here fall under that ceiling deliberately."],
-    ["Hub motor vs mid-drive", "Hub motors (in the wheel) are cheaper and fine for flat commutes. Mid-drives (at the pedals) use the bike's gears, climb far better and balance the bike — worth the premium in hilly Cork, Limerick or anywhere outside the city centre."],
-    ["Battery: Wh is the number that matters", "Ignore '50 km range' claims; look at watt-hours. 400 Wh is the practical minimum for daily commuting; 500+ Wh for 20 km+ round trips or hills. Real consumption is roughly 8–12 Wh per km in Irish conditions."],
-    ["Don't skip mudguards and lights", "An e-bike without mudguards is a back-spray machine for eight months of the year here. Integrated lights running off the main battery mean you're never caught out by early winter darkness."]
+ "category": "electric-bikes",
+ "name": "Electric Bikes",
+ "emoji": "🚲",
+ "hub_intro": "Ireland is quietly becoming an e-bike country: the Cycle to Work scheme covers e-bikes up to €1,500, fuel and parking costs keep climbing, and EU-legal pedelecs (250 W, assist to 25 km/h) need no licence, tax or insurance. We compare the e-bikes that suit Irish commutes, hills and weather — from €700 folders to €2,500 trekking machines.",
+ "guide": [
+  [
+   "The €1,500 Cycle to Work advantage",
+   "If you're a PAYE employee, the Cycle to Work scheme lets you buy an e-bike up to €1,500 through salary sacrifice — saving up to 52% depending on your tax band. Many bikes here fall under that ceiling deliberately."
   ],
-  "faqs": [
-    {"q": "Do I need a licence or insurance for an e-bike in Ireland?", "a": "No — as long as it's a standard pedelec: 250 W motor, assistance cutting out at 25 km/h, and you have to pedal. More powerful e-bikes or throttle-driven ones are classed differently and need registration, insurance and a licence."},
-    {"q": "Can I get an e-bike on the Cycle to Work scheme?", "a": "Yes. The scheme covers pedelecs up to €1,500 (more than the €1,250 limit for regular bikes), via salary sacrifice through your employer. Higher-rate taxpayers effectively save around half the price. You can use it once every 4 years."},
-    {"q": "How far does an e-bike really go on one charge?", "a": "Divide battery watt-hours by 10 for a realistic Irish figure: a 400 Wh battery gives roughly 40 km of assisted riding with hills, wind and a stop-start commute. Eco mode stretches it; turbo mode halves it."},
-    {"q": "Are e-bikes OK in Irish rain?", "a": "Yes — motors and batteries on reputable brands are sealed for rain riding. Avoid pressure-washing, dry contacts before charging, and store the battery indoors in winter: cold storage below 5°C permanently eats capacity."},
-    {"q": "How much does charging an e-bike cost in Ireland?", "a": "A 500 Wh battery costs about 18–20 cents to charge fully at typical rates. Even commuting daily, that's under €50 a year — versus €1,500+ for a year of fuel or €1,000+ of public transport."},
-    {"q": "What's the difference between a €900 and a €2,000 e-bike?", "a": "Mostly the motor (mid-drive vs hub), battery brand (Bosch/Shimano cells vs generic), and components that survive year-round use: hydraulic brakes, better gears, integrated lights. If you ride daily, the upgrade pays for itself in reliability."},
-    {"q": "Can I ride an e-bike on Irish cycle lanes and greenways?", "a": "Yes — legal pedelecs are treated exactly like bicycles, so cycle lanes, greenways and bike parking are all available to you. The 25 km/h assist limit keeps them welcome on shared paths."},
-    {"q": "Should I buy a folding e-bike?", "a": "If your commute includes a train or you've nowhere secure to park, yes — a folder defeats both Irish bike theft and rail restrictions, since folded bikes travel free anytime on Irish Rail. Otherwise a full-size bike rides better."}
+  [
+   "Hub motor vs mid-drive",
+   "Hub motors (in the wheel) are cheaper and fine for flat commutes. Mid-drives (at the pedals) use the bike's gears, climb far better and balance the bike — worth the premium in hilly Cork, Limerick or anywhere outside the city centre."
   ],
-  "pages": [
-    {
-      "slug": "best-electric-bikes-ireland",
-      "title": "5 Best Electric Bikes in Ireland 2026 — Tested & Compared",
-      "desc": "Ireland's best electric bikes for 2026, compared on motor, real range, hills and value — including Cycle to Work eligible picks under €1,500.",
-      "h1": "The 5 Best Electric Bikes in Ireland (2026)",
-      "intro": "The Irish e-bike market has matured fast: you can now get a genuinely good commuter for under €1,200 and a superb one under €2,000. We compared motors, honest range, braking, and weather-readiness across the most popular models sold here, flagging which qualify for the €1,500 Cycle to Work ceiling — because for most PAYE workers that scheme is an instant ~30–50% discount.",
-      "faq_idx": [1, 2, 0],
-      "products": [
-        {"id": "ebk-001", "name": "Decathlon Btwin LD 920 E", "brand": "Decathlon", "price": 1499, "rating": 4.6, "badge": "Best Overall", "specs": {"Motor": "Mid-drive 250 W, 70 Nm", "Battery": "540 Wh", "Real range": "60–80 km", "Weight": "26 kg", "Brakes": "Hydraulic disc", "Extras": "Lights, mudguards, rack"}, "pros": ["Mid-drive torque at a hub-motor price", "Hits the €1,500 Cycle to Work cap exactly", "Comes fully commute-ready"], "cons": ["26 kg — heavy to lift onto racks", "Utilitarian looks"], "verdict": "Nothing else under €1,500 combines a 70 Nm mid-drive, 540 Wh battery and full commuter kit. The default recommendation for any Irish commuter using Cycle to Work."},
-        {"id": "ebk-002", "name": "Engwe P20", "brand": "Engwe", "price": 999, "rating": 4.3, "badge": "Best Value", "specs": {"Motor": "Rear hub 250 W, 42 Nm", "Battery": "346 Wh", "Real range": "35–50 km", "Weight": "18.5 kg", "Brakes": "Hydraulic disc", "Extras": "Belt drive, torque sensor"}, "pros": ["Carbon belt — zero chain maintenance", "Torque sensor gives natural pedal feel", "Light for the price"], "cons": ["346 Wh limits longer commutes", "Single speed — flat routes only"], "verdict": "A maintenance-free city bike: belt drive plus torque sensor at €999 was unthinkable two years ago. Best for flat urban rides under 15 km."},
-        {"id": "ebk-003", "name": "Cube Touring Hybrid One 500", "brand": "Cube", "price": 2399, "rating": 4.8, "badge": "Best Premium", "specs": {"Motor": "Bosch Performance Line, 75 Nm", "Battery": "500 Wh Bosch", "Real range": "70–90 km", "Weight": "25 kg", "Brakes": "Shimano hydraulic", "Extras": "Lights, mudguards, rack, suspension fork"}, "pros": ["Bosch motor + battery: the gold standard", "Climbs anything in Ireland with ease", "Dealer network for servicing nationwide"], "cons": ["Over the Cycle to Work cap", "Premium price"], "verdict": "If the budget allows, this is the buy-once-cry-once choice: Bosch reliability, real 80 km range and a service network — an e-bike for the next decade."},
-        {"id": "ebk-004", "name": "Fiido D11", "brand": "Fiido", "price": 899, "rating": 4.1, "badge": "Best Budget Folder", "specs": {"Motor": "Rear hub 250 W, 40 Nm", "Battery": "418 Wh (seatpost)", "Real range": "40–55 km", "Weight": "17.5 kg", "Brakes": "Mechanical disc", "Extras": "Folds in 10 seconds"}, "pros": ["17.5 kg folding bike with 418 Wh", "Free on Irish Rail when folded", "7-speed gears, rare on cheap folders"], "cons": ["Mechanical brakes need regular adjustment", "Seatpost battery splits opinion"], "verdict": "The mixed-commute special: fold it, hop the train, ride the last leg. Most battery per euro of any folding e-bike sold in Ireland."},
-        {"id": "ebk-005", "name": "Trek FX+ 2", "brand": "Trek", "price": 2199, "rating": 4.5, "badge": "Best Lightweight", "specs": {"Motor": "Rear hub 250 W, 40 Nm", "Battery": "250 Wh (+range extender option)", "Real range": "35–50 km", "Weight": "18 kg", "Brakes": "Hydraulic disc", "Extras": "Integrated lights, app"}, "pros": ["Rides like a normal bike — 18 kg", "Silent motor, clean looks", "Trek dealer support across Ireland"], "cons": ["Small 250 Wh battery", "Pricey per watt-hour"], "verdict": "For riders who want fitness with a tailwind rather than a motorbike feel. The lightest, most natural-riding commuter here — just plan around the smaller battery."}
-      ]
-    },
-    {
-      "slug": "best-electric-bikes-under-1000-ireland",
-      "title": "Best Electric Bikes Under €1,000 in Ireland (2026) — 5 Real Options",
-      "desc": "Five electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
-      "h1": "Best Electric Bikes Under €1,000 in Ireland",
-      "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These five keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
-      "faq_idx": [5, 1, 4],
-      "products": [
-        {"id": "ebk-006", "name": "Engwe P20", "brand": "Engwe", "price": 999, "rating": 4.3, "badge": "Best Under €1,000", "specs": {"Motor": "Rear hub 250 W, 42 Nm", "Battery": "346 Wh", "Real range": "35–50 km", "Weight": "18.5 kg", "Brakes": "Hydraulic disc", "Extras": "Belt drive, torque sensor"}, "pros": ["Belt drive: no oil, no rust, no maintenance", "Torque sensor — premium pedal feel", "Hydraulic brakes at €999"], "cons": ["Single-speed struggles on real hills", "Modest battery"], "verdict": "The most refined ride under €1,000, full stop. City dwellers with flat commutes get a premium experience at half the usual cost of one."},
-        {"id": "ebk-007", "name": "Eleglide M1 Plus", "brand": "Eleglide", "price": 749, "rating": 4.2, "badge": "Best Value Hardtail", "specs": {"Motor": "Rear hub 250 W, 50 Nm", "Battery": "450 Wh", "Real range": "45–60 km", "Weight": "21.3 kg", "Brakes": "Mechanical disc", "Extras": "Suspension fork, 21-speed"}, "pros": ["450 Wh battery for €749 — unmatched", "21 gears + suspension handle hills and trails", "Removable battery charges indoors"], "cons": ["Cadence sensor assist feels on/off", "Needs setup care out of the box"], "verdict": "Kilometres per euro champion. The assist is less polished than pricier rivals, but a 450 Wh battery and full gearing at €749 forgives a lot."},
-        {"id": "ebk-008", "name": "Fiido D11", "brand": "Fiido", "price": 899, "rating": 4.1, "badge": "Best Folding Under €1,000", "specs": {"Motor": "Rear hub 250 W, 40 Nm", "Battery": "418 Wh", "Real range": "40–55 km", "Weight": "17.5 kg", "Brakes": "Mechanical disc", "Extras": "10-second fold"}, "pros": ["Genuine 40 km+ range in a folder", "Light enough for apartment storage", "Train-friendly"], "cons": ["Small wheels feel Irish potholes", "Brakes need periodic tightening"], "verdict": "If storage or train legs are part of your life, this is the sub-€1,000 answer. Range and weight figures embarrass folders at twice the price."},
-        {"id": "ebk-009", "name": "Decathlon Btwin E-Fold 500", "brand": "Decathlon", "price": 949, "rating": 4.0, "badge": "Best Warranty & Support", "specs": {"Motor": "Rear hub 250 W", "Battery": "317 Wh", "Real range": "30–40 km", "Weight": "18.9 kg", "Brakes": "Mechanical disc", "Extras": "Lifetime frame warranty"}, "pros": ["Decathlon stores for instant service", "Lifetime warranty on frame", "Honest, conservative range claims"], "cons": ["Smallest battery in this list", "Plain components"], "verdict": "Buy this for the safety net: walk-in service and a lifetime frame warranty remove every risk that makes people fear cheap e-bikes."},
-        {"id": "ebk-010", "name": "ADO Air 20", "brand": "ADO", "price": 999, "rating": 4.2, "badge": "Most Polished Folder", "specs": {"Motor": "Rear hub 250 W, 37 Nm", "Battery": "345 Wh", "Real range": "35–45 km", "Weight": "16 kg", "Brakes": "Hydraulic disc", "Extras": "Belt drive, torque sensor, IPX5"}, "pros": ["16 kg, belt drive AND hydraulic brakes", "IPX5 rating for Irish weather", "Smooth torque-sensor assist"], "cons": ["20\" wheels on rough roads", "Battery not huge"], "verdict": "The folding twin of the Engwe P20's philosophy: belt drive, torque sensor, hydraulics — specs from the €2,000 class squeezed under €1,000."}
-      ]
-    },
-    {
-      "slug": "best-folding-electric-bikes-ireland",
-      "title": "Best Folding Electric Bikes Ireland 2026 — Top 5 for Train & Apartment Life",
-      "desc": "The 5 best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.",
-      "h1": "Best Folding Electric Bikes in Ireland",
-      "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these five on fold speed, carry weight, and how much riding quality survives the hinge.",
-      "faq_idx": [7, 3, 2],
-      "products": [
-        {"id": "ebk-011", "name": "ADO Air 20", "brand": "ADO", "price": 999, "rating": 4.4, "badge": "Best Folding Overall", "specs": {"Motor": "Rear hub 250 W, 37 Nm", "Battery": "345 Wh", "Real range": "35–45 km", "Weight": "16 kg", "Fold time": "~10 s", "Brakes": "Hydraulic disc"}, "pros": ["Belt + torque sensor + hydraulics in a folder", "16 kg is carryable for most adults", "IPX5 weather sealing"], "cons": ["345 Wh suits sub-15 km commutes best", "Folded size still bulky for car boots"], "verdict": "The best-riding folder under €1,500: it loses almost nothing to full-size bikes on smooth tarmac and gains a maintenance-free drivetrain."},
-        {"id": "ebk-012", "name": "Brompton Electric C Line", "brand": "Brompton", "price": 3150, "rating": 4.7, "badge": "Best Compact Fold", "specs": {"Motor": "Front hub 250 W", "Battery": "300 Wh (removable bag)", "Real range": "30–45 km", "Weight": "16.6 kg (split into 2 parts)", "Fold time": "~15 s", "Brakes": "Rim"}, "pros": ["Folds to airline-cabin size — nothing comes close", "Battery detaches as a carry bag", "Holds resale value remarkably"], "cons": ["Eye-watering price", "Rim brakes in 2026"], "verdict": "The only e-bike that disappears under a desk or luggage rack. If your commute is truly multimodal — bus, train, office — the fold justifies the fortune."},
-        {"id": "ebk-013", "name": "Fiido X", "brand": "Fiido", "price": 1199, "rating": 4.3, "badge": "Best Range in a Folder", "specs": {"Motor": "Rear hub 250 W", "Battery": "417 Wh", "Real range": "50–65 km", "Weight": "19.9 kg", "Fold time": "~12 s", "Brakes": "Hydraulic disc"}, "pros": ["Real 50 km+ range, exceptional for a folder", "Sleek magnesium frame, hidden battery", "Torque sensor smoothness"], "cons": ["Nearly 20 kg — a two-hand lift", "Keypad lock is gimmicky"], "verdict": "For longer commutes that still need a fold at each end. Twice the practical range of a Brompton at a third of the price — if you can lift it."},
-        {"id": "ebk-014", "name": "Decathlon Btwin E-Fold 900", "brand": "Decathlon", "price": 1499, "rating": 4.2, "badge": "Best Support Network", "specs": {"Motor": "Rear hub 250 W, 42 Nm", "Battery": "418 Wh", "Real range": "45–55 km", "Weight": "18.6 kg", "Fold time": "~10 s", "Brakes": "Hydraulic disc"}, "pros": ["Cycle to Work cap-friendly at €1,499", "Decathlon walk-in servicing", "8-speed gearing climbs properly"], "cons": ["Looks generic", "Heavier than ADO"], "verdict": "The pragmatist's folder: full gears, hydraulics, big battery and a shop in every city that fixes it while you wait."},
-        {"id": "ebk-015", "name": "Engwe C20 Pro", "brand": "Engwe", "price": 849, "rating": 4.0, "badge": "Budget Folding Pick", "specs": {"Motor": "Rear hub 250 W", "Battery": "499 Wh", "Real range": "50–60 km", "Weight": "24 kg", "Fold time": "~15 s", "Brakes": "Mechanical disc"}, "pros": ["Massive 499 Wh battery under €850", "Comfortable upright position", "Rack and mudguards included"], "cons": ["24 kg defeats the point of folding for many", "Cadence-sensor assist lurches"], "verdict": "A folding bike for storage rather than carrying: if the fold is for the hallway, not the train, its huge battery and price are unbeatable."}
-      ]
-    },
-    {
-      "slug": "best-electric-mountain-bikes-ireland",
-      "title": "Best Electric Mountain Bikes Ireland 2026 — Top 5 eMTBs Compared",
-      "desc": "Ireland's best electric mountain bikes for trail centres like Ticknock and Ballyhoura — motors, suspension and batteries compared for 2026.",
-      "h1": "Best Electric Mountain Bikes in Ireland",
-      "intro": "From Ticknock to Ballyhoura to the Wicklow gap roads, Ireland's trail scene rewards an eMTB's superpower: doing three climbs in the time one used to take. eMTB prices have finally relaxed, with credible hardtails under €2,000. We compared motor torque, battery size, suspension quality and the component compromises each brand chose.",
-      "faq_idx": [2, 3, 5],
-      "products": [
-        {"id": "ebk-016", "name": "Decathlon Rockrider E-EXPL 520", "brand": "Decathlon", "price": 1799, "rating": 4.5, "badge": "Best Value eMTB", "specs": {"Motor": "Mid-drive 250 W, 65 Nm", "Battery": "500 Wh", "Real range": "50–70 km trail", "Weight": "24.9 kg", "Suspension": "Front 100 mm", "Brakes": "Hydraulic disc"}, "pros": ["Mid-drive + 500 Wh under €1,800", "Decathlon servicing nationwide", "2-year motor/battery warranty"], "cons": ["Hardtail only — rough on technical descents", "Own-brand motor, not Bosch"], "verdict": "The eMTB that opened the sport to normal budgets. For Irish trail-centre riding (mostly groomed climbs and flow descents), the hardtail compromise barely matters."},
-        {"id": "ebk-017", "name": "Cube Reaction Hybrid Performance 625", "brand": "Cube", "price": 2599, "rating": 4.7, "badge": "Best Hardtail Overall", "specs": {"Motor": "Bosch Performance Line, 75 Nm", "Battery": "625 Wh", "Real range": "60–90 km trail", "Weight": "24.5 kg", "Suspension": "Front 100 mm", "Brakes": "Shimano hydraulic"}, "pros": ["Bosch 75 Nm + 625 Wh combo", "Climbs everything Ireland has", "Strong dealer network"], "cons": ["Above many budgets", "Hardtail limits on rocky descents"], "verdict": "The benchmark hardtail eMTB: Bosch's mid-range motor with a big battery means full Ballyhoura days without range anxiety."},
-        {"id": "ebk-018", "name": "Giant Talon E+ 3", "brand": "Giant", "price": 2249, "rating": 4.4, "badge": "Best Dealer Support", "specs": {"Motor": "Giant SyncDrive Core, 50 Nm", "Battery": "500 Wh", "Real range": "50–70 km trail", "Weight": "23.8 kg", "Suspension": "Front 100 mm", "Brakes": "Tektro hydraulic"}, "pros": ["Giant dealers in every Irish county", "Smooth, quiet motor tuning", "Slightly lighter than rivals"], "cons": ["50 Nm is the weakest motor here", "Conservative geometry"], "verdict": "The safe buy: not the strongest motor, but flawless support coverage and the most natural-feeling assist for newcomers to off-road riding."},
-        {"id": "ebk-019", "name": "Engwe Engine Pro 2.0", "brand": "Engwe", "price": 1099, "rating": 4.0, "badge": "Budget Fat-Tyre Option", "specs": {"Motor": "Rear hub 250 W (75 Nm peak)", "Battery": "768 Wh", "Real range": "60–80 km", "Weight": "30 kg", "Suspension": "Full (basic)", "Brakes": "Hydraulic disc"}, "pros": ["Huge 768 Wh battery", "Fat tyres float over mud and gravel", "Full suspension at a hardtail price"], "cons": ["30 kg — a beast to handle", "More trekking toy than true MTB"], "verdict": "Not a trail weapon — a go-anywhere adventure tank for towpaths, beaches and forest roads. Judged as that, it's tremendous fun per euro."},
-        {"id": "ebk-020", "name": "Specialized Turbo Tero 3.0", "brand": "Specialized", "price": 2799, "rating": 4.6, "badge": "Best Do-It-All", "specs": {"Motor": "Specialized 2.0E, 50 Nm", "Battery": "530 Wh", "Real range": "55–75 km", "Weight": "22.9 kg", "Suspension": "Front 100 mm", "Brakes": "SRAM hydraulic"}, "pros": ["MTB capability + rack/mudguard mounts", "Refined, silent motor", "Top-tier app with tuning and anti-theft"], "cons": ["Price creeps toward full-sus territory", "50 Nm needs lower gears on steep climbs"], "verdict": "One bike for everything: weekday commuter (add mudguards), weekend trail bike (remove them). The most versatile eMTB sold in Ireland."}
-      ]
-    },
-    {
-      "slug": "best-commuter-electric-bikes-ireland",
-      "title": "Best Commuter Electric Bikes Ireland 2026 — Top 5 for Daily Riding",
-      "desc": "The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison.",
-      "h1": "Best Commuter Electric Bikes in Ireland",
-      "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared five commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
-      "faq_idx": [4, 1, 6],
-      "products": [
-        {"id": "ebk-021", "name": "Decathlon Btwin LD 920 E", "brand": "Decathlon", "price": 1499, "rating": 4.6, "badge": "Best Commuter Overall", "specs": {"Motor": "Mid-drive 250 W, 70 Nm", "Battery": "540 Wh", "Real range": "60–80 km", "Weight": "26 kg", "Brakes": "Hydraulic disc", "Extras": "Full commuter kit"}, "pros": ["Everything included — ride away ready", "Mid-drive handles any Irish hill", "Cycle to Work eligible"], "cons": ["Heavy", "Looks won't excite anyone"], "verdict": "The complete commuter under the scheme cap. Tally the cost of adding lights, rack, and mudguards to rivals and the value gap only widens."},
-        {"id": "ebk-022", "name": "Cube Touring Hybrid One 500", "brand": "Cube", "price": 2399, "rating": 4.8, "badge": "Best Premium Commuter", "specs": {"Motor": "Bosch Performance Line, 75 Nm", "Battery": "500 Wh Bosch", "Real range": "70–90 km", "Weight": "25 kg", "Brakes": "Shimano hydraulic", "Extras": "Full kit + suspension fork"}, "pros": ["Bosch system: 4-year battery support", "Suspension fork softens broken tarmac", "All-weather build quality"], "cons": ["Over scheme cap", "Needs dealer servicing"], "verdict": "The ten-year commuter. Bosch's motor and battery ecosystem plus Cube's build make this the bike to retire your car payment for."},
-        {"id": "ebk-023", "name": "Gazelle Paris C7 HMB", "brand": "Gazelle", "price": 2699, "rating": 4.5, "badge": "Most Comfortable", "specs": {"Motor": "Bosch Active Line Plus, 50 Nm", "Battery": "500 Wh", "Real range": "70–90 km", "Weight": "26 kg", "Brakes": "Hydraulic rim + roller", "Extras": "Step-through, chain guard, dynamo lights"}, "pros": ["Bolt-upright Dutch comfort", "Step-through frame, skirt/coat friendly", "Near-zero maintenance drivetrain"], "cons": ["Sedate 50 Nm motor", "Price"], "verdict": "Commuting in normal clothes at a conversational pace — the Dutch formula executed perfectly. For comfort-first riders nothing here comes close."},
-        {"id": "ebk-024", "name": "Eleglide T1 Step-Thru", "brand": "Eleglide", "price": 899, "rating": 4.1, "badge": "Budget Commuter Pick", "specs": {"Motor": "Rear hub 250 W", "Battery": "450 Wh", "Real range": "45–60 km", "Weight": "22.9 kg", "Brakes": "Hydraulic disc", "Extras": "Rack, mudguards, app"}, "pros": ["Step-through + 450 Wh + hydraulics, €899", "Rack and guards included", "Removable battery"], "cons": ["Cadence sensor assist", "Assembly required, check every bolt"], "verdict": "The budget bike that copies the right homework: commuter essentials all present at a price where rivals delete them. Setup care required, then it just works."},
-        {"id": "ebk-025", "name": "Tenways CGO600 Pro", "brand": "Tenways", "price": 1499, "rating": 4.4, "badge": "Best Lightweight Commuter", "specs": {"Motor": "Rear hub 250 W, 40 Nm", "Battery": "360 Wh", "Real range": "50–70 km", "Weight": "16 kg", "Brakes": "Hydraulic disc", "Extras": "Belt drive, torque sensor"}, "pros": ["16 kg — carry it up steps easily", "Belt drive, suit-friendly cleanliness", "Whisper-quiet motor"], "cons": ["No rack/guards as standard", "Flat-terrain gearing"], "verdict": "The anti-tank: half the weight of traditional commuters with a sealed, greaseless drivetrain. City riders with stairs in their life, start here."}
-      ]
-    }
+  [
+   "Battery: Wh is the number that matters",
+   "Ignore '50 km range' claims; look at watt-hours. 400 Wh is the practical minimum for daily commuting; 500+ Wh for 20 km+ round trips or hills. Real consumption is roughly 8–12 Wh per km in Irish conditions."
+  ],
+  [
+   "Don't skip mudguards and lights",
+   "An e-bike without mudguards is a back-spray machine for eight months of the year here. Integrated lights running off the main battery mean you're never caught out by early winter darkness."
   ]
+ ],
+ "faqs": [
+  {
+   "q": "Do I need a licence or insurance for an e-bike in Ireland?",
+   "a": "No — as long as it's a standard pedelec: 250 W motor, assistance cutting out at 25 km/h, and you have to pedal. More powerful e-bikes or throttle-driven ones are classed differently and need registration, insurance and a licence."
+  },
+  {
+   "q": "Can I get an e-bike on the Cycle to Work scheme?",
+   "a": "Yes. The scheme covers pedelecs up to €1,500 (more than the €1,250 limit for regular bikes), via salary sacrifice through your employer. Higher-rate taxpayers effectively save around half the price. You can use it once every 4 years."
+  },
+  {
+   "q": "How far does an e-bike really go on one charge?",
+   "a": "Divide battery watt-hours by 10 for a realistic Irish figure: a 400 Wh battery gives roughly 40 km of assisted riding with hills, wind and a stop-start commute. Eco mode stretches it; turbo mode halves it."
+  },
+  {
+   "q": "Are e-bikes OK in Irish rain?",
+   "a": "Yes — motors and batteries on reputable brands are sealed for rain riding. Avoid pressure-washing, dry contacts before charging, and store the battery indoors in winter: cold storage below 5°C permanently eats capacity."
+  },
+  {
+   "q": "How much does charging an e-bike cost in Ireland?",
+   "a": "A 500 Wh battery costs about 18–20 cents to charge fully at typical rates. Even commuting daily, that's under €50 a year — versus €1,500+ for a year of fuel or €1,000+ of public transport."
+  },
+  {
+   "q": "What's the difference between a €900 and a €2,000 e-bike?",
+   "a": "Mostly the motor (mid-drive vs hub), battery brand (Bosch/Shimano cells vs generic), and components that survive year-round use: hydraulic brakes, better gears, integrated lights. If you ride daily, the upgrade pays for itself in reliability."
+  },
+  {
+   "q": "Can I ride an e-bike on Irish cycle lanes and greenways?",
+   "a": "Yes — legal pedelecs are treated exactly like bicycles, so cycle lanes, greenways and bike parking are all available to you. The 25 km/h assist limit keeps them welcome on shared paths."
+  },
+  {
+   "q": "Should I buy a folding e-bike?",
+   "a": "If your commute includes a train or you've nowhere secure to park, yes — a folder defeats both Irish bike theft and rail restrictions, since folded bikes travel free anytime on Irish Rail. Otherwise a full-size bike rides better."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-electric-bikes-ireland",
+   "title": "5 Best Electric Bikes in Ireland 2026 — Tested & Compared",
+   "desc": "Ireland's best electric bikes for 2026, compared on motor, real range, hills and value — including Cycle to Work eligible picks under €1,500.",
+   "h1": "The 5 Best Electric Bikes in Ireland (2026)",
+   "intro": "The Irish e-bike market has matured fast: you can now get a genuinely good commuter for under €1,200 and a superb one under €2,000. We compared motors, honest range, braking, and weather-readiness across the most popular models sold here, flagging which qualify for the €1,500 Cycle to Work ceiling — because for most PAYE workers that scheme is an instant ~30–50% discount.",
+   "faq_idx": [
+    1,
+    2,
+    0
+   ],
+   "products": [
+    {
+     "id": "ebk-001",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 599,
+     "rating": 4.5,
+     "badge": "Best Overall",
+     "specs": {
+      "Motor": "250 W (EU legal)",
+      "Battery": "Removable 36/48V",
+      "Wheel": "24/26\"",
+      "Range": "50–80 km"
+     },
+     "pros": [
+      "EU-legal 250 W pedelec",
+      "Removable battery charges indoors",
+      "Strong value at €599"
+     ],
+     "cons": [
+      "Cadence-sensor assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie e-bike sweet spot: legal, practical and €599 — commuting maths that works."
+    },
+    {
+     "id": "ebk-002",
+     "asin": "B0BVR6V53X",
+     "name": "VARUN 27.5\" Electric Mountain Bike (App, 624Wh)",
+     "brand": "VARUN",
+     "price": 799,
+     "rating": 4.5,
+     "badge": "Best Big Battery",
+     "specs": {
+      "Battery": "48V 624Wh",
+      "Wheel": "27.5\"",
+      "App": "Yes",
+      "Range": "60–90 km"
+     },
+     "pros": [
+      "Big 624 Wh battery",
+      "Real trail capability",
+      "App tuning"
+     ],
+     "cons": [
+      "Heavier than analog MTBs",
+      "Suspension is entry-level"
+     ],
+     "verdict": "The big-battery do-it-all: trails on Saturday, commutes on Monday."
+    },
+    {
+     "id": "ebk-003",
+     "asin": "B0FVRT9WBW",
+     "name": "VARUN 14\" Folding Electric Bike",
+     "brand": "VARUN",
+     "price": 459,
+     "rating": 4.2,
+     "badge": "Best Folding Value",
+     "specs": {
+      "Wheel": "14\" folding",
+      "Battery": "36V 280Wh",
+      "Range": "~45 km",
+      "Weight": "Light"
+     },
+     "pros": [
+      "Folds for apartments and trains",
+      "Cheapest e-bike here",
+      "Light enough to carry"
+     ],
+     "cons": [
+      "Small wheels feel bumps",
+      "Modest battery"
+     ],
+     "verdict": "The entry folder: train-friendly, hallway-storable, €459."
+    },
+    {
+     "id": "ebk-004",
+     "asin": "B0F18KS9SK",
+     "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
+     "brand": "Lohang",
+     "price": 1099,
+     "rating": 4.6,
+     "badge": "Most Powerful (Private Land)",
+     "specs": {
+      "Motors": "Dual",
+      "Battery": "52V 24Ah huge",
+      "Power": "Off-road class",
+      "Range": "Very long"
+     },
+     "pros": [
+      "Massive battery and power",
+      "Dual-motor traction",
+      "Long-range touring"
+     ],
+     "cons": [
+      "Beyond EU pedelec rules — private land",
+      "Very heavy"
+     ],
+     "verdict": "The power flagship — note it exceeds road-legal pedelec limits; trails and private land."
+    },
+    {
+     "id": "ebk-005",
+     "asin": "B0DBLSYLZS",
+     "name": "ENGWE Folding Electric Bike",
+     "brand": "ENGWE",
+     "price": 699,
+     "rating": 4.3,
+     "badge": "Best Fat-Tyre Folder",
+     "specs": {
+      "Type": "Folding fat-tyre",
+      "Brand": "ENGWE",
+      "Range": "Strong",
+      "Build": "Chunky"
+     },
+     "pros": [
+      "ENGWE's proven folding formula",
+      "Fat tyres + fold combo",
+      "Good range"
+     ],
+     "cons": [
+      "Heavy for a folder",
+      "Firm ride"
+     ],
+     "verdict": "The chunky folder: ENGWE's signature go-anywhere fold-up style."
+    }
+   ]
+  },
+  {
+   "slug": "best-electric-bikes-under-1000-ireland",
+   "title": "Best Electric Bikes Under €1,000 in Ireland (2026) — 5 Real Options",
+   "desc": "Five electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
+   "h1": "Best Electric Bikes Under €1,000 in Ireland",
+   "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These five keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
+   "faq_idx": [
+    5,
+    1,
+    4
+   ],
+   "products": [
+    {
+     "id": "ebk-006",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 599,
+     "rating": 4.5,
+     "badge": "Best Under €1,000",
+     "specs": {
+      "Motor": "250 W (EU legal)",
+      "Battery": "Removable 36/48V",
+      "Wheel": "24/26\"",
+      "Range": "50–80 km"
+     },
+     "pros": [
+      "EU-legal 250 W pedelec",
+      "Removable battery charges indoors",
+      "Strong value at €599"
+     ],
+     "cons": [
+      "Cadence-sensor assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie e-bike sweet spot: legal, practical and €599 — commuting maths that works."
+    },
+    {
+     "id": "ebk-007",
+     "asin": "B0FVRT9WBW",
+     "name": "VARUN 14\" Folding Electric Bike",
+     "brand": "VARUN",
+     "price": 459,
+     "rating": 4.2,
+     "badge": "Best Under €500",
+     "specs": {
+      "Wheel": "14\" folding",
+      "Battery": "36V 280Wh",
+      "Range": "~45 km",
+      "Weight": "Light"
+     },
+     "pros": [
+      "Folds for apartments and trains",
+      "Cheapest e-bike here",
+      "Light enough to carry"
+     ],
+     "cons": [
+      "Small wheels feel bumps",
+      "Modest battery"
+     ],
+     "verdict": "The entry folder: train-friendly, hallway-storable, €459."
+    },
+    {
+     "id": "ebk-008",
+     "asin": "B0DBLSYLZS",
+     "name": "ENGWE Folding Electric Bike",
+     "brand": "ENGWE",
+     "price": 699,
+     "rating": 4.3,
+     "badge": "Best Folding Under €1,000",
+     "specs": {
+      "Type": "Folding fat-tyre",
+      "Brand": "ENGWE",
+      "Range": "Strong",
+      "Build": "Chunky"
+     },
+     "pros": [
+      "ENGWE's proven folding formula",
+      "Fat tyres + fold combo",
+      "Good range"
+     ],
+     "cons": [
+      "Heavy for a folder",
+      "Firm ride"
+     ],
+     "verdict": "The chunky folder: ENGWE's signature go-anywhere fold-up style."
+    },
+    {
+     "id": "ebk-009",
+     "asin": "B0BVR6V53X",
+     "name": "VARUN 27.5\" Electric Mountain Bike (App, 624Wh)",
+     "brand": "VARUN",
+     "price": 799,
+     "rating": 4.5,
+     "badge": "Best MTB Under €1,000",
+     "specs": {
+      "Battery": "48V 624Wh",
+      "Wheel": "27.5\"",
+      "App": "Yes",
+      "Range": "60–90 km"
+     },
+     "pros": [
+      "Big 624 Wh battery",
+      "Real trail capability",
+      "App tuning"
+     ],
+     "cons": [
+      "Heavier than analog MTBs",
+      "Suspension is entry-level"
+     ],
+     "verdict": "The big-battery do-it-all: trails on Saturday, commutes on Monday."
+    },
+    {
+     "id": "ebk-010",
+     "asin": "B0F18KS9SK",
+     "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
+     "brand": "Lohang",
+     "price": 1099,
+     "rating": 4.6,
+     "badge": "Stretch Pick (€1,099)",
+     "specs": {
+      "Motors": "Dual",
+      "Battery": "52V 24Ah huge",
+      "Power": "Off-road class",
+      "Range": "Very long"
+     },
+     "pros": [
+      "Massive battery and power",
+      "Dual-motor traction",
+      "Long-range touring"
+     ],
+     "cons": [
+      "Beyond EU pedelec rules — private land",
+      "Very heavy"
+     ],
+     "verdict": "The power flagship — note it exceeds road-legal pedelec limits; trails and private land."
+    }
+   ]
+  },
+  {
+   "slug": "best-folding-electric-bikes-ireland",
+   "title": "Best Folding Electric Bikes Ireland 2026 — Top 5 for Train & Apartment Life",
+   "desc": "The 5 best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.",
+   "h1": "Best Folding Electric Bikes in Ireland",
+   "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these five on fold speed, carry weight, and how much riding quality survives the hinge.",
+   "faq_idx": [
+    7,
+    3,
+    2
+   ],
+   "products": [
+    {
+     "id": "ebk-011",
+     "asin": "B0FVRT9WBW",
+     "name": "VARUN 14\" Folding Electric Bike",
+     "brand": "VARUN",
+     "price": 459,
+     "rating": 4.2,
+     "badge": "Best Folding Overall",
+     "specs": {
+      "Wheel": "14\" folding",
+      "Battery": "36V 280Wh",
+      "Range": "~45 km",
+      "Weight": "Light"
+     },
+     "pros": [
+      "Folds for apartments and trains",
+      "Cheapest e-bike here",
+      "Light enough to carry"
+     ],
+     "cons": [
+      "Small wheels feel bumps",
+      "Modest battery"
+     ],
+     "verdict": "The entry folder: train-friendly, hallway-storable, €459."
+    },
+    {
+     "id": "ebk-012",
+     "asin": "B0DBLSYLZS",
+     "name": "ENGWE Folding Electric Bike",
+     "brand": "ENGWE",
+     "price": 699,
+     "rating": 4.3,
+     "badge": "Best Fat-Tyre Folder",
+     "specs": {
+      "Type": "Folding fat-tyre",
+      "Brand": "ENGWE",
+      "Range": "Strong",
+      "Build": "Chunky"
+     },
+     "pros": [
+      "ENGWE's proven folding formula",
+      "Fat tyres + fold combo",
+      "Good range"
+     ],
+     "cons": [
+      "Heavy for a folder",
+      "Firm ride"
+     ],
+     "verdict": "The chunky folder: ENGWE's signature go-anywhere fold-up style."
+    },
+    {
+     "id": "ebk-013",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 599,
+     "rating": 4.5,
+     "badge": "Best Compact Frame",
+     "specs": {
+      "Motor": "250 W (EU legal)",
+      "Battery": "Removable 36/48V",
+      "Wheel": "24/26\"",
+      "Range": "50–80 km"
+     },
+     "pros": [
+      "EU-legal 250 W pedelec",
+      "Removable battery charges indoors",
+      "Strong value at €599"
+     ],
+     "cons": [
+      "Cadence-sensor assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie e-bike sweet spot: legal, practical and €599 — commuting maths that works."
+    },
+    {
+     "id": "ebk-014",
+     "asin": "B0BVR6V53X",
+     "name": "VARUN 27.5\" Electric Mountain Bike (App, 624Wh)",
+     "brand": "VARUN",
+     "price": 799,
+     "rating": 4.5,
+     "badge": "Best Non-Folding Alternative",
+     "specs": {
+      "Battery": "48V 624Wh",
+      "Wheel": "27.5\"",
+      "App": "Yes",
+      "Range": "60–90 km"
+     },
+     "pros": [
+      "Big 624 Wh battery",
+      "Real trail capability",
+      "App tuning"
+     ],
+     "cons": [
+      "Heavier than analog MTBs",
+      "Suspension is entry-level"
+     ],
+     "verdict": "The big-battery do-it-all: trails on Saturday, commutes on Monday."
+    },
+    {
+     "id": "ebk-015",
+     "asin": "B0F18KS9SK",
+     "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
+     "brand": "Lohang",
+     "price": 1099,
+     "rating": 4.6,
+     "badge": "Power Alternative",
+     "specs": {
+      "Motors": "Dual",
+      "Battery": "52V 24Ah huge",
+      "Power": "Off-road class",
+      "Range": "Very long"
+     },
+     "pros": [
+      "Massive battery and power",
+      "Dual-motor traction",
+      "Long-range touring"
+     ],
+     "cons": [
+      "Beyond EU pedelec rules — private land",
+      "Very heavy"
+     ],
+     "verdict": "The power flagship — note it exceeds road-legal pedelec limits; trails and private land."
+    }
+   ]
+  },
+  {
+   "slug": "best-electric-mountain-bikes-ireland",
+   "title": "Best Electric Mountain Bikes Ireland 2026 — Top 5 eMTBs Compared",
+   "desc": "Ireland's best electric mountain bikes for trail centres like Ticknock and Ballyhoura — motors, suspension and batteries compared for 2026.",
+   "h1": "Best Electric Mountain Bikes in Ireland",
+   "intro": "From Ticknock to Ballyhoura to the Wicklow gap roads, Ireland's trail scene rewards an eMTB's superpower: doing three climbs in the time one used to take. eMTB prices have finally relaxed, with credible hardtails under €2,000. We compared motor torque, battery size, suspension quality and the component compromises each brand chose.",
+   "faq_idx": [
+    2,
+    3,
+    5
+   ],
+   "products": [
+    {
+     "id": "ebk-016",
+     "asin": "B0BVR6V53X",
+     "name": "VARUN 27.5\" Electric Mountain Bike (App, 624Wh)",
+     "brand": "VARUN",
+     "price": 799,
+     "rating": 4.5,
+     "badge": "Best eMTB Overall",
+     "specs": {
+      "Battery": "48V 624Wh",
+      "Wheel": "27.5\"",
+      "App": "Yes",
+      "Range": "60–90 km"
+     },
+     "pros": [
+      "Big 624 Wh battery",
+      "Real trail capability",
+      "App tuning"
+     ],
+     "cons": [
+      "Heavier than analog MTBs",
+      "Suspension is entry-level"
+     ],
+     "verdict": "The big-battery do-it-all: trails on Saturday, commutes on Monday."
+    },
+    {
+     "id": "ebk-017",
+     "asin": "B0CN2SFH4N",
+     "name": "VARUN 26\" Fat Tyre Electric Mountain Bike",
+     "brand": "VARUN",
+     "price": 1149,
+     "rating": 4.6,
+     "badge": "Best Fat-Tyre",
+     "specs": {
+      "Tyres": "26×4.0 fat",
+      "Use": "Beach, gravel, mud",
+      "Battery": "Large",
+      "Build": "Heavy-duty"
+     },
+     "pros": [
+      "Fat tyres float over anything",
+      "Strong build",
+      "All-terrain confidence"
+     ],
+     "cons": [
+      "1,149 price tag",
+      "Heavy"
+     ],
+     "verdict": "The go-anywhere tank: sand, gravel, mud and Irish boreens, all tamed."
+    },
+    {
+     "id": "ebk-018",
+     "asin": "B0F18KS9SK",
+     "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
+     "brand": "Lohang",
+     "price": 1099,
+     "rating": 4.6,
+     "badge": "Most Powerful Off-Road",
+     "specs": {
+      "Motors": "Dual",
+      "Battery": "52V 24Ah huge",
+      "Power": "Off-road class",
+      "Range": "Very long"
+     },
+     "pros": [
+      "Massive battery and power",
+      "Dual-motor traction",
+      "Long-range touring"
+     ],
+     "cons": [
+      "Beyond EU pedelec rules — private land",
+      "Very heavy"
+     ],
+     "verdict": "The power flagship — note it exceeds road-legal pedelec limits; trails and private land."
+    },
+    {
+     "id": "ebk-019",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 599,
+     "rating": 4.5,
+     "badge": "Best Budget Trail-Capable",
+     "specs": {
+      "Motor": "250 W (EU legal)",
+      "Battery": "Removable 36/48V",
+      "Wheel": "24/26\"",
+      "Range": "50–80 km"
+     },
+     "pros": [
+      "EU-legal 250 W pedelec",
+      "Removable battery charges indoors",
+      "Strong value at €599"
+     ],
+     "cons": [
+      "Cadence-sensor assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie e-bike sweet spot: legal, practical and €599 — commuting maths that works."
+    },
+    {
+     "id": "ebk-020",
+     "asin": "B0DBLSYLZS",
+     "name": "ENGWE Folding Electric Bike",
+     "brand": "ENGWE",
+     "price": 699,
+     "rating": 4.3,
+     "badge": "Best Folding Off-Road",
+     "specs": {
+      "Type": "Folding fat-tyre",
+      "Brand": "ENGWE",
+      "Range": "Strong",
+      "Build": "Chunky"
+     },
+     "pros": [
+      "ENGWE's proven folding formula",
+      "Fat tyres + fold combo",
+      "Good range"
+     ],
+     "cons": [
+      "Heavy for a folder",
+      "Firm ride"
+     ],
+     "verdict": "The chunky folder: ENGWE's signature go-anywhere fold-up style."
+    }
+   ]
+  },
+  {
+   "slug": "best-commuter-electric-bikes-ireland",
+   "title": "Best Commuter Electric Bikes Ireland 2026 — Top 5 for Daily Riding",
+   "desc": "The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison.",
+   "h1": "Best Commuter Electric Bikes in Ireland",
+   "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared five commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
+   "faq_idx": [
+    4,
+    1,
+    6
+   ],
+   "products": [
+    {
+     "id": "ebk-021",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 599,
+     "rating": 4.5,
+     "badge": "Best Commuter Overall",
+     "specs": {
+      "Motor": "250 W (EU legal)",
+      "Battery": "Removable 36/48V",
+      "Wheel": "24/26\"",
+      "Range": "50–80 km"
+     },
+     "pros": [
+      "EU-legal 250 W pedelec",
+      "Removable battery charges indoors",
+      "Strong value at €599"
+     ],
+     "cons": [
+      "Cadence-sensor assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie e-bike sweet spot: legal, practical and €599 — commuting maths that works."
+    },
+    {
+     "id": "ebk-022",
+     "asin": "B0FVRT9WBW",
+     "name": "VARUN 14\" Folding Electric Bike",
+     "brand": "VARUN",
+     "price": 459,
+     "rating": 4.2,
+     "badge": "Best Train Commuter",
+     "specs": {
+      "Wheel": "14\" folding",
+      "Battery": "36V 280Wh",
+      "Range": "~45 km",
+      "Weight": "Light"
+     },
+     "pros": [
+      "Folds for apartments and trains",
+      "Cheapest e-bike here",
+      "Light enough to carry"
+     ],
+     "cons": [
+      "Small wheels feel bumps",
+      "Modest battery"
+     ],
+     "verdict": "The entry folder: train-friendly, hallway-storable, €459."
+    },
+    {
+     "id": "ebk-023",
+     "asin": "B0BVR6V53X",
+     "name": "VARUN 27.5\" Electric Mountain Bike (App, 624Wh)",
+     "brand": "VARUN",
+     "price": 799,
+     "rating": 4.5,
+     "badge": "Best Long-Distance",
+     "specs": {
+      "Battery": "48V 624Wh",
+      "Wheel": "27.5\"",
+      "App": "Yes",
+      "Range": "60–90 km"
+     },
+     "pros": [
+      "Big 624 Wh battery",
+      "Real trail capability",
+      "App tuning"
+     ],
+     "cons": [
+      "Heavier than analog MTBs",
+      "Suspension is entry-level"
+     ],
+     "verdict": "The big-battery do-it-all: trails on Saturday, commutes on Monday."
+    },
+    {
+     "id": "ebk-024",
+     "asin": "B0DBLSYLZS",
+     "name": "ENGWE Folding Electric Bike",
+     "brand": "ENGWE",
+     "price": 699,
+     "rating": 4.3,
+     "badge": "Best Storage-Friendly",
+     "specs": {
+      "Type": "Folding fat-tyre",
+      "Brand": "ENGWE",
+      "Range": "Strong",
+      "Build": "Chunky"
+     },
+     "pros": [
+      "ENGWE's proven folding formula",
+      "Fat tyres + fold combo",
+      "Good range"
+     ],
+     "cons": [
+      "Heavy for a folder",
+      "Firm ride"
+     ],
+     "verdict": "The chunky folder: ENGWE's signature go-anywhere fold-up style."
+    },
+    {
+     "id": "ebk-025",
+     "asin": "B0F18KS9SK",
+     "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
+     "brand": "Lohang",
+     "price": 1099,
+     "rating": 4.6,
+     "badge": "Power Commuter (Check Rules)",
+     "specs": {
+      "Motors": "Dual",
+      "Battery": "52V 24Ah huge",
+      "Power": "Off-road class",
+      "Range": "Very long"
+     },
+     "pros": [
+      "Massive battery and power",
+      "Dual-motor traction",
+      "Long-range touring"
+     ],
+     "cons": [
+      "Beyond EU pedelec rules — private land",
+      "Very heavy"
+     ],
+     "verdict": "The power flagship — note it exceeds road-legal pedelec limits; trails and private land."
+    }
+   ]
+  }
+ ]
 }

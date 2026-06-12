@@ -1,99 +1,755 @@
 {
-  "category": "dehumidifiers",
-  "name": "Dehumidifiers",
-  "emoji": "💧",
-  "hub_intro": "Ireland's damp climate makes dehumidifiers less a luxury than a household appliance category of their own: condensation on windows, mould creeping into corners, laundry that takes two days to dry indoors. The right machine fixes all three for cents per day. We compare compressor and desiccant models across every budget and room size, with running costs at Irish electricity rates.",
-  "guide": [
-    ["Compressor vs desiccant", "Compressor models are cheaper to run and ideal for typical Irish indoor temps (15–25°C). Desiccant models work better in cold spaces — garages, unheated rooms under 15°C — but use roughly double the electricity. Most homes want a compressor unit."],
-    ["Size by litres per day", "The headline number (10L, 12L, 20L) is extraction per day under test conditions. Rule of thumb: 10–12L for apartments and bedrooms, 20L for a 3-bed house with drying laundry, 25L+ for big or very damp homes."],
-    ["Running costs at Irish rates", "A modern 12L compressor unit draws ~160 W: about 5–6 cents per hour. Run 8 hours daily and you spend roughly €12–15 a month — usually less than the heating energy wasted evaporating damp air, which is why a dehumidifier can lower total bills."],
-    ["Laundry mode is the killer feature", "If you dry clothes indoors (most of Ireland, most of the year), laundry mode pays for the machine: a good unit dries a load overnight for ~6 cents of electricity versus ~€1.50+ per tumble-dryer cycle, and without the condensation hitting your walls."]
+ "category": "dehumidifiers",
+ "name": "Dehumidifiers",
+ "emoji": "💧",
+ "hub_intro": "Ireland's damp climate makes dehumidifiers less a luxury than a household appliance category of their own: condensation on windows, mould creeping into corners, laundry that takes two days to dry indoors. The right machine fixes all three for cents per day. We compare compressor and desiccant models across every budget and room size, with running costs at Irish electricity rates.",
+ "guide": [
+  [
+   "Compressor vs desiccant",
+   "Compressor models are cheaper to run and ideal for typical Irish indoor temps (15–25°C). Desiccant models work better in cold spaces — garages, unheated rooms under 15°C — but use roughly double the electricity. Most homes want a compressor unit."
   ],
-  "faqs": [
-    {"q": "What size dehumidifier do I need for an Irish home?", "a": "Apartments and single rooms: 10–12L/day. Standard 3-bed semi: 20L. Large, old or very damp houses: 25L+. Oversizing slightly is fine — bigger units hit target humidity faster and then idle, which is actually more efficient."},
-    {"q": "How much does a dehumidifier cost to run in Ireland?", "a": "A 12L compressor model at ~160 W costs about 5–6 cents per hour at typical rates. Eight hours a day works out around €12–15 per month. Desiccant models cost roughly double — but heat the room as a side effect."},
-    {"q": "Will a dehumidifier stop mould and condensation?", "a": "Yes, if you keep relative humidity under 60%. Mould cannot establish below that level. Run the unit on auto with a 50–55% target, keep furniture slightly off cold external walls, and wipe existing mould once with a fungicidal cleaner."},
-    {"q": "Can I dry clothes with a dehumidifier?", "a": "Absolutely — it's the cheapest indoor drying method in Ireland. Put the airer in a small closed room with the unit on laundry mode and a typical load dries in 6–10 hours for under 10 cents, with no window condensation."},
-    {"q": "Dehumidifier or PIV system for a damp house?", "a": "A dehumidifier is the fast, no-install fix and handles most condensation damp. PIV (positive input ventilation) suits whole-house problems but needs attic installation and ~€800–1,200 fitted. Start with a €200 dehumidifier; escalate only if damp persists."},
-    {"q": "Where should I place a dehumidifier?", "a": "Centrally, doors open, for whole-floor drying — or in the problem room with the door shut for targeted work. Keep 20 cm clearance around intakes. For laundry, small closed room beats hallway every time."},
-    {"q": "Are dehumidifiers noisy?", "a": "Compressor models run 38–48 dB — quiet fan to gentle hum. For bedrooms pick a unit with a night mode under 40 dB, or run it daytime only; a few hours daily is enough for most rooms once humidity is under control."},
-    {"q": "Why is my house so damp in winter?", "a": "Cold external walls + sealed windows + indoor moisture (cooking, showers, breathing, drying clothes adds ~10L/day for a family) = condensation. Modern retrofits make houses airtight without adding ventilation. A dehumidifier removes that moisture before it hits the glass."}
+  [
+   "Size by litres per day",
+   "The headline number (10L, 12L, 20L) is extraction per day under test conditions. Rule of thumb: 10–12L for apartments and bedrooms, 20L for a 3-bed house with drying laundry, 25L+ for big or very damp homes."
   ],
-  "pages": [
-    {
-      "slug": "best-dehumidifiers-ireland",
-      "title": "5 Best Dehumidifiers in Ireland 2026 — Tested for Damp Irish Homes",
-      "desc": "Ireland's best dehumidifiers compared: extraction, running costs at Irish electricity rates, noise and laundry drying. Top 5 for 2026.",
-      "h1": "The 5 Best Dehumidifiers in Ireland (2026)",
-      "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The five below cover every budget from €160 to €330. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
-      "faq_idx": [0, 1, 2],
-      "products": [
-        {"id": "deh-001", "name": "MeacoDry Arete One 12L", "brand": "Meaco", "price": 229, "rating": 4.8, "badge": "Best Overall", "specs": {"Extraction": "12 L/day", "Power": "157 W", "Tank": "2.5 L", "Noise": "35–40 dB", "Coverage": "Up to 3-bed house", "Modes": "Auto, laundry, night"}, "pros": ["Quietest compressor unit in its class", "HEPA filter doubles as air purifier", "5-year warranty — unheard of in this market"], "cons": ["2.5 L tank needs daily emptying when very damp", "Laundry mode is timed, not sensor-driven"], "verdict": "The Irish bestseller for good reason: near-silent, sips electricity, five-year warranty. For a typical 2–3 bed home this is the default answer."},
-        {"id": "deh-002", "name": "Meaco Low Energy 20L", "brand": "Meaco", "price": 319, "rating": 4.7, "badge": "Best for Large Homes", "specs": {"Extraction": "20 L/day", "Power": "255 W", "Tank": "6 L", "Noise": "46 dB", "Coverage": "4–5 bed house", "Modes": "Auto, laundry, continuous drain"}, "pros": ["Dries a full washing load overnight", "6 L tank — empty every 2–3 days", "Class-leading efficiency per litre"], "cons": ["Bulkier and louder than the Arete", "Overkill for apartments"], "verdict": "For big, busy or properly damp houses: twice the extraction, a tank you rarely empty, and the lowest cost per litre of water removed we've calculated."},
-        {"id": "deh-003", "name": "Pro Breeze 12L", "brand": "Pro Breeze", "price": 169, "rating": 4.4, "badge": "Best Value", "specs": {"Extraction": "12 L/day", "Power": "170 W", "Tank": "1.8 L", "Noise": "42 dB", "Coverage": "2–3 bed home", "Modes": "Auto, sleep, 24h timer"}, "pros": ["Arete-class extraction for €60 less", "Compact, easy to move room to room", "Simple controls anyone can use"], "cons": ["Small 1.8 L tank", "2-year warranty vs Meaco's 5"], "verdict": "Eighty-five percent of the Meaco experience at three-quarters of the price. If the budget is firm, this is where value peaks."},
-        {"id": "deh-004", "name": "EcoAir DD1 Simple MK3 (Desiccant)", "brand": "EcoAir", "price": 189, "rating": 4.5, "badge": "Best for Cold Rooms", "specs": {"Extraction": "7.5 L/day", "Power": "300–600 W", "Tank": "2 L", "Noise": "34 dB", "Coverage": "Cold spaces, garages", "Modes": "Eco, turbo, laundry"}, "pros": ["Full extraction even at 5°C", "Lightest unit here at 6 kg", "Gently warms the room as it works"], "cons": ["2–4x the running cost of compressors", "7.5 L max"], "verdict": "The cold-space specialist: garages, unheated bedrooms, holiday homes left empty. Where compressor units stall, the DD1 keeps pulling water."},
-        {"id": "deh-005", "name": "ElectriQ CD12PRO-LE", "brand": "ElectriQ", "price": 199, "rating": 4.2, "badge": "Best Smart Features", "specs": {"Extraction": "12 L/day", "Power": "165 W", "Tank": "2 L", "Noise": "41 dB", "Coverage": "2–3 bed home", "Modes": "Auto, laundry, app + UV mode"}, "pros": ["App control and humidity logging", "UV-C and ioniser for mould-prone homes", "Digital humidistat is accurate"], "cons": ["App occasionally loses connection", "Brand support slower than Meaco"], "verdict": "For data lovers and mould fighters: track room humidity from your phone and add UV air treatment. A geekier alternative to the Pro Breeze at similar money."}
-      ]
-    },
-    {
-      "slug": "best-small-dehumidifiers-bedroom-ireland",
-      "title": "Best Small Dehumidifiers for Bedrooms & Apartments Ireland 2026",
-      "desc": "Quiet, compact dehumidifiers for Irish bedrooms, apartments and single rooms — noise levels, size and running costs compared. Top 5 picks.",
-      "h1": "Best Small & Bedroom Dehumidifiers in Ireland",
-      "intro": "Condensation hits bedrooms hardest — we each breathe out half a litre of moisture a night into a cold, closed room. The fix needs to be small enough for a corner and quiet enough to sleep beside. We ranked these five on noise first, then extraction and footprint, because a dehumidifier you switch off at bedtime is a dehumidifier that doesn't work.",
-      "faq_idx": [6, 5, 0],
-      "products": [
-        {"id": "deh-006", "name": "MeacoDry Arete One 10L", "brand": "Meaco", "price": 199, "rating": 4.8, "badge": "Best Bedroom Choice", "specs": {"Extraction": "10 L/day", "Power": "145 W", "Tank": "2.5 L", "Noise": "35 dB night mode", "Coverage": "1–2 bed apartment", "Modes": "Night, auto, laundry"}, "pros": ["35 dB — genuinely sleep-through quiet", "Display dims fully at night", "HEPA filtration while you sleep"], "cons": ["Premium price for a small unit", "Slight whoosh on higher fan"], "verdict": "The bedroom benchmark. Most 'quiet' units mean quiet-ish; the Arete's night mode is library-level, and it still clears morning window mist by breakfast."},
-        {"id": "deh-007", "name": "Pro Breeze 500ml Mini", "brand": "Pro Breeze", "price": 49, "rating": 4.0, "badge": "Best Mini Budget", "specs": {"Extraction": "0.5 L/day", "Power": "23 W", "Tank": "1.5 L", "Noise": "<30 dB", "Coverage": "Single small room", "Modes": "On/off"}, "pros": ["Nearly silent Peltier design", "Costs ~1 cent/hour to run", "Tiny footprint fits a windowsill"], "cons": ["Only suits mild damp in small rooms", "Stops working below ~15°C"], "verdict": "Know its limits and it delights: a box room, ensuite or wardrobe with light condensation. It will not fix a properly damp room — buy the Arete for that."},
-        {"id": "deh-008", "name": "EcoAir DD1 Simple MK3", "brand": "EcoAir", "price": 189, "rating": 4.5, "badge": "Quietest Real Extraction", "specs": {"Extraction": "7.5 L/day", "Power": "300 W eco", "Tank": "2 L", "Noise": "34 dB", "Coverage": "Bedrooms, cold rooms", "Modes": "Eco, turbo, laundry"}, "pros": ["34 dB with full desiccant extraction", "Warms a chilly bedroom slightly", "Light enough to move daily"], "cons": ["Higher running cost than compressors", "Best used hours, not 24/7"], "verdict": "The quiet alternative with real pulling power, especially in bedrooms that run cold. Use it on a timer to manage the higher wattage."},
-        {"id": "deh-009", "name": "Russell Hobbs RHDH1101", "brand": "Russell Hobbs", "price": 119, "rating": 4.1, "badge": "Best Under €120", "specs": {"Extraction": "10 L/day", "Power": "180 W", "Tank": "2 L", "Noise": "43 dB", "Coverage": "1–2 rooms", "Modes": "Auto, sleep, timer"}, "pros": ["Real 10L compressor under €120", "Trusted brand with Irish support", "Compact tower shape"], "cons": ["43 dB — daytime use, light sleepers beware", "Basic humidistat accuracy"], "verdict": "The price-performance pick for daytime use: run it while at work, come home to dry air. Light sleepers should pay up for the Meaco."},
-        {"id": "deh-010", "name": "Duux Bora Smart 20L", "brand": "Duux", "price": 249, "rating": 4.3, "badge": "Best Looking", "specs": {"Extraction": "20 L/day", "Power": "240 W", "Tank": "4 L", "Noise": "40 dB", "Coverage": "Large bedroom/open plan", "Modes": "App, auto, night"}, "pros": ["Actually attractive in a living space", "App scheduling around night rate electricity", "Strong extraction for open-plan apartments"], "cons": ["Bigger than bedroom-only units need", "Mid-tier noise"], "verdict": "For studio and open-plan apartments where the machine lives in view: Scandinavian looks, app smarts and enough power for the whole space."}
-      ]
-    },
-    {
-      "slug": "best-20l-dehumidifiers-large-homes-ireland",
-      "title": "Best 20L+ Dehumidifiers for Large & Damp Homes Ireland 2026",
-      "desc": "Big-capacity 20–25L dehumidifiers for large or very damp Irish houses — extraction, continuous drainage and efficiency compared. Top 5.",
-      "h1": "Best 20L+ Dehumidifiers for Large Irish Homes",
-      "intro": "Older Irish housing stock — solid walls, single glazing, suspect ventilation — can produce damp faster than small machines remove it. For 4+ bedrooms, persistent mould or post-leak drying, you want 20–25L of daily extraction, a big tank or hose drainage, and efficiency that doesn't punish all-day running. These five are the heavy lifters.",
-      "faq_idx": [0, 4, 1],
-      "products": [
-        {"id": "deh-011", "name": "Meaco Low Energy 25L", "brand": "Meaco", "price": 379, "rating": 4.8, "badge": "Best Heavy-Duty Overall", "specs": {"Extraction": "25 L/day", "Power": "290 W", "Tank": "6 L + hose option", "Noise": "48 dB", "Coverage": "5-bed / very damp homes", "Modes": "Auto, laundry, continuous"}, "pros": ["Drinks moisture from whole floors at once", "Best efficiency per litre in the big class", "Hose drainage = zero maintenance"], "cons": ["Audible — not a bedroom machine", "Serious upfront cost"], "verdict": "When damp is a battle, bring artillery. Hose it to a drain, set 50%, and entire floors of a damp house dry out and stay dry."},
-        {"id": "deh-012", "name": "Meaco Low Energy 20L", "brand": "Meaco", "price": 319, "rating": 4.7, "badge": "Best for Most Big Homes", "specs": {"Extraction": "20 L/day", "Power": "255 W", "Tank": "6 L", "Noise": "46 dB", "Coverage": "4–5 bed house", "Modes": "Auto, laundry, continuous"}, "pros": ["The sweet spot of the heavy class", "Overnight laundry loads, reliably", "Proven Irish-market track record"], "cons": ["Louder than the Arete line", "Plain styling"], "verdict": "The standard prescription for a damp 4-bed semi: enough extraction to win, efficiency to run daily, and Meaco's support behind it."},
-        {"id": "deh-013", "name": "ElectriQ CD25PRO-LE-V2", "brand": "ElectriQ", "price": 269, "rating": 4.3, "badge": "Best Value 25L", "specs": {"Extraction": "25 L/day", "Power": "300 W", "Tank": "3 L + hose", "Noise": "47 dB", "Coverage": "4–5 bed house", "Modes": "Auto, laundry, app"}, "pros": ["25L extraction €110 under the Meaco", "App monitoring of humidity trends", "Strong post-flood/leak drying"], "cons": ["Small tank forces hose use", "Louder fan tone"], "verdict": "Maximum litres per euro in the big class. The small tank assumes hose drainage — plan for that and it's a bargain workhorse."},
-        {"id": "deh-014", "name": "Pro Breeze 20L Premium", "brand": "Pro Breeze", "price": 219, "rating": 4.4, "badge": "Budget Big-Capacity", "specs": {"Extraction": "20 L/day", "Power": "270 W", "Tank": "5.5 L", "Noise": "45 dB", "Coverage": "4-bed house", "Modes": "Auto, laundry, timer, hose"}, "pros": ["20L + 5.5L tank under €220", "Wheels and handle — moves easily", "Simple, reliable controls"], "cons": ["Efficiency a notch behind Meaco", "2-year warranty"], "verdict": "The budget path to serious extraction. Slightly more electricity per litre than the Meaco — but €100 buys years of that difference."},
-        {"id": "deh-015", "name": "Inventor Eva Ion Pro 20L", "brand": "Inventor", "price": 239, "rating": 4.2, "badge": "Best With Air Treatment", "specs": {"Extraction": "20 L/day", "Power": "260 W", "Tank": "4 L", "Noise": "44 dB", "Coverage": "4-bed house", "Modes": "Auto, laundry, ioniser, swing"}, "pros": ["Ioniser helps with musty damp smell", "Swing louvre spreads dry air further", "Quieter than most 20L units"], "cons": ["4 L tank on a 20L machine", "Lesser-known brand here"], "verdict": "For homes where damp brought its friend — that musty smell. Solid 20L extraction plus active air treatment at a fair price."}
-      ]
-    },
-    {
-      "slug": "best-dehumidifiers-drying-clothes-ireland",
-      "title": "Best Dehumidifiers for Drying Clothes Indoors Ireland 2026",
-      "desc": "Dry washing indoors overnight for cents: the 5 best laundry-mode dehumidifiers in Ireland vs tumble dryer costs. Compared 2026.",
-      "h1": "Best Dehumidifiers for Drying Clothes in Ireland",
-      "intro": "Eight months a year, the Irish washing line is theoretical. A tumble dryer costs roughly €1.30–1.80 per load at current rates; a dehumidifier in laundry mode dries the same load overnight for about 6–10 cents — gentler on clothes, with zero condensation soaking your walls. These five have the strongest dedicated laundry performance we compared.",
-      "faq_idx": [3, 1, 7],
-      "products": [
-        {"id": "deh-016", "name": "Meaco Low Energy 20L (Laundry)", "brand": "Meaco", "price": 319, "rating": 4.8, "badge": "Best Laundry Performance", "specs": {"Extraction": "20 L/day", "Laundry load time": "6–8 h", "Power": "255 W", "Tank": "6 L", "Noise": "46 dB", "Modes": "Dedicated laundry+timer"}, "pros": ["Full family load dry by morning", "Costs ~8 cents per load", "Tank swallows multiple loads of water"], "cons": ["Needs a smallish closed room to excel", "Upfront cost"], "verdict": "The tumble-dryer replacement. Six months of family laundry pays the price difference versus running a dryer — then it keeps saving for years."},
-        {"id": "deh-017", "name": "MeacoDry Arete One 12L (Laundry)", "brand": "Meaco", "price": 229, "rating": 4.6, "badge": "Best for Couples/Apartments", "specs": {"Extraction": "12 L/day", "Laundry load time": "8–10 h", "Power": "157 W", "Tank": "2.5 L", "Noise": "40 dB", "Modes": "Timed laundry mode"}, "pros": ["Quiet enough to dry overnight near bedrooms", "Lower wattage for smaller loads", "Doubles as the home's main unit"], "cons": ["Slower with big family loads", "Tank fills on heavy loads"], "verdict": "For one-to-two-person households: overnight drying without the noise, from the machine you'd buy anyway for general damp."},
-        {"id": "deh-018", "name": "EcoAir DD1 Simple MK3 (Laundry)", "brand": "EcoAir", "price": 189, "rating": 4.5, "badge": "Best in Cold Utility Rooms", "specs": {"Extraction": "7.5 L/day", "Laundry load time": "7–9 h", "Power": "300–600 W", "Tank": "2 L", "Noise": "34 dB", "Modes": "Dedicated laundry"}, "pros": ["Unbeatable in cold garages/utility rooms", "Adds gentle warmth that speeds drying", "Quiet"], "cons": ["Higher electricity per load (~25–40c)", "Small tank"], "verdict": "If your drying space is an unheated utility room or garage — where compressor units sulk — the desiccant DD1 is the only right answer."},
-        {"id": "deh-019", "name": "Pro Breeze 20L Premium (Laundry)", "brand": "Pro Breeze", "price": 219, "rating": 4.3, "badge": "Best Value Laundry", "specs": {"Extraction": "20 L/day", "Laundry load time": "7–9 h", "Power": "270 W", "Tank": "5.5 L", "Noise": "45 dB", "Modes": "Laundry, timer"}, "pros": ["Big-load capability for €100 less", "Wheels to the airer easily", "Set-and-forget timer"], "cons": ["A touch slower than the Meaco 20L", "Less refined humidistat"], "verdict": "The budget family choice: handles full loads overnight at ~10 cents each. The Meaco does it slightly better; this does it for €100 less."},
-        {"id": "deh-020", "name": "Vax Power Extract 18L", "brand": "Vax", "price": 199, "rating": 4.1, "badge": "Trusted Brand Value", "specs": {"Extraction": "18 L/day", "Laundry load time": "7–9 h", "Power": "260 W", "Tank": "4 L", "Noise": "44 dB", "Modes": "Laundry boost, auto"}, "pros": ["Strong laundry boost mode", "Familiar brand, easy Irish support", "Often discounted below €180"], "cons": ["Efficiency mid-pack", "Chunky footprint"], "verdict": "A dependable all-rounder whose laundry boost punches above its price — worth grabbing whenever it dips under €180."}
-      ]
-    },
-    {
-      "slug": "best-dehumidifiers-mould-damp-ireland",
-      "title": "Best Dehumidifiers for Mould & Serious Damp Ireland 2026",
-      "desc": "Fighting black mould or persistent damp in an Irish home? The 5 best dehumidifiers with HEPA/UV air treatment and high extraction, compared.",
-      "h1": "Best Dehumidifiers for Mould & Serious Damp in Ireland",
-      "intro": "Black mould on walls is a humidity problem wearing a scary costume: keep a room under 60% RH and mould physically cannot grow. For homes already showing spots — window reveals, cold corners, behind wardrobes — you want strong extraction plus air filtration to catch spores. These five pair the muscle with the filters, ranked by how fast they make mould's life impossible.",
-      "faq_idx": [2, 7, 4],
-      "products": [
-        {"id": "deh-021", "name": "MeacoDry Arete One 20L", "brand": "Meaco", "price": 289, "rating": 4.8, "badge": "Best Anti-Mould Overall", "specs": {"Extraction": "20 L/day", "Filtration": "HEPA H13", "Power": "222 W", "Tank": "4.8 L", "Noise": "42 dB", "Modes": "Auto, laundry, night"}, "pros": ["20L extraction + true HEPA spore capture", "Quiet enough for living areas", "5-year warranty"], "cons": ["HEPA filters need yearly replacement", "Tank smaller than Low Energy line"], "verdict": "The complete anti-mould system: starves mould of moisture while HEPA-filtering the spores already airborne. The one we'd put in a mouldy rental tomorrow."},
-        {"id": "deh-022", "name": "ElectriQ CD20PRO-LE-V2 (UV)", "brand": "ElectriQ", "price": 229, "rating": 4.3, "badge": "Best UV Treatment", "specs": {"Extraction": "20 L/day", "Filtration": "Filter + UV-C + ioniser", "Power": "275 W", "Tank": "3 L + hose", "Noise": "46 dB", "Modes": "Auto, laundry, UV, app"}, "pros": ["UV-C neutralises spores passing through", "App tracks the humidity victory", "Aggressive price for the feature set"], "cons": ["Hose drainage near-essential", "Fan louder than Meaco"], "verdict": "The tech-forward mould fighter: extraction, UV and data logging let you watch the room drop below the mould threshold and stay there."},
-        {"id": "deh-023", "name": "Meaco Low Energy 25L (Damp Rescue)", "brand": "Meaco", "price": 379, "rating": 4.7, "badge": "Best for Severe Damp", "specs": {"Extraction": "25 L/day", "Filtration": "Standard filter", "Power": "290 W", "Tank": "6 L + hose", "Noise": "48 dB", "Modes": "Auto, laundry, continuous"}, "pros": ["Crisis-level extraction speed", "Continuous drain for unattended running", "Drops a saturated room fast"], "cons": ["No HEPA — pair with cleaning spray", "Loud at full tilt"], "verdict": "For rising/penetrating damp, post-leak recovery or a house that's been empty: maximum water removal first, refinement later."},
-        {"id": "deh-024", "name": "Pro Breeze 12L Compressor (Starter)", "brand": "Pro Breeze", "price": 169, "rating": 4.2, "badge": "Budget Mould Starter", "specs": {"Extraction": "12 L/day", "Filtration": "Washable filter", "Power": "170 W", "Tank": "1.8 L", "Noise": "42 dB", "Modes": "Auto, sleep, timer"}, "pros": ["Gets a single mouldy room under control", "Cheap to buy and run", "Washable filter, no ongoing costs"], "cons": ["One room at a time", "No spore filtration"], "verdict": "The minimum effective dose: one problem bedroom or bathroom corner, €169, sorted. Whole-house damp needs the bigger artillery above."},
-        {"id": "deh-025", "name": "Ionmax ION632 Desiccant", "brand": "Ionmax", "price": 299, "rating": 4.4, "badge": "Best for Cold Damp Rooms", "specs": {"Extraction": "10 L/day (stable in cold)", "Filtration": "Silver-ion antibacterial", "Power": "330–650 W", "Tank": "3.5 L", "Noise": "39 dB", "Modes": "Auto, laundry, ioniser"}, "pros": ["Full power in cold north-facing rooms", "Antibacterial filter suits mould homes", "Quiet for its class"], "cons": ["Desiccant running costs", "Less common brand in Ireland"], "verdict": "Mould loves cold rooms; compressors don't. For the unheated north-facing bedroom with spots on the ceiling, this desiccant keeps extracting where others quit."}
-      ]
-    }
+  [
+   "Running costs at Irish rates",
+   "A modern 12L compressor unit draws ~160 W: about 5–6 cents per hour. Run 8 hours daily and you spend roughly €12–15 a month — usually less than the heating energy wasted evaporating damp air, which is why a dehumidifier can lower total bills."
+  ],
+  [
+   "Laundry mode is the killer feature",
+   "If you dry clothes indoors (most of Ireland, most of the year), laundry mode pays for the machine: a good unit dries a load overnight for ~6 cents of electricity versus ~€1.50+ per tumble-dryer cycle, and without the condensation hitting your walls."
   ]
+ ],
+ "faqs": [
+  {
+   "q": "What size dehumidifier do I need for an Irish home?",
+   "a": "Apartments and single rooms: 10–12L/day. Standard 3-bed semi: 20L. Large, old or very damp houses: 25L+. Oversizing slightly is fine — bigger units hit target humidity faster and then idle, which is actually more efficient."
+  },
+  {
+   "q": "How much does a dehumidifier cost to run in Ireland?",
+   "a": "A 12L compressor model at ~160 W costs about 5–6 cents per hour at typical rates. Eight hours a day works out around €12–15 per month. Desiccant models cost roughly double — but heat the room as a side effect."
+  },
+  {
+   "q": "Will a dehumidifier stop mould and condensation?",
+   "a": "Yes, if you keep relative humidity under 60%. Mould cannot establish below that level. Run the unit on auto with a 50–55% target, keep furniture slightly off cold external walls, and wipe existing mould once with a fungicidal cleaner."
+  },
+  {
+   "q": "Can I dry clothes with a dehumidifier?",
+   "a": "Absolutely — it's the cheapest indoor drying method in Ireland. Put the airer in a small closed room with the unit on laundry mode and a typical load dries in 6–10 hours for under 10 cents, with no window condensation."
+  },
+  {
+   "q": "Dehumidifier or PIV system for a damp house?",
+   "a": "A dehumidifier is the fast, no-install fix and handles most condensation damp. PIV (positive input ventilation) suits whole-house problems but needs attic installation and ~€800–1,200 fitted. Start with a €200 dehumidifier; escalate only if damp persists."
+  },
+  {
+   "q": "Where should I place a dehumidifier?",
+   "a": "Centrally, doors open, for whole-floor drying — or in the problem room with the door shut for targeted work. Keep 20 cm clearance around intakes. For laundry, small closed room beats hallway every time."
+  },
+  {
+   "q": "Are dehumidifiers noisy?",
+   "a": "Compressor models run 38–48 dB — quiet fan to gentle hum. For bedrooms pick a unit with a night mode under 40 dB, or run it daytime only; a few hours daily is enough for most rooms once humidity is under control."
+  },
+  {
+   "q": "Why is my house so damp in winter?",
+   "a": "Cold external walls + sealed windows + indoor moisture (cooking, showers, breathing, drying clothes adds ~10L/day for a family) = condensation. Modern retrofits make houses airtight without adding ventilation. A dehumidifier removes that moisture before it hits the glass."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-dehumidifiers-ireland",
+   "title": "5 Best Dehumidifiers in Ireland 2026 — Tested for Damp Irish Homes",
+   "desc": "Ireland's best dehumidifiers compared: extraction, running costs at Irish electricity rates, noise and laundry drying. Top 5 for 2026.",
+   "h1": "The 5 Best Dehumidifiers in Ireland (2026)",
+   "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The five below cover every budget from €160 to €330. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
+   "faq_idx": [
+    0,
+    1,
+    2
+   ],
+   "products": [
+    {
+     "id": "deh-001",
+     "asin": "B0CTKPZ5FJ",
+     "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+     "brand": "Meaco",
+     "price": 259,
+     "rating": 4.8,
+     "badge": "Best Overall",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Filter": "HEPA built in",
+      "Noise": "~36 dB",
+      "Smart": "App + voice"
+     },
+     "pros": [
+      "Ultra-quiet, low-energy compressor",
+      "HEPA air purifier built in",
+      "App scheduling for night-rate electricity"
+     ],
+     "cons": [
+      "Premium price",
+      "Tank is modest for severe damp"
+     ],
+     "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+    },
+    {
+     "id": "deh-002",
+     "asin": "B0CX5C84BX",
+     "name": "Nyxi 20L/Day Dehumidifier",
+     "brand": "Nyxi",
+     "price": 134,
+     "rating": 4.5,
+     "badge": "Best Big-Capacity Value",
+     "specs": {
+      "Extraction": "20 L/day",
+      "Coverage": "3–4 bed house",
+      "Modes": "Laundry, auto",
+      "Drain": "Continuous option"
+     },
+     "pros": [
+      "Serious 20L extraction under €140",
+      "Handles whole-floor damp",
+      "Strong laundry mode"
+     ],
+     "cons": [
+      "Less-known brand",
+      "Louder at full fan"
+     ],
+     "verdict": "The most litres per euro on Amazon.ie — a big-house workhorse at a small-house price."
+    },
+    {
+     "id": "deh-003",
+     "asin": "B0060MY2KQ",
+     "name": "Meaco DD8L Junior Desiccant Dehumidifier",
+     "brand": "Meaco",
+     "price": 165,
+     "rating": 4.7,
+     "badge": "Best for Cold Rooms",
+     "specs": {
+      "Extraction": "8 L/day",
+      "Type": "Desiccant",
+      "Cold rooms": "Full power at 5°C",
+      "Laundry mode": "Yes"
+     },
+     "pros": [
+      "Full extraction in cold Irish rooms",
+      "Gently warms as it dries",
+      "Excellent laundry drying"
+     ],
+     "cons": [
+      "Higher wattage than compressors",
+      "Smaller tank"
+     ],
+     "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
+    },
+    {
+     "id": "deh-004",
+     "asin": "B0GTWLDCS3",
+     "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
+     "brand": "Masterplug",
+     "price": 196,
+     "rating": 4.4,
+     "badge": "Best Smart 3-in-1",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Extras": "Purifier + ioniser",
+      "Smart": "WiFi app",
+      "Defrost": "Auto"
+     },
+     "pros": [
+      "Dehumidifies, purifies and ionises",
+      "WiFi scheduling from your phone",
+      "Auto-defrost for cold rooms"
+     ],
+     "cons": [
+      "Mid-size tank",
+      "Newer product line"
+     ],
+     "verdict": "The smart all-rounder: three appliances in one box, scheduled from your phone."
+    },
+    {
+     "id": "deh-005",
+     "asin": "B0FJR8RWC7",
+     "name": "EasyAcc 2000ml Dehumidifier Pro",
+     "brand": "EasyAcc",
+     "price": 54,
+     "rating": 4.2,
+     "badge": "Best Budget",
+     "specs": {
+      "Extraction": "Up to 650 ml/day",
+      "Tank": "2 L",
+      "Noise": "Very low",
+      "Safety": "Auto shut-off"
+     },
+     "pros": [
+      "Bargain entry price",
+      "Quiet, simple operation",
+      "Auto shut-off when full"
+     ],
+     "cons": [
+      "Light damp only",
+      "Slows in cold rooms"
+     ],
+     "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
+    }
+   ]
+  },
+  {
+   "slug": "best-small-dehumidifiers-bedroom-ireland",
+   "title": "Best Small Dehumidifiers for Bedrooms & Apartments Ireland 2026",
+   "desc": "Quiet, compact dehumidifiers for Irish bedrooms, apartments and single rooms — noise levels, size and running costs compared. Top 5 picks.",
+   "h1": "Best Small & Bedroom Dehumidifiers in Ireland",
+   "intro": "Condensation hits bedrooms hardest — we each breathe out half a litre of moisture a night into a cold, closed room. The fix needs to be small enough for a corner and quiet enough to sleep beside. We ranked these five on noise first, then extraction and footprint, because a dehumidifier you switch off at bedtime is a dehumidifier that doesn't work.",
+   "faq_idx": [
+    6,
+    5,
+    0
+   ],
+   "products": [
+    {
+     "id": "deh-006",
+     "asin": "B0G1Z1X96K",
+     "name": "MeacoDry Arete One 6L Dehumidifier & Air Purifier",
+     "brand": "Meaco",
+     "price": 169,
+     "rating": 4.6,
+     "badge": "Best Bedroom Choice",
+     "specs": {
+      "Extraction": "6 L/day",
+      "Noise": "32 dB",
+      "Coverage": "Apartments/bedrooms",
+      "Modes": "Night, laundry"
+     },
+     "pros": [
+      "32 dB — genuinely sleep-through quiet",
+      "Compact footprint",
+      "Meaco reliability and support"
+     ],
+     "cons": [
+      "6 L/day suits smaller spaces",
+      "No app control"
+     ],
+     "verdict": "The bedroom and apartment pick: whisper-quiet condensation control from the most trusted brand."
+    },
+    {
+     "id": "deh-007",
+     "asin": "B0FSDWF3CF",
+     "name": "Morphy Richards PureFresh Compact Dehumidifier",
+     "brand": "Morphy Richards",
+     "price": 38,
+     "rating": 4.1,
+     "badge": "Best Brand Mini",
+     "specs": {
+      "Tank": "0.9 L",
+      "Noise": "Quiet",
+      "Extras": "Ambient light",
+      "Use": "Bedrooms, caravans"
+     },
+     "pros": [
+      "Trusted brand mini",
+      "Quiet enough for bedrooms",
+      "Caravan and boat friendly"
+     ],
+     "cons": [
+      "Light-duty extraction",
+      "Frequent emptying"
+     ],
+     "verdict": "Brand-name mini for bedrooms and small damp corners."
+    },
+    {
+     "id": "deh-008",
+     "asin": "B0FJR8RWC7",
+     "name": "EasyAcc 2000ml Dehumidifier Pro",
+     "brand": "EasyAcc",
+     "price": 54,
+     "rating": 4.2,
+     "badge": "Best Value Mini",
+     "specs": {
+      "Extraction": "Up to 650 ml/day",
+      "Tank": "2 L",
+      "Noise": "Very low",
+      "Safety": "Auto shut-off"
+     },
+     "pros": [
+      "Bargain entry price",
+      "Quiet, simple operation",
+      "Auto shut-off when full"
+     ],
+     "cons": [
+      "Light damp only",
+      "Slows in cold rooms"
+     ],
+     "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
+    },
+    {
+     "id": "deh-009",
+     "asin": "B0BW1P37CC",
+     "name": "Belaco 1000ml Portable Dehumidifier",
+     "brand": "Belaco",
+     "price": 37,
+     "rating": 4.0,
+     "badge": "Cheapest Worth Buying",
+     "specs": {
+      "Extraction": "~300 ml/day",
+      "Tank": "1 L",
+      "Size": "Compact",
+      "Use": "Small rooms"
+     },
+     "pros": [
+      "€37 entry point",
+      "Tiny and portable",
+      "One-button simplicity"
+     ],
+     "cons": [
+      "Small rooms only",
+      "Limited daily extraction"
+     ],
+     "verdict": "The windowsill-class mini for light condensation spots and caravans."
+    },
+    {
+     "id": "deh-010",
+     "asin": "B0CTKPZ5FJ",
+     "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+     "brand": "Meaco",
+     "price": 259,
+     "rating": 4.8,
+     "badge": "Best Premium Quiet",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Filter": "HEPA built in",
+      "Noise": "~36 dB",
+      "Smart": "App + voice"
+     },
+     "pros": [
+      "Ultra-quiet, low-energy compressor",
+      "HEPA air purifier built in",
+      "App scheduling for night-rate electricity"
+     ],
+     "cons": [
+      "Premium price",
+      "Tank is modest for severe damp"
+     ],
+     "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+    }
+   ]
+  },
+  {
+   "slug": "best-20l-dehumidifiers-large-homes-ireland",
+   "title": "Best 20L+ Dehumidifiers for Large & Damp Homes Ireland 2026",
+   "desc": "Big-capacity 20–25L dehumidifiers for large or very damp Irish houses — extraction, continuous drainage and efficiency compared. Top 5.",
+   "h1": "Best 20L+ Dehumidifiers for Large Irish Homes",
+   "intro": "Older Irish housing stock — solid walls, single glazing, suspect ventilation — can produce damp faster than small machines remove it. For 4+ bedrooms, persistent mould or post-leak drying, you want 20–25L of daily extraction, a big tank or hose drainage, and efficiency that doesn't punish all-day running. These five are the heavy lifters.",
+   "faq_idx": [
+    0,
+    4,
+    1
+   ],
+   "products": [
+    {
+     "id": "deh-011",
+     "asin": "B0CX5C84BX",
+     "name": "Nyxi 20L/Day Dehumidifier",
+     "brand": "Nyxi",
+     "price": 134,
+     "rating": 4.5,
+     "badge": "Best 20L Overall",
+     "specs": {
+      "Extraction": "20 L/day",
+      "Coverage": "3–4 bed house",
+      "Modes": "Laundry, auto",
+      "Drain": "Continuous option"
+     },
+     "pros": [
+      "Serious 20L extraction under €140",
+      "Handles whole-floor damp",
+      "Strong laundry mode"
+     ],
+     "cons": [
+      "Less-known brand",
+      "Louder at full fan"
+     ],
+     "verdict": "The most litres per euro on Amazon.ie — a big-house workhorse at a small-house price."
+    },
+    {
+     "id": "deh-012",
+     "asin": "B0CTKPZ5FJ",
+     "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+     "brand": "Meaco",
+     "price": 259,
+     "rating": 4.8,
+     "badge": "Best Premium Large",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Filter": "HEPA built in",
+      "Noise": "~36 dB",
+      "Smart": "App + voice"
+     },
+     "pros": [
+      "Ultra-quiet, low-energy compressor",
+      "HEPA air purifier built in",
+      "App scheduling for night-rate electricity"
+     ],
+     "cons": [
+      "Premium price",
+      "Tank is modest for severe damp"
+     ],
+     "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+    },
+    {
+     "id": "deh-013",
+     "asin": "B0GTWLDCS3",
+     "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
+     "brand": "Masterplug",
+     "price": 196,
+     "rating": 4.4,
+     "badge": "Best Smart Large",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Extras": "Purifier + ioniser",
+      "Smart": "WiFi app",
+      "Defrost": "Auto"
+     },
+     "pros": [
+      "Dehumidifies, purifies and ionises",
+      "WiFi scheduling from your phone",
+      "Auto-defrost for cold rooms"
+     ],
+     "cons": [
+      "Mid-size tank",
+      "Newer product line"
+     ],
+     "verdict": "The smart all-rounder: three appliances in one box, scheduled from your phone."
+    },
+    {
+     "id": "deh-014",
+     "asin": "B0060MY2KQ",
+     "name": "Meaco DD8L Junior Desiccant Dehumidifier",
+     "brand": "Meaco",
+     "price": 165,
+     "rating": 4.7,
+     "badge": "Best for Cold Big Spaces",
+     "specs": {
+      "Extraction": "8 L/day",
+      "Type": "Desiccant",
+      "Cold rooms": "Full power at 5°C",
+      "Laundry mode": "Yes"
+     },
+     "pros": [
+      "Full extraction in cold Irish rooms",
+      "Gently warms as it dries",
+      "Excellent laundry drying"
+     ],
+     "cons": [
+      "Higher wattage than compressors",
+      "Smaller tank"
+     ],
+     "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
+    },
+    {
+     "id": "deh-015",
+     "asin": "B0FJR8RWC7",
+     "name": "EasyAcc 2000ml Dehumidifier Pro",
+     "brand": "EasyAcc",
+     "price": 54,
+     "rating": 4.2,
+     "badge": "Secondary-Room Support",
+     "specs": {
+      "Extraction": "Up to 650 ml/day",
+      "Tank": "2 L",
+      "Noise": "Very low",
+      "Safety": "Auto shut-off"
+     },
+     "pros": [
+      "Bargain entry price",
+      "Quiet, simple operation",
+      "Auto shut-off when full"
+     ],
+     "cons": [
+      "Light damp only",
+      "Slows in cold rooms"
+     ],
+     "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
+    }
+   ]
+  },
+  {
+   "slug": "best-dehumidifiers-drying-clothes-ireland",
+   "title": "Best Dehumidifiers for Drying Clothes Indoors Ireland 2026",
+   "desc": "Dry washing indoors overnight for cents: the 5 best laundry-mode dehumidifiers in Ireland vs tumble dryer costs. Compared 2026.",
+   "h1": "Best Dehumidifiers for Drying Clothes in Ireland",
+   "intro": "Eight months a year, the Irish washing line is theoretical. A tumble dryer costs roughly €1.30–1.80 per load at current rates; a dehumidifier in laundry mode dries the same load overnight for about 6–10 cents — gentler on clothes, with zero condensation soaking your walls. These five have the strongest dedicated laundry performance we compared.",
+   "faq_idx": [
+    3,
+    1,
+    7
+   ],
+   "products": [
+    {
+     "id": "deh-016",
+     "asin": "B0060MY2KQ",
+     "name": "Meaco DD8L Junior Desiccant Dehumidifier",
+     "brand": "Meaco",
+     "price": 165,
+     "rating": 4.7,
+     "badge": "Best Laundry Performance",
+     "specs": {
+      "Extraction": "8 L/day",
+      "Type": "Desiccant",
+      "Cold rooms": "Full power at 5°C",
+      "Laundry mode": "Yes"
+     },
+     "pros": [
+      "Full extraction in cold Irish rooms",
+      "Gently warms as it dries",
+      "Excellent laundry drying"
+     ],
+     "cons": [
+      "Higher wattage than compressors",
+      "Smaller tank"
+     ],
+     "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
+    },
+    {
+     "id": "deh-017",
+     "asin": "B0CX5C84BX",
+     "name": "Nyxi 20L/Day Dehumidifier",
+     "brand": "Nyxi",
+     "price": 134,
+     "rating": 4.5,
+     "badge": "Best Big-Load Capacity",
+     "specs": {
+      "Extraction": "20 L/day",
+      "Coverage": "3–4 bed house",
+      "Modes": "Laundry, auto",
+      "Drain": "Continuous option"
+     },
+     "pros": [
+      "Serious 20L extraction under €140",
+      "Handles whole-floor damp",
+      "Strong laundry mode"
+     ],
+     "cons": [
+      "Less-known brand",
+      "Louder at full fan"
+     ],
+     "verdict": "The most litres per euro on Amazon.ie — a big-house workhorse at a small-house price."
+    },
+    {
+     "id": "deh-018",
+     "asin": "B0CTKPZ5FJ",
+     "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+     "brand": "Meaco",
+     "price": 259,
+     "rating": 4.8,
+     "badge": "Best Quiet Overnight",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Filter": "HEPA built in",
+      "Noise": "~36 dB",
+      "Smart": "App + voice"
+     },
+     "pros": [
+      "Ultra-quiet, low-energy compressor",
+      "HEPA air purifier built in",
+      "App scheduling for night-rate electricity"
+     ],
+     "cons": [
+      "Premium price",
+      "Tank is modest for severe damp"
+     ],
+     "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+    },
+    {
+     "id": "deh-019",
+     "asin": "B0GTWLDCS3",
+     "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
+     "brand": "Masterplug",
+     "price": 196,
+     "rating": 4.4,
+     "badge": "Best Smart Scheduling",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Extras": "Purifier + ioniser",
+      "Smart": "WiFi app",
+      "Defrost": "Auto"
+     },
+     "pros": [
+      "Dehumidifies, purifies and ionises",
+      "WiFi scheduling from your phone",
+      "Auto-defrost for cold rooms"
+     ],
+     "cons": [
+      "Mid-size tank",
+      "Newer product line"
+     ],
+     "verdict": "The smart all-rounder: three appliances in one box, scheduled from your phone."
+    },
+    {
+     "id": "deh-020",
+     "asin": "B0G1Z1X96K",
+     "name": "MeacoDry Arete One 6L Dehumidifier & Air Purifier",
+     "brand": "Meaco",
+     "price": 169,
+     "rating": 4.6,
+     "badge": "Best Small-Space Laundry",
+     "specs": {
+      "Extraction": "6 L/day",
+      "Noise": "32 dB",
+      "Coverage": "Apartments/bedrooms",
+      "Modes": "Night, laundry"
+     },
+     "pros": [
+      "32 dB — genuinely sleep-through quiet",
+      "Compact footprint",
+      "Meaco reliability and support"
+     ],
+     "cons": [
+      "6 L/day suits smaller spaces",
+      "No app control"
+     ],
+     "verdict": "The bedroom and apartment pick: whisper-quiet condensation control from the most trusted brand."
+    }
+   ]
+  },
+  {
+   "slug": "best-dehumidifiers-mould-damp-ireland",
+   "title": "Best Dehumidifiers for Mould & Serious Damp Ireland 2026",
+   "desc": "Fighting black mould or persistent damp in an Irish home? The 5 best dehumidifiers with HEPA/UV air treatment and high extraction, compared.",
+   "h1": "Best Dehumidifiers for Mould & Serious Damp in Ireland",
+   "intro": "Black mould on walls is a humidity problem wearing a scary costume: keep a room under 60% RH and mould physically cannot grow. For homes already showing spots — window reveals, cold corners, behind wardrobes — you want strong extraction plus air filtration to catch spores. These five pair the muscle with the filters, ranked by how fast they make mould's life impossible.",
+   "faq_idx": [
+    2,
+    7,
+    4
+   ],
+   "products": [
+    {
+     "id": "deh-021",
+     "asin": "B0CTKPZ5FJ",
+     "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+     "brand": "Meaco",
+     "price": 259,
+     "rating": 4.8,
+     "badge": "Best Anti-Mould (HEPA)",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Filter": "HEPA built in",
+      "Noise": "~36 dB",
+      "Smart": "App + voice"
+     },
+     "pros": [
+      "Ultra-quiet, low-energy compressor",
+      "HEPA air purifier built in",
+      "App scheduling for night-rate electricity"
+     ],
+     "cons": [
+      "Premium price",
+      "Tank is modest for severe damp"
+     ],
+     "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+    },
+    {
+     "id": "deh-022",
+     "asin": "B0GTWLDCS3",
+     "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
+     "brand": "Masterplug",
+     "price": 196,
+     "rating": 4.4,
+     "badge": "Best Purifier Combo",
+     "specs": {
+      "Extraction": "12 L/day",
+      "Extras": "Purifier + ioniser",
+      "Smart": "WiFi app",
+      "Defrost": "Auto"
+     },
+     "pros": [
+      "Dehumidifies, purifies and ionises",
+      "WiFi scheduling from your phone",
+      "Auto-defrost for cold rooms"
+     ],
+     "cons": [
+      "Mid-size tank",
+      "Newer product line"
+     ],
+     "verdict": "The smart all-rounder: three appliances in one box, scheduled from your phone."
+    },
+    {
+     "id": "deh-023",
+     "asin": "B0CX5C84BX",
+     "name": "Nyxi 20L/Day Dehumidifier",
+     "brand": "Nyxi",
+     "price": 134,
+     "rating": 4.5,
+     "badge": "Best for Severe Damp",
+     "specs": {
+      "Extraction": "20 L/day",
+      "Coverage": "3–4 bed house",
+      "Modes": "Laundry, auto",
+      "Drain": "Continuous option"
+     },
+     "pros": [
+      "Serious 20L extraction under €140",
+      "Handles whole-floor damp",
+      "Strong laundry mode"
+     ],
+     "cons": [
+      "Less-known brand",
+      "Louder at full fan"
+     ],
+     "verdict": "The most litres per euro on Amazon.ie — a big-house workhorse at a small-house price."
+    },
+    {
+     "id": "deh-024",
+     "asin": "B0060MY2KQ",
+     "name": "Meaco DD8L Junior Desiccant Dehumidifier",
+     "brand": "Meaco",
+     "price": 165,
+     "rating": 4.7,
+     "badge": "Best Cold Mouldy Rooms",
+     "specs": {
+      "Extraction": "8 L/day",
+      "Type": "Desiccant",
+      "Cold rooms": "Full power at 5°C",
+      "Laundry mode": "Yes"
+     },
+     "pros": [
+      "Full extraction in cold Irish rooms",
+      "Gently warms as it dries",
+      "Excellent laundry drying"
+     ],
+     "cons": [
+      "Higher wattage than compressors",
+      "Smaller tank"
+     ],
+     "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
+    },
+    {
+     "id": "deh-025",
+     "asin": "B0FJR8RWC7",
+     "name": "EasyAcc 2000ml Dehumidifier Pro",
+     "brand": "EasyAcc",
+     "price": 54,
+     "rating": 4.2,
+     "badge": "Budget Mould Starter",
+     "specs": {
+      "Extraction": "Up to 650 ml/day",
+      "Tank": "2 L",
+      "Noise": "Very low",
+      "Safety": "Auto shut-off"
+     },
+     "pros": [
+      "Bargain entry price",
+      "Quiet, simple operation",
+      "Auto shut-off when full"
+     ],
+     "cons": [
+      "Light damp only",
+      "Slows in cold rooms"
+     ],
+     "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
+    }
+   ]
+  }
+ ]
 }
