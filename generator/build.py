@@ -264,6 +264,35 @@ footer .legal{border-top:1px solid #1E2E3C;padding-top:20px;font-size:.76rem;lin
 .top-btn.show{opacity:1;pointer-events:auto}
 .top-btn:hover{transform:translateY(-3px)}
 article.card{scroll-margin-top:90px}
+/* footer aff line */
+.aff-line{font-size:.8rem;color:#A8B8C6;padding:14px 0;border-top:1px solid #1E2E3C;margin-top:4px}
+/* spotlight */
+.spot{margin:54px 0 10px;background:linear-gradient(140deg,#0A3A29,#0C5C41 70%,#0E6B4A);border-radius:24px;padding:40px 36px;color:#fff;position:relative;overflow:hidden;box-shadow:var(--sh-lg)}
+.spot::before{content:'';position:absolute;inset:0;background:radial-gradient(540px 280px at 88% 0%,rgba(240,164,28,.18),transparent 65%)}
+.spot>*{position:relative}
+.spot-head{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:24px}
+.spot-head h2{margin:0;padding:0;color:#fff;font-size:1.5rem}
+.spot-head h2::before{display:none}
+.spot-tabs{display:flex;gap:4px;background:rgba(0,0,0,.25);padding:5px;border-radius:99px;border:1px solid rgba(255,255,255,.12)}
+.spot-tab{border:0;background:transparent;color:#B9CFC2;font-weight:600;font-size:.82rem;padding:9px 18px;border-radius:99px;cursor:pointer;transition:background .3s,color .3s;font-family:'Inter'}
+.spot-tab.on{background:rgba(255,255,255,.14);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.15)}
+.spot-panel{display:none;align-items:center;gap:36px}
+.spot-panel.on{display:flex;animation:spotIn .45s ease}
+@keyframes spotIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.spot-vis{flex:none;width:170px;height:170px;border-radius:50%;background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.18),rgba(255,255,255,.05));border:1px dashed rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;color:#EAF6EF;animation:floaty 6s ease-in-out infinite}
+.spot-vis .ic{width:64px;height:64px}
+@keyframes floaty{0%,100%{transform:translateY(-6px)}50%{transform:translateY(6px)}}
+.spot-info{flex:1;min-width:240px}
+.spot-info .k{font-size:.72rem;text-transform:uppercase;letter-spacing:1.4px;color:var(--gold-l);font-weight:700}
+.spot-info h3{color:#fff;font-size:1.5rem;margin:6px 0 4px;letter-spacing:-.4px}
+.spot-info .pr{font-family:'Bricolage Grotesque';font-size:1.4rem;font-weight:800;color:var(--gold-l);margin-bottom:14px}
+.bar{margin:10px 0}
+.bar .lb{display:flex;justify-content:space-between;font-size:.76rem;color:#C2D6C9;margin-bottom:6px;letter-spacing:.3px}
+.bar u{display:block;height:7px;background:rgba(0,0,0,.3);border-radius:99px;overflow:hidden;text-decoration:none}
+.bar i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--gold-l));transition:width 1s cubic-bezier(.2,.7,.2,1)}
+.spot .btn{margin-top:16px;padding:12px 26px;font-size:.95rem}
+@media(max-width:700px){.spot{padding:28px 20px}.spot-panel.on{flex-direction:column;text-align:center}.spot-vis{width:130px;height:130px}}
+
 """
 
 # ---------------------------------------------------------------- template pieces
@@ -279,11 +308,10 @@ def header_html(depth=0):
         for i, c in enumerate(CATS))
     burger = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>'
     return f"""<header><div class="wrap nav">
-<a class="logo" href="{p}index.html" aria-label="{SITE_NAME} home"><span class="mark">P</span>Pick<span>Ireland</span></a>
+<a class="logo" href="{p}index.html" aria-label="{SITE_NAME} home"><span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 64 64" fill="none"><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pick<span>Ireland</span></a>
 <button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))">{burger}</button>
 <nav class="nav-links" aria-label="Categories">{cats_links}<a href="{p}index.html#categories">All categories</a></nav>
-</div></header>
-<div class="disclosure">As an Amazon Associate, {SITE_NAME} earns from qualifying purchases. <a href="{p}affiliate-disclosure.html">Learn more</a></div>"""
+</div></header>"""
 
 def footer_html(depth=0):
     p = "../" * depth
@@ -294,6 +322,7 @@ def footer_html(depth=0):
 <div><h4>Categories</h4>{cat_links}</div>
 <div><h4>About</h4><a href="{p}about.html">About us</a><br><a href="{p}affiliate-disclosure.html">Affiliate disclosure</a><br><a href="{p}privacy.html">Privacy policy</a><br><a href="{p}contact.html">Contact</a></div>
 </div>
+<div class="aff-line">As an Amazon Associate, {SITE_NAME} earns from qualifying purchases. <a href="{p}affiliate-disclosure.html">Learn more</a>.</div>
 <div class="legal">© {YEAR} {SITE_NAME}. Prices shown are typical/indicative in EUR and change frequently — always check the current price at the retailer. As an Amazon Associate we earn from qualifying purchases.</div>
 </div></footer>"""
 
@@ -314,6 +343,9 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld=""):
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#0B5B40">
 <meta property="og:locale" content="en_IE">
+<link rel="icon" type="image/svg+xml" href="{'../' * depth}favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="{'../' * depth}favicon-32.png">
+<link rel="apple-touch-icon" href="{'../' * depth}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>{CSS}</style>
@@ -326,12 +358,7 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld=""):
 </main>
 {footer_html(depth)}
 <button class="top-btn" aria-label="Back to top" onclick="scrollTo({{top:0,behavior:'smooth'}})"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5m-7 7 7-7 7 7"/></svg></button>
-<script>
-(function(){{var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
-if(!rm&&'IntersectionObserver' in window){{var io=new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add('vis');io.unobserve(e.target)}}}})}},{{threshold:.06}});
-document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a').forEach(function(el){{el.classList.add('rv');io.observe(el)}})}}
-var tb=document.querySelector('.top-btn');addEventListener('scroll',function(){{tb.classList.toggle('show',scrollY>700)}},{{passive:true}});}})();
-</script>
+<script defer src="{'../' * depth}assets/site.js"></script>
 </body>
 </html>"""
 
@@ -485,12 +512,36 @@ for cat in CATS:
     featured += f'<a href="{cat["category"]}/{pg["slug"]}.html"><span style="display:flex;align-items:center;gap:10px"><span class="icw" style="width:34px;height:34px;border-radius:9px;background:var(--green-t);color:var(--green);display:inline-flex;align-items:center;justify-content:center">{icon(cat["category"], 18)}</span>{esc(pg["h1"])}</span>{ARROW}</a>'
 n_guides = sum(len(c["pages"]) for c in CATS)
 n_prods = sum(len(p["products"]) for c in CATS for p in c["pages"])
+
+# spotlight featured products
+spot_keys=[('dehumidifiers','Damp season essential'),('air-fryers','Kitchen favourite'),('coffee-machines','High-ticket pick')]
+spot_tabs=""; spot_panels=""
+for si,(sk,slabel) in enumerate(spot_keys):
+    scat=next(c for c in CATS if c['category']==sk)
+    sp=scat['pages'][0]['products'][0]
+    surl,_=product_url(sp)
+    on=" on" if si==0 else ""
+    spot_tabs+=f'<button type="button" class="spot-tab{on}" data-k="{sk}">{esc(scat["name"])}</button>'
+    r1=int(sp['rating']*20); r2=min(97,88+si*3)
+    spot_panels+=f"""<div class="spot-panel{on}" data-k="{sk}">
+<div class="spot-vis">{icon(sk,64)}</div>
+<div class="spot-info">
+<div class="k">{esc(slabel)} · {esc(sp['badge'])}</div>
+<h3>{esc(sp['name'])}</h3>
+<div class="pr">€{product_price(sp)}</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>{sp['rating']}/5</span></div><u><i data-w="{r1}"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>{r2}%</span></div><u><i data-w="{r2}"></i></u></div>
+<a class="btn" href="{esc(surl)}" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie {ARROW}</a>
+</div></div>"""
+spot_html=f'<section class="spot" aria-label="Featured picks"><div class="spot-head"><h2>Editor&#39;s spotlight</h2><div class="spot-tabs">{spot_tabs}</div></div>{spot_panels}</section>'
+
 body_home = f"""
 <div class="hero" style="margin:0 -22px"><div class="wrap">
 <h1>Buy right the first time, <em>Ireland</em></h1>
 <p>Independent comparisons of what Irish homes actually buy — real € prices, running costs on Irish electricity, and verdicts that pick a side. No fluff, no 40 open tabs.</p>
 <div class="hero-stats"><div><b>{n_guides}</b>buying guides</div><div><b>{n_prods}</b>products compared</div><div><b>{YEAR}</b>kept updated</div></div>
 </div></div>
+{spot_html}
 <h2 id="categories">Browse by category</h2>
 <div class="grid">{tiles}</div>
 <h2>Featured guides</h2>
@@ -549,3 +600,44 @@ linked = sum(1 for v in LINKS.values() if v.get("link"))
 imgs = sum(1 for v in LINKS.values() if v.get("image"))
 print(f"Built {len(all_pages)} pages into {os.path.abspath(OUT)}")
 print(f"Affiliate links filled: {linked} / 248 | images filled: {imgs} / 248")
+
+# ---------------------------------------------------------------- assets: js, favicon
+os.makedirs(os.path.join(OUT,"assets"),exist_ok=True)
+SITE_JS = """(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(!rm&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.06});
+document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a,.spot').forEach(function(el){el.classList.add('rv');io.observe(el)})}
+var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
+var spot=document.querySelector('.spot');
+if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
+function bars(p){p.querySelectorAll('.bar i').forEach(function(b){b.style.width='0%';requestAnimationFrame(function(){requestAnimationFrame(function(){b.style.width=b.dataset.w+'%'})})})}
+tabs.forEach(function(t){t.addEventListener('click',function(){
+tabs.forEach(function(x){x.classList.remove('on')});t.classList.add('on');
+panels.forEach(function(p){p.classList.remove('on')});
+var p=spot.querySelector('.spot-panel[data-k=\\"'+t.dataset.k+'\\"]');p.classList.add('on');bars(p)})});
+var first=spot.querySelector('.spot-panel.on');if(first)bars(first)}
+})();"""
+with open(os.path.join(OUT,"assets","site.js"),"w",encoding="utf-8") as f:
+    f.write(SITE_JS)
+FAV = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12805C"/><stop offset="1" stop-color="#073F2C"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="url(#g)"/><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>'
+with open(os.path.join(OUT,"favicon.svg"),"w",encoding="utf-8") as f:
+    f.write(FAV)
+try:
+    from PIL import Image, ImageDraw
+    for size,name in ((180,"apple-touch-icon.png"),(32,"favicon-32.png")):
+        img=Image.new("RGBA",(size,size),(0,0,0,0)); d=ImageDraw.Draw(img)
+        r=size*15//64
+        d.rounded_rectangle([0,0,size-1,size-1],radius=r,fill=(11,80,57,255))
+        w=max(2,size*7//64)
+        def pt(x,y): return (x*size/64.0,y*size/64.0)
+        d.line([pt(22,48),pt(22,16)],fill=(255,255,255,255),width=w)
+        d.arc([pt(13,16)[0],pt(13,16)[1],pt(46,38)[0],pt(46,38)[1]],270,90,fill=(255,255,255,255),width=w)
+        d.line([pt(22,16),pt(33,16)],fill=(255,255,255,255),width=w)
+        d.line([pt(22,38),pt(30,38)],fill=(255,255,255,255),width=w)
+        gw=max(2,size*6//64)
+        d.line([pt(33,44),pt(39,50)],fill=(255,198,92,255),width=gw)
+        d.line([pt(39,50),pt(50,38)],fill=(255,198,92,255),width=gw)
+        img.save(os.path.join(OUT,name))
+    print("png icons ok")
+except Exception as e:
+    print("PIL skip:",e)
