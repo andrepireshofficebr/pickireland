@@ -78,6 +78,15 @@ def load_links():
 
 LINKS = load_links()
 
+# Overlay de links exatos preenchidos manualmente (id -> link de afiliado), sem mexer no xlsx.
+_extra = os.path.join(BASE, "extra_links.json")
+if os.path.exists(_extra):
+    for _id, _lnk in json.load(open(_extra, encoding="utf-8")).items():
+        if _lnk:
+            _d = LINKS.get(_id, {})
+            _d["link"] = _lnk
+            LINKS[_id] = _d
+
 AFF_TAG = "elevaonline-21"   # Amazon Associates StoreID
 def amazon_search_url(p):
     q = re.sub(r"[^A-Za-z0-9 ]", "", p["name"]).replace(" ", "+")
@@ -670,9 +679,4 @@ simple_page("about.html", "About PickIreland", f"""
 simple_page("privacy.html", "Privacy Policy", f"""
 <p>{SITE_NAME} respects your privacy. We do not require accounts, collect names, or store personal data submitted by visitors.</p>
 <p><strong>Analytics:</strong> We may use privacy-respecting analytics to understand which guides are useful (page views, approximate region, device type). No personally identifying information is collected.</p>
-<p><strong>Affiliate links:</strong> When you click an affiliate link, the retailer (e.g. Amazon) may set cookies to attribute the sale. Those cookies are governed by the retailer's own privacy policy.</p>
-<p><strong>Contact:</strong> If you email us, we use your address only to reply.</p>""")
-
-simple_page("contact.html", "Contact", f"""
-<p>Spotted an error? Price changed? Have a product we should look at? We'd love to hear from you.</p>
-<p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></str
+<p><strong>Affiliate links:</strong> When you click an affiliate link, the retailer (e.g. Amazon) may set cookies to attribute the sale. Those cookies are governed by the retailer'
