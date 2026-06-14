@@ -26,12 +26,12 @@ GTAG = ("" if not GA_ID else
         "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
         f"gtag('js',new Date());gtag('config','{GA_ID}');</script>")
 # Banner de cookies discreto e nao-bloqueante (consentimento implicito; permite recusar)
-COOKIE_BANNER = """<div id="ckb" hidden style="position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;background:#0E1B26;color:#C4D2DE;border:1px solid #25394a;border-radius:12px;padding:12px 16px;font:14px/1.5 Inter,system-ui,sans-serif;box-shadow:0 12px 32px -12px rgba(0,0,0,.55);z-index:120;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+COOKIE_BANNER = """<div id="ckb" style="display:none;position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;background:#0E1B26;color:#C4D2DE;border:1px solid #25394a;border-radius:12px;padding:12px 16px;font:14px/1.5 Inter,system-ui,sans-serif;box-shadow:0 12px 32px -12px rgba(0,0,0,.55);z-index:120;gap:12px;align-items:center;flex-wrap:wrap">
 <span style="flex:1;min-width:210px">We use cookies to measure site traffic (Google Analytics). <a href="/privacy.html" style="color:#7FD4A8">Learn more</a>.</span>
 <button id="ckb-no" style="background:transparent;border:1px solid #3a4f60;color:#C4D2DE;padding:7px 14px;border-radius:8px;cursor:pointer;font-weight:600">Decline</button>
 <button id="ckb-ok" style="background:#F0A41C;border:0;color:#2A1A00;padding:7px 16px;border-radius:8px;cursor:pointer;font-weight:700">Accept</button>
 </div>
-<script>(function(){try{var k='ck_consent',c=localStorage.getItem(k);function ap(v){if(window.gtag){gtag('consent','update',{analytics_storage:v==='granted'?'granted':'denied',ad_storage:'denied'});}}if(c){ap(c);return;}var b=document.getElementById('ckb');if(!b)return;b.hidden=false;document.getElementById('ckb-ok').onclick=function(){localStorage.setItem(k,'granted');ap('granted');b.hidden=true;};document.getElementById('ckb-no').onclick=function(){localStorage.setItem(k,'denied');ap('denied');b.hidden=true;};}catch(e){}})();</script>"""
+<script>(function(){try{var k='ck_consent',c=localStorage.getItem(k);function ap(v){if(window.gtag){gtag('consent','update',{analytics_storage:v==='granted'?'granted':'denied',ad_storage:'denied'});}}if(c){ap(c);return;}var b=document.getElementById('ckb');if(!b)return;b.style.display='flex';document.getElementById('ckb-ok').onclick=function(){localStorage.setItem(k,'granted');ap('granted');b.style.display='none';};document.getElementById('ckb-no').onclick=function(){localStorage.setItem(k,'denied');ap('denied');b.style.display='none';};}catch(e){}})();</script>"""
 # Autor dos guias (E-E-A-T). Edite a bio/url quando quiser; deixe url vazio se nao tiver LinkedIn.
 AUTHOR = {
     "name": "André Pires",
@@ -675,5 +675,4 @@ simple_page("privacy.html", "Privacy Policy", f"""
 
 simple_page("contact.html", "Contact", f"""
 <p>Spotted an error? Price changed? Have a product we should look at? We'd love to hear from you.</p>
-<p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></strong></p>
-<p>We read
+<p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></str
