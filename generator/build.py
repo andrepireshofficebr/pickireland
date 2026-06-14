@@ -19,6 +19,12 @@ YEAR = datetime.date.today().year
 TODAY = datetime.date.today().strftime("%d %B %Y")
 TODAY_ISO = datetime.date.today().strftime("%Y-%m-%d")
 OG_IMAGE = DOMAIN + "/assets/og-default.png"   # imagem padrao de compartilhamento (1200x630)
+GA_ID = "G-CEPZNGM1FZ"   # Google Analytics 4 (deixe "" para desativar)
+GTAG = ("" if not GA_ID else
+        "<!-- Google tag (gtag.js) -->\n"
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+        "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+        f"gtag('js',new Date());gtag('config','{GA_ID}');</script>")
 # Autor dos guias (E-E-A-T). Edite a bio/url quando quiser; deixe url vazio se nao tiver LinkedIn.
 AUTHOR = {
     "name": "André Pires",
@@ -363,6 +369,7 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="articl
 <html lang="en-IE">
 <head>
 <meta charset="utf-8">
+{GTAG}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
@@ -682,11 +689,4 @@ _llms += ["", "## About",
           f"- [About & methodology]({DOMAIN}/about.html)",
           f"- [Affiliate disclosure]({DOMAIN}/affiliate-disclosure.html)",
           "", "## Notes",
-          f"Written by {AUTHOR['name']}. All comparisons are independent and Ireland-specific (Irish electricity rates, weather, legal rules, and local availability via Amazon.ie). As an Amazon Associate, {SITE_NAME} earns from qualifying purchases at no cost to the reader."]
-with open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8") as f:
-    f.write("\n".join(_llms) + "\n")
-with open(os.path.join(OUT, "CNAME"), "w") as f:
-    f.write("pickireland.best\n")
-open(os.path.join(OUT, ".nojekyll"), "w").close()
-
-# ---------------------------------------------------------------- google ads page feed
+          f"Written by {AUTHOR['name']}. All comparisons are independent and Ireland-specific (Irish electricity rates, weather, legal rules, and local availability via Amazon.ie). As an Amaz
