@@ -23,5 +23,4 @@ if(!q){res.innerHTML='<div class="search-hint">Type to search every product we h
 var out=idx.filter(function(p){return (p.n+' '+p.b+' '+p.c).toLowerCase().indexOf(q)>-1});
 var seen={},uniq=[];out.forEach(function(p){if(!seen[p.n]){seen[p.n]=1;uniq.push(p)}});
 res.innerHTML=uniq.slice(0,12).map(function(p){return '<a href="/'+p.u+'#'+p.i+'"><span>'+p.n+'<div class="meta">'+p.c+' · '+p.b+'</div></span><span class="sp">€'+p.p+'</span></a>'}).join('')||'<div class="search-hint">No products found for “'+sb.value+'”</div>'}
-sb.addEventListener('input',function(){if(idx){render()}else{fetch('/assets/search.json').then(function(r){return r.json()}).then(function(d){idx=d;render()})}})}
-})();
+sb.addEventListener('input',function(){if(idx){render()}else{fetch('/assets/search.json').then(function(r){return r.json()}).then(function(d){i
