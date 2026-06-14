@@ -78,9 +78,11 @@ def load_links():
 
 LINKS = load_links()
 
+AFF_TAG = "elevaonline-21"   # Amazon Associates StoreID
 def amazon_search_url(p):
     q = re.sub(r"[^A-Za-z0-9 ]", "", p["name"]).replace(" ", "+")
-    return f"https://www.amazon.ie/s?k={q}"
+    # mesmo sem o link exato do produto, mantém a tag -> clique monetizado (seta o cookie de afiliado)
+    return f"https://www.amazon.ie/s?k={q}&tag={AFF_TAG}"
 
 def product_url(p):
     info = LINKS.get(p["id"], {})
@@ -674,6 +676,4 @@ simple_page("privacy.html", "Privacy Policy", f"""
 simple_page("contact.html", "Contact", f"""
 <p>Spotted an error? Price changed? Have a product we should look at? We'd love to hear from you.</p>
 <p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></strong></p>
-<p>We read every message and use your feedback to keep our {SITE_NAME} guides accurate and up to date.</p>""")
-
-# ---------------------------------------------------------------- sitema
+<p>We read
