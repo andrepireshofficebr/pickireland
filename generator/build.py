@@ -679,4 +679,160 @@ simple_page("about.html", "About PickIreland", f"""
 simple_page("privacy.html", "Privacy Policy", f"""
 <p>{SITE_NAME} respects your privacy. We do not require accounts, collect names, or store personal data submitted by visitors.</p>
 <p><strong>Analytics:</strong> We may use privacy-respecting analytics to understand which guides are useful (page views, approximate region, device type). No personally identifying information is collected.</p>
-<p><strong>Affiliate links:</strong> When you click an affiliate link, the retailer (e.g. Amazon) may set cookies to attribute the sale. Those cookies are governed by the retailer'
+<p><strong>Affiliate links:</strong> When you click an affiliate link, the retailer (e.g. Amazon) may set cookies to attribute the sale. Those cookies are governed by the retailer's own privacy policy.</p>
+<p><strong>Contact:</strong> If you email us, we use your address only to reply.</p>""")
+
+simple_page("contact.html", "Contact", f"""
+<p>Spotted an error? Price changed? Have a product we should look at? We'd love to hear from you.</p>
+<p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></strong></p>
+<p>We read every message and use your feedback to keep our {SITE_NAME} guides accurate and up to date.</p>""")
+
+# ---------------------------------------------------------------- sitemap & robots
+urls = "".join(f"<url><loc>{DOMAIN}/{p if p != 'index.html' else ''}</loc><lastmod>{datetime.date.today()}</lastmod></url>" for p in all_pages)
+with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as f:
+    f.write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
+with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as f:
+    f.write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
+
+# ---------------------------------------------------------------- llms.txt (para LLMs: ChatGPT, Claude, Perplexity, Gemini)
+_llms = [f"# {SITE_NAME}",
+         "> Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.",
+         "", "## Categories"]
+for cat in CATS:
+    _llms.append(f"- [{cat['name']}]({DOMAIN}/{cat['category']}/): best {cat['name'].lower()} compared for Ireland")
+_llms += ["", "## Top guides"]
+for cat in CATS:
+    pg0 = cat["pages"][0]
+    _llms.append(f"- [{pg0['h1']}]({DOMAIN}/{cat['category']}/{pg0['slug']}.html)")
+_llms += ["", "## About",
+          f"- [About & methodology]({DOMAIN}/about.html)",
+          f"- [Affiliate disclosure]({DOMAIN}/affiliate-disclosure.html)",
+          "", "## Notes",
+          f"Written by {AUTHOR['name']}. All comparisons are independent and Ireland-specific (Irish electricity rates, weather, legal rules, and local availability via Amazon.ie). As an Amazon Associate, {SITE_NAME} earns from qualifying purchases at no cost to the reader."]
+with open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8") as f:
+    f.write("\n".join(_llms) + "\n")
+with open(os.path.join(OUT, "CNAME"), "w") as f:
+    f.write("pickireland.best\n")
+open(os.path.join(OUT, ".nojekyll"), "w").close()
+
+# ---------------------------------------------------------------- google ads page feed (DSA)
+# Gera o feed de páginas para os Anúncios Dinâmicos de Pesquisa do Google Ads.
+# Publicado em docs/ -> https://pickireland.best/google-ads-page-feed.csv
+# No Google Ads (Ferramentas > Dados da empresa > o feed > aba "Programar"),
+# aponte para essa URL e agende busca diária: o feed se atualiza sozinho a cada build.
+# Exclui home e páginas institucionais (sem intenção de compra).
+INSTITUTIONAL = {"affiliate-disclosure.html", "about.html", "privacy.html", "contact.html", "index.html"}
+feed_path = os.path.join(OUT, "google-ads-page-feed.csv")
+feed_count = 0
+with open(feed_path, "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f)
+    w.writerow(["Page URL", "Custom label"])
+    for p in all_pages:
+        if p in INSTITUTIONAL or "/" not in p:
+            continue
+        label = p.split("/")[0]            # ex: "dehumidifiers", "air-fryers"
+        w.writerow([f"{DOMAIN}/{p}", label])
+        feed_count += 1
+print(f"Google Ads page feed: {feed_count} URLs -> {os.path.abspath(feed_path)}")
+
+linked = sum(1 for v in LINKS.values() if v.get("link"))
+imgs = sum(1 for v in LINKS.values() if v.get("image"))
+print(f"Built {len(all_pages)} pages into {os.path.abspath(OUT)}")
+print(f"Affiliate links filled: {linked} / 248 | images filled: {imgs} / 248")
+
+# ---------------------------------------------------------------- assets: js, favicon
+os.makedirs(os.path.join(OUT,"assets"),exist_ok=True)
+SITE_JS = """(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(!rm&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.06});
+document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a,.spot').forEach(function(el){el.classList.add('rv');io.observe(el)})}
+var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
+var spot=document.querySelector('.spot');
+if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
+function bars(p){p.querySelectorAll('.bar i').forEach(function(b){b.style.width='0%';requestAnimationFrame(function(){requestAnimationFrame(function(){b.style.width=b.dataset.w+'%'})})})}
+tabs.forEach(function(t){t.addEventListener('click',function(){
+tabs.forEach(function(x){x.classList.remove('on')});t.classList.add('on');
+panels.forEach(function(p){p.classList.remove('on')});
+var p=spot.querySelector('.spot-panel[data-k=\\"'+t.dataset.k+'\\"]');p.classList.add('on');bars(p)})});
+var first=spot.querySelector('.spot-panel.on');if(first)bars(first)}
+var sb=document.getElementById('siq');
+if(sb){var idx=null,res=document.getElementById('sres'),ov=document.getElementById('sov');
+function closeS(){document.body.classList.remove('search-open')}
+document.querySelectorAll('[data-close-search]').forEach(function(b){b.addEventListener('click',closeS)});
+if(ov){ov.addEventListener('click',function(e){if(e.target===ov)closeS()})}
+addEventListener('keydown',function(e){if(e.key==='Escape')closeS();
+if(e.key==='/'&&!document.body.classList.contains('search-open')&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();document.body.classList.add('search-open');sb.focus()}});
+function render(){var q=sb.value.trim().toLowerCase();
+if(!q){res.innerHTML='<div class=\"search-hint\">Type to search every product we have reviewed — press Esc to close.</div>';return}
+var out=idx.filter(function(p){return (p.n+' '+p.b+' '+p.c).toLowerCase().indexOf(q)>-1});
+var seen={},uniq=[];out.forEach(function(p){if(!seen[p.n]){seen[p.n]=1;uniq.push(p)}});
+res.innerHTML=uniq.slice(0,12).map(function(p){return '<a href=\"/'+p.u+'#'+p.i+'\"><span>'+p.n+'<div class=\"meta\">'+p.c+' · '+p.b+'</div></span><span class=\"sp\">€'+p.p+'</span></a>'}).join('')||'<div class=\"search-hint\">No products found for \u201C'+sb.value+'\u201D</div>'}
+sb.addEventListener('input',function(){if(idx){render()}else{fetch('/assets/search.json').then(function(r){return r.json()}).then(function(d){idx=d;render()})}})}
+})();"""
+with open(os.path.join(OUT,"assets","site.js"),"w",encoding="utf-8") as f:
+    f.write(SITE_JS)
+with open(os.path.join(OUT,"assets","search.json"),"w",encoding="utf-8") as f:
+    json.dump(SEARCH_INDEX,f,ensure_ascii=False)
+FAV = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12805C"/><stop offset="1" stop-color="#073F2C"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="url(#g)"/><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>'
+with open(os.path.join(OUT,"favicon.svg"),"w",encoding="utf-8") as f:
+    f.write(FAV)
+try:
+    from PIL import Image, ImageDraw, ImageFont
+    for size,name in ((180,"apple-touch-icon.png"),(32,"favicon-32.png")):
+        img=Image.new("RGBA",(size,size),(0,0,0,0)); d=ImageDraw.Draw(img)
+        r=size*15//64
+        d.rounded_rectangle([0,0,size-1,size-1],radius=r,fill=(11,80,57,255))
+        w=max(2,size*7//64)
+        def pt(x,y): return (x*size/64.0,y*size/64.0)
+        d.line([pt(22,48),pt(22,16)],fill=(255,255,255,255),width=w)
+        d.arc([pt(13,16)[0],pt(13,16)[1],pt(46,38)[0],pt(46,38)[1]],270,90,fill=(255,255,255,255),width=w)
+        d.line([pt(22,16),pt(33,16)],fill=(255,255,255,255),width=w)
+        d.line([pt(22,38),pt(30,38)],fill=(255,255,255,255),width=w)
+        gw=max(2,size*6//64)
+        d.line([pt(33,44),pt(39,50)],fill=(255,198,92,255),width=gw)
+        d.line([pt(39,50),pt(50,38)],fill=(255,198,92,255),width=gw)
+        img.save(os.path.join(OUT,name))
+    # og:image padrao 1200x630 para compartilhamento social e preview de links
+    def _fontpath(bold):
+        cands = (["arialbd.ttf", "Arialbd.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf"]
+                 if bold else
+                 ["arial.ttf", "Arial.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", "DejaVuSans.ttf"])
+        for c in cands:
+            try:
+                ImageFont.truetype(c, 20); return c
+            except Exception:
+                continue
+        return None
+    og = Image.new("RGB", (1200, 630), (11, 80, 57))
+    od = ImageDraw.Draw(og)
+    od.rectangle([0, 0, 1200, 18], fill=(240, 164, 28))
+    od.rectangle([0, 612, 1200, 630], fill=(240, 164, 28))
+    _bp, _rp = _fontpath(True), _fontpath(False)
+    _M = 90; _MAXW = 1200 - 2 * _M
+    def _fit(text, path, maxsize):
+        if not path:
+            return ImageFont.load_default()
+        s = maxsize
+        while s > 12:
+            f = ImageFont.truetype(path, s)
+            if od.textlength(text, font=f) <= _MAXW:
+                return f
+            s -= 2
+        return ImageFont.truetype(path, 12)
+    if _bp and _rp:
+        fb = _fit("PickIreland", _bp, 150)
+        od.text((_M, 205), "Pick", font=fb, fill=(255, 255, 255))
+        od.text((_M + od.textlength("Pick", font=fb), 205), "Ireland", font=fb, fill=(255, 198, 92))
+        _tag = "Ireland's honest product comparison guides"
+        _sub = "Real € prices  ·  running costs on Irish electricity  ·  honest picks"
+        od.text((_M, 405), _tag, font=_fit(_tag, _rp, 50), fill=(233, 244, 238))
+        od.text((_M, 475), _sub, font=_fit(_sub, _rp, 38), fill=(150, 200, 170))
+    else:
+        od.text((90, 290), "PickIreland", fill=(255, 255, 255))
+    og.save(os.path.join(OUT, "assets", "og-default.png"))
+    print("png icons + og image ok")
+except Exception as e:
+    print("PIL skip:",e)
+
+# fim do build
+
