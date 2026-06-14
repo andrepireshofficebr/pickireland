@@ -25,6 +25,13 @@ GTAG = ("" if not GA_ID else
         f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
         "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
         f"gtag('js',new Date());gtag('config','{GA_ID}');</script>")
+# Banner de cookies discreto e nao-bloqueante (consentimento implicito; permite recusar)
+COOKIE_BANNER = """<div id="ckb" hidden style="position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;background:#0E1B26;color:#C4D2DE;border:1px solid #25394a;border-radius:12px;padding:12px 16px;font:14px/1.5 Inter,system-ui,sans-serif;box-shadow:0 12px 32px -12px rgba(0,0,0,.55);z-index:120;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+<span style="flex:1;min-width:210px">We use cookies to measure site traffic (Google Analytics). <a href="/privacy.html" style="color:#7FD4A8">Learn more</a>.</span>
+<button id="ckb-no" style="background:transparent;border:1px solid #3a4f60;color:#C4D2DE;padding:7px 14px;border-radius:8px;cursor:pointer;font-weight:600">Decline</button>
+<button id="ckb-ok" style="background:#F0A41C;border:0;color:#2A1A00;padding:7px 16px;border-radius:8px;cursor:pointer;font-weight:700">Accept</button>
+</div>
+<script>(function(){try{var k='ck_consent',c=localStorage.getItem(k);function ap(v){if(window.gtag){gtag('consent','update',{analytics_storage:v==='granted'?'granted':'denied',ad_storage:'denied'});}}if(c){ap(c);return;}var b=document.getElementById('ckb');if(!b)return;b.hidden=false;document.getElementById('ckb-ok').onclick=function(){localStorage.setItem(k,'granted');ap('granted');b.hidden=true;};document.getElementById('ckb-no').onclick=function(){localStorage.setItem(k,'denied');ap('denied');b.hidden=true;};}catch(e){}})();</script>"""
 # Autor dos guias (E-E-A-T). Edite a bio/url quando quiser; deixe url vazio se nao tiver LinkedIn.
 AUTHOR = {
     "name": "André Pires",
@@ -407,6 +414,7 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="articl
 {footer_html(depth)}
 <button class="top-btn" aria-label="Back to top" onclick="scrollTo({{top:0,behavior:'smooth'}})"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5m-7 7 7-7 7 7"/></svg></button>
 <script defer src="{'../' * depth}assets/site.js"></script>
+{COOKIE_BANNER}
 </body>
 </html>"""
 
@@ -668,25 +676,4 @@ simple_page("contact.html", "Contact", f"""
 <p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></strong></p>
 <p>We read every message and use your feedback to keep our {SITE_NAME} guides accurate and up to date.</p>""")
 
-# ---------------------------------------------------------------- sitemap & robots
-urls = "".join(f"<url><loc>{DOMAIN}/{p if p != 'index.html' else ''}</loc><lastmod>{datetime.date.today()}</lastmod></url>" for p in all_pages)
-with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as f:
-    f.write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
-with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as f:
-    f.write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
-
-# ---------------------------------------------------------------- llms.txt (para LLMs: ChatGPT, Claude, Perplexity, Gemini)
-_llms = [f"# {SITE_NAME}",
-         "> Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.",
-         "", "## Categories"]
-for cat in CATS:
-    _llms.append(f"- [{cat['name']}]({DOMAIN}/{cat['category']}/): best {cat['name'].lower()} compared for Ireland")
-_llms += ["", "## Top guides"]
-for cat in CATS:
-    pg0 = cat["pages"][0]
-    _llms.append(f"- [{pg0['h1']}]({DOMAIN}/{cat['category']}/{pg0['slug']}.html)")
-_llms += ["", "## About",
-          f"- [About & methodology]({DOMAIN}/about.html)",
-          f"- [Affiliate disclosure]({DOMAIN}/affiliate-disclosure.html)",
-          "", "## Notes",
-          f"Written by {AUTHOR['name']}. All comparisons are independent and Ireland-specific (Irish electricity rates, weather, legal rules, and local availability via Amazon.ie). As an Amaz
+# ---------------------------------------------------------------- sitema
