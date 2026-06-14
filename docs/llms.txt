@@ -1,0 +1,33 @@
+# PickIreland
+> Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.
+
+## Categories
+- [Air Fryers](https://pickireland.best/air-fryers/): best air fryers compared for Ireland
+- [Air Purifiers](https://pickireland.best/air-purifiers/): best air purifiers compared for Ireland
+- [Coffee Machines](https://pickireland.best/coffee-machines/): best coffee machines compared for Ireland
+- [Dehumidifiers](https://pickireland.best/dehumidifiers/): best dehumidifiers compared for Ireland
+- [Electric Bikes](https://pickireland.best/electric-bikes/): best electric bikes compared for Ireland
+- [Electric Heaters](https://pickireland.best/electric-heaters/): best electric heaters compared for Ireland
+- [Electric Scooters](https://pickireland.best/electric-scooters/): best electric scooters compared for Ireland
+- [Home Office](https://pickireland.best/home-office/): best home office compared for Ireland
+- [Robot Lawn Mowers](https://pickireland.best/robot-lawn-mowers/): best robot lawn mowers compared for Ireland
+- [Robot Vacuums](https://pickireland.best/robot-vacuums/): best robot vacuums compared for Ireland
+
+## Top guides
+- [The 5 Best Air Fryers in Ireland (2026)](https://pickireland.best/air-fryers/best-air-fryers-ireland.html)
+- [The 5 Best Air Purifiers in Ireland (2026)](https://pickireland.best/air-purifiers/best-air-purifiers-ireland.html)
+- [The 5 Best Coffee Machines in Ireland (2026)](https://pickireland.best/coffee-machines/best-coffee-machines-ireland.html)
+- [The 5 Best Dehumidifiers in Ireland (2026)](https://pickireland.best/dehumidifiers/best-dehumidifiers-ireland.html)
+- [The 5 Best Electric Bikes in Ireland (2026)](https://pickireland.best/electric-bikes/best-electric-bikes-ireland.html)
+- [The 5 Best Electric Heaters in Ireland (2026)](https://pickireland.best/electric-heaters/best-electric-heaters-ireland.html)
+- [The 5 Best Electric Scooters in Ireland (2026)](https://pickireland.best/electric-scooters/best-electric-scooters-ireland.html)
+- [The 5 Best Ergonomic Office Chairs in Ireland (2026)](https://pickireland.best/home-office/best-ergonomic-office-chairs-ireland.html)
+- [The 5 Best Robot Lawn Mowers in Ireland (2026)](https://pickireland.best/robot-lawn-mowers/best-robot-lawn-mowers-ireland.html)
+- [The 5 Best Robot Vacuums in Ireland (2026)](https://pickireland.best/robot-vacuums/best-robot-vacuums-ireland.html)
+
+## About
+- [About & methodology](https://pickireland.best/about.html)
+- [Affiliate disclosure](https://pickireland.best/affiliate-disclosure.html)
+
+## Notes
+Written by André Pires. All comparisons are independent and Ireland-specific (Irish electricity rates, weather, legal rules, and local availability via Amazon.ie). As an Amazon Associate, PickIreland earns from qualifying purchases at no cost to the reader.

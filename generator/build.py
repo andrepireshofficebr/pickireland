@@ -17,6 +17,18 @@ SITE_NAME = "PickIreland"
 DOMAIN = "https://pickireland.best"   # change when you buy the domain
 YEAR = datetime.date.today().year
 TODAY = datetime.date.today().strftime("%d %B %Y")
+TODAY_ISO = datetime.date.today().strftime("%Y-%m-%d")
+OG_IMAGE = DOMAIN + "/assets/og-default.png"   # imagem padrao de compartilhamento (1200x630)
+# Autor dos guias (E-E-A-T). Edite a bio/url quando quiser; deixe url vazio se nao tiver LinkedIn.
+AUTHOR = {
+    "name": "André Pires",
+    "role": "Founder & Editor",
+    "bio": "André Pires founded PickIreland to cut through the noise of online shopping for Irish homes. "
+           "Every guide compares products on Irish prices, running costs on Irish electricity, local weather and Irish rules — "
+           "so readers can pick the right product without opening 40 tabs.",
+    "url": "",          # ex: "https://www.linkedin.com/in/seu-perfil"
+    "image": "",         # ex: DOMAIN + "/assets/author.jpg"
+}
 
 # ---------------------------------------------------------------- affiliate links
 def load_links():
@@ -346,7 +358,7 @@ def footer_html(depth=0):
 <div class="legal">© {YEAR} {SITE_NAME}. Prices shown are typical/indicative in EUR and change frequently — always check the current price at the retailer. As an Amazon Associate we earn from qualifying purchases.</div>
 </div></footer>"""
 
-def page_shell(title, desc, canonical, body, depth=0, jsonld=""):
+def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="article"):
     return f"""<!DOCTYPE html>
 <html lang="en-IE">
 <head>
@@ -357,10 +369,14 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld=""):
 <link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
-<meta property="og:type" content="article">
+<meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{SITE_NAME}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{OG_IMAGE}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{OG_IMAGE}">
 <meta name="theme-color" content="#0B5B40">
 <meta property="og:locale" content="en_IE">
 <link rel="icon" type="image/svg+xml" href="{'../' * depth}favicon.svg">
@@ -442,6 +458,14 @@ def faq_html(faqs):
     items = "".join(f"<details><summary>{esc(f['q'])}</summary><p>{esc(f['a'])}</p></details>" for f in faqs)
     return f'<div class="guide">{items}</div>'
 
+def author_schema():
+    a = {"@type": "Person", "name": AUTHOR["name"], "description": AUTHOR["bio"]}
+    if AUTHOR.get("url"):
+        a["url"] = AUTHOR["url"]; a["sameAs"] = [AUTHOR["url"]]
+    if AUTHOR.get("image"):
+        a["image"] = AUTHOR["image"]
+    return a
+
 def jsonld_page(page, cat, faqs):
     canonical = f"{DOMAIN}/{cat['category']}/{page['slug']}.html"
     items = []
@@ -463,7 +487,14 @@ def jsonld_page(page, cat, faqs):
         {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
             {"@type": "ListItem", "position": 2, "name": cat["name"], "item": f"{DOMAIN}/{cat['category']}/"},
-            {"@type": "ListItem", "position": 3, "name": page["h1"], "item": canonical}]}
+            {"@type": "ListItem", "position": 3, "name": page["h1"], "item": canonical}]},
+        {"@context": "https://schema.org", "@type": "Article", "headline": page["h1"],
+         "description": page["desc"], "image": OG_IMAGE,
+         "datePublished": TODAY_ISO, "dateModified": TODAY_ISO,
+         "author": author_schema(),
+         "publisher": {"@type": "Organization", "name": SITE_NAME,
+                       "logo": {"@type": "ImageObject", "url": DOMAIN + "/apple-touch-icon.png"}},
+         "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}}
     ]
     return "".join(f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False)}</script>' for d in data)
 
@@ -493,7 +524,7 @@ for cat in CATS:
         body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(page['h1'])}</nav>
 <h1>{esc(page['h1'])}</h1>
-<div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>Updated {TODAY}</span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
+<div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{TODAY_ISO}">{TODAY}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
 <p class="intro">{esc(page['intro'])}</p>
 <div class="toc"><b>{icon(cat['category'], 18)} Our top 5 at a glance</b><ol>{toc}</ol></div>
 <h2>Quick comparison</h2>
@@ -577,20 +608,27 @@ body_home = f"""
 <h2>How {SITE_NAME} works</h2>
 <p>Every guide compares five carefully selected products using manufacturer specifications, verified owner feedback and Irish-specific factors — electricity rates, weather, legal rules and local availability. When you buy through our links we may earn a commission from Amazon.ie or other retailers, at no cost to you. That's the entire business model: useful guides, honest picks. <a href="affiliate-disclosure.html">Full disclosure here</a>.</p>
 """
-home_jsonld = '<script type="application/ld+json">' + json.dumps({
-    "@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": DOMAIN,
-    "description": "Independent product comparison guides for Irish shoppers."}) + "</script>"
+_org = {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": DOMAIN + "/",
+        "logo": DOMAIN + "/apple-touch-icon.png", "image": OG_IMAGE,
+        "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules."}
+if AUTHOR.get("url"):
+    _org["sameAs"] = [AUTHOR["url"]]
+_website = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/",
+            "description": "Independent product comparison guides for Irish shoppers.",
+            "publisher": {"@type": "Organization", "name": SITE_NAME}}
+home_jsonld = ("".join('<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+                       for d in (_org, _website)))
 with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
     f.write(page_shell(f"{SITE_NAME} — Ireland's Honest Product Comparison Guides 2026",
                        "Independent buying guides for Irish shoppers: e-scooters, e-bikes, dehumidifiers, air fryers, heaters and more. Compared for Irish prices, weather and rules.",
-                       DOMAIN + "/", body_home, depth=0, jsonld=home_jsonld))
+                       DOMAIN + "/", body_home, depth=0, jsonld=home_jsonld, og_type="website"))
 all_pages.append("index.html")
 
 # ---------------------------------------------------------------- legal & info pages
-def simple_page(fname, title, body_html):
+def simple_page(fname, title, body_html, jsonld=""):
     with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
         f.write(page_shell(f"{title} | {SITE_NAME}", title, f"{DOMAIN}/{fname}",
-                           f"<h1 style='margin-top:28px'>{title}</h1>{body_html}", depth=0))
+                           f"<h1 style='margin-top:28px'>{title}</h1>{body_html}", depth=0, jsonld=jsonld))
     all_pages.append(fname)
 
 simple_page("affiliate-disclosure.html", "Affiliate Disclosure", f"""
@@ -599,10 +637,18 @@ simple_page("affiliate-disclosure.html", "Affiliate Disclosure", f"""
 <p>Commissions never influence our rankings. Products are selected and ordered based on specifications, verified owner feedback, running-cost analysis at Irish prices, and suitability for Irish conditions. We frequently recommend cheaper products over more expensive ones (which would earn us more) because they're the better buy.</p>
 <p>Prices shown on this site are typical/indicative prices in EUR at time of writing. Prices change constantly — always check the live price on the retailer's page before buying.</p>""")
 
+_author_links = f' <a href="{esc(AUTHOR["url"])}" rel="me noopener" target="_blank">Connect on LinkedIn</a>.' if AUTHOR.get("url") else ""
 simple_page("about.html", "About PickIreland", f"""
 <p>{SITE_NAME} exists because buying decisions in Ireland are different: our electricity is among Europe's priciest, our weather is wet, our houses are damp, our e-scooter laws are specific, and most "best of" lists online are written for the UK or US market.</p>
 <p>Every guide on this site compares five products per use-case with Irish running costs, Irish rules and Irish weather factored in. We keep guides updated as prices and models change.</p>
-<p>Got a correction or a product suggestion? See our <a href="contact.html">contact page</a>.</p>""")
+<h2 style="margin-top:34px">Who writes PickIreland</h2>
+<p><strong>{esc(AUTHOR['name'])}</strong> — {esc(AUTHOR['role'])}. {esc(AUTHOR['bio'])}{_author_links}</p>
+<h2 style="margin-top:34px">How we research</h2>
+<p>For each guide we shortlist five products per use-case, then compare them on manufacturer specifications, verified owner feedback, running costs at current Irish electricity rates, and suitability for Irish conditions and rules. We update prices and picks as models change. We may earn an affiliate commission when you buy through our links, at no extra cost to you — this never changes our rankings.</p>
+<p>Got a correction or a product suggestion? See our <a href="contact.html">contact page</a>.</p>""",
+    jsonld='<script type="application/ld+json">' + json.dumps({
+        "@context": "https://schema.org", "@type": "AboutPage", "mainEntity": author_schema(),
+        "publisher": {"@type": "Organization", "name": SITE_NAME, "url": DOMAIN + "/"}}, ensure_ascii=False) + "</script>")
 
 simple_page("privacy.html", "Privacy Policy", f"""
 <p>{SITE_NAME} respects your privacy. We do not require accounts, collect names, or store personal data submitted by visitors.</p>
@@ -610,9 +656,10 @@ simple_page("privacy.html", "Privacy Policy", f"""
 <p><strong>Affiliate links:</strong> When you click an affiliate link, the retailer (e.g. Amazon) may set cookies to attribute the sale. Those cookies are governed by the retailer's own privacy policy.</p>
 <p><strong>Contact:</strong> If you email us, we use your address only to reply.</p>""")
 
-simple_page("contact.html", "Contact", """
-<p>Spotted an error? Price changed? Have a product we should look at?</p>
-<p>Email us: <strong>hello@pickireland.best</strong> (set this up with your domain provider).</p>""")
+simple_page("contact.html", "Contact", f"""
+<p>Spotted an error? Price changed? Have a product we should look at? We'd love to hear from you.</p>
+<p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></strong></p>
+<p>We read every message and use your feedback to keep our {SITE_NAME} guides accurate and up to date.</p>""")
 
 # ---------------------------------------------------------------- sitemap & robots
 urls = "".join(f"<url><loc>{DOMAIN}/{p if p != 'index.html' else ''}</loc><lastmod>{datetime.date.today()}</lastmod></url>" for p in all_pages)
@@ -620,67 +667,26 @@ with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as f:
     f.write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
 with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as f:
     f.write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
+
+# ---------------------------------------------------------------- llms.txt (para LLMs: ChatGPT, Claude, Perplexity, Gemini)
+_llms = [f"# {SITE_NAME}",
+         "> Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.",
+         "", "## Categories"]
+for cat in CATS:
+    _llms.append(f"- [{cat['name']}]({DOMAIN}/{cat['category']}/): best {cat['name'].lower()} compared for Ireland")
+_llms += ["", "## Top guides"]
+for cat in CATS:
+    pg0 = cat["pages"][0]
+    _llms.append(f"- [{pg0['h1']}]({DOMAIN}/{cat['category']}/{pg0['slug']}.html)")
+_llms += ["", "## About",
+          f"- [About & methodology]({DOMAIN}/about.html)",
+          f"- [Affiliate disclosure]({DOMAIN}/affiliate-disclosure.html)",
+          "", "## Notes",
+          f"Written by {AUTHOR['name']}. All comparisons are independent and Ireland-specific (Irish electricity rates, weather, legal rules, and local availability via Amazon.ie). As an Amazon Associate, {SITE_NAME} earns from qualifying purchases at no cost to the reader."]
+with open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8") as f:
+    f.write("\n".join(_llms) + "\n")
 with open(os.path.join(OUT, "CNAME"), "w") as f:
     f.write("pickireland.best\n")
 open(os.path.join(OUT, ".nojekyll"), "w").close()
 
-linked = sum(1 for v in LINKS.values() if v.get("link"))
-imgs = sum(1 for v in LINKS.values() if v.get("image"))
-print(f"Built {len(all_pages)} pages into {os.path.abspath(OUT)}")
-print(f"Affiliate links filled: {linked} / 248 | images filled: {imgs} / 248")
-
-# ---------------------------------------------------------------- assets: js, favicon
-os.makedirs(os.path.join(OUT,"assets"),exist_ok=True)
-SITE_JS = """(function(){
-var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
-if(!rm&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.06});
-document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a,.spot').forEach(function(el){el.classList.add('rv');io.observe(el)})}
-var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
-var spot=document.querySelector('.spot');
-if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
-function bars(p){p.querySelectorAll('.bar i').forEach(function(b){b.style.width='0%';requestAnimationFrame(function(){requestAnimationFrame(function(){b.style.width=b.dataset.w+'%'})})})}
-tabs.forEach(function(t){t.addEventListener('click',function(){
-tabs.forEach(function(x){x.classList.remove('on')});t.classList.add('on');
-panels.forEach(function(p){p.classList.remove('on')});
-var p=spot.querySelector('.spot-panel[data-k=\\"'+t.dataset.k+'\\"]');p.classList.add('on');bars(p)})});
-var first=spot.querySelector('.spot-panel.on');if(first)bars(first)}
-var sb=document.getElementById('siq');
-if(sb){var idx=null,res=document.getElementById('sres'),ov=document.getElementById('sov');
-function closeS(){document.body.classList.remove('search-open')}
-document.querySelectorAll('[data-close-search]').forEach(function(b){b.addEventListener('click',closeS)});
-if(ov){ov.addEventListener('click',function(e){if(e.target===ov)closeS()})}
-addEventListener('keydown',function(e){if(e.key==='Escape')closeS();
-if(e.key==='/'&&!document.body.classList.contains('search-open')&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();document.body.classList.add('search-open');sb.focus()}});
-function render(){var q=sb.value.trim().toLowerCase();
-if(!q){res.innerHTML='<div class=\"search-hint\">Type to search every product we have reviewed — press Esc to close.</div>';return}
-var out=idx.filter(function(p){return (p.n+' '+p.b+' '+p.c).toLowerCase().indexOf(q)>-1});
-var seen={},uniq=[];out.forEach(function(p){if(!seen[p.n]){seen[p.n]=1;uniq.push(p)}});
-res.innerHTML=uniq.slice(0,12).map(function(p){return '<a href=\"/'+p.u+'#'+p.i+'\"><span>'+p.n+'<div class=\"meta\">'+p.c+' · '+p.b+'</div></span><span class=\"sp\">€'+p.p+'</span></a>'}).join('')||'<div class=\"search-hint\">No products found for \u201C'+sb.value+'\u201D</div>'}
-sb.addEventListener('input',function(){if(idx){render()}else{fetch('/assets/search.json').then(function(r){return r.json()}).then(function(d){idx=d;render()})}})}
-})();"""
-with open(os.path.join(OUT,"assets","site.js"),"w",encoding="utf-8") as f:
-    f.write(SITE_JS)
-with open(os.path.join(OUT,"assets","search.json"),"w",encoding="utf-8") as f:
-    json.dump(SEARCH_INDEX,f,ensure_ascii=False)
-FAV = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12805C"/><stop offset="1" stop-color="#073F2C"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="url(#g)"/><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>'
-with open(os.path.join(OUT,"favicon.svg"),"w",encoding="utf-8") as f:
-    f.write(FAV)
-try:
-    from PIL import Image, ImageDraw
-    for size,name in ((180,"apple-touch-icon.png"),(32,"favicon-32.png")):
-        img=Image.new("RGBA",(size,size),(0,0,0,0)); d=ImageDraw.Draw(img)
-        r=size*15//64
-        d.rounded_rectangle([0,0,size-1,size-1],radius=r,fill=(11,80,57,255))
-        w=max(2,size*7//64)
-        def pt(x,y): return (x*size/64.0,y*size/64.0)
-        d.line([pt(22,48),pt(22,16)],fill=(255,255,255,255),width=w)
-        d.arc([pt(13,16)[0],pt(13,16)[1],pt(46,38)[0],pt(46,38)[1]],270,90,fill=(255,255,255,255),width=w)
-        d.line([pt(22,16),pt(33,16)],fill=(255,255,255,255),width=w)
-        d.line([pt(22,38),pt(30,38)],fill=(255,255,255,255),width=w)
-        gw=max(2,size*6//64)
-        d.line([pt(33,44),pt(39,50)],fill=(255,198,92,255),width=gw)
-        d.line([pt(39,50),pt(50,38)],fill=(255,198,92,255),width=gw)
-        img.save(os.path.join(OUT,name))
-    print("png icons ok")
-except Exception as e:
-    print("PIL skip:",e)
+# ---------------------------------------------------------------- google ads page feed
