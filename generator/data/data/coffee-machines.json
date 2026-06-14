@@ -1,0 +1,875 @@
+{
+ "category": "coffee-machines",
+ "name": "Coffee Machines",
+ "emoji": "☕",
+ "hub_intro": "Ireland's coffee culture grew up fast — flat whites outsell tea in Dublin cafés — and the €3.80 daily habit maths pushed serious machines into Irish kitchens. The home setup question spans €100 pod machines to €700 bean-to-cup automatics, with wildly different running costs: pods cost ~45c a cup, fresh beans ~28c. We compare every route to better home coffee.",
+ "guide": [
+  [
+   "The running-cost triangle",
+   "Pods: convenient, consistent, ~40–50c per cup, more packaging. Beans (bean-to-cup or manual): ~25–30c per cup including milk, fresher flavour, more cleaning. Ground coffee filter: ~15c, easiest at volume. Two cups a day for five years: pods ~€1,650, beans ~€1,000, filter ~€550. Choose with eyes open."
+  ],
+  [
+   "Bean-to-cup vs manual espresso",
+   "Bean-to-cup: press button, get espresso — consistency without skill, at the cost of some ceiling on quality and €400+. Manual machines: €150–600, a learning fortnight, higher ceiling, more ritual. Honest question: will you enjoy the process or resent it at 7am?"
+  ],
+  [
+   "Milk is half the Irish cup",
+   "Flat whites and lattes dominate Irish orders — so milk systems matter as much as espresso. Automatic milk systems (one-touch) need cleaning discipline; steam wands need a learnable skill but make better microfoam. Black-coffee drinkers can ignore this and save €200."
+  ],
+  [
+   "Water hardness varies hugely in Ireland",
+   "Limestone counties (Dublin, Kildare, much of the east/midlands) have hard water that scales machines fast; western counties run softer. Descale quarterly in hard areas or watch your machine die young. A €10 filter jug doubles descale intervals and improves taste."
+  ]
+ ],
+ "faqs": [
+  {
+   "q": "Is a bean-to-cup machine worth it?",
+   "a": "For 2+ coffees daily, the maths says yes: versus café trips it pays back inside a year; versus pods, inside two. The convenience-with-fresh-beans combination suits most Irish households better than manual machines they'll abandon. The tax is 2 minutes of cleaning ritual daily."
+  },
+  {
+   "q": "Pod machine or bean-to-cup?",
+   "a": "Pods win on speed, consistency, zero learning and machine price (€80–150). Beans win on flavour ceiling, running cost (~20c less per cup) and waste. One coffee a day: pods are defensible. Multiple cups or milk drinks: bean-to-cup pays for itself."
+  },
+  {
+   "q": "How much does home coffee really save?",
+   "a": "A daily flat white at €3.80 is ~€1,387 a year. The same cup at home costs ~30–45c (beans, milk, electricity, machine amortised) — roughly €110–165 a year. Even a €700 machine pays back in 7–8 months for a daily café convert."
+  },
+  {
+   "q": "What grinder matters for espresso at home?",
+   "a": "More than the machine, say baristas: espresso needs a consistent fine grind that pre-ground coffee can't hold (it stales in days). Bean-to-cup machines have one built in. Manual setups: budget €100–300 for a burr grinder — or buy a machine with one integrated."
+  },
+  {
+   "q": "How often do machines need descaling in Ireland?",
+   "a": "Hard-water counties (most of the east and midlands): every 4–8 weeks of daily use, or use filtered water and stretch to quarterly. Soft-water west: quarterly to twice yearly. Skipping it is the #1 cause of machine death — €8 of descaler vs €400 of machine."
+  },
+  {
+   "q": "Are expensive espresso machines worth it for beginners?",
+   "a": "Skill ceiling matters more than entry price: a €180 Gaggia-class machine with a decent grinder out-brews a €700 machine with bad technique. Start mid, learn, upgrade the grinder first — that's the path baristas actually recommend."
+  },
+  {
+   "q": "What milk makes the best home flat white?",
+   "a": "Whole milk steams most forgivingly — fat carries the microfoam. Barista oat editions (Oatly Barista, Alpro Barista) foam nearly as well for plant drinkers. The skill: steam to 60–65°C with a paint-like texture. Practice in a fortnight of mornings."
+  },
+  {
+   "q": "How long do coffee machines last?",
+   "a": "With descaling discipline: pod machines 5–7 years, bean-to-cup 7–10 (serviceable brands like Jura/DeLonghi longer), manual espresso 10+ (Gaggia Classics from the 2000s still run). Without descaling, halve everything — water care is machine care."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-coffee-machines-ireland",
+   "title": "5 Best Coffee Machines in Ireland 2026 — Every Type Compared",
+   "desc": "Ireland's best coffee machines for 2026 across pods, bean-to-cup and espresso — running costs, milk systems and value compared. Top 5.",
+   "h1": "The 5 Best Coffee Machines in Ireland (2026)",
+   "intro": "The €3.80 flat white habit costs serious money at scale — and the home alternative got genuinely good. This page crowns winners across the machine types rather than pretending one suits everyone: best bean-to-cup, best pod, best manual, best budget route to proper espresso. Running costs at Irish prices included, because the machine is the cheap part.",
+   "faq_idx": [
+    2,
+    1,
+    4
+   ],
+   "products": [
+    {
+     "id": "cfm-001",
+     "asin": "B0BWSDQ9WT",
+     "name": "De'Longhi Magnifica Start (ECAM222.20.B)",
+     "brand": "De'Longhi",
+     "price": 336,
+     "rating": 4.6,
+     "badge": "Best Bean-to-Cup Value",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Grinder": "Steel burr",
+      "Milk": "Steam wand",
+      "Cup cost": "~28c"
+     },
+     "pros": [
+      "Fresh-bean espresso at a button",
+      "Best-value automatic on Amazon.ie",
+      "Compact for the category"
+     ],
+     "cons": [
+      "Wand milk takes practice",
+      "Plastic-forward build"
+     ],
+     "verdict": "The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price."
+    },
+    {
+     "id": "cfm-002",
+     "asin": "B085J8LBXF",
+     "name": "De'Longhi Stilosa EC260 (15 Bar)",
+     "brand": "De'Longhi",
+     "price": 122,
+     "rating": 4.4,
+     "badge": "Best Manual Entry",
+     "specs": {
+      "Type": "Manual espresso",
+      "Pressure": "15 bar",
+      "Milk": "Steam wand",
+      "Skill": "Learning fortnight"
+     },
+     "pros": [
+      "Real pump espresso + wand",
+      "The proven budget barista trainer",
+      "Slim footprint"
+     ],
+     "cons": [
+      "Needs technique (and ideally a grinder)",
+      "Plastic tamper — replace it"
+     ],
+     "verdict": "The cheapest ticket to real espresso craft: with practice, café-bothering shots."
+    },
+    {
+     "id": "cfm-003",
+     "asin": "B0BB7KK5Y6",
+     "name": "Nespresso Vertuo Pop (by Krups)",
+     "brand": "Nespresso",
+     "price": 68,
+     "rating": 4.2,
+     "badge": "Best Pod System",
+     "specs": {
+      "Type": "Pod (Vertuo)",
+      "Sizes": "5 cup formats",
+      "Speed": "~30 s",
+      "Skill": "Zero"
+     },
+     "pros": [
+      "Total consistency, zero effort",
+      "5 cup sizes incl. mug",
+      "Compact and colourful"
+     ],
+     "cons": [
+      "Pod costs add up",
+      "Closed ecosystem"
+     ],
+     "verdict": "The one-good-cup-a-day machine: unbeatable simplicity, just mind the pod maths."
+    },
+    {
+     "id": "cfm-004",
+     "asin": "B00919Z2ZY",
+     "name": "De'Longhi Magnifica S (ECAM21.117.SB)",
+     "brand": "De'Longhi",
+     "price": 414,
+     "rating": 4.6,
+     "badge": "Best Proven Automatic",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Grinder": "13-setting burr",
+      "Milk": "Manual wand",
+      "Pedigree": "Europe's bestseller"
+     },
+     "pros": [
+      "The proven Magnifica S platform",
+      "Parts and service everywhere",
+      "Espresso quality above its price"
+     ],
+     "cons": [
+      "Dated display",
+      "Wand learning curve"
+     ],
+     "verdict": "Europe's bestselling automatic for a reason — the default answer for daily coffee."
+    },
+    {
+     "id": "cfm-005",
+     "asin": "B07VTMQLY1",
+     "name": "Nescafé Dolce Gusto Piccolo XS",
+     "brand": "Krups",
+     "price": 31,
+     "rating": 4.3,
+     "badge": "Best Family Pods",
+     "specs": {
+      "Type": "Pod (Dolce Gusto)",
+      "Drinks": "50+ incl. choc",
+      "Size": "Tiny",
+      "Skill": "Zero"
+     },
+     "pros": [
+      "Hot choc, chai and coffee range",
+      "€31 machine",
+      "Kid-friendly drinks"
+     ],
+     "cons": [
+      "Coffee ceiling modest",
+      "Milk pods double cost"
+     ],
+     "verdict": "The family pleaser: something for everyone from a €31 box."
+    },
+    {
+     "id": "cfm-027",
+     "asin": "B07X48Y891",
+     "name": "Ariete 1318R Moderna Espresso (15 Bar)",
+     "brand": "Ariete",
+     "price": 204,
+     "rating": 3.8,
+     "badge": "Worth Considering",
+     "specs": {
+      "Owner rating": "3.8★ on Amazon.ie",
+      "Typical price": "€204",
+      "Brand": "Ariete"
+     },
+     "pros": [
+      "Strong 3.8★ owner score",
+      "Competitive €204 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €204 — Ariete 1318R Moderna Espresso earns its 3.8★ and undercuts several bigger names."
+    }
+   ]
+  },
+  {
+   "slug": "best-bean-to-cup-coffee-machines-ireland",
+   "title": "Best Bean-to-Cup Coffee Machines Ireland 2026 — Top 5 Automatics",
+   "desc": "Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Top 5 2026.",
+   "h1": "Best Bean-to-Cup Coffee Machines in Ireland",
+   "intro": "Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €300 to €1,000+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions at five price points.",
+   "faq_idx": [
+    0,
+    7,
+    4
+   ],
+   "products": [
+    {
+     "id": "cfm-006",
+     "asin": "B0BWSDQ9WT",
+     "name": "De'Longhi Magnifica Start (ECAM222.20.B)",
+     "brand": "De'Longhi",
+     "price": 336,
+     "rating": 4.6,
+     "badge": "Best Entry Bean-to-Cup",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Grinder": "Steel burr",
+      "Milk": "Steam wand",
+      "Cup cost": "~28c"
+     },
+     "pros": [
+      "Fresh-bean espresso at a button",
+      "Best-value automatic on Amazon.ie",
+      "Compact for the category"
+     ],
+     "cons": [
+      "Wand milk takes practice",
+      "Plastic-forward build"
+     ],
+     "verdict": "The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price."
+    },
+    {
+     "id": "cfm-007",
+     "asin": "B00919Z2ZY",
+     "name": "De'Longhi Magnifica S (ECAM21.117.SB)",
+     "brand": "De'Longhi",
+     "price": 414,
+     "rating": 4.6,
+     "badge": "Best Proven Platform",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Grinder": "13-setting burr",
+      "Milk": "Manual wand",
+      "Pedigree": "Europe's bestseller"
+     },
+     "pros": [
+      "The proven Magnifica S platform",
+      "Parts and service everywhere",
+      "Espresso quality above its price"
+     ],
+     "cons": [
+      "Dated display",
+      "Wand learning curve"
+     ],
+     "verdict": "Europe's bestselling automatic for a reason — the default answer for daily coffee."
+    },
+    {
+     "id": "cfm-008",
+     "asin": "B0CLLLY2Q8",
+     "name": "De'Longhi Magnifica Start (ECAM220.60.B, Milk)",
+     "brand": "De'Longhi",
+     "price": 368,
+     "rating": 4.5,
+     "badge": "Best One-Touch Milk Value",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Milk": "Auto carafe",
+      "Drinks": "One-touch",
+      "Cup cost": "~28c"
+     },
+     "pros": [
+      "Auto milk at the Start price",
+      "One-touch cappuccino",
+      "Great value per feature"
+     ],
+     "cons": [
+      "Carafe needs cleaning ritual",
+      "Louder grinder"
+     ],
+     "verdict": "The cheapest one-touch-milk automatic here — family cappuccinos without barista effort."
+    },
+    {
+     "id": "cfm-009",
+     "asin": "B0F6DP6RB6",
+     "name": "De'Longhi Magnifica Evo Next (ECAM310.80.SB)",
+     "brand": "De'Longhi",
+     "price": 521,
+     "rating": 4.4,
+     "badge": "Best Milk Drinks",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Milk": "LatteCrema system",
+      "Display": "Modern controls",
+      "Drinks": "One-touch milk"
+     },
+     "pros": [
+      "One-touch flat whites",
+      "Modern interface",
+      "Auto-cleaning milk carafe"
+     ],
+     "cons": [
+      "Price step up",
+      "Bigger footprint"
+     ],
+     "verdict": "The milk-drink automatic: lattes and flat whites at one literal button."
+    },
+    {
+     "id": "cfm-010",
+     "asin": "B0FBRSF4JC",
+     "name": "De'Longhi Magnifica Evo Next (ECAM312.80.TB)",
+     "brand": "De'Longhi",
+     "price": 612,
+     "rating": 4.5,
+     "badge": "Best Flagship",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Milk": "Full auto",
+      "Profiles": "Multiple drinks",
+      "Build": "Top of range"
+     },
+     "pros": [
+      "The full-feature flagship",
+      "Best milk texture of the line",
+      "Multiple drink profiles"
+     ],
+     "cons": [
+      "€600+",
+      "Counter presence"
+     ],
+     "verdict": "The endgame Magnifica: every drink, automatically, for households that live on coffee."
+    },
+    {
+     "id": "cfm-028",
+     "asin": "B0FX38CN23",
+     "name": "Chefman Crema Supreme 15-Bar Espresso",
+     "brand": "Chefman",
+     "price": 283,
+     "rating": 4.0,
+     "badge": "Challenger Pick",
+     "specs": {
+      "Owner rating": "4.0★ on Amazon.ie",
+      "Typical price": "€283",
+      "Brand": "Chefman"
+     },
+     "pros": [
+      "Owners rate it 4.0★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: Chefman Crema Supreme 15-Bar Espresso won't dethrone our winner, but at €283 it makes the podium fight interesting."
+    },
+    {
+     "id": "cfm-030",
+     "asin": "B0DFWRHZ7L",
+     "name": "Ninja Luxe Essential 2-in-1 Coffee Maker",
+     "brand": "Ninja",
+     "price": 455,
+     "rating": 4.2,
+     "badge": "Smart Alternative",
+     "specs": {
+      "Owner rating": "4.2★ on Amazon.ie",
+      "Typical price": "€455",
+      "Brand": "Ninja"
+     },
+     "pros": [
+      "Strong 4.2★ owner score",
+      "Competitive €455 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €455 — Ninja Luxe Essential 2-in-1 Coffee Maker earns its 4.2★ and undercuts several bigger names."
+    }
+   ]
+  },
+  {
+   "slug": "best-budget-coffee-machines-under-150-ireland",
+   "title": "Best Coffee Machines Under €150 Ireland 2026 — Top 5 Budget Picks",
+   "desc": "Real coffee under €150: the best budget espresso, pod and filter machines for Irish kitchens compared honestly. Top 5 for 2026.",
+   "h1": "Best Coffee Machines Under €150 in Ireland",
+   "intro": "Under €150 buys genuinely good coffee if you pick the right architecture: superb pod machines, very capable filter brewers, and entry espresso that punches up with technique. What it doesn't buy: bean-to-cup automation or auto-milk. Five machines that maximise their euro honestly — plus what each one demands from you in return.",
+   "faq_idx": [
+    1,
+    5,
+    6
+   ],
+   "products": [
+    {
+     "id": "cfm-011",
+     "asin": "B0BB7KK5Y6",
+     "name": "Nespresso Vertuo Pop (by Krups)",
+     "brand": "Nespresso",
+     "price": 68,
+     "rating": 4.2,
+     "badge": "Best Budget Pod",
+     "specs": {
+      "Type": "Pod (Vertuo)",
+      "Sizes": "5 cup formats",
+      "Speed": "~30 s",
+      "Skill": "Zero"
+     },
+     "pros": [
+      "Total consistency, zero effort",
+      "5 cup sizes incl. mug",
+      "Compact and colourful"
+     ],
+     "cons": [
+      "Pod costs add up",
+      "Closed ecosystem"
+     ],
+     "verdict": "The one-good-cup-a-day machine: unbeatable simplicity, just mind the pod maths."
+    },
+    {
+     "id": "cfm-012",
+     "asin": "B085J8LBXF",
+     "name": "De'Longhi Stilosa EC260 (15 Bar)",
+     "brand": "De'Longhi",
+     "price": 122,
+     "rating": 4.4,
+     "badge": "Best Budget Espresso",
+     "specs": {
+      "Type": "Manual espresso",
+      "Pressure": "15 bar",
+      "Milk": "Steam wand",
+      "Skill": "Learning fortnight"
+     },
+     "pros": [
+      "Real pump espresso + wand",
+      "The proven budget barista trainer",
+      "Slim footprint"
+     ],
+     "cons": [
+      "Needs technique (and ideally a grinder)",
+      "Plastic tamper — replace it"
+     ],
+     "verdict": "The cheapest ticket to real espresso craft: with practice, café-bothering shots."
+    },
+    {
+     "id": "cfm-013",
+     "asin": "B0DP56SQH4",
+     "name": "Tassimo by Bosch Finesse",
+     "brand": "Bosch",
+     "price": 47,
+     "rating": 4.5,
+     "badge": "Best Multi-Drink",
+     "specs": {
+      "Type": "Pod (Tassimo)",
+      "Drinks": "Costa, Kenco, choc",
+      "Tech": "Barcode auto-brew",
+      "Size": "Compact"
+     },
+     "pros": [
+      "Barcode pods self-program",
+      "Costa range at home",
+      "Bosch reliability"
+     ],
+     "cons": [
+      "Pod range narrowing",
+      "Coffee purists will sniff"
+     ],
+     "verdict": "The zero-thought machine: scan, brew, done — with Costa on the menu."
+    },
+    {
+     "id": "cfm-014",
+     "asin": "B07VTMQLY1",
+     "name": "Nescafé Dolce Gusto Piccolo XS",
+     "brand": "Krups",
+     "price": 31,
+     "rating": 4.3,
+     "badge": "Cheapest Multi-Drink",
+     "specs": {
+      "Type": "Pod (Dolce Gusto)",
+      "Drinks": "50+ incl. choc",
+      "Size": "Tiny",
+      "Skill": "Zero"
+     },
+     "pros": [
+      "Hot choc, chai and coffee range",
+      "€31 machine",
+      "Kid-friendly drinks"
+     ],
+     "cons": [
+      "Coffee ceiling modest",
+      "Milk pods double cost"
+     ],
+     "verdict": "The family pleaser: something for everyone from a €31 box."
+    },
+    {
+     "id": "cfm-015",
+     "asin": "B0FMHRQ8CN",
+     "name": "Quest Digital Filter Coffee Machine 1.5L",
+     "brand": "Quest",
+     "price": 29,
+     "rating": 4.1,
+     "badge": "Best for Volume",
+     "specs": {
+      "Type": "Filter",
+      "Capacity": "12 cups",
+      "Timer": "Programmable",
+      "Cup cost": "~13c"
+     },
+     "pros": [
+      "Cheapest per-cup coffee going",
+      "Wake-up timer brewing",
+      "12 cups for guests"
+     ],
+     "cons": [
+      "No espresso drinks",
+      "Hotplate taste after 30 min"
+     ],
+     "verdict": "The volume economist: mugs not shots, brewed before you wake, ~13c each."
+    },
+    {
+     "id": "cfm-026",
+     "asin": "B0DKY7TXXJ",
+     "name": "Cuisinart Coffee Burr Grinder",
+     "brand": "Cuisinart",
+     "price": 60,
+     "rating": 4.3,
+     "badge": "Strong Alternative",
+     "specs": {
+      "Owner rating": "4.3★ on Amazon.ie",
+      "Typical price": "€60",
+      "Brand": "Cuisinart"
+     },
+     "pros": [
+      "Rated 4.3★ by Amazon.ie owners",
+      "Cuisinart build at a fair €60",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible coffee machines alternative: Cuisinart Coffee Burr Grinder brings Cuisinart quality at €60 with solid owner ratings."
+    },
+    {
+     "id": "cfm-029",
+     "asin": "B08MXR7T7D",
+     "name": "Breville Barista Max Espresso Machine (Grinder)",
+     "brand": "Breville",
+     "price": 394,
+     "rating": 4.2,
+     "badge": "Notable Mention",
+     "specs": {
+      "Owner rating": "4.2★ on Amazon.ie",
+      "Typical price": "€394",
+      "Brand": "Breville"
+     },
+     "pros": [
+      "Rated 4.2★ by Amazon.ie owners",
+      "Breville build at a fair €394",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible coffee machines alternative: Breville Barista Max Espresso Machine brings Breville quality at €394 with solid owner ratings."
+    }
+   ]
+  },
+  {
+   "slug": "best-pod-coffee-machines-ireland",
+   "title": "Best Pod Coffee Machines Ireland 2026 — Nespresso vs Dolce Gusto vs L'OR",
+   "desc": "Pod coffee machines compared for Ireland: Nespresso Original vs Vertuo vs Dolce Gusto vs L'OR — pod costs, quality and lock-in. Top 5.",
+   "h1": "Best Pod Coffee Machines in Ireland",
+   "intro": "Pod machines run on a printer-ink business model — cheap machine, profitable pods — so choosing the system matters more than the machine: it sets your per-cup cost and coffee ceiling for years. Original-line Nespresso has competitive third-party pods at ~25c; Vertuo locks you near 50c. We compare the systems first, then the best hardware in each.",
+   "faq_idx": [
+    1,
+    2,
+    7
+   ],
+   "products": [
+    {
+     "id": "cfm-016",
+     "asin": "B00G5YOVZA",
+     "name": "Nespresso Inissia (De'Longhi EN80.B)",
+     "brand": "Nespresso",
+     "price": 107,
+     "rating": 4.4,
+     "badge": "Best Open-Ecosystem Value",
+     "specs": {
+      "Type": "Pod (Original line)",
+      "Speed": "25 s",
+      "Size": "Tiny",
+      "Pods": "3rd-party compatible"
+     },
+     "pros": [
+      "Original line = cheap 3rd-party pods",
+      "Tiny footprint",
+      "Fast heat-up"
+     ],
+     "cons": [
+      "Small water tank",
+      "Espresso sizes only"
+     ],
+     "verdict": "The smart pod choice: the open Original ecosystem keeps per-cup costs honest forever."
+    },
+    {
+     "id": "cfm-017",
+     "asin": "B0BB7KK5Y6",
+     "name": "Nespresso Vertuo Pop (by Krups)",
+     "brand": "Nespresso",
+     "price": 68,
+     "rating": 4.2,
+     "badge": "Best for Mug Drinkers",
+     "specs": {
+      "Type": "Pod (Vertuo)",
+      "Sizes": "5 cup formats",
+      "Speed": "~30 s",
+      "Skill": "Zero"
+     },
+     "pros": [
+      "Total consistency, zero effort",
+      "5 cup sizes incl. mug",
+      "Compact and colourful"
+     ],
+     "cons": [
+      "Pod costs add up",
+      "Closed ecosystem"
+     ],
+     "verdict": "The one-good-cup-a-day machine: unbeatable simplicity, just mind the pod maths."
+    },
+    {
+     "id": "cfm-018",
+     "asin": "B01ITG2JEQ",
+     "name": "Nespresso CitiZ (De'Longhi EN167.B)",
+     "brand": "Nespresso",
+     "price": 161,
+     "rating": 4.4,
+     "badge": "Best Premium Pod",
+     "specs": {
+      "Type": "Pod (Original)",
+      "Build": "Premium metal accents",
+      "Speed": "Fast",
+      "Pods": "Open ecosystem"
+     },
+     "pros": [
+      "Premium build for a pod machine",
+      "Original-line pod freedom",
+      "19-bar extraction"
+     ],
+     "cons": [
+      "Dearer than Inissia",
+      "No milk"
+     ],
+     "verdict": "The grown-up pod machine: CitiZ style with the open ecosystem's cheap refills."
+    },
+    {
+     "id": "cfm-019",
+     "asin": "B07VTMQLY1",
+     "name": "Nescafé Dolce Gusto Piccolo XS",
+     "brand": "Krups",
+     "price": 31,
+     "rating": 4.3,
+     "badge": "Best Family Variety",
+     "specs": {
+      "Type": "Pod (Dolce Gusto)",
+      "Drinks": "50+ incl. choc",
+      "Size": "Tiny",
+      "Skill": "Zero"
+     },
+     "pros": [
+      "Hot choc, chai and coffee range",
+      "€31 machine",
+      "Kid-friendly drinks"
+     ],
+     "cons": [
+      "Coffee ceiling modest",
+      "Milk pods double cost"
+     ],
+     "verdict": "The family pleaser: something for everyone from a €31 box."
+    },
+    {
+     "id": "cfm-020",
+     "asin": "B0DP56SQH4",
+     "name": "Tassimo by Bosch Finesse",
+     "brand": "Bosch",
+     "price": 47,
+     "rating": 4.5,
+     "badge": "Best Barcode Simplicity",
+     "specs": {
+      "Type": "Pod (Tassimo)",
+      "Drinks": "Costa, Kenco, choc",
+      "Tech": "Barcode auto-brew",
+      "Size": "Compact"
+     },
+     "pros": [
+      "Barcode pods self-program",
+      "Costa range at home",
+      "Bosch reliability"
+     ],
+     "cons": [
+      "Pod range narrowing",
+      "Coffee purists will sniff"
+     ],
+     "verdict": "The zero-thought machine: scan, brew, done — with Costa on the menu."
+    }
+   ]
+  },
+  {
+   "slug": "best-espresso-machines-beginners-ireland",
+   "title": "Best Espresso Machines for Beginners Ireland 2026 — Top 5 Starters",
+   "desc": "Starting home espresso? The 5 best beginner machines in Ireland — forgiving workflows, learning curves and grinder advice. 2026 guide.",
+   "h1": "Best Espresso Machines for Beginners in Ireland",
+   "intro": "Home espresso is a learnable fortnight, not a dark art — if the machine forgives early mistakes. Beginner-right machines heat fast, hit stable 9-bar extraction, and steam milk without commercial-grade rage. One honest rule first: the grinder matters more than the machine, so we flag the realistic total budget on every pick. The ladder starts at €119.",
+   "faq_idx": [
+    5,
+    3,
+    6
+   ],
+   "products": [
+    {
+     "id": "cfm-021",
+     "asin": "B085J8LBXF",
+     "name": "De'Longhi Stilosa EC260 (15 Bar)",
+     "brand": "De'Longhi",
+     "price": 122,
+     "rating": 4.4,
+     "badge": "Best First Espresso",
+     "specs": {
+      "Type": "Manual espresso",
+      "Pressure": "15 bar",
+      "Milk": "Steam wand",
+      "Skill": "Learning fortnight"
+     },
+     "pros": [
+      "Real pump espresso + wand",
+      "The proven budget barista trainer",
+      "Slim footprint"
+     ],
+     "cons": [
+      "Needs technique (and ideally a grinder)",
+      "Plastic tamper — replace it"
+     ],
+     "verdict": "The cheapest ticket to real espresso craft: with practice, café-bothering shots."
+    },
+    {
+     "id": "cfm-022",
+     "asin": "B0FX33V398",
+     "name": "Chefman CraftBrew 15-Bar Espresso Machine",
+     "brand": "Chefman",
+     "price": 98,
+     "rating": 4.3,
+     "badge": "Best Guided Starter",
+     "specs": {
+      "Type": "Manual espresso",
+      "Pressure": "15 bar",
+      "Display": "Digital touchscreen",
+      "Milk": "Steam wand"
+     },
+     "pros": [
+      "Touchscreen guides beginners",
+      "15-bar pump + wand under €100",
+      "Modern looks"
+     ],
+     "cons": [
+      "Newer brand in Ireland",
+      "Small tank"
+     ],
+     "verdict": "The guided starter: touchscreen hand-holding makes first espresso shots much less scary."
+    },
+    {
+     "id": "cfm-023",
+     "asin": "B0FH5K763P",
+     "name": "Quest 15-Bar Espresso Machine",
+     "brand": "Quest",
+     "price": 78,
+     "rating": 4.2,
+     "badge": "Cheapest Full Kit",
+     "specs": {
+      "Type": "Manual espresso",
+      "Pressure": "15 bar",
+      "Includes": "Filter + measuring cup",
+      "Milk": "Steam wand"
+     },
+     "pros": [
+      "Full espresso kit for €78",
+      "Real 15-bar pump",
+      "Compact"
+     ],
+     "cons": [
+      "Budget build quality",
+      "Learning curve"
+     ],
+     "verdict": "The cheapest complete espresso setup — a fair first rung on the barista ladder."
+    },
+    {
+     "id": "cfm-024",
+     "asin": "B00G5YOVZA",
+     "name": "Nespresso Inissia (De'Longhi EN80.B)",
+     "brand": "Nespresso",
+     "price": 107,
+     "rating": 4.4,
+     "badge": "Easiest Pod Alternative",
+     "specs": {
+      "Type": "Pod (Original line)",
+      "Speed": "25 s",
+      "Size": "Tiny",
+      "Pods": "3rd-party compatible"
+     },
+     "pros": [
+      "Original line = cheap 3rd-party pods",
+      "Tiny footprint",
+      "Fast heat-up"
+     ],
+     "cons": [
+      "Small water tank",
+      "Espresso sizes only"
+     ],
+     "verdict": "The smart pod choice: the open Original ecosystem keeps per-cup costs honest forever."
+    },
+    {
+     "id": "cfm-025",
+     "asin": "B0BWSDQ9WT",
+     "name": "De'Longhi Magnifica Start (ECAM222.20.B)",
+     "brand": "De'Longhi",
+     "price": 336,
+     "rating": 4.6,
+     "badge": "Skip-the-Learning Automatic",
+     "specs": {
+      "Type": "Bean-to-cup",
+      "Grinder": "Steel burr",
+      "Milk": "Steam wand",
+      "Cup cost": "~28c"
+     },
+     "pros": [
+      "Fresh-bean espresso at a button",
+      "Best-value automatic on Amazon.ie",
+      "Compact for the category"
+     ],
+     "cons": [
+      "Wand milk takes practice",
+      "Plastic-forward build"
+     ],
+     "verdict": "The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price."
+    }
+   ]
+  }
+ ]
+}

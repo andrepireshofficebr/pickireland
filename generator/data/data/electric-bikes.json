@@ -1,0 +1,755 @@
+{
+ "category": "electric-bikes",
+ "name": "Electric Bikes",
+ "emoji": "🚲",
+ "hub_intro": "Ireland is quietly becoming an e-bike country: the Cycle to Work scheme covers e-bikes up to €1,500, fuel and parking costs keep climbing, and EU-legal pedelecs (250 W, assist to 25 km/h) need no licence, tax or insurance. We compare every e-bike worth buying on Amazon.ie — from €459 folders to 1,440 Wh range flagships at €2,000.",
+ "guide": [
+  [
+   "The €1,500 Cycle to Work advantage",
+   "If you're a PAYE employee, the Cycle to Work scheme lets you buy an e-bike up to €1,500 through salary sacrifice — saving up to 52% depending on your tax band. Many bikes here fall under that ceiling deliberately."
+  ],
+  [
+   "Hub motor vs mid-drive",
+   "Hub motors (in the wheel) are cheaper and fine for flat commutes. Mid-drives (at the pedals) use the bike's gears, climb far better and balance the bike — worth the premium in hilly Cork, Limerick or anywhere outside the city centre."
+  ],
+  [
+   "Battery: Wh is the number that matters",
+   "Ignore '50 km range' claims; look at watt-hours. 400 Wh is the practical minimum for daily commuting; 500+ Wh for 20 km+ round trips or hills. Real consumption is roughly 8–12 Wh per km in Irish conditions."
+  ],
+  [
+   "Don't skip mudguards and lights",
+   "An e-bike without mudguards is a back-spray machine for eight months of the year here. Integrated lights running off the main battery mean you're never caught out by early winter darkness."
+  ]
+ ],
+ "faqs": [
+  {
+   "q": "Do I need a licence or insurance for an e-bike in Ireland?",
+   "a": "No — as long as it's a standard pedelec: 250 W motor, assistance cutting out at 25 km/h, and you have to pedal. More powerful e-bikes or throttle-driven ones are classed differently and need registration, insurance and a licence."
+  },
+  {
+   "q": "Can I get an e-bike on the Cycle to Work scheme?",
+   "a": "Yes. The scheme covers pedelecs up to €1,500 (more than the €1,250 limit for regular bikes), via salary sacrifice through your employer. Higher-rate taxpayers effectively save around half the price. You can use it once every 4 years."
+  },
+  {
+   "q": "How far does an e-bike really go on one charge?",
+   "a": "Divide battery watt-hours by 10 for a realistic Irish figure: a 400 Wh battery gives roughly 40 km of assisted riding with hills, wind and a stop-start commute. Eco mode stretches it; turbo mode halves it."
+  },
+  {
+   "q": "Are e-bikes OK in Irish rain?",
+   "a": "Yes — motors and batteries on reputable brands are sealed for rain riding. Avoid pressure-washing, dry contacts before charging, and store the battery indoors in winter: cold storage below 5°C permanently eats capacity."
+  },
+  {
+   "q": "How much does charging an e-bike cost in Ireland?",
+   "a": "A 500 Wh battery costs about 18–20 cents to charge fully at typical rates. Even commuting daily, that's under €50 a year — versus €1,500+ for a year of fuel or €1,000+ of public transport."
+  },
+  {
+   "q": "What's the difference between a €900 and a €2,000 e-bike?",
+   "a": "Mostly the motor (mid-drive vs hub), battery brand (Bosch/Shimano cells vs generic), and components that survive year-round use: hydraulic brakes, better gears, integrated lights. If you ride daily, the upgrade pays for itself in reliability."
+  },
+  {
+   "q": "Can I ride an e-bike on Irish cycle lanes and greenways?",
+   "a": "Yes — legal pedelecs are treated exactly like bicycles, so cycle lanes, greenways and bike parking are all available to you. The 25 km/h assist limit keeps them welcome on shared paths."
+  },
+  {
+   "q": "Should I buy a folding e-bike?",
+   "a": "If your commute includes a train or you've nowhere secure to park, yes — a folder defeats both Irish bike theft and rail restrictions, since folded bikes travel free anytime on Irish Rail. Otherwise a full-size bike rides better."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-electric-bikes-ireland",
+   "title": "5 Best Electric Bikes in Ireland 2026 — Tested & Compared",
+   "desc": "Ireland's best electric bikes for 2026, compared on motor, real range, hills and value — including Cycle to Work eligible picks under €1,500.",
+   "h1": "The 5 Best Electric Bikes in Ireland (2026)",
+   "intro": "The Irish e-bike market has matured fast: you can now get a genuinely good commuter for under €1,200 and a superb one under €2,000. We compared motors, honest range, braking, and weather-readiness across the most popular models sold here, flagging which qualify for the €1,500 Cycle to Work ceiling — because for most PAYE workers that scheme is an instant ~30–50% discount.",
+   "faq_idx": [
+    1,
+    2,
+    0
+   ],
+   "products": [
+    {
+     "id": "ebk-001",
+     "asin": "B0FMRCLHYN",
+     "name": "ENGWE Folding E-Bike (48V 15Ah, Torque Sensor, 130 km)",
+     "brand": "ENGWE",
+     "price": 1699,
+     "rating": 4.8,
+     "badge": "Best Overall",
+     "specs": {
+      "Battery": "48V 15Ah — up to 130 km",
+      "Sensor": "Torque (natural assist)",
+      "Type": "Folding fat-tyre",
+      "Rating": "4.8★ on Amazon.ie"
+     },
+     "pros": [
+      "Torque sensor — premium pedal feel",
+      "Up to 130 km of range",
+      "Best-rated e-bike on Amazon.ie"
+     ],
+     "cons": [
+      "Premium price",
+      "Heavy like all fat folders"
+     ],
+     "verdict": "The best e-bike on Amazon.ie right now: massive range, natural torque-sensor assist, top owner ratings."
+    },
+    {
+     "id": "ebk-002",
+     "asin": "B0FJKTFCCT",
+     "name": "ENGWE Folding E-Bike (48V 13Ah, up to 120 km)",
+     "brand": "ENGWE",
+     "price": 1049,
+     "rating": 4.3,
+     "badge": "Best Range Value",
+     "specs": {
+      "Battery": "48V 13Ah removable",
+      "Range": "Up to 120 km",
+      "Type": "Folding",
+      "Charge": "Indoors, battery out"
+     },
+     "pros": [
+      "120 km claimed range",
+      "Removable battery",
+      "ENGWE build pedigree"
+     ],
+     "cons": [
+      "Cadence assist (not torque)",
+      "Bulky folded"
+     ],
+     "verdict": "The range-per-euro king: week-of-commutes battery in a folding frame at €1,049."
+    },
+    {
+     "id": "ebk-003",
+     "asin": "B0CLB7ZZCS",
+     "name": "Fafrees F20 X-MAX (48V 30Ah / 1440Wh)",
+     "brand": "Fafrees",
+     "price": 1999,
+     "rating": 4.5,
+     "badge": "Best Range Flagship",
+     "specs": {
+      "Battery": "1440 Wh — the biggest here",
+      "Range": "Class-leading",
+      "Type": "Fat folding",
+      "Tier": "Flagship"
+     },
+     "pros": [
+      "1440 Wh: double most rivals",
+      "Genuine all-week range",
+      "Flagship components"
+     ],
+     "cons": [
+      "€2,000 territory",
+      "Very heavy"
+     ],
+     "verdict": "The range flagship: a 1440 Wh monster battery that makes range anxiety a memory."
+    },
+    {
+     "id": "ebk-004",
+     "asin": "B0DWFJCJZ3",
+     "name": "ENGWE 20\"×4.0 Fat Step-Through E-Bike (7-Speed)",
+     "brand": "ENGWE",
+     "price": 1149,
+     "rating": 4.5,
+     "badge": "Best Step-Through",
+     "specs": {
+      "Frame": "Low step-through",
+      "Tyres": "20×4.0 fat",
+      "Gears": "7-speed",
+      "Fit": "Skirts, coats, easy mount"
+     },
+     "pros": [
+      "Step-through — easiest mounting",
+      "Fat tyres smooth Irish roads",
+      "7 gears for hills"
+     ],
+     "cons": [
+      "Smaller wheels feel speed bumps",
+      "Style splits opinion"
+     ],
+     "verdict": "The accessibility champion: swing a leg through, not over — comfort-first fat-tyre riding."
+    },
+    {
+     "id": "ebk-005",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 24\"/26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 549,
+     "rating": 4.4,
+     "badge": "Best Budget Overall",
+     "specs": {
+      "Motor": "250 W EU-legal",
+      "Battery": "Removable",
+      "Range": "45–60 km",
+      "Price": "Entry hero"
+     },
+     "pros": [
+      "EU-legal pedelec",
+      "Removable battery",
+      "Now €549 — price dropped"
+     ],
+     "cons": [
+      "Cadence assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie entry hero — legal, practical, and now even cheaper at €549."
+    }
+   ]
+  },
+  {
+   "slug": "best-electric-bikes-under-1000-ireland",
+   "title": "Best Electric Bikes Under €1,000 in Ireland (2026) — 5 Real Options",
+   "desc": "Five electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
+   "h1": "Best Electric Bikes Under €1,000 in Ireland",
+   "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These five keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
+   "faq_idx": [
+    5,
+    1,
+    4
+   ],
+   "products": [
+    {
+     "id": "ebk-006",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 24\"/26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 549,
+     "rating": 4.4,
+     "badge": "Best Under €600",
+     "specs": {
+      "Motor": "250 W EU-legal",
+      "Battery": "Removable",
+      "Range": "45–60 km",
+      "Price": "Entry hero"
+     },
+     "pros": [
+      "EU-legal pedelec",
+      "Removable battery",
+      "Now €549 — price dropped"
+     ],
+     "cons": [
+      "Cadence assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie entry hero — legal, practical, and now even cheaper at €549."
+    },
+    {
+     "id": "ebk-007",
+     "asin": "B0DW8LNFT7",
+     "name": "Fafrees 26\" Hailong-One E-Bike",
+     "brand": "Fafrees",
+     "price": 699,
+     "rating": 4.2,
+     "badge": "Best Classic 26\"",
+     "specs": {
+      "Wheel": "26\" classic",
+      "Battery": "36V 13Ah removable",
+      "Style": "Traditional commuter",
+      "Value": "Under €700"
+     },
+     "pros": [
+      "Classic full-size feel",
+      "Removable Hailong battery",
+      "Honest price"
+     ],
+     "cons": [
+      "Plain spec sheet",
+      "Cadence assist"
+     ],
+     "verdict": "The traditional commuter: full-size wheels and removable battery without folding-bike compromises."
+    },
+    {
+     "id": "ebk-008",
+     "asin": "B0BVR81S6P",
+     "name": "VARUN 27.5\" Electric Mountain Bike (624Wh, App)",
+     "brand": "VARUN",
+     "price": 749,
+     "rating": 4.4,
+     "badge": "Best MTB Under €1,000",
+     "specs": {
+      "Battery": "48V 624Wh",
+      "Wheel": "27.5\"",
+      "App": "Yes",
+      "Range": "60–90 km"
+     },
+     "pros": [
+      "Big 624 Wh battery",
+      "Real trail capability",
+      "Price dropped to €749"
+     ],
+     "cons": [
+      "Entry-level suspension",
+      "Heavier than analog MTB"
+     ],
+     "verdict": "The big-battery do-it-all, now €50 cheaper: trails Saturday, commutes Monday."
+    },
+    {
+     "id": "ebk-009",
+     "asin": "B0CY2672XJ",
+     "name": "VARUN 26\"×4.0 Fat Tyre E-Bike (48V 18Ah)",
+     "brand": "VARUN",
+     "price": 799,
+     "rating": 4.4,
+     "badge": "Best Fat Tyre Under €800",
+     "specs": {
+      "Battery": "48V 18Ah",
+      "Tyres": "26×4.0 fat",
+      "Terrain": "Sand, gravel, mud",
+      "Range": "Long"
+     },
+     "pros": [
+      "18Ah battery at €799",
+      "Full-size fat capability",
+      "All-terrain confidence"
+     ],
+     "cons": [
+      "Heavy",
+      "Fat tyres drag on tarmac"
+     ],
+     "verdict": "Full-size fat-tyre freedom under €800 — beach, boreen and bog-road ready."
+    },
+    {
+     "id": "ebk-010",
+     "asin": "B09QGCQ6GH",
+     "name": "Fafrees F20 Folding Fat E-Bike (20\")",
+     "brand": "Fafrees",
+     "price": 899,
+     "rating": 4.4,
+     "badge": "Best Folding Under €1,000",
+     "specs": {
+      "Type": "Folding fat 20\"",
+      "Battery": "Solid commuter range",
+      "Proven": "Bestseller line",
+      "Use": "City + trails"
+     },
+     "pros": [
+      "The proven F20 formula",
+      "Folds for storage",
+      "Fat-tyre comfort"
+     ],
+     "cons": [
+      "20\" wheels on rough roads",
+      "Basic display"
+     ],
+     "verdict": "The folding fat bestseller: comfort, storage and price in the sweet spot."
+    }
+   ]
+  },
+  {
+   "slug": "best-folding-electric-bikes-ireland",
+   "title": "Best Folding Electric Bikes Ireland 2026 — Top 5 for Train & Apartment Life",
+   "desc": "The 5 best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.",
+   "h1": "Best Folding Electric Bikes in Ireland",
+   "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these five on fold speed, carry weight, and how much riding quality survives the hinge.",
+   "faq_idx": [
+    7,
+    3,
+    2
+   ],
+   "products": [
+    {
+     "id": "ebk-011",
+     "asin": "B0FMRCLHYN",
+     "name": "ENGWE Folding E-Bike (48V 15Ah, Torque Sensor, 130 km)",
+     "brand": "ENGWE",
+     "price": 1699,
+     "rating": 4.8,
+     "badge": "Best Premium Folder",
+     "specs": {
+      "Battery": "48V 15Ah — up to 130 km",
+      "Sensor": "Torque (natural assist)",
+      "Type": "Folding fat-tyre",
+      "Rating": "4.8★ on Amazon.ie"
+     },
+     "pros": [
+      "Torque sensor — premium pedal feel",
+      "Up to 130 km of range",
+      "Best-rated e-bike on Amazon.ie"
+     ],
+     "cons": [
+      "Premium price",
+      "Heavy like all fat folders"
+     ],
+     "verdict": "The best e-bike on Amazon.ie right now: massive range, natural torque-sensor assist, top owner ratings."
+    },
+    {
+     "id": "ebk-012",
+     "asin": "B0FJKTFCCT",
+     "name": "ENGWE Folding E-Bike (48V 13Ah, up to 120 km)",
+     "brand": "ENGWE",
+     "price": 1049,
+     "rating": 4.3,
+     "badge": "Best Range Folder",
+     "specs": {
+      "Battery": "48V 13Ah removable",
+      "Range": "Up to 120 km",
+      "Type": "Folding",
+      "Charge": "Indoors, battery out"
+     },
+     "pros": [
+      "120 km claimed range",
+      "Removable battery",
+      "ENGWE build pedigree"
+     ],
+     "cons": [
+      "Cadence assist (not torque)",
+      "Bulky folded"
+     ],
+     "verdict": "The range-per-euro king: week-of-commutes battery in a folding frame at €1,049."
+    },
+    {
+     "id": "ebk-013",
+     "asin": "B09QGCQ6GH",
+     "name": "Fafrees F20 Folding Fat E-Bike (20\")",
+     "brand": "Fafrees",
+     "price": 899,
+     "rating": 4.4,
+     "badge": "Best Value Fat Folder",
+     "specs": {
+      "Type": "Folding fat 20\"",
+      "Battery": "Solid commuter range",
+      "Proven": "Bestseller line",
+      "Use": "City + trails"
+     },
+     "pros": [
+      "The proven F20 formula",
+      "Folds for storage",
+      "Fat-tyre comfort"
+     ],
+     "cons": [
+      "20\" wheels on rough roads",
+      "Basic display"
+     ],
+     "verdict": "The folding fat bestseller: comfort, storage and price in the sweet spot."
+    },
+    {
+     "id": "ebk-014",
+     "asin": "B0CZLBRLH7",
+     "name": "VARUN 20\"×4.0 Fat Folding E-Bike (48V 13Ah)",
+     "brand": "VARUN",
+     "price": 849,
+     "rating": 4.6,
+     "badge": "Best-Rated Compact",
+     "specs": {
+      "Type": "Folding fat 20\"",
+      "Battery": "48V 13Ah",
+      "Rating": "4.6★",
+      "Use": "Compact adventure"
+     },
+     "pros": [
+      "4.6★ owner rating",
+      "Folds with fat-tyre fun",
+      "Strong battery"
+     ],
+     "cons": [
+      "20\" wheel trade-offs",
+      "Firm ride"
+     ],
+     "verdict": "The compact adventure folder owners love — 4.6 stars don't lie."
+    },
+    {
+     "id": "ebk-015",
+     "asin": "B0FVRT9WBW",
+     "name": "VARUN 14\" Folding Electric Bike",
+     "brand": "VARUN",
+     "price": 459,
+     "rating": 4.2,
+     "badge": "Cheapest Folder",
+     "specs": {
+      "Wheel": "14\" folding",
+      "Battery": "36V 280Wh",
+      "Range": "~45 km",
+      "Weight": "Light"
+     },
+     "pros": [
+      "Cheapest e-bike here",
+      "Genuinely portable",
+      "Train and apartment friendly"
+     ],
+     "cons": [
+      "Small wheels feel bumps",
+      "Modest battery"
+     ],
+     "verdict": "The €459 entry ticket: last-mile legs, hallway storage, e-bike smiles."
+    }
+   ]
+  },
+  {
+   "slug": "best-electric-mountain-bikes-ireland",
+   "title": "Best Electric Mountain Bikes Ireland 2026 — Top 5 eMTBs Compared",
+   "desc": "Ireland's best electric mountain bikes for trail centres like Ticknock and Ballyhoura — motors, suspension and batteries compared for 2026.",
+   "h1": "Best Electric Mountain Bikes in Ireland",
+   "intro": "From Ticknock to Ballyhoura to the Wicklow gap roads, Ireland's trail scene rewards an eMTB's superpower: doing three climbs in the time one used to take. eMTB prices have finally relaxed, with credible hardtails under €2,000. We compared motor torque, battery size, suspension quality and the component compromises each brand chose.",
+   "faq_idx": [
+    2,
+    3,
+    5
+   ],
+   "products": [
+    {
+     "id": "ebk-016",
+     "asin": "B0BVR81S6P",
+     "name": "VARUN 27.5\" Electric Mountain Bike (624Wh, App)",
+     "brand": "VARUN",
+     "price": 749,
+     "rating": 4.4,
+     "badge": "Best eMTB Value",
+     "specs": {
+      "Battery": "48V 624Wh",
+      "Wheel": "27.5\"",
+      "App": "Yes",
+      "Range": "60–90 km"
+     },
+     "pros": [
+      "Big 624 Wh battery",
+      "Real trail capability",
+      "Price dropped to €749"
+     ],
+     "cons": [
+      "Entry-level suspension",
+      "Heavier than analog MTB"
+     ],
+     "verdict": "The big-battery do-it-all, now €50 cheaper: trails Saturday, commutes Monday."
+    },
+    {
+     "id": "ebk-017",
+     "asin": "B0D5CZC4YK",
+     "name": "Fafrees F26 Lasting E-MTB (36V 20.3Ah)",
+     "brand": "Fafrees",
+     "price": 899,
+     "rating": 4.3,
+     "badge": "Best Battery eMTB",
+     "specs": {
+      "Battery": "20.3Ah — long days",
+      "Type": "Hardtail eMTB",
+      "Wheel": "26\"",
+      "Use": "Trails + commute"
+     },
+     "pros": [
+      "Huge 20.3Ah battery for the price",
+      "True MTB geometry",
+      "Doubles as commuter"
+     ],
+     "cons": [
+      "36V system is gentler on hills",
+      "Brand support online only"
+     ],
+     "verdict": "The marathon hardtail: more amp-hours than bikes twice the price."
+    },
+    {
+     "id": "ebk-018",
+     "asin": "B0F18KS9SK",
+     "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
+     "brand": "Lohang",
+     "price": 1099,
+     "rating": 4.6,
+     "badge": "Most Powerful (Private Land)",
+     "specs": {
+      "Motors": "Dual",
+      "Battery": "52V 24Ah",
+      "Power": "Off-road class",
+      "Note": "Private land use"
+     },
+     "pros": [
+      "Massive power and battery",
+      "Dual-motor traction",
+      "4.6★ rated"
+     ],
+     "cons": [
+      "Exceeds road-legal pedelec limits",
+      "Very heavy"
+     ],
+     "verdict": "The private-land powerhouse — beyond pedelec rules, built for trails and farms."
+    },
+    {
+     "id": "ebk-019",
+     "asin": "B0F2TFV2HD",
+     "name": "ENGWE E-Bike with APP (48V 13.5Ah, 135 km)",
+     "brand": "ENGWE",
+     "price": 1399,
+     "rating": 4.4,
+     "badge": "Best Long-Range Tourer",
+     "specs": {
+      "Battery": "48V 13.5Ah — 135 km",
+      "App": "Full tuning + lock",
+      "Sensor": "Torque",
+      "Type": "All-road"
+     },
+     "pros": [
+      "App control and digital lock",
+      "135 km touring range",
+      "Torque-sensor smoothness"
+     ],
+     "cons": [
+      "Mid-premium price",
+      "Newer model line"
+     ],
+     "verdict": "The connected tourer: app-tuned power, huge range and torque feel for serious distance."
+    },
+    {
+     "id": "ebk-020",
+     "asin": "B0CY2672XJ",
+     "name": "VARUN 26\"×4.0 Fat Tyre E-Bike (48V 18Ah)",
+     "brand": "VARUN",
+     "price": 799,
+     "rating": 4.4,
+     "badge": "Best Fat-Tyre Trail",
+     "specs": {
+      "Battery": "48V 18Ah",
+      "Tyres": "26×4.0 fat",
+      "Terrain": "Sand, gravel, mud",
+      "Range": "Long"
+     },
+     "pros": [
+      "18Ah battery at €799",
+      "Full-size fat capability",
+      "All-terrain confidence"
+     ],
+     "cons": [
+      "Heavy",
+      "Fat tyres drag on tarmac"
+     ],
+     "verdict": "Full-size fat-tyre freedom under €800 — beach, boreen and bog-road ready."
+    }
+   ]
+  },
+  {
+   "slug": "best-commuter-electric-bikes-ireland",
+   "title": "Best Commuter Electric Bikes Ireland 2026 — Top 5 for Daily Riding",
+   "desc": "The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison.",
+   "h1": "Best Commuter Electric Bikes in Ireland",
+   "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared five commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
+   "faq_idx": [
+    4,
+    1,
+    6
+   ],
+   "products": [
+    {
+     "id": "ebk-021",
+     "asin": "B0DWFJCJZ3",
+     "name": "ENGWE 20\"×4.0 Fat Step-Through E-Bike (7-Speed)",
+     "brand": "ENGWE",
+     "price": 1149,
+     "rating": 4.5,
+     "badge": "Best Comfort Commuter",
+     "specs": {
+      "Frame": "Low step-through",
+      "Tyres": "20×4.0 fat",
+      "Gears": "7-speed",
+      "Fit": "Skirts, coats, easy mount"
+     },
+     "pros": [
+      "Step-through — easiest mounting",
+      "Fat tyres smooth Irish roads",
+      "7 gears for hills"
+     ],
+     "cons": [
+      "Smaller wheels feel speed bumps",
+      "Style splits opinion"
+     ],
+     "verdict": "The accessibility champion: swing a leg through, not over — comfort-first fat-tyre riding."
+    },
+    {
+     "id": "ebk-022",
+     "asin": "B0FJKTFCCT",
+     "name": "ENGWE Folding E-Bike (48V 13Ah, up to 120 km)",
+     "brand": "ENGWE",
+     "price": 1049,
+     "rating": 4.3,
+     "badge": "Best Range Commuter",
+     "specs": {
+      "Battery": "48V 13Ah removable",
+      "Range": "Up to 120 km",
+      "Type": "Folding",
+      "Charge": "Indoors, battery out"
+     },
+     "pros": [
+      "120 km claimed range",
+      "Removable battery",
+      "ENGWE build pedigree"
+     ],
+     "cons": [
+      "Cadence assist (not torque)",
+      "Bulky folded"
+     ],
+     "verdict": "The range-per-euro king: week-of-commutes battery in a folding frame at €1,049."
+    },
+    {
+     "id": "ebk-023",
+     "asin": "B0DW8LNFT7",
+     "name": "Fafrees 26\" Hailong-One E-Bike",
+     "brand": "Fafrees",
+     "price": 699,
+     "rating": 4.2,
+     "badge": "Best Classic Commuter",
+     "specs": {
+      "Wheel": "26\" classic",
+      "Battery": "36V 13Ah removable",
+      "Style": "Traditional commuter",
+      "Value": "Under €700"
+     },
+     "pros": [
+      "Classic full-size feel",
+      "Removable Hailong battery",
+      "Honest price"
+     ],
+     "cons": [
+      "Plain spec sheet",
+      "Cadence assist"
+     ],
+     "verdict": "The traditional commuter: full-size wheels and removable battery without folding-bike compromises."
+    },
+    {
+     "id": "ebk-024",
+     "asin": "B0C7VPVX5B",
+     "name": "VARUN 24\"/26\" Electric Bike (250W, Removable Battery)",
+     "brand": "VARUN",
+     "price": 549,
+     "rating": 4.4,
+     "badge": "Best Budget Commuter",
+     "specs": {
+      "Motor": "250 W EU-legal",
+      "Battery": "Removable",
+      "Range": "45–60 km",
+      "Price": "Entry hero"
+     },
+     "pros": [
+      "EU-legal pedelec",
+      "Removable battery",
+      "Now €549 — price dropped"
+     ],
+     "cons": [
+      "Cadence assist",
+      "Basic components"
+     ],
+     "verdict": "The Amazon.ie entry hero — legal, practical, and now even cheaper at €549."
+    },
+    {
+     "id": "ebk-025",
+     "asin": "B0F4X9D75Z",
+     "name": "Fafrees F20 Mate Electric Tricycle (873 Wh)",
+     "brand": "Fafrees",
+     "price": 1800,
+     "rating": 4.6,
+     "badge": "Best Stability/Cargo Trike",
+     "specs": {
+      "Wheels": "3 — self-standing",
+      "Battery": "873 Wh",
+      "Cargo": "Big rear basket",
+      "For": "Stability + shopping"
+     },
+     "pros": [
+      "No-balance-needed stability",
+      "Huge cargo capacity",
+      "Strong 4.6★ rating"
+     ],
+     "cons": [
+      "Wide — needs storage space",
+      "Trike handling takes a day"
+     ],
+     "verdict": "The stability pick: shopping, dogs, confidence — three wheels open e-biking to everyone."
+    }
+   ]
+  }
+ ]
+}

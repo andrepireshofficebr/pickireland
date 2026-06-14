@@ -1,0 +1,1020 @@
+{
+ "category": "electric-heaters",
+ "name": "Electric Heaters",
+ "emoji": "🔥",
+ "hub_intro": "With Irish electricity among the priciest in Europe, the wrong electric heater is a money bonfire — but the right one, used to heat the person instead of the whole house, cuts bills. The maths matters: every heater converts electricity to heat at ~100% efficiency, so the differences are in how they deliver it (radiant vs convection vs oil), how well they hold it, and thermostat intelligence. We compare them honestly, running costs included.",
+ "guide": [
+  [
+   "All electric heaters are '100% efficient' — read that right",
+   "A 2,000 W heater produces 2,000 W of heat whether it costs €30 or €300. What you're paying more for: better thermostats (less wasted run-time), heat retention (oil columns), safety features, and quieter or faster delivery. 'Eco ceramic' marketing changes nothing about the physics."
+  ],
+  [
+   "Match the type to the job",
+   "Quick blast in a bathroom: fan heater. All-evening living room warmth: oil-filled radiator (retains heat, cycles less). Heating just yourself at a desk: radiant/halogen pointed at you. Whole-room slow background: panel with timer. Wrong type = higher bills."
+  ],
+  [
+   "The real cost per hour",
+   "At ~36c/kWh standard rate: a 2 kW heater flat-out costs ~72c/hour; a 1 kW setting ~36c/hour; a 500 W radiant ~18c/hour. A good thermostat halves effective run-time — that's where savings genuinely live."
+  ],
+  [
+   "Spot heating beats whole-home electric",
+   "Electric heating a whole Irish house is brutal on bills. The winning strategy: keep central heating low, spot-heat the occupied room. A 1 kW oil radiator in a home office for 8 hours (~€1.50–2.50 with thermostat cycling) beats firing gas through the whole house."
+  ]
+ ],
+ "faqs": [
+  {
+   "q": "What's the cheapest electric heater to run in Ireland?",
+   "a": "The one with the lowest wattage that does the job, run through a good thermostat. For heating a person: a 400–800 W radiant heater. For a room: an oil-filled radiator on a thermostat cycles off once warm, often averaging half its rated draw across an evening."
+  },
+  {
+   "q": "How much does a 2kW heater cost per hour in Ireland?",
+   "a": "At a typical 36c/kWh: about 72 cents per hour at full power. With a decent thermostat in an average room it cycles on and off, usually averaging 40–60% of that. Smart-meter night rates can drop the cost dramatically for overnight panel use."
+  },
+  {
+   "q": "Oil-filled radiator or fan heater — which is cheaper?",
+   "a": "Same electricity per heat delivered, but they suit different jobs. Fan heaters: instant heat, short bursts, bathrooms. Oil radiators: slow start but keep radiating after cycling off, so they're cheaper across a whole evening in a closed room."
+  },
+  {
+   "q": "Are 'eco' ceramic heaters really more efficient?",
+   "a": "No heater beats another at converting electricity to heat — all are ~100%. Ceramic units heat up fast and some have decent thermostats, but the 'eco' badge is marketing. Buy on thermostat quality, noise and safety, not efficiency claims."
+  },
+  {
+   "q": "Is it safe to leave an electric heater on overnight?",
+   "a": "Only oil-filled radiators with tip-over switches and thermostats are generally considered safe for unattended/overnight use — and even then keep clearance from bedding and curtains. Never leave fan or halogen heaters running unattended, and avoid extension leads with any 2 kW heater."
+  },
+  {
+   "q": "Can an electric heater heat a whole room?",
+   "a": "Yes — allow roughly 100 W per square metre in a typically insulated Irish room (so 1,500 W for a 15 m² room). Poor insulation or high ceilings need more. Close the door: the cheapest upgrade for any heater is a closed door."
+  },
+  {
+   "q": "Electric heater or heat pump — what about running costs?",
+   "a": "A heat pump delivers 3–4 units of heat per unit of electricity, versus 1:1 for any plug-in heater — but costs thousands installed. For heating one room a few hours daily, a plug-in heater is rational; for whole-home daily heating, the heat pump wins long-term."
+  },
+  {
+   "q": "What size heater for a home office?",
+   "a": "A typical 10–12 m² home office needs 1,000–1,200 W to heat fully — but if it's just you at a desk, a 400–800 W radiant panel or under-desk heater warms you for a third of the running cost. Heat the human, not the air."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-electric-heaters-ireland",
+   "title": "5 Best Electric Heaters in Ireland 2026 — Running Costs Compared",
+   "desc": "The best electric heaters for Irish homes in 2026, compared on real running costs per hour, heat type and safety. Top 5 ranked.",
+   "h1": "The 5 Best Electric Heaters in Ireland (2026)",
+   "intro": "Every winter, Irish households panic-buy heaters that triple their bills. The fix is matching heater type to the job — burst heat, all-evening warmth, or personal spot heating — and insisting on a proper thermostat. We compared the market on running cost per useful hour at Irish rates, not just price tags. These five each win their specific job.",
+   "faq_idx": [
+    0,
+    1,
+    2
+   ],
+   "products": [
+    {
+     "id": "eht-001",
+     "asin": "B0C9D4KL9D",
+     "name": "Dreo 1500W Ceramic Space Heater",
+     "brand": "Dreo",
+     "price": 49,
+     "rating": 4.7,
+     "badge": "Best Overall",
+     "specs": {
+      "Power": "1,500 W",
+      "Type": "Ceramic PTC",
+      "Thermostat": "Digital",
+      "Safety": "Tip-over + overheat"
+     },
+     "pros": [
+      "Heats in seconds",
+      "Accurate digital thermostat",
+      "Quiet for a fan heater"
+     ],
+     "cons": [
+      "Room-size limits",
+      "No app"
+     ],
+     "verdict": "The best small heater on Amazon.ie: fast, precise and safe — the panic-buy that isn't a mistake."
+    },
+    {
+     "id": "eht-002",
+     "asin": "B00CA1T07G",
+     "name": "De'Longhi Dragon 4 2000W Oil Radiator (TRD40820T)",
+     "brand": "De'Longhi",
+     "price": 135,
+     "rating": 4.6,
+     "badge": "Best Oil Radiator",
+     "specs": {
+      "Power": "2,000 W",
+      "Type": "Oil-filled",
+      "Thermostat": "Precision dial",
+      "Use": "All-evening rooms"
+     },
+     "pros": [
+      "Retains heat after cycling off",
+      "Silent operation",
+      "Built to last a decade"
+     ],
+     "cons": [
+      "Slow first 20 minutes",
+      "Bulky to store"
+     ],
+     "verdict": "The all-evening room heater: silent, frugal across hours, the category benchmark."
+    },
+    {
+     "id": "eht-003",
+     "asin": "B081T75Y16",
+     "name": "Devola 1500W Smart Glass Panel Heater",
+     "brand": "Devola",
+     "price": 110,
+     "rating": 4.5,
+     "badge": "Best Smart Panel",
+     "specs": {
+      "Power": "1,500 W",
+      "Control": "WiFi app + Alexa",
+      "Mount": "Wall or feet",
+      "Compliance": "Lot 20"
+     },
+     "pros": [
+      "Schedule around night rates",
+      "Glass panel looks built-in",
+      "Accurate electronic thermostat"
+     ],
+     "cons": [
+      "Needs WiFi for best tricks",
+      "Convection suits sealed rooms"
+     ],
+     "verdict": "The smart panel: pre-warm rooms on cheap-rate electricity and forget it exists."
+    },
+    {
+     "id": "eht-004",
+     "asin": "B0DJ13X8TZ",
+     "name": "Russell Hobbs 1500W Oscillating Tower Heater",
+     "brand": "Russell Hobbs",
+     "price": 33,
+     "rating": 4.4,
+     "badge": "Best Tower Spread",
+     "specs": {
+      "Power": "1,500 W",
+      "Oscillation": "Yes",
+      "Style": "Black & gold tower",
+      "Safety": "Tip-over"
+     },
+     "pros": [
+      "Oscillates heat across the room",
+      "Looks better than it costs",
+      "Trusted brand"
+     ],
+     "cons": [
+      "1.5 kW medium rooms",
+      "No app"
+     ],
+     "verdict": "The stylish spreader: oscillating warmth that covers a sofa, not a spot."
+    },
+    {
+     "id": "eht-005",
+     "asin": "B006UJDGB0",
+     "name": "Warmlite 2kW Thermo Fan Heater",
+     "brand": "Warmlite",
+     "price": 18,
+     "rating": 4.0,
+     "badge": "Best Cheap Fast Heat",
+     "specs": {
+      "Power": "2,000 W",
+      "Settings": "2 heat",
+      "Safety": "Overheat protect",
+      "Type": "Fan"
+     },
+     "pros": [
+      "Instant heat for €18",
+      "Light and portable",
+      "Trusted budget brand"
+     ],
+     "cons": [
+      "Fan noise",
+      "Stops warming when off"
+     ],
+     "verdict": "The classic burst heater: bathroom-warm in two minutes for the price of a pizza."
+    },
+    {
+     "id": "eht-029",
+     "asin": "B09FTLX149",
+     "name": "Zanussi 2300W Oil Filled Radiator (11 Fin)",
+     "brand": "Zanussi",
+     "price": 89,
+     "rating": 4.4,
+     "badge": "Smart Alternative",
+     "specs": {
+      "Power": "2300 W",
+      "Owner rating": "4.4★ on Amazon.ie",
+      "Typical price": "€89",
+      "Brand": "Zanussi"
+     },
+     "pros": [
+      "Strong 4.4★ owner score",
+      "Competitive €89 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €89 — Zanussi 2300W Oil Filled Radiator earns its 4.4★ and undercuts several bigger names."
+    },
+    {
+     "id": "eht-033",
+     "asin": "B07KMQDJC4",
+     "name": "De'Longhi Radia S (Rooms up to 60 m³)",
+     "brand": "De'Longhi",
+     "price": 135,
+     "rating": 4.4,
+     "badge": "Strong Alternative",
+     "specs": {
+      "Owner rating": "4.4★ on Amazon.ie",
+      "Typical price": "€135",
+      "Brand": "De'Longhi"
+     },
+     "pros": [
+      "Owners rate it 4.4★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: De'Longhi Radia S won't dethrone our winner, but at €135 it makes the podium fight interesting."
+    },
+    {
+     "id": "eht-036",
+     "asin": "B07TKMPNXJ",
+     "name": "De'Longhi Dragon 4 Pro TRDX41025E (Digital)",
+     "brand": "De'Longhi",
+     "price": 236,
+     "rating": 4.3,
+     "badge": "Notable Mention",
+     "specs": {
+      "Owner rating": "4.3★ on Amazon.ie",
+      "Typical price": "€236",
+      "Brand": "De'Longhi"
+     },
+     "pros": [
+      "Owners rate it 4.3★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: De'Longhi Dragon 4 Pro TRDX41025E won't dethrone our winner, but at €236 it makes the podium fight interesting."
+    }
+   ]
+  },
+  {
+   "slug": "cheapest-electric-heaters-to-run-ireland",
+   "title": "Cheapest Electric Heaters to Run in Ireland 2026 — Low-Cost Top 5",
+   "desc": "The cheapest electric heaters to actually run at Irish electricity prices — low-watt radiant, smart thermostats and real hourly costs. Top 5.",
+   "h1": "Cheapest Electric Heaters to Run in Ireland",
+   "intro": "'Cheap to run' has a precise meaning: lowest watts doing the actual job needed. That's low-wattage radiant heat aimed at people, and sharp thermostats that kill run-time. Ignore 'eco' badges on 2,000 W boxes — here are five heaters engineered to draw less in the first place, with honest hourly costs at 36c/kWh.",
+   "faq_idx": [
+    0,
+    3,
+    7
+   ],
+   "products": [
+    {
+     "id": "eht-006",
+     "asin": "B07XYJ3K1F",
+     "name": "Warmlite 650W 5-Fin Mini Oil Radiator",
+     "brand": "Warmlite",
+     "price": 21,
+     "rating": 4.0,
+     "badge": "Cheapest Personal Heat",
+     "specs": {
+      "Power": "650 W (~23c/h)",
+      "Fins": "5",
+      "Size": "Mini",
+      "Thermostat": "Adjustable"
+     },
+     "pros": [
+      "~23c/hour flat out",
+      "Perfect under-desk size",
+      "Silent"
+     ],
+     "cons": [
+      "Small spaces only",
+      "Slow heat-up"
+     ],
+     "verdict": "The WFH bill-saver: 650 W of silent warmth beside your desk all day for cents."
+    },
+    {
+     "id": "eht-007",
+     "asin": "B0CX5CCHB4",
+     "name": "MYLEK 1KW Smart WiFi Slim Panel Heater",
+     "brand": "MYLEK",
+     "price": 61,
+     "rating": 4.2,
+     "badge": "Best Smart Low-Watt",
+     "specs": {
+      "Power": "1,000 W",
+      "Control": "WiFi app",
+      "Profile": "Slim",
+      "Use": "Small rooms/office"
+     },
+     "pros": [
+      "Smart scheduling at €61",
+      "Slim, discreet profile",
+      "Ideal home-office size"
+     ],
+     "cons": [
+      "1 kW small rooms only",
+      "Plastic finish"
+     ],
+     "verdict": "The budget smart panel: app-scheduled background warmth for a box-room office."
+    },
+    {
+     "id": "eht-008",
+     "asin": "B0C9D4KL9D",
+     "name": "Dreo 1500W Ceramic Space Heater",
+     "brand": "Dreo",
+     "price": 49,
+     "rating": 4.7,
+     "badge": "Best Thermostat Efficiency",
+     "specs": {
+      "Power": "1,500 W",
+      "Type": "Ceramic PTC",
+      "Thermostat": "Digital",
+      "Safety": "Tip-over + overheat"
+     },
+     "pros": [
+      "Heats in seconds",
+      "Accurate digital thermostat",
+      "Quiet for a fan heater"
+     ],
+     "cons": [
+      "Room-size limits",
+      "No app"
+     ],
+     "verdict": "The best small heater on Amazon.ie: fast, precise and safe — the panic-buy that isn't a mistake."
+    },
+    {
+     "id": "eht-009",
+     "asin": "B018EQ1E5G",
+     "name": "Daewoo 2000W Oil Filled Radiator",
+     "brand": "Daewoo",
+     "price": 38,
+     "rating": 4.0,
+     "badge": "Cheapest Room Oil",
+     "specs": {
+      "Power": "2,000 W",
+      "Thermostat": "Adjustable",
+      "Portable": "Castors",
+      "Settings": "3"
+     },
+     "pros": [
+      "2 kW oil for €38",
+      "Portable on castors",
+      "Simple and silent"
+     ],
+     "cons": [
+      "Basic thermostat",
+      "Fins run hot"
+     ],
+     "verdict": "The cheapest real oil radiator on the site — all-evening warmth, pocket-money price."
+    },
+    {
+     "id": "eht-010",
+     "asin": "B00F41JZ6K",
+     "name": "STATUS Portable 2kW Fan Heater",
+     "brand": "STATUS",
+     "price": 12,
+     "rating": 3.9,
+     "badge": "Lowest Price Burst",
+     "specs": {
+      "Power": "2,000 W",
+      "Type": "Fan",
+      "Size": "Compact",
+      "Use": "Quick bursts"
+     },
+     "pros": [
+      "€12 — cheapest heat here",
+      "Compact anywhere size",
+      "Instant warm air"
+     ],
+     "cons": [
+      "Basic in every way",
+      "Noisy"
+     ],
+     "verdict": "The absolute floor price for instant heat. Short bursts, small rooms, tiny outlay."
+    },
+    {
+     "id": "eht-025",
+     "asin": "B0CL4XM7VN",
+     "name": "Belaco PTC Heater (Digital + Remote)",
+     "brand": "Belaco",
+     "price": 32,
+     "rating": 4.5,
+     "badge": "Strong Alternative",
+     "specs": {
+      "Owner rating": "4.5★ on Amazon.ie",
+      "Typical price": "€32",
+      "Brand": "Belaco"
+     },
+     "pros": [
+      "Rated 4.5★ by Amazon.ie owners",
+      "Belaco build at a fair €32",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible electric heaters alternative: Belaco PTC Heater brings Belaco quality at €32 with solid owner ratings."
+    },
+    {
+     "id": "eht-027",
+     "asin": "B0FP2RR9K6",
+     "name": "Morphy Richards HeatFlux Ceramic Tower (Digital)",
+     "brand": "Morphy Richards",
+     "price": 55,
+     "rating": 4.8,
+     "badge": "Challenger Pick",
+     "specs": {
+      "Owner rating": "4.8★ on Amazon.ie",
+      "Typical price": "€55",
+      "Brand": "Morphy Richards"
+     },
+     "pros": [
+      "Owners rate it 4.8★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: Morphy Richards HeatFlux Ceramic Tower won't dethrone our winner, but at €55 it makes the podium fight interesting."
+    }
+   ]
+  },
+  {
+   "slug": "best-oil-filled-radiators-ireland",
+   "title": "Best Oil-Filled Radiators Ireland 2026 — Top 5 for All-Evening Heat",
+   "desc": "Oil-filled radiators compared for Irish homes: heat retention, thermostats, running costs and safety for long evening use. Top 5 for 2026.",
+   "h1": "Best Oil-Filled Radiators in Ireland",
+   "intro": "For hours-long heating of a closed room, nothing plug-in beats an oil-filled radiator: the oil holds heat, so the element cycles off while warmth keeps coming. They're silent, safe enough for long unattended stretches (with the right features), and kindest to all-evening bills. We compared thermal mass, thermostat quality and €-per-warm-evening across the five best.",
+   "faq_idx": [
+    2,
+    4,
+    5
+   ],
+   "products": [
+    {
+     "id": "eht-011",
+     "asin": "B00CA1T07G",
+     "name": "De'Longhi Dragon 4 2000W Oil Radiator (TRD40820T)",
+     "brand": "De'Longhi",
+     "price": 135,
+     "rating": 4.6,
+     "badge": "Best Oil Radiator Overall",
+     "specs": {
+      "Power": "2,000 W",
+      "Type": "Oil-filled",
+      "Thermostat": "Precision dial",
+      "Use": "All-evening rooms"
+     },
+     "pros": [
+      "Retains heat after cycling off",
+      "Silent operation",
+      "Built to last a decade"
+     ],
+     "cons": [
+      "Slow first 20 minutes",
+      "Bulky to store"
+     ],
+     "verdict": "The all-evening room heater: silent, frugal across hours, the category benchmark."
+    },
+    {
+     "id": "eht-012",
+     "asin": "B0FG74K5G6",
+     "name": "Midea 2000W Oil-Filled Radiator (9-Fin)",
+     "brand": "Midea",
+     "price": 86,
+     "rating": 4.5,
+     "badge": "Best Value 9-Fin",
+     "specs": {
+      "Power": "2,000 W",
+      "Fins": "9",
+      "Thermostat": "Adjustable",
+      "Safety": "Tip-over"
+     },
+     "pros": [
+      "Strong 9-fin heat output",
+      "Quality build for €86",
+      "Silent"
+     ],
+     "cons": [
+      "Slow warm-up like all oil",
+      "No digital display"
+     ],
+     "verdict": "The value 2 kW oil radiator: most metal per euro for all-evening heating."
+    },
+    {
+     "id": "eht-013",
+     "asin": "B07YDG65NW",
+     "name": "MYLEK Oil Filled Radiator with Timer",
+     "brand": "MYLEK",
+     "price": 61,
+     "rating": 4.4,
+     "badge": "Best With Timer",
+     "specs": {
+      "Power": "2,000 W",
+      "Timer": "24 h",
+      "Thermostat": "Adjustable",
+      "Heat settings": "3"
+     },
+     "pros": [
+      "24h timer included",
+      "Three power levels",
+      "Solid reviews at €61"
+     ],
+     "cons": [
+      "Dial precision is approximate",
+      "Mid-size rooms"
+     ],
+     "verdict": "Timer-equipped oil heating on a budget — warm room at 7am without running all night."
+    },
+    {
+     "id": "eht-014",
+     "asin": "B018EQ1E5G",
+     "name": "Daewoo 2000W Oil Filled Radiator",
+     "brand": "Daewoo",
+     "price": 38,
+     "rating": 4.0,
+     "badge": "Best Budget 2kW",
+     "specs": {
+      "Power": "2,000 W",
+      "Thermostat": "Adjustable",
+      "Portable": "Castors",
+      "Settings": "3"
+     },
+     "pros": [
+      "2 kW oil for €38",
+      "Portable on castors",
+      "Simple and silent"
+     ],
+     "cons": [
+      "Basic thermostat",
+      "Fins run hot"
+     ],
+     "verdict": "The cheapest real oil radiator on the site — all-evening warmth, pocket-money price."
+    },
+    {
+     "id": "eht-015",
+     "asin": "B07XYJ3K1F",
+     "name": "Warmlite 650W 5-Fin Mini Oil Radiator",
+     "brand": "Warmlite",
+     "price": 21,
+     "rating": 4.0,
+     "badge": "Best Mini/Desk",
+     "specs": {
+      "Power": "650 W (~23c/h)",
+      "Fins": "5",
+      "Size": "Mini",
+      "Thermostat": "Adjustable"
+     },
+     "pros": [
+      "~23c/hour flat out",
+      "Perfect under-desk size",
+      "Silent"
+     ],
+     "cons": [
+      "Small spaces only",
+      "Slow heat-up"
+     ],
+     "verdict": "The WFH bill-saver: 650 W of silent warmth beside your desk all day for cents."
+    },
+    {
+     "id": "eht-031",
+     "asin": "B096ZZS5HL",
+     "name": "Dreo 25\" Oscillating Tower Heater (70°)",
+     "brand": "Dreo",
+     "price": 90,
+     "rating": 4.5,
+     "badge": "Solid Backup Choice",
+     "specs": {
+      "Owner rating": "4.5★ on Amazon.ie",
+      "Typical price": "€90",
+      "Brand": "Dreo"
+     },
+     "pros": [
+      "Rated 4.5★ by Amazon.ie owners",
+      "Dreo build at a fair €90",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible electric heaters alternative: Dreo 25\" Oscillating Tower Heater brings Dreo quality at €90 with solid owner ratings."
+    },
+    {
+     "id": "eht-034",
+     "asin": "B005HI4Y5M",
+     "name": "Dimplex Studio G 2.5kW Ceramic Tower",
+     "brand": "Dimplex",
+     "price": 150,
+     "rating": 4.3,
+     "badge": "Worth Considering",
+     "specs": {
+      "Owner rating": "4.3★ on Amazon.ie",
+      "Typical price": "€150",
+      "Brand": "Dimplex"
+     },
+     "pros": [
+      "Rated 4.3★ by Amazon.ie owners",
+      "Dimplex build at a fair €150",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible electric heaters alternative: Dimplex Studio G 2.5kW Ceramic Tower brings Dimplex quality at €150 with solid owner ratings."
+    }
+   ]
+  },
+  {
+   "slug": "best-panel-heaters-ireland",
+   "title": "Best Panel Heaters Ireland 2026 — Slim, Smart & Wall-Mounted Top 5",
+   "desc": "Slim electric panel heaters for Irish rooms compared: smart scheduling, wall mounting, Lot 20 compliance and running costs. Top 5 2026.",
+   "h1": "Best Panel Heaters in Ireland",
+   "intro": "Panel heaters are the fitted-look option: slim, silent, wall-mountable, and increasingly smart enough to schedule around cheap-rate electricity windows. They suit sealed modern rooms and background heating — not draughty period homes needing fast recovery. We compared thermostat accuracy, scheduling intelligence and build across the five best sold here.",
+   "faq_idx": [
+    5,
+    6,
+    0
+   ],
+   "products": [
+    {
+     "id": "eht-016",
+     "asin": "B081T75Y16",
+     "name": "Devola 1500W Smart Glass Panel Heater",
+     "brand": "Devola",
+     "price": 110,
+     "rating": 4.5,
+     "badge": "Best Panel Overall",
+     "specs": {
+      "Power": "1,500 W",
+      "Control": "WiFi app + Alexa",
+      "Mount": "Wall or feet",
+      "Compliance": "Lot 20"
+     },
+     "pros": [
+      "Schedule around night rates",
+      "Glass panel looks built-in",
+      "Accurate electronic thermostat"
+     ],
+     "cons": [
+      "Needs WiFi for best tricks",
+      "Convection suits sealed rooms"
+     ],
+     "verdict": "The smart panel: pre-warm rooms on cheap-rate electricity and forget it exists."
+    },
+    {
+     "id": "eht-017",
+     "asin": "B09ZL5Z8WQ",
+     "name": "TCP Smart Glass Panel Heater 2000W",
+     "brand": "TCP",
+     "price": 121,
+     "rating": 4.3,
+     "badge": "Best 2kW Smart",
+     "specs": {
+      "Power": "2,000 W",
+      "Control": "App + WiFi",
+      "Modes": "2 heat",
+      "Style": "Black glass"
+     },
+     "pros": [
+      "2 kW with app scheduling",
+      "Sleek black glass",
+      "Wall-mountable"
+     ],
+     "cons": [
+      "App occasionally fiddly",
+      "Bigger rooms only"
+     ],
+     "verdict": "The 2 kW smart panel for larger rooms — schedule it once, stay warm all winter."
+    },
+    {
+     "id": "eht-018",
+     "asin": "B07K1NWSKK",
+     "name": "Purus 1200W Electric Radiator (Bathroom Safe)",
+     "brand": "Purus",
+     "price": 88,
+     "rating": 4.3,
+     "badge": "Best Bathroom-Safe",
+     "specs": {
+      "Power": "1,200 W",
+      "Rating": "Bathroom safe",
+      "Mount": "Wall or free-standing",
+      "Thermostat": "Digital"
+     },
+     "pros": [
+      "Bathroom-safe rating",
+      "Neat wall-mounted look",
+      "Digital thermostat + timer"
+     ],
+     "cons": [
+      "1.2 kW = small-medium rooms",
+      "Plain design"
+     ],
+     "verdict": "The fitted-look bathroom answer: safe, slim and permanent for under €90."
+    },
+    {
+     "id": "eht-019",
+     "asin": "B0CX5CCHB4",
+     "name": "MYLEK 1KW Smart WiFi Slim Panel Heater",
+     "brand": "MYLEK",
+     "price": 61,
+     "rating": 4.2,
+     "badge": "Best Budget Smart",
+     "specs": {
+      "Power": "1,000 W",
+      "Control": "WiFi app",
+      "Profile": "Slim",
+      "Use": "Small rooms/office"
+     },
+     "pros": [
+      "Smart scheduling at €61",
+      "Slim, discreet profile",
+      "Ideal home-office size"
+     ],
+     "cons": [
+      "1 kW small rooms only",
+      "Plastic finish"
+     ],
+     "verdict": "The budget smart panel: app-scheduled background warmth for a box-room office."
+    },
+    {
+     "id": "eht-030",
+     "asin": "B07W6XBRVQ",
+     "name": "BLACK+DECKER Ceramic Tower Fan Heater",
+     "brand": "BLACK+DECKER",
+     "price": 90,
+     "rating": 4.0,
+     "badge": "Reader Favourite",
+     "specs": {
+      "Owner rating": "4.0★ on Amazon.ie",
+      "Typical price": "€90",
+      "Brand": "BLACK+DECKER"
+     },
+     "pros": [
+      "Owners rate it 4.0★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: BLACK+DECKER Ceramic Tower Fan Heater won't dethrone our winner, but at €90 it makes the podium fight interesting."
+    },
+    {
+     "id": "eht-032",
+     "asin": "B0CCPNS29G",
+     "name": "Philips 5000 Series Connected Tower Heater",
+     "brand": "Philips",
+     "price": 114,
+     "rating": 4.3,
+     "badge": "Value Contender",
+     "specs": {
+      "Owner rating": "4.3★ on Amazon.ie",
+      "Typical price": "€114",
+      "Brand": "Philips"
+     },
+     "pros": [
+      "Strong 4.3★ owner score",
+      "Competitive €114 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €114 — Philips 5000 Series Connected Tower Heater earns its 4.3★ and undercuts several bigger names."
+    },
+    {
+     "id": "eht-035",
+     "asin": "B073RKV8G1",
+     "name": "De'Longhi Bend Line Ceramic Heater (Remote)",
+     "brand": "De'Longhi",
+     "price": 155,
+     "rating": 4.4,
+     "badge": "Challenger Pick",
+     "specs": {
+      "Owner rating": "4.4★ on Amazon.ie",
+      "Typical price": "€155",
+      "Brand": "De'Longhi"
+     },
+     "pros": [
+      "Strong 4.4★ owner score",
+      "Competitive €155 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €155 — De'Longhi Bend Line Ceramic Heater earns its 4.4★ and undercuts several bigger names."
+    }
+   ]
+  },
+  {
+   "slug": "best-bathroom-small-room-heaters-ireland",
+   "title": "Best Bathroom & Small Room Heaters Ireland 2026 — Fast & Safe Top 5",
+   "desc": "Fast, splash-safe heaters for Irish bathrooms and small rooms — IP ratings, heat-up speed and safety compared. Top 5 picks 2026.",
+   "h1": "Best Bathroom & Small Room Heaters in Ireland",
+   "intro": "Bathroom heating is its own discipline: you need serious warmth in under two minutes, splash-proof safety (look for IP21 minimum, IP24 ideally), and ideally wall mounting away from water. The classic Irish cold bathroom has exactly five good answers, from a €45 quick fix to permanent fitted solutions. Heat-up speed and IP ratings led our ranking.",
+   "faq_idx": [
+    4,
+    7,
+    1
+   ],
+   "products": [
+    {
+     "id": "eht-020",
+     "asin": "B07K1NWSKK",
+     "name": "Purus 1200W Electric Radiator (Bathroom Safe)",
+     "brand": "Purus",
+     "price": 88,
+     "rating": 4.3,
+     "badge": "Best Bathroom Fitted",
+     "specs": {
+      "Power": "1,200 W",
+      "Rating": "Bathroom safe",
+      "Mount": "Wall or free-standing",
+      "Thermostat": "Digital"
+     },
+     "pros": [
+      "Bathroom-safe rating",
+      "Neat wall-mounted look",
+      "Digital thermostat + timer"
+     ],
+     "cons": [
+      "1.2 kW = small-medium rooms",
+      "Plain design"
+     ],
+     "verdict": "The fitted-look bathroom answer: safe, slim and permanent for under €90."
+    },
+    {
+     "id": "eht-021",
+     "asin": "B0C9D4KL9D",
+     "name": "Dreo 1500W Ceramic Space Heater",
+     "brand": "Dreo",
+     "price": 49,
+     "rating": 4.7,
+     "badge": "Best Portable Quick Heat",
+     "specs": {
+      "Power": "1,500 W",
+      "Type": "Ceramic PTC",
+      "Thermostat": "Digital",
+      "Safety": "Tip-over + overheat"
+     },
+     "pros": [
+      "Heats in seconds",
+      "Accurate digital thermostat",
+      "Quiet for a fan heater"
+     ],
+     "cons": [
+      "Room-size limits",
+      "No app"
+     ],
+     "verdict": "The best small heater on Amazon.ie: fast, precise and safe — the panic-buy that isn't a mistake."
+    },
+    {
+     "id": "eht-022",
+     "asin": "B006UJDGB0",
+     "name": "Warmlite 2kW Thermo Fan Heater",
+     "brand": "Warmlite",
+     "price": 18,
+     "rating": 4.0,
+     "badge": "Best Budget Burst",
+     "specs": {
+      "Power": "2,000 W",
+      "Settings": "2 heat",
+      "Safety": "Overheat protect",
+      "Type": "Fan"
+     },
+     "pros": [
+      "Instant heat for €18",
+      "Light and portable",
+      "Trusted budget brand"
+     ],
+     "cons": [
+      "Fan noise",
+      "Stops warming when off"
+     ],
+     "verdict": "The classic burst heater: bathroom-warm in two minutes for the price of a pizza."
+    },
+    {
+     "id": "eht-023",
+     "asin": "B0GL3FSYVQ",
+     "name": "Ventox 2000W Fan Heater with Fan Mode",
+     "brand": "Ventox",
+     "price": 16,
+     "rating": 4.0,
+     "badge": "Best All-Season",
+     "specs": {
+      "Power": "2,000 W",
+      "Modes": "2 heat + cool fan",
+      "Thermostat": "Adjustable",
+      "Size": "Compact"
+     },
+     "pros": [
+      "Summer fan mode included",
+      "Adjustable thermostat",
+      "€16"
+     ],
+     "cons": [
+      "Fan tone audible",
+      "Plastic body"
+     ],
+     "verdict": "Year-round value: heater in January, desk fan in July, €16 once."
+    },
+    {
+     "id": "eht-024",
+     "asin": "B00F41JZ6K",
+     "name": "STATUS Portable 2kW Fan Heater",
+     "brand": "STATUS",
+     "price": 12,
+     "rating": 3.9,
+     "badge": "Cheapest Backup",
+     "specs": {
+      "Power": "2,000 W",
+      "Type": "Fan",
+      "Size": "Compact",
+      "Use": "Quick bursts"
+     },
+     "pros": [
+      "€12 — cheapest heat here",
+      "Compact anywhere size",
+      "Instant warm air"
+     ],
+     "cons": [
+      "Basic in every way",
+      "Noisy"
+     ],
+     "verdict": "The absolute floor price for instant heat. Short bursts, small rooms, tiny outlay."
+    },
+    {
+     "id": "eht-026",
+     "asin": "B0FQJXP2S6",
+     "name": "Morphy Richards HeatFlux Digital Oil Radiator",
+     "brand": "Morphy Richards",
+     "price": 51,
+     "rating": 4.4,
+     "badge": "Worth Considering",
+     "specs": {
+      "Owner rating": "4.4★ on Amazon.ie",
+      "Typical price": "€51",
+      "Brand": "Morphy Richards"
+     },
+     "pros": [
+      "Strong 4.4★ owner score",
+      "Competitive €51 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €51 — Morphy Richards HeatFlux Digital Oil Radiator earns its 4.4★ and undercuts several bigger names."
+    },
+    {
+     "id": "eht-028",
+     "asin": "B0DBV3768Y",
+     "name": "Midea 2000W PTC Ceramic Tower Heater",
+     "brand": "Midea",
+     "price": 73,
+     "rating": 4.4,
+     "badge": "Notable Mention",
+     "specs": {
+      "Power": "2000 W",
+      "Owner rating": "4.4★ on Amazon.ie",
+      "Typical price": "€73",
+      "Brand": "Midea"
+     },
+     "pros": [
+      "Rated 4.4★ by Amazon.ie owners",
+      "Midea build at a fair €73",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible electric heaters alternative: Midea 2000W PTC Ceramic Tower Heater brings Midea quality at €73 with solid owner ratings."
+    }
+   ]
+  }
+ ]
+}

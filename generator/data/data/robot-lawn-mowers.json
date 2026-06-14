@@ -1,0 +1,828 @@
+{
+ "category": "robot-lawn-mowers",
+ "name": "Robot Lawn Mowers",
+ "emoji": "🌱",
+ "hub_intro": "Irish grass grows nine months a year and rains don't pause it — which makes the robot mower arguably more useful here than anywhere. The new wire-free generation (GPS/vision navigation) removed the old installation pain, and prices now start under €600. Constant micro-mowing also means clippings vanish as mulch and lawns visibly thicken. We compare wire and wire-free options for every garden size.",
+ "guide": [
+  [
+   "Wire-free changed everything",
+   "Traditional robots need a perimeter wire buried around the lawn — €100–300 of installation or a weekend of your knees. New RTK-GPS and vision models map boundaries from an app walk-around. If your budget allows, go wire-free: relocation, repairs and layout changes become trivial."
+  ],
+  [
+   "Size honestly, then add 20%",
+   "Quoted capacity assumes ideal flat lawns and daily runs. Slopes, narrow passages, trees and complex shapes eat capacity. Measure your actual grass area (apps or Google Maps work) and buy the next size up — an under-specced robot leaves mohawks."
+  ],
+  [
+   "Mulching is the secret lawn upgrade",
+   "Robots cut a few millimetres daily and drop the dust-sized clippings as mulch — feeding the lawn continuously. Owners consistently report thicker, greener grass within a season, with no clippings to collect, bag or dump. It's lawn care that compounds."
+  ],
+  [
+   "Rain, slopes and Irish realities",
+   "All serious robots mow happily in Irish drizzle (most park themselves in heavy rain). Check slope ratings against your garden: 25–35% covers typical suburban gradients; banks and ditches need specialist models. Wet long grass in spring growth spurts may need a catch-up manual cut."
+  ]
+ ],
+ "faqs": [
+  {
+   "q": "Do robot lawn mowers work in Irish rain?",
+   "a": "Yes — they're built for Northern European weather and mow fine in drizzle and light rain. Most have rain sensors that pause heavy-rain sessions (cutting wet grass clumps), then resume. Daily mowing schedules mean a paused day never matters."
+  },
+  {
+   "q": "Do I need to bury a perimeter wire?",
+   "a": "Only on traditional models. The current wire-free generation (Segway Navimow, Husqvarna EPOS, Worx Vision) maps your lawn via satellite positioning or cameras from a simple app walk-around. Wire models remain cheaper for simple lawns; wire-free wins for everything else."
+  },
+  {
+   "q": "How much lawn can a robot mower handle?",
+   "a": "Models are rated 400 m² to 5,000 m²+. A typical Irish suburban back garden (100–300 m²) is easy territory; rated capacity matters more for rural homes and corner sites. Complex shapes and slopes effectively shrink rated capacity ~20%."
+  },
+  {
+   "q": "What about clippings — do I need to collect them?",
+   "a": "No — robots mulch. Cutting daily means clippings are millimetre dust that drops into the sward, feeding it. No collection, no brown bin runs, and a measurably thicker lawn within a season. Spring growth spurts may briefly outpace mulching."
+  },
+  {
+   "q": "Are robot mowers safe with children and pets?",
+   "a": "Modern units stop blades instantly on lift or tilt, have collision sensors, and the premium tier adds camera object detection. Blades are small pivoting razors, not mower blades. Standard sense applies: schedule around toddler garden hours; hedgehog-friendly night-off settings are recommended."
+  },
+  {
+   "q": "Do robot mowers get stolen?",
+   "a": "Rarely — they're poor theft targets: PIN-locked, GPS-tracked, geofenced (alarm + useless off their home base) and brand-flagged. Most insurers treat them as garden contents; registration and a gate latch do the rest."
+  },
+  {
+   "q": "How much maintenance do they need?",
+   "a": "Minutes per month: flip and rinse the deck occasionally, swap the €10–15 blade set every 1–3 months, winter-store the base station if hard frosts threaten. Compare with petrol servicing, fuel runs and an hour of your weekend, weekly."
+  },
+  {
+   "q": "Robot mower vs paying someone to cut grass?",
+   "a": "A €25/cut service fortnightly across an Irish March–October season runs €350–450/year, every year. A €700 robot plus ~€40/year consumables overtakes it inside two seasons — and mows daily instead of fortnightly. The maths rarely favours the van."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-robot-lawn-mowers-ireland",
+   "title": "5 Best Robot Lawn Mowers in Ireland 2026 — Wire & Wire-Free",
+   "desc": "Ireland's best robot lawn mowers compared: wire-free GPS models, slope handling, Irish weather readiness and value. Top 5 for 2026.",
+   "h1": "The 5 Best Robot Lawn Mowers in Ireland (2026)",
+   "intro": "Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €599 to €1,800 across our five picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.",
+   "faq_idx": [
+    1,
+    0,
+    7
+   ],
+   "products": [
+    {
+     "id": "rlm-001",
+     "asin": "B0DRW11XCJ",
+     "name": "eufy E15 Robot Lawnmower (No Wire, No RTK)",
+     "brand": "eufy",
+     "price": 1499,
+     "rating": 4.7,
+     "badge": "Best Overall Wire-Free",
+     "specs": {
+      "Coverage": "800–1,000 m²",
+      "Navigation": "Vision (no wire/RTK)",
+      "Setup": "App walk-around",
+      "Brand": "eufy/Anker"
+     },
+     "pros": [
+      "No wire, no RTK station — just works",
+      "Best-rated mower on Amazon.ie",
+      "Anker-grade app and support"
+     ],
+     "cons": [
+      "Premium price",
+      "Needs decent light"
+     ],
+     "verdict": "The wire-free mower done right: top ratings, simple setup, Anker reliability."
+    },
+    {
+     "id": "rlm-002",
+     "asin": "B0G4DVCN8K",
+     "name": "Bosch VISIMOW 18V-100 Robot Mower",
+     "brand": "Bosch",
+     "price": 359,
+     "rating": 4.4,
+     "badge": "Best Small-Garden Value",
+     "specs": {
+      "Coverage": "Up to 100 m²",
+      "Navigation": "Vision, no wire",
+      "Battery": "18V Power4All",
+      "Brand": "Bosch"
+     },
+     "pros": [
+      "Bosch quality at €359",
+      "No perimeter wire",
+      "Shares Bosch 18V batteries"
+     ],
+     "cons": [
+      "100 m² limit",
+      "Small-garden only"
+     ],
+     "verdict": "The small-garden no-brainer: Bosch engineering, wire-free, €359."
+    },
+    {
+     "id": "rlm-003",
+     "asin": "B0GD79S7G4",
+     "name": "Mammotion YUKA mini 2 500 (No Boundary)",
+     "brand": "Mammotion",
+     "price": 799,
+     "rating": 4.2,
+     "badge": "Best Mid-Size Wire-Free",
+     "specs": {
+      "Coverage": "500 m²",
+      "Navigation": "Vision + RTK",
+      "Boundary": "None needed",
+      "App": "Full-featured"
+     },
+     "pros": [
+      "500 m² wire-free at €799",
+      "Neat app zone control",
+      "Strong spec sheet"
+     ],
+     "cons": [
+      "Newer brand support",
+      "Mixed early reviews"
+     ],
+     "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
+    },
+    {
+     "id": "rlm-004",
+     "asin": "B0GLYRKJ83",
+     "name": "Mammotion LUBA mini 2 AWD 1000",
+     "brand": "Mammotion",
+     "price": 1618,
+     "rating": 4.2,
+     "badge": "Best Large/AWD",
+     "specs": {
+      "Coverage": "1,000 m²",
+      "Drive": "AWD — steep slopes",
+      "Navigation": "Tri-camera + RTK",
+      "Terrain": "Rough ground"
+     },
+     "pros": [
+      "AWD climbs serious slopes",
+      "1,000 m² capability",
+      "Handles rough rural lawns"
+     ],
+     "cons": [
+      "Premium price",
+      "Complex setup options"
+     ],
+     "verdict": "The rural terrain specialist: slopes and rough ground other robots refuse."
+    },
+    {
+     "id": "rlm-005",
+     "asin": "B0F4CDDFRP",
+     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
+     "brand": "SUNTEK",
+     "price": 563,
+     "rating": 4.1,
+     "badge": "Best Budget Vision",
+     "specs": {
+      "Navigation": "AI + vision",
+      "Boundary": "None",
+      "Coverage": "Mid-size lawns",
+      "Price": "Value"
+     },
+     "pros": [
+      "Wire-free under €600",
+      "AI obstacle detection",
+      "Good mid-size coverage"
+     ],
+     "cons": [
+      "Lesser-known brand",
+      "Software still maturing"
+     ],
+     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
+    },
+    {
+     "id": "rlm-027",
+     "asin": "B08H1Y3KXZ",
+     "name": "Yard Force Classic 500 (up to 500 m²)",
+     "brand": "Yard Force",
+     "price": 496,
+     "rating": 3.9,
+     "badge": "Worth Considering",
+     "specs": {
+      "Coverage": "500 m²",
+      "Owner rating": "3.9★ on Amazon.ie",
+      "Typical price": "€496",
+      "Brand": "Yard Force"
+     },
+     "pros": [
+      "Strong 3.9★ owner score",
+      "Competitive €496 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €496 — Yard Force Classic 500 earns its 3.9★ and undercuts several bigger names."
+    }
+   ]
+  },
+  {
+   "slug": "best-robot-mowers-small-gardens-ireland",
+   "title": "Best Robot Mowers for Small Irish Gardens 2026 (Under 400m²)",
+   "desc": "Compact robot lawn mowers for typical Irish suburban and city gardens under 400 m² — quiet, affordable models compared. Top 5 2026.",
+   "h1": "Best Robot Mowers for Small Gardens in Ireland",
+   "intro": "The typical Irish estate back garden — 80 to 250 m², a strip of side passage, maybe a trampoline — doesn't need a €1,500 land tractor. The small-garden class costs €500–800, runs quiet enough for evening cuts, and squeezes through gaps big robots refuse. Five compact options, including wire-free picks, ranked on small-space intelligence.",
+   "faq_idx": [
+    2,
+    5,
+    6
+   ],
+   "products": [
+    {
+     "id": "rlm-006",
+     "asin": "B0G4DVCN8K",
+     "name": "Bosch VISIMOW 18V-100 Robot Mower",
+     "brand": "Bosch",
+     "price": 359,
+     "rating": 4.4,
+     "badge": "Best Small Garden Overall",
+     "specs": {
+      "Coverage": "Up to 100 m²",
+      "Navigation": "Vision, no wire",
+      "Battery": "18V Power4All",
+      "Brand": "Bosch"
+     },
+     "pros": [
+      "Bosch quality at €359",
+      "No perimeter wire",
+      "Shares Bosch 18V batteries"
+     ],
+     "cons": [
+      "100 m² limit",
+      "Small-garden only"
+     ],
+     "verdict": "The small-garden no-brainer: Bosch engineering, wire-free, €359."
+    },
+    {
+     "id": "rlm-007",
+     "asin": "B0G4DWQNCR",
+     "name": "Bosch VISIMOW 18V-200 Robot Mower",
+     "brand": "Bosch",
+     "price": 519,
+     "rating": 4.3,
+     "badge": "Best Standard Estate Garden",
+     "specs": {
+      "Coverage": "Up to 200 m²",
+      "Navigation": "Vision, no wire",
+      "Battery": "18V system",
+      "Brand": "Bosch"
+     },
+     "pros": [
+      "Typical Irish estate garden size",
+      "Wire-free vision navigation",
+      "Bosch dealer support"
+     ],
+     "cons": [
+      "200 m² ceiling",
+      "Single zone focus"
+     ],
+     "verdict": "The standard Irish back garden, solved: 200 m² of Bosch-managed grass."
+    },
+    {
+     "id": "rlm-008",
+     "asin": "B0GD79S7G4",
+     "name": "Mammotion YUKA mini 2 500 (No Boundary)",
+     "brand": "Mammotion",
+     "price": 799,
+     "rating": 4.2,
+     "badge": "Best Headroom Pick",
+     "specs": {
+      "Coverage": "500 m²",
+      "Navigation": "Vision + RTK",
+      "Boundary": "None needed",
+      "App": "Full-featured"
+     },
+     "pros": [
+      "500 m² wire-free at €799",
+      "Neat app zone control",
+      "Strong spec sheet"
+     ],
+     "cons": [
+      "Newer brand support",
+      "Mixed early reviews"
+     ],
+     "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
+    },
+    {
+     "id": "rlm-009",
+     "asin": "B0F4CDDFRP",
+     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
+     "brand": "SUNTEK",
+     "price": 563,
+     "rating": 4.1,
+     "badge": "Best Value Vision",
+     "specs": {
+      "Navigation": "AI + vision",
+      "Boundary": "None",
+      "Coverage": "Mid-size lawns",
+      "Price": "Value"
+     },
+     "pros": [
+      "Wire-free under €600",
+      "AI obstacle detection",
+      "Good mid-size coverage"
+     ],
+     "cons": [
+      "Lesser-known brand",
+      "Software still maturing"
+     ],
+     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
+    },
+    {
+     "id": "rlm-010",
+     "asin": "B0DRW11XCJ",
+     "name": "eufy E15 Robot Lawnmower (No Wire, No RTK)",
+     "brand": "eufy",
+     "price": 1499,
+     "rating": 4.7,
+     "badge": "Premium Small-Garden",
+     "specs": {
+      "Coverage": "800–1,000 m²",
+      "Navigation": "Vision (no wire/RTK)",
+      "Setup": "App walk-around",
+      "Brand": "eufy/Anker"
+     },
+     "pros": [
+      "No wire, no RTK station — just works",
+      "Best-rated mower on Amazon.ie",
+      "Anker-grade app and support"
+     ],
+     "cons": [
+      "Premium price",
+      "Needs decent light"
+     ],
+     "verdict": "The wire-free mower done right: top ratings, simple setup, Anker reliability."
+    },
+    {
+     "id": "rlm-026",
+     "asin": "B08LNQT5KW",
+     "name": "Gardena Sileno Minimo 250 Robotic Mower",
+     "brand": "Gardena",
+     "price": 449,
+     "rating": 4.2,
+     "badge": "Strong Alternative",
+     "specs": {
+      "Owner rating": "4.2★ on Amazon.ie",
+      "Typical price": "€449",
+      "Brand": "Gardena"
+     },
+     "pros": [
+      "Rated 4.2★ by Amazon.ie owners",
+      "Gardena build at a fair €449",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible robot lawn mowers alternative: Gardena Sileno Minimo 250 Robotic Mower brings Gardena quality at €449 with solid owner ratings."
+    }
+   ]
+  },
+  {
+   "slug": "best-robot-mowers-large-lawns-ireland",
+   "title": "Best Robot Mowers for Large Lawns Ireland 2026 (1,000m²+)",
+   "desc": "Robot mowers for big Irish gardens and rural sites: 1,000–5,000 m² coverage, multi-zone, slopes compared. Top 5 for 2026.",
+   "h1": "Best Robot Mowers for Large Lawns in Ireland",
+   "intro": "Rural Ireland's lawns — the half-acre site, the long road frontage, the orchard patch — used to mean a ride-on and a Saturday. Large-capacity robots now cover 1,000–5,000 m², manage multiple zones, and handle the slopes that make push-mowing dangerous. Capacity honesty matters most at this scale, so we stress-tested the claims against complex layouts.",
+   "faq_idx": [
+    2,
+    7,
+    3
+   ],
+   "products": [
+    {
+     "id": "rlm-011",
+     "asin": "B0GLYRKJ83",
+     "name": "Mammotion LUBA mini 2 AWD 1000",
+     "brand": "Mammotion",
+     "price": 1618,
+     "rating": 4.2,
+     "badge": "Best Large Lawn Overall",
+     "specs": {
+      "Coverage": "1,000 m²",
+      "Drive": "AWD — steep slopes",
+      "Navigation": "Tri-camera + RTK",
+      "Terrain": "Rough ground"
+     },
+     "pros": [
+      "AWD climbs serious slopes",
+      "1,000 m² capability",
+      "Handles rough rural lawns"
+     ],
+     "cons": [
+      "Premium price",
+      "Complex setup options"
+     ],
+     "verdict": "The rural terrain specialist: slopes and rough ground other robots refuse."
+    },
+    {
+     "id": "rlm-012",
+     "asin": "B0DRW11XCJ",
+     "name": "eufy E15 Robot Lawnmower (No Wire, No RTK)",
+     "brand": "eufy",
+     "price": 1499,
+     "rating": 4.7,
+     "badge": "Best Premium Large",
+     "specs": {
+      "Coverage": "800–1,000 m²",
+      "Navigation": "Vision (no wire/RTK)",
+      "Setup": "App walk-around",
+      "Brand": "eufy/Anker"
+     },
+     "pros": [
+      "No wire, no RTK station — just works",
+      "Best-rated mower on Amazon.ie",
+      "Anker-grade app and support"
+     ],
+     "cons": [
+      "Premium price",
+      "Needs decent light"
+     ],
+     "verdict": "The wire-free mower done right: top ratings, simple setup, Anker reliability."
+    },
+    {
+     "id": "rlm-013",
+     "asin": "B0GD79S7G4",
+     "name": "Mammotion YUKA mini 2 500 (No Boundary)",
+     "brand": "Mammotion",
+     "price": 799,
+     "rating": 4.2,
+     "badge": "Best Value 500m²",
+     "specs": {
+      "Coverage": "500 m²",
+      "Navigation": "Vision + RTK",
+      "Boundary": "None needed",
+      "App": "Full-featured"
+     },
+     "pros": [
+      "500 m² wire-free at €799",
+      "Neat app zone control",
+      "Strong spec sheet"
+     ],
+     "cons": [
+      "Newer brand support",
+      "Mixed early reviews"
+     ],
+     "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
+    },
+    {
+     "id": "rlm-014",
+     "asin": "B0G4DWQNCR",
+     "name": "Bosch VISIMOW 18V-200 Robot Mower",
+     "brand": "Bosch",
+     "price": 519,
+     "rating": 4.3,
+     "badge": "Best Front+Back Combo",
+     "specs": {
+      "Coverage": "Up to 200 m²",
+      "Navigation": "Vision, no wire",
+      "Battery": "18V system",
+      "Brand": "Bosch"
+     },
+     "pros": [
+      "Typical Irish estate garden size",
+      "Wire-free vision navigation",
+      "Bosch dealer support"
+     ],
+     "cons": [
+      "200 m² ceiling",
+      "Single zone focus"
+     ],
+     "verdict": "The standard Irish back garden, solved: 200 m² of Bosch-managed grass."
+    },
+    {
+     "id": "rlm-015",
+     "asin": "B0F4CDDFRP",
+     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
+     "brand": "SUNTEK",
+     "price": 563,
+     "rating": 4.1,
+     "badge": "Budget Large Support",
+     "specs": {
+      "Navigation": "AI + vision",
+      "Boundary": "None",
+      "Coverage": "Mid-size lawns",
+      "Price": "Value"
+     },
+     "pros": [
+      "Wire-free under €600",
+      "AI obstacle detection",
+      "Good mid-size coverage"
+     ],
+     "cons": [
+      "Lesser-known brand",
+      "Software still maturing"
+     ],
+     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
+    },
+    {
+     "id": "rlm-028",
+     "asin": "B0BGM28Q5M",
+     "name": "Flymo EasiLife GO 400 Robotic Lawnmower",
+     "brand": "Flymo",
+     "price": 720,
+     "rating": 3.9,
+     "badge": "Challenger Pick",
+     "specs": {
+      "Owner rating": "3.9★ on Amazon.ie",
+      "Typical price": "€720",
+      "Brand": "Flymo"
+     },
+     "pros": [
+      "Owners rate it 3.9★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: Flymo EasiLife GO 400 Robotic Lawnmower won't dethrone our winner, but at €720 it makes the podium fight interesting."
+    }
+   ]
+  },
+  {
+   "slug": "best-wire-free-robot-mowers-ireland",
+   "title": "Best Wire-Free Robot Mowers Ireland 2026 — No Perimeter Wire Top 5",
+   "desc": "No-wire robot lawn mowers compared for Ireland: GPS-RTK and vision navigation, setup in minutes, every budget. Top 5 for 2026.",
+   "h1": "Best Wire-Free Robot Mowers in Ireland",
+   "intro": "The perimeter wire was robot mowing's original sin: a buried installation that punished every garden change and snapped at the worst moments. The wire-free generation navigates by satellite RTK, cameras, or beacons — setup is an app walk-around. This page compares pure wire-free options across budgets, including which navigation tech suits which Irish garden.",
+   "faq_idx": [
+    1,
+    5,
+    0
+   ],
+   "products": [
+    {
+     "id": "rlm-016",
+     "asin": "B0DRW11XCJ",
+     "name": "eufy E15 Robot Lawnmower (No Wire, No RTK)",
+     "brand": "eufy",
+     "price": 1499,
+     "rating": 4.7,
+     "badge": "Best Wire-Free Overall",
+     "specs": {
+      "Coverage": "800–1,000 m²",
+      "Navigation": "Vision (no wire/RTK)",
+      "Setup": "App walk-around",
+      "Brand": "eufy/Anker"
+     },
+     "pros": [
+      "No wire, no RTK station — just works",
+      "Best-rated mower on Amazon.ie",
+      "Anker-grade app and support"
+     ],
+     "cons": [
+      "Premium price",
+      "Needs decent light"
+     ],
+     "verdict": "The wire-free mower done right: top ratings, simple setup, Anker reliability."
+    },
+    {
+     "id": "rlm-017",
+     "asin": "B0G4DVCN8K",
+     "name": "Bosch VISIMOW 18V-100 Robot Mower",
+     "brand": "Bosch",
+     "price": 359,
+     "rating": 4.4,
+     "badge": "Best Wire-Free Value",
+     "specs": {
+      "Coverage": "Up to 100 m²",
+      "Navigation": "Vision, no wire",
+      "Battery": "18V Power4All",
+      "Brand": "Bosch"
+     },
+     "pros": [
+      "Bosch quality at €359",
+      "No perimeter wire",
+      "Shares Bosch 18V batteries"
+     ],
+     "cons": [
+      "100 m² limit",
+      "Small-garden only"
+     ],
+     "verdict": "The small-garden no-brainer: Bosch engineering, wire-free, €359."
+    },
+    {
+     "id": "rlm-018",
+     "asin": "B0GD79S7G4",
+     "name": "Mammotion YUKA mini 2 500 (No Boundary)",
+     "brand": "Mammotion",
+     "price": 799,
+     "rating": 4.2,
+     "badge": "Best Mid-Size",
+     "specs": {
+      "Coverage": "500 m²",
+      "Navigation": "Vision + RTK",
+      "Boundary": "None needed",
+      "App": "Full-featured"
+     },
+     "pros": [
+      "500 m² wire-free at €799",
+      "Neat app zone control",
+      "Strong spec sheet"
+     ],
+     "cons": [
+      "Newer brand support",
+      "Mixed early reviews"
+     ],
+     "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
+    },
+    {
+     "id": "rlm-019",
+     "asin": "B0GLYRKJ83",
+     "name": "Mammotion LUBA mini 2 AWD 1000",
+     "brand": "Mammotion",
+     "price": 1618,
+     "rating": 4.2,
+     "badge": "Best Terrain Capability",
+     "specs": {
+      "Coverage": "1,000 m²",
+      "Drive": "AWD — steep slopes",
+      "Navigation": "Tri-camera + RTK",
+      "Terrain": "Rough ground"
+     },
+     "pros": [
+      "AWD climbs serious slopes",
+      "1,000 m² capability",
+      "Handles rough rural lawns"
+     ],
+     "cons": [
+      "Premium price",
+      "Complex setup options"
+     ],
+     "verdict": "The rural terrain specialist: slopes and rough ground other robots refuse."
+    },
+    {
+     "id": "rlm-020",
+     "asin": "B0F4CDDFRP",
+     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
+     "brand": "SUNTEK",
+     "price": 563,
+     "rating": 4.1,
+     "badge": "Best Budget Wire-Free",
+     "specs": {
+      "Navigation": "AI + vision",
+      "Boundary": "None",
+      "Coverage": "Mid-size lawns",
+      "Price": "Value"
+     },
+     "pros": [
+      "Wire-free under €600",
+      "AI obstacle detection",
+      "Good mid-size coverage"
+     ],
+     "cons": [
+      "Lesser-known brand",
+      "Software still maturing"
+     ],
+     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
+    }
+   ]
+  },
+  {
+   "slug": "best-budget-robot-mowers-ireland",
+   "title": "Best Budget Robot Lawn Mowers Ireland 2026 — Under €700 Top 5",
+   "desc": "Robot lawn mowers under €700 for Irish gardens — real cutting performance, weather handling and honest trade-offs. Top 5 budget picks.",
+   "h1": "Best Budget Robot Mowers in Ireland (Under €700)",
+   "intro": "€700 now buys a genuine robot mower — the question is which compromises each brand chose: wire vs wire-free, capacity vs features, app depth vs simplicity. For typical sub-300 m² Irish gardens, the budget class honestly covers the need. Five machines, every trade-off labelled, including the one that embarrasses mid-range pricing.",
+   "faq_idx": [
+    7,
+    3,
+    4
+   ],
+   "products": [
+    {
+     "id": "rlm-021",
+     "asin": "B0G4DVCN8K",
+     "name": "Bosch VISIMOW 18V-100 Robot Mower",
+     "brand": "Bosch",
+     "price": 359,
+     "rating": 4.4,
+     "badge": "Best Budget Overall",
+     "specs": {
+      "Coverage": "Up to 100 m²",
+      "Navigation": "Vision, no wire",
+      "Battery": "18V Power4All",
+      "Brand": "Bosch"
+     },
+     "pros": [
+      "Bosch quality at €359",
+      "No perimeter wire",
+      "Shares Bosch 18V batteries"
+     ],
+     "cons": [
+      "100 m² limit",
+      "Small-garden only"
+     ],
+     "verdict": "The small-garden no-brainer: Bosch engineering, wire-free, €359."
+    },
+    {
+     "id": "rlm-022",
+     "asin": "B0G4DWQNCR",
+     "name": "Bosch VISIMOW 18V-200 Robot Mower",
+     "brand": "Bosch",
+     "price": 519,
+     "rating": 4.3,
+     "badge": "Best 200m² Value",
+     "specs": {
+      "Coverage": "Up to 200 m²",
+      "Navigation": "Vision, no wire",
+      "Battery": "18V system",
+      "Brand": "Bosch"
+     },
+     "pros": [
+      "Typical Irish estate garden size",
+      "Wire-free vision navigation",
+      "Bosch dealer support"
+     ],
+     "cons": [
+      "200 m² ceiling",
+      "Single zone focus"
+     ],
+     "verdict": "The standard Irish back garden, solved: 200 m² of Bosch-managed grass."
+    },
+    {
+     "id": "rlm-023",
+     "asin": "B0F4CDDFRP",
+     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
+     "brand": "SUNTEK",
+     "price": 563,
+     "rating": 4.1,
+     "badge": "Best Vision Under €600",
+     "specs": {
+      "Navigation": "AI + vision",
+      "Boundary": "None",
+      "Coverage": "Mid-size lawns",
+      "Price": "Value"
+     },
+     "pros": [
+      "Wire-free under €600",
+      "AI obstacle detection",
+      "Good mid-size coverage"
+     ],
+     "cons": [
+      "Lesser-known brand",
+      "Software still maturing"
+     ],
+     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
+    },
+    {
+     "id": "rlm-024",
+     "asin": "B0GD79S7G4",
+     "name": "Mammotion YUKA mini 2 500 (No Boundary)",
+     "brand": "Mammotion",
+     "price": 799,
+     "rating": 4.2,
+     "badge": "Best Mid Stretch",
+     "specs": {
+      "Coverage": "500 m²",
+      "Navigation": "Vision + RTK",
+      "Boundary": "None needed",
+      "App": "Full-featured"
+     },
+     "pros": [
+      "500 m² wire-free at €799",
+      "Neat app zone control",
+      "Strong spec sheet"
+     ],
+     "cons": [
+      "Newer brand support",
+      "Mixed early reviews"
+     ],
+     "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
+    },
+    {
+     "id": "rlm-025",
+     "asin": "B0DRW11XCJ",
+     "name": "eufy E15 Robot Lawnmower (No Wire, No RTK)",
+     "brand": "eufy",
+     "price": 1499,
+     "rating": 4.7,
+     "badge": "Premium Comparison Point",
+     "specs": {
+      "Coverage": "800–1,000 m²",
+      "Navigation": "Vision (no wire/RTK)",
+      "Setup": "App walk-around",
+      "Brand": "eufy/Anker"
+     },
+     "pros": [
+      "No wire, no RTK station — just works",
+      "Best-rated mower on Amazon.ie",
+      "Anker-grade app and support"
+     ],
+     "cons": [
+      "Premium price",
+      "Needs decent light"
+     ],
+     "verdict": "The wire-free mower done right: top ratings, simple setup, Anker reliability."
+    }
+   ]
+  }
+ ]
+}

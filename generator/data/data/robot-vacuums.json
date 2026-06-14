@@ -1,0 +1,925 @@
+{
+  "category": "robot-vacuums",
+  "name": "Robot Vacuums",
+  "emoji": "🤖",
+  "hub_intro": "Robot vacuums crossed the believability line around 2023: modern lidar navigation actually maps your home, mops actually mop, and self-empty docks mean weeks without thinking about floors. Prices run €150 to €1,500, and the right answer depends on floors, pets and tolerance for occasional robot nonsense. We compare what each euro tier really buys in an Irish home.",
+  "guide": [
+    [
+      "Lidar navigation is the dividing line",
+      "Sub-€200 robots mostly bounce randomly; lidar models map rooms, clean in neat rows, and let you say 'kitchen only' from the app. If the budget reaches €250, cross the lidar line — it's the single biggest experience upgrade."
+    ],
+    [
+      "Suction numbers (Pa) are half-truths",
+      "Manufacturers quote Pascals (5,000–18,000 Pa), but brush design and airflow matter as much. Carpet homes need 5,000 Pa+; hard floors are easy for anything decent. Treat Pa as a tiebreaker, not a ranking."
+    ],
+    [
+      "Self-empty docks change the relationship",
+      "Without one, you empty a tiny bin every run or two. With one, the robot empties itself for 4–8 weeks. For pet homes or busy households, the dock converts a gadget into an appliance. Budget €100–200 extra; worth it."
+    ],
+    [
+      "Mopping: pads wipe, systems wash",
+      "Basic drag-a-damp-pad mopping freshens hard floors. Real mopping systems (rotating pads, self-washing docks) handle actual dirt. Irish homes with tiled kitchens and hallways get real value from the better systems — muddy paw season is long."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "Are robot vacuums worth it?",
+      "a": "If floors are your recurring chore, yes — the daily maintenance clean they provide keeps homes visibly tidier between deep cleans. They don't replace an upright for stairs and corners; they replace the need to do floors every day or two."
+    },
+    {
+      "q": "Do robot vacuums work on carpet?",
+      "a": "Modern mid-range and up handle low and medium pile well — look for 5,000 Pa+ and active carpet boost. Deep-pile rugs and dark carpets (which confuse some cliff sensors) remain the awkward cases. Mixed Irish homes with rugs: choose models with auto mop-lifting."
+    },
+    {
+      "q": "How do robot vacuums handle pet hair?",
+      "a": "It's their best event: daily automated pickup beats weekly manual battles. Choose rubber/bristle-free main brushes (hair tangles less), 5,000 Pa+, and ideally a self-empty dock so you're not handling clumps. Several models here are pet-hair specialists."
+    },
+    {
+      "q": "Robot vacuum and mop combos — any good?",
+      "a": "The current generation, genuinely yes — if you buy the right tier. Pad-drag combos lightly freshen; rotating-pad systems with self-washing docks (Roborock, Dreame) leave tiled floors properly clean. For Irish kitchens and hallways in wet months, the upgrade is noticeable."
+    },
+    {
+      "q": "How long do robot vacuums last?",
+      "a": "Quality units: 4–6 years with basic care (cut hair off brushes monthly, replace filters/brushes yearly — €20–40). Batteries degrade to ~70% by year 3–4 but replacements exist for major brands. Cheap no-name units often die with no parts route."
+    },
+    {
+      "q": "Will it fall down my stairs?",
+      "a": "No — cliff sensors are universal and reliable on standard stairs. The real edge cases are dark/black floor borders (some sensors read them as cliffs and refuse) and very low thresholds. Multi-storey homes simply carry the robot between floors; maps for each floor are standard on lidar models."
+    },
+    {
+      "q": "How much maintenance does a self-empty dock save?",
+      "a": "It converts every-run bin-emptying into a monthly bag change. For allergy households there's a bonus: dust transfers into a sealed bag instead of puffing out of a tiny bin. Bags cost ~€15–25 a year. Most owners call the dock the best money spent."
+    },
+    {
+      "q": "Can robot vacuums clean in the dark?",
+      "a": "Lidar models, yes — laser navigation is light-independent, so night schedules work fine. Camera-navigation models need light. If you want 3am kitchen runs (quietest time), make sure it's lidar."
+    }
+  ],
+  "pages": [
+    {
+      "slug": "best-robot-vacuums-ireland",
+      "title": "5 Best Robot Vacuums in Ireland 2026 — Tested Picks Compared",
+      "desc": "Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Top 5 ranked.",
+      "h1": "The 5 Best Robot Vacuums in Ireland (2026)",
+      "intro": "The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation intelligence, real pickup on carpet and hard floor, dock capabilities and parts availability in Ireland. Five machines define the current sweet spots from €179 to €999.",
+      "faq_idx": [
+        0,
+        4,
+        6
+      ],
+      "products": [
+        {
+          "id": "rvc-001",
+          "asin": "B0CPDVV72T",
+          "name": "eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station)",
+          "brand": "eufy",
+          "price": 549,
+          "rating": 4.7,
+          "badge": "Best Overall",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Dual rotating, pressurised",
+            "Dock": "Empty, wash, dry",
+            "Navigation": "AI camera + laser"
+          },
+          "pros": [
+            "Full self-maintaining system",
+            "Pressurised mops scrub properly",
+            "Strong obstacle avoidance"
+          ],
+          "cons": [
+            "Dock needs its corner",
+            "Premium price"
+          ],
+          "verdict": "The complete robot butler on Amazon.ie: vacuums, really mops, then cleans itself for weeks."
+        },
+        {
+          "id": "rvc-002",
+          "asin": "B0FPQCY9NG",
+          "name": "eufy C28 Omni (Self-Cleaning Roller Mop)",
+          "brand": "eufy",
+          "price": 499,
+          "rating": 4.5,
+          "badge": "Best Mopping Tech",
+          "specs": {
+            "Mop": "HydroJet self-cleaning roller",
+            "Dock": "Omni full-service",
+            "Suction": "High",
+            "Navigation": "Laser"
+          },
+          "pros": [
+            "Roller mop washes itself mid-job",
+            "Always mopping with clean water",
+            "Full-service dock under €500"
+          ],
+          "cons": [
+            "Newer platform",
+            "Bulky station"
+          ],
+          "verdict": "The freshest mopping tech here: clean water on the floor, dirty water never dragged around."
+        },
+        {
+          "id": "rvc-003",
+          "asin": "B0CLVVB2GN",
+          "name": "Tapo Robot Vacuum (4,200 Pa, Quiet)",
+          "brand": "TP-Link Tapo",
+          "price": 156,
+          "rating": 4.4,
+          "badge": "Best Mid-Range",
+          "specs": {
+            "Suction": "4,200 Pa",
+            "Noise": "Quiet mode",
+            "App": "Tapo (excellent)",
+            "Mapping": "Smart paths"
+          },
+          "pros": [
+            "TP-Link app polish",
+            "Strong suction per euro",
+            "Quiet operation"
+          ],
+          "cons": [
+            "No self-empty dock",
+            "Pad-style mop only"
+          ],
+          "verdict": "The mid-range smart pick: big-brand software at a small price."
+        },
+        {
+          "id": "rvc-004",
+          "asin": "B0C2YCSM9X",
+          "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+          "brand": "HONITURE",
+          "price": 141,
+          "rating": 4.4,
+          "badge": "Best Value Vacuum-Mop",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Yes",
+            "Control": "App + voice",
+            "Bin": "Large"
+          },
+          "pros": [
+            "8,000 Pa at €141",
+            "Vacuum-mop combo",
+            "Voice control"
+          ],
+          "cons": [
+            "Random-ish pathing vs lidar",
+            "No dock"
+          ],
+          "verdict": "Raw suction per euro champion — serious pickup without the premium badge."
+        },
+        {
+          "id": "rvc-005",
+          "asin": "B0F7LQGXM9",
+          "name": "Lefant M310 Robot Vacuum (4,500 Pa, Slim)",
+          "brand": "Lefant",
+          "price": 112,
+          "rating": 4.4,
+          "badge": "Best Budget",
+          "specs": {
+            "Suction": "4,500 Pa",
+            "Height": "7.9 cm slim",
+            "Runtime": "Long",
+            "App": "Basic + Alexa"
+          },
+          "pros": [
+            "Slides under low furniture",
+            "Solid suction",
+            "Proven budget brand"
+          ],
+          "cons": [
+            "No mapping",
+            "Small bin"
+          ],
+          "verdict": "The under-furniture specialist: slim, simple and dependable daily dust control."
+        },
+        {
+          "id": "rvc-028",
+          "asin": "B0DR8XJ9XZ",
+          "name": "eufy C10 Robot Vacuum with Self-Empty Station (4,000Pa)",
+          "brand": "eufy",
+          "price": 299,
+          "rating": 4.1,
+          "badge": "Challenger Pick",
+          "specs": {
+            "Suction": "4,000 Pa",
+            "Owner rating": "4.1★ on Amazon.ie",
+            "Typical price": "€299",
+            "Brand": "eufy"
+          },
+          "pros": [
+            "Owners rate it 4.1★",
+            "Honest value for the spec",
+            "Easy Amazon.ie warranty route"
+          ],
+          "cons": [
+            "Not our category winner",
+            "Compare specs before committing"
+          ],
+          "verdict": "The challenger: eufy C10 Robot Vacuum with Self-Empty Station won't dethrone our winner, but at €299 it makes the podium fight interesting."
+        }
+      ]
+    },
+    {
+      "slug": "best-budget-robot-vacuums-under-300-ireland",
+      "title": "Best Robot Vacuums Under €300 Ireland 2026 — Top 5 Budget Picks",
+      "desc": "Five robot vacuums under €300 that clean properly — lidar options, app control and honest trade-offs compared for Irish homes. 2026.",
+      "h1": "Best Robot Vacuums Under €300 in Ireland",
+      "intro": "Under €300 used to mean dumb bouncing discs; now it includes genuine lidar mapping and even budget self-empty docks. The trade-offs moved to mopping quality and obstacle avoidance. These five maximise different priorities at the price — mapping, quietness, dock convenience — and we're explicit about what each one gives up.",
+      "faq_idx": [
+        0,
+        5,
+        1
+      ],
+      "products": [
+        {
+          "id": "rvc-006",
+          "asin": "B0CDB8H9VJ",
+          "name": "eufy L60 Robot Vacuum (5,000 Pa)",
+          "brand": "eufy",
+          "price": 249,
+          "rating": 4.4,
+          "badge": "Best Under €300",
+          "specs": {
+            "Suction": "5,000 Pa",
+            "Navigation": "Laser mapping",
+            "Hair": "Anti-tangle",
+            "App": "Full mapping"
+          },
+          "pros": [
+            "Laser mapping + 5,000 Pa",
+            "Anti-tangle for pet hair",
+            "eufy app quality"
+          ],
+          "cons": [
+            "No self-empty dock",
+            "Mop not included"
+          ],
+          "verdict": "The mapped mid-ranger: eufy quality navigation without paying for a dock."
+        },
+        {
+          "id": "rvc-007",
+          "asin": "B0CLVVB2GN",
+          "name": "Tapo Robot Vacuum (4,200 Pa, Quiet)",
+          "brand": "TP-Link Tapo",
+          "price": 156,
+          "rating": 4.4,
+          "badge": "Best Smart Budget",
+          "specs": {
+            "Suction": "4,200 Pa",
+            "Noise": "Quiet mode",
+            "App": "Tapo (excellent)",
+            "Mapping": "Smart paths"
+          },
+          "pros": [
+            "TP-Link app polish",
+            "Strong suction per euro",
+            "Quiet operation"
+          ],
+          "cons": [
+            "No self-empty dock",
+            "Pad-style mop only"
+          ],
+          "verdict": "The mid-range smart pick: big-brand software at a small price."
+        },
+        {
+          "id": "rvc-008",
+          "asin": "B0F26P4FT8",
+          "name": "Vexilar W9 Robot Vacuum & Mop (LiDAR, 6,000 Pa)",
+          "brand": "Vexilar",
+          "price": 143,
+          "rating": 4.4,
+          "badge": "Best LiDAR Value",
+          "specs": {
+            "Navigation": "LiDAR mapping",
+            "Suction": "6,000 Pa",
+            "Mop": "Yes",
+            "App": "Zoning + schedules"
+          },
+          "pros": [
+            "True LiDAR mapping under €150",
+            "Neat row-by-row cleaning",
+            "Room zoning in app"
+          ],
+          "cons": [
+            "Newer brand",
+            "Mop is basic pad"
+          ],
+          "verdict": "The cheapest real LiDAR robot here — mapped, methodical cleaning on a budget."
+        },
+        {
+          "id": "rvc-009",
+          "asin": "B0C2YCSM9X",
+          "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+          "brand": "HONITURE",
+          "price": 141,
+          "rating": 4.4,
+          "badge": "Best Suction Value",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Yes",
+            "Control": "App + voice",
+            "Bin": "Large"
+          },
+          "pros": [
+            "8,000 Pa at €141",
+            "Vacuum-mop combo",
+            "Voice control"
+          ],
+          "cons": [
+            "Random-ish pathing vs lidar",
+            "No dock"
+          ],
+          "verdict": "Raw suction per euro champion — serious pickup without the premium badge."
+        },
+        {
+          "id": "rvc-010",
+          "asin": "B09WMV9MQK",
+          "name": "Lefant M210P Robot Vacuum (Slim, 2,200 Pa)",
+          "brand": "Lefant",
+          "price": 96,
+          "rating": 4.2,
+          "badge": "Cheapest Credible",
+          "specs": {
+            "Suction": "2,200 Pa",
+            "Height": "7.8 cm",
+            "Size": "28 cm dia",
+            "App": "Alexa + app"
+          },
+          "pros": [
+            "€96 entry to robot life",
+            "Tiny and very slim",
+            "Quiet"
+          ],
+          "cons": [
+            "Hard floors best",
+            "Random pathing"
+          ],
+          "verdict": "The absolute entry ticket: apartments and hard floors get daily once-overs for under €100."
+        },
+        {
+          "id": "rvc-026",
+          "asin": "B0FL2G3LXQ",
+          "name": "Cecotec Programmable Robot Vacuum & Mop (Self-Charging)",
+          "brand": "Cecotec",
+          "price": 210,
+          "rating": 4.0,
+          "badge": "Strong Alternative",
+          "specs": {
+            "Owner rating": "4.0★ on Amazon.ie",
+            "Typical price": "€210",
+            "Brand": "Cecotec"
+          },
+          "pros": [
+            "Rated 4.0★ by Amazon.ie owners",
+            "Cecotec build at a fair €210",
+            "Real availability in Ireland right now"
+          ],
+          "cons": [
+            "Less proven than our top picks",
+            "Check specs match your exact needs"
+          ],
+          "verdict": "A credible robot vacuums alternative: Cecotec Programmable Robot Vacuum & Mop brings Cecotec quality at €210 with solid owner ratings."
+        },
+        {
+          "id": "rvc-027",
+          "asin": "B0D6BYW8HK",
+          "name": "Shark Matrix Plus 2-in-1 Robot Vacuum & Mop",
+          "brand": "Shark",
+          "price": 239,
+          "rating": 4.0,
+          "badge": "Worth Considering",
+          "specs": {
+            "Owner rating": "4.0★ on Amazon.ie",
+            "Typical price": "€239",
+            "Brand": "Shark"
+          },
+          "pros": [
+            "Strong 4.0★ owner score",
+            "Competitive €239 price point",
+            "Ships from Amazon.ie with full returns"
+          ],
+          "cons": [
+            "Newer to our comparison list",
+            "Brand support varies by seller"
+          ],
+          "verdict": "Worth shortlisting at €239 — Shark Matrix Plus 2-in-1 Robot Vacuum & Mop earns its 4.0★ and undercuts several bigger names."
+        }
+      ]
+    },
+    {
+      "slug": "best-robot-vacuums-pet-hair-ireland",
+      "title": "Best Robot Vacuums for Pet Hair Ireland 2026 — Top 5 Compared",
+      "desc": "Dog or cat at home? The 5 best robot vacuums for pet hair in Ireland — tangle-free brushes, self-empty docks and avoidance tech. 2026.",
+      "h1": "Best Robot Vacuums for Pet Hair in Ireland",
+      "intro": "Pet homes are the robot vacuum's killer app — daily automated hair pickup instead of weekend archaeology — but they're also its stress test: hair-wrapped brushes, full bins, and the catastrophic encounter every owner fears. We ranked on tangle-resistance, bin/dock capacity, and obstacle intelligence, because with pets, avoidance tech isn't a luxury.",
+      "faq_idx": [
+        2,
+        6,
+        4
+      ],
+      "products": [
+        {
+          "id": "rvc-011",
+          "asin": "B0CPDVV72T",
+          "name": "eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station)",
+          "brand": "eufy",
+          "price": 549,
+          "rating": 4.7,
+          "badge": "Best for Pet Households",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Dual rotating, pressurised",
+            "Dock": "Empty, wash, dry",
+            "Navigation": "AI camera + laser"
+          },
+          "pros": [
+            "Full self-maintaining system",
+            "Pressurised mops scrub properly",
+            "Strong obstacle avoidance"
+          ],
+          "cons": [
+            "Dock needs its corner",
+            "Premium price"
+          ],
+          "verdict": "The complete robot butler on Amazon.ie: vacuums, really mops, then cleans itself for weeks."
+        },
+        {
+          "id": "rvc-012",
+          "asin": "B0CDB8H9VJ",
+          "name": "eufy L60 Robot Vacuum (5,000 Pa)",
+          "brand": "eufy",
+          "price": 249,
+          "rating": 4.4,
+          "badge": "Best Anti-Tangle Value",
+          "specs": {
+            "Suction": "5,000 Pa",
+            "Navigation": "Laser mapping",
+            "Hair": "Anti-tangle",
+            "App": "Full mapping"
+          },
+          "pros": [
+            "Laser mapping + 5,000 Pa",
+            "Anti-tangle for pet hair",
+            "eufy app quality"
+          ],
+          "cons": [
+            "No self-empty dock",
+            "Mop not included"
+          ],
+          "verdict": "The mapped mid-ranger: eufy quality navigation without paying for a dock."
+        },
+        {
+          "id": "rvc-013",
+          "asin": "B0C2YCSM9X",
+          "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+          "brand": "HONITURE",
+          "price": 141,
+          "rating": 4.4,
+          "badge": "Best Suction for Hair",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Yes",
+            "Control": "App + voice",
+            "Bin": "Large"
+          },
+          "pros": [
+            "8,000 Pa at €141",
+            "Vacuum-mop combo",
+            "Voice control"
+          ],
+          "cons": [
+            "Random-ish pathing vs lidar",
+            "No dock"
+          ],
+          "verdict": "Raw suction per euro champion — serious pickup without the premium badge."
+        },
+        {
+          "id": "rvc-014",
+          "asin": "B0CLVVB2GN",
+          "name": "Tapo Robot Vacuum (4,200 Pa, Quiet)",
+          "brand": "TP-Link Tapo",
+          "price": 156,
+          "rating": 4.4,
+          "badge": "Best Quiet Pet Pick",
+          "specs": {
+            "Suction": "4,200 Pa",
+            "Noise": "Quiet mode",
+            "App": "Tapo (excellent)",
+            "Mapping": "Smart paths"
+          },
+          "pros": [
+            "TP-Link app polish",
+            "Strong suction per euro",
+            "Quiet operation"
+          ],
+          "cons": [
+            "No self-empty dock",
+            "Pad-style mop only"
+          ],
+          "verdict": "The mid-range smart pick: big-brand software at a small price."
+        },
+        {
+          "id": "rvc-015",
+          "asin": "B0F7LQGXM9",
+          "name": "Lefant M310 Robot Vacuum (4,500 Pa, Slim)",
+          "brand": "Lefant",
+          "price": 112,
+          "rating": 4.4,
+          "badge": "Budget Pet Pick",
+          "specs": {
+            "Suction": "4,500 Pa",
+            "Height": "7.9 cm slim",
+            "Runtime": "Long",
+            "App": "Basic + Alexa"
+          },
+          "pros": [
+            "Slides under low furniture",
+            "Solid suction",
+            "Proven budget brand"
+          ],
+          "cons": [
+            "No mapping",
+            "Small bin"
+          ],
+          "verdict": "The under-furniture specialist: slim, simple and dependable daily dust control."
+        },
+        {
+          "id": "rvc-029",
+          "asin": "B0DZ273MVP",
+          "name": "Roborock Q10 VF Robot Vacuum",
+          "brand": "Roborock",
+          "price": 524,
+          "rating": 4.0,
+          "badge": "Notable Mention",
+          "specs": {
+            "Owner rating": "4.0★ on Amazon.ie",
+            "Typical price": "€524",
+            "Brand": "Roborock"
+          },
+          "pros": [
+            "Rated 4.0★ by Amazon.ie owners",
+            "Roborock build at a fair €524",
+            "Real availability in Ireland right now"
+          ],
+          "cons": [
+            "Less proven than our top picks",
+            "Check specs match your exact needs"
+          ],
+          "verdict": "A credible robot vacuums alternative: Roborock Q10 VF Robot Vacuum brings Roborock quality at €524 with solid owner ratings."
+        },
+        {
+          "id": "rvc-030",
+          "asin": "B0C4TXHJ89",
+          "name": "eufy X8 Pro Robot Vacuum & Mop (Self-Empty)",
+          "brand": "eufy",
+          "price": 549,
+          "rating": 4.2,
+          "badge": "Smart Alternative",
+          "specs": {
+            "Owner rating": "4.2★ on Amazon.ie",
+            "Typical price": "€549",
+            "Brand": "eufy"
+          },
+          "pros": [
+            "Strong 4.2★ owner score",
+            "Competitive €549 price point",
+            "Ships from Amazon.ie with full returns"
+          ],
+          "cons": [
+            "Newer to our comparison list",
+            "Brand support varies by seller"
+          ],
+          "verdict": "Worth shortlisting at €549 — eufy X8 Pro Robot Vacuum & Mop earns its 4.2★ and undercuts several bigger names."
+        }
+      ]
+    },
+    {
+      "slug": "best-robot-vacuum-mop-combos-ireland",
+      "title": "Best Robot Vacuum & Mop Combos Ireland 2026 — Top 5 Hybrids",
+      "desc": "Robot vacuum-mop hybrids that actually mop: rotating pads, self-washing docks and carpet protection compared for Irish homes. Top 5 2026.",
+      "h1": "Best Robot Vacuum & Mop Combos in Ireland",
+      "intro": "Vacuum-mop hybrids finally deserve the name: rotating pressurised pads, hot-water self-washing docks and automatic mop-lifting over carpet turned a gimmick into the category's most useful feature — especially for Irish homes with tiled kitchens, wooden floors and eight months of wet shoes. We compared mopping that scrubs versus mopping that smears across five price points.",
+      "faq_idx": [
+        3,
+        1,
+        7
+      ],
+      "products": [
+        {
+          "id": "rvc-016",
+          "asin": "B0FPQCY9NG",
+          "name": "eufy C28 Omni (Self-Cleaning Roller Mop)",
+          "brand": "eufy",
+          "price": 499,
+          "rating": 4.5,
+          "badge": "Best Mop System",
+          "specs": {
+            "Mop": "HydroJet self-cleaning roller",
+            "Dock": "Omni full-service",
+            "Suction": "High",
+            "Navigation": "Laser"
+          },
+          "pros": [
+            "Roller mop washes itself mid-job",
+            "Always mopping with clean water",
+            "Full-service dock under €500"
+          ],
+          "cons": [
+            "Newer platform",
+            "Bulky station"
+          ],
+          "verdict": "The freshest mopping tech here: clean water on the floor, dirty water never dragged around."
+        },
+        {
+          "id": "rvc-017",
+          "asin": "B0CPDVV72T",
+          "name": "eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station)",
+          "brand": "eufy",
+          "price": 549,
+          "rating": 4.7,
+          "badge": "Best All-Round Combo",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Dual rotating, pressurised",
+            "Dock": "Empty, wash, dry",
+            "Navigation": "AI camera + laser"
+          },
+          "pros": [
+            "Full self-maintaining system",
+            "Pressurised mops scrub properly",
+            "Strong obstacle avoidance"
+          ],
+          "cons": [
+            "Dock needs its corner",
+            "Premium price"
+          ],
+          "verdict": "The complete robot butler on Amazon.ie: vacuums, really mops, then cleans itself for weeks."
+        },
+        {
+          "id": "rvc-018",
+          "asin": "B0D9W9T1WB",
+          "name": "eufy Omni C20 (Vacuum + Mop, All-in-One)",
+          "brand": "eufy",
+          "price": 399,
+          "rating": 4.3,
+          "badge": "Best Value Full System",
+          "specs": {
+            "Suction": "7,000 Pa",
+            "Dock": "All-in-one station",
+            "Mop": "Yes",
+            "Profile": "Slim"
+          },
+          "pros": [
+            "Full dock automation at €399",
+            "7,000 Pa suction",
+            "Slim body fits under furniture"
+          ],
+          "cons": [
+            "Mopping less advanced than X10",
+            "App learning curve"
+          ],
+          "verdict": "The affordable full system: dock automation €150 below its big brothers."
+        },
+        {
+          "id": "rvc-019",
+          "asin": "B0C2YCSM9X",
+          "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+          "brand": "HONITURE",
+          "price": 141,
+          "rating": 4.4,
+          "badge": "Best Budget Combo",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Yes",
+            "Control": "App + voice",
+            "Bin": "Large"
+          },
+          "pros": [
+            "8,000 Pa at €141",
+            "Vacuum-mop combo",
+            "Voice control"
+          ],
+          "cons": [
+            "Random-ish pathing vs lidar",
+            "No dock"
+          ],
+          "verdict": "Raw suction per euro champion — serious pickup without the premium badge."
+        },
+        {
+          "id": "rvc-020",
+          "asin": "B0F26P4FT8",
+          "name": "Vexilar W9 Robot Vacuum & Mop (LiDAR, 6,000 Pa)",
+          "brand": "Vexilar",
+          "price": 143,
+          "rating": 4.4,
+          "badge": "Best LiDAR Combo",
+          "specs": {
+            "Navigation": "LiDAR mapping",
+            "Suction": "6,000 Pa",
+            "Mop": "Yes",
+            "App": "Zoning + schedules"
+          },
+          "pros": [
+            "True LiDAR mapping under €150",
+            "Neat row-by-row cleaning",
+            "Room zoning in app"
+          ],
+          "cons": [
+            "Newer brand",
+            "Mop is basic pad"
+          ],
+          "verdict": "The cheapest real LiDAR robot here — mapped, methodical cleaning on a budget."
+        }
+      ]
+    },
+    {
+      "slug": "best-premium-self-empty-robot-vacuums-ireland",
+      "title": "Best Premium & Self-Empty Robot Vacuums Ireland 2026 — Top 5",
+      "desc": "Flagship self-emptying robot vacuums compared for Ireland: total automation, obstacle AI and long-term costs. The top 5 premium picks 2026.",
+      "h1": "Best Premium & Self-Empty Robot Vacuums in Ireland",
+      "intro": "At the premium tier the question changes from 'does it clean?' to 'how long can you ignore it?' — the best systems now run 6–8 weeks unattended, washing mops, emptying bins, dosing detergent and dodging shoes. We compared total automation depth, obstacle intelligence, consumable costs and which flagship features survive daily reality.",
+      "faq_idx": [
+        6,
+        4,
+        0
+      ],
+      "products": [
+        {
+          "id": "rvc-021",
+          "asin": "B0CPDVV72T",
+          "name": "eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station)",
+          "brand": "eufy",
+          "price": 549,
+          "rating": 4.7,
+          "badge": "Best Premium Overall",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Mop": "Dual rotating, pressurised",
+            "Dock": "Empty, wash, dry",
+            "Navigation": "AI camera + laser"
+          },
+          "pros": [
+            "Full self-maintaining system",
+            "Pressurised mops scrub properly",
+            "Strong obstacle avoidance"
+          ],
+          "cons": [
+            "Dock needs its corner",
+            "Premium price"
+          ],
+          "verdict": "The complete robot butler on Amazon.ie: vacuums, really mops, then cleans itself for weeks."
+        },
+        {
+          "id": "rvc-022",
+          "asin": "B0FPQCY9NG",
+          "name": "eufy C28 Omni (Self-Cleaning Roller Mop)",
+          "brand": "eufy",
+          "price": 499,
+          "rating": 4.5,
+          "badge": "Most Innovative",
+          "specs": {
+            "Mop": "HydroJet self-cleaning roller",
+            "Dock": "Omni full-service",
+            "Suction": "High",
+            "Navigation": "Laser"
+          },
+          "pros": [
+            "Roller mop washes itself mid-job",
+            "Always mopping with clean water",
+            "Full-service dock under €500"
+          ],
+          "cons": [
+            "Newer platform",
+            "Bulky station"
+          ],
+          "verdict": "The freshest mopping tech here: clean water on the floor, dirty water never dragged around."
+        },
+        {
+          "id": "rvc-023",
+          "asin": "B0D9W9T1WB",
+          "name": "eufy Omni C20 (Vacuum + Mop, All-in-One)",
+          "brand": "eufy",
+          "price": 399,
+          "rating": 4.3,
+          "badge": "Best Value Premium",
+          "specs": {
+            "Suction": "7,000 Pa",
+            "Dock": "All-in-one station",
+            "Mop": "Yes",
+            "Profile": "Slim"
+          },
+          "pros": [
+            "Full dock automation at €399",
+            "7,000 Pa suction",
+            "Slim body fits under furniture"
+          ],
+          "cons": [
+            "Mopping less advanced than X10",
+            "App learning curve"
+          ],
+          "verdict": "The affordable full system: dock automation €150 below its big brothers."
+        },
+        {
+          "id": "rvc-024",
+          "asin": "B0CDB8H9VJ",
+          "name": "eufy L60 Robot Vacuum (5,000 Pa)",
+          "brand": "eufy",
+          "price": 249,
+          "rating": 4.4,
+          "badge": "Best Dock-Free Premium",
+          "specs": {
+            "Suction": "5,000 Pa",
+            "Navigation": "Laser mapping",
+            "Hair": "Anti-tangle",
+            "App": "Full mapping"
+          },
+          "pros": [
+            "Laser mapping + 5,000 Pa",
+            "Anti-tangle for pet hair",
+            "eufy app quality"
+          ],
+          "cons": [
+            "No self-empty dock",
+            "Mop not included"
+          ],
+          "verdict": "The mapped mid-ranger: eufy quality navigation without paying for a dock."
+        },
+        {
+          "id": "rvc-025",
+          "asin": "B0CLVVB2GN",
+          "name": "Tapo Robot Vacuum (4,200 Pa, Quiet)",
+          "brand": "TP-Link Tapo",
+          "price": 156,
+          "rating": 4.4,
+          "badge": "Smart Budget Alternative",
+          "specs": {
+            "Suction": "4,200 Pa",
+            "Noise": "Quiet mode",
+            "App": "Tapo (excellent)",
+            "Mapping": "Smart paths"
+          },
+          "pros": [
+            "TP-Link app polish",
+            "Strong suction per euro",
+            "Quiet operation"
+          ],
+          "cons": [
+            "No self-empty dock",
+            "Pad-style mop only"
+          ],
+          "verdict": "The mid-range smart pick: big-brand software at a small price."
+        },
+        {
+          "id": "rvc-031",
+          "asin": "B0DSLBN5FS",
+          "name": "Roborock QV 35S Robot Vacuum (10,000Pa, Self-Empty Dock)",
+          "brand": "Roborock",
+          "price": 649,
+          "rating": 4.5,
+          "badge": "Reader Favourite",
+          "specs": {
+            "Suction": "8,000 Pa",
+            "Owner rating": "4.5★ on Amazon.ie",
+            "Typical price": "€611",
+            "Brand": "Roborock"
+          },
+          "pros": [
+            "Owners rate it 4.5★",
+            "Honest value for the spec",
+            "Easy Amazon.ie warranty route"
+          ],
+          "cons": [
+            "Not our category winner",
+            "Compare specs before committing"
+          ],
+          "verdict": "The challenger: Roborock QV 35A Set won't dethrone our winner, but at €611 it makes the podium fight interesting."
+        },
+        {
+          "id": "rvc-032",
+          "asin": "B0DZ26MJMJ",
+          "name": "Roborock Q Revo MaxV Robot Vacuum & Mop (Auto-Wash Dock)",
+          "brand": "Roborock",
+          "price": 753,
+          "rating": 4.2,
+          "badge": "Solid Backup Choice",
+          "specs": {
+            "Owner rating": "4.2★ on Amazon.ie",
+            "Typical price": "€766",
+            "Brand": "Roborock"
+          },
+          "pros": [
+            "Rated 4.2★ by Amazon.ie owners",
+            "Roborock build at a fair €766",
+            "Real availability in Ireland right now"
+          ],
+          "cons": [
+            "Less proven than our top picks",
+            "Check specs match your exact needs"
+          ],
+          "verdict": "A credible robot vacuums alternative: Roborock QREVO 5AE brings Roborock quality at €766 with solid owner ratings."
+        }
+      ]
+    }
+  ]
+}
