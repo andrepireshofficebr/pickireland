@@ -5,7 +5,7 @@ document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a,.spot'
 var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
 var spot=document.querySelector('.spot');
 if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
-function bars(p){p.querySelectorAll('.bar i').forEach(function(b){b.style.width='0%';requestAnimationFrame(function(){requestAnimationFrame(function(){b.style.width=b.dataset.w+'%'})})})}
+function bars(p){p.querySelectorAll('.bar i').forEach(function(b){b.style.transition='none';b.style.width='0%';void b.offsetWidth;b.style.transition='';b.style.width=b.dataset.w+'%'})}
 tabs.forEach(function(t){t.addEventListener('click',function(){
 tabs.forEach(function(x){x.classList.remove('on')});t.classList.add('on');
 panels.forEach(function(p){p.classList.remove('on')});

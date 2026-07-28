@@ -199,7 +199,7 @@ article.card{scroll-margin-top:90px}
 .spot-head{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:24px}
 .spot-head h2{margin:0;padding:0;color:#fff;font-size:1.5rem}
 .spot-head h2::before{display:none}
-.spot-tabs{display:flex;gap:4px;background:rgba(0,0,0,.25);padding:5px;border-radius:99px;border:1px solid rgba(255,255,255,.12)}
+.spot-tabs{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;background:rgba(0,0,0,.25);padding:5px;border-radius:16px;border:1px solid rgba(255,255,255,.12);max-width:100%}
 .spot-tab{border:0;background:transparent;color:#B9CFC2;font-weight:600;font-size:.82rem;padding:9px 18px;border-radius:99px;cursor:pointer;transition:background .3s,color .3s;font-family:'Inter'}
 .spot-tab.on{background:rgba(255,255,255,.14);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.15)}
 .spot-panel{display:none;align-items:center;gap:36px}
@@ -243,10 +243,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 </head>
 <body>
 <header><div class="wrap nav">
-<a class="logo" href="index.html" aria-label="PickIreland home"><span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 64 64" fill="none"><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pick<span>Ireland</span></a>
+<a class="logo" href="/" aria-label="PickIreland home"><span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 64 64" fill="none"><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pick<span>Ireland</span></a>
 <button class="search-btn" aria-label="Search products" onclick="document.body.classList.add('search-open');document.getElementById('siq').focus()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
 <button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-<nav class="nav-links" aria-label="Categories"><a class="" href="air-fryers/index.html">Air Fryers</a><a class="" href="air-purifiers/index.html">Air Purifiers</a><a class="" href="coffee-machines/index.html">Coffee Machines</a><a class="" href="dehumidifiers/index.html">Dehumidifiers</a><a class="" href="electric-bikes/index.html">Electric Bikes</a><a class="extra" href="electric-heaters/index.html">Electric Heaters</a><a class="extra" href="electric-scooters/index.html">Electric Scooters</a><a class="extra" href="home-office/index.html">Home Office</a><a class="extra" href="robot-lawn-mowers/index.html">Robot Lawn Mowers</a><a class="extra" href="robot-vacuums/index.html">Robot Vacuums</a><a href="index.html#categories">All categories</a></nav>
+<nav class="nav-links" aria-label="Categories"><a class="" href="air-fryers/index.html">Air Fryers</a><a class="" href="air-purifiers/index.html">Air Purifiers</a><a class="" href="coffee-machines/index.html">Coffee Machines</a><a class="" href="dehumidifiers/index.html">Dehumidifiers</a><a class="" href="electric-bikes/index.html">Electric Bikes</a><a class="extra" href="electric-heaters/index.html">Electric Heaters</a><a class="extra" href="electric-scooters/index.html">Electric Scooters</a><a class="extra" href="home-office/index.html">Home Office</a><a class="extra" href="robot-lawn-mowers/index.html">Robot Lawn Mowers</a><a class="extra" href="robot-vacuums/index.html">Robot Vacuums</a><a href="/#categories">All categories</a></nav>
 </div></header>
 <div class="search-overlay" id="sov">
 <div class="search-box" role="dialog" aria-modal="true" aria-label="Product search">
@@ -276,4 +276,6 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 <button id="ckb-no" style="background:transparent;border:1px solid #3a4f60;color:#C4D2DE;padding:7px 14px;border-radius:8px;cursor:pointer;font-weight:600">Decline</button>
 <button id="ckb-ok" style="background:#F0A41C;border:0;color:#2A1A00;padding:7px 16px;border-radius:8px;cursor:pointer;font-weight:700">Accept</button>
 </div>
-<script>(function(){try{var k='ck_consent',c=localStorage.getItem(k);function ap(v){if(window.gtag){gtag('consent','update',{analytics_storage:v==='granted'?'granted':'denied',ad_storage:'denied'});}}if(c){ap(c);return;}var b=document.getElementById('ckb');if(!b)return;b.style.display='flex';document.getE
+<script>(function(){try{var k='ck_consent',c=localStorage.getItem(k);function ap(v){if(window.gtag){gtag('consent','update',{analytics_storage:v==='granted'?'granted':'denied',ad_storage:'denied'});}}if(c){ap(c);return;}var b=document.getElementById('ckb');if(!b)return;b.style.display='flex';document.getElementById('ckb-ok').onclick=function(){localStorage.setItem(k,'granted');ap('granted');b.style.display='none';};document.getElementById('ckb-no').onclick=function(){localStorage.setItem(k,'denied');ap('denied');b.style.display='none';};}catch(e){}})();</script>
+</body>
+</html>

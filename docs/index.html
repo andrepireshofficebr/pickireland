@@ -199,7 +199,7 @@ article.card{scroll-margin-top:90px}
 .spot-head{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:24px}
 .spot-head h2{margin:0;padding:0;color:#fff;font-size:1.5rem}
 .spot-head h2::before{display:none}
-.spot-tabs{display:flex;gap:4px;background:rgba(0,0,0,.25);padding:5px;border-radius:99px;border:1px solid rgba(255,255,255,.12)}
+.spot-tabs{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;background:rgba(0,0,0,.25);padding:5px;border-radius:16px;border:1px solid rgba(255,255,255,.12);max-width:100%}
 .spot-tab{border:0;background:transparent;color:#B9CFC2;font-weight:600;font-size:.82rem;padding:9px 18px;border-radius:99px;cursor:pointer;transition:background .3s,color .3s;font-family:'Inter'}
 .spot-tab.on{background:rgba(255,255,255,.14);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.15)}
 .spot-panel{display:none;align-items:center;gap:36px}
@@ -243,10 +243,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 </head>
 <body>
 <header><div class="wrap nav">
-<a class="logo" href="index.html" aria-label="PickIreland home"><span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 64 64" fill="none"><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pick<span>Ireland</span></a>
+<a class="logo" href="/" aria-label="PickIreland home"><span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 64 64" fill="none"><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pick<span>Ireland</span></a>
 <button class="search-btn" aria-label="Search products" onclick="document.body.classList.add('search-open');document.getElementById('siq').focus()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
 <button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-<nav class="nav-links" aria-label="Categories"><a class="" href="air-fryers/index.html">Air Fryers</a><a class="" href="air-purifiers/index.html">Air Purifiers</a><a class="" href="coffee-machines/index.html">Coffee Machines</a><a class="" href="dehumidifiers/index.html">Dehumidifiers</a><a class="" href="electric-bikes/index.html">Electric Bikes</a><a class="extra" href="electric-heaters/index.html">Electric Heaters</a><a class="extra" href="electric-scooters/index.html">Electric Scooters</a><a class="extra" href="home-office/index.html">Home Office</a><a class="extra" href="robot-lawn-mowers/index.html">Robot Lawn Mowers</a><a class="extra" href="robot-vacuums/index.html">Robot Vacuums</a><a href="index.html#categories">All categories</a></nav>
+<nav class="nav-links" aria-label="Categories"><a class="" href="air-fryers/index.html">Air Fryers</a><a class="" href="air-purifiers/index.html">Air Purifiers</a><a class="" href="coffee-machines/index.html">Coffee Machines</a><a class="" href="dehumidifiers/index.html">Dehumidifiers</a><a class="" href="electric-bikes/index.html">Electric Bikes</a><a class="extra" href="electric-heaters/index.html">Electric Heaters</a><a class="extra" href="electric-scooters/index.html">Electric Scooters</a><a class="extra" href="home-office/index.html">Home Office</a><a class="extra" href="robot-lawn-mowers/index.html">Robot Lawn Mowers</a><a class="extra" href="robot-vacuums/index.html">Robot Vacuums</a><a href="/#categories">All categories</a></nav>
 </div></header>
 <div class="search-overlay" id="sov">
 <div class="search-box" role="dialog" aria-modal="true" aria-label="Product search">
@@ -260,24 +260,24 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 <p>Independent comparisons of what Irish homes actually buy — real € prices, running costs on Irish electricity, and verdicts that pick a side. No fluff, no 40 open tabs.</p>
 <div class="hero-stats"><div><b>50</b>buying guides</div><div><b>304</b>products compared</div><div><b>2026</b>kept updated</div></div>
 </div></div>
-<section class="spot" aria-label="Featured picks"><div class="spot-head"><h2>Editor&#39;s spotlight</h2><div class="spot-tabs"><button type="button" class="spot-tab on" data-k="dehumidifiers">Dehumidifiers</button><button type="button" class="spot-tab" data-k="air-fryers">Air Fryers</button><button type="button" class="spot-tab" data-k="coffee-machines">Coffee Machines</button></div></div><div class="spot-panel on" data-k="dehumidifiers">
-<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div>
-<div class="spot-info">
-<div class="k">Damp season essential · Best Overall</div>
-<h3>MeacoDry Arete Two 12L Dehumidifier &amp; Air Purifier</h3>
-<div class="pr">€259</div>
-<div class="bar"><div class="lb"><span>Our rating</span><span>4.8/5</span></div><u><i data-w="96"></i></u></div>
-<div class="bar"><div class="lb"><span>Editor confidence</span><span>88%</span></div><u><i data-w="88"></i></u></div>
-<a class="btn" href="https://www.amazon.ie/dp/B0CTKPZ5FJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-</div></div><div class="spot-panel" data-k="air-fryers">
+<section class="spot" aria-label="Featured picks"><div class="spot-head"><h2>Editor&#39;s spotlight</h2><div class="spot-tabs"><button type="button" class="spot-tab on" data-k="air-fryers">Air Fryers</button><button type="button" class="spot-tab" data-k="air-purifiers">Air Purifiers</button><button type="button" class="spot-tab" data-k="coffee-machines">Coffee Machines</button><button type="button" class="spot-tab" data-k="dehumidifiers">Dehumidifiers</button><button type="button" class="spot-tab" data-k="electric-bikes">Electric Bikes</button><button type="button" class="spot-tab" data-k="electric-heaters">Electric Heaters</button><button type="button" class="spot-tab" data-k="electric-scooters">Electric Scooters</button><button type="button" class="spot-tab" data-k="home-office">Home Office</button><button type="button" class="spot-tab" data-k="robot-lawn-mowers">Robot Lawn Mowers</button><button type="button" class="spot-tab" data-k="robot-vacuums">Robot Vacuums</button></div></div><div class="spot-panel on" data-k="air-fryers">
 <div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h18v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M7 4v2m5-2v2m5-2v2"/></svg></div>
 <div class="spot-info">
 <div class="k">Kitchen favourite · Best Overall for Families</div>
 <h3>Ninja Foodi Dual Zone 7.6L (AF300UK)</h3>
 <div class="pr">€150</div>
 <div class="bar"><div class="lb"><span>Our rating</span><span>4.9/5</span></div><u><i data-w="98"></i></u></div>
-<div class="bar"><div class="lb"><span>Editor confidence</span><span>91%</span></div><u><i data-w="91"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>88%</span></div><u><i data-w="88"></i></u></div>
 <a class="btn" href="https://www.amazon.ie/dp/B08CN3G4N9?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="air-purifiers">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/></svg></div>
+<div class="spot-info">
+<div class="k">Allergy season pick · Best Overall</div>
+<h3>Philips 600 Series Air Purifier</h3>
+<div class="pr">€80</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.6/5</span></div><u><i data-w="92"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>91%</span></div><u><i data-w="91"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0BX4LB7HL?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </div></div><div class="spot-panel" data-k="coffee-machines">
 <div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M7 2v3m4-3v3m4-3v3"/></svg></div>
 <div class="spot-info">
@@ -287,6 +287,69 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 <div class="bar"><div class="lb"><span>Our rating</span><span>4.6/5</span></div><u><i data-w="92"></i></u></div>
 <div class="bar"><div class="lb"><span>Editor confidence</span><span>94%</span></div><u><i data-w="94"></i></u></div>
 <a class="btn" href="https://www.amazon.ie/dp/B0BWSDQ9WT?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="dehumidifiers">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div>
+<div class="spot-info">
+<div class="k">Damp season essential · Best Overall</div>
+<h3>MeacoDry Arete Two 12L Dehumidifier &amp; Air Purifier</h3>
+<div class="pr">€259</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.8/5</span></div><u><i data-w="96"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>97%</span></div><u><i data-w="97"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0CTKPZ5FJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="electric-bikes">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/></svg></div>
+<div class="spot-info">
+<div class="k">Commuter favourite · Best Overall</div>
+<h3>ENGWE Folding E-Bike (48V 15Ah, Torque Sensor, 130 km)</h3>
+<div class="pr">€1699</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.8/5</span></div><u><i data-w="96"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>97%</span></div><u><i data-w="97"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0FMRCLHYN?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="electric-heaters">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></div>
+<div class="spot-info">
+<div class="k">Winter essential · Best Overall</div>
+<h3>Dreo 1500W Ceramic Space Heater</h3>
+<div class="pr">€49</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.7/5</span></div><u><i data-w="94"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>97%</span></div><u><i data-w="97"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0C9D4KL9D?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="electric-scooters">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+<div class="spot-info">
+<div class="k">City mobility · Best Premium</div>
+<h3>Xiaomi Mi Electric Scooter 4 Ultra</h3>
+<div class="pr">€1002</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.6/5</span></div><u><i data-w="92"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>97%</span></div><u><i data-w="97"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0F9SQPB5G?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="home-office">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></div>
+<div class="spot-info">
+<div class="k">WFH upgrade · Best Overall</div>
+<h3>SIHOO M102C Ergonomic Mesh Chair (3D Lumbar)</h3>
+<div class="pr">€160</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.6/5</span></div><u><i data-w="92"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>97%</span></div><u><i data-w="97"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0D93DMFWC?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="robot-lawn-mowers">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+<div class="spot-info">
+<div class="k">Garden on autopilot · Best Overall Wire-Free</div>
+<h3>eufy E15 Robot Lawnmower (No Wire, No RTK)</h3>
+<div class="pr">€1499</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.7/5</span></div><u><i data-w="94"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>97%</span></div><u><i data-w="97"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0DRW11XCJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+</div></div><div class="spot-panel" data-k="robot-vacuums">
+<div class="spot-vis"><svg class="ic" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12h8m-4-4v.01"/></svg></div>
+<div class="spot-info">
+<div class="k">Hands-free cleaning · Best Overall</div>
+<h3>eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station)</h3>
+<div class="pr">€549</div>
+<div class="bar"><div class="lb"><span>Our rating</span><span>4.7/5</span></div><u><i data-w="94"></i></u></div>
+<div class="bar"><div class="lb"><span>Editor confidence</span><span>97%</span></div><u><i data-w="97"></i></u></div>
+<a class="btn" href="https://www.amazon.ie/dp/B0CPDVV72T?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </div></div></section>
 <h2 id="categories">Browse by category</h2>
 <div class="grid"><div class="tile"><a href="air-fryers/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h18v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M7 4v2m5-2v2m5-2v2"/></svg></div><h3>Air Fryers</h3><p>5 buying guides · 36 products compared</p></a></div><div class="tile"><a href="air-purifiers/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/></svg></div><h3>Air Purifiers</h3><p>5 buying guides · 30 products compared</p></a></div><div class="tile"><a href="coffee-machines/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M7 2v3m4-3v3m4-3v3"/></svg></div><h3>Coffee Machines</h3><p>5 buying guides · 30 products compared</p></a></div><div class="tile"><a href="dehumidifiers/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div><h3>Dehumidifiers</h3><p>5 buying guides · 34 products compared</p></a></div><div class="tile"><a href="electric-bikes/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/></svg></div><h3>Electric Bikes</h3><p>5 buying guides · 25 products compared</p></a></div><div class="tile"><a href="electric-heaters/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></div><h3>Electric Heaters</h3><p>5 buying guides · 36 products compared</p></a></div><div class="tile"><a href="electric-scooters/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>Electric Scooters</h3><p>5 buying guides · 25 products compared</p></a></div><div class="tile"><a href="home-office/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></div><h3>Home Office</h3><p>5 buying guides · 28 products compared</p></a></div><div class="tile"><a href="robot-lawn-mowers/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div><h3>Robot Lawn Mowers</h3><p>5 buying guides · 28 products compared</p></a></div><div class="tile"><a href="robot-vacuums/index.html"><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span><div class="icw"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12h8m-4-4v.01"/></svg></div><h3>Robot Vacuums</h3><p>5 buying guides · 32 products compared</p></a></div></div>
@@ -312,4 +375,6 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 <button id="ckb-no" style="background:transparent;border:1px solid #3a4f60;color:#C4D2DE;padding:7px 14px;border-radius:8px;cursor:pointer;font-weight:600">Decline</button>
 <button id="ckb-ok" style="background:#F0A41C;border:0;color:#2A1A00;padding:7px 16px;border-radius:8px;cursor:pointer;font-weight:700">Accept</button>
 </div>
-<script>(function(){try{var k='ck_consent',c=localStorage.getItem(k);function ap(v){if(window.gtag){gtag('consent','update',{analytics_storage:v==='granted'?'granted':'
+<script>(function(){try{var k='ck_consent',c=localStorage.getItem(k);function ap(v){if(window.gtag){gtag('consent','update',{analytics_storage:v==='granted'?'granted':'denied',ad_storage:'denied'});}}if(c){ap(c);return;}var b=document.getElementById('ckb');if(!b)return;b.style.display='flex';document.getElementById('ckb-ok').onclick=function(){localStorage.setItem(k,'granted');ap('granted');b.style.display='none';};document.getElementById('ckb-no').onclick=function(){localStorage.setItem(k,'denied');ap('denied');b.style.display='none';};}catch(e){}})();</script>
+</body>
+</html>

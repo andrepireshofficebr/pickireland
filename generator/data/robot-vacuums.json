@@ -58,7 +58,7 @@
  "pages": [
   {
    "slug": "best-robot-vacuums-ireland",
-   "title": "5 Best Robot Vacuums in Ireland 2026 — Tested Picks Compared",
+   "title": "5 Best Robot Vacuums in Ireland 2026 — Ranked",
    "desc": "Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Top 5 ranked.",
    "h1": "The 5 Best Robot Vacuums in Ireland (2026)",
    "intro": "The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation intelligence, real pickup on carpet and hard floor, dock capabilities and parts availability in Ireland. Five machines define the current sweet spots from €179 to €999.",
@@ -192,6 +192,31 @@
       "Small bin"
      ],
      "verdict": "The under-furniture specialist: slim, simple and dependable daily dust control."
+    },
+    {
+     "id": "rvc-028",
+     "asin": "B0DR8XJ9XZ",
+     "name": "eufy C10 Robot Vacuum with Self-Empty Station (4,000Pa)",
+     "brand": "eufy",
+     "price": 299,
+     "rating": 4.1,
+     "badge": "Challenger Pick",
+     "specs": {
+      "Suction": "4,000 Pa",
+      "Owner rating": "4.1★ on Amazon.ie",
+      "Typical price": "€299",
+      "Brand": "eufy"
+     },
+     "pros": [
+      "Owners rate it 4.1★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: eufy C10 Robot Vacuum with Self-Empty Station won't dethrone our winner, but at €299 it makes the podium fight interesting."
     }
    ]
   },
@@ -331,6 +356,54 @@
       "Random pathing"
      ],
      "verdict": "The absolute entry ticket: apartments and hard floors get daily once-overs for under €100."
+    },
+    {
+     "id": "rvc-026",
+     "asin": "B0FL2G3LXQ",
+     "name": "Cecotec Programmable Robot Vacuum & Mop (Self-Charging)",
+     "brand": "Cecotec",
+     "price": 210,
+     "rating": 4.0,
+     "badge": "Strong Alternative",
+     "specs": {
+      "Owner rating": "4.0★ on Amazon.ie",
+      "Typical price": "€210",
+      "Brand": "Cecotec"
+     },
+     "pros": [
+      "Rated 4.0★ by Amazon.ie owners",
+      "Cecotec build at a fair €210",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible robot vacuums alternative: Cecotec Programmable Robot Vacuum & Mop brings Cecotec quality at €210 with solid owner ratings."
+    },
+    {
+     "id": "rvc-027",
+     "asin": "B0D6BYW8HK",
+     "name": "Shark Matrix Plus 2-in-1 Robot Vacuum & Mop",
+     "brand": "Shark",
+     "price": 239,
+     "rating": 4.0,
+     "badge": "Worth Considering",
+     "specs": {
+      "Owner rating": "4.0★ on Amazon.ie",
+      "Typical price": "€239",
+      "Brand": "Shark"
+     },
+     "pros": [
+      "Strong 4.0★ owner score",
+      "Competitive €239 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €239 — Shark Matrix Plus 2-in-1 Robot Vacuum & Mop earns its 4.0★ and undercuts several bigger names."
     }
    ]
   },
@@ -470,6 +543,54 @@
       "Small bin"
      ],
      "verdict": "The under-furniture specialist: slim, simple and dependable daily dust control."
+    },
+    {
+     "id": "rvc-029",
+     "asin": "B0DZ273MVP",
+     "name": "Roborock Q10 VF Robot Vacuum",
+     "brand": "Roborock",
+     "price": 524,
+     "rating": 4.0,
+     "badge": "Notable Mention",
+     "specs": {
+      "Owner rating": "4.0★ on Amazon.ie",
+      "Typical price": "€524",
+      "Brand": "Roborock"
+     },
+     "pros": [
+      "Rated 4.0★ by Amazon.ie owners",
+      "Roborock build at a fair €524",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible robot vacuums alternative: Roborock Q10 VF Robot Vacuum brings Roborock quality at €524 with solid owner ratings."
+    },
+    {
+     "id": "rvc-030",
+     "asin": "B0C4TXHJ89",
+     "name": "eufy X8 Pro Robot Vacuum & Mop (Self-Empty)",
+     "brand": "eufy",
+     "price": 549,
+     "rating": 4.2,
+     "badge": "Smart Alternative",
+     "specs": {
+      "Owner rating": "4.2★ on Amazon.ie",
+      "Typical price": "€549",
+      "Brand": "eufy"
+     },
+     "pros": [
+      "Strong 4.2★ owner score",
+      "Competitive €549 price point",
+      "Ships from Amazon.ie with full returns"
+     ],
+     "cons": [
+      "Newer to our comparison list",
+      "Brand support varies by seller"
+     ],
+     "verdict": "Worth shortlisting at €549 — eufy X8 Pro Robot Vacuum & Mop earns its 4.2★ and undercuts several bigger names."
     }
    ]
   },
@@ -748,6 +869,55 @@
       "Pad-style mop only"
      ],
      "verdict": "The mid-range smart pick: big-brand software at a small price."
+    },
+    {
+     "id": "rvc-031",
+     "asin": "B0DQPSZZZQ",
+     "name": "Roborock QV 35S Robot Vacuum (10,000Pa, Self-Empty Dock)",
+     "brand": "Roborock",
+     "price": 649,
+     "rating": 4.5,
+     "badge": "Reader Favourite",
+     "specs": {
+      "Suction": "8,000 Pa",
+      "Owner rating": "4.5★ on Amazon.ie",
+      "Typical price": "€611",
+      "Brand": "Roborock"
+     },
+     "pros": [
+      "Owners rate it 4.5★",
+      "Honest value for the spec",
+      "Easy Amazon.ie warranty route"
+     ],
+     "cons": [
+      "Not our category winner",
+      "Compare specs before committing"
+     ],
+     "verdict": "The challenger: Roborock QV 35A Set won't dethrone our winner, but at €611 it makes the podium fight interesting."
+    },
+    {
+     "id": "rvc-032",
+     "asin": "B0CZH7B4QX",
+     "name": "Roborock Q Revo MaxV Robot Vacuum & Mop (Auto-Wash Dock)",
+     "brand": "Roborock",
+     "price": 753,
+     "rating": 4.2,
+     "badge": "Solid Backup Choice",
+     "specs": {
+      "Owner rating": "4.2★ on Amazon.ie",
+      "Typical price": "€766",
+      "Brand": "Roborock"
+     },
+     "pros": [
+      "Rated 4.2★ by Amazon.ie owners",
+      "Roborock build at a fair €766",
+      "Real availability in Ireland right now"
+     ],
+     "cons": [
+      "Less proven than our top picks",
+      "Check specs match your exact needs"
+     ],
+     "verdict": "A credible robot vacuums alternative: Roborock QREVO 5AE brings Roborock quality at €766 with solid owner ratings."
     }
    ]
   }

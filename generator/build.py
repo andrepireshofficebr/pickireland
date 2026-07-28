@@ -87,6 +87,44 @@ if os.path.exists(_extra):
             _d["link"] = _lnk
             LINKS[_id] = _d
 
+# ---------------------------------------------------------------- interlinking cruzado entre silos
+# Categorias que resolvem problemas adjacentes. Quebra os silos estanques (antes: 0 links
+# contextuais cruzando categorias) e espalha link equity para fora do proprio silo.
+CROSS_LINKS = {
+    "dehumidifiers":     [("air-purifiers", "damp and mould also mean airborne spores"),
+                          ("electric-heaters", "warm air holds moisture better")],
+    "air-purifiers":     [("dehumidifiers", "high humidity feeds mould spores"),
+                          ("robot-vacuums", "less settled dust means less to filter")],
+    "electric-heaters":  [("dehumidifiers", "drier air is cheaper to heat"),
+                          ("home-office", "heating one room while you work")],
+    "electric-bikes":    [("electric-scooters", "the shorter-commute alternative")],
+    "electric-scooters": [("electric-bikes", "when the commute is longer or hillier")],
+    "robot-vacuums":     [("robot-lawn-mowers", "the same hands-off logic, outdoors"),
+                          ("air-purifiers", "dust you vacuum is dust you don't breathe")],
+    "robot-lawn-mowers": [("robot-vacuums", "the indoor equivalent")],
+    "air-fryers":        [("coffee-machines", "the other counter-top running-cost question")],
+    "coffee-machines":   [("air-fryers", "the other appliance that pays for itself"),
+                          ("home-office", "if the kitchen is also the office")],
+    "home-office":       [("electric-heaters", "heating a home office without heating the house"),
+                          ("coffee-machines", "the desk-side coffee question")],
+}
+
+def cross_links_html(cat_slug, cats_by_slug):
+    """Links contextuais para o guia-cabeca de categorias adjacentes."""
+    pairs = CROSS_LINKS.get(cat_slug, [])
+    out = []
+    for target, why in pairs:
+        tc = cats_by_slug.get(target)
+        if not tc or not tc["pages"]:
+            continue
+        head = tc["pages"][0]
+        out.append(f'<a href="../{target}/{head["slug"]}.html">'
+                   f'<span>{esc(head["h1"])} <i style="font-weight:400;opacity:.72">— {esc(why)}</i></span> {ARROW}</a>')
+    if not out:
+        return ""
+    return ('<div class="related"><h2>Related guides in other categories</h2>'
+            + "".join(out) + '</div>')
+
 AFF_TAG = "elevaonline-21"   # Amazon Associates StoreID
 def amazon_search_url(p):
     q = re.sub(r"[^A-Za-z0-9 ]", "", p["name"]).replace(" ", "+")
@@ -97,6 +135,12 @@ def product_url(p):
     info = LINKS.get(p["id"], {})
     if info.get("link"):
         return info["link"], True
+    # fallback 1: usa o ASIN do proprio JSON de dados (evita link de busca quando o
+    # produto tem ASIN conhecido mas ficou de fora do xlsx/extra_links.json)
+    asin = (p.get("asin") or "").strip().upper()
+    if re.fullmatch(r"[A-Z0-9]{10}", asin):
+        return f"https://www.amazon.ie/dp/{asin}?tag={AFF_TAG}", True
+    # fallback 2: busca com tag (clique ainda monetizado)
     return amazon_search_url(p), False
 
 def product_price(p):
@@ -309,7 +353,7 @@ article.card{scroll-margin-top:90px}
 .spot-head{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:24px}
 .spot-head h2{margin:0;padding:0;color:#fff;font-size:1.5rem}
 .spot-head h2::before{display:none}
-.spot-tabs{display:flex;gap:4px;background:rgba(0,0,0,.25);padding:5px;border-radius:99px;border:1px solid rgba(255,255,255,.12)}
+.spot-tabs{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;background:rgba(0,0,0,.25);padding:5px;border-radius:16px;border:1px solid rgba(255,255,255,.12);max-width:100%}
 .spot-tab{border:0;background:transparent;color:#B9CFC2;font-weight:600;font-size:.82rem;padding:9px 18px;border-radius:99px;cursor:pointer;transition:background .3s,color .3s;font-family:'Inter'}
 .spot-tab.on{background:rgba(255,255,255,.14);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.15)}
 .spot-panel{display:none;align-items:center;gap:36px}
@@ -363,10 +407,10 @@ def header_html(depth=0):
         for i, c in enumerate(CATS))
     burger = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>'
     return f"""<header><div class="wrap nav">
-<a class="logo" href="{p}index.html" aria-label="{SITE_NAME} home"><span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 64 64" fill="none"><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pick<span>Ireland</span></a>
+<a class="logo" href="/" aria-label="{SITE_NAME} home"><span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 64 64" fill="none"><path d="M22 48V16h13a11 11 0 0 1 0 22h-9" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M33 44l6 6 11-12" stroke="#FFC65C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pick<span>Ireland</span></a>
 <button class="search-btn" aria-label="Search products" onclick="document.body.classList.add('search-open');document.getElementById('siq').focus()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
 <button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))">{burger}</button>
-<nav class="nav-links" aria-label="Categories">{cats_links}<a href="{p}index.html#categories">All categories</a></nav>
+<nav class="nav-links" aria-label="Categories">{cats_links}<a href="/#categories">All categories</a></nav>
 </div></header>"""
 
 def footer_html(depth=0):
@@ -496,13 +540,14 @@ def jsonld_page(page, cat, faqs):
     canonical = f"{DOMAIN}/{cat['category']}/{page['slug']}.html"
     items = []
     for i, p in enumerate(page["products"]):
-        prod = {"@type": "Product", "name": p["name"], "brand": {"@type": "Brand", "name": p["brand"]},
+        prod = {"@type": "Product", "name": p["name"], "description": p["verdict"], "brand": {"@type": "Brand", "name": p["brand"]},
                 "offers": {"@type": "Offer", "price": str(product_price(p)), "priceCurrency": "EUR",
                            "availability": "https://schema.org/InStock", "url": product_url(p)[0]},
-                "aggregateRating": {"@type": "AggregateRating", "ratingValue": str(p["rating"]), "reviewCount": "1", "bestRating": "5"},
-                "review": {"@type": "Review", "reviewBody": p["verdict"],
-                           "author": {"@type": "Organization", "name": SITE_NAME},
-                           "reviewRating": {"@type": "Rating", "ratingValue": str(p["rating"]), "bestRating": "5"}}}
+                }
+        # NOTA: AggregateRating/Review removidos deliberadamente (2026-07-27).
+        # reviewCount="1" nao e agregacao e o Review era assinado pelo proprio site
+        # (self-serving review markup) -> risco de acao manual por spammy structured data.
+        # A nota editorial continua visivel na pagina, so nao vai marcada como schema.
         if product_image(p):
             prod["image"] = product_image(p)
         items.append({"@type": "ListItem", "position": i + 1, "item": prod})
@@ -531,6 +576,8 @@ for fn in sorted(os.listdir(DATA)):
         with open(os.path.join(DATA, fn), encoding="utf-8") as f:
             CATS.append(json.load(f))
 
+CATS_BY_SLUG = {c["category"]: c for c in CATS}
+
 os.makedirs(OUT, exist_ok=True)
 all_pages = []
 SEARCH_INDEX = []
@@ -540,11 +587,13 @@ for cat in CATS:
     cdir = os.path.join(OUT, cat["category"])
     os.makedirs(cdir, exist_ok=True)
     for page in cat["pages"]:
-        faqs = [cat["faqs"][i] for i in page["faq_idx"]]
+        # FAQs: prefere as unicas da pagina; cai pro pool da categoria se ainda nao escritas
+        faqs = page.get("faqs") or [cat["faqs"][i] for i in page["faq_idx"]]
         canonical = f"{DOMAIN}/{cat['category']}/{page['slug']}.html"
         toc = "".join(f'<li><a href="#{p["id"]}">{esc(p["name"])}</a> <i>— {esc(p["badge"])}</i></li>' for p in page["products"])
         cards = "".join(product_card(p, i + 1, cat["category"]) for i, p in enumerate(page["products"]))
-        guide = "".join(f"<h3>{esc(h)}</h3><p>{esc(t)}</p>" for h, t in cat["guide"])
+        # Buying guide: prefere o unico da pagina; cai pro da categoria se ainda nao escrito
+        guide = "".join(f"<h3>{esc(h)}</h3><p>{esc(t)}</p>" for h, t in (page.get("guide") or cat["guide"]))
         others = [pg for pg in cat["pages"] if pg["slug"] != page["slug"]]
         related = "".join(f'<a href="{pg["slug"]}.html">{esc(pg["h1"])} {ARROW}</a>' for pg in others)
         body = f"""
@@ -562,6 +611,7 @@ for cat in CATS:
 <h2>Frequently asked questions</h2>
 {faq_html(faqs)}
 <div class="related"><h2>More {esc(cat['name'].lower())} guides</h2>{related}</div>
+{cross_links_html(cat['category'], CATS_BY_SLUG)}
 <p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Prices are indicative, in EUR, and fluctuate — always confirm the live price. We select products based on specifications, owner feedback and value analysis.</p>
 """
         out = page_shell(page["title"], page["desc"], canonical, body, depth=1, jsonld=jsonld_page(page, cat, faqs))
@@ -599,7 +649,8 @@ n_guides = sum(len(c["pages"]) for c in CATS)
 n_prods = sum(len(p["products"]) for c in CATS for p in c["pages"])
 
 # spotlight featured products
-spot_keys=[('dehumidifiers','Damp season essential'),('air-fryers','Kitchen favourite'),('coffee-machines','High-ticket pick')]
+_spot_labels={'dehumidifiers':'Damp season essential','air-fryers':'Kitchen favourite','coffee-machines':'High-ticket pick','air-purifiers':'Allergy season pick','electric-heaters':'Winter essential','electric-bikes':'Commuter favourite','electric-scooters':'City mobility','home-office':'WFH upgrade','robot-vacuums':'Hands-free cleaning','robot-lawn-mowers':'Garden on autopilot'}
+spot_keys=[(c['category'], _spot_labels.get(c['category'],'Editor pick')) for c in CATS]
 spot_tabs=""; spot_panels=""
 for si,(sk,slabel) in enumerate(spot_keys):
     scat=next(c for c in CATS if c['category']==sk)
@@ -749,7 +800,7 @@ document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a,.spot'
 var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
 var spot=document.querySelector('.spot');
 if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
-function bars(p){p.querySelectorAll('.bar i').forEach(function(b){b.style.width='0%';requestAnimationFrame(function(){requestAnimationFrame(function(){b.style.width=b.dataset.w+'%'})})})}
+function bars(p){p.querySelectorAll('.bar i').forEach(function(b){b.style.transition='none';b.style.width='0%';void b.offsetWidth;b.style.transition='';b.style.width=b.dataset.w+'%'})}
 tabs.forEach(function(t){t.addEventListener('click',function(){
 tabs.forEach(function(x){x.classList.remove('on')});t.classList.add('on');
 panels.forEach(function(p){p.classList.remove('on')});
