@@ -91,7 +91,7 @@
       "€1,000 territory",
       "Check 25 km/h limiter for road use"
      ],
-     "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
+     "verdict": "The Xiaomi Mi Electric Scooter 4 Ultra is the flagship here, with a 940W peak motor and up to 70km of claimed range well ahead of everything else on this page. The 10-inch self-sealing tyres are a genuine advantage on Irish roads littered with potholes, and buying into Xiaomi means easy access to spare parts and accessories down the line. None of that comes cheap — at over €1,000 it's by far the most expensive scooter here — and because Irish law caps road-legal speed at 25km/h, confirm the limiter is set correctly before riding on public roads. Best for riders who want flagship build quality and range and are prepared to pay for it; overkill for short commutes."
     },
     {
      "id": "esc-002",
@@ -116,7 +116,7 @@
       "Must be speed-limited for Irish roads",
       "Heavy to carry"
      ],
-     "verdict": "The range monster under €520 — limit it to 25 km/h for the road and it's a commuting tank."
+     "verdict": "With a 48V 15.6Ah battery good for up to 55km and enough power for strong hill climbing, the KuKirin G2 offers range that rivals scooters costing twice as much, all for €509. Built-in turn signals and an LCD display are extras you'd normally expect only on pricier models, and the 4.5★ rating suggests owners find it reliable in daily use. Two things to plan around: like the Xiaomi above, it needs to be limited to 25km/h to be road-legal in Ireland, and that big battery adds weight, so it's not the scooter you want to carry up several flights of stairs daily. A strong fit for anyone doing longer commutes or hilly routes who doesn't mind the extra bulk."
     },
     {
      "id": "esc-003",
@@ -141,7 +141,7 @@
       "Unbranded support",
       "Heavy"
      ],
-     "verdict": "Maximum battery per euro: a long-range commuter for under €500."
+     "verdict": "This unbranded 11-inch Folding Electric Scooter packs the largest battery on this page for the money — 48V 18Ah, good for a claimed 50–55km — undercutting the KuKirin above on price while matching its range. The larger 11-inch tyres also smooth out potholes better than the smaller wheels found on cheaper scooters, and it still folds down for storage. The absence of a recognisable brand name is the main risk here — support and spare parts aren't guaranteed the way they are with Xiaomi or KuKirin — and the big battery makes it one of the heavier folding scooters in this comparison. Worth considering if maximum range per euro matters more to you than brand reassurance."
     },
     {
      "id": "esc-004",
@@ -166,7 +166,7 @@
       "Real range ~20 km",
       "Build is budget-grade"
      ],
-     "verdict": "The budget folding commuter: station-to-office legs and apartment storage friendly."
+     "verdict": "The iScooter i8 trades range and power for portability, and at €330 with a 350W motor it's positioned as the budget folding option for shorter trips. It folds quickly, which matters for anyone combining it with a bus or train commute, and the companion app lets you switch between speed modes rather than being stuck with one setting. Owners note that real-world range sits closer to 20km rather than the 50-plus kilometres the pricier scooters above claim, and the build quality feels noticeably lighter-duty than the KuKirin or the 11-inch model. A sensible choice for teens or adults doing short station-to-office hops where folding and price matter more than long-distance range."
     },
     {
      "id": "esc-005",
@@ -191,7 +191,55 @@
       "Solid tyres ride firm",
       "Generic brand"
      ],
-     "verdict": "The legality-first pick: 25 km/h from the factory, no settings to worry about."
+     "verdict": "Unlike every other scooter on this page, the 8.5-inch Adult Electric Scooter ships capped at 25km/h out of the box, so there's no limiter to configure before it's legal to ride on Irish roads — a genuine time-saver for anyone new to e-scooters. Solid, puncture-free tyres mean no risk of flats, and the claimed 30km range is reasonable for a scooter at €300. The trade-off for puncture-proof tyres is a firmer ride that transmits more road vibration than the air-filled tyres on the pricier models, and like the 11-inch scooter above, it comes from a generic rather than established brand. Best for first-time buyers who want a legal, no-fuss scooter without dealing with settings menus."
+    }
+   ],
+   "guide": [
+    [
+     "What 'road-legal' actually means here",
+     "Road-legal in Ireland is a specific legal category, not a marketing phrase. Under S.I. 199 of 2024, a compliant e-scooter is a Powered Personal Transporter with a maximum continuous motor output of 400 W, a maximum design speed of 20 km/h, a maximum weight of 25 kg including the battery, and wheels no smaller than 200 mm. It needs a manufacturer's plate stating power, weight and speed, plus a declaration of conformity handed over at purchase. A lot of listings on general marketplaces advertise 'up to 25 km/h' or higher top speeds copied from UK or EU spec sheets — that's a different market's limit, not Ireland's. Before buying, check the seller states Irish S.I. 199 compliance explicitly, not just CE marking, which covers manufacturing safety rather than the speed and power caps that make a scooter legal to actually ride on an Irish road."
+    ],
+    [
+     "Where you're actually allowed to ride",
+     "A compliant e-scooter can use cycle lanes, bus lanes, and local, regional and national roads, and you must keep to the left same as any other road user. Footpaths, pedestrianised streets and motorways are off-limits, and Gardaí have the power to stop and seize a scooter that's ridden somewhere it shouldn't be or doesn't meet the technical spec. One person only, no seat, no passengers and no goods — the regulations were written to stop e-scooters being used like a moped, so carrying a child to school or a delivery bag on the deck is an offence, not just bad practice. On narrow country roads or busy Dublin quays, the same courtesy rules that apply to cyclists apply to you: signal, use lights after dark, and expect drivers to give you the one-metre passing space now required in 50 km/h zones."
+    ],
+    [
+     "Matching motor power to Irish hills",
+     "The 20 km/h top speed is fixed by law regardless of motor size, so a bigger motor doesn't buy you a faster ride — it buys you a ride that still hits 20 km/h going up a hill instead of slowing to walking pace. Cork's city centre streets and Dublin's southside routes through Rathmines or Ranelagh have real gradients, and a scooter with a modest continuous rating will bog down well before the legal cap. Manufacturer figures for hill-climb angle are usually quoted for a rider around 75 kg; add your own weight and any backpack, and expect a noticeably worse climb than the spec sheet suggests. If your commute includes even one sustained incline, favour a model with a higher continuous power rating within the 400 W legal ceiling — the difference shows up as consistent speed on the way home, not as extra legal speed."
+    ],
+    [
+     "Weatherproofing for an Irish commute",
+     "Ireland gets rain on the majority of days somewhere in the country, and an e-scooter's electronics sit low to the ground, right where road spray, puddles and gutter water collect. Look for an IP54 rating or higher — it covers dust and splashing water from any direction, which matters more here than a headline waterproof claim that was tested in a lab, not on a wet Irish road at rush hour. Cobbled and setted surfaces in older city centres, from Galway's Latin Quarter to parts of Kilkenny, add vibration on top of the wet, so pair a good IP rating with pneumatic tyres that can absorb the surface rather than solid tyres that transmit every bump straight into the deck and the electronics mounted under it. A quick wipe-down after a wet ride and keeping the charging port dry extends the electronics' working life more than any single spec on the box."
+    ],
+    [
+     "What changes from August/September 2026",
+     "The rules aren't frozen. The Government has agreed proposals to make helmets and hi-vis mandatory for all e-scooter users from August 2026, and separate legislation expected later in the year will reclassify e-scooters as mechanically propelled vehicles, bringing in licensing and registration and banning the sale of scooters to under-18s. None of this is in force yet as of writing, and an outright ban for younger riders has been left on the table rather than ruled out. If you're buying now, it doesn't change what's legal to ride today, but it's worth choosing a retailer that's likely to support Irish compliance updates rather than a one-off marketplace listing that may not track regulatory changes at all. Retailers who already state Irish S.I. 199 compliance on the listing are the ones most likely to flag these changes when they land, rather than leaving buyers to find out from a Garda checkpoint."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Is the legal speed limit for e-scooters in Ireland really 20 km/h?",
+     "a": "Yes. Despite some listings advertising 25 km/h, Irish law under S.I. 199 of 2024 sets the maximum design speed at 20 km/h for a compliant e-scooter, alongside a 400 W continuous power cap, 25 kg maximum weight and 200 mm minimum wheel size. Exceeding the speed limit is a specific €50 fixed charge offence, separate from the general offence of exceeding the maximum design speed the scooter is built to. A scooter capable of more than 20 km/h isn't illegal to own, but riding it above that speed on a public road is."
+    },
+    {
+     "q": "What happens if Gardaí stop me on a non-compliant e-scooter?",
+     "a": "A scooter that doesn't meet the technical requirements — too powerful, too heavy, no lights or brakes, missing the manufacturer's plate — remains illegal to use in a public place regardless of how it was sold. Gardaí can seize it, and riding it can result in prosecution rather than just a fixed charge notice. Compliant scooters ridden badly still face €50 fixed charge fines for things like footpath riding, ignoring traffic lights or exceeding the speed limit, while riding under the influence of drink or drugs is a court matter with fines up to €2,000."
+    },
+    {
+     "q": "Do I need a licence, insurance or tax for an e-scooter in Ireland?",
+     "a": "No, not under the current rules. A compliant e-scooter needs no driving licence, no motor tax, no registration plate and no compulsory insurance. You do need to be 16 or over, and Gardaí can confiscate a scooter ridden by someone under that age. This is one of the areas due to change: legislation expected later in 2026 would reclassify e-scooters as mechanically propelled vehicles and introduce licensing and registration, so treat 'no paperwork needed' as accurate for today rather than a permanent feature."
+    },
+    {
+     "q": "Can I ride an e-scooter on the canal cycle path or a national road?",
+     "a": "Yes to both. Compliant e-scooters are allowed on cycle lanes, bus lanes, and local, regional and national roads, which covers most commuting routes including canal-side cycle paths in Dublin and inter-town national roads elsewhere. What's off-limits is footpaths, pedestrianised streets and motorways — there's no exception for quiet footpaths or short pedestrianised shortcuts, and Gardaí treat that as a specific offence rather than a grey area. This makes e-scooters genuinely useful for commuting across most of the country, not just within city centres."
+    },
+    {
+     "q": "Are helmets going to be mandatory for e-scooters in Ireland?",
+     "a": "Helmets and hi-vis clothing are currently recommended, not required by law. That's changing: the Government agreed proposals in July 2026 to make both mandatory for all e-scooter use from August 2026, following a rise in paediatric head injury admissions linked to e-scooter accidents. Until that takes effect, wearing a helmet is a safety choice rather than a legal one — but buying a helmet now avoids a scramble later. — worth keeping an eye on if you ride at night or in poor weather, since that's when the safety case for both is strongest anyway."
+    },
+    {
+     "q": "Is it true under-18s might be banned from riding e-scooters?",
+     "a": "It's proposed, not yet law. In July 2026 the Government agreed to extend age restrictions and work toward legislation, later in the year, that would ban selling e-scooters to under-18s and require licensing and registration; officials have also said an outright ban remains on the table. As it stands, the legal minimum age to ride is still 16, but anyone buying a scooter for a teenager should expect the rules around that to tighten before the scooter wears out."
     }
    ]
   },
@@ -332,6 +380,54 @@
      ],
      "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
     }
+   ],
+   "guide": [
+    [
+     "The corners budget scooters cut",
+     "Under roughly €350, the savings usually come from three places: solid tyres instead of pneumatic, a single mechanical brake instead of dual disc-and-regenerative, and no stated water-resistance rating at all. Solid tyres don't puncture, but they transmit every road imperfection straight into your wrists and slip earlier on wet paint markings, drain covers and cobbles than an air-filled tyre would. A single brake roughly doubles stopping distance in the wet compared with dual braking, which matters on Irish city streets where a stopped bus or a pedestrian stepping off a kerb is a daily event, not a rare one. None of this makes a budget scooter unsafe to own — it makes it a different trade-off, and worth knowing before you compare a €300 price tag against a €500 one on spec alone."
+    ],
+    [
+     "The fine risk with non-compliant imports",
+     "Some of the cheapest listings on general marketplaces are sourced for markets with different rules — no manufacturer's plate stating Irish-legal power, weight and speed, no declaration of conformity, sometimes a design speed well above 20 km/h with no way to confirm it's been limited for Ireland. Riding a scooter that exceeds the legal spec is a €50 fixed charge offence on its own, separate from any speed offence, and a non-compliant machine can be seized outright rather than just ticketed. Before buying under €500, check the listing explicitly states compliance with S.I. 199 of 2024 or names the Irish weight, power and speed limits — a listing that only says 'CE marked' or quotes a UK top speed hasn't told you what you need to know. When in doubt, ask the seller directly for the technical file rather than relying on product photos alone."
+    ],
+    [
+     "Real cost of ownership under €500",
+     "Running costs are genuinely low regardless of price bracket: at Ireland's roughly €0.38 per kWh domestic rate, a typical 300–400 Wh battery costs somewhere around 12–15 cents for a full charge, so even daily commuting adds up to a few euro a month. The bigger cost difference between a €300 and a €500 scooter shows up later — replacement brake pads, a second-hand solid tyre that can't be patched when it splits, or a battery that degrades faster because the management system inside is a cheaper component. Budget for a spare inner tube or tyre if you're buying a pneumatic model, since punctures on Irish roads are common and budget scooters rarely include one. Factor in a cheap multitool and a bike pump too — budget scooters rarely ship with either, and both make roadside fixes far easier on an Irish commute."
+    ],
+    [
+     "Where the €300–€500 bracket earns its price",
+     "Inside this range, the meaningful upgrades are usually dual braking, pneumatic tyres and an actual IP rating rather than a silent spec sheet — three things that affect safety and reliability more than a slightly bigger battery does. A model just under €500 with an 11-inch pneumatic tyre and a stated IP54 rating will handle a wet Dublin winter noticeably better than a similarly priced scooter with 8.5-inch solid tyres and no water rating at all, even if the second one claims a longer range. Compare scooters on brakes and tyres first, battery size second — range is the easiest spec to inflate and the hardest one to verify. If you can only afford one upgrade over the absolute cheapest option, make it the tyres and brakes rather than a bigger battery — you'll notice the difference on your very first wet ride home."
+    ],
+    [
+     "Buying secondhand or ex-display",
+     "Secondhand e-scooters are common on Irish classifieds, and the same compliance checks apply as buying new: ask to see the manufacturer's plate on the deck stating power, weight and design speed, and don't assume a private seller's claim of '20 km/h legal' is accurate without it. Check the battery holds charge under load rather than just powering on, since a battery that shows full charge but drains in ten minutes is a common secondhand fault. Ex-display or open-box units from Irish retailers usually still come with the declaration of conformity and remaining warranty, which private listings typically don't — worth the price difference if you're buying your first scooter and don't yet know what a healthy one feels like. Meeting in daylight to test-ride briefly before paying, and asking how the previous owner charged it, tells you more about remaining battery health than any listing description will."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Can I legally modify a scooter to unlock a higher speed?",
+     "a": "No. Modifying an e-scooter in a way that lets it exceed its declared design speed, weight or power output is a specific €50 fixed charge offence in its own right, on top of any speeding offence you'd rack up actually riding it faster. Many budget scooters ship with an app or a physical switch that unlocks a 'sport' or export mode above 20 km/h — using that mode on a public road in Ireland is illegal even if the same setting is legal in another country the scooter was designed for."
+    },
+    {
+     "q": "Is it legal to buy a scooter from the UK that isn't Irish-spec?",
+     "a": "You can buy it, but you can't legally ride it here unless it meets Irish requirements — 400 W continuous power, 20 km/h design speed, 25 kg maximum weight, 200 mm wheels, plus lights, brakes, a bell and reflectors. UK e-scooter rules differ and a scooter bought there may exceed Ireland's power or speed caps even if it was fully legal for a UK rental scheme. Check the manufacturer's plate and declaration of conformity match Irish limits before you ever take it on a public road here."
+    },
+    {
+     "q": "What fines actually apply to budget e-scooter riders?",
+     "a": "Fixed charge notices are €50 flat, covering things like exceeding the speed limit, riding on a footpath, using a mobile phone while riding, failing to fit required lights or a bell, or carrying a passenger or goods. These apply regardless of what the scooter cost. Riding under the influence of alcohol or drugs is treated separately and more seriously — it's a court matter that can carry a fine of up to €2,000, not a fixed charge."
+    },
+    {
+     "q": "Is a budget scooter safe on wet cobblestones?",
+     "a": "It depends more on tyres and brakes than on price alone. Solid tyres, common on scooters under roughly €350, grip noticeably worse on wet setts and painted road markings than pneumatic tyres, and a single brake takes longer to stop on a slick, uneven surface. If your route includes cobbled streets — common in older Irish town centres — prioritise a budget model with pneumatic tyres and dual braking over one with a bigger battery but weaker stopping power."
+    },
+    {
+     "q": "How long do budget e-scooter batteries actually last?",
+     "a": "Most budget lithium-ion batteries hold up reasonably well for around 300–500 full charge cycles before range noticeably drops, which for a daily commuter works out to roughly one to two years before you'll notice a real difference. Charging habits matter more than price: avoid running the battery flat regularly and avoid leaving it on charge for long periods after it hits 100%, since heat and full-charge storage are what shorten lithium battery life fastest, on any scooter regardless of what it cost."
+    },
+    {
+     "q": "Is third-party insurance available for e-scooters even though it's not required?",
+     "a": "Compulsory motor insurance doesn't apply to compliant e-scooters, but some Irish home insurance policies and a small number of standalone providers offer optional personal or third-party liability cover for e-scooter use. It's not required to ride legally, but if you'd be financially exposed by causing an accident that injures someone else or damages property, it's worth asking your existing home insurer whether e-scooter liability can be added — cover and pricing vary a lot between providers."
+    }
    ]
   },
   {
@@ -470,6 +566,54 @@
       "Build is budget-grade"
      ],
      "verdict": "The budget folding commuter: station-to-office legs and apartment storage friendly."
+    }
+   ],
+   "guide": [
+    [
+     "Claimed range vs Irish real-world range",
+     "Manufacturer range figures come from controlled test conditions: a light rider, flat ground, a steady low speed and a fully charged, brand-new battery. None of that describes a typical Irish commute. Between hills, wind off the Atlantic or the Irish Sea, a rider closer to 80–90 kg, stop-start city traffic and a battery that's a year into its life, real-world range typically lands at 60–70% of the claimed figure. A scooter advertised at 60 km should realistically be planned around 36–42 km. For a 15 km each-way commute, that means the 60 km claim is close to the minimum you'd want, not a comfortable margin — buy toward the higher end of claimed range if your round trip is anything but short and flat. Treat any listing that doesn't mention rider weight or terrain in its range claim with a healthy dose of caution."
+    ],
+    [
+     "Battery size, explained without the marketing",
+     "Range comes down to watt-hours (Wh), which is voltage multiplied by amp-hours — a 48V battery rated at 15Ah stores roughly 720 Wh, noticeably more than a 36V 10Ah pack at around 360 Wh, even though both numbers look similarly modest on a spec sheet. Bigger batteries add weight, which is the trade-off for range: a long-range scooter is rarely the lightest one to carry upstairs. When comparing listings, convert to Wh rather than trusting the advertised km figure alone, since two scooters claiming '60 km range' can have genuinely different battery capacities depending on how optimistically each brand tested that number. A quick way to sanity-check a listing: divide the claimed range by the battery's Wh figure — scooters clustering around a similar efficiency per Wh are being honest, while outliers claiming unusually high range per Wh are worth treating with scepticism."
+    ],
+    [
+     "Hills eat range faster than distance does",
+     "A flat 10 km ride and a 10 km ride with sustained climbs — think Cork's northside hills or Dublin routes through Rathfarnham or Killiney — can draw noticeably different amounts of battery, even though the legal top speed is capped at 20 km/h either way. Climbing draws far more current than cruising on the flat, so a commute with real elevation change should be planned around the lower end of the realistic range estimate, not the claimed figure. This is also where continuous motor power (up to the legal 400 W limit) matters for range as much as for speed: a motor working near its limit on every hill drains the battery faster than one with headroom to spare. If your commute has one or two steep sections rather than constant gradient, that's usually enough on its own to push real range toward the lower end of what you'd otherwise expect on mostly flat ground."
+    ],
+    [
+     "Comfort features that matter over 10km+",
+     "Longer rides change what's worth paying for. Front suspension or a suspension-tuned deck reduces fatigue on longer commutes and on Ireland's less-than-perfect road surfaces, and a wider deck lets you shift foot position on a 20-30 minute ride the way you can't on a narrow board built for short hops. Larger-diameter tyres, 10 inches or more, roll over drain covers, potholes and tram tracks with less jolt than smaller wheels, which matters more the longer you're standing on the deck. None of these features change the legal 20 km/h cap, but they change how tired you are after riding it every day. None of these upgrades are visible in a product photo, so check the spec sheet for suspension type and tyre diameter specifically rather than assuming a premium-looking scooter includes them as standard."
+    ],
+    [
+     "What it costs to charge a bigger battery",
+     "At Ireland's roughly €0.38 per kWh domestic rate, a large 700 Wh battery costs around 25-27 cents for a full charge from empty, compared to roughly 13-15 cents for a smaller 350-400 Wh pack — still a rounding error next to a monthly Leap card or fuel spend. Charging a bigger battery from a standard 3-pin socket typically takes longer, often 8-10 hours for a full-capacity pack, so long-range scooters suit overnight charging routines better than a quick top-up between short trips. The extra range costs almost nothing in electricity; the real cost is the higher purchase price and the extra weight you're carrying. Even a heavy daily user charging a large battery every night rarely spends more than €8-10 a month on electricity — a fraction of a single tank of petrol or a weekly bus pass."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "How much claimed range do I actually need for a 15 km commute?",
+     "a": "Plan around 60-70% of the claimed figure holding up in real conditions, so for a 15 km each-way (30 km round trip) commute, look for a claimed range of at least 45-50 km, and closer to 60 km if your route includes hills or you're a heavier rider. That leaves a buffer for cold mornings, headwinds and a battery that's a year or two into its life rather than fresh out of the box, and avoids the stress of watching the battery indicator on the ride home."
+    },
+    {
+     "q": "Does cold Irish winter weather reduce e-scooter range?",
+     "a": "Yes. Lithium-ion batteries lose a meaningful amount of usable capacity in cold temperatures, and Irish winter mornings around freezing can noticeably shorten range compared with the same battery in summer. It's temporary — capacity returns once the battery warms up during use or is stored somewhere above freezing — but if you're commuting on frosty mornings, expect a bit less range than your summer rides and don't read a colder-weather trip as a sign the battery is failing."
+    },
+    {
+     "q": "Is a bigger battery worth the extra weight for portability?",
+     "a": "It depends on your route. If you're riding door to door without carrying the scooter, extra weight barely matters and the range is worth it. If you're lifting it up stairs, over a step onto a bus platform, or into a car boot daily, an extra 3-5 kg from a bigger battery is noticeable every single day, while the range benefit only matters on your longest rides. Long-range and lightweight are genuinely different priorities — decide which one your actual commute needs more."
+    },
+    {
+     "q": "Do long-range scooters cost more to insure in Ireland?",
+     "a": "Compliant e-scooters don't require compulsory insurance regardless of battery size or range, so there's no mandatory cost difference. If you choose to add optional third-party liability cover through a home insurance policy, pricing is generally based on the rider and use case rather than the specific battery capacity, so a long-range model shouldn't cost meaningfully more to cover than a shorter-range one. If you're shopping around, ask insurers directly rather than assuming, since e-scooter add-on cover is still a relatively new product in the Irish market and policies vary in what they include."
+    },
+    {
+     "q": "Can a powerful long-range scooter go faster than 20 km/h?",
+     "a": "The motor might be capable of it, but the design speed on a compliant Irish e-scooter is legally capped at 20 km/h regardless of battery size or motor power. A bigger battery and stronger motor improve how well the scooter holds that speed on hills and under load, not how fast it's allowed to go. Riding above 20 km/h on a public road is a fixed charge offence whether the extra speed comes from a big battery or a small one."
+    },
+    {
+     "q": "How often should I recharge a long-range battery to protect its lifespan?",
+     "a": "Lithium batteries generally last longest when kept roughly between 20% and 80% charge for daily use, rather than routinely running to empty or sitting at 100% for long periods. With a bigger battery you have more flexibility to top up little and often without needing a full overnight charge every time, which can extend the number of years before you notice real range loss compared with regularly draining a smaller pack to zero."
     }
    ]
   },
@@ -610,6 +754,54 @@
      ],
      "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
     }
+   ],
+   "guide": [
+    [
+     "Why light matters in Dublin flats and terraced houses",
+     "A lot of Irish housing simply doesn't have anywhere to leave a scooter outside — no shed, no hallway big enough, an apartment block with stairs and no lift, or a terraced house where the only storage is behind the front door. That makes carrying weight a daily, not occasional, consideration: the difference between a 13 kg scooter and a 19 kg one is the difference between lifting it one-handed up a flight of stairs and needing both arms and a rest halfway up. Manufacturer weight figures are usually accurate since they're a simple, verifiable spec, unlike range claims — but check whether the quoted weight includes the battery, since some listings quote the lighter unfolded frame weight separately. Even a few extra kilograms compounds quickly if you're also carrying groceries, a work bag or a child's schoolbag on the same trip up the stairs."
+    ],
+    [
+     "The public transport reality",
+     "It's worth being clear about this because it changes what 'lightweight' is actually for: e-scooters have been banned from all National Transport Authority services since late 2024, covering Dublin Bus, Bus Éireann, Go-Ahead Ireland, Iarnród Éireann, Luas and TFI Local Link, because of the fire risk from lithium-ion batteries in an enclosed vehicle. So a folding scooter won't get you onto the DART or Luas the way a folding bike sometimes can — the lightness is for carrying it up your own stairs, into a car boot, or through an office lobby, not for boarding a train. If your commute plan depends on scooter-then-train, that plan needs a rethink; if it's scooter-to-door with some stair-carrying involved, lightweight genuinely earns its keep. Some riders assume the ban only applies to larger scooters or peak-hour services, but it's a flat, year-round rule with no size exception written into it anywhere."
+    ],
+    [
+     "What you give up for lightness",
+     "Lighter scooters generally mean smaller wheels, a smaller battery and a lighter frame, and each of those is a trade-off. Smaller wheels, often 7-8.5 inches, catch on potholes and cobbled surfaces more readily than 10-11 inch wheels, since a smaller wheel has to climb a proportionally bigger obstacle relative to its own size. A smaller battery means less range, so the same 'lightweight commuter' badge that makes a scooter easy to carry usually also means charging more often. None of this makes a lightweight scooter a worse choice — it's the right trade if your route is short and mostly smooth, and the wrong one if it's long or rough. Weigh this against your actual route before deciding: a short, flat, well-surfaced commute barely notices the difference, while a longer or rougher one will make the range and wheel-size trade-offs obvious within the first week."
+    ],
+    [
+     "Fold mechanism quality",
+     "Not all folds are equal. A single-lever fold that locks with an audible click is faster and safer to trust daily than a multi-step mechanism with a separate pin or clip that's easy to leave half-engaged. Check owner reports for mentions of the fold loosening over months of daily use — this is one of the most common wear points on budget folding scooters, since the hinge takes real mechanical stress every single time you fold and unfold it. A scooter that folds well but is awkward to carry once folded, with no shoulder strap or an unbalanced centre of gravity, still isn't a good daily-carry choice even at a low weight. It's worth folding and unfolding a candidate scooter several times in the shop before buying, since a stiff or notchy mechanism when new rarely improves with age."
+    ],
+    [
+     "Weatherproofing still matters even if you avoid rain",
+     "Folding a scooter away doesn't reduce how much rain it rides through on the way there — an IP54 rating or better still matters exactly as much on a lightweight model as a heavy one, and lightweight scooters don't get a pass on this just because they're compact. If anything, budget lightweight models sometimes skip a stated water rating to save cost and weight, so check the spec explicitly rather than assuming a smaller scooter is inherently more weather-sealed. Wipe the scooter down before folding it against clothing or bedding indoors, since a wet fold point left closed is exactly the kind of damp, enclosed space where corrosion starts. A scooter left folded in a damp hallway for weeks between rides benefits from an occasional check of the hinge and charging port for any trapped moisture or corrosion starting to form."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Can I bring a folded e-scooter on the Luas or DART?",
+     "a": "No. E-scooters, folded or not, have been banned from all National Transport Authority services since late 2024 — this covers Dublin Bus, Bus Éireann, Go-Ahead Ireland, Iarnród Éireann, Luas and TFI Local Link — because of the fire risk lithium-ion batteries pose in an enclosed passenger vehicle. This is a blanket ban regardless of the scooter's size, weight or whether it's switched off, so a lightweight folding model doesn't get an exception. Plan your route as scooter-to-door, not scooter-plus-train."
+    },
+    {
+     "q": "What's a realistic weight for carrying a scooter up stairs daily?",
+     "a": "Most people can comfortably carry 12-14 kg up a flight of stairs one-handed without much strain; above 17-18 kg it typically needs both hands and becomes a two-trip job if you're also carrying a bag. If your daily route includes stairs with no lift, prioritise scooters under 15 kg specifically, even if it means accepting a shorter claimed range — you'll feel the weight difference within the first week far more than you'll feel a few kilometres of missing range."
+    },
+    {
+     "q": "Do lightweight scooters wear out faster than heavier ones?",
+     "a": "Not inherently, but the fold hinge on any lightweight folding scooter takes more mechanical stress relative to the frame's overall size than on a bulkier, non-folding model, simply because it's folded and unfolded daily. Owner reports across budget folding models commonly mention the fold mechanism loosening before other components fail. A well-made hinge with a firm locking click tends to hold up better over daily use than a cheaper pin-and-clip design, regardless of the scooter's overall weight."
+    },
+    {
+     "q": "Are small wheels a problem on Dublin's cobbled streets?",
+     "a": "Yes, more than on smooth tarmac. Smaller wheels, common on lightweight folding scooters, have to ride over the same size cobble or setted stone as a larger wheel would, but the obstacle is proportionally bigger relative to a small wheel's diameter, producing a rougher, less stable ride. If your regular route crosses cobbled or setted areas — common around older Irish town and city centres — a lightweight scooter with at least 8.5 inch wheels rides noticeably better than one with 7 inch wheels."
+    },
+    {
+     "q": "Is a folding scooter road-legal in the same way as a full-size one?",
+     "a": "Yes, the legal requirements don't change based on size or whether a scooter folds. It still needs to meet the same 400 W continuous power cap, 20 km/h design speed, 25 kg maximum weight and 200 mm minimum wheel diameter, along with lights, brakes, a bell and reflectors, to be legal on Irish roads. Being small and light doesn't exempt a scooter from any part of the technical spec — check the manufacturer's plate the same way you would on a bigger model."
+    },
+    {
+     "q": "Is it safe to store an e-scooter battery indoors?",
+     "a": "Generally yes, if you follow basic lithium-ion battery precautions: charge on a hard, non-flammable surface, don't leave it charging unattended overnight in a small bedroom, avoid charging immediately after riding in the rain until it's dried off, and don't store it somewhere it could be damaged or punctured. This matters more for apartment dwellers storing a scooter in a hallway or small flat than for someone with a shed, simply because there's less separation between the battery and where people are sleeping."
+    }
    ]
   },
   {
@@ -748,6 +940,54 @@
       "Build is budget-grade"
      ],
      "verdict": "The budget folding commuter: station-to-office legs and apartment storage friendly."
+    }
+   ],
+   "guide": [
+    [
+     "Why the weight rating matters more than spec sheets suggest",
+     "Most e-scooters on the Irish market are rated for a maximum rider weight around 100-120 kg, and that figure is usually tested under close to ideal conditions — flat ground, moderate speed, a fresh battery. Riding consistently near or above the stated limit puts extra strain on the motor, brakes and frame that shows up as faster wear rather than sudden failure: brake pads wearing through sooner, motor components running hotter, and welds or folding joints under more repeated stress than the scooter was designed around. A model rated to 120 kg isn't just 'safe' at 119 kg and 'unsafe' at 121 — treat the stated maximum as a ceiling to stay comfortably under, not a target to ride right up to, especially on Ireland's hillier routes. Manufacturers rarely publish how they define that ceiling, so treat two similarly-rated scooters as potentially quite different in real-world durability."
+    ],
+    [
+     "Motor power vs the legal speed cap",
+     "The legal top speed for a compliant e-scooter is 20 km/h regardless of rider weight, so a stronger motor doesn't let a heavier rider go faster — it lets them actually reach and hold that legal 20 km/h on an incline instead of the scooter bogging down under the extra load. A motor working near its power ceiling with a heavier rider on a hill draws more current and generates more heat than the same motor with a lighter rider, so heavier riders benefit from choosing a model with continuous power toward the upper end of the legal 400 W limit, even though the top speed itself never changes. It's also why two scooters advertising the same 20 km/h top speed can feel very different in practice — one holds that speed confidently on an incline with a heavier rider aboard, the other doesn't."
+    ],
+    [
+     "Range takes the biggest hit under load",
+     "Manufacturer range figures are typically tested with a rider around 75 kg on flat ground. A heavier rider on Cork's or Dublin's hillier routes should expect a bigger drop from the claimed figure than a lighter rider would see — often closer to 50-55% of the claimed range rather than the 60-70% that applies to lighter commuters on flatter routes, because both extra weight and elevation change draw down the battery independently. Practically, that means a heavier rider planning a 10 km round trip with any hills should look at scooters claiming closer to 40-45 km rather than assuming the same 25-30 km claim that would suit a lighter, flatter commute. Charging little and often rather than always running the battery down to empty also helps offset some of that extra drain over the life of the battery."
+    ],
+    [
+     "Tyres, suspension and brakes under extra load",
+     "Pneumatic tyres matter even more for heavier riders, since they absorb impact that would otherwise transmit straight to the frame and the rider's joints — but they need to be kept at the tyre's rated pressure, since an underinflated tyre under extra weight wears unevenly and is more prone to pinch punctures on potholed Irish roads. Dual braking, ideally disc plus electronic regenerative braking, is close to essential rather than a nice-to-have, since stopping distance increases with rider weight the same way it does in a car. A wider deck also matters more here than it does for a lighter rider, since it affects stability at a stop and when shifting weight while braking. Check the tyre's maximum pressure rating on the sidewall and keep close to it, since a heavier rider on an underinflated tyre is the most common cause of avoidable pinch punctures."
+    ],
+    [
+     "Frame and component durability",
+     "Aluminium alloy frames are lighter but can flex or fatigue faster than steel under sustained heavier loads, particularly at welds and the folding hinge — a component that a heavier rider stresses every single time they fold and unfold the scooter. Look past the marketing weight-rating number and toward owner reports mentioning use by riders over 90-95 kg specifically, since a manufacturer's stated maximum and the weight at which a scooter actually rides comfortably for months aren't always the same figure. A slightly heavier, steel-reinforced frame is often the better trade for a heavier rider than the lightest model on the shortlist. A frame that creaks or flexes noticeably when you step on at a standstill is worth walking away from regardless of its stated weight rating, since that's rarely a fault that improves with use."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "What load rating should I look for as a rider over 95 kg?",
+     "a": "Look for a stated maximum load of at least 120 kg, ideally 130-150 kg if it's available, rather than buying right at a scooter's 100-110 kg ceiling. Riding consistently near the stated maximum accelerates wear on brakes, motor and frame rather than causing an immediate problem, so the extra headroom matters more the closer your actual weight, including any bag or rain gear, sits to the rated figure. It's also worth checking whether that rating assumes a stationary flat-ground test or includes hill performance, since the two can differ meaningfully in practice."
+    },
+    {
+     "q": "Will heavier riders wear out brakes and tyres faster?",
+     "a": "Yes, noticeably. Stopping distance and braking force both increase with rider weight, so brake pads on a scooter regularly ridden by someone over 95 kg typically need replacing sooner than on the same model ridden by a lighter commuter. Tyres, particularly pneumatic ones, also wear faster and are more prone to pinch punctures if not kept at the correct pressure for the extra load, so it's worth checking tyre pressure more often than the owner's manual suggests for an average rider."
+    },
+    {
+     "q": "Does rider weight affect whether a scooter stays within the legal speed limit?",
+     "a": "No — the 20 km/h design speed cap is a fixed technical limit set for the scooter, not something that varies by rider weight, and a compliant scooter shouldn't exceed it regardless of who's riding it. What weight does affect is how easily the scooter reaches and holds that speed, especially on hills, where a heavier rider on an underpowered model may struggle to reach 20 km/h at all rather than risk exceeding it."
+    },
+    {
+     "q": "Can heavier riders still use lightweight folding scooters?",
+     "a": "Sometimes, but check the load rating specifically rather than assuming a lightweight scooter is automatically less capable — some lightweight models are still rated to 100-120 kg. The bigger issue is usually range and hill performance rather than the frame's load limit, since lightweight scooters typically pair a smaller battery and motor with the lower weight, and both draw down faster under a heavier rider. A heavier rider prioritising portability should check load rating, motor power and range together, not just the headline weight of the scooter itself."
+    },
+    {
+     "q": "How much slower is hill climbing for heavier riders?",
+     "a": "It varies by model, but manufacturer hill-climb figures are typically tested around 75 kg, so a rider 20-25 kg above that should expect a noticeably slower climb and, on steeper Irish gradients, may not maintain the legal 20 km/h cap at all on the steepest sections. This is less about legality — going slower than 20 km/h uphill isn't an offence — and more about whether the ride is comfortable and consistent, which is where a higher continuous motor rating within the legal 400 W limit makes the practical difference."
+    },
+    {
+     "q": "Is there a rider weight where an e-scooter stops making sense compared to an e-bike?",
+     "a": "For riders well above most scooters' load ratings, or whose commute is long and hilly, an e-bike is often the more comfortable option since e-bike motors, frames and braking systems are generally built around a wider weight range and the seated riding position distributes load differently than standing. There's no strict cutoff, but if you're consistently having to choose the most heavy-duty scooter available and still reading cautious owner reports about wear, that's a signal worth taking seriously rather than working around."
     }
    ]
   }

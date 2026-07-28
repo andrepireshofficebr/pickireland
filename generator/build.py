@@ -436,6 +436,8 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="articl
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">
+<link rel="alternate" hreflang="en-ie" href="{canonical}">
+<link rel="alternate" hreflang="x-default" href="{canonical}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:type" content="{og_type}">
@@ -687,11 +689,14 @@ body_home = f"""
 """
 _org = {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": DOMAIN + "/",
         "logo": DOMAIN + "/apple-touch-icon.png", "image": OG_IMAGE,
-        "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules."}
+        "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules.",
+        "areaServed": {"@type": "Country", "name": "Ireland"},
+        "knowsLanguage": "en-IE"}
 if AUTHOR.get("url"):
     _org["sameAs"] = [AUTHOR["url"]]
 _website = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/",
             "description": "Independent product comparison guides for Irish shoppers.",
+            "inLanguage": "en-IE", "areaServed": {"@type": "Country", "name": "Ireland"},
             "publisher": {"@type": "Organization", "name": SITE_NAME}}
 home_jsonld = ("".join('<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
                        for d in (_org, _website)))

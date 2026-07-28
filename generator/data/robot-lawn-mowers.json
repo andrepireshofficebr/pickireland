@@ -67,6 +67,50 @@
     0,
     7
    ],
+   "guide": [
+    [
+     "Start with your garden's shape, not its size",
+     "Two gardens with identical area can need completely different machines. A rectangular 300 m² lawn with one open boundary is an easy job for almost any robot mower. The same 300 m² split by a side passage, a raised bed, a shed and a washing line is a harder problem, because the machine has to navigate narrow gaps and avoid obstacles repeatedly, not just cut a big open rectangle. Before comparing coverage figures, sketch your own garden and count the pinch points: gates, narrow side returns, flower borders that cut across the lawn, trees with surface roots. A mower rated for double your actual area but with poor obstacle handling can still struggle in a fiddly Irish garden, while a lower-capacity model with tighter turning and camera-based obstacle detection may finish the same job faster and with fewer stuck-robot alerts."
+    ],
+    [
+     "Wire-free vs buried perimeter wire: the real decision",
+     "Every robot mower on this list falls into one of two camps: buried perimeter wire, or wire-free navigation using GPS-RTK, cameras, or both. Wire installation takes an afternoon of digging or pinning cable along every boundary, border and island you want protected, and any layout change — a new shed, an extended patio — means redoing sections of wire. Wire-free models skip the cable entirely; you walk the boundary once with a phone app and the mower remembers the route by satellite positioning or visual landmarks. The trade-off is upfront cost, since wire-free hardware still carries a premium, and RTK or camera systems can lose accuracy near tall hedges, close boundary walls or heavy tree cover. For most Irish gardens being set up from scratch in 2026, wire-free is now the sensible default; buried wire still suits very complex multi-zone rural sites where signal reliability is a concern."
+    ],
+    [
+     "Matching capacity to Ireland's nine-month growing season",
+     "Grass in Ireland rarely stops growing outright — Teagasc's own grazing data shows the bulk of growth happens across spring, summer and early autumn, with only a genuine dormant period in mid-winter, and mild years can see soil temperatures creeping up again by late February. That long, low-intensity growing season is why robot mowers suit Irish lawns so well: instead of one demanding weekly cut, the mower runs short, frequent sessions that keep grass short year-round, mulching clippings back into the soil rather than leaving you with a bag to empty. When comparing coverage claims, check whether the manufacturer's figure assumes daily running through the growing months, because a mower rated for 500 m² on paper needs enough scheduled hours to keep up once growth accelerates in May and June."
+    ],
+    [
+     "Slopes, drainage and rain sensors",
+     "Ireland's rainfall is frequent rather than extreme, which matters for two reasons. First, most robot mowers on the market carry an IPX4-or-better rating, meaning they're built to keep working in drizzle and light showers rather than needing to be brought in at the first cloud. Second, a built-in rain sensor is worth prioritising over one without, since it pauses mowing during heavier downpours and resumes once the grass has dried enough to avoid rutting soft lawn or clogging the cutting deck with wet clippings. Slope handling is the other Irish-specific factor: gently sloped and uneven gardens are common outside flat estate plots, and manufacturer slope ratings (typically 20–35%) should be treated as a maximum, not a comfortable operating range, particularly on wet grass where wheel grip drops. On sites with heavier clay soil, several consecutive wet days can soften even a flat lawn enough to affect wheel grip, not just the sloped sections, so tyre or track design is worth a look if your garden drains slowly."
+    ],
+    [
+     "What separates a €500 robot from a €1,500 one",
+     "At the low end, €500 buys reliable cutting for a modest, fairly flat, single-zone garden with basic app scheduling. Moving up the price ladder adds, in rough order: better obstacle avoidance through camera or lidar sensing rather than simple bump detection; multi-zone mapping so the mower can handle a front and back garden or a driveway split without manual intervention; all-wheel drive for sloped or rough rural ground; and RTK-grade positioning accurate to a few centimetres rather than tens of centimetres. At the top of the range, anti-theft features — PIN locks, GPS tracking, loud alarms — become standard, which matters because a robot mower left out on a lawn is a visible, portable target. Decide which of these you actually need for your garden before paying for the full set. Warranty length and Irish-based spare parts availability also tend to improve further up the range, which matters more once a machine is a few seasons old and needs a replacement blade disc or wheel."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Can one robot mower cover a front and back garden separately?",
+     "a": "Yes, provided the model supports multi-zone mapping, which most mid-range and premium wire-free mowers now do. During setup you map each area separately — front garden, back garden, side strip — and the mower either drives itself between zones along a marked passage or, if the areas aren't physically connected, you relocate it manually and select the correct zone in the app. Entry-level machines sometimes lack this feature and treat the whole property as one map, which causes confusion if the zones aren't connected by mowable grass. Check the specific model's zone limit before buying if your garden is split by a driveway, gate or path."
+    },
+    {
+     "q": "How long does first-time setup take for a wire-free model?",
+     "a": "Budget half an afternoon for a typical Irish suburban garden. Most of that time goes into the boundary walk, where you guide the mower around the lawn's edge once so it can build a map using GPS-RTK, camera recognition, or both. Complex gardens with several zones, narrow passages or scattered obstacles take longer because the app usually asks you to walk each connecting route separately. After the initial map is saved, seasonal changes — new furniture, a different border — are minor edits, not a redo. Buried-wire installation, by comparison, typically takes a full day or more for the same garden."
+    },
+    {
+     "q": "What's the realistic lifespan of a robot lawn mower in Irish weather?",
+     "a": "Most manufacturers design robot mowers for four to six years of seasonal use, and Irish conditions — frequent light rain rather than temperature extremes — are generally kinder to the electronics than climates with hard frost or intense summer heat. The parts that wear fastest are the cutting blades (replace every few months in a full growing season), the battery (typically rated for several hundred charge cycles before capacity drops noticeably), and the wheels on gardens with rough or muddy patches. Keeping the mower under cover between cuts and cleaning the underside of grass build-up after wet sessions both extend the practical lifespan well beyond the warranty period."
+    },
+    {
+     "q": "Do robot mowers need a garage or charging shelter?",
+     "a": "Not strictly — most models are rated to sit outside on their charging dock permanently, with weatherproofing built in for Irish rain. That said, a simple roofed shelter or purpose-built garage extends component life by reducing direct rain and UV exposure on the housing and reduces the temptation for opportunistic theft, since a mower tucked under cover is less visible from the street. If you don't have a shed or side passage to site the dock, a basic mower garage — a small roofed box that fits over the charging station — is a low-cost addition worth considering for exposed gardens."
+    },
+    {
+     "q": "Can I switch from a wired to a wire-free robot mower without redoing the garden?",
+     "a": "Yes — the old buried wire simply stays in the ground unused, or you can dig up sections you want to reclaim, but there's no requirement to remove it before installing a wire-free model. The new mower ignores the existing cable entirely and builds its own boundary map through the app walk-around. This is one of the most common upgrade paths in Ireland right now, since many gardens installed wired mowers years ago and are replacing an ageing unit with a wire-free model without wanting to dig up an established lawn to extract the cable."
+    }
+   ],
    "products": [
     {
      "id": "rlm-001",
@@ -91,7 +135,7 @@
       "Premium price",
       "Needs decent light"
      ],
-     "verdict": "The wire-free mower done right: top ratings, simple setup, Anker reliability."
+     "verdict": "The eufy E15 takes the top badge by solving robot mowing's biggest hassle — no wire to bury and no RTK base station to install — using vision-based navigation and a simple app walk-around setup, covering 800–1,000 m² gardens. It carries the best rating here, and being part of the Anker family means the app and support behind it are more mature than rivals'. That convenience comes at a premium: at €1,499 it's the most expensive mower on this list, and vision navigation needs decent light to work reliably, so deep shade may cause hiccups. The clear choice for larger gardens where avoiding wire installation is worth paying for; overkill for a small lawn."
     },
     {
      "id": "rlm-002",
@@ -116,7 +160,7 @@
       "100 m² limit",
       "Small-garden only"
      ],
-     "verdict": "The small-garden no-brainer: Bosch engineering, wire-free, €359."
+     "verdict": "The Bosch VISIMOW brings a trusted power-tool name into wire-free robot mowing at €359, using vision navigation to skip the buried perimeter wire that older mower designs require. Because it runs on Bosch's 18V Power4All battery platform, anyone who already owns Bosch garden or workshop tools can share batteries with it, which is a real cost saving over time. The catch is scale — coverage tops out around 100 m², so this is strictly a small-garden tool and won't handle anything approaching the eufy E15's territory above. For a compact lawn, it's an easy recommendation given the Bosch name and battery-sharing benefit; anyone with a bigger garden needs to look further down this list."
     },
     {
      "id": "rlm-003",
@@ -141,7 +185,7 @@
       "Newer brand support",
       "Mixed early reviews"
      ],
-     "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
+     "verdict": "Mammotion's YUKA mini 2 500 sits between the small-garden Bosch and the premium eufy above, covering up to 500 m² without any boundary wire for €799 — a specification sheet that reads as strong value for the coverage on offer. The app's zone control lets you map out sections of the garden individually, which owners note is a genuinely useful touch. Mammotion is a newer name than Bosch or eufy, though, and early reviews are more mixed than the top two picks, meaning there's a bit more uncertainty around long-term support and reliability. Worth considering if 500 m² matches your garden size and you're comfortable buying into a less established brand for the price advantage."
     },
     {
      "id": "rlm-004",
@@ -166,7 +210,7 @@
       "Premium price",
       "Complex setup options"
      ],
-     "verdict": "The rural terrain specialist: slopes and rough ground other robots refuse."
+     "verdict": "The LUBA mini 2 AWD is built for the gardens other robot mowers can't handle: all-wheel drive for climbing steep slopes, tri-camera plus RTK navigation for accuracy, and coverage up to 1,000 m² that makes it the largest-capacity mower in this comparison. That combination suits rough, rural, or sloped terrain that would defeat the vision-only navigation on the eufy or Bosch above. It's priced accordingly — at over €1,600 it's the most expensive item on this page — and the range of setup options and navigation modes means it takes more configuration than the simpler walk-around setup on the eufy E15. Best reserved for large or difficult gardens where AWD and top-tier navigation genuinely earn their cost."
     },
     {
      "id": "rlm-005",
@@ -191,7 +235,7 @@
       "Lesser-known brand",
       "Software still maturing"
      ],
-     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
+     "verdict": "SUNTEK's Wireless Robot Mower gets vision-based, wire-free navigation with AI obstacle detection under €600, undercutting the similarly capable Mammotion YUKA above while still covering a mid-size lawn respectably. For anyone who wants to skip wire installation without paying eufy or Mammotion prices, it's the most accessible option on this list that still relies on genuine AI vision rather than a buried perimeter cable. The trade-offs are honest ones: SUNTEK carries less brand recognition than Bosch or eufy, and the lowest rating on this page (4.1★) reflects software that reviewers describe as still maturing rather than fully polished. A reasonable budget entry point into wire-free mowing for patient early adopters, not the pick for anyone wanting a finished, proven product."
     },
     {
      "id": "rlm-027",
@@ -216,7 +260,7 @@
       "Newer to our comparison list",
       "Brand support varies by seller"
      ],
-     "verdict": "Worth shortlisting at €496 — Yard Force Classic 500 earns its 3.9★ and undercuts several bigger names."
+     "verdict": "The Yard Force Classic 500 covers up to 500 m² — the same ballpark as the Mammotion YUKA above — for a slightly lower €496, and Yard Force has more history in outdoor power equipment than some newer wire-free brands here. Buying through Amazon.ie means straightforward returns if it isn't the right fit. It carries the lowest rating on this page at 3.9★, and it's newer to our own comparison, so there's less accumulated evidence of long-term reliability than for the established picks, and support can vary depending on which seller you buy from. A budget-adjacent alternative for a 500 m² garden, but the YUKA above edges it on both rating and app features."
     }
    ]
   },
@@ -230,6 +274,50 @@
     2,
     5,
     6
+   ],
+   "guide": [
+    [
+     "What actually counts as a small Irish garden",
+     "This page covers the garden that's typical, not exceptional, for Ireland: an estate back garden roughly 80–250 m², often with a side passage, a shed, a small patio or decking area, and a boundary that isn't a clean rectangle. Irish planning guidance sets a bare minimum of 25 m² for rear private open space on new housing, and plenty of terraced and semi-detached properties sit not far above that floor. At this scale, the coverage figures on the box (often quoted up to 500 m² or more) are almost irrelevant — the real questions are whether the mower fits through your gate, turns inside a tight corner without repeated manoeuvring, and doesn't spend half its battery re-orienting around furniture in a garden a fraction of its rated capacity. Newer estates built to the current minimum tend to compress the garden further still once a shed, bin store and patio are accounted for, leaving an even smaller strip of actual lawn to be cut."
+    ],
+    [
+     "Navigating tight, oddly shaped Irish gardens",
+     "Small Irish gardens are rarely open rectangles. A trampoline, a clothesline, raised vegetable beds, a child's playhouse and a narrow side return to the front garden are all common in the same 150 m² plot. Vision-based navigation, now standard on most small-garden robot mowers, handles this better than older bump-and-turn systems because the camera recognises an obstacle before contact and plots a path around it rather than reversing and retrying blindly. Narrow side passages — sometimes under a metre wide — are the hardest test: check the mower's stated minimum passage width against your own measurement before buying, since a model rated for a 60 cm gap on paper can still struggle if the passage has an uneven surface or a slight camber. It's also worth checking how the mower behaves at a dead end within a passage, since some models require enough space to turn rather than reverse back out the way they came in."
+    ],
+    [
+     "Noise, timing and terraced-house etiquette",
+     "Shared walls and gardens ten metres from a neighbour's bedroom window change what counts as an acceptable mowing schedule. Most small robot mowers run at 55–65 dB, quieter than a petrol mower but still audible at close range, so scheduling matters more than raw noise figures. Set cutting windows for mid-morning to early evening rather than very early or after dark, and check whether the app lets you define quiet hours the mower won't start during, which most models aimed at compact gardens now include. A mower that runs little and often — 20-minute sessions several times a week — is generally less disruptive to neighbours than one doing a long single weekly session, and it also suits Ireland's steady, low-intensity growth pattern better than infrequent heavy cutting. It's also worth checking the dock's own charging noise, which some owners find more noticeable indoors at night than the mower itself is during a daytime cutting session outside."
+    ],
+    [
+     "Don't pay for capacity you won't use",
+     "The single most common overspend on this page's shortlist is buying coverage you'll never need. A model rated for 500 m² carries a bigger battery, a wider cutting deck and often a higher price purely to sustain longer unattended runs — none of which helps a 120 m² garden finish any faster, since the limiting factor there is manoeuvring around obstacles, not raw battery endurance. For gardens under roughly 200 m², prioritise navigation precision, narrow-passage handling and app scheduling flexibility over headline coverage numbers, and treat any coverage figure more than double your actual lawn size as a sign you're paying for capacity that won't be used. Compare like-for-like by looking at the smallest model in a manufacturer's range rather than assuming a flagship simply scales down in price. A quick way to sanity-check this is to pace out your actual lawn area before shopping, since it's easy to overestimate a small garden's size by a third or more from memory alone."
+    ],
+    [
+     "Storage and charging in gardens without a shed",
+     "Not every small Irish garden has a shed to tuck a charging dock into, and the dock has to sit somewhere permanent, ideally with a clear run of a metre or two either side for the mower to dock accurately. Options include a small dedicated mower garage (a roofed box sized to the dock), a spot under an eave or overhang, or simply an exposed but weatherproof-rated position against a wall — most docks and mowers are rated for permanent outdoor placement. Whatever the location, keep it away from downpipes or spots where rainwater pools after heavy showers, since standing water around the charging contacts is a more realistic risk in Ireland than the rain itself. A short cable run from the nearest outdoor socket also matters at this scale, since extension leads left trailing across a small lawn are both a trip hazard and an obstacle the mower has to avoid."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Is a robot mower worth it for a garden under 100 m²?",
+     "a": "For most owners, yes, though the case is different than for a large lawn. At under 100 m², you're not buying a robot mower to save hours of mowing time — a garden that size takes ten minutes with a push mower. The appeal is consistency: short, frequent robotic cuts keep grass at an even height through Ireland's long growing season without you remembering to do it, and mulched clippings save the job of bagging and disposal. If convenience and a permanently tidy lawn matter more than the raw time saved, even a very small garden justifies an entry-level model."
+    },
+    {
+     "q": "Will a robot mower cope with a narrow side passage?",
+     "a": "It depends on the passage width and the mower's turning geometry, not just its stated minimum gap. Measure the narrowest point of the passage, including any obstruction like a bin store or drainpipe, and compare it against the manufacturer's minimum passage width — most small-garden models handle 60–100 cm gaps, but tight 90-degree turns within that passage are harder than a straight run through it. Camera-based models generally cope better than older bump-sensor designs because they can line up the approach angle before entering the gap rather than nudging through by trial and error."
+    },
+    {
+     "q": "Can a small robot mower handle raised beds and garden furniture?",
+     "a": "Static obstacles like raised beds, planters and garden furniture are exactly what modern obstacle-avoidance systems are designed for, and most small-garden robot mowers map them during the initial setup walk so they're avoided consistently rather than bumped into every pass. The harder case is furniture that moves — a table dragged out for summer, a paddling pool set up for a weekend — which the mower won't know about until it collides with it or, on camera-based models, detects it in real time and re-routes. If you rearrange the garden often, favour a model with real-time camera detection over one relying purely on a fixed map."
+    },
+    {
+     "q": "How do I stop a robot mower disturbing neighbours in a terraced estate?",
+     "a": "Use the app's scheduling to keep mowing within a defined window — late morning to early evening covers most working patterns without running during typical nap times, early mornings or after dark. Position the charging dock away from a shared boundary wall if possible, since the mower is at its noisiest during the first metre of each pass leaving the dock. If a specific model's decibel rating isn't listed clearly, check owner reviews for mentions of noise, since real-world figures at the boundary can differ from the manufacturer's rating taken at the mower itself."
+    },
+    {
+     "q": "Do I need a charging shed for a small garden robot mower?",
+     "a": "No — the charging dock and mower are both designed for permanent outdoor placement in Irish conditions, so a shed is a convenience rather than a requirement. It's worth having if you already have one, since it keeps the dock out of direct rain and makes the mower less visible from outside the garden, which has some anti-theft value. Where there's no shed, a small roofed mower garage or a sheltered spot against the house wall works just as well functionally, provided it's not somewhere rainwater collects after a downpour."
+    }
    ],
    "products": [
     {
@@ -394,6 +482,50 @@
     7,
     3
    ],
+   "guide": [
+    [
+     "Coverage numbers vs real-world Irish lawns",
+     "Manufacturer coverage figures are measured under close-to-ideal conditions: flat ground, simple rectangular boundaries, minimal obstacles. A rural Irish site rated at 2,000 m² on the box rarely resembles that layout — it more often includes a gently sloped field-adjacent lawn, a gravel driveway cutting through the middle, and boundary hedging that eats into usable mowing time as the machine repeatedly re-approaches the edge. Owner reports on forums and retailer review sections consistently describe real coverage running 15–30% below the headline figure once a garden has meaningful complexity, so treat the advertised number as a ceiling reached only in favourable layouts, and size up rather than buying to the exact figure your lawn measures. This isn't a case of manufacturers overstating specifications so much as the test conditions behind any headline figure rarely matching a working rural garden, which is why owner reports from comparable sites are more useful than the box copy when sizing a machine for a complex property."
+    ],
+    [
+     "Multi-zone gardens: driveways, gates and separate lawns",
+     "Large rural and suburban Irish properties are rarely one continuous lawn. A gravel or tarmac driveway splitting the front from the back, a five-bar gate between a garden and an adjoining field-side lawn, or an orchard patch set apart from the main cutting area are all common layouts on gardens over 1,000 m². Multi-zone mapping — supported by most large-capacity models on this list — lets you define each area separately with its own schedule, and either lets the mower cross a connecting strip automatically or requires manual relocation between disconnected zones. Before buying, count how many genuinely separate zones your property has, since a mower's advertised zone limit (commonly 3–5) can be a hard ceiling on some models. It's also worth confirming whether crossing a driveway or gate needs a scheduled window of its own, since some models pause at a zone boundary until conditions — daylight, a closed gate — are met before continuing automatically."
+    ],
+    [
+     "Slopes, AWD and rough rural ground",
+     "Slope tolerance and ground clearance matter far more at this scale, since large Irish sites are more likely to include an incline, an uneven field margin or rough grass a standard suburban mower was never designed to cross. All-wheel drive models hold traction on wet slopes where two-wheel-drive units can spin out or stall, and a higher ground clearance reduces the chance of scalping on uneven turf or grounding out on ridges. Manufacturer slope ratings (often 35–50% on AWD models) should be checked against the steepest section of your actual lawn, not the average gradient, because a mower that copes fine on a gentle overall slope can still struggle on one steep bank near a boundary. Ground clearance matters alongside traction on rural sites with molehills, uneven field margins or old tree roots breaking the surface, since a low-clearance mower can ground out on terrain a standard suburban lawn would never present."
+    ],
+    [
+     "Battery capacity and charge cycles at scale",
+     "Covering 1,000 m² or more means the mower spends a meaningfully larger share of its schedule mowing rather than idle on the dock, so battery capacity and recharge time become practical constraints rather than a spec-sheet detail. A larger battery with a shorter recharge window keeps more of the day available for cutting, which matters most in June and July when Irish grass growth peaks. Running costs stay modest regardless of scale — these are low-wattage electric machines, and even frequent charging across a large multi-zone garden adds only a small amount to a typical household electricity bill compared with fuel for a ride-on mower. Solar-assisted charging exists on some large-capacity models but rarely replaces mains charging entirely in Irish light conditions, so treat it as a modest top-up rather than a way to cut charging time significantly during a large multi-zone schedule."
+    ],
+    [
+     "Boundary strategy for big or irregular sites",
+     "On a large or irregularly shaped property, the choice between a buried wire and wire-free navigation is less about convenience and more about reliability at range. RTK-based wire-free systems need a reasonably clear line to satellite signal, which can degrade under dense tree cover or close to tall boundary hedging common on older rural sites — a factor worth weighing against the labour of burying wire across a long or complex perimeter. Some owners of large, signal-challenged gardens choose a hybrid approach: wire-free for open zones, with a short buried-wire section only around the specific area where satellite accuracy is unreliable. Whichever approach you choose, walk the full perimeter yourself before committing, since a boundary that looks straightforward on a site plan can include a signal-blocking outbuilding or dense hedge line that only becomes obvious on the ground."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "How many charge cycles does a robot mower need to cover a half-acre lawn?",
+     "a": "A half-acre (roughly 2,000 m²) typically needs several charge cycles per week during peak growth in early summer, dropping to one or two as growth slows in autumn and nearly none in mid-winter. Exact numbers depend on the mower's cutting width and battery capacity, but large-capacity models are built around this pattern, with recharge times generally under two hours so the mower can complete a full multi-zone schedule within daylight hours. Owner reports on larger properties suggest budgeting for daily short sessions during May and June specifically, rather than assuming the same weekly routine holds year-round."
+    },
+    {
+     "q": "Can a robot mower manage a garden split by a driveway or gate?",
+     "a": "Yes, provided the model supports multi-zone mapping, which is standard on the large-capacity end of the market. A gravel driveway or a gate can either be crossed automatically, if the mower is rated to cross that surface safely, or treated as a hard boundary between two zones that the mower switches between on schedule, sometimes requiring you to manually move it between disconnected areas. Check the specific crossing capability before buying if your layout depends on the mower moving itself between zones without help, since not every model handles gravel or tarmac crossings the same way."
+    },
+    {
+     "q": "Is all-wheel drive necessary for a large Irish garden?",
+     "a": "Not for every large garden, but it's worth prioritising if your lawn includes any noticeable slope, rough or uneven ground, or wet low-lying patches that stay soft after rain. Two-wheel-drive models handle flat, well-drained large lawns without issue and cost less. AWD earns its premium on the kind of mixed rural terrain common outside flat estate developments — a field-adjacent lawn with a bank, or ground that turns soft after a wet week, both being realistic scenarios on Irish rural properties rather than edge cases."
+    },
+    {
+     "q": "What slope gradient is too steep for a robot mower?",
+     "a": "Manufacturer maximum slope ratings for large-capacity robot mowers typically range from 35% to 50% (roughly 19–27 degrees) on AWD models, and noticeably lower on two-wheel-drive units. Treat the published figure as the absolute limit under ideal dry, grippy conditions, not a comfortable working gradient — wet grass reduces effective traction significantly, and a slope near the rated maximum is a common cause of the mower getting stuck or aborting a session. If a section of your lawn is close to the stated limit, expect more frequent manual intervention there than on the rest of the garden."
+    },
+    {
+     "q": "How do manufacturers calculate the coverage figure on the box?",
+     "a": "The headline coverage figure is generally based on the mower completing its full cutting schedule on a flat, simply-shaped lawn with minimal obstacles, within a set number of charge cycles per week. It doesn't account for the extra time spent re-approaching complex boundaries, navigating multiple zones, or climbing slopes, all of which reduce the effective area a mower can keep up with in practice. Owner reports on gardens with real complexity — hedging, gates, uneven ground — consistently describe usable coverage below the box figure, which is why sizing up for a large or complex Irish property is standard advice rather than caution for its own sake."
+    }
+   ],
    "products": [
     {
      "id": "rlm-011",
@@ -557,6 +689,50 @@
     5,
     0
    ],
+   "guide": [
+    [
+     "RTK GPS, camera vision and beacons — how each actually works",
+     "Wire-free robot mowers navigate using one of three core technologies, often combined. RTK (Real-Time Kinematic) GPS uses a base station on your property to correct standard satellite positioning down to centimetre-level accuracy, giving the mower a precise sense of where the boundary sits. Camera-based vision systems build a visual map of the garden during setup and recognise the boundary and obstacles the way a self-driving car reads a road, which helps in tree-shaded areas where satellite signal weakens. Some budget models use fixed beacons placed around the garden as reference points instead of satellite positioning. Higher-end machines combine RTK with camera vision so each system compensates for the other's weak spots — satellite for open ground, cameras for shaded or signal-poor corners. Beacon-based systems are becoming less common as RTK hardware costs fall, but they remain a reasonable budget option for a simple, open garden where centimetre-level precision isn't essential to avoid a costly mistake."
+    ],
+    [
+     "Setup in an afternoon: what the walk-around process involves",
+     "Wire-free setup replaces a day of trenching with an app-guided walk. You carry or push the mower once around the boundary you want it to respect, marking gates, obstacles and any no-go zones as you go, and the app builds a digital map from the RTK or camera data collected during that walk. Multi-zone gardens take longer, since each connected or disconnected area typically needs its own walk-around pass. Most manufacturers recommend doing this walk in good weather with clear satellite visibility for RTK models, since heavy cloud or dense tree cover during the initial mapping can reduce boundary accuracy — a poor first map is the most common cause of a wire-free mower straying near an edge in its first few weeks. It's worth repeating the walk-around a second time if the app flags any low-confidence sections of the boundary, since correcting the map before the first unattended run is far easier than troubleshooting an odd cutting pattern afterwards."
+    ],
+    [
+     "Where wire-free struggles: signal, shade and dense boundaries",
+     "No wire-free navigation method is immune to interference. RTK accuracy can degrade under dense tree canopy, close to tall stone walls, or in gardens overshadowed by a two-storey extension, since these all block or reflect satellite signal. Camera-based systems, in turn, rely on adequate light and can lose confidence in very low winter light or dense fog, both realistic on Irish winter mornings. In practice this rarely means the mower fails outright — it usually means reduced boundary precision in the affected zone, showing up as the mower cutting slightly short of a hedge line it handles precisely elsewhere in the garden. Gardens with one specific problem area often solve it with a supplementary physical boundary marker in just that section rather than switching systems entirely. None of this is unique to any one brand — it's a physical limitation of satellite and optical positioning generally, so the practical fix is choosing a hybrid system and mapping problem areas carefully rather than expecting a single technology to solve every garden."
+    ],
+    [
+     "Changing your garden layout later",
+     "The practical advantage of wire-free over buried wire shows up months after installation, when the garden changes. Adding a raised bed, extending a patio, or putting up a new shed means editing a digital boundary in the app — a five-minute change — rather than digging up and relaying a physical cable. This matters more in Ireland than it might elsewhere, since many gardens here are actively developed over their first few years in a new estate: decking added, borders dug, a play area installed as children grow. Families still landscaping their garden get more long-term value from a wire-free system's flexibility than from any single feature comparison at the point of purchase. It also removes the seasonal temptation to simply mow around a new obstacle rather than properly updating the boundary, since editing the map correctly takes barely longer than doing it the sloppy way."
+    ],
+    [
+     "Theft and tracking on machines with no wire to steal",
+     "A robot mower parked on open grass, sometimes visible from the street, is a realistic theft target regardless of navigation type, and wire-free models don't change that risk on their own. What they typically add is stronger anti-theft software: GPS location tracking that works through the same positioning hardware used for mowing, PIN-code unlock so a stolen unit won't operate without the code, and loud on-board alarms triggered by lifting or moving the mower unexpectedly. When comparing wire-free models for a garden visible from outside the property, check which of these three features are included rather than assuming they come as standard — some budget wire-free models include GPS mapping for cutting but skip theft-specific tracking entirely. Registering the mower's serial number with the manufacturer at purchase is also worth doing immediately, since it's the detail most often missing when an owner tries to report a stolen unit later."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Does wire-free navigation work reliably under trees or near high walls?",
+     "a": "Reliability drops in these conditions but rarely fails completely on modern hybrid systems. Dense tree canopy and tall stone walls both interfere with satellite signal used by RTK positioning, which can reduce boundary accuracy in that specific area of the garden. Models that combine RTK with camera vision handle this better, since the camera can maintain positioning using visual landmarks when satellite signal weakens. If a significant part of your garden sits under heavy tree cover, prioritise a hybrid navigation model over a pure GPS-RTK one, and expect to check boundary accuracy in that zone specifically after the initial setup walk."
+    },
+    {
+     "q": "How accurate is RTK GPS compared to a buried wire?",
+     "a": "A buried wire gives a fixed, unambiguous boundary — the mower simply can't cross it. RTK GPS is typically accurate to within 2–5 cm under good satellite conditions, which is precise enough for almost all garden boundaries in practice, but it's a probabilistic system rather than a physical barrier, so accuracy can drift slightly in poor signal conditions. For most gardens with a reasonably open sky view, the practical difference is negligible; the main scenario where a physical wire still edges out RTK is a boundary running directly alongside a feature — a pond, a drop, a road — where zero margin for error matters more than typical."
+    },
+    {
+     "q": "What happens if a wire-free mower loses GPS signal mid-cut?",
+     "a": "Most current models are designed to stop and either wait for signal to return or return to the dock using its last known reliable position, rather than continuing to cut blind. Hybrid RTK-and-camera systems are more resilient here, since the camera can maintain a rough sense of position using visual references even during a brief satellite dropout. A genuine full signal loss is uncommon on modern hardware in typical Irish garden conditions, but it's more likely in a garden with heavy tree cover or close to a large building, which is worth factoring in if your site has either."
+    },
+    {
+     "q": "Can wire-free mowers share boundaries with a neighbour's garden?",
+     "a": "Yes — the digital boundary you set in the app can run precisely along a shared fence or wall line, the same way a buried wire would, without needing the neighbour's involvement or access to their side. The advantage over a physical wire is that adjusting the line later, if a fence is replaced or moved slightly, is an app edit rather than a dig. It's worth double-checking boundary accuracy along a shared line during the first few cutting sessions, since this is exactly the kind of edge where a few centimetres of drift is most likely to be noticed by a neighbour."
+    },
+    {
+     "q": "Can I add a wire-free mower to a garden that already has a buried wire from an old machine?",
+     "a": "Yes. The new wire-free mower ignores the existing cable entirely — it builds its own map using satellite or camera data during the app walk-around, with no interaction with a buried wire from a previous machine. You can leave the old wire in the ground undisturbed or dig up sections you want to reclaim; there's no functional need to remove it before switching systems. This is a common upgrade path for anyone replacing an older wired mower without wanting to disturb an established lawn to extract the cable."
+    }
+   ],
    "products": [
     {
      "id": "rlm-016",
@@ -695,6 +871,50 @@
     7,
     3,
     4
+   ],
+   "guide": [
+    [
+     "What €700 actually buys in 2026",
+     "Under €700 now buys a genuine robot mower rather than a compromised toy — both wired and wire-free options exist at this price, typically covering gardens up to 200–500 m² with basic app scheduling, rain sensors, and either simple bump-based or entry-level camera obstacle detection. What you're generally not getting at this price is multi-zone mapping for split gardens, all-wheel drive, RTK-grade positioning accuracy, or advanced anti-theft tracking, all of which push a model well past €1,000. For a typical sub-300 m² Irish estate garden with a single, reasonably simple boundary, the budget tier covers the actual job competently; the trade-offs matter more as garden complexity or size increases beyond that. It's also worth checking exactly which accessories are included at this price, since some listings bundle the charging dock and boundary markers while others treat them as separate purchases that push the real cost closer to the next price tier."
+    ],
+    [
+     "The trade-offs: capacity, slope and app depth",
+     "Every budget model on this list makes a specific set of compromises rather than being uniformly worse than pricier machines. Some cap coverage tightly (100–200 m²) but include capable navigation for that smaller area; others stretch coverage further but with a simpler bump-sensor obstacle system rather than camera-based avoidance. Slope tolerance tends to sit lower across the budget tier — often 20–25% rather than the 35%+ seen on premium AWD models — which matters if any part of your lawn has a noticeable incline. App depth is the most consistently reduced feature: expect basic scheduling and manual zone drawing rather than the automated mapping and detailed cutting-pattern controls found on mid-range and premium machines. None of these compromises make a budget model unsuitable for its intended garden — they simply mean the machine is tuned for a specific, simpler job rather than being a scaled-down version of a premium all-rounder."
+    ],
+    [
+     "Wired vs wire-free at the budget end",
+     "Budget wire-free models exist and have become genuinely competitive, using simpler camera-only or basic RTK systems rather than the hybrid setups found on premium machines. The trade-off is usually boundary precision in tricky conditions — shaded corners, close walls — where a budget wire-free model may need occasional manual correction that a premium hybrid system wouldn't. Budget wired models, by contrast, offer a fixed, reliable boundary at a lower hardware cost, at the expense of a day's installation labour and no flexibility if the garden layout changes later. For a simple, stable, open garden shape, either budget path works; for anything with awkward corners, the installation flexibility of wire-free usually outweighs the small accuracy trade-off. Installation labour is worth pricing in honestly if you're comparing a cheaper wired model against a pricier wire-free one, since a full day spent burying cable has a real cost even if it isn't on the receipt."
+    ],
+    [
+     "Where cutting corners costs you later",
+     "The genuine false economy in this price bracket isn't the mower itself but consumables and coverage mismatch. Replacement blades need changing every few months through a full Irish growing season, and budget models sometimes use proprietary blade shapes that cost more per replacement than the savings on the initial purchase price would suggest — check blade cost and availability before buying, not after. Buying a model rated right at your garden's exact size, rather than with headroom, is the second common mistake, since real-world coverage typically runs below the advertised figure once a garden has any obstacles or shape complexity, leaving an undersized budget mower struggling to keep up during peak May-June growth. Warranty terms are worth reading closely too, since some budget brands offer noticeably shorter cover than their mid-range models, which matters most for the battery — the single most expensive component to replace outside of warranty."
+    ],
+    [
+     "Getting the most from a budget machine",
+     "Two habits close most of the gap between a budget and mid-range result. First, use mulching mode by default rather than collecting clippings, since fine, frequent mulching keeps grass looking tidier than a budget mower's simpler cutting pattern would suggest on its own, and it's the default setting on nearly every model in this bracket anyway. Second, schedule shorter, more frequent sessions rather than trying to catch up with one long weekly run — budget mowers with smaller batteries and simpler navigation handle little-and-often far better than an infrequent heavy cut, which also suits Ireland's steady rather than spiky growth pattern through the season. Keeping the cutting deck and wheels free of built-up grass after wet sessions also matters more on a budget model, since simpler motors and bearings tend to be less tolerant of debris than the sealed units found on premium machines."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Is a budget robot mower worth it or should I save for a mid-range model?",
+     "a": "For a straightforward garden under roughly 300 m² with a simple boundary and minimal slope, a budget model does the actual job competently and the extra spend on a mid-range mower mostly buys features — multi-zone mapping, AWD, sharper positioning — that a simple garden doesn't need. The case for saving up strengthens with garden complexity: a split layout, a noticeable slope, or a boundary with tight corners all expose budget-tier compromises more visibly. Match the decision to your specific garden's demands rather than a general rule, since a well-matched budget mower on a suitable garden often outperforms a mismatched mid-range one."
+    },
+    {
+     "q": "What do you lose by buying under €700 versus a €1,200 mower?",
+     "a": "The most consistent differences are navigation precision, slope tolerance and app sophistication. €1,200-range mowers more often include RTK-grade or hybrid camera-and-satellite positioning accurate to a few centimetres, AWD or higher slope ratings for uneven ground, multi-zone mapping for split gardens, and deeper app controls over cutting patterns and scheduling. Build quality and anti-theft features (GPS tracking, alarms) also tend to improve at this tier. What doesn't necessarily improve is basic cutting performance on a simple, flat, single-zone garden — the gap is mostly about handling complexity and edge cases rather than cut quality on straightforward ground."
+    },
+    {
+     "q": "How long do batteries in budget robot mowers typically last?",
+     "a": "Most budget models are rated for 300–500 full charge cycles before capacity noticeably declines, which translates to roughly two to four years of typical Irish seasonal use depending on how much of the growing season the mower runs actively. Battery degradation shows up as shorter run-times per charge and more frequent docking rather than sudden failure, so a mower that once ran 60 minutes per charge might drop to 40–45 minutes after a couple of seasons. Some budget models use a sealed, non-replaceable battery, while others allow a battery swap — worth checking before buying if you want to extend the mower's life past the typical degradation point."
+    },
+    {
+     "q": "Are budget robot mowers reliable in heavy Irish rain?",
+     "a": "Most budget models carry an IPX4 rating, the same baseline as premium machines, meaning they're built to handle drizzle and light-to-moderate rain without issue. Where budget models more often fall short is rain sensor quality — some use a simpler moisture sensor that pauses mowing later or resumes earlier than a premium unit's more calibrated version, occasionally cutting wet grass and leaving clumped clippings on the lawn surface. This is a minor cosmetic issue rather than a reliability concern, and checking owner reports specifically for rain-sensor behaviour is more useful than relying on the IP rating alone when comparing budget models."
+    },
+    {
+     "q": "Can I upgrade a budget robot mower's app features later?",
+     "a": "Generally no — the navigation hardware (GPS-RTK modules, cameras, sensor arrays) is fixed at purchase, so features like multi-zone mapping or advanced obstacle avoidance that depend on that hardware can't be added through a software update if the physical sensors aren't there. Some manufacturers do push firmware updates that improve scheduling logic, mulching patterns or minor app usability over a model's lifetime, so it's worth checking a brand's update history before buying, but treat any budget purchase as fixed in its core navigation capability rather than a stepping-stone that will gain premium features later."
+    }
    ],
    "products": [
     {

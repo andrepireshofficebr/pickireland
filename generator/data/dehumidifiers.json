@@ -91,7 +91,7 @@
       "Premium price",
       "Tank is modest for severe damp"
      ],
-     "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+     "verdict": "Running at around 36 decibels, this Meaco is quiet enough to leave on overnight in a bedroom, and it doubles as a HEPA air purifier, so it's tackling damp and airborne particles with one appliance rather than two. App and voice control let you schedule runs around night-rate electricity, which matters given how long a dehumidifier typically stays plugged in during an Irish winter. At €259 it's the most expensive standard-size unit on this list, and the tank itself is on the modest side, so anyone dealing with genuinely severe damp will need to empty it more often than the higher-capacity Nyxi below. Best suited to buyers prioritising quiet, efficient, everyday running over raw extraction volume."
     },
     {
      "id": "deh-002",
@@ -116,7 +116,7 @@
       "Less-known brand",
       "Louder at full fan"
      ],
-     "verdict": "The most litres per euro on Amazon.ie — a big-house workhorse at a small-house price."
+     "verdict": "Twenty litres a day of extraction is enough to cover a 3-4 bedroom house rather than just a single room, and getting that capacity under €140 undercuts what similarly rated units from bigger names charge. A continuous drain option and dedicated laundry mode make it genuinely useful for drying clothes indoors during wet Irish spells, not just managing ambient humidity. Nyxi isn't a widely recognised brand compared with Meaco, so buyers are leaning more on the 4.5-star Amazon.ie score than brand history, and several owners note it gets noticeably louder than the Meaco above when the fan runs at full speed. The clear pick for anyone with a bigger house and a tighter budget than the Meaco allows."
     },
     {
      "id": "deh-003",
@@ -141,7 +141,7 @@
       "Higher wattage than compressors",
       "Smaller tank"
      ],
-     "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
+     "verdict": "Desiccant technology is the key difference here: unlike compressor-based units that lose extraction power as temperatures drop, this Meaco holds full performance down to 5°C, which matters for garages, attics or older Irish homes that stay genuinely cold in winter. It gently warms the air as it dries, which helps with laundry drying specifically, an area where it performs excellently according to owner feedback. The desiccant method draws more wattage than a compressor unit of similar output, so running costs are higher, and the 8-litre-a-day extraction comes with a smaller tank that needs emptying more frequently than the Nyxi's. Right for cold, unheated spaces where compressor dehumidifiers underperform; for a warm, insulated living room, the cheaper compressor models are more efficient."
     },
     {
      "id": "deh-004",
@@ -166,7 +166,7 @@
       "Mid-size tank",
       "Newer product line"
      ],
-     "verdict": "The smart all-rounder: three appliances in one box, scheduled from your phone."
+     "verdict": "Three functions in one box — dehumidifying, air purifying and ionising — means this Masterplug can replace more than one appliance, and WiFi app control lets you schedule runs remotely, similar to the Meaco's smart features but at a lower €196 price. Auto-defrost keeps it working properly in colder rooms without manual intervention. Its 12-litre-a-day extraction sits in the middle of this list rather than at the top, and the tank size is unremarkable rather than a strength. As a newer product line, it doesn't yet carry the multi-year reputation that Meaco has built. A good fit for anyone wanting combined purifying and dehumidifying functions with smart scheduling at a mid-range price; those chasing maximum single-function extraction should look at the Nyxi."
     },
     {
      "id": "deh-005",
@@ -191,7 +191,7 @@
       "Light damp only",
       "Slows in cold rooms"
      ],
-     "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
+     "verdict": "At €54 and with extraction rated up to 650ml a day, this EasyAcc is built for a single mildly damp space rather than whole-house drying — think a wardrobe, ensuite or small bathroom with condensation. It runs quietly, operation is genuinely simple with no modes to configure, and auto shut-off stops it overflowing once the 2-litre tank fills. Extraction slows further in cold rooms, a limitation the desiccant Meaco above is specifically built to avoid, so it's not the right choice for an unheated space in winter. The right pick for light, localised damp problems on a tight budget; anyone with a genuinely damp room or whole floor needs one of the higher-capacity units on this list."
     },
     {
      "id": "deh-028",
@@ -216,7 +216,7 @@
       "Not our category winner",
       "Compare specs before committing"
      ],
-     "verdict": "The challenger: HOMCOM 12L/Day Dehumidifier won't dethrone our winner, but at €100 it makes the podium fight interesting."
+     "verdict": "Twelve litres a day of extraction with a continuous drainage option puts this HOMCOM's specs close to the pricier Masterplug and Meaco Arete above, but at roughly €100 it costs meaningfully less than either. Its 4.6-star owner rating is actually higher than several machines ranked above it here, and buying through Amazon.ie keeps the warranty and returns process straightforward. It hasn't taken our top overall spot because it lacks the HEPA purification and app scheduling that set the Meaco Arete apart, so it's a specs-and-price play rather than a features play. Worth comparing closely against the Masterplug if smart features aren't essential; a strong option for anyone who wants solid extraction without paying for extras."
     },
     {
      "id": "deh-029",
@@ -241,7 +241,55 @@
       "Less proven than our top picks",
       "Check specs match your exact needs"
      ],
-     "verdict": "A credible dehumidifiers alternative: HOMCOM 12L/Day Quiet Dehumidifier brings HOMCOM quality at €110 with solid owner ratings."
+     "verdict": "This second HOMCOM shares the 12-litre-a-day extraction and 4.6-star rating of the Challenger Pick above but comes with a smaller 2,000ml tank and a specific emphasis on quiet running, making it worth comparing directly against its sibling model before choosing between them. At around €110 it sits just above that other HOMCOM in price, and it's readily available for Irish buyers right now. As with any HOMCOM model on this list, it hasn't built the years of track record that Meaco has, so it's less proven at the very top end of durability and long-term performance. Check the tank size and noise spec against your actual room before deciding between this and the other HOMCOM option; buyers wanting the single best-proven machine should still default to the Meaco Arete."
+    }
+   ],
+   "guide": [
+    [
+     "Start with your humidity number, not a litre rating",
+     "Before comparing machines, find out what you're actually dealing with. A €10 hygrometer from any hardware shop or Amazon.ie tells you your room's relative humidity in seconds, and that number matters more than any spec sheet. Irish indoor air comfortably sits at 40–50% RH; once a room holds above 60% for more than a day or two, mould has everything it needs. Most people who buy a dehumidifier are guessing — they bought because a window steamed up or a wardrobe smelled musty, not because they measured anything. Get the reading first, target a machine with a humidistat that can be set to 50–55%, and you'll stop the unit running (and costing money) once the air is actually dry, rather than letting it churn on a timer that has no idea what the room needs."
+    ],
+    [
+     "Match capacity to your house, not your room",
+     "Extraction figures on the box — 8L, 12L, 20L a day — are measured at 30°C and 80% RH in a lab, conditions an Irish home rarely reaches even in a wet November. Treat the number as a ceiling, not a promise. As a rough guide, a single bedroom or small flat is well served by 6–8L/day, a 3-bed semi with normal cooking and showering moisture needs 10–12L/day in one central spot or two smaller units, and a 4-bed house with a damp problem wants 20L/day or more. Undersizing is the most common mistake: a small unit in a big draughty house just runs constantly and never gets the air below its target, which wastes electricity without solving anything. If you're choosing between two similarly priced units, favour the one with a bigger tank and a humidistat range down to at least 35%, since it gives you room to correct for real-world extraction running lower than the box figure promises."
+    ],
+    [
+     "Old build vs new build changes the answer",
+     "A pre-1950s solid-wall cottage or terrace — no cavity, often lime mortar, walls that were built to breathe rather than seal — produces a different damp pattern than a 2005-onwards airtight build. Solid-wall homes lose heat fast and get cold internal surfaces, so moisture condenses on walls and window reveals even when air humidity looks moderate; the fix leans on extraction plus keeping background heat on low rather than letting rooms go fully cold. Newer, well-sealed houses trap moisture from cooking and showers because there's nowhere for it to escape without deliberate ventilation, so the dehumidifier is doing a job your PIV or extractor fan should share. Knowing which category your house falls into changes where you put the unit and how long you run it. A quick way to tell which you have: knock on an external wall — a hollow-ish, lighter knock usually means cavity construction, a dense, solid thud means solid wall."
+    ],
+    [
+     "What buying local instead of importing saves you",
+     "Amazon.ie, Currys, Harvey Norman, DID, Woodies and the brand's own Irish or EU store cover almost everything worth buying here. The saving from an obscure UK or US listing is rarely worth it once you account for a 20L machine's shipping weight, and warranty claims get complicated fast when the selling entity isn't registered in the EU — a two-year statutory warranty is far easier to enforce against an Irish or EU seller. Spare parts matter too: continuous-drain hoses, replacement filters and even tank lids vary by model, and a machine bought through a proper Irish retailer usually has parts available without a six-week wait. It's a dull thing to check before buying, but it's the difference between a five-minute fix and a dead dehumidifier in a drawer eight months later."
+    ],
+    [
+     "The real running cost across a full winter",
+     "Do the sum before you buy, not after the first bill. A typical 12L compressor unit draws around 200W; run it 8 hours a day and that's 1.6kWh, which at the standard day rate of roughly 38 cent a unit works out to about €0.61 a day, or €18 across a 30-day month of steady use. Shift that same running time onto a smart-meter night rate — commonly 17–19 cent a unit — and the daily cost drops to around €0.29, so scheduling the unit to run overnight where the room allows it roughly halves the bill. Across a full damp season, October to April, that's the difference between €125 and €60 for the same dried-out house. A humidistat that cuts power once the room hits target does more for the annual bill than any efficiency claim on the box."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "How many litres per day dehumidifier do I need for a 3-bed semi in Ireland?",
+     "a": "For one central unit covering hallway and landing airflow, aim for 10–12L/day extraction as a minimum, moving to 20L/day if the house has a persistent damp room or you want faster results without running the machine constantly. This is a lab-rated figure measured at 80% humidity, so real-world extraction in an Irish home at 55–65% RH will be noticeably lower — that's normal, not a fault. Two smaller units, one downstairs and one upstairs, often outperform a single large one because they don't have to fight the full volume of the house through hallway doors and stairwells."
+    },
+    {
+     "q": "Is it worth buying a dehumidifier with an air purifier built in?",
+     "a": "Only if you'd genuinely buy the purifier separately anyway. Combined units are convenient and take up one socket instead of two, but the purifier stage is usually a basic HEPA filter, not a match for a dedicated unit, and it adds to the price. If your main problem is damp and mould spores together — a musty room with visible spotting — the combination earns its keep because it's actually filtering what the dehumidifier is drying out. If you just want dry air, skip the extra cost and put the difference toward a bigger tank or a hose-drain model instead."
+    },
+    {
+     "q": "Should I buy a dehumidifier online or from a shop like Currys or Harvey Norman?",
+     "a": "Price is usually similar, so it comes down to what you value. Buying from Currys, Harvey Norman or a similar Irish retailer means an easy in-person return if the unit arrives faulty, and staff who can point you to a floor model to check the noise level yourself. Amazon.ie is faster and often cheaper on smaller brands, with the same two-year statutory warranty backing it as long as the seller ships from within the EU. For a large 20L machine that's awkward to return by post, buying in person carries a genuine practical advantage."
+    },
+    {
+     "q": "Do dehumidifiers work in an unheated Irish winter house?",
+     "a": "Compressor models lose efficiency below roughly 15°C and can frost up their coils in a genuinely cold room, which is common in an Irish house with the heating off overnight or in a rarely-used spare room. Desiccant dehumidifiers don't have this problem — they use a moisture-absorbing wheel rather than a cold coil, so they keep pulling water out of the air at full rated capacity even at 5°C. If the room you're targeting regularly sits below about 15°C, a desiccant model will noticeably outperform a compressor one, even though it usually costs more to run per litre extracted."
+    },
+    {
+     "q": "How long does a dehumidifier last before the compressor gives out?",
+     "a": "Manufacturer figures and owner reports across major brands point to a typical working life of 5–8 years for a compressor unit under normal domestic use, with desiccant models often lasting longer since there's no refrigerant compressor to fail, just a fan and a heating element. Continuous heavy use — running 24/7 in a genuinely wet house rather than the odd few hours — will shorten that. Keeping the filter clean and the air inlet free of dust does more for longevity than any other single habit, since a clogged filter forces the compressor to work harder for the same result."
+    },
+    {
+     "q": "What's the difference between a hygrometer reading and the dehumidifier's own display?",
+     "a": "Built-in displays on cheaper units are often optimistic and can read 5–10 percentage points drier than the room actually is, because the sensor sits right next to the machine's own dry air outlet rather than in the room's general air. A separate €10 hygrometer placed a couple of metres away, at breathing height, gives a far more honest picture of what you're actually living in. If you're relying on the humidistat setting to cut the machine off automatically, it's worth cross-checking it against an independent hygrometer at least once to see how far out it runs."
     }
    ]
   },
@@ -429,6 +477,54 @@
       "Brand support varies by seller"
      ],
      "verdict": "Worth shortlisting at €70 — ROMMQB 3L Ultra-Quiet Portable Dehumidifier earns its 4.6★ and undercuts several bigger names."
+    }
+   ],
+   "guide": [
+    [
+     "Why bedrooms fog up faster than any other room",
+     "An adult breathes out roughly half a litre of water vapour overnight, and two people sharing a room double that, all released into a space that's closed off, unheated once the radiator goes down, and often fitted with older single glazing that runs cold to the touch. That combination is exactly what condensation needs: warm moist air meeting a cold surface. It's why bedroom windows are wet by morning even in houses that seem dry everywhere else. A dehumidifier pulls that moisture out of the air before it has the chance to land on the glass or the wall behind the headboard, which is usually the coldest, least ventilated corner in the room and the first place mould shows up on wallpaper or paint. Two adults sharing a double bed in a poorly ventilated room can push local humidity noticeably higher than the rest of the house by morning, even in a home that otherwise reads dry."
+    ],
+    [
+     "Decibels matter more than litres here",
+     "A jump from 32dB to 40dB sounds trivial on a spec sheet but is roughly a doubling in perceived loudness, and it's the difference between a hum you forget about and one that keeps you awake. Compressor units cycle on and off and often have an audible click at each transition; desiccant and Peltier-style compact units tend to run more consistently but can have a higher-pitched fan note that some people find more intrusive than a low hum. Look for a stated dB figure measured at one metre, not just the word 'quiet' in the listing, and treat anything above about 38dB as a machine for daytime use rather than overnight beside a bed. Where possible, listen to the unit before buying — a showroom floor model, or a video review with the sound turned up, gives a far more honest sense of how intrusive the compressor's cycling click actually is than any number printed on a spec sheet."
+    ],
+    [
+     "Small capacity is not a compromise in a 10–12 m² room",
+     "A typical Irish bedroom is 10–14 square metres with a ceiling around 2.4m, giving a volume of roughly 25–34 cubic metres — small enough that a compact 6–8L/day unit reaches its target humidity within an hour or two of switching on, faster than a large machine would in the same space. Buying a big-house 20L unit for a single bedroom is wasted capacity and, worse, wasted noise, since a bigger compressor generally runs louder to move more air. Size the machine to the room it will actually live in, not to some future scenario where you might move it downstairs; a second small unit is cheaper than one oversized one and quieter in the room that matters most. The one exception is a bedroom that doubles as an occasional drying space for a load of washing, where the added moisture genuinely justifies stepping up to an 8–10L/day unit rather than staying at the bottom of the compact range."
+    ],
+    [
+     "Tank size versus how often you'll actually empty it",
+     "A 1–2 litre tank in an actively damp bedroom can fill within a day, which means a full-shut-off safety feature isn't optional — it's the only thing stopping the unit running dry and doing nothing useful while you're at work. Realistically, tanks under 2L suit a room that's mildly humid rather than genuinely wet; if condensation is a nightly event on the window, budget for emptying daily or look at a model with a continuous-drain hose option even in a bedroom, run discreetly to a bathroom next door. Check how the tank comes out and whether it has a handle and a spout, because an awkward tank you dread emptying is a tank that quietly stops getting emptied. A model with a clear indicator light and an audible alert when full removes most of the guesswork, which matters more in a bedroom than anywhere else in the house, since a silently overflowing tank is easy to miss until it's already happened overnight."
+    ],
+    [
+     "Apartment realities: no hose point, thin walls, rental rules",
+     "Rented Irish apartments rarely have a floor drain or an obvious point to run a continuous hose, which pushes most tenants toward tank-only compact units regardless of how wet the room gets — factor that into capacity choice, since you'll be emptying by hand every time. Thin partition walls in older conversions and some newer builds mean a machine's compressor hum can travel through to a neighbouring room, so noise rating matters even more than in a house. Check your tenancy agreement before drilling anything or running a hose through a window seal, and stick to a plug-in unit that needs no fixed installation — it's the only category guaranteed not to cause a deposit dispute when you move out. Where a landlord allows it, a small tray or mat under the unit is worth adding regardless of tank size, purely as insurance against an accidental spill onto a wooden or laminate floor."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Is it safe to leave a dehumidifier running overnight in a bedroom?",
+     "a": "Yes, provided the model has auto shut-off when the tank fills or the target humidity is reached, which almost every dehumidifier sold in Ireland today includes as standard. The main practical risk isn't safety so much as noise waking you or a full tank causing the unit to run pointlessly until morning. Keep it clear of bedding and curtains so airflow isn't blocked, and avoid running an extension lead under a rug — plug it directly into a wall socket near where it will sit, the same rule that applies to any appliance left on overnight."
+    },
+    {
+     "q": "What noise level is quiet enough to sleep next to?",
+     "a": "Under 30dB is genuinely unobtrusive, comparable to a quiet library; 30–35dB is the realistic range for most compact bedroom units and is fine for the majority of sleepers once the initial novelty wears off; above 38dB, expect it to be noticeable, especially the compressor's on-off click rather than the steady fan hum. Light sleepers should look specifically for a stated 'sleep mode' or 'night mode' that slows the fan and disables the click, even if it slightly reduces extraction rate overnight — a smaller drying effect you don't notice beats a bigger one that stops you sleeping."
+    },
+    {
+     "q": "Will a small dehumidifier stop condensation on bedroom windows?",
+     "a": "It reduces it significantly but won't eliminate it entirely if the glazing itself is old single-pane, since the glass surface temperature is the real driver of condensation, not just room humidity. Running the unit through the evening and overnight, with the door closed so drier air doesn't just leak into the hallway, gives the best result. Pairing it with even a small gap of ventilation for ten minutes each morning to let the initial moisture-laden air out, then closing up and letting the dehumidifier take over, works better than running it against a fully sealed, unventilated room."
+    },
+    {
+     "q": "Can I use a dehumidifier in a rented apartment without a drain?",
+     "a": "Yes — this is exactly what tank-based compact units are designed for, and it's the standard setup in the vast majority of Irish rentals. You simply empty the tank into a sink or bath when the indicator light shows full, typically every one to three days depending on how damp the room is. No drilling, no hose through a window, nothing that affects the deposit. If the tank fills unusually fast, that's useful information in itself — it means the room is more humid than expected and probably needs the vent or extractor fan used more, not just the dehumidifier."
+    },
+    {
+     "q": "Does a bedroom dehumidifier help with dust mites and allergies?",
+     "a": "Indirectly, yes. Dust mites thrive above about 50% relative humidity and struggle to reproduce below it, so keeping a bedroom in the 40–50% range with a dehumidifier makes the environment measurably less hospitable to them over several weeks, which is the timescale that actually matters for allergy symptoms, not overnight. It won't remove mites or their droppings already in a mattress or carpet — that needs washing and vacuuming — but it stops the population growing back as quickly. A model with a HEPA stage built in adds some benefit by capturing airborne allergen particles as well."
+    },
+    {
+     "q": "How often will I need to empty a small dehumidifier's tank?",
+     "a": "In a mildly humid bedroom, a 1–2L tank on a compact unit typically lasts two to three days before needing emptying. In a room with an active condensation problem — steamed-up windows most mornings — expect daily emptying, sometimes twice a day if you run the unit continuously rather than on a timer. Most units have a clear water-level window or an automatic shut-off light, so you're never guessing; if you find yourself emptying it more than once a day consistently, that's a sign the room needs a bigger-capacity unit or better ventilation alongside it."
     }
    ]
   },
@@ -618,6 +714,54 @@
      ],
      "verdict": "The challenger: 12L Dehumidifier with Digital Humidity Display won't dethrone our winner, but at €149 it makes the podium fight interesting."
     }
+   ],
+   "guide": [
+    [
+     "Whole-house extraction math for 4+ bedrooms",
+     "A 4-bedroom Irish semi with normal occupancy — cooking, showering, drying the odd load of washing indoors — generates several litres of airborne moisture a day before you even factor in a damp problem. A single 20L/day-rated unit placed centrally, on a landing or in a hallway with doors left ajar to let air circulate, can realistically manage a house this size, though the lab-rated 20L figure assumes 80% humidity and you'll see less in practice. For a genuinely damp house, or one with a basement, converted attic or ground floor that stays noticeably colder than upstairs, two units — one per floor — will dry the place faster and more evenly than one large machine trying to pull air through stairwells and closed doors from a single point."
+    ],
+    [
+     "Continuous drainage beats tank-emptying at this scale",
+     "At 20L/day extraction, a 4–5 litre tank fills within hours during heavy use, which makes tank-only operation impractical for anything beyond light daytime use — you'd be emptying it constantly or it would shut off and sit idle overnight when it's needed most. Almost every large-capacity model sold in Ireland has a continuous-drain hose fitting; running it to a nearby sink, bath, or an external gravity drain point turns the machine into genuinely unattended, 24-hour operation. If there's no gravity-fed drain within hose reach, a handful of large units include a built-in condensate pump that can push water uphill to a sink — check for this feature specifically if your intended spot has no floor-level drain nearby. Check the hose's internal diameter and maximum run length against the manufacturer's spec before adding any extension hose of your own, since too long or too narrow a run restricts flow and can trigger the tank's backup float switch unnecessarily."
+    ],
+    [
+     "Solid-wall and post-1970s houses without cavity insulation",
+     "Roughly one in six Irish homes was built before 1945, and the great majority of those have solid walls with no cavity — brick or stone with nowhere for insulation to go, which means cold internal wall surfaces even when the room air itself is warm. That temperature gap between the room and the wall surface is what condensation and, eventually, mould actually forms on. Houses from the 1950s to 1970s usually have a cavity but it's often uninsulated unless retrofitted, giving a similar if less severe problem. A large-capacity dehumidifier run centrally helps by lowering the overall moisture load air has available to condense, but it's treating the symptom — pairing it with even modest background heat to keep wall surfaces above dew point does more long-term good than extraction alone."
+    ],
+    [
+     "Running a big unit all day without the bill scaring you",
+     "A 20L-class compressor unit typically draws 250–320W. Run one for 10 hours a day at 280W and that's 2.8kWh, costing around €1.06 a day on the standard 38 cent rate — about €32 a month of steady use. Move that running window onto a smart-meter night rate of roughly 18 cent a unit and the same 10 hours costs about €0.50 a day, close to half. Most large units pair a timer with a humidistat that switches the compressor off automatically once the room reaches its set reading, so in practice you're rarely paying for a full 10 hours once the house dries out from an initial damp state — the first week costs the most, after which the machine cycles on and off far less. A plug-in smart socket with a schedule is a cheap way to enforce night-only running automatically, without relying on remembering to switch the unit on and off yourself each evening."
+    ],
+    [
+     "Unheated spaces: garages, sheds, converted attics",
+     "Compressor dehumidifiers lose extraction capacity as the room gets colder and can ice up their coils below roughly 15°C, which rules them out for most unheated Irish outbuildings for a good chunk of the year. Desiccant models sidestep this entirely — Meaco's DD8L Junior, for example, is rated to run at full extraction down to 5°C because it uses a rotating absorbent wheel and a heating element rather than a refrigerant coil, at the cost of higher power draw per litre removed. For a converted attic used as storage, a garden shed with tools that rust, or a garage where a car sits over winter, a desiccant unit run on a timer through the coldest months will outperform a compressor model that simply can't operate at rated capacity in those temperatures."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Can one dehumidifier dry a whole 4-bedroom house?",
+     "a": "A single 20L/day unit placed centrally, with internal doors left ajar so air can circulate between rooms, can meaningfully reduce humidity across a 4-bedroom house, but it won't dry every room evenly — the room it's in and adjacent spaces benefit most, while a bedroom at the far end with its door closed sees little change. For consistent results throughout, two units on separate floors work better than one large unit trying to do the whole house through hallways and stairs. Persistent damp in one specific room usually needs its own dedicated unit regardless of what's running centrally."
+    },
+    {
+     "q": "Do I need a dehumidifier with a pump for continuous drainage?",
+     "a": "Only if there's no gravity-fed drain point — a sink, bath, or floor drain — lower than or level with the hose outlet near where the machine will sit. Gravity drainage is simpler and has nothing to fail, so use it if the geography allows. A built-in pump becomes necessary when the only nearby drain is higher than the machine, common in basements or ground-floor utility rooms plumbed above floor level, since the pump pushes condensate uphill through the hose rather than relying on gravity alone."
+    },
+    {
+     "q": "Is a 20L/day dehumidifier louder than a small one?",
+     "a": "Generally yes, though not dramatically — larger compressors and fans moving more air typically run in the high 30s to mid-40s dB range compared to the low-to-mid 30s for compact bedroom units. In a hallway or landing, which is where large units usually sit, this is rarely a practical problem since it's not a room people sleep or work in. If the plan is to run one in an open-plan living space you also spend evenings in, check the stated dB figure and consider whether a lower fan speed setting, which most large units offer, is quiet enough for that use."
+    },
+    {
+     "q": "What size dehumidifier suits a house with no cavity wall insulation?",
+     "a": "Go toward the higher end of capacity for the house's floor area, since solid-wall and uninsulated-cavity houses lose heat faster and run colder internal wall surfaces, which drives more condensation than the air humidity level alone would suggest. A 20L/day-rated unit for a mid-size semi is a sensible baseline rather than the 12L that might suit an equivalent insulated house. Pairing the dehumidifier with modest background heating to keep wall surfaces above dew point matters as much as the machine's capacity — extraction alone is fighting a structural heat-loss problem it can't fully solve."
+    },
+    {
+     "q": "Can a dehumidifier run all day without damaging itself?",
+     "a": "Yes, large-capacity units sold for whole-house use are built for extended or continuous operation, and running one on a hose drain with a humidistat cut-off is standard practice rather than a stress test. What shortens a compressor's life is running it in conditions outside its design range — persistently below about 15°C causes ice build-up on the coil that a compressor unit isn't built to manage repeatedly — or letting dust clog the filter so the motor works harder than it should. Clean the filter monthly during heavy use and continuous running is otherwise unremarkable."
+    },
+    {
+     "q": "Should I get a desiccant model for an unheated garage or attic conversion?",
+     "a": "Yes, if the space regularly sits below about 15°C, which describes most Irish garages and unheated attic conversions for at least half the year. Desiccant dehumidifiers keep their full rated extraction down to around 5°C, while compressor models lose capacity and can ice up in the same conditions, making them the wrong tool for a genuinely cold outbuilding even though they're usually cheaper to run per litre in a heated room. The trade-off is a higher power draw and often a bit more noise, which matters less in a garage than a living space."
+    }
    ]
   },
   {
@@ -806,6 +950,54 @@
      ],
      "verdict": "The challenger: Meaco MeacoDry ABC 12L won't dethrone our winner, but at €199 it makes the podium fight interesting."
     }
+   ],
+   "guide": [
+    [
+     "How much water is actually in a wash load",
+     "A full load spun at 1200–1400rpm still holds roughly 1.5–2.5 litres of residual water, depending on fabric mix — towels and denim hold more, synthetics less. That water has to go somewhere: either into a tumble dryer's exhaust or heat pump condenser, or into the room's air if you're drying on an airer, where a dehumidifier then has to pull it back out. A mid-size 8–12L/day unit comfortably handles one load's worth of moisture within a single overnight run, which is why laundry-mode dehumidifiers are sized the way they are — the extraction rate isn't really about the whole room, it's specifically about matching what one wash load releases into the air over six to eight hours. It also explains why a single small load barely challenges a mid-size unit, while back-to-back laundry days — one wash in the morning, another in the evening — can genuinely fill a tank or push a continuous-drain hose close to its working limit."
+    ],
+    [
+     "Laundry mode vs normal mode — what changes",
+     "Normal mode targets a humidity setpoint and cycles the compressor on and off once the room reaches it, which is efficient for general damp control but slow for wet clothes because the fan drops to low speed once the air feels dry, even though the clothes themselves are still holding water. Laundry mode overrides the humidistat and runs the fan at maximum continuously, prioritising airflow speed over the room's overall humidity reading — the goal shifts from 'dry air' to 'move as much air across wet fabric as possible.' It uses more electricity per hour than normal mode as a result, but finishes a load in roughly a third of the time, which is the actual point of the feature. Some models also raise the target temperature slightly in this mode, since warmer air holds more moisture and speeds up evaporation off the fabric, not just the extraction happening afterward."
+    ],
+    [
+     "Room setup: closed door, airer position, airflow path",
+     "A closed door matters more for drying speed than almost any other factor, because an open door lets the dehumidifier fight the volume of the whole house rather than one room. Position the airer so clothes face the machine's air outlet directly rather than side-on, and leave real gaps between items — a densely packed airer traps still, saturated air between garments that the machine's airflow never reaches. A small bathroom or box room with the door shut and the airer three-quarters of a metre from the unit will outperform the same machine in an open-plan kitchen-diner by a wide margin, purely because of enclosed volume and direct airflow. Tiled bathrooms and box rooms with hard, non-absorbent surfaces also dry faster than a carpeted spare room, since carpet and soft furnishings soak up ambient humidity and release it back slowly, which extends the time the dehumidifier needs to finish the job."
+    ],
+    [
+     "The real cost versus a tumbler, done properly",
+     "A typical vented or condenser tumble dryer costs roughly €1.30–1.80 per load at the standard 38 cent electricity rate, drawing 2–3kW for 60–90 minutes. A dehumidifier in laundry mode, drawing around 250–300W and running for 6–8 hours overnight to finish the same load, uses roughly 1.8–2.4kWh — about €0.68–0.91 a day on the standard rate, or closer to €0.35–0.45 on a smart-meter night rate. It's slower but meaningfully cheaper, and it does it without the fabric wear a tumble dryer's heat and tumbling action causes. Over a household doing four loads a week, that's a realistic saving of €15–25 a month depending on which rate you're running it on. Factor in time as well as money: a tumble dryer finishes in under two hours, while the dehumidifier route takes most of a night, so it suits households that can plan a load the evening before rather than needing clothes dry within the hour."
+    ],
+    [
+     "Desiccant vs compressor for a cold utility room or garage",
+     "Utility rooms and converted garages used for laundry are often the coldest, least-heated part of an Irish house, and that's precisely where compressor dehumidifiers underperform, losing extraction capacity as the room temperature drops and struggling below roughly 15°C. A desiccant model keeps close to its top extraction figure right down to around 5°C, which matters directly for laundry drying since a cold utility room with wet washing on an airer is exactly the scenario where a compressor unit would take noticeably longer than its rated figures suggest. The trade-off is a higher running cost per litre extracted and, on most desiccant models, a warmer exhaust air stream — which is actually useful in a laundry context, since it helps the fabric dry rather than just the room air. It's worth checking the model's stated minimum operating temperature specifically, since not every desiccant unit sold is rated as low as 5°C despite the technology generally coping better with cold than a compressor."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "How long does it take a dehumidifier to dry a load of washing indoors?",
+     "a": "With a mid-size unit in laundry mode, a closed door, and a normally spun load, expect roughly 6–10 hours for full drying — an overnight run is the standard approach. Heavier items like towels, jeans and jumpers sit at the longer end; shirts and synthetics dry faster, sometimes in 4–5 hours. Running the same setup with the door open, or in a larger room, can roughly double that time because the machine is working against a bigger volume of air rather than a concentrated pocket of humidity around the airer."
+    },
+    {
+     "q": "Does drying clothes indoors with a dehumidifier cause mould?",
+     "a": "No — that's specifically the problem a dehumidifier prevents. Drying clothes indoors without one is what causes mould, because the moisture released by wet washing has nowhere to go except into the room's air, walls and window reveals. A dehumidifier removes that same water as it evaporates off the clothes rather than letting it build up in the room, which is why laundry-mode dehumidifying is considered safer for indoor drying than an airer alone, provided the machine's tank or drain is keeping pace with what it's pulling out."
+    },
+    {
+     "q": "Is laundry mode different from normal dehumidifying mode?",
+     "a": "Yes. Normal mode targets a set humidity level and slows or stops once the room reaches it, which is efficient for general damp control but leaves the fan running too slowly to dry wet fabric quickly. Laundry mode overrides that and runs the fan at maximum speed continuously regardless of the room's humidity reading, prioritising airflow across the clothes over overall room dryness. It uses more power per hour but finishes a load roughly three times faster, which is the entire reason the mode exists on models that offer it."
+    },
+    {
+     "q": "Can I dry clothes with a dehumidifier in a bedroom overnight?",
+     "a": "It works, but a dedicated small room like a bathroom or box room is a better choice if one's available, since bedroom air quality and noise both matter more overnight than in an unoccupied room. If a bedroom is the only option, use a quieter compressor unit rather than a loud laundry-mode blast, accept a longer drying time, and make sure the room has some ventilation so you're not sleeping in air saturated with evaporating detergent and fabric-softener scent for eight hours."
+    },
+    {
+     "q": "Do I need a dehumidifier or just a clothes airer with a fan?",
+     "a": "A fan alone speeds up evaporation off the clothes but does nothing about where that moisture ends up — it just spreads it around the room faster, which can make condensation on windows and cold walls worse, not better. A dehumidifier actually removes the water from the air rather than redistributing it. For occasional light drying a fan can shave some time off, but for regular indoor laundry drying through an Irish autumn and winter, the dehumidifier is doing a genuinely different job, not just a cheaper version of the same one."
+    },
+    {
+     "q": "Does a dehumidifier damage or shrink clothes the way a tumble dryer can?",
+     "a": "No. A tumble dryer's shrinkage and wear come from heat and physical tumbling against a drum, neither of which a dehumidifier applies — clothes hang still on an airer while the machine simply removes moisture from the surrounding air. This makes dehumidifier drying gentler on wool, delicate synthetics and anything that's shrunk or pilled in a tumble dryer before. The trade-off is time and the lack of the fluffing effect tumbling gives towels, which come out drier but flatter than a tumble-dried equivalent."
+    }
    ]
   },
   {
@@ -968,6 +1160,54 @@
       "Brand support varies by seller"
      ],
      "verdict": "Worth shortlisting at €181 — De'Longhi Tasciugo AriaDry Dehumidifier earns its 4.5★ and undercuts several bigger names."
+    }
+   ],
+   "guide": [
+    [
+     "The 60% rule and why it actually works",
+     "Mould spores are present in essentially all air, indoors and out — the question is never whether they exist in your house but whether conditions let them germinate and spread. Below roughly 60% relative humidity, sustained, most common household mould species can't establish a colony on an ordinary surface; above 70%, especially held for days at a time, growth becomes close to inevitable given a food source, and painted plaster, wallpaper paste and timber all qualify. This is why the advice isn't 'reduce dampness' in the abstract but a specific number: get the room to 50–55% and hold it there with a humidistat, rather than running a dehumidifier occasionally and hoping. Spot-checking with a cheap hygrometer in the worst-affected room tells you whether you're actually below the threshold or just assuming you are."
+    ],
+    [
+     "Filtration matters here in a way it doesn't elsewhere",
+     "An active mould patch releases spores into the air continuously, and cleaning the visible patch — even properly, with a fungicidal wash rather than bleach alone — doesn't remove what's already airborne or settled on nearby surfaces. A dehumidifier with a genuine HEPA stage, not just a coarse dust mesh, captures a meaningful share of those circulating spores while the humidity control stops new colonies forming. This is one of the few dehumidifier use cases in an Irish home where the filtration spec is worth paying extra for, rather than being a marketing add-on to ignore; in a general damp-control context it matters far less, but with active mould already present it's addressing a second, separate part of the problem. Check the filter is washable or replaceable and actually stock a spare, since a clogged filter left unchanged for months quietly stops doing the one job you bought it for."
+    ],
+    [
+     "Where to place it for an already-mouldy room",
+     "Position the unit so its air intake faces the affected wall or corner directly rather than sitting across the room from it — window reveals, the wall behind a wardrobe pushed flush against an external wall, and un-ventilated corners are the classic Irish mould spots because they're the coldest surfaces in the room and get the least air movement. Pull furniture a few centimetres off external walls if you can; even a small air gap lets moisture-laden air circulate instead of sitting trapped and condensing. In a room with mould in more than one location, prioritise proximity to the worst patch over centring the machine in the room — humidity control is more effective addressed at the source than averaged across the whole space. Avoid boxing the unit into a corner or behind furniture yourself, since restricting its own air intake defeats the point in exactly the way a blocked wardrobe defeats natural airflow."
+    ],
+    [
+     "What a dehumidifier won't fix",
+     "A dehumidifier treats condensation dampness — moisture from air meeting cold surfaces — which is the majority of Irish household mould cases, but it does nothing for rising damp, where groundwater moves up through a wall from a failed or absent damp-proof course, or penetrating damp from a leaking roof, gutter or render crack letting water in directly. Both look similar to condensation mould at first glance, but rising damp typically shows as a tide-mark low on the wall and penetrating damp tracks from a specific point of entry rather than appearing evenly across a cold corner. If a dehumidifier has been running consistently for several weeks and the problem hasn't improved, that's a strong signal the cause isn't airborne moisture at all, and it's worth having the wall or roof checked before spending more on drying equipment."
+    ],
+    [
+     "Continuous running until the numbers hold",
+     "Treat the first two to three weeks as a reset period rather than expecting overnight results — a room that's been sitting above 70% humidity for months has moisture soaked into plaster, timber and soft furnishings, not just the air, and that reservoir needs to be pulled down along with the air itself. Run the unit continuously on a humidistat set to 50–55% rather than a timer during this period, and check with an independent hygrometer weekly rather than trusting the machine's own display. Once the room holds its target consistently without the machine running for days at a time, you can drop to occasional or seasonal use — but if humidity climbs straight back up whenever the dehumidifier is off, that points to a ventilation gap or a structural moisture source that extraction alone is only ever masking."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "What humidity level actually kills mould growth?",
+     "a": "Mould doesn't die outright the way heat or bleach kills it, but it stops actively growing and spreading once relative humidity is held consistently below about 60%, and existing colonies dry out and become dormant rather than continuing to spread. The safer sustained target for a room with an existing mould history is 50–55%, giving a buffer below the threshold rather than sitting right at the edge. Brief spikes above 60% — an hour after a shower with the door open, for instance — aren't the issue; it's humidity held above that level for extended periods that lets mould re-establish."
+    },
+    {
+     "q": "Will a dehumidifier remove mould that's already on the wall?",
+     "a": "No, not the physical mould itself — that needs cleaning with a fungicidal wash and, on painted or papered surfaces, sometimes stripping back and repainting with an anti-mould paint afterward. What a dehumidifier does is stop the conditions that let it come back after cleaning, and its filter can capture a share of the spores the mould has already released into the air. Skipping the physical clean and relying on the dehumidifier alone leaves dead or dormant mould and its staining in place, even once the humidity problem is under control."
+    },
+    {
+     "q": "Does a dehumidifier help with black mould in a bathroom without a window?",
+     "a": "Yes, though an extractor fan matters more in that specific room, since bathrooms generate huge, sudden moisture spikes from showering that a dehumidifier reacts to relatively slowly compared to a fan pulling steam out in real time. The two work best together: extractor fan running during and for twenty minutes after a shower to remove the bulk of the moisture immediately, and a small dehumidifier for background humidity control the rest of the day, especially if the fan is old, weak, or on a timer that cuts off too soon."
+    },
+    {
+     "q": "How long before a dehumidifier clears a mould problem?",
+     "a": "Visible improvement in air quality and a drop in musty smell often shows within the first week, but treat two to three weeks of continuous running as the realistic timeline for a room's humidity to stabilise properly, since moisture held in plaster and timber takes longer to release than the air itself takes to dry. A room with a long-standing, severe problem can take four to six weeks before it holds its target humidity without the machine running constantly. If there's no measurable improvement after three weeks of consistent operation, the cause is likely structural rather than airborne."
+    },
+    {
+     "q": "Is mould dangerous to breathe in an Irish home?",
+     "a": "For most healthy adults, everyday exposure to common household mould is an irritant rather than a serious health risk, causing symptoms like a stuffy nose, throat irritation or worsened asthma in sensitive individuals. It's more of a concern for young children, older adults, and anyone with existing respiratory conditions or a compromised immune system, where prolonged exposure can meaningfully worsen symptoms. Either way, visible mould covering a significant area is worth treating properly rather than living with — it's a maintenance problem with a known fix, not something to just filter around indefinitely."
+    },
+    {
+     "q": "Do I need a dehumidifier if I already have an extractor fan?",
+     "a": "Often yes, because they solve different timescales of the same problem. An extractor fan removes a sudden burst of moisture — from a shower or a pot boiling — quickly and directly at the source, but does nothing for the slower, baseline humidity that builds up across a whole room or house over hours and days from breathing, heating patterns and general living. A dehumidifier handles that steadier background level. A house with strong extraction but still-persistent morning condensation or a musty smell in a specific room is a good candidate for adding a dehumidifier rather than assuming the fan alone should be enough."
     }
    ]
   }

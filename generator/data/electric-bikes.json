@@ -67,6 +67,54 @@
     2,
     0
    ],
+   "guide": [
+    [
+     "Match the bike to the commute, not the spec sheet",
+     "Before comparing wattage and battery size, work out which category you actually need — the five bikes below span four very different use cases, and the \"best\" one depends entirely on yours. A flat 4km commute on quiet roads barely needs assistance at all, so a mid-range hub-motor bike is plenty. Add hills, headwind, or 10km-plus each way and torque starts to matter more than top speed. Living in an apartment or sharing a hallway with three flatmates points you toward a folding frame, regardless of how good a full-size bike's motor is. Weekend trail riding needs a completely different platform — wider tyres, more suspension travel, a frame rated for repeated impact — than anything built for tarmac. Skipping this step is why so many Irish e-bike buyers end up swapping bikes within a year: the spec sheet was good, the category was wrong."
+    ],
+    [
+     "The €1,500 Cycle to Work ceiling and where it bites",
+     "Cycle to Work covers up to €1,500 for an e-bike and safety equipment, versus €1,250 for a standard bicycle and €3,000 for a cargo bike, and it can be used once every four tax years. The saving comes from salary sacrifice: the amount comes off your gross pay before income tax, USC and PRSI, so a higher-rate taxpayer paying roughly 52% in combined deductions saves close to that proportion of the bike's price. On a bike priced exactly at €1,500, that is a real-world saving of several hundred euro spread across the repayment period, typically 12 months. The catch is the ceiling itself: anything priced above €1,500 still qualifies, but only the first €1,500 gets the tax relief, and the balance is paid normally. Check with your employer's payroll provider before ordering, because not every employer has the scheme set up, and some cap the annual amount lower than Revenue allows."
+    ],
+    [
+     "Legal status: pedelec vs moped, and why it matters when buying",
+     "Every bike here needs to be a pedelec to count as a bicycle under Irish law: pedal-assist only, motor output capped at 250W continuous, and assistance that cuts out at 25km/h. Meet those limits and you need no licence, no insurance and no registration — it's legally a bicycle, full stop. Cross into throttle-controlled territory, where the motor moves the bike without pedalling, and Irish law reclassifies it as a motor vehicle, which drags in registration, insurance and a licence most buyers don't have. Speed pedelecs that assist up to 45km/h fall into an L1e-B moped category with the same requirements. None of the bikes compared below are throttle-only or speed pedelecs, but it's worth checking this yourself on any bike you're considering outside this list — the spec sheet should say 250W and 25km/h explicitly, and if it doesn't, ask before buying."
+    ],
+    [
+     "Hub motor vs mid-drive, and why it shows up in every category here",
+     "Every bike in this comparison uses a hub motor rather than a mid-drive, and that's not an accident — hub motors are cheaper to build, simpler to service, and dominate the sub-€2,000 Irish market almost completely. A hub motor sits in the wheel and pushes directly, which works fine on flat and rolling terrain but loses efficiency on steep, sustained climbs because it can't use the bike's gears to multiply torque the way a mid-drive can. Mid-drives, mounted at the pedals, feel more natural and climb better, but they cost considerably more and concentrate wear on the drivetrain. For commuting on Irish roads with the occasional hill, a hub motor is a sensible trade-off. For repeated steep climbing — the kind found on eMTB routes — the torque disadvantage becomes more noticeable, which is worth remembering if your riding leans toward trails rather than tarmac."
+    ],
+    [
+     "What breaks first, and where to get it fixed in Ireland",
+     "Across owner reports, the parts that fail first are predictable: budget tyres puncture more on Irish roads' broken glass and hedge-cutting debris, cheap cable-actuated brakes lose bite in the wet faster than hydraulic ones, and connectors at the battery-to-controller junction corrode if they're not sealed well after a winter of rain. None of that is specific to one brand — it's a function of price point. Before buying, check whether the seller has an Irish or EU-based service point, because posting a battery or motor back to a warehouse outside the EU for warranty work routinely takes months and can trigger customs charges on the way back. Independent bike shops around Ireland increasingly service e-bikes regardless of brand, but they need the battery's specific charging profile and sometimes proprietary tools for motor diagnostics, so ask before assuming any shop can fix any bike."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "What's the real difference between a hub-motor and a mid-drive e-bike?",
+     "a": "Hub motors sit in the wheel and push directly; mid-drives sit at the pedals and drive through the bike's own gears. That gearing means a mid-drive delivers more usable torque on steep climbs and feels more like pedalling a very fit version of yourself, while a hub motor feels more like being pushed from behind. Mid-drives cost more — typically several hundred euro more at the same spec level — and concentrate extra wear on the chain and cassette, which need replacing more often. For flat-to-rolling Irish commuting, hub motors are the sensible default and are what nearly every bike under €2,000 sold here uses. Mid-drives earn their price on eMTBs and long, hilly commutes."
+    },
+    {
+     "q": "Do all e-bikes here qualify for Cycle to Work?",
+     "a": "Any of these bikes qualify as long as your employer has the Cycle to Work scheme set up and processes the purchase through payroll — the scheme applies to the bike, not the specific retailer, provided it's a genuine pedal-assist bicycle rather than a throttle-controlled vehicle. The relief covers up to €1,500 of an e-bike's price; anything above that is paid normally without tax relief. Confirm with your payroll or HR contact before ordering, since some employers require you to buy through a specific registered retailer or portal rather than any seller, and the paperwork needs to be in place before you pay, not after."
+    },
+    {
+     "q": "How long do e-bike batteries actually last before they need replacing?",
+     "a": "Most lithium-ion e-bike batteries are rated for 500 to 800 full charge cycles before capacity drops to around 70-80% of new, which for a typical commuter charging every couple of days works out to roughly three to five years of useful life. Heat, deep discharges and leaving a battery fully charged in storage all accelerate that decline, while partial charges and storing at around 50% over winter slow it down. Replacement batteries for popular models generally cost a few hundred euro, so factor that into the bike's real cost rather than treating the purchase price as final. Ask about standalone battery availability and price before buying, not after the original dies."
+    },
+    {
+     "q": "Is it worth buying an e-bike directly online versus from a local shop?",
+     "a": "Online-only purchases from Amazon-style marketplaces are usually cheaper and offer far more choice, and that's reflected in most of the models compared here. The trade-off is assembly, initial setup and warranty handling — a local shop will build the bike properly, check brake and gear adjustment, and give you somewhere to walk in if something's wrong. Buying online means doing that setup yourself or paying a shop separately to check it over, and warranty claims go through the retailer rather than a face you know. Neither approach is wrong, but budget an extra hour of setup time and possibly a shop visit if you buy online."
+    },
+    {
+     "q": "What does an e-bike actually cost to own over five years?",
+     "a": "Purchase price is only part of it. Add a replacement battery around year three to four (a few hundred euro), tyres roughly every 12-18 months depending on mileage, brake pads twice a year for daily commuters, and an annual service if you don't do it yourself. Electricity is negligible — a full charge on a typical 400-500Wh battery costs around 15-20 cent at current rates. Realistically, budget an extra 20-30% of the purchase price spread across five years for consumables and one battery replacement. A Cycle to Work purchase reduces the upfront hit but doesn't touch these ongoing costs, so factor them in when comparing a cheap bike against a pricier one with better base components."
+    },
+    {
+     "q": "Can I convert a normal bike into an e-bike instead of buying new?",
+     "a": "Yes, conversion kits are widely available and can be cheaper than a new bike if you already own a decent frame, but the legal limits are identical — the finished conversion still needs to cap out at 250W continuous and cut assistance at 25km/h to count as a bicycle rather than a motor vehicle. Quality varies hugely between kits, and a poorly fitted hub motor or battery mount can strain a frame that wasn't designed for the extra weight and torque. For most buyers, a purpose-built e-bike with an integrated frame, matched components and a proper warranty is the safer choice; conversion suits someone mechanically confident with a bike worth keeping."
+    }
+   ],
    "products": [
     {
      "id": "ebk-001",
@@ -91,7 +139,7 @@
       "Premium price",
       "Heavy like all fat folders"
      ],
-     "verdict": "The best e-bike on Amazon.ie right now: massive range, natural torque-sensor assist, top owner ratings."
+     "verdict": "A torque sensor rather than a basic cadence sensor is the headline spec here — it reads how hard you're actually pedalling and adjusts assist accordingly, giving a noticeably more natural ride feel than the cheaper cadence-based ENGWE below. The 48V 15Ah battery is rated for up to 130km, among the longest ranges on this list, and it currently holds the highest owner rating of any e-bike we track on Amazon.ie at 4.8 stars. That performance comes at the top price point here, and like every fat-tyre folding e-bike, it's genuinely heavy to lift or carry up stairs. The right choice for someone who wants the most natural-feeling assist and longest range and is prepared to pay for it; budget-focused buyers should look to the VARUN instead."
     },
     {
      "id": "ebk-002",
@@ -116,7 +164,7 @@
       "Cadence assist (not torque)",
       "Bulky folded"
      ],
-     "verdict": "The range-per-euro king: week-of-commutes battery in a folding frame at €1,049."
+     "verdict": "Claimed range of up to 120km comes from the same ENGWE build quality as the flagship above, but at roughly €650 less, making this the range-per-euro option on this list. The battery is removable, so it can be charged indoors overnight without hauling the whole bike inside — handy for apartment living. Assist comes from a cadence sensor rather than the flagship's torque sensor, meaning the motor responds to pedal rotation rather than pedalling force, which feels less refined on hills. It also folds down to a bulkier package than some rivals, so storage space matters. A strong pick for commuters chasing maximum range on a mid-size budget; riders who prioritise ride feel over range should pay up for the torque-sensor model."
     },
     {
      "id": "ebk-003",
@@ -141,7 +189,7 @@
       "€2,000 territory",
       "Very heavy"
      ],
-     "verdict": "The range flagship: a 1440 Wh monster battery that makes range anxiety a memory."
+     "verdict": "At 1440Wh, the battery on this Fafrees is roughly double the capacity of most other e-bikes on this list, translating into range built for a full week of commuting between charges rather than the usual few days. Components across the board are pitched at flagship level to match that battery size. All of that pushes the price into the €2,000 range, the highest here, and the bike itself is very heavy — even more so than the already-substantial ENGWE fat folders — a real factor if you need to carry it up steps or into storage regularly. Suited to riders who want to charge as rarely as possible and don't mind the weight; most commuters will find the ENGWE models cover their needs for considerably less money."
     },
     {
      "id": "ebk-004",
@@ -166,7 +214,7 @@
       "Smaller wheels feel speed bumps",
       "Style splits opinion"
      ],
-     "verdict": "The accessibility champion: swing a leg through, not over — comfort-first fat-tyre riding."
+     "verdict": "The low step-through frame is the reason to pick this over the other ENGWE models: mounting and dismounting is far easier in a skirt, a long coat, or if bending a leg over a high crossbar is uncomfortable. Fat 20x4.0 tyres smooth out rough Irish road surfaces, and 7 gears give enough range to manage hills without a motor doing all the work. The trade-off with smaller 20-inch wheels is that they transmit speed bumps and potholes more directly than the bigger wheels on other models, and the fat-tyre, step-through look is distinctive enough that it won't suit everyone's taste. Ideal for riders who prioritise easy mounting and comfort over top-spec range or a conventional bike silhouette."
     },
     {
      "id": "ebk-005",
@@ -191,7 +239,7 @@
       "Cadence assist",
       "Basic components"
      ],
-     "verdict": "The Amazon.ie entry hero — legal, practical, and now even cheaper at €549."
+     "verdict": "A 250W motor keeps this VARUN within EU pedelec rules, and at €549 — following a recent price drop — it's by far the cheapest e-bike on this list, undercutting the next-cheapest ENGWE by around €500. The battery is removable for indoor charging, and the claimed 45-60km range covers a realistic daily commute for most riders. Assist comes from a basic cadence sensor rather than a torque sensor, so pedal feel is less refined than the pricier ENGWE and Fafrees models, and components generally are built to a price rather than a premium spec. The obvious entry point for anyone wanting a legal, functional e-bike without committing four figures; riders wanting refined assist or maximum range should budget for one of the ENGWE models instead."
     }
    ]
   },
@@ -205,6 +253,54 @@
     5,
     1,
     4
+   ],
+   "guide": [
+    [
+     "What actually gets cut to hit €900",
+     "At this price point, the corners that get cut are consistent across brands: battery cells are less likely to be from a recognisable manufacturer like Samsung or LG, motor controllers are simpler with less overload protection, and brakes are almost always mechanical disc rather than hydraulic. None of that automatically makes a bike unsafe, but it does mean more variance in how a battery ages and less stopping power in the wet than a hydraulic system delivers. Frame welds and paint finish are usually fine even on budget bikes, since frames are commodity manufacturing and cheap to get right. What's harder to see from a listing is the battery management system (BMS) — the circuit that stops cells overcharging or overheating — and that's exactly where budget corners get cut without ever showing up in the spec sheet. It only becomes obvious in how the battery behaves after a year of use."
+    ],
+    [
+     "Reading a battery spec sheet like a skeptic",
+     "Battery size is written as voltage times amp-hours, and multiplying the two gives you watt-hours (Wh), which is the number that actually predicts range — a 36V 10Ah battery is 360Wh, a 48V 10Ah battery is 480Wh, and bigger Wh means more range at the same efficiency. Manufacturer range claims are typically measured on flat ground, in eco mode, with a light rider and no wind, so treat any quoted figure as a ceiling rather than an estimate. For real Irish riding — hills, a headwind, a rider closer to 85kg than 65kg, using mid-assist rather than eco — expect 40 to 60% of the advertised number. A bike claiming 50km range should realistically be budgeted at 20-30km for a hillier commute, which matters enormously if you're deciding between two models with different claimed ranges."
+    ],
+    [
+     "Cycle to Work under €1,000: the actual net numbers",
+     "A sub-€1,000 e-bike gets the full benefit of Cycle to Work with room to spare under the €1,500 ceiling, and the maths is straightforward through salary sacrifice. Take a €999 bike: a higher-rate taxpayer paying 40% income tax plus 4% PRSI and 8% USC on that slice of income saves roughly 52% through the scheme, bringing the net cost to around €480, typically repaid over 12 months from gross salary. A standard-rate taxpayer on 20% tax saves closer to 28-32% combined, landing nearer €680-720 net. Either way, the saving is proportionally larger relative to the bike's price on a cheaper bike than on one near the €1,500 ceiling, because the full purchase price sits inside the relief. Confirm your employer runs the scheme and processes it through payroll before ordering — the discount only applies if the paperwork is done correctly."
+    ],
+    [
+     "Warranty and parts: the budget-tier risk",
+     "Most sub-€1,000 e-bikes sold in Ireland come from brands selling primarily through Amazon or their own web store rather than through a network of local dealers, which changes how warranty claims work in practice. A faulty controller or display usually means shipping the part back and waiting for a replacement rather than walking into a shop, and turnaround varies from a week to over a month depending on where the brand's EU warehouse is based. Before buying, check whether the listing or brand site mentions an EU or Irish return address specifically, not just an EU delivery address — those are different things. Also check whether spare batteries and chargers are sold separately for that exact model; budget brands sometimes discontinue a battery type within a year or two, leaving working bikes with no replacement available."
+    ],
+    [
+     "When cheap is false economy",
+     "The single biggest false economy at this price point is a battery that fails at year two rather than year four, because a replacement can cost 30-40% of what the whole bike cost new — on a €700 bike, that's a €250-300 hit that erases most of the original saving over a pricier model. The second is corrosion: budget e-bikes are more likely to use unsealed connectors and painted rather than anodised or stainless fasteners, both of which degrade faster under Ireland's frequent rain. Wiping the bike down after wet rides and keeping it under cover extends component life noticeably, but it's an extra habit a pricier bike with better sealing doesn't demand as strictly. None of this means avoid budget e-bikes — it means budget for a second-year check-up and treat the purchase price as the start of the cost, not the whole of it."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Are sub-€1,000 e-bikes safe to ride daily?",
+     "a": "Yes, provided the bike has disc brakes (mechanical is acceptable, hydraulic is better), a battery from a bike-specific brand rather than an unbranded pack, and CE or UKCA marking on the battery and charger. Safety at this price comes down to the electrical system more than the frame — a poorly made battery pack is the main real risk, not the mechanical build. Check reviews specifically for battery or charging complaints rather than general ride-quality gripes, since that's where budget bikes most often go wrong. Daily commuting use is exactly what these bikes are built for; the main difference from a pricier bike is how the components age over two to three years, not whether they're safe on day one."
+    },
+    {
+     "q": "How long will a budget e-bike battery last before it needs replacing?",
+     "a": "Expect somewhat less than the 500-800 charge cycles typical of better bikes — budget packs often show noticeable capacity loss by 300-400 cycles, which for a daily commuter is roughly 18 months to two years rather than three to five. Storing the bike with a part-charged battery over winter rather than fully charged or fully flat helps considerably, as does avoiding fast-charging every single time if a standard charger option exists. When shopping, check whether the exact battery model is still sold as a spare before buying the bike — some budget brands discontinue battery packs within a couple of years, which can turn a working bike into scrap if the original pack fails."
+    },
+    {
+     "q": "Can I get spare parts for cheap e-bike brands in Ireland?",
+     "a": "For the mechanical parts — brakes, tyres, cranks, cables — yes, almost always, since these are standard bicycle components sold at any bike shop regardless of the frame's brand. For electrical parts — battery, controller, display, motor — it depends entirely on whether the brand maintains EU stock and sells spares separately from complete bikes. Check the brand's own website or Amazon storefront for standalone battery and charger listings before buying; if none exist, that's a signal spares may be hard to source later. Independent e-bike specialists in larger Irish towns increasingly stock generic controllers and displays that work across several budget brands, a useful fallback if the original part becomes unavailable."
+    },
+    {
+     "q": "Is a mechanical disc brake good enough, or should I hold out for hydraulic?",
+     "a": "Mechanical disc brakes are genuinely fine for most commuting use and are what the majority of sub-€1,000 e-bikes ship with — they need more frequent cable adjustment than hydraulic and require slightly more hand force for the same stopping power, but they stop the bike safely. The gap widens in Irish rain: hydraulic systems maintain consistent bite when wet, while mechanical systems can feel noticeably softer until the pads and rim clear water. If your commute is mostly dry, flat and short, mechanical is a non-issue. If it includes descents, heavy traffic braking, or you ride through winter regardless of weather, hydraulic brakes are worth paying extra for even within this budget bracket."
+    },
+    {
+     "q": "Do budget e-bikes hold their resale value?",
+     "a": "Not well, generally. Unbranded or lesser-known e-bike brands depreciate faster than established names because buyers are wary of unknown battery history and harder-to-source spares on the second-hand market, so expect to recoup considerably less than half the purchase price after two years even in good condition. This matters less if you're planning to run the bike into the ground rather than upgrade, but it's worth factoring in if part of the appeal of a budget bike is trying e-biking before committing to a pricier model later — you likely won't recover much of the price difference by selling."
+    },
+    {
+     "q": "What's the cheapest way to legally get an e-bike in Ireland?",
+     "a": "Cycle to Work is the cheapest legal route for anyone on PAYE with an employer that runs the scheme, since it applies income tax, USC and PRSI relief to the full price of a sub-€1,000 bike, typically cutting 28-52% off depending on your tax rate. Outside the scheme, buying during sales periods (January and pre-summer are typical for stock clearance) and choosing last season's model over the newest release both bring meaningful savings. Avoid grey-market imports advertised well below typical pricing for a given spec — they often lack CE marking, EU warranty support, or comply with different power limits than Irish law allows, which can cause problems later even if the upfront price looks attractive."
+    }
    ],
    "products": [
     {
@@ -345,6 +441,54 @@
     3,
     2
    ],
+   "guide": [
+    [
+     "Why folding solves specifically Irish problems",
+     "Folding e-bikes address three problems that are more acute in Ireland than the marketing usually admits. Theft is the big one: a bike that lives in a hallway or under a desk simply isn't exposed to the street, and bike theft in Irish cities is common enough that insurers routinely ask where a bike is stored overnight. Weather is the second: Irish Rail permits folded bikes on board without needing to book bike space in advance, unlike full-size bikes which need pre-booking and are sometimes refused on busy services — so a folder turns a wet commute into a fold-and-train option rather than a soaking. Storage is the third and most mundane: apartment blocks and older terraced houses in Ireland often have nowhere to keep a full-size bike except outside, and a folded bike fits in a hall press or under a stairs that a full-size frame never will."
+    ],
+    [
+     "Wheel size is the real trade-off, not the fold",
+     "The fold mechanism itself is largely solved across this price range; what actually varies is wheel size, and that's the trade-off worth understanding before choosing. Smaller wheels — 14 to 16 inches — fold into a genuinely compact package and are noticeably easier to carry, but they drop into potholes more abruptly and feel less stable at speed than larger wheels, because a small wheel's contact patch reacts more sharply to surface changes. 20-inch wheels, the most common size in this category, strike a reasonable middle ground: still foldable to a manageable size but far steadier on Irish road surfaces, which are not uniformly well maintained outside main routes. If your route includes potholed back roads or loose gravel greenway sections, prioritise wheel size over fold compactness — you'll notice the ride quality difference every single day, while the extra bulk only matters when actually folding it."
+    ],
+    [
+     "Fold time and carry weight in the real world",
+     "Most folding e-bikes in this range weigh between 20 and 27kg, and that number matters more than fold speed for anyone using stations without lift access — carrying a 25kg bike up a flight of stairs at a rush-hour platform is a real daily task, not a spec-sheet abstraction. Fold time itself, usually quoted at 10-15 seconds, is rarely the bottleneck in practice; the bottleneck is finding space to fold it without blocking a doorway or platform edge during a busy commute. Check a station's step-free access before committing to a folding-bike commute involving trains, since not every Irish Rail or Luas stop has a lift, and battery weight (typically 3-4kg of the total) can't be removed to lighten the carry unless the battery is a separable pack designed to come off for charging."
+    ],
+    [
+     "Hinges, latches and Irish weather",
+     "The fold points — frame hinge, stem hinge, pedal folds — are mechanical wear items exposed directly to road spray and rain in a way a rigid frame's equivalent joints aren't, so hinge quality matters more here than on a non-folding bike. Look for a hinge described as forged or CNC-machined aluminium rather than stamped steel, and a positive-locking latch rather than a simple clip, since a loose latch can develop play over a year of daily folding and unfolding in wet conditions. Owner reports on budget folders consistently mention hinge stiffness loosening gradually rather than failing suddenly, which is manageable with occasional tightening but worth checking every few months. Wiping down hinge areas after wet rides and applying a light corrosion-inhibiting spray to exposed bolts extends their working life meaningfully on a bike that folds daily rather than sitting rigid."
+    ],
+    [
+     "Storage and charging in an apartment",
+     "Folded storage solves the space problem but raises a charging question apartment dwellers should take seriously: charge the bike in a hallway or entrance area rather than directly beside a bed or sole exit route, and never leave a charging battery unattended overnight in a space with no clear escape route, following the same general guidance fire services give for lithium battery devices. Use the charger that came with the bike rather than a generic replacement, since mismatched voltage or amperage is a known cause of battery faults. If the battery is removable, charging it detached from the bike — on a hard, non-flammable surface — is generally considered safer than charging in-frame near soft furnishings. None of this is unique to folding bikes, but folding bikes are disproportionately the ones charged indoors in shared living spaces, which makes the habit worth building early."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Can I bring a folding e-bike on Irish Rail or Luas?",
+     "a": "Yes — folded bikes generally travel on Irish Rail without needing to book bike space in advance, unlike full-size bikes, which typically require pre-booking and can be refused space on busier services. Luas has more restrictions and folded bikes are generally the safer option to avoid being turned away at busy times, particularly during peak commuting hours. Keep the bike folded for the full journey rather than partially unfolded, and be considerate of space during rush hour, since a 20kg folded bike still takes up floor room on a crowded carriage. Rules can vary by operator and route, so it's worth checking current guidance before relying on it for a daily commute."
+    },
+    {
+     "q": "How much does a folding e-bike weigh, and does it matter?",
+     "a": "Most fall between 20 and 27kg, roughly double a decent non-electric folding bike, because of the added motor and battery. It matters most if your commute involves stairs without lift access, since carrying that weight daily gets old fast, and less if you're wheeling it folded rather than lifting it — most folders roll reasonably well even collapsed. If stairs are unavoidable, look specifically at claimed weight rather than assuming all folders are similar; there's a real spread across this category, and a few kilos difference is noticeable on a five-flight walk-up carried daily rather than occasionally."
+    },
+    {
+     "q": "Do small wheels make folding e-bikes less safe on Irish roads?",
+     "a": "Not unsafe, but noticeably twitchier on rough surfaces — smaller wheels (14-16 inch) react more sharply to potholes and drain covers than the 20-inch wheels more common on this list, requiring a bit more attention on poorly maintained back roads. On well-surfaced main routes and greenways the difference is minor. If your commute mixes city streets with rougher rural or estate roads, a 20-inch-wheeled folder rides noticeably more predictably than a smaller-wheeled one, and that stability matters more for safety in practice than any spec related to motor power or braking."
+    },
+    {
+     "q": "Is it safe to charge a folding e-bike inside an apartment?",
+     "a": "Generally yes, following the same precautions that apply to any lithium battery device: use the original charger, avoid charging unattended overnight right beside an exit or while you sleep, and charge on a hard surface away from soft furnishings rather than on a bed or sofa. Removable batteries are easier to manage safely since they can be charged away from the bike itself on a stable surface. This isn't a folding-bike-specific risk — it applies to any e-bike battery — but folding bikes are disproportionately charged indoors in shared apartment spaces, which is exactly why the habit is worth taking seriously rather than treating as boilerplate advice."
+    },
+    {
+     "q": "Do folding e-bikes qualify for Cycle to Work like full-size ones?",
+     "a": "Yes, folding e-bikes qualify the same way as any other pedal-assist e-bike under the scheme, up to the €1,500 ceiling, provided your employer runs Cycle to Work and processes the purchase through payroll. There's no separate category or restriction for folding bikes specifically. If you're combining a folding bike with a train commute, it's worth checking whether your employer's scheme allows purchasing safety equipment like lights or a lock alongside the bike within the same €1,500 limit, since that's covered too."
+    },
+    {
+     "q": "How long do folding hinges and latches last?",
+     "a": "Well-made hinges on a bike used and folded daily typically remain solid for several years, though owner reports consistently mention some looseness developing in the latch mechanism after a year or more of regular use, usually fixable by tightening rather than replacing. Cheaper stamped-steel hinges wear faster than forged or CNC-machined aluminium ones, and exposure to road spray without occasional cleaning accelerates wear on any hinge type. If you fold the bike only occasionally — say, for weekend trips rather than a daily train commute — hinge wear is a non-issue; daily folding is where hinge quality actually shows up over time."
+    }
+   ],
    "products": [
     {
      "id": "ebk-011",
@@ -484,6 +628,54 @@
     3,
     5
    ],
+   "guide": [
+    [
+     "Torque, not top speed, is what Irish trails demand",
+     "Every eMTB in Ireland is legally capped at the same 25km/h assistance limit as any other e-bike, so top speed is identical across this entire comparison — what actually separates a good eMTB from a mediocre one on Irish terrain is torque, measured in newton-metres (Nm). Trail centres like Ticknock in Dublin, Ballyhoura in Limerick and the climbs around the Wicklow Gap involve sustained gradients rather than short sharp ramps, and a motor with meaningfully more torque keeps cadence comfortable on a 15-20 minute continuous climb where a weaker motor forces you to stand and grind. Figures in the 40-85Nm range are typical at this price point; higher generally means a more natural climbing feel and less battery drain per climb, since the motor isn't working as hard against the same gradient. Don't assume a bigger battery compensates for lower torque — a weak motor drains a big battery just as fast fighting the same hill."
+    ],
+    [
+     "Suspension and tyres for wet Irish trail dirt",
+     "Irish trail centres are wet more often than not, and that changes what suspension and tyre choices actually matter versus what's just spec-sheet padding. Front suspension travel in the 80-120mm range covers most Irish trail-centre riding; more travel suits rockier, more technical terrain but adds weight that the motor then has to move uphill. Tyre tread matters more here than in drier climates — an aggressive, wide-knobbed tread sheds mud rather than clogging with it, while a smoother tyre optimised for tarmac efficiency loses grip fast on wet roots and rock. Suspension seals and pivots are worth checking for sealed, greased construction, since grit picked up from wet trail dirt is what wears these components fastest; owner reports on budget suspension forks consistently mention stiction developing within a season of regular wet-trail use if seals aren't maintained."
+    ],
+    [
+     "Battery range disappears fast under climbing",
+     "Manufacturer range figures are almost universally measured on flat ground in the lowest assist setting, which has close to nothing to do with how a battery behaves on a trail loop with repeated climbing. A battery rated for 100km on the flat might deliver 25-35km on a trail loop with 500-700m of accumulated climbing, because sustained climbing in a higher assist mode draws current far faster than flat cruising. For planning purposes, treat a battery's usable trail range as roughly a third of its flat-ground claim, and adjust further down for a heavier rider or consistently steep terrain. A 20km loop with 600m of climbing — a realistic outing around several Irish trail centres — is a meaningful chunk of most batteries in this price bracket, so plan the loop around the battery rather than assuming the bike will stretch to cover whatever route you pick."
+    ],
+    [
+     "Does an eMTB qualify for Cycle to Work?",
+     "In principle, yes — Revenue's rules require the bike to be used, at least partly, for qualifying journeys to and from work, and an eMTB that also does commuting duty meets that bar the same as any other e-bike, up to the same €1,500 relief ceiling. In practice, employers processing the claim don't verify how the bike is actually used after purchase, but the scheme isn't intended as a subsidy for a bike bought purely for weekend trail riding with no commuting use at all. If your employer's scheme asks for a declaration of intended use, answer honestly, and if you genuinely plan to ride it to work at least some of the time — even occasionally — that satisfies the requirement. A bike bought exclusively for trail days with zero commuting use sits in a greyer area worth checking with your employer's payroll provider directly."
+    ],
+    [
+     "Getting eMTBs serviced and parts in Ireland",
+     "eMTB-specific servicing — motor diagnostics, suspension rebuilds, drivetrain wear from mud and grit — needs different expertise than a standard commuter e-bike shop offers, so it's worth checking before buying whether a shop near you actually services electric mountain bikes, not just electric bikes generally. Larger towns near popular trail centres, including Dublin, Cork and Limerick, tend to have at least one shop familiar with eMTB motor systems, but rural areas can mean a longer round trip for anything beyond basic mechanical work. Suspension forks typically need a service every 50-100 hours of riding depending on conditions, which on regular wet Irish trail use trends toward the lower end of that range. Chains, cassettes and brake pads wear faster on muddy trails than on tarmac commuting, so budget for more frequent consumable replacement than a road-only e-bike would need."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "Do I need a full driving licence for a fast eMTB?",
+     "a": "No, provided the eMTB is a standard pedelec — 250W continuous motor output, assistance cutting out at 25km/h — which every eMTB in this comparison is. That configuration is legally a bicycle in Ireland regardless of how aggressive the frame or suspension looks, so no licence, insurance or registration applies. The confusion usually comes from imported or throttle-enabled electric mountain bikes sold in other markets with higher speed limits; those fall into moped or motorcycle categories requiring a licence if brought into Ireland. Check the motor spec explicitly states 250W and 25km/h before buying, particularly on bikes imported from outside the EU."
+    },
+    {
+     "q": "How much torque do I actually need for Irish hills?",
+     "a": "For trail-centre riding with sustained climbs like Ticknock or Ballyhoura, look for motors in at least the 50-65Nm range; anything notably lower tends to feel strained on long climbs and drains the battery faster fighting the same gradient. For mixed road-and-occasional-trail use, lower torque figures around 40-50Nm are perfectly adequate since sustained steep climbing is less frequent. More torque generally also means a heavier motor, so there's a real trade-off between climbing ease and overall bike weight — useful to weigh up if you're also carrying the bike up stairs or onto a rack regularly."
+    },
+    {
+     "q": "Are eMTBs allowed on Coillte and National Park trails?",
+     "a": "Generally yes on trails designated for mountain biking, since a legal pedelec is treated as an ordinary bicycle under Irish law and the same access rules apply as for a non-electric mountain bike. Some specific trail centres or National Park sections restrict e-bike access on particular technical trails or during certain conditions, so it's worth checking the specific trail centre's current rules before a visit rather than assuming blanket access. Throttle-controlled or higher-powered electric bikes that don't meet the pedelec definition are more likely to be restricted, another reason to confirm your bike's spec meets the 250W/25km/h standard."
+    },
+    {
+     "q": "Will an eMTB fit on a roof rack or tow-bar carrier?",
+     "a": "Weight is the main consideration — eMTBs typically weigh 22-28kg including motor and battery, noticeably more than a standard mountain bike, and many roof-rack bike carriers are rated for lighter loads, so check the carrier's maximum weight rating before assuming it'll cope. Tow-bar-mounted platform carriers generally handle eMTB weight better than roof racks, both for the weight limit itself and for the practical difficulty of lifting a 25kg bike overhead. A detachable battery is worth removing before loading, which cuts weight and avoids exposing it to extended vibration and weather during transport."
+    },
+    {
+     "q": "How often does an eMTB battery need replacing with regular trail use?",
+     "a": "Trail riding is harder on batteries than road commuting because sustained climbing draws higher current, which generates more heat and accelerates cell degradation compared to steady flat-road use. Where a commuter e-bike battery might manage three to five years, an eMTB ridden on trails weekly may see meaningful capacity loss within two to three years. Storing the battery at partial charge over winter and avoiding full discharge before recharging both help. Replacement batteries for eMTBs tend to cost more than commuter e-bike batteries given the larger capacity typical of this category, so check replacement battery price and availability for a specific model before buying."
+    },
+    {
+     "q": "Can I use an eMTB for commuting and claim Cycle to Work?",
+     "a": "Yes — as long as the bike genuinely gets used for at least part of your commute to work, an eMTB qualifies the same as any other pedal-assist e-bike, up to the same €1,500 relief ceiling. It doesn't need to be your only or even primary commuting bike; occasional commuting use alongside weekend trail riding is enough to meet Revenue's requirement that the bike serves qualifying journeys. Check with your employer's payroll or scheme provider on how they want intended use documented, since this varies by employer rather than being standardised across all Cycle to Work providers."
+    }
+   ],
    "products": [
     {
      "id": "ebk-016",
@@ -622,6 +814,54 @@
     4,
     1,
     6
+   ],
+   "guide": [
+    [
+     "Integrated lights aren't a nice-to-have, they're the law after dark",
+     "Under Irish road traffic law, a bicycle ridden between sunset and sunrise needs a working white front light and red rear light, plus a rear red reflector, and that requirement applies exactly the same way to an e-bike as to any pedal bike. Integrated lights, wired into the bike's main battery, solve the single biggest reason commuters end up riding illegally after dark: a bolt-on light with its own battery that nobody remembered to charge. The trade-off is that integrated lights typically can't be removed and taken with you, which matters if the bike is locked outside overnight and lights are an easy target. Check whether integrated lights run off the main battery constantly or only when switched on, since some designs drain a small amount even when the bike is off, which matters over long unridden periods like a week's holiday."
+    ],
+    [
+     "Mudguards, chainguards and the state of your work clothes",
+     "A commuter e-bike ridden through an Irish winter without mudguards produces a very specific stripe of road spray up your back and a wet chain that flings grease onto trouser legs at the ankle, and both are avoidable with parts that add negligible weight or cost. Full-length mudguards, front and rear, matter more than partial ones — a short rear guard stops the worst of it but a front guard prevents spray hitting your feet and the bike behind you if you're riding in a group. A chainguard or full chain case keeps oil off trouser hems and reduces how often the chain needs cleaning and lubricating, which matters doubly in wet weather since grit sticks to an exposed, lubricated chain far more than a covered one. These are minor spec-sheet items that make the difference between a bike you'll ride daily through February and one that quietly stops getting used once the weather turns."
+    ],
+    [
+     "Racks, panniers and carrying a laptop bag daily",
+     "A rear rack rated for at least 20-25kg covers a laptop bag, a change of clothes and a packed lunch without strain, and a frame-mounted rack — bolted to the frame itself rather than the seatpost — carries load more stably and doesn't interfere with saddle height adjustment the way seatpost-mounted racks can. Panniers that clip on and off the rack are more practical for daily commuting than a backpack, since carrying weight on the bike rather than your back reduces sweating in work clothes and makes the ride more stable at low speed. Check the rack's weight rating against what you'll actually carry rather than assuming all racks are interchangeable — some lightweight racks on budget commuter bikes are rated well under 20kg, which is tight for a laptop, charger and lunch combined."
+    ],
+    [
+     "Locking it up: frame design and theft in Irish towns and cities",
+     "Bike theft is common enough in Irish cities that insurers and Gardaí alike recommend locking through the frame itself rather than just a wheel, and a commuter bike's frame design affects how easy that is in practice — look for a top tube and seat tube close enough together that a D-lock fits through both plus a fixed object, rather than a frame shape that only allows a cable lock. Workplace bike racks and apartment communal areas are common theft locations precisely because bikes sit there unattended for hours at a time, so a lock rated for that kind of static, predictable exposure matters more than one used for quick five-minute stops. If the battery is removable, taking it inside overnight or during the workday both protects an expensive component and removes an obvious incentive for a thief, since a locked frame without its battery is a far less attractive target."
+    ],
+    [
+     "Charging at work and the office policy nobody wrote",
+     "Most Irish workplaces have no formal policy on charging an e-bike battery at a desk, which means it's worth asking rather than assuming it's fine, particularly in shared office space where cables across a walkway are a genuine trip hazard. A removable battery that comes off the bike and charges from a normal socket is far more practical for office charging than an in-frame system that needs the whole bike near a plug. The electricity cost itself is trivial — a typical 400-500Wh commuter battery uses roughly 0.5kWh for a full charge, which at Ireland's standard household rate of around 38 cent per kWh comes to about 19 cent — so cost isn't the issue, logistics and workplace policy are. If charging at work isn't practical, a battery with enough range for a full return commute without topping up removes the need entirely."
+    ]
+   ],
+   "faqs": [
+    {
+     "q": "What lights do I legally need for commuting in the dark?",
+     "a": "A working white front light and red rear light are legally required on any bicycle, including e-bikes, when riding between sunset and sunrise, along with a rear red reflector and pedal reflectors on most bikes as sold. Integrated lights wired to the main battery are the most reliable option since they can't run flat separately from the bike itself, but standalone battery-powered lights are equally legal provided they're actually charged and switched on. Fines apply for riding without lights after dark, and beyond the legal requirement, visibility genuinely reduces collision risk on unlit rural and suburban roads common on Irish commutes."
+    },
+    {
+     "q": "Should I take the battery off my e-bike at work, or leave it locked outside?",
+     "a": "Taking it inside is generally the safer choice on both counts that matter: batteries are a common theft target since they're valuable and easy to carry off, and they shouldn't sit outside in direct rain or extreme cold for a full working day if avoidable, since both affect long-term battery health. A removable battery designed to come off easily makes this a non-issue; an in-frame battery that's harder to remove makes locking the whole bike somewhere covered, if your workplace has that option, the more realistic choice. Check your workplace's stance on batteries at desks before assuming it's allowed, since some offices restrict lithium battery charging for fire safety reasons."
+    },
+    {
+     "q": "How do I stop my commuter e-bike being stolen?",
+     "a": "Lock through the frame with a D-lock rather than relying on a cable lock or locking only the wheel, and lock to a fixed, immovable object rather than just looping the lock through the bike itself. Removing the battery if it's detachable takes away much of the bike's resale value to a thief and is worth doing for any period longer than a quick stop. Registering the bike's frame number with a Garda-supported bike marking scheme, where available locally, and photographing it for insurance purposes both help if theft does happen. Workplace and apartment bike storage are common theft locations precisely because bikes sit unattended there for hours, so treat those spots with the same caution as street parking."
+    },
+    {
+     "q": "What gearing do I need for hilly commutes like Dublin's southside or Cork's hills?",
+     "a": "A wider gear range matters more than a specific number of gears — a 7 to 9-speed derailleur with a wide-range cassette handles steep, sustained climbs far better than a narrower-range setup with more gears but less spread. Combined with motor assist, most commuter e-bikes handle typical Irish city hills without needing to stand and grind, but check the lowest gear specifically if your commute includes a genuinely steep, sustained climb rather than short rises. Hub-geared systems, less common but available on some commuter models, shift under load and need less maintenance in wet weather than a derailleur, worth considering if low-maintenance matters more to you than outright gear range."
+    },
+    {
+     "q": "Can I ride a commuter e-bike through an Irish winter without issues?",
+     "a": "Yes, provided the bike has mudguards, a chainguard or well-maintained exposed chain, and hydraulic or well-adjusted mechanical disc brakes that keep working consistently when wet. Battery performance drops somewhat in cold temperatures — expect a modest range reduction on frosty mornings compared to a mild summer day — but this is a minor effect rather than something that stops the bike working. The main winter-specific maintenance is wiping down the frame and drivetrain after wet rides and keeping the chain lubricated more frequently than in summer, since road salt and grit accelerate corrosion and wear noticeably faster than dry-weather riding."
+    },
+    {
+     "q": "Is a step-through frame worth it for commuting in work clothes?",
+     "a": "For anyone commuting in a skirt, suit, or generally restrictive clothing, yes — a step-through frame removes the need to swing a leg over a high top tube, which matters at both ends of a commute when you're dressed for work rather than for cycling. The trade-off is a small reduction in frame stiffness compared to an equivalent diamond-frame bike, though on a commuter e-bike ridden at moderate speeds this is rarely noticeable in practice. Step-through frames also make mounting and dismounting easier when carrying pannier bags or a bag on the rack, a small but real daily convenience beyond the clothing consideration."
+    }
    ],
    "products": [
     {
