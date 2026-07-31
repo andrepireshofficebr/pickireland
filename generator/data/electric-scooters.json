@@ -80,7 +80,8 @@
       "Motor": "Powerful (940W peak)",
       "Range": "Up to 70 km",
       "Tyres": "10\" self-sealing",
-      "Build": "Flagship"
+      "Build": "Flagship",
+      "Weight": "24.5 kg"
      },
      "pros": [
       "Flagship range and ride quality",
@@ -102,10 +103,10 @@
      "rating": 4.5,
      "badge": "Best Range (Limit for Road)",
      "specs": {
-      "Battery": "48V 15.6Ah",
-      "Range": "Up to 55 km",
-      "Display": "Turn signals + LCD",
-      "Power": "Strong hills"
+      "Weight": "12 kg",
+      "Motor": "350 W",
+      "Range": "~20 km",
+      "Water resistance": "IP54"
      },
      "pros": [
       "Huge battery and range",
@@ -256,31 +257,6 @@
    ],
    "products": [
     {
-     "id": "esc-006",
-     "asin": "B0D8QBL343",
-     "name": "iScooter i8 Folding Electric Scooter (350W)",
-     "brand": "iScooter",
-     "price": 330,
-     "rating": 4.0,
-     "badge": "Best Under €350",
-     "specs": {
-      "Motor": "350 W",
-      "Use": "Teens + adults",
-      "Fold": "Quick",
-      "App": "Yes"
-     },
-     "pros": [
-      "Light, quick-folding commuter",
-      "App with speed modes",
-      "Fair price"
-     ],
-     "cons": [
-      "Real range ~20 km",
-      "Build is budget-grade"
-     ],
-     "verdict": "The budget folding commuter: station-to-office legs and apartment storage friendly."
-    },
-    {
      "id": "esc-007",
      "asin": "B0FF9YNRT2",
      "name": "8.5\" Adult Electric Scooter (25 km/h)",
@@ -306,29 +282,29 @@
      "verdict": "The legality-first pick: 25 km/h from the factory, no settings to worry about."
     },
     {
-     "id": "esc-008",
-     "asin": "B0B3RZDXLT",
-     "name": "Segway Ninebot C2 Pro E (Teens)",
-     "brand": "Segway",
-     "price": 299,
-     "rating": 4.4,
-     "badge": "Best for Teens",
+     "id": "esc-006",
+     "asin": "B0D8QBL343",
+     "name": "iScooter i8 Folding Electric Scooter (350W)",
+     "brand": "iScooter",
+     "price": 330,
+     "rating": 4.0,
+     "badge": "Best Under €350",
      "specs": {
-      "For": "Teens (16+ on roads)",
-      "Brand": "Segway quality",
-      "Speed": "Limited",
-      "Safety": "Strong"
+      "Motor": "350 W",
+      "Use": "Teens + adults",
+      "Fold": "Quick",
+      "App": "Yes"
      },
      "pros": [
-      "Segway build quality",
-      "Right-sized for teens",
-      "Proper brakes and lights"
+      "Light, quick-folding commuter",
+      "App with speed modes",
+      "Fair price"
      ],
      "cons": [
-      "Not for heavy adults",
-      "Modest range"
+      "Real range ~20 km",
+      "Build is budget-grade"
      ],
-     "verdict": "The teen commuter from the most trusted name — quality where it matters most."
+     "verdict": "The budget folding commuter: station-to-office legs and apartment storage friendly."
     },
     {
      "id": "esc-009",
@@ -367,7 +343,8 @@
       "Motor": "Powerful (940W peak)",
       "Range": "Up to 70 km",
       "Tyres": "10\" self-sealing",
-      "Build": "Flagship"
+      "Build": "Flagship",
+      "Weight": "24.5 kg"
      },
      "pros": [
       "Flagship range and ride quality",
@@ -379,6 +356,31 @@
       "Check 25 km/h limiter for road use"
      ],
      "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
+    },
+    {
+     "id": "esc-008",
+     "asin": "B0B3RZDXLT",
+     "name": "Segway Ninebot C2 Pro E (Kids, ages 6–14)",
+     "brand": "Segway",
+     "price": 299,
+     "rating": 4.4,
+     "badge": "Kids' Scooter — Not for Adults",
+     "specs": {
+      "Rider weight limit": "50 kg",
+      "Age range": "6–14 years",
+      "Motor": "150 W",
+      "Weight": "10.7 kg"
+     },
+     "pros": [
+      "Genuinely well-built for a child's scooter",
+      "Segway safety engineering at €299",
+      "10.7 kg — a parent can carry it"
+     ],
+     "cons": [
+      "50 kg rider weight limit — unusable by most adults",
+      "Rated for ages 6–14, not commuting"
+     ],
+     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
     }
    ],
    "guide": [
@@ -454,7 +456,8 @@
       "Motor": "Powerful (940W peak)",
       "Range": "Up to 70 km",
       "Tyres": "10\" self-sealing",
-      "Build": "Flagship"
+      "Build": "Flagship",
+      "Weight": "24.5 kg"
      },
      "pros": [
       "Flagship range and ride quality",
@@ -680,31 +683,6 @@
      "verdict": "The legality-first pick: 25 km/h from the factory, no settings to worry about."
     },
     {
-     "id": "esc-018",
-     "asin": "B0B3RZDXLT",
-     "name": "Segway Ninebot C2 Pro E (Teens)",
-     "brand": "Segway",
-     "price": 299,
-     "rating": 4.4,
-     "badge": "Lightest Quality Build",
-     "specs": {
-      "For": "Teens (16+ on roads)",
-      "Brand": "Segway quality",
-      "Speed": "Limited",
-      "Safety": "Strong"
-     },
-     "pros": [
-      "Segway build quality",
-      "Right-sized for teens",
-      "Proper brakes and lights"
-     ],
-     "cons": [
-      "Not for heavy adults",
-      "Modest range"
-     ],
-     "verdict": "The teen commuter from the most trusted name — quality where it matters most."
-    },
-    {
      "id": "esc-019",
      "asin": "B0FN7FS8ZR",
      "name": "11\" Folding Electric Scooter (48V 18Ah)",
@@ -736,12 +714,13 @@
      "brand": "Xiaomi",
      "price": 1002,
      "rating": 4.6,
-     "badge": "Premium Folder",
+     "badge": "Premium — but 24.5 kg, not lightweight",
      "specs": {
       "Motor": "Powerful (940W peak)",
       "Range": "Up to 70 km",
       "Tyres": "10\" self-sealing",
-      "Build": "Flagship"
+      "Build": "Flagship",
+      "Weight": "24.5 kg"
      },
      "pros": [
       "Flagship range and ride quality",
@@ -749,10 +728,35 @@
       "Xiaomi parts ecosystem"
      ],
      "cons": [
-      "€1,000 territory",
-      "Check 25 km/h limiter for road use"
+      "24.5 kg — well over this page's 15 kg brief",
+      "Not carryable for mixed commuting"
      ],
-     "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
+     "verdict": "At 24.5 kg the Mi 4 Ultra is far outside this page's under-15 kg remit — it is the most capable scooter here, with 70 km range, dual suspension and IP55, but carrying it up stairs or onto a DART is not realistic. Listed as the reference point for what you give up by going light: range, suspension and build. If portability is the reason you're on this page, it isn't the answer."
+    },
+    {
+     "id": "esc-018",
+     "asin": "B0B3RZDXLT",
+     "name": "Segway Ninebot C2 Pro E (Kids, ages 6–14)",
+     "brand": "Segway",
+     "price": 299,
+     "rating": 4.4,
+     "badge": "Kids' Scooter — Not for Adults",
+     "specs": {
+      "Rider weight limit": "50 kg",
+      "Age range": "6–14 years",
+      "Motor": "150 W",
+      "Weight": "10.7 kg"
+     },
+     "pros": [
+      "Genuinely well-built for a child's scooter",
+      "Segway safety engineering at €299",
+      "10.7 kg — a parent can carry it"
+     ],
+     "cons": [
+      "50 kg rider weight limit — unusable by most adults",
+      "Rated for ages 6–14, not commuting"
+     ],
+     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
     }
    ],
    "guide": [
@@ -878,7 +882,8 @@
       "Motor": "Powerful (940W peak)",
       "Range": "Up to 70 km",
       "Tyres": "10\" self-sealing",
-      "Build": "Flagship"
+      "Build": "Flagship",
+      "Weight": "24.5 kg"
      },
      "pros": [
       "Flagship range and ride quality",
