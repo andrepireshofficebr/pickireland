@@ -626,7 +626,7 @@ def quick_answer(page, cat):
     # pagina marcou como fora do brief (acima do teto de preco, capacidade menor que a
     # prometida, produto infantil, etc). Antes o minimo por preco pegava justamente esses.
     OUT_OF_BRIEF = ("above budget", "smaller sites", "smaller family", "room to grow",
-                    "widest here", "not for adults", "not lightweight")
+                    "widest here", "not for adults", "not lightweight", "not a desk")
     in_brief = [p for p in prods if not any(k in p["badge"].lower() for k in OUT_OF_BRIEF)]
     cheapest = min(in_brief or prods, key=lambda p: product_price(p))
     # "Our top pick" e nao "for most homes": o rank 1 nem sempre e o best-overall
