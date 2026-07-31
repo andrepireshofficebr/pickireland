@@ -280,10 +280,6 @@ table.cmp tr:hover td{background:var(--green-t)}
 .pimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
 .pimg .ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:#9AABA0;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:0 6px}
 .pimg .ph .ic{width:34px;height:34px;color:#BECDC2}
-/* CTA secundario no fim do card, para quem leu tudo — visualmente menor que o principal */
-.btn-foot{margin-top:4px;padding:11px 22px;font-size:.92rem;background:#fff;color:var(--green-d);border:2px solid var(--green);box-shadow:none}
-.btn-foot:hover{background:var(--green-t);box-shadow:none;transform:none}
-.btn-foot::after{display:none}
 @media(max-width:1000px){
   .card-head{grid-template-columns:auto minmax(0,1fr)}
   .card-cta{grid-column:1/-1;width:100%}
@@ -325,6 +321,11 @@ table.cmp tr:hover td{background:var(--green-t)}
 .btn .ic{transition:transform .25s}
 .btn:hover .ic{transform:translateX(4px)}
 .btn-sub{font-size:.74rem;color:var(--mut);margin-top:9px}
+/* CTA secundario no fim do card (para quem leu tudo). Precisa vir depois de .btn
+   na cascata, senao o gradiente do .btn sobrescreve o estilo contornado. */
+.card .btn-foot{margin-top:4px;padding:11px 22px;font-size:.92rem;background:#fff;color:var(--green-d);border:2px solid var(--green);box-shadow:none}
+.card .btn-foot:hover{background:var(--green-t);box-shadow:none;transform:none;text-decoration:none}
+.card .btn-foot::after{display:none}
 /* guide & faq */
 .guide{background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:10px 28px 20px;margin:20px 0;box-shadow:var(--sh-sm)}
 details{border-bottom:1px solid var(--line);padding:16px 0}
