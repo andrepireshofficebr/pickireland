@@ -453,12 +453,15 @@
      "rating": 4.2,
      "badge": "Strong Alternative",
      "specs": {
-      "Owner rating": "4.2★ on Amazon.ie",
-      "Typical price": "€449",
-      "Brand": "Gardena"
+      "Working area": "250 m²",
+      "Cutting width": "16 cm",
+      "Max slope": "25%",
+      "Cutting height": "20–45 mm"
      },
      "pros": [
-      "€449 — second-cheapest of the 6 picks here"
+      "€449 — second-cheapest of the 6 picks here",
+      "250 m² working area",
+      "16 cm cutting width"
      ],
      "cons": [
       "3 of the 6 picks here are better rated by owners",
@@ -658,12 +661,15 @@
      "rating": 3.9,
      "badge": "Challenger Pick",
      "specs": {
-      "Owner rating": "3.9★ on Amazon.ie",
-      "Typical price": "€720",
-      "Brand": "Flymo"
+      "Lawn size": "Up to 400 m²",
+      "Runtime": "~65 min",
+      "Noise": "58 dB(A)",
+      "Min passage": "60 cm"
      },
      "pros": [
-      "€898 less than our top pick"
+      "€898 less than our top pick",
+      "Up to 400 m² lawn size",
+      "~65 min runtime"
      ],
      "cons": [
       "Lowest owner rating of the picks here at 3.9★",

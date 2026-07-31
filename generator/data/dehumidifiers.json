@@ -439,12 +439,15 @@
      "rating": 4.4,
      "badge": "Strong Alternative",
      "specs": {
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€11",
-      "Brand": "UniBond"
+      "Type": "Passive — no electricity",
+      "Coverage": "Up to 20 m²",
+      "Refill": "450 g tab",
+      "Tab life": "Up to 3 months"
      },
      "pros": [
-      "Cheapest pick on this page at €11"
+      "Cheapest pick on this page at €11",
+      "Passive — no electricity type",
+      "Up to 20 m² coverage"
      ],
      "cons": [
       "3 of the 7 picks here are better rated by owners",
@@ -461,17 +464,17 @@
      "rating": 4.6,
      "badge": "Worth Considering",
      "specs": {
-      "Owner rating": "4.6★ on Amazon.ie",
-      "Typical price": "€70",
-      "Brand": "ROMMQB"
+      "Tank": "3 L",
+      "Type": "Portable, ultra-quiet"
      },
      "pros": [
       "€99 less than our top pick",
-      "Matches our top pick's 4.6★ owner rating"
+      "3 L tank",
+      "Portable, ultra-quiet type"
      ],
      "cons": [
       "1 of the 7 picks here is better rated by owners",
-      "Full specs not confirmed — check the current listing before buying"
+      "Not our category winner — compare against the MeacoDry Arete One 6L Dehumidifier & Air Purifier"
      ],
      "verdict": "At €70 with a 4.6-star owner rating, this ROMMQB matches our €169 Meaco pick on owner sentiment for a fraction of the price, and its 3-litre capacity suits a single bedroom. What you don't get is Meaco's track record in Ireland or the same build reputation, which matters on an appliance that runs unattended overnight. A sound budget choice for one room if you accept the unknown-brand risk."
     }
@@ -695,17 +698,18 @@
      "rating": 4.5,
      "badge": "Reader Favourite",
      "specs": {
-      "Owner rating": "4.5★ on Amazon.ie",
-      "Typical price": "€118",
-      "Brand": "Generic"
+      "Extraction": "12 L/day",
+      "Tank": "2.5 L",
+      "Display": "Digital humidity"
      },
      "pros": [
       "€16 less than our top pick",
-      "Matches our top pick's 4.5★ owner rating"
+      "12 L/day extraction",
+      "2.5 L tank"
      ],
      "cons": [
       "2 of the 7 picks here are better rated by owners",
-      "Full specs not confirmed — check the current listing before buying"
+      "Not our category winner — compare against the Nyxi 20L/Day Dehumidifier"
      ],
      "verdict": "Devology's 12L/day unit is €118 against our €134 Nyxi pick and matches it on owner rating at 4.5 stars. The reason it isn't first on a page about large, damp homes is extraction: 12 litres a day against the Nyxi's 20 is a meaningful gap once you're covering a whole house rather than one floor, and its 2.5-litre tank needs emptying more often. Good value for a single damp room; undersized for the job this page is about."
     }
@@ -929,13 +933,15 @@
      "rating": 4.7,
      "badge": "Strong Alternative",
      "specs": {
-      "Owner rating": "4.7★ on Amazon.ie",
-      "Typical price": "€199",
-      "Brand": "Meaco"
+      "Extraction": "12 L/day",
+      "Noise": "36–40 dB",
+      "Tank": "2.6 L",
+      "Power": "165 W"
      },
      "pros": [
       "€199 — 6th-cheapest of the 7 picks here",
-      "Matches our top pick's 4.7★ owner rating"
+      "12 L/day extraction",
+      "36–40 dB noise"
      ],
      "cons": [
       "1 of the 7 picks here is better rated by owners",

@@ -226,12 +226,15 @@
      "rating": 4.4,
      "badge": "Strong Alternative",
      "specs": {
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€135",
-      "Brand": "De'Longhi"
+      "Power": "2000 W",
+      "Heat settings": "3",
+      "Room size": "Up to 60 m³",
+      "Type": "Oil-filled radiator"
      },
      "pros": [
-      "€135 — 6th-cheapest of the 8 picks here"
+      "€135 — 6th-cheapest of the 8 picks here",
+      "2000 W power",
+      "3 heat settings"
      ],
      "cons": [
       "3 of the 8 picks here are better rated by owners",
@@ -248,12 +251,14 @@
      "rating": 4.3,
      "badge": "Notable Mention",
      "specs": {
-      "Owner rating": "4.3★ on Amazon.ie",
-      "Typical price": "€236",
-      "Brand": "De'Longhi"
+      "Power": "2500 W",
+      "Room size": "Up to 75 m³",
+      "Heat settings": "3",
+      "Timer": "24 h digital"
      },
      "pros": [
-      "Listed on Amazon.ie at €236"
+      "2500 W power",
+      "Up to 75 m³ room size"
      ],
      "cons": [
       "6 of the 8 picks here are better rated by owners",
@@ -476,17 +481,19 @@
      "rating": 4.8,
      "badge": "Challenger Pick",
      "specs": {
-      "Owner rating": "4.8★ on Amazon.ie",
-      "Typical price": "€55",
-      "Brand": "Morphy Richards"
+      "Power": "2 kW",
+      "Coverage": "Up to 20 m²",
+      "Thermostat": "15–35 °C",
+      "Oscillation": "~80°"
      },
      "pros": [
       "€55 — 6th-cheapest of the 7 picks here",
-      "Owners rate it 4.8★, above our top pick's 4.0★"
+      "2 kW power",
+      "Up to 20 m² coverage"
      ],
      "cons": [
       "€34 more than our top pick",
-      "Full specs not confirmed — check the current listing before buying"
+      "Not our category winner — compare against the Warmlite 650W 5-Fin Mini Oil Radiator"
      ],
      "verdict": "Morphy Richards' HeatFlux carries the highest owner rating on this page at 4.8 stars, with a digital thermostat at €55. It doesn't take the top spot because this page ranks on running cost first, and a ceramic tower at full output draws far more than the 650W Warmlite that wins here. If you want the lowest possible bill it isn't the answer, but as a well-rated heater with proper thermostatic control it's the better machine."
     }
@@ -686,13 +693,15 @@
      "rating": 4.5,
      "badge": "Solid Backup Choice",
      "specs": {
-      "Owner rating": "4.5★ on Amazon.ie",
-      "Typical price": "€90",
-      "Brand": "Dreo"
+      "Power": "700–1500 W",
+      "Oscillation": "70°",
+      "Noise": "From 25 dB",
+      "Timer": "1–12 h"
      },
      "pros": [
       "€45 less than our top pick",
-      "Second-best owner rating on this page at 4.5★"
+      "700–1500 W power",
+      "70° oscillation"
      ],
      "cons": [
       "1 of the 7 picks here is better rated by owners",
@@ -709,12 +718,14 @@
      "rating": 4.3,
      "badge": "Worth Considering",
      "specs": {
-      "Owner rating": "4.3★ on Amazon.ie",
-      "Typical price": "€150",
-      "Brand": "Dimplex"
+      "Power": "2.5 kW",
+      "Oscillation": "76°",
+      "Timer": "12-hr runback",
+      "Control": "Digital + remote"
      },
      "pros": [
-      "Listed on Amazon.ie at €150"
+      "2.5 kW power",
+      "76° oscillation"
      ],
      "cons": [
       "4 of the 7 picks here are better rated by owners",
@@ -893,12 +904,15 @@
      "rating": 4.0,
      "badge": "Reader Favourite",
      "specs": {
-      "Owner rating": "4.0★ on Amazon.ie",
-      "Typical price": "€90",
-      "Brand": "BLACK+DECKER"
+      "Power": "1000 / 1500 W",
+      "Oscillation": "75°",
+      "Settings": "3 (fan, low, high)",
+      "Thermostat": "Adjustable"
      },
      "pros": [
-      "€20 less than our top pick"
+      "€20 less than our top pick",
+      "1000 / 1500 W power",
+      "75° oscillation"
      ],
      "cons": [
       "Lowest owner rating of the picks here at 4.0★",
@@ -915,12 +929,15 @@
      "rating": 4.3,
      "badge": "Value Contender",
      "specs": {
-      "Owner rating": "4.3★ on Amazon.ie",
-      "Typical price": "€114",
-      "Brand": "Philips"
+      "Power": "1200 / 2000 W",
+      "Coverage": "Up to 20 m²",
+      "Oscillation": "60°",
+      "Smart": "Air+ app connected"
      },
      "pros": [
-      "€114 — 5th-cheapest of the 7 picks here"
+      "€114 — 5th-cheapest of the 7 picks here",
+      "1200 / 2000 W power",
+      "Up to 20 m² coverage"
      ],
      "cons": [
       "2 of the 7 picks here are better rated by owners",
@@ -937,11 +954,14 @@
      "rating": 4.4,
      "badge": "Challenger Pick",
      "specs": {
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€155",
-      "Brand": "De'Longhi"
+      "Power": "1200 / 2000 W",
+      "Room size": "Up to 60 m³",
+      "Timer": "24 h",
+      "Control": "Digital + remote"
      },
      "pros": [
+      "1200 / 2000 W power",
+      "Up to 60 m³ room size",
       "Second-best owner rating on this page at 4.4★"
      ],
      "cons": [

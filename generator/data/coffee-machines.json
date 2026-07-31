@@ -202,12 +202,15 @@
      "rating": 3.8,
      "badge": "Worth Considering",
      "specs": {
-      "Owner rating": "3.8★ on Amazon.ie",
-      "Typical price": "€204",
-      "Brand": "Ariete"
+      "Pressure": "15 bar",
+      "Power": "1080 W",
+      "Water tank": "800 ml",
+      "Grinder": "Built-in, 250 g hopper"
      },
      "pros": [
-      "€132 less than our top pick"
+      "€132 less than our top pick",
+      "15 bar pressure",
+      "1080 W power"
      ],
      "cons": [
       "Lowest owner rating of the picks here at 3.8★",
@@ -411,12 +414,15 @@
      "rating": 4.0,
      "badge": "Challenger Pick",
      "specs": {
-      "Owner rating": "4.0★ on Amazon.ie",
-      "Typical price": "€283",
-      "Brand": "Chefman"
+      "Pressure": "15 bar",
+      "Grinder": "Conical burr, 30 settings",
+      "Water tank": "3 L",
+      "Milk": "Steam wand"
      },
      "pros": [
-      "Cheapest pick on this page at €283"
+      "Cheapest pick on this page at €283",
+      "15 bar pressure",
+      "Conical burr, 30 settings grinder"
      ],
      "cons": [
       "Lowest owner rating of the picks here at 4.0★",
@@ -433,12 +439,15 @@
      "rating": 4.2,
      "badge": "Smart Alternative",
      "specs": {
-      "Owner rating": "4.2★ on Amazon.ie",
-      "Typical price": "€455",
-      "Brand": "Ninja"
+      "Drinks": "2 espresso + 3 drip styles",
+      "Grinder": "Conical burr, 25 settings",
+      "Frother": "Dual Froth, hands-free",
+      "Type": "2-in-1 espresso + drip"
      },
      "pros": [
-      "€455 — 5th-cheapest of the 7 picks here"
+      "€455 — 5th-cheapest of the 7 picks here",
+      "2 espresso + 3 drip styles drinks",
+      "Conical burr, 25 settings grinder"
      ],
      "cons": [
       "5 of the 7 picks here are better rated by owners",
@@ -665,11 +674,14 @@
      "rating": 4.2,
      "badge": "Notable Mention",
      "specs": {
-      "Owner rating": "4.2★ on Amazon.ie",
-      "Typical price": "€394",
-      "Brand": "Breville"
+      "Pressure": "15 bar",
+      "Grinder": "Conical burr, 30 settings",
+      "Water tank": "2.8 L",
+      "Portafilter": "58 mm"
      },
      "pros": [
+      "15 bar pressure",
+      "Conical burr, 30 settings grinder",
       "Matches our top pick's 4.2★ owner rating"
      ],
      "cons": [

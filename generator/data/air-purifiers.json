@@ -693,12 +693,14 @@
      "rating": 4.3,
      "badge": "Notable Mention",
      "specs": {
-      "Owner rating": "4.3★ on Amazon.ie",
-      "Typical price": "€364",
-      "Brand": "Blueair"
+      "CADR": "510 m³/h",
+      "Coverage": "Up to 103 m²",
+      "Filtration": "3-stage HEPASilent",
+      "Pre-filter": "Washable fabric"
      },
      "pros": [
-      "Listed on Amazon.ie at €364"
+      "510 m³/h cadr",
+      "Up to 103 m² coverage"
      ],
      "cons": [
       "4 of the 7 picks here are better rated by owners",

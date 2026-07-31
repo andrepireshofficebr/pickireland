@@ -475,12 +475,15 @@
      "rating": 4.0,
      "badge": "Worth Considering",
      "specs": {
-      "Owner rating": "4.0★ on Amazon.ie",
-      "Typical price": "€239",
-      "Brand": "Shark"
+      "Mopping": "Sonic, 100 scrubs/min",
+      "Navigation": "360° LiDAR",
+      "Dock": "Bagless self-empty",
+      "Filter": "HEPA"
      },
      "pros": [
-      "€10 less than our top pick"
+      "€10 less than our top pick",
+      "Sonic, 100 scrubs/min mopping",
+      "360° LiDAR navigation"
      ],
      "cons": [
       "Lowest owner rating of the picks here at 4.0★",
@@ -680,12 +683,15 @@
      "rating": 4.0,
      "badge": "Notable Mention",
      "specs": {
-      "Owner rating": "4.0★ on Amazon.ie",
-      "Typical price": "€524",
-      "Brand": "Roborock"
+      "Suction": "10,000 Pa",
+      "Mop": "VibraRise 2.0, 8 mm lift",
+      "Dust bin": "350 ml",
+      "Noise": "65 dB"
      },
      "pros": [
-      "€25 less than our top pick"
+      "€25 less than our top pick",
+      "10,000 Pa suction",
+      "VibraRise 2.0, 8 mm lift mop"
      ],
      "cons": [
       "Lowest owner rating of the picks here at 4.0★",
@@ -702,12 +708,14 @@
      "rating": 4.2,
      "badge": "Smart Alternative",
      "specs": {
-      "Owner rating": "4.2★ on Amazon.ie",
-      "Typical price": "€549",
-      "Brand": "eufy"
+      "Suction": "2× 4,000 Pa twin-turbine",
+      "Dock": "2.5 L bag, ~45 days",
+      "Navigation": "iPath laser",
+      "Brushroll": "Anti-tangle"
      },
      "pros": [
-      "Listed on Amazon.ie at €549"
+      "2× 4,000 Pa twin-turbine suction",
+      "2.5 L bag, ~45 days dock"
      ],
      "cons": [
       "5 of the 7 picks here are better rated by owners",
@@ -1115,12 +1123,14 @@
      "rating": 4.2,
      "badge": "Solid Backup Choice",
      "specs": {
-      "Owner rating": "4.2★ on Amazon.ie",
-      "Typical price": "€753",
-      "Brand": "Roborock"
+      "Suction": "7,000 Pa",
+      "Dock": "Hot-water wash + warm-air dry",
+      "Mop": "Dual spinning, 200 RPM",
+      "Mop lift": "10 mm"
      },
      "pros": [
-      "Listed on Amazon.ie at €753"
+      "7,000 Pa suction",
+      "Hot-water wash + warm-air dry dock"
      ],
      "cons": [
       "Lowest owner rating of the picks here at 4.2★",
