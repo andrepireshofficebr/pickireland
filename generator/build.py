@@ -284,6 +284,7 @@ table.cmp tr:hover td{background:var(--green-t)}
 .stars small{color:var(--mut);margin-left:8px;font-weight:700;font-size:.85rem}
 .specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0;font-size:.85rem}
 .specgrid div{background:#F4F7F3;border-radius:11px;padding:10px 13px;border:1px solid #ECF1EB}
+.nospec{font-size:.86rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:11px 15px;margin:18px 0}
 .specgrid b{display:block;font-size:.64rem;text-transform:uppercase;color:var(--mut);letter-spacing:.7px;margin-bottom:2px;font-weight:700}
 .pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
 @media(max-width:640px){.pc{grid-template-columns:1fr}h1{font-size:1.8rem;letter-spacing:-.6px}}
@@ -500,7 +501,12 @@ def product_card(p, rank, cat_key):
         img_html = f'<img src="{esc(img)}" alt="{esc(p["name"])}" loading="lazy" width="170" height="170">'
     else:
         img_html = f'<div class="ph">{icon(cat_key, 44)}<span>{esc(p["brand"])}</span></div>'
-    specs = "".join(f"<div><b>{esc(k)}</b>{esc(v)}</div>" for k, v in p["specs"].items())
+    # Produtos cujo modelo exato não pôde ser identificado ficam sem grade de specs,
+    # em vez de exibir linhas de preenchimento que só repetem preço/nota já visíveis no card.
+    specs = "".join(f"<div><b>{esc(k)}</b>{esc(v)}</div>" for k, v in (p.get("specs") or {}).items())
+    specs_block = f'<div class="specgrid">{specs}</div>' if specs else (
+        '<p class="nospec">Full specifications for this exact model aren\'t published by the '
+        'manufacturer — check the current Amazon.ie listing before buying.</p>')
     pros = "".join(f"<li>{esc(x)}</li>" for x in p["pros"])
     cons = "".join(f"<li>{esc(x)}</li>" for x in p["cons"])
     top = " top-pick" if rank == 1 else ""
@@ -518,7 +524,7 @@ def product_card(p, rank, cat_key):
     </div>
   </div>
 </div>
-<div class="specgrid">{specs}</div>
+{specs_block}
 <div class="pc">
   <div class="pros"><b>{CHECK} Pros</b><ul>{pros}</ul></div>
   <div class="cons"><b>{CROSS} Cons</b><ul>{cons}</ul></div>

@@ -103,10 +103,10 @@
      "rating": 4.5,
      "badge": "Best Range (Limit for Road)",
      "specs": {
-      "Weight": "12 kg",
-      "Motor": "350 W",
-      "Range": "~20 km",
-      "Water resistance": "IP54"
+      "Battery": "48V 15.6Ah",
+      "Range": "Up to 55 km",
+      "Display": "Turn signals + LCD",
+      "Power": "Strong hills"
      },
      "pros": [
       "Huge battery and range",
@@ -154,9 +154,9 @@
      "badge": "Best Budget Folding",
      "specs": {
       "Motor": "350 W",
-      "Use": "Teens + adults",
-      "Fold": "Quick",
-      "App": "Yes"
+      "Weight": "12 kg",
+      "Range": "~20 km",
+      "Water resistance": "IP54"
      },
      "pros": [
       "Light, quick-folding commuter",
@@ -291,9 +291,9 @@
      "badge": "Best Under €350",
      "specs": {
       "Motor": "350 W",
-      "Use": "Teens + adults",
-      "Fold": "Quick",
-      "App": "Yes"
+      "Weight": "12 kg",
+      "Range": "~20 km",
+      "Water resistance": "IP54"
      },
      "pros": [
       "Light, quick-folding commuter",
@@ -338,7 +338,7 @@
      "brand": "Xiaomi",
      "price": 1002,
      "rating": 4.6,
-     "badge": "Premium Stretch",
+     "badge": "Above budget — premium reference",
      "specs": {
       "Motor": "Powerful (940W peak)",
       "Range": "Up to 70 km",
@@ -555,9 +555,9 @@
      "badge": "Budget Range Pick",
      "specs": {
       "Motor": "350 W",
-      "Use": "Teens + adults",
-      "Fold": "Quick",
-      "App": "Yes"
+      "Weight": "12 kg",
+      "Range": "~20 km",
+      "Water resistance": "IP54"
      },
      "pros": [
       "Light, quick-folding commuter",
@@ -642,9 +642,9 @@
      "badge": "Best Light Folder",
      "specs": {
       "Motor": "350 W",
-      "Use": "Teens + adults",
-      "Fold": "Quick",
-      "App": "Yes"
+      "Weight": "12 kg",
+      "Range": "~20 km",
+      "Water resistance": "IP54"
      },
      "pros": [
       "Light, quick-folding commuter",
@@ -931,9 +931,9 @@
      "badge": "Budget Option",
      "specs": {
       "Motor": "350 W",
-      "Use": "Teens + adults",
-      "Fold": "Quick",
-      "App": "Yes"
+      "Weight": "12 kg",
+      "Range": "~20 km",
+      "Water resistance": "IP54"
      },
      "pros": [
       "Light, quick-folding commuter",

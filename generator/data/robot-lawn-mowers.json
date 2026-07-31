@@ -123,8 +123,7 @@
      "specs": {
       "Coverage": "800–1,000 m²",
       "Navigation": "Vision (no wire/RTK)",
-      "Setup": "App walk-around",
-      "Brand": "eufy/Anker"
+      "Setup": "App walk-around"
      },
      "pros": [
       "No wire, no RTK station — just works",
@@ -148,8 +147,7 @@
      "specs": {
       "Coverage": "Up to 100 m²",
       "Navigation": "Vision, no wire",
-      "Battery": "18V Power4All",
-      "Brand": "Bosch"
+      "Battery": "18V Power4All"
      },
      "pros": [
       "Bosch quality at €359",
@@ -246,10 +244,7 @@
      "rating": 3.9,
      "badge": "Worth Considering",
      "specs": {
-      "Coverage": "500 m²",
-      "Owner rating": "3.9★ on Amazon.ie",
-      "Typical price": "€496",
-      "Brand": "Yard Force"
+      "Coverage": "500 m²"
      },
      "pros": [
       "€1003 less than our top pick",
@@ -265,7 +260,7 @@
   },
   {
    "slug": "best-robot-mowers-small-gardens-ireland",
-   "title": "Best Robot Mowers for Small Irish Gardens 2026 (Under 400m²)",
+   "title": "Best Robot Mowers for Small Irish Gardens 2026",
    "desc": "Compact robot lawn mowers for typical Irish suburban and city gardens under 400 m² — quiet, affordable models compared. Compared for 2026.",
    "h1": "Best Robot Mowers for Small Gardens in Ireland",
    "intro": "The typical Irish estate back garden — 80 to 250 m², a strip of side passage, maybe a trampoline — doesn't need a €1,500 land tractor. The small-garden class costs €500–800, runs quiet enough for evening cuts, and squeezes through gaps big robots refuse. Six compact options, including wire-free picks, ranked on small-space intelligence.",
@@ -330,8 +325,7 @@
      "specs": {
       "Coverage": "Up to 100 m²",
       "Navigation": "Vision, no wire",
-      "Battery": "18V Power4All",
-      "Brand": "Bosch"
+      "Battery": "18V Power4All"
      },
      "pros": [
       "Bosch quality at €359",
@@ -355,8 +349,7 @@
      "specs": {
       "Coverage": "Up to 200 m²",
       "Navigation": "Vision, no wire",
-      "Battery": "18V system",
-      "Brand": "Bosch"
+      "Battery": "18V system"
      },
      "pros": [
       "Typical Irish estate garden size",
@@ -426,12 +419,11 @@
      "brand": "eufy",
      "price": 1499,
      "rating": 4.7,
-     "badge": "Premium Small-Garden",
+     "badge": "Room to grow — 1,000 m²",
      "specs": {
       "Coverage": "800–1,000 m²",
       "Navigation": "Vision (no wire/RTK)",
-      "Setup": "App walk-around",
-      "Brand": "eufy/Anker"
+      "Setup": "App walk-around"
      },
      "pros": [
       "No wire, no RTK station — just works",
@@ -473,10 +465,10 @@
   },
   {
    "slug": "best-robot-mowers-large-lawns-ireland",
-   "title": "Best Robot Mowers for Large Lawns Ireland 2026 (1,000m²+)",
-   "desc": "Robot mowers for big Irish gardens and rural sites: 1,000–5,000 m² coverage, multi-zone, slopes compared. Compared for 2026.",
+   "title": "Best Robot Mowers for Large Lawns in Ireland 2026",
+   "desc": "Robot mowers for big Irish gardens and rural sites — coverage, multi-zone handling and slope performance compared, with smaller options for reference.",
    "h1": "Best Robot Mowers for Large Lawns in Ireland",
-   "intro": "Rural Ireland's lawns — the half-acre site, the long road frontage, the orchard patch — used to mean a ride-on and a Saturday. Large-capacity robots now cover 1,000–5,000 m², manage multiple zones, and handle the slopes that make push-mowing dangerous. Capacity honesty matters most at this scale, so we cross-checked manufacturer coverage claims against owner reports from complex, multi-zone Irish gardens.",
+   "intro": "Rural Ireland's lawns — the half-acre site, the long road frontage, the orchard patch — used to mean a ride-on and a Saturday. Large-capacity robots now cover 1,000 m² and up, manage multiple zones, and handle the slopes that make push-mowing dangerous. Capacity honesty matters most at this scale, so we cross-checked manufacturer coverage claims against owner reports from complex, multi-zone Irish gardens.",
    "faq_idx": [
     2,
     7,
@@ -563,8 +555,7 @@
      "specs": {
       "Coverage": "800–1,000 m²",
       "Navigation": "Vision (no wire/RTK)",
-      "Setup": "App walk-around",
-      "Brand": "eufy/Anker"
+      "Setup": "App walk-around"
      },
      "pros": [
       "No wire, no RTK station — just works",
@@ -584,7 +575,7 @@
      "brand": "Mammotion",
      "price": 799,
      "rating": 4.2,
-     "badge": "Best Value 500m²",
+     "badge": "Smaller sites — 500 m²",
      "specs": {
       "Coverage": "500 m²",
       "Navigation": "Vision + RTK",
@@ -609,12 +600,11 @@
      "brand": "Bosch",
      "price": 519,
      "rating": 4.3,
-     "badge": "Best Front+Back Combo",
+     "badge": "Smaller sites — 200 m²",
      "specs": {
       "Coverage": "Up to 200 m²",
       "Navigation": "Vision, no wire",
-      "Battery": "18V system",
-      "Brand": "Bosch"
+      "Battery": "18V system"
      },
      "pros": [
       "Typical Irish estate garden size",
@@ -659,7 +649,7 @@
      "brand": "Flymo",
      "price": 720,
      "rating": 3.9,
-     "badge": "Challenger Pick",
+     "badge": "Smaller sites — 400 m²",
      "specs": {
       "Lawn size": "Up to 400 m²",
       "Runtime": "~65 min",
@@ -746,8 +736,7 @@
      "specs": {
       "Coverage": "800–1,000 m²",
       "Navigation": "Vision (no wire/RTK)",
-      "Setup": "App walk-around",
-      "Brand": "eufy/Anker"
+      "Setup": "App walk-around"
      },
      "pros": [
       "No wire, no RTK station — just works",
@@ -771,8 +760,7 @@
      "specs": {
       "Coverage": "Up to 100 m²",
       "Navigation": "Vision, no wire",
-      "Battery": "18V Power4All",
-      "Brand": "Bosch"
+      "Battery": "18V Power4All"
      },
      "pros": [
       "Bosch quality at €359",
@@ -929,8 +917,7 @@
      "specs": {
       "Coverage": "Up to 100 m²",
       "Navigation": "Vision, no wire",
-      "Battery": "18V Power4All",
-      "Brand": "Bosch"
+      "Battery": "18V Power4All"
      },
      "pros": [
       "Bosch quality at €359",
@@ -954,8 +941,7 @@
      "specs": {
       "Coverage": "Up to 200 m²",
       "Navigation": "Vision, no wire",
-      "Battery": "18V system",
-      "Brand": "Bosch"
+      "Battery": "18V system"
      },
      "pros": [
       "Typical Irish estate garden size",
@@ -1029,8 +1015,7 @@
      "specs": {
       "Coverage": "800–1,000 m²",
       "Navigation": "Vision (no wire/RTK)",
-      "Setup": "App walk-around",
-      "Brand": "eufy/Anker"
+      "Setup": "App walk-around"
      },
      "pros": [
       "No wire, no RTK station — just works",

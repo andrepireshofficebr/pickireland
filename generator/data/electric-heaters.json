@@ -202,10 +202,7 @@
      "rating": 4.4,
      "badge": "Smart Alternative",
      "specs": {
-      "Power": "2300 W",
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€89",
-      "Brand": "Zanussi"
+      "Power": "2300 W"
      },
      "pros": [
       "€89 — 4th-cheapest of the 8 picks here",
@@ -457,11 +454,7 @@
      "price": 32,
      "rating": 4.5,
      "badge": "Strong Alternative",
-     "specs": {
-      "Owner rating": "4.5★ on Amazon.ie",
-      "Typical price": "€32",
-      "Brand": "Belaco"
-     },
+     "specs": {},
      "pros": [
       "€32 — third-cheapest of the 7 picks here",
       "Owners rate it 4.5★, above our top pick's 4.0★"
@@ -1165,11 +1158,7 @@
      "price": 51,
      "rating": 4.4,
      "badge": "Worth Considering",
-     "specs": {
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€51",
-      "Brand": "Morphy Richards"
-     },
+     "specs": {},
      "pros": [
       "€37 less than our top pick",
       "Owners rate it 4.4★, above our top pick's 4.3★"
@@ -1189,10 +1178,7 @@
      "rating": 4.4,
      "badge": "Notable Mention",
      "specs": {
-      "Power": "2000 W",
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€73",
-      "Brand": "Midea"
+      "Power": "2000 W"
      },
      "pros": [
       "€15 less than our top pick",

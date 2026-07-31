@@ -650,11 +650,7 @@
      "price": 60,
      "rating": 4.3,
      "badge": "Strong Alternative",
-     "specs": {
-      "Owner rating": "4.3★ on Amazon.ie",
-      "Typical price": "€60",
-      "Brand": "Cuisinart"
-     },
+     "specs": {},
      "pros": [
       "€8 less than our top pick",
       "Owners rate it 4.3★, above our top pick's 4.2★"
@@ -672,7 +668,7 @@
      "brand": "Breville",
      "price": 394,
      "rating": 4.2,
-     "badge": "Notable Mention",
+     "badge": "Above budget — upgrade path",
      "specs": {
       "Pressure": "15 bar",
       "Grinder": "Conical burr, 30 settings",

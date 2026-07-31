@@ -202,10 +202,7 @@
      "rating": 4.6,
      "badge": "Challenger Pick",
      "specs": {
-      "Extraction": "12 L/day",
-      "Owner rating": "4.6★ on Amazon.ie",
-      "Typical price": "€100",
-      "Brand": "HOMCOM"
+      "Extraction": "12 L/day"
      },
      "pros": [
       "€159 less than our top pick",
@@ -227,10 +224,7 @@
      "rating": 4.6,
      "badge": "Notable Mention",
      "specs": {
-      "Extraction": "12 L/day",
-      "Owner rating": "4.6★ on Amazon.ie",
-      "Typical price": "€110",
-      "Brand": "HOMCOM"
+      "Extraction": "12 L/day"
      },
      "pros": [
       "€149 less than our top pick",
@@ -530,9 +524,9 @@
   },
   {
    "slug": "best-20l-dehumidifiers-large-homes-ireland",
-   "title": "Best 20L+ Dehumidifiers for Large & Damp Homes Ireland 2026",
-   "desc": "Big-capacity 20–25L dehumidifiers for large or very damp Irish houses — extraction, continuous drainage and efficiency compared. Compared for 2026.",
-   "h1": "Best 20L+ Dehumidifiers for Large Irish Homes",
+   "title": "Best High-Capacity Dehumidifiers for Large Irish Homes",
+   "desc": "High-capacity dehumidifiers for large or very damp Irish houses — extraction rates from 12L to 20L a day, continuous drainage and running costs compared.",
+   "h1": "Best High-Capacity Dehumidifiers for Large Irish Homes",
    "intro": "Older Irish housing stock — solid walls, single glazing, suspect ventilation — can produce damp faster than small machines remove it. For 4+ bedrooms, persistent mould or post-leak drying, you want 20–25L of daily extraction, a big tank or hose drainage, and efficiency that doesn't punish all-day running. These seven are the heavy lifters.",
    "faq_idx": [
     0,
@@ -674,10 +668,7 @@
      "rating": 4.4,
      "badge": "Smart Alternative",
      "specs": {
-      "Extraction": "12 L/day",
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€140",
-      "Brand": "HUMILABS"
+      "Extraction": "12 L/day"
      },
      "pros": [
       "€140 — 4th-cheapest of the 7 picks here",
@@ -909,10 +900,7 @@
      "rating": 4.4,
      "badge": "Solid Backup Choice",
      "specs": {
-      "Extraction": "12 L/day",
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€150",
-      "Brand": "Pro Breeze"
+      "Extraction": "12 L/day"
      },
      "pros": [
       "€15 less than our top pick",
@@ -965,7 +953,7 @@
     ],
     [
      "The real cost versus a tumbler, done properly",
-     "A typical vented or condenser tumble dryer costs roughly €1.30–1.80 per load at the standard 38 cent electricity rate, drawing 2–3kW for 60–90 minutes. A dehumidifier in laundry mode, drawing around 250–300W and running for 6–8 hours overnight to finish the same load, uses roughly 1.8–2.4kWh — about €0.68–0.91 a day on the standard rate, or closer to €0.35–0.45 on a smart-meter night rate. It's slower but meaningfully cheaper, and it does it without the fabric wear a tumble dryer's heat and tumbling action causes. Over a household doing four loads a week, that's a realistic saving of €15–25 a month depending on which rate you're running it on. Factor in time as well as money: a tumble dryer finishes in under two hours, while the dehumidifier route takes most of a night, so it suits households that can plan a load the evening before rather than needing clothes dry within the hour."
+     "A typical vented or condenser tumble dryer costs roughly €1.30–1.80 per load at the standard 38 cent electricity rate, drawing 2–3kW for 60–90 minutes. A dehumidifier in laundry mode, drawing around 250–300W and running for 6–8 hours overnight to finish the same load, uses roughly 1.8–2.4kWh — about €0.68–0.91 a day on the standard rate, or closer to €0.35–0.45 on a smart-meter night rate. It's slower but meaningfully cheaper, and it does it without the fabric wear a tumble dryer's heat and tumbling action causes. Over a household doing four loads a week — about 17 loads a month — that works out at a saving of roughly €7–19 a month on the standard day rate, rising to €15–25 a month if you schedule the dehumidifier overnight on a smart-meter night rate. Factor in time as well as money: a tumble dryer finishes in under two hours, while the dehumidifier route takes most of a night, so it suits households that can plan a load the evening before rather than needing clothes dry within the hour."
     ],
     [
      "Desiccant or compressor for a cold utility room?",
@@ -1144,11 +1132,7 @@
      "price": 181,
      "rating": 4.5,
      "badge": "Value Contender",
-     "specs": {
-      "Owner rating": "4.5★ on Amazon.ie",
-      "Typical price": "€181",
-      "Brand": "De'Longhi"
-     },
+     "specs": {},
      "pros": [
       "€78 less than our top pick",
       "Strong 4.5★ owner rating"

@@ -249,11 +249,7 @@
      "price": 95,
      "rating": 4.4,
      "badge": "Worth Considering",
-     "specs": {
-      "Owner rating": "4.4★ on Amazon.ie",
-      "Typical price": "€95",
-      "Brand": "MIKO"
-     },
+     "specs": {},
      "pros": [
       "€95 — 5th-cheapest of the 6 picks here"
      ],
@@ -459,10 +455,7 @@
      "rating": 4.5,
      "badge": "Challenger Pick",
      "specs": {
-      "Coverage": "52 m²",
-      "Owner rating": "4.5★ on Amazon.ie",
-      "Typical price": "€160",
-      "Brand": "Generic"
+      "Coverage": "52 m²"
      },
      "pros": [
       "52 m² coverage",
@@ -670,13 +663,15 @@
      "rating": 4.6,
      "badge": "Strong Alternative",
      "specs": {
-      "Owner rating": "4.6★ on Amazon.ie",
-      "Typical price": "€78",
-      "Brand": "GoveeLife"
+      "Coverage": "Up to 97 m² (1,046 ft²)",
+      "Filter": "3-in-1 HEPA",
+      "Sleep mode": "24 dB",
+      "Monitor": "PM2.5 sensor"
      },
      "pros": [
       "€78 — 4th-cheapest of the 7 picks here",
-      "Matches our top pick's 4.6★ owner rating"
+      "Up to 97 m² (1,046 ft²) coverage",
+      "3-in-1 HEPA filter"
      ],
      "cons": [
       "1 of the 7 picks here is better rated by owners",
@@ -903,11 +898,7 @@
      "price": 365,
      "rating": 4.6,
      "badge": "Smart Alternative",
-     "specs": {
-      "Owner rating": "4.6★ on Amazon.ie",
-      "Typical price": "€365",
-      "Brand": "Levoit"
-     },
+     "specs": {},
      "pros": [
       "Second-best owner rating on this page at 4.6★"
      ],
