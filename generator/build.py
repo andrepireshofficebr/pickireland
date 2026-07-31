@@ -571,6 +571,28 @@ def jsonld_page(page, cat, faqs):
     ]
     return "".join(f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False)}</script>' for d in data)
 
+def jsonld_hub(cat):
+    """Schema para as paginas de indice de categoria (ex: /dehumidifiers/index.html).
+    Antes nao tinham NENHUM structured data apesar de ja terem FAQ visivel na pagina
+    (hub_faq) -> era um FAQPage schema perdido de graca, alem de faltar Breadcrumb/CollectionPage."""
+    canonical = f"{DOMAIN}/{cat['category']}/"
+    items = [{"@type": "ListItem", "position": i + 1, "url": f"{canonical}{pg['slug']}.html", "name": pg["h1"]}
+             for i, pg in enumerate(cat["pages"])]
+    data = [
+        {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"Best {cat['name']} in Ireland",
+         "url": canonical, "description": cat["hub_intro"][:300],
+         "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/"}},
+        {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": items},
+        {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+            {"@type": "ListItem", "position": 2, "name": cat["name"], "item": canonical}]},
+    ]
+    if cat.get("faqs"):
+        data.append({"@context": "https://schema.org", "@type": "FAQPage",
+                     "mainEntity": [{"@type": "Question", "name": f["q"],
+                                     "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in cat["faqs"]]})
+    return "".join(f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False)}</script>' for d in data)
+
 # ---------------------------------------------------------------- load data
 CATS = []
 for fn in sorted(os.listdir(DATA)):
@@ -633,8 +655,9 @@ for cat in CATS:
 <h2>{esc(cat['name'])}: frequently asked questions</h2>
 {hub_faq}
 """
-    out = page_shell(f"Best {cat['name']} in Ireland 2026 — Guides & Comparisons | {SITE_NAME}",
-                     cat["hub_intro"][:155], f"{DOMAIN}/{cat['category']}/", body, depth=1)
+    out = page_shell(f"Best {cat['name']} in Ireland 2026 | {SITE_NAME}",
+                     cat["hub_intro"][:155], f"{DOMAIN}/{cat['category']}/", body, depth=1,
+                     jsonld=jsonld_hub(cat), og_type="website")
     with open(os.path.join(cdir, "index.html"), "w", encoding="utf-8") as f:
         f.write(out)
     all_pages.append(f"{cat['category']}/index.html")
@@ -707,17 +730,29 @@ with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
 all_pages.append("index.html")
 
 # ---------------------------------------------------------------- legal & info pages
-def simple_page(fname, title, body_html, jsonld=""):
+def simple_page(fname, title, body_html, desc=None, page_type="WebPage", extra=None):
+    d = desc or title
+    # WebPage/AboutPage/ContactPage schema -- antes essas paginas nao tinham NENHUM
+    # structured data (exceto about.html) e a meta description caia pro titulo
+    # (7-20 caracteres, praticamente vazia). `extra` mistura props especificas (ex: mainEntity do autor).
+    schema = {"@context": "https://schema.org", "@type": page_type, "name": title,
+              "url": f"{DOMAIN}/{fname}", "description": d,
+              "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/"}}
+    if extra:
+        schema.update(extra)
+    jsonld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
     with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
-        f.write(page_shell(f"{title} | {SITE_NAME}", title, f"{DOMAIN}/{fname}",
-                           f"<h1 style='margin-top:28px'>{title}</h1>{body_html}", depth=0, jsonld=jsonld))
+        f.write(page_shell(f"{title} | {SITE_NAME}", d, f"{DOMAIN}/{fname}",
+                           f"<h1 style='margin-top:28px'>{title}</h1>{body_html}", depth=0,
+                           jsonld=jsonld, og_type="website"))
     all_pages.append(fname)
 
 simple_page("affiliate-disclosure.html", "Affiliate Disclosure", f"""
 <p><strong>As an Amazon Associate, {SITE_NAME} earns from qualifying purchases.</strong></p>
 <p>{SITE_NAME} is a reader-supported website. When you click a link on our site and buy something from a retailer such as Amazon.ie, we may receive a small commission. This never costs you anything extra — the price is identical whether you use our link or not.</p>
 <p>Commissions never influence our rankings. Products are selected and ordered based on specifications, verified owner feedback, running-cost analysis at Irish prices, and suitability for Irish conditions. We frequently recommend cheaper products over more expensive ones (which would earn us more) because they're the better buy.</p>
-<p>Prices shown on this site are typical/indicative prices in EUR at time of writing. Prices change constantly — always check the live price on the retailer's page before buying.</p>""")
+<p>Prices shown on this site are typical/indicative prices in EUR at time of writing. Prices change constantly — always check the live price on the retailer's page before buying.</p>""",
+    desc="How PickIreland earns commission as an Amazon Associate, and why affiliate links never change which products we recommend or how we rank them.")
 
 _author_links = f' <a href="{esc(AUTHOR["url"])}" rel="me noopener" target="_blank">Connect on LinkedIn</a>.' if AUTHOR.get("url") else ""
 simple_page("about.html", "About PickIreland", f"""
@@ -728,20 +763,22 @@ simple_page("about.html", "About PickIreland", f"""
 <h2 style="margin-top:34px">How we research</h2>
 <p>For each guide we shortlist five products per use-case, then compare them on manufacturer specifications, verified owner feedback, running costs at current Irish electricity rates, and suitability for Irish conditions and rules. We update prices and picks as models change. We may earn an affiliate commission when you buy through our links, at no extra cost to you — this never changes our rankings.</p>
 <p>Got a correction or a product suggestion? See our <a href="contact.html">contact page</a>.</p>""",
-    jsonld='<script type="application/ld+json">' + json.dumps({
-        "@context": "https://schema.org", "@type": "AboutPage", "mainEntity": author_schema(),
-        "publisher": {"@type": "Organization", "name": SITE_NAME, "url": DOMAIN + "/"}}, ensure_ascii=False) + "</script>")
+    desc="Who writes PickIreland and how we research Irish buying guides — manufacturer specs, owner feedback and running costs at real Irish electricity rates.",
+    page_type="AboutPage", extra={"mainEntity": author_schema()})
 
 simple_page("privacy.html", "Privacy Policy", f"""
 <p>{SITE_NAME} respects your privacy. We do not require accounts, collect names, or store personal data submitted by visitors.</p>
 <p><strong>Analytics:</strong> We may use privacy-respecting analytics to understand which guides are useful (page views, approximate region, device type). No personally identifying information is collected.</p>
 <p><strong>Affiliate links:</strong> When you click an affiliate link, the retailer (e.g. Amazon) may set cookies to attribute the sale. Those cookies are governed by the retailer's own privacy policy.</p>
-<p><strong>Contact:</strong> If you email us, we use your address only to reply.</p>""")
+<p><strong>Contact:</strong> If you email us, we use your address only to reply.</p>""",
+    desc="PickIreland's privacy policy: what data we collect from visitors (none by default), how analytics works, and how affiliate link cookies are handled.")
 
 simple_page("contact.html", "Contact", f"""
 <p>Spotted an error? Price changed? Have a product we should look at? We'd love to hear from you.</p>
 <p>Email us: <strong><a href="mailto:hello@pickireland.best">hello@pickireland.best</a></strong></p>
-<p>We read every message and use your feedback to keep our {SITE_NAME} guides accurate and up to date.</p>""")
+<p>We read every message and use your feedback to keep our {SITE_NAME} guides accurate and up to date.</p>""",
+    desc="Contact PickIreland to report a price change, flag an error in a guide, or suggest a product — we read every message.",
+    page_type="ContactPage")
 
 # ---------------------------------------------------------------- sitemap & robots
 urls = "".join(f"<url><loc>{DOMAIN}/{p if p != 'index.html' else ''}</loc><lastmod>{datetime.date.today()}</lastmod></url>" for p in all_pages)
