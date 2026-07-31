@@ -58,8 +58,8 @@
  "pages": [
   {
    "slug": "best-robot-vacuums-ireland",
-   "title": "5 Best Robot Vacuums in Ireland 2026 — Ranked",
-   "desc": "Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Top 5 ranked.",
+   "title": "Best Robot Vacuums in Ireland 2026 — Ranked",
+   "desc": "Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Compared ranked.",
    "h1": "The 5 Best Robot Vacuums in Ireland (2026)",
    "intro": "The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation intelligence, real pickup on carpet and hard floor, dock capabilities and parts availability in Ireland. Six machines define the current sweet spots, from €112 to €549.",
    "faq_idx": [
@@ -266,7 +266,7 @@
   },
   {
    "slug": "best-budget-robot-vacuums-under-300-ireland",
-   "title": "Best Robot Vacuums Under €300 Ireland 2026 — Top 5 Budget Picks",
+   "title": "Best Robot Vacuums Under €300 Ireland 2026 — Budget Picks",
    "desc": "Five robot vacuums under €300 that clean properly — lidar options, app control and honest trade-offs compared for Irish homes. 2026.",
    "h1": "Best Robot Vacuums Under €300 in Ireland",
    "intro": "Under €300 used to mean dumb bouncing discs; now it includes genuine lidar mapping and even budget self-empty docks. The trade-offs moved to mopping quality and obstacle avoidance. These seven maximise different priorities at the price — mapping, quietness, dock convenience — and we're explicit about what each one gives up.",
@@ -497,8 +497,8 @@
   },
   {
    "slug": "best-robot-vacuums-pet-hair-ireland",
-   "title": "Best Robot Vacuums for Pet Hair Ireland 2026 — Top 5 Compared",
-   "desc": "Dog or cat at home? The 5 best robot vacuums for pet hair in Ireland — tangle-free brushes, self-empty docks and avoidance tech. 2026.",
+   "title": "Best Robot Vacuums for Pet Hair Ireland 2026 — Compared",
+   "desc": "Dog or cat at home? The best robot vacuums for pet hair in Ireland — tangle-free brushes, self-empty docks and avoidance tech. 2026.",
    "h1": "Best Robot Vacuums for Pet Hair in Ireland",
    "intro": "Pet homes are the robot vacuum's killer app — daily automated hair pickup instead of weekend archaeology — but they're also its stress test: hair-wrapped brushes, full bins, and the catastrophic encounter every owner fears. We ranked on tangle-resistance, bin/dock capacity, and obstacle intelligence, because with pets, avoidance tech isn't a luxury.",
    "faq_idx": [
@@ -728,8 +728,8 @@
   },
   {
    "slug": "best-robot-vacuum-mop-combos-ireland",
-   "title": "Best Robot Vacuum & Mop Combos Ireland 2026 — Top 5 Hybrids",
-   "desc": "Robot vacuum-mop hybrids that actually mop: rotating pads, self-washing docks and carpet protection compared for Irish homes. Top 5 2026.",
+   "title": "Best Robot Vacuum & Mop Combos Ireland 2026 — Hybrids",
+   "desc": "Robot vacuum-mop hybrids that actually mop: rotating pads, self-washing docks and carpet protection compared for Irish homes. Compared 2026.",
    "h1": "Best Robot Vacuum & Mop Combos in Ireland",
    "intro": "Vacuum-mop hybrids finally deserve the name: rotating pressurised pads, hot-water self-washing docks and automatic mop-lifting over carpet turned a gimmick into the category's most useful feature — especially for Irish homes with tiled kitchens, wooden floors and eight months of wet shoes. We compared mopping that scrubs versus mopping that smears across five price points.",
    "faq_idx": [
@@ -911,8 +911,8 @@
   },
   {
    "slug": "best-premium-self-empty-robot-vacuums-ireland",
-   "title": "Best Premium & Self-Empty Robot Vacuums Ireland 2026 — Top 5",
-   "desc": "Flagship self-emptying robot vacuums compared for Ireland: total automation, obstacle AI and long-term costs. The top 5 premium picks 2026.",
+   "title": "Best Premium & Self-Empty Robot Vacuums Ireland 2026",
+   "desc": "Flagship self-emptying robot vacuums compared for Ireland: total automation, obstacle AI and long-term costs. The full comparison premium picks 2026.",
    "h1": "Best Premium & Self-Empty Robot Vacuums in Ireland",
    "intro": "At the premium tier the question changes from 'does it clean?' to 'how long can you ignore it?' — the best systems now run 6–8 weeks unattended, washing mops, emptying bins, dosing detergent and dodging shoes. We compared total automation depth, obstacle intelligence, consumable costs and which flagship features survive daily reality.",
    "faq_idx": [
@@ -1099,9 +1099,9 @@
      "rating": 4.5,
      "badge": "Reader Favourite",
      "specs": {
-      "Suction": "8,000 Pa",
+      "Suction": "10,000 Pa",
       "Owner rating": "4.5★ on Amazon.ie",
-      "Typical price": "€611",
+      "Typical price": "€649",
       "Brand": "Roborock"
      },
      "pros": [
@@ -1113,7 +1113,7 @@
       "Not our category winner",
       "Compare specs before committing"
      ],
-     "verdict": "The challenger: Roborock QV 35A Set won't dethrone our winner, but at €611 it makes the podium fight interesting."
+     "verdict": "The QV 35S pairs high suction with a self-empty dock at €649, and its 4.5-star owner rating is respectable, if below our €549 eufy pick's 4.7. You're paying about €100 more than the eufy for a machine owners rate slightly lower, and without the eufy's full wash-and-dry station. Worth comparing directly if you prefer Roborock's app; the eufy remains the better-value complete system."
     },
     {
      "id": "rvc-032",
