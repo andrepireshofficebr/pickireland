@@ -236,6 +236,10 @@ h1{font-size:2.6rem;line-height:1.08;letter-spacing:-1.2px;margin:12px 0 14px;fo
 /* quick answer (AEO): resposta direta, autocontida, logo abaixo do H1 */
 .quick-answer{background:linear-gradient(135deg,var(--green-t),#F4FAF6);border:1px solid #CFE4D8;border-left:5px solid var(--green);border-radius:0 14px 14px 0;padding:16px 22px;margin:0 0 26px;font-size:1.03rem;line-height:1.7;color:#22323F;max-width:850px}
 .quick-answer strong{color:var(--green-d);font-weight:800}
+/* citação de fonte primária (GEO/E-E-A-T) */
+.sources{font-size:.86rem;color:var(--mut);background:#F6F8F6;border:1px solid var(--line);border-radius:12px;padding:13px 18px;margin:18px 0 0;line-height:1.65}
+.sources strong{color:var(--ink)}
+.sources a{font-weight:600}
 h2{font-size:1.7rem;margin:50px 0 18px;letter-spacing:-.7px;font-weight:800;position:relative;padding-left:16px}
 h2::before{content:'';position:absolute;left:0;top:.32em;bottom:.22em;width:5px;border-radius:3px;background:linear-gradient(180deg,var(--gold),var(--green-l))}
 h3{font-size:1.13rem;margin:20px 0 8px;font-weight:700}
@@ -574,6 +578,34 @@ def author_schema():
         a["image"] = AUTHOR["image"]
     return a
 
+# ---------------------------------------------------------------- citação de fonte inline (GEO)
+# Detecta quais factos irlandeses a página realmente usa e cita a fonte primária só desses.
+# Ligar o número à fonte é o sinal de confiança que os motores generativos mais valorizam —
+# e é honesto: o leitor consegue conferir a conta.
+SOURCE_MARKERS = [
+    (("38 cent", "€0.38", "0.38 per kWh", "38c/kWh", "38 cent a unit"),
+     'electricity unit rates from <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener" target="_blank">SEAI energy statistics</a> and published supplier standard rates (~€0.38/kWh day rate, July 2026)'),
+    (("S.I. 199", "S.I.199"),
+     'e-scooter power, speed and weight limits from the text of S.I. 199 of 2024 on <a href="https://www.irishstatutebook.ie" rel="nofollow noopener" target="_blank">irishstatutebook.ie</a>'),
+    (("Cycle to Work",),
+     'the €1,500 Cycle to Work ceiling for e-bikes as published by <a href="https://www.revenue.ie" rel="nofollow noopener" target="_blank">Revenue</a>'),
+    (("Met Éireann",),
+     'pollen season dates from <a href="https://www.met.ie" rel="nofollow noopener" target="_blank">Met Éireann</a>'),
+]
+
+def sources_html(page, faqs, guide_pairs):
+    blob = " ".join(t for _, t in guide_pairs) + " " + " ".join(f["a"] for f in faqs) + " " + page.get("intro", "")
+    used = [txt for markers, txt in SOURCE_MARKERS if any(m in blob for m in markers)]
+    if not used:
+        return ""
+    if len(used) == 1:
+        body = used[0]
+    else:
+        body = "; ".join(used[:-1]) + "; and " + used[-1]
+    return ('<p class="sources"><strong>Sources for the figures above:</strong> ' + body +
+            '. Prices and product specifications are taken from manufacturer documentation and '
+            'Amazon.ie listings at time of writing and change frequently.</p>')
+
 def quick_answer(page, cat):
     """Resposta direta de ~40-60 palavras logo abaixo do H1.
     Padrao mais forte que existe para featured snippet: pergunta implicita do title
@@ -715,6 +747,7 @@ for cat in CATS:
 {cards}
 <h2>Buying guide: how to choose</h2>
 <div class="guide" style="padding:18px 28px">{guide}</div>
+{sources_html(page, faqs, guide_src)}
 <h2>Frequently asked questions</h2>
 {faq_html(faqs)}
 <div class="related"><h2>More {esc(cat['name'].lower())} guides</h2>{related}</div>

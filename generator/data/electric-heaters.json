@@ -58,7 +58,7 @@
  "pages": [
   {
    "slug": "best-electric-heaters-ireland",
-   "title": "Best Electric Heaters in Ireland 2026 — Running Costs Compared",
+   "title": "Best Electric Heaters in Ireland 2026 — Running Costs",
    "desc": "The best electric heaters for Irish homes in 2026, compared on real running costs per hour, heat type and safety. Ranked for 2026.",
    "h1": "The Best Electric Heaters in Ireland (2026)",
    "intro": "Every winter, Irish households panic-buy heaters that triple their bills. The fix is matching heater type to the job — burst heat, all-evening warmth, or personal spot heating — and insisting on a proper thermostat. We compared the market on running cost per useful hour at Irish rates, not just price tags. These eight each win their specific job.",
@@ -273,7 +273,7 @@
      "Answer three questions before comparing wattage or price: how big is the room, how well does it hold heat, and how long will the heater run each time you switch it on. A draughty period-house bedroom with single glazing loses heat far faster than a sealed 2020s apartment with the same floor area, so the same heater behaves completely differently in each. Rooms you occupy for hours — a sitting room in the evening, a home office all day — suit heaters with thermal mass or accurate thermostats that hold a set temperature efficiently. Rooms you pass through briefly — a hallway, a bathroom before a shower — suit fast radiant or fan heat that warms a person, not the air. Getting this match wrong is the single biggest reason Irish households end up with a heater that either never feels warm enough or runs constantly and produces a bill to match."
     ],
     [
-     "The feature list that actually matters",
+     "Which electric heater features actually matter?",
      "Ignore wattage badges and colour options and check four things instead. A proper thermostat — ideally digital, not a vague dial — cycles the element off once the room reaches temperature, which is where most of the real-world saving comes from. A timer or scheduling function lets you avoid heating an empty room before you get home. Tip-over and overheat cut-offs are non-negotiable if the heater will ever run unattended, and matter more in homes with pets, small children or timber floors. Lastly, check the IP rating if the heater might ever be used somewhere damp — a standard heater has no splash protection at all. Everything else, from remote controls to app connectivity, is convenience layered on top of these basics rather than a reason to choose one model over another."
     ],
     [
@@ -281,11 +281,11 @@
      "Every resistive electric heater — oil-filled, panel, ceramic, fan — turns essentially 100% of the electricity it draws into heat, so cost is simple arithmetic: kilowatts × hours × unit price. At the current Electric Ireland standard day rate of roughly €0.38 per kWh, a 2kW heater run flat out for one hour costs about €0.76. Run it for a typical evening — say four hours while a thermostat cycles it on and off around 70% of the time — and you are looking at roughly €2.13. Leave it running for a full eight-hour overnight stretch at that duty cycle and the figure climbs past €4. None of this changes with the type of heater; a 2kW oil radiator and a 2kW fan heater cost the same to run at the same wattage. What differs is how much of that hour is spent actually drawing power, which is where thermostat quality and room insulation do the real work."
     ],
     [
-     "Electric vs central heating for one room",
+     "Is it cheaper to heat one room electrically than run central heating?",
      "Firing up a gas or oil boiler to heat an entire house just to warm the one room you're sitting in is usually the more expensive option, especially in older homes with a lower BER rating where a lot of that heat is lost before it reaches you. A single 2kW electric heater running for an evening in one room can genuinely beat the cost of a whole central heating cycle. The comparison flips the other way if you try to heat an entire house electrically: gas and oil remain cheaper per kWh delivered than electric resistive heat once you're warming every room rather than one. The practical rule for most Irish homes is to let central heating handle the whole house at a lower background temperature and use a plug-in electric heater to top up the one room you're actually using, rather than choosing one system exclusively."
     ],
     [
-     "Buying in Ireland: retailers, warranty and the energy label",
+     "Where should you buy an electric heater in Ireland?",
      "Most electric heaters sold here come from Woodies, Harvey Norman, Currys, Argos, Litely-style discounters or Amazon.ie, and prices for a given model are usually within a few euro across all of them, so it's worth a quick check before buying rather than assuming any one retailer is cheapest. UK-market listings occasionally slip through on Amazon with a UK plug rather than an Irish one — check the plug type in the images, not just the listing text. A CE mark is the baseline for anything sold legally in Ireland; it is not a performance claim. Panel heaters over a certain wattage carry an EU energy label, which is useful for comparing thermostat sophistication between models but says nothing about how a heater suits your specific room. Standard consumer protection gives you a two-year warranty regardless of what a listing advertises separately."
     ]
    ],
@@ -314,7 +314,7 @@
   },
   {
    "slug": "cheapest-electric-heaters-to-run-ireland",
-   "title": "Cheapest Electric Heaters to Run in Ireland 2026 — Low-Cost Picks",
+   "title": "Cheapest Electric Heaters to Run in Ireland 2026",
    "desc": "The cheapest electric heaters to actually run at Irish electricity prices — low-watt radiant, smart thermostats and real hourly costs. Compared for 2026.",
    "h1": "Cheapest Electric Heaters to Run in Ireland",
    "intro": "'Cheap to run' has a precise meaning: lowest watts doing the actual job needed. That's low-wattage radiant heat aimed at people, and sharp thermostats that kill run-time. Ignore 'eco' badges on 2,000 W boxes — here are seven heaters engineered to draw less in the first place, with honest hourly costs at 38c/kWh.",
@@ -508,7 +508,7 @@
      "An 'eco' or 'energy saving' setting on most consumer heaters is simply a lower fixed wattage option or a wider thermostat cycling band — it isn't a different kind of electricity, and it doesn't get more heat out of the same watts. If eco mode uses 1000W instead of 2000W, it costs half as much per hour, but it also produces roughly half the heat, so it may take twice as long to reach the same comfort level, largely cancelling the saving. The genuine efficiency gain in heaters worth paying attention to is thermostat precision: a heater that holds within half a degree of your target cycles on and off tightly around that point, whereas a cheap mechanical dial with a wide dead zone lets the room overshoot and undershoot, wasting energy in both directions."
     ],
     [
-     "The maths: three heaters, one evening",
+     "What do three different heaters cost over one evening?",
      "Take three heaters running for a four-hour evening at the standard day rate of roughly €0.38 per kWh. A 650W mini oil radiator, run close to continuously in a small bedroom, costs about €0.99 for the evening. A 1000W panel heater with a good thermostat, cycling at around 65% duty in a similarly sized room, comes to roughly €0.99 as well, despite the higher wattage, because it spends more of the time switched off. A 2000W fan heater run at full output with no thermostat control for the same four hours costs €3.04 — three times as much, for a room that likely didn't need that much heat to begin with. The lesson isn't that oil radiators beat panel heaters; it's that thermostat behaviour matters as much as headline wattage."
     ],
     [
@@ -748,7 +748,7 @@
      "A 2kW oil radiator cycling at a realistic 55-65% duty once a room is up to temperature costs somewhere between €0.42 and €0.49 per hour at the standard day rate of roughly €0.38 per kWh — call it €1.80-€2.10 over a four-hour evening. Firing the central heating system to heat the whole house for the same evening, particularly in a home with a lower BER rating where heat escapes through walls, windows and an uninsulated attic, frequently costs more once you account for gas or oil consumed warming rooms nobody's sitting in. The comparison reverses if you try to heat several rooms electrically at once — several oil radiators running simultaneously will usually cost more than one central heating cycle. An oil radiator's real strength is heating the one occupied room for a long stretch without lighting the boiler at all."
     ],
     [
-     "Safety for unattended and overnight use",
+     "Why are oil radiators considered safer for unattended use?",
      "Oil radiators are generally considered among the safer plug-in heater types for longer unattended stretches, because the heating element is fully sealed inside the oil reservoir rather than exposed to the air the way a fan or ceramic element is. That's a meaningful difference, but it isn't a green light to leave any heater running all night without a second thought — manufacturer guidance and fire safety advice still recommend an overheat cut-off and, ideally, a tip-over switch as standard, and a genuine thermostat that holds a safe background temperature rather than running flat out. For bedroom use overnight, a timer that switches the radiator off an hour or so after you're likely asleep is a more sensible approach than relying on it to run unmonitored until morning. If in doubt, treat the manufacturer's stated safety features as a checklist rather than an assumption, since not every budget model includes both protections as standard."
     ],
     [

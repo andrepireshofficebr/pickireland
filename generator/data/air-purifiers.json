@@ -73,15 +73,15 @@
      "Irish indoor air is dominated by year-round mould spores (2–10 microns) from persistent humidity, large grass pollen (20–35 microns) that any decent filter traps easily, and sub-micron combustion particles from open fires and stoves that no fibre filter touches alone. That mix calls for a true H13 filter rated to 0.3 microns plus genuine activated carbon measured by weight, not a thin mesh sheet. The particle mix in an Irish house is not the continental one the marketing is written for, and combustion is the awkward fraction: smoke from open fires, ranges and stoves across older estates produces PM2.5 and PM1 particles well under a micron, plus gases that no fibre filter touches at all. A unit optimised purely for pollen will underperform badly on a still winter evening."
     ],
     [
-     "Reading CADR without being sold a fantasy room size",
+     "How do you read an air purifier's CADR and room-size claim?",
      "Coverage claims on the box — \"cleans 90 m²\" — are usually calculated at one air change per hour on maximum fan speed. One air change is close to useless; three to five is the target. Work from the CADR figure in cubic metres per hour instead and divide it by your room volume. A 250 m³/h unit in a 20 m² sitting room with 2.4 m ceilings, so 48 m³, delivers about five changes an hour, which is genuinely good. The same unit in a 45 m² open-plan space of 108 m³ manages barely two. Check which speed the CADR was measured at, too, because top speed on most machines is unusable in an occupied room. If a listing quotes only square metres and never gives a m³/h figure, the omission is the answer."
     ],
     [
-     "The five-year sum: purchase, filters and electricity",
+     "What does an air purifier really cost over five years?",
      "Price the machine over five years, not at the checkout. Take a €200 mid-range unit with a €45 combined HEPA-and-carbon filter replaced annually: that is €225 in consumables. Electricity is larger than most people assume — 20 W running continuously is 175 kWh a year, which at Irish standard rates of roughly 38 cent a unit comes to about €67 a year, or €333 across five years. Running total: €758. Now take a €110 budget unit whose only filter costs €55 and is rated for six months: €550 of filters over the same period, usually with a less efficient motor as well. The cheaper box wins at the till and loses everywhere afterwards. Check the replacement filter's current price and Irish stock before buying the machine; that one search prevents most of the regret."
     ],
     [
-     "Certifications and seals that mean something",
+     "Which air purifier certifications actually mean something?",
      "Three marks are worth looking for here. AHAM Verifide means the CADR figures were measured to a common test standard rather than self-declared. The ECARF seal and the Allergy UK Seal of Approval indicate that someone other than the manufacturer assessed allergen reduction — imperfect, but better than a brand's own bar chart. EN 1822 or ISO 29463 classification, the source of the H13 and H14 grades, tells you the media itself was tested, though it says nothing about whether the housing leaks around it. Gasketed, sealed filter chambers matter more than the grade on the sticker: air takes the easiest path, and on cheaply moulded bodies that path runs around the filter rather than through it. Absent all of these, ask whether the brand publishes a m³/h CADR and a dB(A) figure at a stated distance."
     ],
     [
@@ -286,11 +286,11 @@
      "The highest-value place for an allergy purifier is beside the bed. You spend seven to nine unbroken hours there with the door shut, and that is the only stretch of the day when the machine works on a small, sealed volume without fresh pollen walking in on clothes and hair. A 12 m² bedroom with a 2.4 m ceiling is about 29 m³, so a modest 120 m³/h CADR gives four air changes an hour — comfortably enough. The routine matters as much as the hardware: close the window by late afternoon, when grass pollen settles back to ground level on a warm evening, shower and wash your hair before bed, and keep the day's clothes out of the room. The purifier then handles what remains airborne instead of fighting a constant inflow."
     ],
     [
-     "What HEPA does nothing for: dust mite allergen",
+     "Why won't a HEPA filter fix a dust mite problem?",
      "House dust mites thrive in Irish humidity, and their allergen — a protein carried in their droppings — is a common year-round trigger. But that allergen mostly rides on heavy particles which settle within minutes of being disturbed, so it spends very little time suspended. A purifier catches what gets stirred up during bed-making and hoovering; it cannot pull allergen out of a mattress or a carpet. If mites are your diagnosis, the machine is a supporting player behind allergen-proof mattress and pillow encasements, hot-washing bedding weekly, and keeping indoor relative humidity below 50%. Pet dander is the opposite case entirely: it is light, stays suspended for hours, and is exactly the load HEPA filtration removes well. Match the tool to the allergen rather than buying on the word \"allergy\" alone."
     ],
     [
-     "Sealed housings, pre-filters and the bypass problem",
+     "Why does a sealed housing matter more than the filter grade?",
      "An H13 filter only helps if all of the air goes through it. Cheaply moulded bodies without gaskets let a slice of the airflow slip around the media, and for an allergy sufferer that bypass is the difference between relief and nothing. Look for a filter seating against a rubber or foam seal and a door that clamps rather than clips. The pre-filter matters too: grains at 20–35 microns and pet hair clog fine media fast, so a washable mesh pre-filter rinsed monthly through summer adds months to the life of the expensive element behind it. Independent marks — the ECARF seal, the Allergy UK Seal of Approval — at least indicate somebody other than the manufacturer assessed allergen performance. Neither guarantees results, but their absence on a product sold specifically for allergies is worth noticing."
     ],
     [
@@ -478,7 +478,7 @@
   },
   {
    "slug": "best-quiet-air-purifiers-bedroom-ireland",
-   "title": "Best Quiet Air Purifiers for Bedrooms Ireland 2026 (Under 25 dB)",
+   "title": "Best Quiet Air Purifiers for Bedrooms Ireland 2026",
    "desc": "The quietest air purifiers for Irish bedrooms — all under 25 dB in sleep mode, displays off, real HEPA. Compared for 2026.",
    "h1": "Best Quiet Air Purifiers for Bedrooms in Ireland",
    "intro": "A bedroom purifier that's too loud gets switched off, and a switched-off purifier cleans nothing. The seven below all run below 25 dB in sleep mode — quieter than a ticking clock — with dimmed or killed displays. We ranked on sleep-mode CADR (how much cleaning survives the silence), because some units go quiet by going useless.",
@@ -497,7 +497,7 @@
      "Any purifier can be silent — switch it off. What matters is how much clean air survives the quiet setting. Brands headline maximum CADR at top speed, which on most machines is 50–55 dB and unusable in an occupied bedroom. The useful question is airflow at the lowest setting. A unit delivering 60–80 m³/h below 25 dB turns over a 29 m³ Irish double bedroom two to three times an hour, which is enough to matter. One that drops to 25 m³/h in order to hit its silence claim gives under one change an hour and is essentially decorative. Where brands publish per-speed tables, read them. Where they do not, owner reports consistently mention whether the low setting moves perceptible air at arm's length, and that crude proxy is better than nothing."
     ],
     [
-     "Big fan turning slowly beats small fan turning fast",
+     "Why are bigger air purifiers usually the quieter ones?",
      "Noise comes from air velocity and turbulence, not from cleaning. A 360 mm cylindrical unit with a large impeller moves the same volume as a compact tower at a far lower blade speed, and lower blade speed means less broadband hiss. That is why physically larger purifiers tend to be the quiet ones, and why an oversized machine loafing on setting one beats a small one straining on setting three. Motor type matters as well: brushless DC motors run smoother and allow genuinely low speeds, while cheap AC motors have a floor below which they stall or hum. The last variable is tone. Broadband whoosh disappears into sleep; a bearing whine, or a resonance that appears at one particular speed, does not — and it is the most common complaint in long-term owner feedback."
     ],
     [
@@ -727,7 +727,7 @@
      "Measure the whole connected space, not just the part you sit in: a 45 m² kitchen-dining-living run with a 2.4 m ceiling is 108 m³, and a double-height void or open stairs can push that to 140–160 m³. Three air changes an hour at 108 m³ needs 324 m³/h of clean air delivery — five changes needs close to 550. Open-plan is the default in Irish builds from the 2000s onward, which is exactly why the sizing rules printed on purifier boxes mislead here. Very few single domestic machines produce that kind of clean-air delivery at a noise level anyone would tolerate while watching television. This calculation is what decides whether you buy one flagship, two mid-size units, or consciously accept two air changes an hour as good enough for the space."
     ],
     [
-     "The CADR you need, speed by speed",
+     "What CADR do you need at a usable, quiet fan speed?",
      "Headline CADR is measured at maximum fan speed, and on large machines maximum is typically 55–65 dB — louder than conversation. The figure to hunt for is delivery at the second or third of five speeds, which is where a big unit actually lives day to day. As a working rule for Irish open-plan rooms: under 80 m³, look for a 300 m³/h headline; 80–120 m³, aim at 400 m³/h; above 120 m³, either 600 m³/h or two machines. Expect roughly half the headline number at a comfortable speed and size up accordingly — a unit rated 500 m³/h running at 250 in the evening still gives two-plus changes an hour in a 108 m³ room without anyone raising their voice. Oversizing is the only reliable route to quiet in a large space."
     ],
     [
@@ -739,7 +739,7 @@
      "The largest particle event in an Irish open-plan house happens between six and eight in the evening. Frying, grilling and toasting throw PM2.5 into the room in quantities that dwarf anything drifting in from outdoors, and in an open-plan layout there is no door to contain it. A stove or open fire in the same connected space adds a further load every time the door is opened to refuel. Two implications for choosing a machine. Put real weight on carbon capacity — a substantial carbon layer, measured in hundreds of grams, deals with cooking odours and smoke gases that HEPA media ignores entirely. And favour a responsive particle sensor with fast auto reaction, because you want full speed within a minute of the pan going on, not twenty minutes later."
     ],
     [
-     "Running costs scale with the room",
+     "How much does running a large air purifier cost per year in Ireland?",
      "Large purifiers consume real electricity. A high-CADR unit averaging 45 W across the day uses 394 kWh a year, roughly €150 at a 38 cent unit rate — not trivial. Run it hard at 70 W and you are past €230. Filters follow the same curve: large-format HEPA-and-carbon cartridges cost €60–100, and heavy carbon loading in a cooking space usually means annual rather than eighteen-monthly replacement. A realistic five-year total for a €400 machine is around €400 in filters plus €600–750 in electricity, which makes the appliance itself the smallest line on the bill. Two levers pull that down: use auto mode so the unit idles at 10–15 W between events, and check the wattage at the speeds you will genuinely use rather than the maximum figure stamped on the plate."
     ]
    ],
@@ -944,11 +944,11 @@
      "Four claims should send you scrolling onward. \"HEPA-type\", \"HEPA-style\" and \"99% at 3 microns\" are all ways of dodging the H13 standard, which is defined at 0.3 microns. Ioniser-only devices with no filter charge particles so they stick to walls and surfaces rather than being removed, and some generate ozone as a by-product — an irritant, and precisely what an asthma or allergy household does not want. \"UV-C sterilisation\" in a domestic purifier exposes passing air to the lamp for a fraction of a second, far too briefly to do useful work. Finally, be sceptical of any listing quoting coverage in square metres with no m³/h CADR anywhere: the omission is deliberate, and at this price it normally means the number is embarrassing."
     ],
     [
-     "Right-size it to one small Irish room",
+     "What size room should a budget air purifier be asked to cover?",
      "The commonest budget mistake is asking a €120 machine to clean an entire downstairs. Pick the single room where the hours are, which for most people is the bedroom at 10–14 m², or about 24–34 m³. A 150 m³/h unit produces four to six air changes an hour in that volume, which is proper performance rather than a compromise. Keep the door shut while it runs, because a purifier in a space open to the landing is effectively trying to clean the whole floor. And if damp and mould are the reason you are buying, be honest with yourself: the machine catches airborne spores but does nothing about the moisture producing them. In a persistently damp Irish bedroom, €150 on a dehumidifier and better ventilation will outperform €150 spent here."
     ],
     [
-     "Getting more from a cheap machine",
+     "How do you get more out of a cheap air purifier?",
      "Three habits close most of the gap with expensive units. First, vacuum or rinse the pre-filter mesh monthly — pollen, pet hair and general dust choke it quickly, and a clogged pre-filter strangles airflow while shortening the life of the H13 element behind it. Second, run continuously on a low speed instead of blasting it for an hour: particle levels rebound within a couple of hours, and low-speed running is quieter and gentler on the media. Third, give it space — 30 cm clear of walls and furniture, out of the corner, and off deep pile carpet if it draws from underneath. Timing helps as well: entry models are heavily discounted in late spring ahead of grass pollen season, and again in the November sales."
     ]
    ],
