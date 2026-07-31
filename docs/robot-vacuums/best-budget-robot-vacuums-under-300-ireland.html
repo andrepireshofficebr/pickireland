@@ -104,7 +104,7 @@ table.cmp tr:first-child td{background:#FFFBEF}
 table.cmp tr:nth-child(even):not(:first-child) td{background:#FAFCFA}
 table.cmp tr:hover td{background:var(--green-t)}
 /* product card */
-.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:38px 30px 30px;margin:30px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:30px 26px 24px;margin:24px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
 .card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--green-l),transparent 70%)}
 .card:hover{box-shadow:var(--sh-md);border-color:#CFE0D4}
 .card.top-pick{border:2px solid var(--gold);box-shadow:0 16px 44px -16px rgba(240,164,28,.35)}
@@ -112,37 +112,56 @@ table.cmp tr:hover td{background:var(--green-t)}
 .card.top-pick::after{content:'OUR #1 PICK';position:absolute;top:18px;right:-34px;transform:rotate(40deg);background:linear-gradient(90deg,var(--gold),var(--gold-l));color:#3A2700;font-size:.62rem;font-weight:800;letter-spacing:1px;padding:5px 40px}
 .rank{position:absolute;top:0;left:0;width:46px;height:40px;border-radius:16px 0 16px 0;background:var(--ink);color:#fff;font-weight:800;font-size:1.05rem;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
 .card.top-pick .rank{background:linear-gradient(140deg,var(--gold),var(--gold-l));color:#3A2700}
-.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:6px 14px;border-radius:99px;margin-bottom:12px;border:1px solid #F5DEA8}
-.card-head{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap}
-.card-info{flex:1;min-width:240px}
-.pimg{width:175px;height:175px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:5px 12px;border-radius:99px;margin-bottom:14px;border:1px solid #F5DEA8}
+/* Cabecalho em 3 colunas: imagem | info | CTA.
+   Antes o botao ficava depois de specs + pros/cons + verdict, o que a 100% de zoom
+   empurrava o unico elemento que gera receita para fora da dobra. */
+.card-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:22px;align-items:center}
+.card-info{min-width:0}
+.card-cta{display:flex;flex-direction:column;align-items:stretch;gap:7px;width:232px}
+.card-cta .btn{width:100%;justify-content:center;padding:14px 20px;font-size:.98rem}
+.card-cta .btn-sub{font-size:.7rem;color:var(--mut);text-align:center;margin:0;line-height:1.4}
+.pimg{width:112px;height:112px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
-.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:9px;color:#9AABA0;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
-.pimg .ph .ic{width:46px;height:46px;color:#BECDC2}
-@media(max-width:560px){.pimg{width:100%;height:190px}}
-.card h3{font-size:1.42rem;margin:0 0 2px;letter-spacing:-.5px;line-height:1.25}
+.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:#9AABA0;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:0 6px}
+.pimg .ph .ic{width:34px;height:34px;color:#BECDC2}
+/* CTA secundario no fim do card, para quem leu tudo — visualmente menor que o principal */
+.btn-foot{margin-top:4px;padding:11px 22px;font-size:.92rem;background:#fff;color:var(--green-d);border:2px solid var(--green);box-shadow:none}
+.btn-foot:hover{background:var(--green-t);box-shadow:none;transform:none}
+.btn-foot::after{display:none}
+@media(max-width:1000px){
+  .card-head{grid-template-columns:auto minmax(0,1fr)}
+  .card-cta{grid-column:1/-1;width:100%}
+}
+@media(max-width:560px){
+  .card-head{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .pimg{width:96px;height:96px}
+  .card-info{text-align:center}
+  .pricerow{justify-content:center}
+}
+.card h3{font-size:1.28rem;margin:0 0 2px;letter-spacing:-.4px;line-height:1.28}
 .brandline{color:var(--mut);font-size:.85rem;margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:.6px}
-.pricerow{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:10px 0 4px}
-.price{font-size:1.7rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
+.pricerow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:8px 0 0}
+.price{font-size:1.5rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
 .price small{font-size:.7rem;color:var(--mut);font-weight:500;display:block;font-family:'Inter';letter-spacing:.3px;text-transform:uppercase}
 .stars{display:flex;align-items:center;gap:2px;color:var(--gold)}
 .stars small{color:var(--mut);margin-left:8px;font-weight:700;font-size:.85rem}
-.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0;font-size:.85rem}
-.specgrid div{background:#F4F7F3;border-radius:11px;padding:10px 13px;border:1px solid #ECF1EB}
-.nospec{font-size:.86rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:11px 15px;margin:18px 0}
+.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:16px 0 0;font-size:.82rem}
+.specgrid div{background:#F4F7F3;border-radius:10px;padding:8px 12px;border:1px solid #ECF1EB}
+.nospec{font-size:.84rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:10px 14px;margin:16px 0 0}
 .specgrid b{display:block;font-size:.64rem;text-transform:uppercase;color:var(--mut);letter-spacing:.7px;margin-bottom:2px;font-weight:700}
-.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
 @media(max-width:640px){.pc{grid-template-columns:1fr}h1{font-size:1.8rem;letter-spacing:-.6px}}
-.pros,.cons{border-radius:13px;padding:17px 19px;font-size:.92rem}
+.pros,.cons{border-radius:12px;padding:13px 16px;font-size:.89rem}
 .pros{background:linear-gradient(160deg,#EDFAF1,#E4F6EB);border:1px solid #C8E8D2}
 .cons{background:linear-gradient(160deg,#FDF6F1,#FBEEE6);border:1px solid #F0D9C8}
-.pros b,.cons b{display:flex;align-items:center;gap:8px;margin-bottom:9px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
+.pros b,.cons b{display:flex;align-items:center;gap:7px;margin-bottom:6px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
 .pros b{color:#136A41}.cons b{color:#9A4E22}
 .pros ul,.cons ul{list-style:none}
-.pros li,.cons li{margin:6px 0;padding-left:23px;position:relative;line-height:1.55}
+.pros li,.cons li{margin:4px 0;padding-left:21px;position:relative;line-height:1.5}
 .pros li::before{content:'✓';position:absolute;left:2px;color:#15A35C;font-weight:800}
 .cons li::before{content:'–';position:absolute;left:5px;color:#C76A33;font-weight:800}
-.verdict{font-size:1rem;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:15px 20px;border-radius:0 13px 13px 0;margin:18px 0;font-style:italic;color:#273B4D}
+.verdict{font-size:.95rem;line-height:1.62;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:13px 18px;border-radius:0 12px 12px 0;margin:16px 0 0;font-style:italic;color:#273B4D}
 .verdict strong{font-style:normal;color:var(--green-d)}
 .btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#F7A91D,#F08A00);color:#2A1A00;font-weight:800;font-size:1.04rem;padding:15px 32px;border-radius:13px;box-shadow:0 8px 22px -8px rgba(240,138,0,.65);transition:box-shadow .25s,transform .25s;cursor:pointer;position:relative;overflow:hidden;font-family:'Inter'}
 .btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.45),transparent);transition:left .5s ease}
@@ -289,6 +308,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0CDB8H9VJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Suction</b>5,000 Pa</div><div><b>Navigation</b>Laser mapping</div><div><b>Hair</b>Anti-tangle</div><div><b>App</b>Full mapping</div></div>
 <div class="pc">
@@ -296,8 +319,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>No self-empty dock</li><li>Mop not included</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The mapped mid-ranger: eufy quality navigation without paying for a dock.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0CDB8H9VJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0CDB8H9VJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rvc-007">
 <div class="rank" aria-label="Rank 2">2</div>
 <span class="badge">Best Smart Budget</span>
@@ -311,6 +333,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0CLVVB2GN?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Suction</b>4,200 Pa</div><div><b>Noise</b>Quiet mode</div><div><b>App</b>Tapo (excellent)</div><div><b>Mapping</b>Smart paths</div></div>
 <div class="pc">
@@ -318,8 +344,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>No self-empty dock</li><li>Pad-style mop only</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The mid-range smart pick: big-brand software at a small price.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0CLVVB2GN?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0CLVVB2GN?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rvc-008">
 <div class="rank" aria-label="Rank 3">3</div>
 <span class="badge">Best LiDAR Value</span>
@@ -333,6 +358,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0F26P4FT8?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Navigation</b>LiDAR mapping</div><div><b>Suction</b>6,000 Pa</div><div><b>Mop</b>Yes</div><div><b>App</b>Zoning + schedules</div></div>
 <div class="pc">
@@ -340,8 +369,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Newer brand</li><li>Mop is basic pad</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The cheapest real LiDAR robot here — mapped, methodical cleaning on a budget.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0F26P4FT8?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0F26P4FT8?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rvc-009">
 <div class="rank" aria-label="Rank 4">4</div>
 <span class="badge">Best Suction Value</span>
@@ -355,6 +383,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0C2YCSM9X?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Suction</b>8,000 Pa</div><div><b>Mop</b>Yes</div><div><b>Control</b>App + voice</div><div><b>Bin</b>Large</div></div>
 <div class="pc">
@@ -362,8 +394,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Random-ish pathing vs lidar</li><li>No dock</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> Raw suction per euro champion — serious pickup without the premium badge.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0C2YCSM9X?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0C2YCSM9X?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rvc-010">
 <div class="rank" aria-label="Rank 5">5</div>
 <span class="badge">Cheapest Credible</span>
@@ -377,6 +408,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.2 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.2/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B09WMV9MQK?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Suction</b>2,200 Pa</div><div><b>Height</b>7.8 cm</div><div><b>Size</b>28 cm dia</div><div><b>App</b>Alexa + app</div></div>
 <div class="pc">
@@ -384,8 +419,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Hard floors best</li><li>Random pathing</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The absolute entry ticket: apartments and hard floors get daily once-overs for under €100.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B09WMV9MQK?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B09WMV9MQK?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rvc-026">
 <div class="rank" aria-label="Rank 6">6</div>
 <span class="badge">Strong Alternative</span>
@@ -399,6 +433,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.0 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.0/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0FL2G3LXQ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <p class="nospec">Full specifications for this exact model aren't published by the manufacturer — check the current Amazon.ie listing before buying.</p>
 <div class="pc">
@@ -406,8 +444,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Lowest owner rating of the picks here at 4.0★</li><li>4.0★ owner rating is only average for this price bracket</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> Cecotec&#x27;s programmable robot sits under our budget pick on price at €210 against €249, but also well under it on owner rating at 4.0 stars against 4.4 — the lowest score on this page. It self-charges and mops, which covers the basics. Given the gap is only €39 and the eufy L60 brings 5,000Pa suction and materially better owner feedback, the saving is hard to justify here unless the Cecotec is discounted further.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0FL2G3LXQ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0FL2G3LXQ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rvc-027">
 <div class="rank" aria-label="Rank 7">7</div>
 <span class="badge">Worth Considering</span>
@@ -421,6 +458,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.0 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.0/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0D6BYW8HK?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Mopping</b>Sonic, 100 scrubs/min</div><div><b>Navigation</b>360° LiDAR</div><div><b>Dock</b>Bagless self-empty</div><div><b>Filter</b>HEPA</div></div>
 <div class="pc">
@@ -428,8 +469,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Lowest owner rating of the picks here at 4.0★</li><li>4.0★ owner rating is only average for this price bracket</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> Shark is a well-known name and the Matrix Plus vacuums and mops at €239, just under our €249 eufy L60 pick. Its 4.0-star owner rating is the weakest on this page against the eufy&#x27;s 4.4, and for a €10 saving that&#x27;s a poor trade. Worth considering if you specifically want Shark&#x27;s brand support in Ireland; otherwise the eufy is better rated for almost the same money.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0D6BYW8HK?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0D6BYW8HK?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article>
 <h2>Buying guide: how to choose</h2>
 <div class="guide" style="padding:18px 28px"><h3>What kind of navigation do you actually get under €300 now?</h3><p>A few years ago, sub-€300 meant random-bounce navigation with no memory between cleans; that&#x27;s no longer true across the board. Several budget-tier robots now ship with genuine lidar or basic vision mapping, giving room-by-room cleaning, resumable cleans after charging, and app-drawn no-go zones — features that were mid-range exclusives not long ago. What you still don&#x27;t get at this price is the mapping precision or multi-floor memory of pricier models: budget lidar units typically hold one or two saved maps rather than several, and re-mapping after furniture moves takes longer. For a typical Irish terraced house or apartment with a fairly stable layout, that&#x27;s rarely a practical problem. It becomes one if you rearrange furniture often or want separate saved maps for upstairs and downstairs — check the spec sheet&#x27;s map-storage number specifically, not just whether it says smart navigation.</p><h3>Mopping at this price is wiping, not washing</h3><p>Nearly every budget robot vacuum under €300 that includes mopping does it with a static or vibrating pad dragged behind the unit, not a rotating, pressurised pad — the mechanism reserved for mid-range and premium models. That means it wipes rather than scrubs, fine for daily maintenance on tile or sealed wood to catch dust and light spills, but it won&#x27;t shift dried-on marks or grease the way a proper mop would. Water flow is usually gravity-fed and can&#x27;t be finely adjusted, so pad dampness varies as the tank empties across a clean. None of this is a defect at the price; it&#x27;s simply what mopping means at this tier, and it&#x27;s worth treating it as a bonus feature on top of vacuuming rather than a real substitute for occasional manual mopping in an Irish kitchen that sees muddy shoes and dog paws most of the year.</p><h3>How much worse is obstacle avoidance under €300?</h3><p>The clearest gap between budget and mid-range robots is obstacle handling, not suction. Budget units at this price mostly rely on basic infrared or bump sensors, which catch furniture legs and walls reliably but frequently miss low, soft, or dark obstacles — phone chargers, shoes left by the door, dark socks on a dark carpet, pet mess. Mid-range and premium models increasingly use small cameras with object recognition to identify and route around these specifically. For a genuinely tidy home with hard floors, this gap barely matters. For a home with kids, a dog, or a habit of dropping cables on the floor, it means more pre-clean tidying to avoid a tangled brush or a smeared mess, and it&#x27;s the single biggest quality-of-life difference buyers moving up from this price bracket report first when they upgrade.</p><h3>Budget self-empty docks: convenience with a catch</h3><p>A handful of budget robots now include self-empty docks, extending manual bin-emptying from every clean to roughly every three to four weeks. It sounds like a mid-range feature at a budget price, and largely is one, but the dust bags themselves are a recurring cost worth budgeting for separately — typically sold in packs, running out to somewhere in the region of €15-20 for a few months&#x27; supply depending on how often the robot runs. The docks are also physically larger than a basic charging dock, which matters more than it sounds in a small Dublin terraced house or apartment where hallway or utility-room floor space is already tight. Measure the dock&#x27;s footprint against your actual available floor space before assuming a self-empty budget model will fit where the old charging-only dock sat.</p><h3>Is refurbished or outlet stock a safe way to stretch the budget?</h3><p>Outlet, refurbished and previous-generation stock is one of the most reliable ways to get mid-range navigation and build quality for a genuinely budget price, provided the seller is clear about warranty terms. A previous year&#x27;s mid-range model, discounted once its successor launches, frequently outperforms a current-year budget model on mapping precision and obstacle handling for similar or less money. The catch is warranty length and support — refurbished units often carry six or twelve months rather than the standard two years, and it&#x27;s worth confirming whether that cover comes from an Irish or EU-based seller rather than a cross-border marketplace listing, given the parts-availability friction that&#x27;s become more common since Brexit. Buying refurbished from an Irish retailer&#x27;s own outlet section is generally safer than a third-party marketplace listing with vague provenance.</p></div>

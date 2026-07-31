@@ -104,7 +104,7 @@ table.cmp tr:first-child td{background:#FFFBEF}
 table.cmp tr:nth-child(even):not(:first-child) td{background:#FAFCFA}
 table.cmp tr:hover td{background:var(--green-t)}
 /* product card */
-.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:38px 30px 30px;margin:30px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:30px 26px 24px;margin:24px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
 .card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--green-l),transparent 70%)}
 .card:hover{box-shadow:var(--sh-md);border-color:#CFE0D4}
 .card.top-pick{border:2px solid var(--gold);box-shadow:0 16px 44px -16px rgba(240,164,28,.35)}
@@ -112,37 +112,56 @@ table.cmp tr:hover td{background:var(--green-t)}
 .card.top-pick::after{content:'OUR #1 PICK';position:absolute;top:18px;right:-34px;transform:rotate(40deg);background:linear-gradient(90deg,var(--gold),var(--gold-l));color:#3A2700;font-size:.62rem;font-weight:800;letter-spacing:1px;padding:5px 40px}
 .rank{position:absolute;top:0;left:0;width:46px;height:40px;border-radius:16px 0 16px 0;background:var(--ink);color:#fff;font-weight:800;font-size:1.05rem;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
 .card.top-pick .rank{background:linear-gradient(140deg,var(--gold),var(--gold-l));color:#3A2700}
-.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:6px 14px;border-radius:99px;margin-bottom:12px;border:1px solid #F5DEA8}
-.card-head{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap}
-.card-info{flex:1;min-width:240px}
-.pimg{width:175px;height:175px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:5px 12px;border-radius:99px;margin-bottom:14px;border:1px solid #F5DEA8}
+/* Cabecalho em 3 colunas: imagem | info | CTA.
+   Antes o botao ficava depois de specs + pros/cons + verdict, o que a 100% de zoom
+   empurrava o unico elemento que gera receita para fora da dobra. */
+.card-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:22px;align-items:center}
+.card-info{min-width:0}
+.card-cta{display:flex;flex-direction:column;align-items:stretch;gap:7px;width:232px}
+.card-cta .btn{width:100%;justify-content:center;padding:14px 20px;font-size:.98rem}
+.card-cta .btn-sub{font-size:.7rem;color:var(--mut);text-align:center;margin:0;line-height:1.4}
+.pimg{width:112px;height:112px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
-.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:9px;color:#9AABA0;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
-.pimg .ph .ic{width:46px;height:46px;color:#BECDC2}
-@media(max-width:560px){.pimg{width:100%;height:190px}}
-.card h3{font-size:1.42rem;margin:0 0 2px;letter-spacing:-.5px;line-height:1.25}
+.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:#9AABA0;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:0 6px}
+.pimg .ph .ic{width:34px;height:34px;color:#BECDC2}
+/* CTA secundario no fim do card, para quem leu tudo — visualmente menor que o principal */
+.btn-foot{margin-top:4px;padding:11px 22px;font-size:.92rem;background:#fff;color:var(--green-d);border:2px solid var(--green);box-shadow:none}
+.btn-foot:hover{background:var(--green-t);box-shadow:none;transform:none}
+.btn-foot::after{display:none}
+@media(max-width:1000px){
+  .card-head{grid-template-columns:auto minmax(0,1fr)}
+  .card-cta{grid-column:1/-1;width:100%}
+}
+@media(max-width:560px){
+  .card-head{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .pimg{width:96px;height:96px}
+  .card-info{text-align:center}
+  .pricerow{justify-content:center}
+}
+.card h3{font-size:1.28rem;margin:0 0 2px;letter-spacing:-.4px;line-height:1.28}
 .brandline{color:var(--mut);font-size:.85rem;margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:.6px}
-.pricerow{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:10px 0 4px}
-.price{font-size:1.7rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
+.pricerow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:8px 0 0}
+.price{font-size:1.5rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
 .price small{font-size:.7rem;color:var(--mut);font-weight:500;display:block;font-family:'Inter';letter-spacing:.3px;text-transform:uppercase}
 .stars{display:flex;align-items:center;gap:2px;color:var(--gold)}
 .stars small{color:var(--mut);margin-left:8px;font-weight:700;font-size:.85rem}
-.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0;font-size:.85rem}
-.specgrid div{background:#F4F7F3;border-radius:11px;padding:10px 13px;border:1px solid #ECF1EB}
-.nospec{font-size:.86rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:11px 15px;margin:18px 0}
+.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:16px 0 0;font-size:.82rem}
+.specgrid div{background:#F4F7F3;border-radius:10px;padding:8px 12px;border:1px solid #ECF1EB}
+.nospec{font-size:.84rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:10px 14px;margin:16px 0 0}
 .specgrid b{display:block;font-size:.64rem;text-transform:uppercase;color:var(--mut);letter-spacing:.7px;margin-bottom:2px;font-weight:700}
-.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
 @media(max-width:640px){.pc{grid-template-columns:1fr}h1{font-size:1.8rem;letter-spacing:-.6px}}
-.pros,.cons{border-radius:13px;padding:17px 19px;font-size:.92rem}
+.pros,.cons{border-radius:12px;padding:13px 16px;font-size:.89rem}
 .pros{background:linear-gradient(160deg,#EDFAF1,#E4F6EB);border:1px solid #C8E8D2}
 .cons{background:linear-gradient(160deg,#FDF6F1,#FBEEE6);border:1px solid #F0D9C8}
-.pros b,.cons b{display:flex;align-items:center;gap:8px;margin-bottom:9px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
+.pros b,.cons b{display:flex;align-items:center;gap:7px;margin-bottom:6px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
 .pros b{color:#136A41}.cons b{color:#9A4E22}
 .pros ul,.cons ul{list-style:none}
-.pros li,.cons li{margin:6px 0;padding-left:23px;position:relative;line-height:1.55}
+.pros li,.cons li{margin:4px 0;padding-left:21px;position:relative;line-height:1.5}
 .pros li::before{content:'✓';position:absolute;left:2px;color:#15A35C;font-weight:800}
 .cons li::before{content:'–';position:absolute;left:5px;color:#C76A33;font-weight:800}
-.verdict{font-size:1rem;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:15px 20px;border-radius:0 13px 13px 0;margin:18px 0;font-style:italic;color:#273B4D}
+.verdict{font-size:.95rem;line-height:1.62;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:13px 18px;border-radius:0 12px 12px 0;margin:16px 0 0;font-style:italic;color:#273B4D}
 .verdict strong{font-style:normal;color:var(--green-d)}
 .btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#F7A91D,#F08A00);color:#2A1A00;font-weight:800;font-size:1.04rem;padding:15px 32px;border-radius:13px;box-shadow:0 8px 22px -8px rgba(240,138,0,.65);transition:box-shadow .25s,transform .25s;cursor:pointer;position:relative;overflow:hidden;font-family:'Inter'}
 .btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.45),transparent);transition:left .5s ease}
@@ -289,6 +308,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.7 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.7/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0CMQPZC72?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Coverage</b>Up to 70 m²</div><div><b>Filter</b>H13 HEPA</div><div><b>Smart</b>Alexa + app</div><div><b>Modes</b>Auto, sleep</div></div>
 <div class="pc">
@@ -296,8 +319,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Big white cylinder</li><li>Top speed is loud</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The open-plan answer: serious clean-air throughput with the best app in the class.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0CMQPZC72?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0CMQPZC72?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="apr-017">
 <div class="rank" aria-label="Rank 2">2</div>
 <span class="badge">Best Airflow Value</span>
@@ -311,6 +333,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0FJLZFDHR?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Filtration</b>4-stage</div><div><b>Filter</b>True HEPA</div><div><b>Coverage</b>Large rooms</div><div><b>Noise</b>Quiet operation</div></div>
 <div class="pc">
@@ -318,8 +344,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Brand less known in Ireland</li><li>Filter sourcing online</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The 4-stage workhorse for bigger rooms — filtration depth at a fair price.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0FJLZFDHR?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0FJLZFDHR?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="apr-018">
 <div class="rank" aria-label="Rank 3">3</div>
 <span class="badge">Best Efficient Large</span>
@@ -333,6 +358,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.6 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.6/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0BX4LB7HL?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Coverage</b>Up to 44 m²</div><div><b>Filter</b>True HEPA</div><div><b>Energy</b>Ultra-efficient</div><div><b>Noise</b>Very quiet</div></div>
 <div class="pc">
@@ -340,8 +369,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>No app on base model</li><li>Filter replacements yearly</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0BX4LB7HL?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0BX4LB7HL?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="apr-019">
 <div class="rank" aria-label="Rank 4">4</div>
 <span class="badge">Best Mid-Room Support</span>
@@ -355,6 +383,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.2 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.2/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B07QT1WNJP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Filter</b>H13 HEPA</div><div><b>Extras</b>Ioniser (switchable)</div><div><b>Coverage</b>Medium rooms</div><div><b>Noise</b>Low</div></div>
 <div class="pc">
@@ -362,8 +394,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Plastic build</li><li>Brand support thin</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> Mid-room H13 cleaning with an ioniser boost — solid value at €50.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B07QT1WNJP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B07QT1WNJP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="apr-020">
 <div class="rank" aria-label="Rank 5">5</div>
 <span class="badge">Best Spot Support</span>
@@ -377,6 +408,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.1 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.1/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0BXWYLSPP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Filter</b>HEPA</div><div><b>Targets</b>Smoke, pollen, dander</div><div><b>Size</b>Compact</div><div><b>Noise</b>Low</div></div>
 <div class="pc">
@@ -384,8 +419,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Small rooms strictly</li><li>Basic controls</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0BXWYLSPP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0BXWYLSPP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="apr-030">
 <div class="rank" aria-label="Rank 6">6</div>
 <span class="badge">Smart Alternative</span>
@@ -399,6 +433,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.6 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.6/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B09BJMY8HL?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <p class="nospec">Full specifications for this exact model aren't published by the manufacturer — check the current Amazon.ie listing before buying.</p>
 <div class="pc">
@@ -406,8 +444,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>1 of the 6 picks here is better rated by owners</li><li>€244 more than our top pick, which owners rate higher at 4.7★</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> This Levoit is the most expensive machine on the page at €365 and well rated at 4.6 stars, from the same brand as our €121 top pick. The awkward part is that our pick is also a Levoit, covers up to 70 m², and rates slightly higher at 4.7 — so you&#x27;d be paying roughly triple for the same badge. Only worth it if its coverage figure genuinely exceeds what the cheaper Levoit handles in your room.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B09BJMY8HL?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B09BJMY8HL?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article>
 <h2>Buying guide: how to choose</h2>
 <div class="guide" style="padding:18px 28px"><h3>How do you size an air purifier for an open-plan Irish home?</h3><p>Measure the whole connected space, not just the part you sit in: a 45 m² kitchen-dining-living run with a 2.4 m ceiling is 108 m³, and a double-height void or open stairs can push that to 140–160 m³. Three air changes an hour at 108 m³ needs 324 m³/h of clean air delivery — five changes needs close to 550. Open-plan is the default in Irish builds from the 2000s onward, which is exactly why the sizing rules printed on purifier boxes mislead here. Very few single domestic machines produce that kind of clean-air delivery at a noise level anyone would tolerate while watching television. This calculation is what decides whether you buy one flagship, two mid-size units, or consciously accept two air changes an hour as good enough for the space.</p><h3>What CADR do you need at a usable, quiet fan speed?</h3><p>Headline CADR is measured at maximum fan speed, and on large machines maximum is typically 55–65 dB — louder than conversation. The figure to hunt for is delivery at the second or third of five speeds, which is where a big unit actually lives day to day. As a working rule for Irish open-plan rooms: under 80 m³, look for a 300 m³/h headline; 80–120 m³, aim at 400 m³/h; above 120 m³, either 600 m³/h or two machines. Expect roughly half the headline number at a comfortable speed and size up accordingly — a unit rated 500 m³/h running at 250 in the evening still gives two-plus changes an hour in a 108 m³ room without anyone raising their voice. Oversizing is the only reliable route to quiet in a large space.</p><h3>One large unit or two smaller ones</h3><p>Two mid-size purifiers usually beat one large one in an open-plan room, for a reason unconnected to total airflow. Air does not mix instantly. A single machine at one end creates a clean zone around itself while the far corner — behind the island, past the sofa — stays comparatively dirty, because furniture, peninsulas and changes in ceiling height all create dead air. A pair placed at opposite ends covers the volume far more evenly, lets both run at lower and quieter speeds, and means one failure does not leave you with nothing. The counter-argument is consumables: two sets of filters every year instead of one. Price both scenarios across five years, because two €180 units with €35 filters frequently land cheaper than one €450 flagship with €80 filters.</p><h3>Cooking, stoves and the evening spike</h3><p>The largest particle event in an Irish open-plan house happens between six and eight in the evening. Frying, grilling and toasting throw PM2.5 into the room in quantities that dwarf anything drifting in from outdoors, and in an open-plan layout there is no door to contain it. A stove or open fire in the same connected space adds a further load every time the door is opened to refuel. Two implications for choosing a machine. Put real weight on carbon capacity — a substantial carbon layer, measured in hundreds of grams, deals with cooking odours and smoke gases that HEPA media ignores entirely. And favour a responsive particle sensor with fast auto reaction, because you want full speed within a minute of the pan going on, not twenty minutes later.</p><h3>How much does running a large air purifier cost per year in Ireland?</h3><p>Large purifiers consume real electricity. A high-CADR unit averaging 45 W across the day uses 394 kWh a year, roughly €150 at a 38 cent unit rate — not trivial. Run it hard at 70 W and you are past €230. Filters follow the same curve: large-format HEPA-and-carbon cartridges cost €60–100, and heavy carbon loading in a cooking space usually means annual rather than eighteen-monthly replacement. A realistic five-year total for a €400 machine is around €400 in filters plus €600–750 in electricity, which makes the appliance itself the smallest line on the bill. Two levers pull that down: use auto mode so the unit idles at 10–15 W between events, and check the wattage at the speeds you will genuinely use rather than the maximum figure stamped on the plate.</p></div>

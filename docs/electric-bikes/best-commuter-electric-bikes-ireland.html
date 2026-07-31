@@ -104,7 +104,7 @@ table.cmp tr:first-child td{background:#FFFBEF}
 table.cmp tr:nth-child(even):not(:first-child) td{background:#FAFCFA}
 table.cmp tr:hover td{background:var(--green-t)}
 /* product card */
-.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:38px 30px 30px;margin:30px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:30px 26px 24px;margin:24px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
 .card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--green-l),transparent 70%)}
 .card:hover{box-shadow:var(--sh-md);border-color:#CFE0D4}
 .card.top-pick{border:2px solid var(--gold);box-shadow:0 16px 44px -16px rgba(240,164,28,.35)}
@@ -112,37 +112,56 @@ table.cmp tr:hover td{background:var(--green-t)}
 .card.top-pick::after{content:'OUR #1 PICK';position:absolute;top:18px;right:-34px;transform:rotate(40deg);background:linear-gradient(90deg,var(--gold),var(--gold-l));color:#3A2700;font-size:.62rem;font-weight:800;letter-spacing:1px;padding:5px 40px}
 .rank{position:absolute;top:0;left:0;width:46px;height:40px;border-radius:16px 0 16px 0;background:var(--ink);color:#fff;font-weight:800;font-size:1.05rem;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
 .card.top-pick .rank{background:linear-gradient(140deg,var(--gold),var(--gold-l));color:#3A2700}
-.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:6px 14px;border-radius:99px;margin-bottom:12px;border:1px solid #F5DEA8}
-.card-head{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap}
-.card-info{flex:1;min-width:240px}
-.pimg{width:175px;height:175px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:5px 12px;border-radius:99px;margin-bottom:14px;border:1px solid #F5DEA8}
+/* Cabecalho em 3 colunas: imagem | info | CTA.
+   Antes o botao ficava depois de specs + pros/cons + verdict, o que a 100% de zoom
+   empurrava o unico elemento que gera receita para fora da dobra. */
+.card-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:22px;align-items:center}
+.card-info{min-width:0}
+.card-cta{display:flex;flex-direction:column;align-items:stretch;gap:7px;width:232px}
+.card-cta .btn{width:100%;justify-content:center;padding:14px 20px;font-size:.98rem}
+.card-cta .btn-sub{font-size:.7rem;color:var(--mut);text-align:center;margin:0;line-height:1.4}
+.pimg{width:112px;height:112px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
-.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:9px;color:#9AABA0;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
-.pimg .ph .ic{width:46px;height:46px;color:#BECDC2}
-@media(max-width:560px){.pimg{width:100%;height:190px}}
-.card h3{font-size:1.42rem;margin:0 0 2px;letter-spacing:-.5px;line-height:1.25}
+.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:#9AABA0;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:0 6px}
+.pimg .ph .ic{width:34px;height:34px;color:#BECDC2}
+/* CTA secundario no fim do card, para quem leu tudo — visualmente menor que o principal */
+.btn-foot{margin-top:4px;padding:11px 22px;font-size:.92rem;background:#fff;color:var(--green-d);border:2px solid var(--green);box-shadow:none}
+.btn-foot:hover{background:var(--green-t);box-shadow:none;transform:none}
+.btn-foot::after{display:none}
+@media(max-width:1000px){
+  .card-head{grid-template-columns:auto minmax(0,1fr)}
+  .card-cta{grid-column:1/-1;width:100%}
+}
+@media(max-width:560px){
+  .card-head{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .pimg{width:96px;height:96px}
+  .card-info{text-align:center}
+  .pricerow{justify-content:center}
+}
+.card h3{font-size:1.28rem;margin:0 0 2px;letter-spacing:-.4px;line-height:1.28}
 .brandline{color:var(--mut);font-size:.85rem;margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:.6px}
-.pricerow{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:10px 0 4px}
-.price{font-size:1.7rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
+.pricerow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:8px 0 0}
+.price{font-size:1.5rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
 .price small{font-size:.7rem;color:var(--mut);font-weight:500;display:block;font-family:'Inter';letter-spacing:.3px;text-transform:uppercase}
 .stars{display:flex;align-items:center;gap:2px;color:var(--gold)}
 .stars small{color:var(--mut);margin-left:8px;font-weight:700;font-size:.85rem}
-.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0;font-size:.85rem}
-.specgrid div{background:#F4F7F3;border-radius:11px;padding:10px 13px;border:1px solid #ECF1EB}
-.nospec{font-size:.86rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:11px 15px;margin:18px 0}
+.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:16px 0 0;font-size:.82rem}
+.specgrid div{background:#F4F7F3;border-radius:10px;padding:8px 12px;border:1px solid #ECF1EB}
+.nospec{font-size:.84rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:10px 14px;margin:16px 0 0}
 .specgrid b{display:block;font-size:.64rem;text-transform:uppercase;color:var(--mut);letter-spacing:.7px;margin-bottom:2px;font-weight:700}
-.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
 @media(max-width:640px){.pc{grid-template-columns:1fr}h1{font-size:1.8rem;letter-spacing:-.6px}}
-.pros,.cons{border-radius:13px;padding:17px 19px;font-size:.92rem}
+.pros,.cons{border-radius:12px;padding:13px 16px;font-size:.89rem}
 .pros{background:linear-gradient(160deg,#EDFAF1,#E4F6EB);border:1px solid #C8E8D2}
 .cons{background:linear-gradient(160deg,#FDF6F1,#FBEEE6);border:1px solid #F0D9C8}
-.pros b,.cons b{display:flex;align-items:center;gap:8px;margin-bottom:9px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
+.pros b,.cons b{display:flex;align-items:center;gap:7px;margin-bottom:6px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
 .pros b{color:#136A41}.cons b{color:#9A4E22}
 .pros ul,.cons ul{list-style:none}
-.pros li,.cons li{margin:6px 0;padding-left:23px;position:relative;line-height:1.55}
+.pros li,.cons li{margin:4px 0;padding-left:21px;position:relative;line-height:1.5}
 .pros li::before{content:'✓';position:absolute;left:2px;color:#15A35C;font-weight:800}
 .cons li::before{content:'–';position:absolute;left:5px;color:#C76A33;font-weight:800}
-.verdict{font-size:1rem;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:15px 20px;border-radius:0 13px 13px 0;margin:18px 0;font-style:italic;color:#273B4D}
+.verdict{font-size:.95rem;line-height:1.62;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:13px 18px;border-radius:0 12px 12px 0;margin:16px 0 0;font-style:italic;color:#273B4D}
 .verdict strong{font-style:normal;color:var(--green-d)}
 .btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#F7A91D,#F08A00);color:#2A1A00;font-weight:800;font-size:1.04rem;padding:15px 32px;border-radius:13px;box-shadow:0 8px 22px -8px rgba(240,138,0,.65);transition:box-shadow .25s,transform .25s;cursor:pointer;position:relative;overflow:hidden;font-family:'Inter'}
 .btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.45),transparent);transition:left .5s ease}
@@ -289,6 +308,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.5 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.5/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0DWFJCJZ3?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Frame</b>Low step-through</div><div><b>Tyres</b>20×4.0 fat</div><div><b>Gears</b>7-speed</div><div><b>Fit</b>Skirts, coats, easy mount</div></div>
 <div class="pc">
@@ -296,8 +319,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Smaller wheels feel speed bumps</li><li>Style splits opinion</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The accessibility champion: swing a leg through, not over — comfort-first fat-tyre riding.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0DWFJCJZ3?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0DWFJCJZ3?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ebk-022">
 <div class="rank" aria-label="Rank 2">2</div>
 <span class="badge">Best Range Commuter</span>
@@ -311,6 +333,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.3 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.3/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0FJKTFCCT?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Battery</b>48V 13Ah removable</div><div><b>Range</b>Up to 120 km</div><div><b>Type</b>Folding</div><div><b>Charge</b>Indoors, battery out</div></div>
 <div class="pc">
@@ -318,8 +344,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Cadence assist (not torque)</li><li>Bulky folded</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The range-per-euro king: week-of-commutes battery in a folding frame at €1,049.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0FJKTFCCT?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0FJKTFCCT?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ebk-023">
 <div class="rank" aria-label="Rank 3">3</div>
 <span class="badge">Best Classic Commuter</span>
@@ -333,6 +358,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.2 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.2/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0DW8LNFT7?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Wheel</b>26&quot; classic</div><div><b>Battery</b>36V 13Ah removable</div><div><b>Style</b>Traditional commuter</div><div><b>Value</b>Under €700</div></div>
 <div class="pc">
@@ -340,8 +369,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Plain spec sheet</li><li>Cadence assist</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The traditional commuter: full-size wheels and removable battery without folding-bike compromises.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0DW8LNFT7?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0DW8LNFT7?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ebk-024">
 <div class="rank" aria-label="Rank 4">4</div>
 <span class="badge">Best Budget Commuter</span>
@@ -355,6 +383,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0C7VPVX5B?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Motor</b>250 W EU-legal</div><div><b>Battery</b>Removable</div><div><b>Range</b>45–60 km</div><div><b>Price</b>Entry hero</div></div>
 <div class="pc">
@@ -362,8 +394,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Cadence assist</li><li>Basic components</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The Amazon.ie entry hero — legal, practical, and now even cheaper at €549.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0C7VPVX5B?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0C7VPVX5B?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ebk-025">
 <div class="rank" aria-label="Rank 5">5</div>
 <span class="badge">Best Stability/Cargo Trike</span>
@@ -377,6 +408,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.6 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.6/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0F4X9D75Z?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Wheels</b>3 — self-standing</div><div><b>Battery</b>873 Wh</div><div><b>Cargo</b>Big rear basket</div><div><b>For</b>Stability + shopping</div></div>
 <div class="pc">
@@ -384,8 +419,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Wide — needs storage space</li><li>Trike handling takes a day</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The stability pick: shopping, dogs, confidence — three wheels open e-biking to everyone.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0F4X9D75Z?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0F4X9D75Z?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article>
 <h2>Buying guide: how to choose</h2>
 <div class="guide" style="padding:18px 28px"><h3>Are integrated lights legally required on an e-bike in Ireland?</h3><p>Under Irish road traffic law, a bicycle ridden between sunset and sunrise needs a working white front light, red rear light and a rear red reflector, and that applies to e-bikes exactly the same as any pedal bike. Integrated lights, wired into the bike&#x27;s main battery, solve the biggest reason commuters end up riding illegally after dark: a bolt-on light nobody remembered to charge. The trade-off is that integrated lights typically can&#x27;t be removed and taken with you, which matters if the bike is locked outside overnight and lights are an easy target. Check whether integrated lights run off the main battery constantly or only when switched on, since some designs drain a small amount even when the bike is off, which matters over long unridden periods like a week&#x27;s holiday.</p><h3>Mudguards, chainguards and the state of your work clothes</h3><p>A commuter e-bike ridden through an Irish winter without mudguards produces a very specific stripe of road spray up your back and a wet chain that flings grease onto trouser legs at the ankle, and both are avoidable with parts that add negligible weight or cost. Full-length mudguards, front and rear, matter more than partial ones — a short rear guard stops the worst of it but a front guard prevents spray hitting your feet and the bike behind you if you&#x27;re riding in a group. A chainguard or full chain case keeps oil off trouser hems and reduces how often the chain needs cleaning and lubricating, which matters doubly in wet weather since grit sticks to an exposed, lubricated chain far more than a covered one. These are minor spec-sheet items that make the difference between a bike you&#x27;ll ride daily through February and one that quietly stops getting used once the weather turns.</p><h3>What rack do you need to carry a laptop bag by bike daily?</h3><p>A rear rack rated for at least 20-25kg covers a laptop bag, a change of clothes and a packed lunch without strain, and a frame-mounted rack — bolted to the frame itself rather than the seatpost — carries load more stably and doesn&#x27;t interfere with saddle height adjustment the way seatpost-mounted racks can. Panniers that clip on and off the rack are more practical for daily commuting than a backpack, since carrying weight on the bike rather than your back reduces sweating in work clothes and makes the ride more stable at low speed. Check the rack&#x27;s weight rating against what you&#x27;ll actually carry rather than assuming all racks are interchangeable — some lightweight racks on budget commuter bikes are rated well under 20kg, which is tight for a laptop, charger and lunch combined.</p><h3>Locking it up: frame design and theft in Irish towns and cities</h3><p>Bike theft is common enough in Irish cities that insurers and Gardaí alike recommend locking through the frame itself rather than just a wheel, and a commuter bike&#x27;s frame design affects how easy that is in practice — look for a top tube and seat tube close enough together that a D-lock fits through both plus a fixed object, rather than a frame shape that only allows a cable lock. Workplace bike racks and apartment communal areas are common theft locations precisely because bikes sit there unattended for hours at a time, so a lock rated for that kind of static, predictable exposure matters more than one used for quick five-minute stops. If the battery is removable, taking it inside overnight or during the workday both protects an expensive component and removes an obvious incentive for a thief, since a locked frame without its battery is a far less attractive target.</p><h3>Charging at work and the office policy nobody wrote</h3><p>Most Irish workplaces have no formal policy on charging an e-bike battery at a desk, which means it&#x27;s worth asking rather than assuming it&#x27;s fine, particularly in shared office space where cables across a walkway are a genuine trip hazard. A removable battery that comes off the bike and charges from a normal socket is far more practical for office charging than an in-frame system that needs the whole bike near a plug. The electricity cost itself is trivial — a typical 400-500Wh commuter battery uses roughly 0.5kWh for a full charge, which at Ireland&#x27;s standard household rate of around 38 cent per kWh comes to about 19 cent — so cost isn&#x27;t the issue, logistics and workplace policy are. If charging at work isn&#x27;t practical, a battery with enough range for a full return commute without topping up removes the need entirely.</p></div>

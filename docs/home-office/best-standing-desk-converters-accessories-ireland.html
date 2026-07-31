@@ -104,7 +104,7 @@ table.cmp tr:first-child td{background:#FFFBEF}
 table.cmp tr:nth-child(even):not(:first-child) td{background:#FAFCFA}
 table.cmp tr:hover td{background:var(--green-t)}
 /* product card */
-.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:38px 30px 30px;margin:30px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:30px 26px 24px;margin:24px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
 .card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--green-l),transparent 70%)}
 .card:hover{box-shadow:var(--sh-md);border-color:#CFE0D4}
 .card.top-pick{border:2px solid var(--gold);box-shadow:0 16px 44px -16px rgba(240,164,28,.35)}
@@ -112,37 +112,56 @@ table.cmp tr:hover td{background:var(--green-t)}
 .card.top-pick::after{content:'OUR #1 PICK';position:absolute;top:18px;right:-34px;transform:rotate(40deg);background:linear-gradient(90deg,var(--gold),var(--gold-l));color:#3A2700;font-size:.62rem;font-weight:800;letter-spacing:1px;padding:5px 40px}
 .rank{position:absolute;top:0;left:0;width:46px;height:40px;border-radius:16px 0 16px 0;background:var(--ink);color:#fff;font-weight:800;font-size:1.05rem;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
 .card.top-pick .rank{background:linear-gradient(140deg,var(--gold),var(--gold-l));color:#3A2700}
-.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:6px 14px;border-radius:99px;margin-bottom:12px;border:1px solid #F5DEA8}
-.card-head{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap}
-.card-info{flex:1;min-width:240px}
-.pimg{width:175px;height:175px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:5px 12px;border-radius:99px;margin-bottom:14px;border:1px solid #F5DEA8}
+/* Cabecalho em 3 colunas: imagem | info | CTA.
+   Antes o botao ficava depois de specs + pros/cons + verdict, o que a 100% de zoom
+   empurrava o unico elemento que gera receita para fora da dobra. */
+.card-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:22px;align-items:center}
+.card-info{min-width:0}
+.card-cta{display:flex;flex-direction:column;align-items:stretch;gap:7px;width:232px}
+.card-cta .btn{width:100%;justify-content:center;padding:14px 20px;font-size:.98rem}
+.card-cta .btn-sub{font-size:.7rem;color:var(--mut);text-align:center;margin:0;line-height:1.4}
+.pimg{width:112px;height:112px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
-.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:9px;color:#9AABA0;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
-.pimg .ph .ic{width:46px;height:46px;color:#BECDC2}
-@media(max-width:560px){.pimg{width:100%;height:190px}}
-.card h3{font-size:1.42rem;margin:0 0 2px;letter-spacing:-.5px;line-height:1.25}
+.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:#9AABA0;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:0 6px}
+.pimg .ph .ic{width:34px;height:34px;color:#BECDC2}
+/* CTA secundario no fim do card, para quem leu tudo — visualmente menor que o principal */
+.btn-foot{margin-top:4px;padding:11px 22px;font-size:.92rem;background:#fff;color:var(--green-d);border:2px solid var(--green);box-shadow:none}
+.btn-foot:hover{background:var(--green-t);box-shadow:none;transform:none}
+.btn-foot::after{display:none}
+@media(max-width:1000px){
+  .card-head{grid-template-columns:auto minmax(0,1fr)}
+  .card-cta{grid-column:1/-1;width:100%}
+}
+@media(max-width:560px){
+  .card-head{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .pimg{width:96px;height:96px}
+  .card-info{text-align:center}
+  .pricerow{justify-content:center}
+}
+.card h3{font-size:1.28rem;margin:0 0 2px;letter-spacing:-.4px;line-height:1.28}
 .brandline{color:var(--mut);font-size:.85rem;margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:.6px}
-.pricerow{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:10px 0 4px}
-.price{font-size:1.7rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
+.pricerow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:8px 0 0}
+.price{font-size:1.5rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
 .price small{font-size:.7rem;color:var(--mut);font-weight:500;display:block;font-family:'Inter';letter-spacing:.3px;text-transform:uppercase}
 .stars{display:flex;align-items:center;gap:2px;color:var(--gold)}
 .stars small{color:var(--mut);margin-left:8px;font-weight:700;font-size:.85rem}
-.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0;font-size:.85rem}
-.specgrid div{background:#F4F7F3;border-radius:11px;padding:10px 13px;border:1px solid #ECF1EB}
-.nospec{font-size:.86rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:11px 15px;margin:18px 0}
+.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:16px 0 0;font-size:.82rem}
+.specgrid div{background:#F4F7F3;border-radius:10px;padding:8px 12px;border:1px solid #ECF1EB}
+.nospec{font-size:.84rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:10px 14px;margin:16px 0 0}
 .specgrid b{display:block;font-size:.64rem;text-transform:uppercase;color:var(--mut);letter-spacing:.7px;margin-bottom:2px;font-weight:700}
-.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
 @media(max-width:640px){.pc{grid-template-columns:1fr}h1{font-size:1.8rem;letter-spacing:-.6px}}
-.pros,.cons{border-radius:13px;padding:17px 19px;font-size:.92rem}
+.pros,.cons{border-radius:12px;padding:13px 16px;font-size:.89rem}
 .pros{background:linear-gradient(160deg,#EDFAF1,#E4F6EB);border:1px solid #C8E8D2}
 .cons{background:linear-gradient(160deg,#FDF6F1,#FBEEE6);border:1px solid #F0D9C8}
-.pros b,.cons b{display:flex;align-items:center;gap:8px;margin-bottom:9px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
+.pros b,.cons b{display:flex;align-items:center;gap:7px;margin-bottom:6px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
 .pros b{color:#136A41}.cons b{color:#9A4E22}
 .pros ul,.cons ul{list-style:none}
-.pros li,.cons li{margin:6px 0;padding-left:23px;position:relative;line-height:1.55}
+.pros li,.cons li{margin:4px 0;padding-left:21px;position:relative;line-height:1.5}
 .pros li::before{content:'✓';position:absolute;left:2px;color:#15A35C;font-weight:800}
 .cons li::before{content:'–';position:absolute;left:5px;color:#C76A33;font-weight:800}
-.verdict{font-size:1rem;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:15px 20px;border-radius:0 13px 13px 0;margin:18px 0;font-style:italic;color:#273B4D}
+.verdict{font-size:.95rem;line-height:1.62;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:13px 18px;border-radius:0 12px 12px 0;margin:16px 0 0;font-style:italic;color:#273B4D}
 .verdict strong{font-style:normal;color:var(--green-d)}
 .btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#F7A91D,#F08A00);color:#2A1A00;font-weight:800;font-size:1.04rem;padding:15px 32px;border-radius:13px;box-shadow:0 8px 22px -8px rgba(240,138,0,.65);transition:box-shadow .25s,transform .25s;cursor:pointer;position:relative;overflow:hidden;font-family:'Inter'}
 .btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.45),transparent);transition:left .5s ease}
@@ -289,6 +308,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.7 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.7/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B075JYG2TB?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Type</b>Converter</div><div><b>Width</b>81 cm</div><div><b>Mechanism</b>Spring assist</div><div><b>Rating</b>4.7★</div></div>
 <div class="pc">
@@ -296,8 +319,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Mid width</li><li>Premium vs BONTEC</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The crowd favourite: top ratings, smooth lift, years of proven service.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B075JYG2TB?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B075JYG2TB?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ofc-021">
 <div class="rank" aria-label="Rank 2">2</div>
 <span class="badge">Best Converter Value</span>
@@ -311,6 +333,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.6 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.6/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B08PV7XY8M?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Type</b>Converter (sits on desk)</div><div><b>Lift</b>Gas spring</div><div><b>Surface</b>Keyboard tray incl.</div><div><b>Setup</b>None</div></div>
 <div class="pc">
@@ -318,8 +344,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Claims desk space</li><li>Monitor height compromise</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The retrofit route: sit-stand on your existing desk for €100, zero furniture replaced.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B08PV7XY8M?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B08PV7XY8M?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ofc-022">
 <div class="rank" aria-label="Rank 3">3</div>
 <span class="badge">Best Dual-Monitor Converter</span>
@@ -333,6 +358,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.6 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.6/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0BVMD7W4H?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Type</b>Converter</div><div><b>Width</b>94 cm</div><div><b>Levels</b>2-tier</div><div><b>Fits</b>Dual monitors</div></div>
 <div class="pc">
@@ -340,8 +369,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Big footprint</li><li>Heavy to reposition</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The dual-screen converter: full workstation that rises, keyboard tier and all.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0BVMD7W4H?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0BVMD7W4H?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ofc-023">
 <div class="rank" aria-label="Rank 4">4</div>
 <span class="badge">Best Single Upgrade</span>
@@ -355,6 +383,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.6 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.6/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B07T3KCQ94?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Fits</b>13–32&quot; screens</div><div><b>Motion</b>Full articulation</div><div><b>Mount</b>Clamp/grommet</div><div><b>Cable</b>Managed</div></div>
 <div class="pc">
@@ -362,8 +394,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Single screen only</li><li>Check desk lip depth</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The single best €43 upgrade: correct screen height fixes the posture chain.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B07T3KCQ94?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B07T3KCQ94?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="ofc-024">
 <div class="rank" aria-label="Rank 5">5</div>
 <span class="badge">Cheapest Ergo Win</span>
@@ -377,6 +408,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B07DHK5DHN?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Fits</b>Standard monitors</div><div><b>Motion</b>Height + tilt</div><div><b>Mount</b>Clamp</div><div><b>Price</b>€18</div></div>
 <div class="pc">
@@ -384,8 +419,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Less articulation</li><li>Lighter monitors only</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The cheapest correct-posture purchase on the site. Just buy it.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B07DHK5DHN?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B07DHK5DHN?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article>
 <h2>Buying guide: how to choose</h2>
 <div class="guide" style="padding:18px 28px"><h3>What&#x27;s the difference between a fixed-height and electric desk converter?</h3><p>A standing desk converter sits on top of an existing desk and lifts a monitor and keyboard tray between sitting and standing heights, without replacing the desk itself. Spring-assisted or gas-lift converters use a counterbalance to make lifting one-handed and smooth, and are the most common type sold in Ireland; electric converters are less common and considerably pricier, mostly worth it if you&#x27;re switching height multiple times a day and want single-button consistency. Negative-height converters that also drop the keyboard tray below desktop level suit taller desks where the fixed desk height already sits high for typing. The core trade-off versus a full standing desk is footprint: a converter sits on top of the existing surface, so it doesn&#x27;t reclaim desk depth the way a slimmer standing desk frame might, and it adds height to the resting sitting position too.</p><h3>How much weight can a standing desk converter actually hold?</h3><p>Converters list a weight capacity that needs checking against the actual monitor-plus-keyboard-plus-accessories load, not just the monitor alone - a dual-monitor setup with a keyboard, mouse, and desk lamp on the raised tray can add up faster than expected, and most converters top out between 15-25kg. Desk depth compatibility is the other check that gets missed: a converter needs enough desk depth in front of it for the keyboard tray to sit at a comfortable typing distance even when the whole unit is pushed back against a monitor or wall, which on a desk under 60cm deep can leave uncomfortably little room. Measure the existing desk&#x27;s depth and compare it against the converter&#x27;s footprint plus a margin for elbow room before buying, rather than assuming any converter fits any desk.</p><h3>Will a monitor arm fit your monitor and your desk?</h3><p>Most monitors sold in the last decade support VESA mounting (a standard bolt pattern, usually 75x75mm or 100x100mm on the back of the screen), which is what lets a monitor arm hold and reposition it - check this before buying an arm, since a small number of budget or older monitors lack VESA holes entirely. Separately, check how the arm clamps to the desk: a desk-edge clamp needs a certain thickness and accessible edge, which some converters or thick standing desk tops don&#x27;t leave room for, while a grommet-mount arm needs a drilled hole, awkward to retrofit on desks without one already. Weight range matters too - arms are rated for a specific monitor weight window, and an ultrawide or heavier monitor outside that range won&#x27;t hold position reliably. Confirming the VESA pattern and monitor weight against the arm&#x27;s spec before ordering avoids the common problem of a mount that technically fits but sags over time.</p><h3>Do you need a footrest or an anti-fatigue mat?</h3><p>A footrest and an anti-fatigue mat solve different postures and shouldn&#x27;t be treated as interchangeable. A footrest addresses seated posture, giving shorter users or anyone whose desk height sits slightly high a surface to rest feet on rather than letting them dangle, which reduces pressure on the back of the thighs. An anti-fatigue mat addresses standing posture, cushioning the feet against a hard floor during standing desk use and reducing the fatigue that makes people abandon standing sessions early. Someone using a sit-stand setup regularly benefits from both, since they solve the comfort problem for each position rather than one covering both; someone who rarely stands can skip the mat entirely. Neither is expensive relative to the rest of a setup, which makes them an easy first upgrade to test before spending more on desk or converter hardware.</p><h3>The real cost of a setup - and what Irish tax relief actually covers</h3><p>A full sit-stand setup - converter or desk, monitor arm, footrest, mat - typically runs somewhere between €150 and €500 depending on how many pieces are new versus already owned, and it&#x27;s worth knowing what Irish tax relief actually applies to before assuming any of it. Revenue&#x27;s e-working relief and the related Remote Working Relief cover a portion of utility costs - electricity, heating and broadband - apportioned to days worked from home, and some employers pay a separate tax-free allowance toward those same costs; neither covers the purchase of a desk, converter or monitor arm itself. Equipment provided directly by an employer for work use is generally not treated as a taxable benefit, which is the more relevant route if a monitor arm or converter is genuinely work-required - worth raising with an employer before buying it personally.</p></div>

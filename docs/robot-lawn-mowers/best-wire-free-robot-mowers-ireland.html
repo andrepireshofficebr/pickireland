@@ -104,7 +104,7 @@ table.cmp tr:first-child td{background:#FFFBEF}
 table.cmp tr:nth-child(even):not(:first-child) td{background:#FAFCFA}
 table.cmp tr:hover td{background:var(--green-t)}
 /* product card */
-.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:38px 30px 30px;margin:30px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:30px 26px 24px;margin:24px 0;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s;overflow:hidden}
 .card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--green-l),transparent 70%)}
 .card:hover{box-shadow:var(--sh-md);border-color:#CFE0D4}
 .card.top-pick{border:2px solid var(--gold);box-shadow:0 16px 44px -16px rgba(240,164,28,.35)}
@@ -112,37 +112,56 @@ table.cmp tr:hover td{background:var(--green-t)}
 .card.top-pick::after{content:'OUR #1 PICK';position:absolute;top:18px;right:-34px;transform:rotate(40deg);background:linear-gradient(90deg,var(--gold),var(--gold-l));color:#3A2700;font-size:.62rem;font-weight:800;letter-spacing:1px;padding:5px 40px}
 .rank{position:absolute;top:0;left:0;width:46px;height:40px;border-radius:16px 0 16px 0;background:var(--ink);color:#fff;font-weight:800;font-size:1.05rem;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
 .card.top-pick .rank{background:linear-gradient(140deg,var(--gold),var(--gold-l));color:#3A2700}
-.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:6px 14px;border-radius:99px;margin-bottom:12px;border:1px solid #F5DEA8}
-.card-head{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap}
-.card-info{flex:1;min-width:240px}
-.pimg{width:175px;height:175px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(90deg,#FFF4DA,#FFEBC2);color:#8A5B00;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.7px;padding:5px 12px;border-radius:99px;margin-bottom:14px;border:1px solid #F5DEA8}
+/* Cabecalho em 3 colunas: imagem | info | CTA.
+   Antes o botao ficava depois de specs + pros/cons + verdict, o que a 100% de zoom
+   empurrava o unico elemento que gera receita para fora da dobra. */
+.card-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:22px;align-items:center}
+.card-info{min-width:0}
+.card-cta{display:flex;flex-direction:column;align-items:stretch;gap:7px;width:232px}
+.card-cta .btn{width:100%;justify-content:center;padding:14px 20px;font-size:.98rem}
+.card-cta .btn-sub{font-size:.7rem;color:var(--mut);text-align:center;margin:0;line-height:1.4}
+.pimg{width:112px;height:112px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
-.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:9px;color:#9AABA0;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
-.pimg .ph .ic{width:46px;height:46px;color:#BECDC2}
-@media(max-width:560px){.pimg{width:100%;height:190px}}
-.card h3{font-size:1.42rem;margin:0 0 2px;letter-spacing:-.5px;line-height:1.25}
+.pimg .ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:#9AABA0;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:0 6px}
+.pimg .ph .ic{width:34px;height:34px;color:#BECDC2}
+/* CTA secundario no fim do card, para quem leu tudo — visualmente menor que o principal */
+.btn-foot{margin-top:4px;padding:11px 22px;font-size:.92rem;background:#fff;color:var(--green-d);border:2px solid var(--green);box-shadow:none}
+.btn-foot:hover{background:var(--green-t);box-shadow:none;transform:none}
+.btn-foot::after{display:none}
+@media(max-width:1000px){
+  .card-head{grid-template-columns:auto minmax(0,1fr)}
+  .card-cta{grid-column:1/-1;width:100%}
+}
+@media(max-width:560px){
+  .card-head{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .pimg{width:96px;height:96px}
+  .card-info{text-align:center}
+  .pricerow{justify-content:center}
+}
+.card h3{font-size:1.28rem;margin:0 0 2px;letter-spacing:-.4px;line-height:1.28}
 .brandline{color:var(--mut);font-size:.85rem;margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:.6px}
-.pricerow{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:10px 0 4px}
-.price{font-size:1.7rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
+.pricerow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:8px 0 0}
+.price{font-size:1.5rem;font-weight:800;color:var(--green-d);letter-spacing:-.5px}
 .price small{font-size:.7rem;color:var(--mut);font-weight:500;display:block;font-family:'Inter';letter-spacing:.3px;text-transform:uppercase}
 .stars{display:flex;align-items:center;gap:2px;color:var(--gold)}
 .stars small{color:var(--mut);margin-left:8px;font-weight:700;font-size:.85rem}
-.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0;font-size:.85rem}
-.specgrid div{background:#F4F7F3;border-radius:11px;padding:10px 13px;border:1px solid #ECF1EB}
-.nospec{font-size:.86rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:11px 15px;margin:18px 0}
+.specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:16px 0 0;font-size:.82rem}
+.specgrid div{background:#F4F7F3;border-radius:10px;padding:8px 12px;border:1px solid #ECF1EB}
+.nospec{font-size:.84rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:10px 14px;margin:16px 0 0}
 .specgrid b{display:block;font-size:.64rem;text-transform:uppercase;color:var(--mut);letter-spacing:.7px;margin-bottom:2px;font-weight:700}
-.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
 @media(max-width:640px){.pc{grid-template-columns:1fr}h1{font-size:1.8rem;letter-spacing:-.6px}}
-.pros,.cons{border-radius:13px;padding:17px 19px;font-size:.92rem}
+.pros,.cons{border-radius:12px;padding:13px 16px;font-size:.89rem}
 .pros{background:linear-gradient(160deg,#EDFAF1,#E4F6EB);border:1px solid #C8E8D2}
 .cons{background:linear-gradient(160deg,#FDF6F1,#FBEEE6);border:1px solid #F0D9C8}
-.pros b,.cons b{display:flex;align-items:center;gap:8px;margin-bottom:9px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
+.pros b,.cons b{display:flex;align-items:center;gap:7px;margin-bottom:6px;font-size:.74rem;text-transform:uppercase;letter-spacing:.8px}
 .pros b{color:#136A41}.cons b{color:#9A4E22}
 .pros ul,.cons ul{list-style:none}
-.pros li,.cons li{margin:6px 0;padding-left:23px;position:relative;line-height:1.55}
+.pros li,.cons li{margin:4px 0;padding-left:21px;position:relative;line-height:1.5}
 .pros li::before{content:'✓';position:absolute;left:2px;color:#15A35C;font-weight:800}
 .cons li::before{content:'–';position:absolute;left:5px;color:#C76A33;font-weight:800}
-.verdict{font-size:1rem;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:15px 20px;border-radius:0 13px 13px 0;margin:18px 0;font-style:italic;color:#273B4D}
+.verdict{font-size:.95rem;line-height:1.62;background:linear-gradient(90deg,var(--green-t),transparent 80%);border-left:4px solid var(--green);padding:13px 18px;border-radius:0 12px 12px 0;margin:16px 0 0;font-style:italic;color:#273B4D}
 .verdict strong{font-style:normal;color:var(--green-d)}
 .btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#F7A91D,#F08A00);color:#2A1A00;font-weight:800;font-size:1.04rem;padding:15px 32px;border-radius:13px;box-shadow:0 8px 22px -8px rgba(240,138,0,.65);transition:box-shadow .25s,transform .25s;cursor:pointer;position:relative;overflow:hidden;font-family:'Inter'}
 .btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.45),transparent);transition:left .5s ease}
@@ -289,6 +308,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.7 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="hg"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#D8DEE6"/></linearGradient></defs><path fill="url(#hg)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.7/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0DRW11XCJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Coverage</b>800–1,000 m²</div><div><b>Navigation</b>Vision (no wire/RTK)</div><div><b>Setup</b>App walk-around</div></div>
 <div class="pc">
@@ -296,8 +319,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Premium price</li><li>Needs decent light</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The wire-free mower done right: top ratings, simple setup, Anker reliability.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0DRW11XCJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0DRW11XCJ?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rlm-017">
 <div class="rank" aria-label="Rank 2">2</div>
 <span class="badge">Best Wire-Free Value</span>
@@ -311,6 +333,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.4 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.4/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0G4DVCN8K?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Coverage</b>Up to 100 m²</div><div><b>Navigation</b>Vision, no wire</div><div><b>Battery</b>18V Power4All</div></div>
 <div class="pc">
@@ -318,8 +344,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>100 m² limit</li><li>Small-garden only</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The small-garden no-brainer: Bosch engineering, wire-free, €359.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0G4DVCN8K?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0G4DVCN8K?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rlm-018">
 <div class="rank" aria-label="Rank 3">3</div>
 <span class="badge">Best Mid-Size</span>
@@ -333,6 +358,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.2 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.2/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0GD79S7G4?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Coverage</b>500 m²</div><div><b>Navigation</b>Vision + RTK</div><div><b>Boundary</b>None needed</div><div><b>App</b>Full-featured</div></div>
 <div class="pc">
@@ -340,8 +369,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Newer brand support</li><li>Mixed early reviews</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The mid-size wire-free value play — most coverage per euro in its class.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0GD79S7G4?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0GD79S7G4?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rlm-019">
 <div class="rank" aria-label="Rank 4">4</div>
 <span class="badge">Best Terrain Capability</span>
@@ -355,6 +383,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.2 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.2/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0GLYRKJ83?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Coverage</b>1,000 m²</div><div><b>Drive</b>AWD — steep slopes</div><div><b>Navigation</b>Tri-camera + RTK</div><div><b>Terrain</b>Rough ground</div></div>
 <div class="pc">
@@ -362,8 +394,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Premium price</li><li>Complex setup options</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The rural terrain specialist: slopes and rough ground other robots refuse.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0GLYRKJ83?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0GLYRKJ83?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article><article class="card" id="rlm-020">
 <div class="rank" aria-label="Rank 5">5</div>
 <span class="badge">Best Budget Wire-Free</span>
@@ -377,6 +408,10 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
       <div class="stars" aria-label="Rated 4.1 out of 5"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg><small>4.1/5</small></div>
     </div>
   </div>
+  <div class="card-cta">
+    <a class="btn" href="https://www.amazon.ie/dp/B0F4CDDFRP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    <span class="btn-sub">Price accurate as of publishing</span>
+  </div>
 </div>
 <div class="specgrid"><div><b>Navigation</b>AI + vision</div><div><b>Boundary</b>None</div><div><b>Coverage</b>Mid-size lawns</div><div><b>Price</b>Value</div></div>
 <div class="pc">
@@ -384,8 +419,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
   <div class="cons"><b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Cons</b><ul><li>Lesser-known brand</li><li>Software still maturing</li></ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> The budget wire-free bet: real vision navigation at nearly half big-brand money.</p>
-<a class="btn" href="https://www.amazon.ie/dp/B0F4CDDFRP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
-<div class="btn-sub">Price and availability accurate as of publishing; subject to change.</div>
+<a class="btn btn-foot" href="https://www.amazon.ie/dp/B0F4CDDFRP?tag=elevaonline-21" target="_blank" rel="sponsored noopener">Check price on Amazon.ie <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
 </article>
 <h2>Buying guide: how to choose</h2>
 <div class="guide" style="padding:18px 28px"><h3>How do wire-free robot mowers actually know where your lawn ends?</h3><p>Wire-free robot mowers navigate using one of three core technologies, often combined. RTK (Real-Time Kinematic) GPS uses a base station on your property to correct standard satellite positioning down to centimetre-level accuracy. Camera-based vision systems build a visual map during setup and recognise the boundary and obstacles the way a self-driving car reads a road, which helps in tree-shaded areas where satellite signal weakens. Some budget models use fixed beacons placed around the garden as reference points instead. Higher-end machines combine RTK with camera vision so each system compensates for the other&#x27;s weak spots — satellite for open ground, cameras for shaded or signal-poor corners. Beacon-based systems are becoming less common as RTK hardware costs fall, but they remain a reasonable budget option for a simple, open garden where centimetre-level precision isn&#x27;t essential.</p><h3>Setup in an afternoon: what the walk-around process involves</h3><p>Wire-free setup replaces a day of trenching with an app-guided walk. You carry or push the mower once around the boundary you want it to respect, marking gates, obstacles and any no-go zones as you go, and the app builds a digital map from the RTK or camera data collected during that walk. Multi-zone gardens take longer, since each connected or disconnected area typically needs its own walk-around pass. Most manufacturers recommend doing this walk in good weather with clear satellite visibility for RTK models, since heavy cloud or dense tree cover during the initial mapping can reduce boundary accuracy — a poor first map is the most common cause of a wire-free mower straying near an edge in its first few weeks. It&#x27;s worth repeating the walk-around a second time if the app flags any low-confidence sections of the boundary, since correcting the map before the first unattended run is far easier than troubleshooting an odd cutting pattern afterwards.</p><h3>Where wire-free struggles: signal, shade and dense boundaries</h3><p>No wire-free navigation method is immune to interference. RTK accuracy can degrade under dense tree canopy, close to tall stone walls, or in gardens overshadowed by a two-storey extension, since these all block or reflect satellite signal. Camera-based systems, in turn, rely on adequate light and can lose confidence in very low winter light or dense fog, both realistic on Irish winter mornings. In practice this rarely means the mower fails outright — it usually means reduced boundary precision in the affected zone, showing up as the mower cutting slightly short of a hedge line it handles precisely elsewhere in the garden. Gardens with one specific problem area often solve it with a supplementary physical boundary marker in just that section rather than switching systems entirely. None of this is unique to any one brand — it&#x27;s a physical limitation of satellite and optical positioning generally, so the practical fix is choosing a hybrid system and mapping problem areas carefully rather than expecting a single technology to solve every garden.</p><h3>Changing your garden layout later</h3><p>The practical advantage of wire-free over buried wire shows up months after installation, when the garden changes. Adding a raised bed, extending a patio, or putting up a new shed means editing a digital boundary in the app — a five-minute change — rather than digging up and relaying a physical cable. This matters more in Ireland than it might elsewhere, since many gardens here are actively developed over their first few years in a new estate: decking added, borders dug, a play area installed as children grow. Families still landscaping their garden get more long-term value from a wire-free system&#x27;s flexibility than from any single feature comparison at the point of purchase. It also removes the seasonal temptation to simply mow around a new obstacle rather than properly updating the boundary, since editing the map correctly takes barely longer than doing it the sloppy way.</p><h3>Theft and tracking on machines with no wire to steal</h3><p>A robot mower parked on open grass, sometimes visible from the street, is a realistic theft target regardless of navigation type, and wire-free models don&#x27;t change that risk on their own. What they typically add is stronger anti-theft software: GPS location tracking that works through the same positioning hardware used for mowing, PIN-code unlock so a stolen unit won&#x27;t operate without the code, and loud on-board alarms triggered by lifting or moving the mower unexpectedly. When comparing wire-free models for a garden visible from outside the property, check which of these three features are included rather than assuming they come as standard — some budget wire-free models include GPS mapping for cutting but skip theft-specific tracking entirely. Registering the mower&#x27;s serial number with the manufacturer at purchase is also worth doing immediately, since it&#x27;s the detail most often missing when an owner tries to report a stolen unit later.</p></div>
