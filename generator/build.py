@@ -708,7 +708,7 @@ for cat in CATS:
 <div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
 {qa_html}
 <p class="intro">{esc(page['intro'])}</p>
-<div class="toc"><b>{icon(cat['category'], 18)} Our top 5 at a glance</b><ol>{toc}</ol></div>
+<div class="toc"><b>{icon(cat['category'], 18)} Our top {len(page['products'])} at a glance</b><ol>{toc}</ol></div>
 <h2>Quick comparison</h2>
 {comparison_table(page['products'])}
 <h2>The picks, reviewed</h2>
