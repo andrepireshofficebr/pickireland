@@ -69,8 +69,8 @@
    ],
    "guide": [
     [
-     "Match the bike to the commute, not the spec sheet",
-     "Before comparing wattage and battery size, work out which category you actually need — the five bikes below span four very different use cases, and the \"best\" one depends entirely on yours. A flat 4km commute on quiet roads barely needs assistance at all, so a mid-range hub-motor bike is plenty. Add hills, headwind, or 10km-plus each way and torque starts to matter more than top speed. Living in an apartment or sharing a hallway with three flatmates points you toward a folding frame, regardless of how good a full-size bike's motor is. Weekend trail riding needs a completely different platform — wider tyres, more suspension travel, a frame rated for repeated impact — than anything built for tarmac. Skipping this step is why so many Irish e-bike buyers end up swapping bikes within a year: the spec sheet was good, the category was wrong."
+     "How do you actually pick the right e-bike category for your commute?",
+     "Work out which category you need before comparing wattage and battery size: a flat 4km commute barely needs assistance so a mid-range hub-motor bike is plenty, hills or a 10km-plus commute make torque matter more than top speed, apartment living points to a folding frame, and weekend trail riding needs wider tyres and more suspension travel than anything built for tarmac. Before comparing wattage and battery size, work out which category you actually need — the five bikes below span four very different use cases, and the \"best\" one depends entirely on yours. A flat 4km commute on quiet roads barely needs assistance at all, so a mid-range hub-motor bike is plenty. Add hills, headwind, or 10km-plus each way and torque starts to matter more than top speed. Living in an apartment or sharing a hallway with three flatmates points you toward a folding frame, regardless of how good a full-size bike's motor is. Weekend trail riding needs a completely different platform — wider tyres, more suspension travel, a frame rated for repeated impact — than anything built for tarmac. Skipping this step is why so many Irish e-bike buyers end up swapping bikes within a year: the spec sheet was good, the category was wrong."
     ],
     [
      "The €1,500 Cycle to Work ceiling and where it bites",
@@ -245,7 +245,7 @@
   },
   {
    "slug": "best-electric-bikes-under-1000-ireland",
-   "title": "Best Electric Bikes Under €1,000 in Ireland (2026) — 5 Real Options",
+   "title": "Best Electric Bikes Under €1,000 in Ireland 2026",
    "desc": "Five electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
    "h1": "Best Electric Bikes Under €1,000 in Ireland",
    "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These five keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
@@ -256,8 +256,8 @@
    ],
    "guide": [
     [
-     "What actually gets cut to hit €900",
-     "At this price point, the corners that get cut are consistent across brands: battery cells are less likely to be from a recognisable manufacturer like Samsung or LG, motor controllers are simpler with less overload protection, and brakes are almost always mechanical disc rather than hydraulic. None of that automatically makes a bike unsafe, but it does mean more variance in how a battery ages and less stopping power in the wet than a hydraulic system delivers. Frame welds and paint finish are usually fine even on budget bikes, since frames are commodity manufacturing and cheap to get right. What's harder to see from a listing is the battery management system (BMS) — the circuit that stops cells overcharging or overheating — and that's exactly where budget corners get cut without ever showing up in the spec sheet. It only becomes obvious in how the battery behaves after a year of use."
+     "What actually gets cut on an electric bike under €1,000?",
+     "Battery cells are less likely to come from a recognisable maker like Samsung or LG, motor controllers carry less overload protection, and brakes are almost always mechanical disc rather than hydraulic. Frame welds are usually fine even on budget bikes; what's genuinely hard to see from a listing is the battery management system, which is exactly where budget corners get cut. At this price point, the corners that get cut are consistent across brands: battery cells are less likely to be from a recognisable manufacturer like Samsung or LG, motor controllers are simpler with less overload protection, and brakes are almost always mechanical disc rather than hydraulic. None of that automatically makes a bike unsafe, but it does mean more variance in how a battery ages and less stopping power in the wet than a hydraulic system delivers. Frame welds and paint finish are usually fine even on budget bikes, since frames are commodity manufacturing and cheap to get right. What's harder to see from a listing is the battery management system (BMS) — the circuit that stops cells overcharging or overheating — and that's exactly where budget corners get cut without ever showing up in the spec sheet. It only becomes obvious in how the battery behaves after a year of use."
     ],
     [
      "Reading a battery spec sheet like a skeptic",
@@ -432,7 +432,7 @@
   },
   {
    "slug": "best-folding-electric-bikes-ireland",
-   "title": "Best Folding Electric Bikes Ireland 2026 — Top 5 for Train & Apartment Life",
+   "title": "Best Folding Electric Bikes Ireland 2026 — Top 5",
    "desc": "The 5 best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.",
    "h1": "Best Folding Electric Bikes in Ireland",
    "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these five on fold speed, carry weight, and how much riding quality survives the hinge.",
@@ -443,8 +443,8 @@
    ],
    "guide": [
     [
-     "Why folding solves specifically Irish problems",
-     "Folding e-bikes address three problems that are more acute in Ireland than the marketing usually admits. Theft is the big one: a bike that lives in a hallway or under a desk simply isn't exposed to the street, and bike theft in Irish cities is common enough that insurers routinely ask where a bike is stored overnight. Weather is the second: Irish Rail permits folded bikes on board without needing to book bike space in advance, unlike full-size bikes which need pre-booking and are sometimes refused on busy services — so a folder turns a wet commute into a fold-and-train option rather than a soaking. Storage is the third and most mundane: apartment blocks and older terraced houses in Ireland often have nowhere to keep a full-size bike except outside, and a folded bike fits in a hall press or under a stairs that a full-size frame never will."
+     "Why does a folding e-bike solve specifically Irish problems?",
+     "Folding e-bikes address three problems more acute in Ireland than the marketing admits: theft, since a bike stored in a hallway isn't exposed to the street; weather, since Irish Rail permits folded bikes on board without pre-booking unlike full-size bikes; and storage, since a folded bike fits in a hall press or under a stairs that a full-size frame never will. Folding e-bikes address three problems that are more acute in Ireland than the marketing usually admits. Theft is the big one: a bike that lives in a hallway or under a desk simply isn't exposed to the street, and bike theft in Irish cities is common enough that insurers routinely ask where a bike is stored overnight. Weather is the second: Irish Rail permits folded bikes on board without needing to book bike space in advance, unlike full-size bikes which need pre-booking and are sometimes refused on busy services — so a folder turns a wet commute into a fold-and-train option rather than a soaking. Storage is the third and most mundane: apartment blocks and older terraced houses in Ireland often have nowhere to keep a full-size bike except outside, and a folded bike fits in a hall press or under a stairs that a full-size frame never will."
     ],
     [
      "Wheel size is the real trade-off, not the fold",
@@ -630,8 +630,8 @@
    ],
    "guide": [
     [
-     "Torque, not top speed, is what Irish trails demand",
-     "Every eMTB in Ireland is legally capped at the same 25km/h assistance limit as any other e-bike, so top speed is identical across this entire comparison — what actually separates a good eMTB from a mediocre one on Irish terrain is torque, measured in newton-metres (Nm). Trail centres like Ticknock in Dublin, Ballyhoura in Limerick and the climbs around the Wicklow Gap involve sustained gradients rather than short sharp ramps, and a motor with meaningfully more torque keeps cadence comfortable on a 15-20 minute continuous climb where a weaker motor forces you to stand and grind. Figures in the 40-85Nm range are typical at this price point; higher generally means a more natural climbing feel and less battery drain per climb, since the motor isn't working as hard against the same gradient. Don't assume a bigger battery compensates for lower torque — a weak motor drains a big battery just as fast fighting the same hill."
+     "Why does torque matter more than top speed for an Irish eMTB?",
+     "Every eMTB in Ireland is legally capped at the same 25km/h assistance limit, so top speed is identical across every model — what separates a good eMTB on Irish terrain is torque, measured in newton-metres. Trail centres like Ticknock, Ballyhoura and the Wicklow Gap involve sustained gradients, and figures in the 40-85Nm range are typical, with higher torque meaning a more natural climbing feel and less battery drain per climb. Every eMTB in Ireland is legally capped at the same 25km/h assistance limit as any other e-bike, so top speed is identical across this entire comparison — what actually separates a good eMTB from a mediocre one on Irish terrain is torque, measured in newton-metres (Nm). Trail centres like Ticknock in Dublin, Ballyhoura in Limerick and the climbs around the Wicklow Gap involve sustained gradients rather than short sharp ramps, and a motor with meaningfully more torque keeps cadence comfortable on a 15-20 minute continuous climb where a weaker motor forces you to stand and grind. Figures in the 40-85Nm range are typical at this price point; higher generally means a more natural climbing feel and less battery drain per climb, since the motor isn't working as hard against the same gradient. Don't assume a bigger battery compensates for lower torque — a weak motor drains a big battery just as fast fighting the same hill."
     ],
     [
      "Suspension and tyres for wet Irish trail dirt",
@@ -806,7 +806,7 @@
   },
   {
    "slug": "best-commuter-electric-bikes-ireland",
-   "title": "Best Commuter Electric Bikes Ireland 2026 — Top 5 for Daily Riding",
+   "title": "Best Commuter Electric Bikes Ireland 2026",
    "desc": "The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison.",
    "h1": "Best Commuter Electric Bikes in Ireland",
    "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared five commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
@@ -817,8 +817,8 @@
    ],
    "guide": [
     [
-     "Integrated lights aren't a nice-to-have, they're the law after dark",
-     "Under Irish road traffic law, a bicycle ridden between sunset and sunrise needs a working white front light and red rear light, plus a rear red reflector, and that requirement applies exactly the same way to an e-bike as to any pedal bike. Integrated lights, wired into the bike's main battery, solve the single biggest reason commuters end up riding illegally after dark: a bolt-on light with its own battery that nobody remembered to charge. The trade-off is that integrated lights typically can't be removed and taken with you, which matters if the bike is locked outside overnight and lights are an easy target. Check whether integrated lights run off the main battery constantly or only when switched on, since some designs drain a small amount even when the bike is off, which matters over long unridden periods like a week's holiday."
+     "Are integrated lights legally required on an e-bike in Ireland?",
+     "Under Irish road traffic law, a bicycle ridden between sunset and sunrise needs a working white front light, red rear light and a rear red reflector, and that applies to e-bikes exactly the same as any pedal bike. Integrated lights, wired into the bike's main battery, solve the biggest reason commuters end up riding illegally after dark: a bolt-on light nobody remembered to charge. Under Irish road traffic law, a bicycle ridden between sunset and sunrise needs a working white front light and red rear light, plus a rear red reflector, and that requirement applies exactly the same way to an e-bike as to any pedal bike. Integrated lights, wired into the bike's main battery, solve the single biggest reason commuters end up riding illegally after dark: a bolt-on light with its own battery that nobody remembered to charge. The trade-off is that integrated lights typically can't be removed and taken with you, which matters if the bike is locked outside overnight and lights are an easy target. Check whether integrated lights run off the main battery constantly or only when switched on, since some designs drain a small amount even when the bike is off, which matters over long unridden periods like a week's holiday."
     ],
     [
      "Mudguards, chainguards and the state of your work clothes",
