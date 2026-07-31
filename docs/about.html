@@ -19,6 +19,7 @@
 <meta property="og:image" content="https://pickireland.best/assets/og-default.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="About PickIreland | PickIreland">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://pickireland.best/assets/og-default.png">
 <meta name="theme-color" content="#0B5B40">
@@ -28,8 +29,9 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap"></noscript>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap');
 :root{--green:#0B5B40;--green-d:#073F2C;--green-l:#12805C;--green-t:#E9F4EE;--gold:#F0A41C;--gold-l:#FFC65C;--ink:#11202D;--mut:#54657A;--bg:#F7F8F6;--card:#fff;--line:#E4E9E4;--rad:18px;
 --sh-sm:0 1px 3px rgba(13,27,42,.07);--sh-md:0 10px 30px -10px rgba(13,27,42,.16);--sh-lg:0 24px 60px -20px rgba(13,27,42,.25)}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -76,6 +78,9 @@ h1{font-size:2.6rem;line-height:1.08;letter-spacing:-1.2px;margin:12px 0 14px;fo
 .updated .dot{width:4px;height:4px;border-radius:50%;background:#C3CDC6}
 .trust-chip{display:inline-flex;align-items:center;gap:6px;background:var(--green-t);color:var(--green-d);font-weight:700;font-size:.76rem;padding:4px 12px;border-radius:99px;border:1px solid #D2E6DA}
 .intro{font-size:1.12rem;color:#3A4B5C;max-width:850px;margin-bottom:30px;line-height:1.75}
+/* quick answer (AEO): resposta direta, autocontida, logo abaixo do H1 */
+.quick-answer{background:linear-gradient(135deg,var(--green-t),#F4FAF6);border:1px solid #CFE4D8;border-left:5px solid var(--green);border-radius:0 14px 14px 0;padding:16px 22px;margin:0 0 26px;font-size:1.03rem;line-height:1.7;color:#22323F;max-width:850px}
+.quick-answer strong{color:var(--green-d);font-weight:800}
 h2{font-size:1.7rem;margin:50px 0 18px;letter-spacing:-.7px;font-weight:800;position:relative;padding-left:16px}
 h2::before{content:'';position:absolute;left:0;top:.32em;bottom:.22em;width:5px;border-radius:3px;background:linear-gradient(180deg,var(--gold),var(--green-l))}
 h3{font-size:1.13rem;margin:20px 0 8px;font-weight:700}
@@ -241,7 +246,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 .search-hint{padding:14px 24px;color:var(--mut);font-size:.85rem}
 
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AboutPage", "name": "About PickIreland", "url": "https://pickireland.best/about.html", "description": "Who writes PickIreland and how we research Irish buying guides — manufacturer specs, owner feedback and running costs at real Irish electricity rates.", "isPartOf": {"@type": "WebSite", "name": "PickIreland", "url": "https://pickireland.best/"}, "mainEntity": {"@type": "Person", "name": "André Pires", "description": "André Pires founded PickIreland to cut through the noise of online shopping for Irish homes. Every guide compares products on Irish prices, running costs on Irish electricity, local weather and Irish rules — so readers can pick the right product without opening 40 tabs."}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AboutPage", "name": "About PickIreland", "url": "https://pickireland.best/about.html", "description": "Who writes PickIreland and how we research Irish buying guides — manufacturer specs, owner feedback and running costs at real Irish electricity rates.", "isPartOf": {"@type": "WebSite", "name": "PickIreland", "url": "https://pickireland.best/"}, "mainEntity": {"@type": "Person", "name": "André Pires", "description": "André Pires founded PickIreland to cut through the noise of online shopping for Irish homes. Every guide compares products on Irish prices, running costs on Irish electricity, local weather and Irish rules — so readers can pick the right product without opening 40 tabs."}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://pickireland.best/"}, {"@type": "ListItem", "position": 2, "name": "About PickIreland", "item": "https://pickireland.best/about.html"}]}</script>
 </head>
 <body>
 <header><div class="wrap nav">
@@ -263,6 +268,15 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 <p><strong>André Pires</strong> — Founder &amp; Editor. André Pires founded PickIreland to cut through the noise of online shopping for Irish homes. Every guide compares products on Irish prices, running costs on Irish electricity, local weather and Irish rules — so readers can pick the right product without opening 40 tabs.</p>
 <h2 style="margin-top:34px">How we research</h2>
 <p>For each guide we shortlist five products per use-case, then compare them on manufacturer specifications, verified owner feedback, running costs at current Irish electricity rates, and suitability for Irish conditions and rules. We update prices and picks as models change. We may earn an affiliate commission when you buy through our links, at no extra cost to you — this never changes our rankings.</p>
+<p><strong>What we don't do:</strong> we don't physically test products in a lab. Our comparisons are built from manufacturer specifications, verified owner feedback and published data — we say so plainly rather than implying hands-on testing we haven't done.</p>
+<h2 style="margin-top:34px">Sources we rely on</h2>
+<p>Where a guide quotes an Irish figure, it comes from a primary source rather than an estimate:</p>
+<ul style="margin:0 0 16px 22px;line-height:1.8">
+<li><strong>Electricity rates</strong> — running-cost calculations use a domestic day rate of about €0.38/kWh (July 2026), cross-checked against <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener" target="_blank">SEAI energy price statistics</a> and published supplier standard rates. Night rates on smart meters typically run €0.17–0.19/kWh.</li>
+<li><strong>E-scooter and e-bike law</strong> — power, speed and weight limits are taken from the statutory instrument text on <a href="https://www.irishstatutebook.ie" rel="nofollow noopener" target="_blank">irishstatutebook.ie</a> (S.I. 199 of 2024), not from retailer descriptions.</li>
+<li><strong>Pollen and weather</strong> — seasonal timings follow <a href="https://www.met.ie" rel="nofollow noopener" target="_blank">Met Éireann</a> published forecasts.</li>
+<li><strong>Prices and owner ratings</strong> — taken from Amazon.ie listings at time of writing, and flagged as indicative because they change constantly.</li>
+</ul>
 <p>Got a correction or a product suggestion? See our <a href="contact.html">contact page</a>.</p>
 </main>
 <footer><div class="wrap">

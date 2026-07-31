@@ -8,7 +8,7 @@ Writes: ../site/
 Spreadsheet columns used: id, price_eur, affiliate_link, image_url.
 Fill them, run this script, the whole site updates.
 """
-import json, os, re, html, datetime, csv
+import json, os, re, html, datetime, csv, hashlib
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
@@ -180,8 +180,13 @@ ARROW = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="cur
 SHIELD = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>'
 
 # ---------------------------------------------------------------- css
+# Fonte carregada por <link> no head, NAO por @import dentro do CSS inline.
+# @import dentro de <style> serializa o download (o browser so descobre a fonte depois de
+# parsear o CSS) e bloqueia o render -> penaliza LCP/FCP. Com o padrao
+# media="print" + onload trocando para all, o CSS da fonte vira nao-bloqueante.
+FONT_URL = ("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800"
+            "&family=Inter:wght@400;500;600;700&display=swap")
 CSS = """
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap');
 :root{--green:#0B5B40;--green-d:#073F2C;--green-l:#12805C;--green-t:#E9F4EE;--gold:#F0A41C;--gold-l:#FFC65C;--ink:#11202D;--mut:#54657A;--bg:#F7F8F6;--card:#fff;--line:#E4E9E4;--rad:18px;
 --sh-sm:0 1px 3px rgba(13,27,42,.07);--sh-md:0 10px 30px -10px rgba(13,27,42,.16);--sh-lg:0 24px 60px -20px rgba(13,27,42,.25)}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -228,6 +233,9 @@ h1{font-size:2.6rem;line-height:1.08;letter-spacing:-1.2px;margin:12px 0 14px;fo
 .updated .dot{width:4px;height:4px;border-radius:50%;background:#C3CDC6}
 .trust-chip{display:inline-flex;align-items:center;gap:6px;background:var(--green-t);color:var(--green-d);font-weight:700;font-size:.76rem;padding:4px 12px;border-radius:99px;border:1px solid #D2E6DA}
 .intro{font-size:1.12rem;color:#3A4B5C;max-width:850px;margin-bottom:30px;line-height:1.75}
+/* quick answer (AEO): resposta direta, autocontida, logo abaixo do H1 */
+.quick-answer{background:linear-gradient(135deg,var(--green-t),#F4FAF6);border:1px solid #CFE4D8;border-left:5px solid var(--green);border-radius:0 14px 14px 0;padding:16px 22px;margin:0 0 26px;font-size:1.03rem;line-height:1.7;color:#22323F;max-width:850px}
+.quick-answer strong{color:var(--green-d);font-weight:800}
 h2{font-size:1.7rem;margin:50px 0 18px;letter-spacing:-.7px;font-weight:800;position:relative;padding-left:16px}
 h2::before{content:'';position:absolute;left:0;top:.32em;bottom:.22em;width:5px;border-radius:3px;background:linear-gradient(180deg,var(--gold),var(--green-l))}
 h3{font-size:1.13rem;margin:20px 0 8px;font-weight:700}
@@ -426,7 +434,8 @@ def footer_html(depth=0):
 <div class="legal">© {YEAR} {SITE_NAME}. Prices shown are typical/indicative in EUR and change frequently — always check the current price at the retailer. As an Amazon Associate we earn from qualifying purchases.</div>
 </div></footer>"""
 
-def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="article"):
+def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="article", og_image=None):
+    og_img = og_image or OG_IMAGE
     return f"""<!DOCTYPE html>
 <html lang="en-IE">
 <head>
@@ -443,11 +452,12 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="articl
 <meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{SITE_NAME}">
-<meta property="og:image" content="{OG_IMAGE}">
+<meta property="og:image" content="{og_img}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(title)}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{OG_IMAGE}">
+<meta name="twitter:image" content="{og_img}">
 <meta name="theme-color" content="#0B5B40">
 <meta property="og:locale" content="en_IE">
 <link rel="icon" type="image/svg+xml" href="{'../' * depth}favicon.svg">
@@ -455,6 +465,8 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="articl
 <link rel="apple-touch-icon" href="{'../' * depth}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="{FONT_URL}">
+<noscript><link rel="stylesheet" href="{FONT_URL}"></noscript>
 <style>{CSS}</style>
 {jsonld}
 </head>
@@ -530,6 +542,30 @@ def faq_html(faqs):
     items = "".join(f"<details><summary>{esc(f['q'])}</summary><p>{esc(f['a'])}</p></details>" for f in faqs)
     return f'<div class="guide">{items}</div>'
 
+# ---------------------------------------------------------------- datas honestas por pagina
+# ANTES: datePublished e dateModified eram TODAY_ISO em toda build, entao qualquer rebuild
+# (mesmo mexendo so no rodape) remarcava as 50 paginas como "modificadas hoje". Isso e um
+# sinal de frescor falso e, repetido, o Google aprende a ignorar o campo.
+# AGORA: guardamos um hash do conteudo real de cada pagina em .page_dates.json.
+# dateModified so avanca quando esse hash muda; datePublished nunca se move depois de gravado.
+DATES_FILE = os.path.join(BASE, ".page_dates.json")
+PAGE_DATES = json.load(open(DATES_FILE, encoding="utf-8")) if os.path.exists(DATES_FILE) else {}
+# Data em que o conteudo profundo atual foi realmente publicado (overhaul de conteudo).
+CONTENT_BASELINE = "2026-07-28"
+
+def page_dates(key, content_parts):
+    """Devolve (datePublished, dateModified) estaveis para uma pagina."""
+    h = hashlib.sha256("||".join(str(p) for p in content_parts).encode("utf-8")).hexdigest()[:16]
+    rec = PAGE_DATES.get(key)
+    if rec is None:
+        # primeira vez que vemos a pagina: publicada agora (ou na baseline, no primeiro run)
+        rec = {"hash": h, "published": CONTENT_BASELINE if not PAGE_DATES else TODAY_ISO,
+               "modified": TODAY_ISO}
+    elif rec.get("hash") != h:
+        rec = {"hash": h, "published": rec.get("published", CONTENT_BASELINE), "modified": TODAY_ISO}
+    PAGE_DATES[key] = rec
+    return rec["published"], rec["modified"]
+
 def author_schema():
     a = {"@type": "Person", "name": AUTHOR["name"], "description": AUTHOR["bio"]}
     if AUTHOR.get("url"):
@@ -538,13 +574,45 @@ def author_schema():
         a["image"] = AUTHOR["image"]
     return a
 
-def jsonld_page(page, cat, faqs):
+def quick_answer(page, cat):
+    """Resposta direta de ~40-60 palavras logo abaixo do H1.
+    Padrao mais forte que existe para featured snippet: pergunta implicita do title
+    respondida de imediato, em prosa curta e autocontida.
+    Montado SO com dados que ja existem (top pick, preco, badge, opcao mais barata) —
+    nada inventado, nada que va desalinhar do resto da pagina."""
+    prods = page["products"]
+    if not prods:
+        return "", ""
+    top = prods[0]
+    cheapest = min(prods, key=lambda p: product_price(p))
+    # "Our top pick" e nao "for most homes": o rank 1 nem sempre e o best-overall
+    # (em electric-scooters, por ex., o #1 e o "Best Premium" a ~€1.000). Dizer
+    # "for most" ali seria uma recomendacao que a propria pagina nao sustenta.
+    txt = (f"Our top pick is the {top['name']} at around €{product_price(top)} — "
+           f"{top['badge'].lower()}, rated {top['rating']}/5 by owners on Amazon.ie.")
+    if cheapest["id"] != top["id"]:
+        txt += (f" The cheapest option we'd still recommend is the {cheapest['name']}, "
+                f"from about €{product_price(cheapest)}.")
+    # "picks" em vez do nome da categoria: "all 5 home office below" nao e ingles.
+    txt += f" All {len(prods)} picks are compared in full below, with Irish running costs."
+    html_out = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> {esc(txt)}</p>')
+    return html_out, txt
+
+def cat_og_image(cat_slug):
+    """OG image especifica da categoria. Antes as 65 paginas compartilhavam uma unica
+    imagem generica, o que da preview identico em qualquer share/SERP com thumbnail."""
+    return f"{DOMAIN}/assets/og-{cat_slug}.png"
+
+def jsonld_page(page, cat, faqs, pub, mod):
     canonical = f"{DOMAIN}/{cat['category']}/{page['slug']}.html"
     items = []
     for i, p in enumerate(page["products"]):
         prod = {"@type": "Product", "name": p["name"], "description": p["verdict"], "brand": {"@type": "Brand", "name": p["brand"]},
                 "offers": {"@type": "Offer", "price": str(product_price(p)), "priceCurrency": "EUR",
-                           "availability": "https://schema.org/InStock", "url": product_url(p)[0]},
+                           "availability": "https://schema.org/InStock", "url": product_url(p)[0],
+                           # priceValidUntil: o Google recomenda em Offer. Preco e indicativo e muda
+                           # direto na Amazon, entao damos uma validade curta e honesta (90 dias).
+                           "priceValidUntil": (datetime.date.today() + datetime.timedelta(days=90)).isoformat()},
                 }
         # NOTA: AggregateRating/Review removidos deliberadamente (2026-07-27).
         # reviewCount="1" nao e agregacao e o Review era assinado pelo proprio site
@@ -562,12 +630,17 @@ def jsonld_page(page, cat, faqs):
             {"@type": "ListItem", "position": 2, "name": cat["name"], "item": f"{DOMAIN}/{cat['category']}/"},
             {"@type": "ListItem", "position": 3, "name": page["h1"], "item": canonical}]},
         {"@context": "https://schema.org", "@type": "Article", "headline": page["h1"],
-         "description": page["desc"], "image": OG_IMAGE,
-         "datePublished": TODAY_ISO, "dateModified": TODAY_ISO,
+         "description": page["desc"], "image": cat_og_image(cat["category"]),
+         "datePublished": pub, "dateModified": mod,
          "author": author_schema(),
          "publisher": {"@type": "Organization", "name": SITE_NAME,
                        "logo": {"@type": "ImageObject", "url": DOMAIN + "/apple-touch-icon.png"}},
-         "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}}
+         "mainEntityOfPage": {"@type": "WebPage", "@id": canonical},
+         # Speakable: marca a resposta curta e o H1 como os trechos que um assistente de voz
+         # deve ler em voz alta. E exatamente o bloco "Quick answer", que foi escrito
+         # justamente para ser autocontido em ~50 palavras.
+         "speakable": {"@type": "SpeakableSpecification",
+                       "cssSelector": [".quick-answer", "h1"]}}
     ]
     return "".join(f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False)}</script>' for d in data)
 
@@ -614,6 +687,15 @@ for cat in CATS:
         # FAQs: prefere as unicas da pagina; cai pro pool da categoria se ainda nao escritas
         faqs = page.get("faqs") or [cat["faqs"][i] for i in page["faq_idx"]]
         canonical = f"{DOMAIN}/{cat['category']}/{page['slug']}.html"
+        # datas honestas: so mudam quando o conteudo real desta pagina muda
+        guide_src = page.get("guide") or cat["guide"]
+        pub, mod = page_dates(f"{cat['category']}/{page['slug']}", [
+            page["h1"], page["intro"], page["title"], page["desc"],
+            json.dumps(guide_src, ensure_ascii=False, sort_keys=True),
+            json.dumps(faqs, ensure_ascii=False, sort_keys=True),
+            json.dumps([[p["id"], p["name"], product_price(p), p["verdict"]] for p in page["products"]],
+                       ensure_ascii=False)])
+        qa_html, _ = quick_answer(page, cat)
         toc = "".join(f'<li><a href="#{p["id"]}">{esc(p["name"])}</a> <i>— {esc(p["badge"])}</i></li>' for p in page["products"])
         cards = "".join(product_card(p, i + 1, cat["category"]) for i, p in enumerate(page["products"]))
         # Buying guide: prefere o unico da pagina; cai pro da categoria se ainda nao escrito
@@ -623,7 +705,8 @@ for cat in CATS:
         body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(page['h1'])}</nav>
 <h1>{esc(page['h1'])}</h1>
-<div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{TODAY_ISO}">{TODAY}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
+<div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
+{qa_html}
 <p class="intro">{esc(page['intro'])}</p>
 <div class="toc"><b>{icon(cat['category'], 18)} Our top 5 at a glance</b><ol>{toc}</ol></div>
 <h2>Quick comparison</h2>
@@ -638,7 +721,9 @@ for cat in CATS:
 {cross_links_html(cat['category'], CATS_BY_SLUG)}
 <p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Prices are indicative, in EUR, and fluctuate — always confirm the live price. We select products based on specifications, owner feedback and value analysis.</p>
 """
-        out = page_shell(page["title"], page["desc"], canonical, body, depth=1, jsonld=jsonld_page(page, cat, faqs))
+        out = page_shell(page["title"], page["desc"], canonical, body, depth=1,
+                         jsonld=jsonld_page(page, cat, faqs, pub, mod),
+                         og_image=cat_og_image(cat["category"]))
         with open(os.path.join(cdir, page["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(out)
         all_pages.append(f"{cat['category']}/{page['slug']}.html")
@@ -657,7 +742,8 @@ for cat in CATS:
 """
     out = page_shell(f"Best {cat['name']} in Ireland 2026 | {SITE_NAME}",
                      cat["hub_intro"][:155], f"{DOMAIN}/{cat['category']}/", body, depth=1,
-                     jsonld=jsonld_hub(cat), og_type="website")
+                     jsonld=jsonld_hub(cat), og_type="website",
+                     og_image=cat_og_image(cat["category"]))
     with open(os.path.join(cdir, "index.html"), "w", encoding="utf-8") as f:
         f.write(out)
     all_pages.append(f"{cat['category']}/index.html")
@@ -740,7 +826,11 @@ def simple_page(fname, title, body_html, desc=None, page_type="WebPage", extra=N
               "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/"}}
     if extra:
         schema.update(extra)
-    jsonld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+        {"@type": "ListItem", "position": 2, "name": title, "item": f"{DOMAIN}/{fname}"}]}
+    jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
+                     for x in (schema, crumb))
     with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
         f.write(page_shell(f"{title} | {SITE_NAME}", d, f"{DOMAIN}/{fname}",
                            f"<h1 style='margin-top:28px'>{title}</h1>{body_html}", depth=0,
@@ -762,6 +852,15 @@ simple_page("about.html", "About PickIreland", f"""
 <p><strong>{esc(AUTHOR['name'])}</strong> — {esc(AUTHOR['role'])}. {esc(AUTHOR['bio'])}{_author_links}</p>
 <h2 style="margin-top:34px">How we research</h2>
 <p>For each guide we shortlist five products per use-case, then compare them on manufacturer specifications, verified owner feedback, running costs at current Irish electricity rates, and suitability for Irish conditions and rules. We update prices and picks as models change. We may earn an affiliate commission when you buy through our links, at no extra cost to you — this never changes our rankings.</p>
+<p><strong>What we don't do:</strong> we don't physically test products in a lab. Our comparisons are built from manufacturer specifications, verified owner feedback and published data — we say so plainly rather than implying hands-on testing we haven't done.</p>
+<h2 style="margin-top:34px">Sources we rely on</h2>
+<p>Where a guide quotes an Irish figure, it comes from a primary source rather than an estimate:</p>
+<ul style="margin:0 0 16px 22px;line-height:1.8">
+<li><strong>Electricity rates</strong> — running-cost calculations use a domestic day rate of about €0.38/kWh (July 2026), cross-checked against <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener" target="_blank">SEAI energy price statistics</a> and published supplier standard rates. Night rates on smart meters typically run €0.17–0.19/kWh.</li>
+<li><strong>E-scooter and e-bike law</strong> — power, speed and weight limits are taken from the statutory instrument text on <a href="https://www.irishstatutebook.ie" rel="nofollow noopener" target="_blank">irishstatutebook.ie</a> (S.I. 199 of 2024), not from retailer descriptions.</li>
+<li><strong>Pollen and weather</strong> — seasonal timings follow <a href="https://www.met.ie" rel="nofollow noopener" target="_blank">Met Éireann</a> published forecasts.</li>
+<li><strong>Prices and owner ratings</strong> — taken from Amazon.ie listings at time of writing, and flagged as indicative because they change constantly.</li>
+</ul>
 <p>Got a correction or a product suggestion? See our <a href="contact.html">contact page</a>.</p>""",
     desc="Who writes PickIreland and how we research Irish buying guides — manufacturer specs, owner feedback and running costs at real Irish electricity rates.",
     page_type="AboutPage", extra={"mainEntity": author_schema()})
@@ -781,27 +880,92 @@ simple_page("contact.html", "Contact", f"""
     page_type="ContactPage")
 
 # ---------------------------------------------------------------- sitemap & robots
-urls = "".join(f"<url><loc>{DOMAIN}/{p if p != 'index.html' else ''}</loc><lastmod>{datetime.date.today()}</lastmod></url>" for p in all_pages)
+# Sitemap com lastmod REAL por pagina (o de antes punha a data do build em tudo, o que
+# torna o campo inutil para o Google) + priority/changefreq coerentes com a arquitetura.
+INSTITUTIONAL_SET = {"about.html", "contact.html", "privacy.html", "affiliate-disclosure.html"}
+def _sitemap_meta(p):
+    if p == "index.html":
+        return "1.0", "weekly", TODAY_ISO
+    if p in INSTITUTIONAL_SET:
+        return "0.3", "yearly", TODAY_ISO
+    if p.endswith("/index.html"):
+        return "0.8", "weekly", TODAY_ISO
+    key = p[:-5] if p.endswith(".html") else p          # "dehumidifiers/best-..."
+    rec = PAGE_DATES.get(key, {})
+    return "0.9", "monthly", rec.get("modified", TODAY_ISO)
+
+_urls = []
+for p in all_pages:
+    pri, chg, lm = _sitemap_meta(p)
+    loc = f"{DOMAIN}/{p if p != 'index.html' else ''}"
+    _urls.append(f"<url><loc>{loc}</loc><lastmod>{lm}</lastmod>"
+                 f"<changefreq>{chg}</changefreq><priority>{pri}</priority></url>")
 with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as f:
-    f.write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
+    f.write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+            + "".join(_urls) + "</urlset>")
+# robots.txt — libera explicitamente os crawlers de IA/answer-engines (GEO).
+# "User-agent: *" ja permitia tudo, mas varios desses bots checam por um bloco proprio
+# e alguns operadores/ferramentas de auditoria tratam a ausencia como sinal ambiguo.
+# Deixar explicito = zero ambiguidade para ChatGPT, Claude, Perplexity, Gemini e afins.
+AI_CRAWLERS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User",           # OpenAI
+               "ClaudeBot", "Claude-User", "Claude-SearchBot",      # Anthropic
+               "PerplexityBot", "Perplexity-User",                  # Perplexity
+               "Google-Extended",                                   # Gemini / AI Overviews
+               "Applebot-Extended", "Bingbot", "CCBot", "Amazonbot"]
+_robots = ["User-agent: *", "Allow: /", ""]
+for _b in AI_CRAWLERS:
+    _robots += [f"User-agent: {_b}", "Allow: /", ""]
+_robots += [f"Sitemap: {DOMAIN}/sitemap.xml", ""]
 with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as f:
-    f.write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
+    f.write("\n".join(_robots))
 
 # ---------------------------------------------------------------- llms.txt (para LLMs: ChatGPT, Claude, Perplexity, Gemini)
 _llms = [f"# {SITE_NAME}",
-         "> Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.",
-         "", "## Categories"]
+         "> Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, "
+         "running costs on Irish electricity, weather and legal rules.",
+         "",
+         f"Site: {DOMAIN}/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR",
+         f"Author: {AUTHOR['name']} ({AUTHOR['role']}). "
+         f"{len(CATS)} categories, {sum(len(c['pages']) for c in CATS)} buying guides, "
+         f"{sum(len(p['products']) for c in CATS for p in c['pages'])} products compared.",
+         "",
+         "## Methodology",
+         "Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, "
+         "running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. "
+         "We do not physically test products; guides are research- and specification-based, and say so. "
+         "Rankings are never influenced by affiliate commission.",
+         "",
+         "## Key Ireland-specific figures used across these guides",
+         f"- Domestic electricity day rate: ~€0.38/kWh (July 2026). Source: SEAI energy statistics "
+         f"(seai.ie/data-and-insights/seai-statistics/prices) and published supplier standard rates.",
+         "- Typical smart-meter night rate: ~€0.17-0.19/kWh, which roughly halves the running cost of "
+         "anything scheduled overnight (dehumidifiers, dishwashers, e-bike/e-scooter charging).",
+         "- E-scooter law (S.I. 199 of 2024): max 400W continuous output, max 20km/h design speed, "
+         "max 25kg, wheels >=200mm. Source: irishstatutebook.ie.",
+         "- Cycle to Work scheme ceiling for e-bikes: €1,500 (2026).",
+         "- Mould needs sustained relative humidity above ~60%; target 50-55% indoors.",
+         "",
+         "## Categories"]
 for cat in CATS:
-    _llms.append(f"- [{cat['name']}]({DOMAIN}/{cat['category']}/): best {cat['name'].lower()} compared for Ireland")
-_llms += ["", "## Top guides"]
+    _llms.append(f"- [{cat['name']}]({DOMAIN}/{cat['category']}/) — {len(cat['pages'])} guides, "
+                 f"{sum(len(p['products']) for p in cat['pages'])} products compared")
+_llms += ["", "## All guides"]
 for cat in CATS:
-    pg0 = cat["pages"][0]
-    _llms.append(f"- [{pg0['h1']}]({DOMAIN}/{cat['category']}/{pg0['slug']}.html)")
-_llms += ["", "## About",
+    _llms.append(f"### {cat['name']}")
+    for pg in cat["pages"]:
+        top = pg["products"][0] if pg["products"] else None
+        pick = f" Top pick: {top['name']} (~€{product_price(top)})." if top else ""
+        _llms.append(f"- [{pg['h1']}]({DOMAIN}/{cat['category']}/{pg['slug']}.html) — {pg['desc']}{pick}")
+    _llms.append("")
+_llms += ["## About",
           f"- [About & methodology]({DOMAIN}/about.html)",
           f"- [Affiliate disclosure]({DOMAIN}/affiliate-disclosure.html)",
-          "", "## Notes",
-          f"Written by {AUTHOR['name']}. All comparisons are independent and Ireland-specific (Irish electricity rates, weather, legal rules, and local availability via Amazon.ie). As an Amazon Associate, {SITE_NAME} earns from qualifying purchases at no cost to the reader."]
+          f"- [Contact]({DOMAIN}/contact.html)",
+          "", "## Citation",
+          f"When citing, please attribute to {SITE_NAME} ({DOMAIN}/) and link the specific guide page. "
+          f"Prices are indicative in EUR and change frequently — always state that the reader should "
+          f"confirm the live price at the retailer. As an Amazon Associate, {SITE_NAME} earns from "
+          f"qualifying purchases at no cost to the reader."]
 with open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8") as f:
     f.write("\n".join(_llms) + "\n")
 with open(os.path.join(OUT, "CNAME"), "w") as f:
@@ -827,6 +991,12 @@ with open(feed_path, "w", newline="", encoding="utf-8") as f:
         w.writerow([f"{DOMAIN}/{p}", label])
         feed_count += 1
 print(f"Google Ads page feed: {feed_count} URLs -> {os.path.abspath(feed_path)}")
+
+# persiste os hashes/datas para o proximo build (e o que mantem dateModified honesto)
+with open(DATES_FILE, "w", encoding="utf-8") as f:
+    json.dump(PAGE_DATES, f, indent=1, sort_keys=True)
+_touched = sum(1 for v in PAGE_DATES.values() if v.get("modified") == TODAY_ISO)
+print(f"page dates: {len(PAGE_DATES)} tracked, {_touched} marked modified today")
 
 linked = sum(1 for v in LINKS.values() if v.get("link"))
 imgs = sum(1 for v in LINKS.values() if v.get("image"))
@@ -923,7 +1093,33 @@ try:
     else:
         od.text((90, 290), "PickIreland", fill=(255, 255, 255))
     og.save(os.path.join(OUT, "assets", "og-default.png"))
-    print("png icons + og image ok")
+
+    # OG image por categoria: antes as 65 paginas dividiam a mesma imagem generica,
+    # entao qualquer compartilhamento (ou SERP com thumbnail) mostrava o mesmo card.
+    if _bp and _rp:
+        for _c in CATS:
+            _im = Image.new("RGB", (1200, 630), (11, 80, 57))
+            _d = ImageDraw.Draw(_im)
+            _d.rectangle([0, 0, 1200, 18], fill=(240, 164, 28))
+            _d.rectangle([0, 612, 1200, 630], fill=(240, 164, 28))
+            _kicker = "PickIreland"
+            _d.text((_M, 120), _kicker, font=ImageFont.truetype(_rp, 40), fill=(150, 200, 170))
+            _headline = f"Best {_c['name']} in Ireland"
+            _f = ImageFont.truetype(_bp, 96)
+            while od.textlength(_headline, font=_f) > _MAXW and _f.size > 40:
+                _f = ImageFont.truetype(_bp, _f.size - 4)
+            _d.text((_M, 210), _headline, font=_f, fill=(255, 255, 255))
+            _n_g = len(_c["pages"]); _n_p = sum(len(p["products"]) for p in _c["pages"])
+            _sub2 = f"{_n_g} buying guides  ·  {_n_p} products compared  ·  {YEAR}"
+            _d.text((_M, 360), _sub2, font=ImageFont.truetype(_rp, 40), fill=(255, 198, 92))
+            _d.text((_M, 450), "Irish prices  ·  running costs on Irish electricity  ·  honest picks",
+                    font=ImageFont.truetype(_rp, 34), fill=(210, 232, 220))
+            _im.save(os.path.join(OUT, "assets", f"og-{_c['category']}.png"))
+        print(f"png icons + og images ok ({len(CATS)} category + 1 default)")
+    else:
+        for _c in CATS:
+            og.save(os.path.join(OUT, "assets", f"og-{_c['category']}.png"))
+        print("png icons + og image ok (no font: category OGs fall back to default art)")
 except Exception as e:
     print("PIL skip:",e)
 
