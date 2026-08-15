@@ -461,6 +461,11 @@ def footer_html(depth=0):
 
 def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="article", og_image=None):
     og_img = og_image or OG_IMAGE
+    # SEO guard: keep titles <= 60 and descriptions <= 155 chars so Google doesn't truncate them.
+    if len(title) > 60:
+        print(f"  [SEO] title {len(title)} chars (>60): {canonical}")
+    if len(desc) > 155:
+        print(f"  [SEO] description {len(desc)} chars (>155): {canonical}")
     return f"""<!DOCTYPE html>
 <html lang="en-IE">
 <head>
@@ -469,6 +474,9 @@ def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="articl
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="{SITE_NAME} Editorial Team">
+<meta name="publisher" content="{SITE_NAME}">
 <link rel="canonical" href="{canonical}">
 <link rel="alternate" hreflang="en-ie" href="{canonical}">
 <link rel="alternate" hreflang="x-default" href="{canonical}">
@@ -586,8 +594,11 @@ PAGE_DATES = json.load(open(DATES_FILE, encoding="utf-8")) if os.path.exists(DAT
 # Data em que o conteudo profundo atual foi realmente publicado (overhaul de conteudo).
 CONTENT_BASELINE = "2026-07-28"
 
+TRACKED_IN_GEN = set()   # chaves ja hasheadas durante a geracao das paginas
+
 def page_dates(key, content_parts):
     """Devolve (datePublished, dateModified) estaveis para uma pagina."""
+    TRACKED_IN_GEN.add(key)
     h = hashlib.sha256("||".join(str(p) for p in content_parts).encode("utf-8")).hexdigest()[:16]
     rec = PAGE_DATES.get(key)
     if rec is None:
@@ -864,22 +875,25 @@ body_home = f"""
 <h2>How {SITE_NAME} works</h2>
 <p>Every guide compares five carefully selected products using manufacturer specifications, verified owner feedback and Irish-specific factors — electricity rates, weather, legal rules and local availability. When you buy through our links we may earn a commission from Amazon.ie or other retailers, at no cost to you. That's the entire business model: useful guides, honest picks. <a href="affiliate-disclosure.html">Full disclosure here</a>.</p>
 """
-_org = {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": DOMAIN + "/",
-        "logo": DOMAIN + "/apple-touch-icon.png", "image": OG_IMAGE,
+_org = {"@context": "https://schema.org", "@type": "Organization", "@id": DOMAIN + "/#organization",
+        "name": SITE_NAME, "url": DOMAIN + "/",
+        "logo": {"@type": "ImageObject", "url": DOMAIN + "/apple-touch-icon.png", "width": 180, "height": 180},
+        "image": OG_IMAGE,
         "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules.",
         "areaServed": {"@type": "Country", "name": "Ireland"},
         "knowsLanguage": "en-IE"}
 if AUTHOR.get("url"):
     _org["sameAs"] = [AUTHOR["url"]]
-_website = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/",
+_website = {"@context": "https://schema.org", "@type": "WebSite", "@id": DOMAIN + "/#website",
+            "name": SITE_NAME, "url": DOMAIN + "/",
             "description": "Independent product comparison guides for Irish shoppers.",
             "inLanguage": "en-IE", "areaServed": {"@type": "Country", "name": "Ireland"},
-            "publisher": {"@type": "Organization", "name": SITE_NAME}}
+            "publisher": {"@id": DOMAIN + "/#organization"}}
 home_jsonld = ("".join('<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
                        for d in (_org, _website)))
 with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
-    f.write(page_shell(f"{SITE_NAME} — Ireland's Honest Product Comparison Guides 2026",
-                       "Independent buying guides for Irish shoppers: e-scooters, e-bikes, dehumidifiers, air fryers, heaters and more. Compared for Irish prices, weather and rules.",
+    f.write(page_shell(f"{SITE_NAME} — Honest Product Comparison Guides Ireland 2026",
+                       "Independent buying guides for Irish shoppers: e-scooters, e-bikes, dehumidifiers, air fryers and heaters — compared for Irish prices, weather and rules.",
                        DOMAIN + "/", body_home, depth=0, jsonld=home_jsonld, og_type="website"))
 all_pages.append("index.html")
 
@@ -947,20 +961,53 @@ simple_page("contact.html", "Contact", f"""
     desc="Contact PickIreland to report a price change, flag an error in a guide, or suggest a product — we read every message.",
     page_type="ContactPage")
 
+# ---------------------------------------------------------------- lastmod honesto (todas as paginas)
+# Ate aqui SO as 50 guias passavam pelo hash de conteudo. A home, as 4 institucionais e os
+# 10 hubs de categoria recebiam TODAY_ISO direto no sitemap — ou seja, todo rebuild dizia ao
+# Google que essas 15 paginas "mudaram hoje", mesmo sem mudanca nenhuma. E o mesmo sinal de
+# frescor falso que corrigimos nas guias em julho; essas 15 ficaram de fora.
+# Com o IndexNow ligado o custo virou concreto: cada deploy avisaria o Bing (que alimenta o
+# ChatGPT Search) sobre 15 paginas intactas. Ruido repetido ensina o buscador a ignorar o sinal.
+#
+# Solucao: hashear o HTML ja renderizado, depois de remover o que muda sozinho a cada build
+# (priceValidUntil avanca 90 dias, datas do proprio build). Assim o hash so muda quando o
+# conteudo real muda.
+_VOLATILE_PATTERNS = [
+    (re.compile(r'"priceValidUntil":\s*"\d{4}-\d{2}-\d{2}"'), '"priceValidUntil":""'),
+    (re.compile(r'"(datePublished|dateModified)":\s*"\d{4}-\d{2}-\d{2}"'), '"date":""'),
+    (re.compile(r'datetime="\d{4}-\d{2}-\d{2}"'), 'datetime=""'),
+    (re.compile(r'\b\d{4}-\d{2}-\d{2}\b'), ''),
+]
+
+def _stable_html(path):
+    """HTML da pagina sem os trechos que mudam a cada build."""
+    s = open(path, encoding="utf-8").read()
+    for rx, rep in _VOLATILE_PATTERNS:
+        s = rx.sub(rep, s)
+    return s
+
+for _p in all_pages:
+    _key = _p[:-5] if _p.endswith(".html") else _p
+    if _key in TRACKED_IN_GEN:      # as 50 guias ja foram hasheadas durante a geracao
+        continue                     # (NAO usar "in PAGE_DATES": no 2o build tudo ja esta la
+                                     #  e o loop pularia todas, congelando o lastmod para sempre)
+    page_dates(_key, [_stable_html(os.path.join(OUT, _p))])
+
 # ---------------------------------------------------------------- sitemap & robots
 # Sitemap com lastmod REAL por pagina (o de antes punha a data do build em tudo, o que
 # torna o campo inutil para o Google) + priority/changefreq coerentes com a arquitetura.
 INSTITUTIONAL_SET = {"about.html", "contact.html", "privacy.html", "affiliate-disclosure.html"}
 def _sitemap_meta(p):
-    if p == "index.html":
-        return "1.0", "weekly", TODAY_ISO
-    if p in INSTITUTIONAL_SET:
-        return "0.3", "yearly", TODAY_ISO
-    if p.endswith("/index.html"):
-        return "0.8", "weekly", TODAY_ISO
+    # lastmod vem SEMPRE do hash de conteudo (PAGE_DATES), nunca da data do build.
     key = p[:-5] if p.endswith(".html") else p          # "dehumidifiers/best-..."
-    rec = PAGE_DATES.get(key, {})
-    return "0.9", "monthly", rec.get("modified", TODAY_ISO)
+    lm = PAGE_DATES.get(key, {}).get("modified", TODAY_ISO)
+    if p == "index.html":
+        return "1.0", "weekly", lm
+    if p in INSTITUTIONAL_SET:
+        return "0.3", "yearly", lm
+    if p.endswith("/index.html"):
+        return "0.8", "weekly", lm
+    return "0.9", "monthly", lm
 
 _urls = []
 for p in all_pages:
@@ -1039,6 +1086,63 @@ with open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8") as f:
 with open(os.path.join(OUT, "CNAME"), "w") as f:
     f.write("pickireland.best\n")
 open(os.path.join(OUT, ".nojekyll"), "w").close()
+
+# ---------------------------------------------------------------- IndexNow (Bing / Yandex -> ChatGPT Search, Copilot)
+# O IndexNow avisa os buscadores no instante em que uma pagina muda, em vez de esperar
+# o rastreamento espontaneo. Importa aqui porque o indice do Bing alimenta o ChatGPT
+# Search e o Copilot — que, pelo GA4 de agosto/2026, sao a maior fonte de trafego do site.
+#
+# A chave do IndexNow NAO e segredo: o protocolo exige que ela fique publica em
+# DOMAIN/<chave>.txt, e e justamente esse arquivo que prova que o dominio e nosso.
+# Guardamos ela no .env so para ficar estavel entre builds (trocar de chave a cada build
+# faria os buscadores reverificarem sem necessidade).
+ENV_FILE = os.path.join(BASE, ".env")
+
+def _read_env(path):
+    vals = {}
+    if not os.path.exists(path):
+        return vals
+    with open(path, encoding="utf-8-sig", errors="replace") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            vals[k.strip()] = v.strip().strip('"').strip("'")
+    return vals
+
+def _write_env_key(path, key, value):
+    """Grava/atualiza uma chave no .env preservando todo o resto do arquivo."""
+    lines = []
+    if os.path.exists(path):
+        with open(path, encoding="utf-8-sig", errors="replace") as fh:
+            lines = fh.read().splitlines()
+    for i, line in enumerate(lines):
+        if line.strip().startswith(key + "="):
+            lines[i] = f"{key}={value}"
+            break
+    else:
+        lines.append(f"{key}={value}")
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lines) + "\n")
+
+_env = _read_env(ENV_FILE)
+INDEXNOW_KEY = (_env.get("INDEXNOW_KEY") or "").strip()
+if not re.fullmatch(r"[a-f0-9]{32}", INDEXNOW_KEY):
+    INDEXNOW_KEY = hashlib.sha256(os.urandom(32)).hexdigest()[:32]
+    _write_env_key(ENV_FILE, "INDEXNOW_KEY", INDEXNOW_KEY)
+    print(f"IndexNow: chave nova gerada e gravada em {ENV_FILE}")
+
+# remove arquivos de chave antigos (se a chave mudou, o antigo vira lixo publico)
+for _old in os.listdir(OUT):
+    if re.fullmatch(r"[a-f0-9]{32}\.txt", _old) and _old != f"{INDEXNOW_KEY}.txt":
+        os.remove(os.path.join(OUT, _old))
+
+# o arquivo de verificacao precisa conter EXATAMENTE a chave, em texto puro, sem quebra final
+with open(os.path.join(OUT, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as fh:
+    fh.write(INDEXNOW_KEY)
+print(f"IndexNow: chave publicada em {DOMAIN}/{INDEXNOW_KEY}.txt")
+
 
 # ---------------------------------------------------------------- google ads page feed (DSA)
 # Gera o feed de páginas para os Anúncios Dinâmicos de Pesquisa do Google Ads.

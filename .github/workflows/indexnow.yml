@@ -1,0 +1,69 @@
+# Avisa o IndexNow (Bing / Yandex) a cada deploy que mexeu em docs/.
+#
+# Por que roda aqui e nao no build local: o IndexNow precisa de rede no momento do
+# deploy, e o build do Andre roda numa maquina que nem sempre esta online quando o
+# site sobe. O GitHub Actions dispara no push, que e exatamente o momento certo.
+#
+# Nao precisa de nenhum secret: a chave do IndexNow e publica por design
+# (fica em https://pickireland.best/<chave>.txt, e e isso que prova posse do dominio).
+
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: ['docs/**']
+  workflow_dispatch:
+    inputs:
+      submit_all:
+        description: 'Enviar TODAS as URLs do sitemap (em vez de so as alteradas)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Descobrir o que mudou e enviar
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] \
+             && [ "${{ inputs.submit_all }}" = "true" ]; then
+            echo "Disparo manual: enviando todas as URLs do sitemap."
+            python3 generator/indexnow_submit.py --all
+            exit $?
+          fi
+
+          BEFORE="${{ github.event.before }}"
+          # primeiro push do branch, ou historico raso: manda o sitemap inteiro
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] \
+             || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            echo "Sem commit anterior utilizavel — enviando o sitemap inteiro."
+            python3 generator/indexnow_submit.py --all
+            exit $?
+          fi
+
+          mapfile -t CHANGED < <(git diff --name-only --diff-filter=AM \
+                                   "$BEFORE" "${{ github.sha }}" -- 'docs/**/*.html')
+
+          if [ ${#CHANGED[@]} -eq 0 ]; then
+            echo "Nenhuma pagina HTML alterada neste push — nada a enviar."
+            exit 0
+          fi
+
+          echo "${#CHANGED[@]} pagina(s) alterada(s):"
+          printf '  %s\n' "${CHANGED[@]}"
+          python3 generator/indexnow_submit.py --changed "${CHANGED[@]}"
