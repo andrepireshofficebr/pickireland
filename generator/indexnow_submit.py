@@ -46,6 +46,9 @@ def path_to_url(p):
     rel = rel[rel.index("docs/") + 5:] if "docs/" in rel else rel.lstrip("/")
     if rel == "index.html":
         return f"{DOMAIN}/"
+    if rel.endswith("/index.html"):
+        # hub de categoria: a canonica e o diretorio, sem "index.html"
+        return f"{DOMAIN}/{rel[:-len('index.html')]}"
     return f"{DOMAIN}/{rel}"
 
 

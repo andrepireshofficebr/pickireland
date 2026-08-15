@@ -1009,10 +1009,21 @@ def _sitemap_meta(p):
         return "0.8", "weekly", lm
     return "0.9", "monthly", lm
 
+# A URL que vai no sitemap tem de ser EXATAMENTE a canonica declarada na pagina.
+# Os 10 hubs declaram canonical "{DOMAIN}/{categoria}/" mas o sitemap listava
+# "{DOMAIN}/{categoria}/index.html". O Google obedece a canonica e marcava a URL do
+# sitemap como "pagina alternativa" -> ela nunca seria indexada. Contradicao pura.
+def _sitemap_loc(p):
+    if p == "index.html":
+        return f"{DOMAIN}/"
+    if p.endswith("/index.html"):
+        return f"{DOMAIN}/{p[:-len('index.html')]}"     # air-fryers/index.html -> /air-fryers/
+    return f"{DOMAIN}/{p}"
+
 _urls = []
 for p in all_pages:
     pri, chg, lm = _sitemap_meta(p)
-    loc = f"{DOMAIN}/{p if p != 'index.html' else ''}"
+    loc = _sitemap_loc(p)
     _urls.append(f"<url><loc>{loc}</loc><lastmod>{lm}</lastmod>"
                  f"<changefreq>{chg}</changefreq><priority>{pri}</priority></url>")
 with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as f:
