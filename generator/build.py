@@ -125,6 +125,45 @@ def cross_links_html(cat_slug, cats_by_slug):
     return ('<div class="related"><h2>Related guides in other categories</h2>'
             + "".join(out) + '</div>')
 
+# ---------------------------------------------------------------- custo de operacao (€/hora)
+# Por que existe: em 15/08/2026 a resposta de IA do Bing para "best dehumidifier ireland"
+# citava um concorrente (eirehub.ie) pela frase "cost €0.04-0.06 per hour to run" — o custo
+# de operacao e o nosso diferencial, e estava perdido dentro da prosa em vez de ser um campo.
+# Motor generativo levanta CAMPO ROTULADO, nao paragrafo. Entao viramos campo.
+#
+# Honestidade: so calculamos onde existe potencia REAL na spec do produto. Sem potencia,
+# nao inventamos numero — a linha simplesmente nao aparece.
+KWH_RATE = 0.38          # €/kWh, day rate domestico irlandes (SEAI, julho 2026)
+
+# Categorias onde watt = consumo da tomada e "custo por hora" e uma pergunta que o comprador
+# realmente faz. Bicicleta, patinete, robo aspirador e cortador sao a bateria: o watt do motor
+# nao e consumo continuo, e €/hora ali seria numero sem significado.
+MAINS_CATEGORIES = {"dehumidifiers", "electric-heaters", "air-fryers",
+                    "air-purifiers", "coffee-machines"}
+
+_POWER_KEYS = ("power", "wattage", "consumption", "rated power", "input")
+
+def _watts(specs):
+    """Extrai a potencia em watts das specs. Devolve int ou None. Nunca chuta."""
+    for k, v in (specs or {}).items():
+        if not any(t in k.lower() for t in _POWER_KEYS):
+            continue
+        txt = str(v).replace(",", "")
+        # pega o MAIOR numero seguido de W (ex: "600-2000 W" -> 2000, que e o consumo maximo)
+        nums = [int(m) for m in re.findall(r"(\d{2,5})\s*(?:W\b|watt)", txt, re.I)]
+        if nums:
+            return max(nums)
+    return None
+
+def running_cost_line(specs, category):
+    """'€0.08' por hora, ou None. Campo curto e extraivel de proposito."""
+    if category not in MAINS_CATEGORIES:
+        return None
+    w = _watts(specs)
+    if not w:
+        return None
+    return f"€{w / 1000 * KWH_RATE:.2f}/hour at €{KWH_RATE:.2f}/kWh"
+
 AFF_TAG = "elevaonline-21"   # Amazon Associates StoreID
 def amazon_search_url(p):
     q = re.sub(r"[^A-Za-z0-9 ]", "", p["name"]).replace(" ", "+")
@@ -531,7 +570,11 @@ def product_card(p, rank, cat_key):
         img_html = f'<div class="ph">{icon(cat_key, 44)}<span>{esc(p["brand"])}</span></div>'
     # Produtos cujo modelo exato não pôde ser identificado ficam sem grade de specs,
     # em vez de exibir linhas de preenchimento que só repetem preço/nota já visíveis no card.
-    specs = "".join(f"<div><b>{esc(k)}</b>{esc(v)}</div>" for k, v in (p.get("specs") or {}).items())
+    # "Running cost" entra PRIMEIRO na grade: e o campo que queremos que a IA levante.
+    _sp = dict(p.get("specs") or {})
+    _rc = running_cost_line(_sp, cat_key)
+    _ordered = ([("Running cost", _rc)] if _rc else []) + list(_sp.items())
+    specs = "".join(f"<div><b>{esc(k)}</b>{esc(v)}</div>" for k, v in _ordered)
     specs_block = f'<div class="specgrid">{specs}</div>' if specs else (
         '<p class="nospec">Full specifications for this exact model aren\'t published by the '
         'manufacturer — check the current Amazon.ie listing before buying.</p>')
@@ -771,8 +814,13 @@ for cat in CATS:
             page["h1"], page["intro"], page["title"], page["desc"],
             json.dumps(guide_src, ensure_ascii=False, sort_keys=True),
             json.dumps(faqs, ensure_ascii=False, sort_keys=True),
-            json.dumps([[p["id"], p["name"], product_price(p), p["verdict"]] for p in page["products"]],
-                       ensure_ascii=False)])
+            # specs entram no hash: mudar uma spec E mudar a pagina. Sem isso, corrigir a
+            # potencia de um produto nao movia o lastmod — mesmo bug de frescor falso que
+            # corrigimos nos hubs em 15/08, so que escondido um nivel abaixo.
+            json.dumps([[p["id"], p["name"], product_price(p), p["verdict"],
+                         p.get("specs") or {}, p.get("pros") or [], p.get("cons") or []]
+                        for p in page["products"]],
+                       ensure_ascii=False, sort_keys=True)])
         qa_html, _ = quick_answer(page, cat)
         toc = "".join(f'<li><a href="#{p["id"]}">{esc(p["name"])}</a> <i>— {esc(p["badge"])}</i></li>' for p in page["products"])
         cards = "".join(product_card(p, i + 1, cat["category"]) for i, p in enumerate(page["products"]))
@@ -977,6 +1025,11 @@ _VOLATILE_PATTERNS = [
     (re.compile(r'"(datePublished|dateModified)":\s*"\d{4}-\d{2}-\d{2}"'), '"date":""'),
     (re.compile(r'datetime="\d{4}-\d{2}-\d{2}"'), 'datetime=""'),
     (re.compile(r'\b\d{4}-\d{2}-\d{2}\b'), ''),
+    # data por extenso do byline ("Updated 16 August 2026") — some tao volatil quanto a ISO,
+    # e foi ela que me enganou em 15/08: a comparacao acusou 50 paginas alteradas quando
+    # a unica diferenca era esse texto.
+    (re.compile(r'\b\d{1,2}\s+(January|February|March|April|May|June|July|August|'
+                r'September|October|November|December)\s+\d{4}\b'), ''),
 ]
 
 def _stable_html(path):

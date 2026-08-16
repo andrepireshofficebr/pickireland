@@ -80,7 +80,8 @@
       "Extraction": "12 L/day",
       "Filter": "HEPA built in",
       "Noise": "~36 dB",
-      "Smart": "App + voice"
+      "Smart": "App + voice",
+      "Power": "136 W"
      },
      "pros": [
       "Ultra-quiet, low-energy compressor",
@@ -105,7 +106,8 @@
       "Extraction": "20 L/day",
       "Coverage": "3–4 bed house",
       "Modes": "Laundry, auto",
-      "Drain": "Continuous option"
+      "Drain": "Continuous option",
+      "Power": "320 W"
      },
      "pros": [
       "Serious 20L extraction under €140",
@@ -130,7 +132,8 @@
       "Extraction": "8 L/day",
       "Type": "Desiccant",
       "Cold rooms": "Full power at 5°C",
-      "Laundry mode": "Yes"
+      "Laundry mode": "Yes",
+      "Power": "330 W"
      },
      "pros": [
       "Full extraction in cold Irish rooms",
@@ -155,7 +158,8 @@
       "Extraction": "12 L/day",
       "Extras": "Purifier + ioniser",
       "Smart": "WiFi app",
-      "Defrost": "Auto"
+      "Defrost": "Auto",
+      "Power": "185 W"
      },
      "pros": [
       "Dehumidifies, purifies and ionises",
@@ -224,7 +228,8 @@
      "rating": 4.6,
      "badge": "Notable Mention",
      "specs": {
-      "Extraction": "12 L/day"
+      "Extraction": "12 L/day",
+      "Power": "180 W"
      },
      "pros": [
       "€149 less than our top pick",
