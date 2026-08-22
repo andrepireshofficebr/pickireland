@@ -164,6 +164,99 @@ def running_cost_line(specs, category):
         return None
     return f"€{w / 1000 * KWH_RATE:.2f}/hour at €{KWH_RATE:.2f}/kWh"
 
+# ---------------------------------------------------------------- grafico de custo de operacao
+# Por que existe: o site tem ZERO imagem de produto (a Amazon so autoriza imagem via API, e a
+# API exige 10 vendas/30 dias). Grafico gerado por codigo a partir das nossas proprias specs e
+# o unico ativo visual possivel hoje — e resolve dois problemas de uma vez: a pagina deixa de
+# ser um muro de texto, e o motor generativo ganha um numero comparativo com fonte declarada.
+#
+# Regras (mesmas do campo "Running cost", nao afrouxar):
+#  - so entra produto com potencia REAL na spec. Sem watt, fica de fora. Nunca estimar.
+#  - se sobrarem menos de RC_CHART_MIN produtos, nao desenha nada — 2 barras nao e comparacao.
+#  - o SVG e inline e usa <text> de verdade (nao imagem), entao o numero e extraivel.
+#  - a legenda declara quantos dos N produtos da pagina publicam potencia. Honestidade visivel.
+RC_CHART_MIN = 3        # minimo de produtos com potencia para o grafico existir
+RC_NOUN = {"dehumidifiers": "dehumidifier", "electric-heaters": "heater",
+           "air-fryers": "air fryer", "air-purifiers": "air purifier",
+           "coffee-machines": "coffee machine"}
+# Por que a conta de cima e um TETO, e nao a conta real — a razao muda por categoria.
+# Escrever "o humidostato desliga o compressor" numa pagina de air fryer seria falso, e foi
+# o que a primeira versao deste bloco fez em 22/08 (o texto era unico para todas). Cada
+# categoria tem de dizer a verdade da sua.
+RC_QUALIFIER = {
+ "dehumidifiers": "a humidistat cycles the compressor off once the room reaches the target "
+                  "humidity, so the unit is not drawing full power the whole time",
+ "electric-heaters": "a thermostat cycles the element off once the room is up to temperature, "
+                     "so few heaters draw their rated wattage continuously",
+ "air-fryers": "an air fryer only draws full power while the element is heating, and most "
+               "recipes run for 15\u201325 minutes rather than a full hour",
+ "air-purifiers": "the rated figure is the top fan speed, and most people run a purifier "
+                  "well below it",
+ "coffee-machines": "the element draws full power only while it heats up, which is a fraction "
+                    "of the time the machine is switched on",
+}
+
+def _rc_rows(products, category):
+    """[(nome, watts, euros_por_hora)] ordenado do mais barato ao mais caro."""
+    if category not in MAINS_CATEGORIES:
+        return []
+    rows = []
+    for p in products:
+        w = _watts(p.get("specs") or {})
+        if w:
+            rows.append((p["name"], w, w / 1000 * KWH_RATE))
+    rows.sort(key=lambda r: r[1])
+    return rows
+
+def _short(name, n=38):
+    return name if len(name) <= n else name[:n - 1].rstrip(" ,-&") + "\u2026"
+
+def running_cost_chart(products, category, unit_noun="unit"):
+    """Bloco <h2> + <figure> com as barras de custo/hora. '' se nao houver dado suficiente.
+
+    Barras em HTML/CSS, nao SVG: um SVG com viewBox fixo encolhe a fonte junto com a
+    largura e no telemovel fica ilegivel — e o telemovel e a maior parte do trafego.
+    Em HTML o texto e texto de verdade em qualquer largura, reflui, e o motor generativo
+    levanta o numero sem depender de saber ler <text> dentro de <svg>."""
+    rows = _rc_rows(products, category)
+    if len(rows) < RC_CHART_MIN:
+        return ""
+    hi = max(r[2] for r in rows)
+    items = []
+    for i, (name, w, eur) in enumerate(rows):
+        pct = max(4.0, round(100.0 * eur / hi, 1))
+        cheap = ' rc-best' if i == 0 else ''
+        tag = ' <b class="rc-tag">cheapest to run</b>' if i == 0 else ''
+        items.append(
+            f'<li><span class="rcn">{esc(name)}</span>'
+            f'<span class="rcb"><span class="rcf{cheap}" style="width:{pct}%"></span></span>'
+            f'<span class="rcv">\u20ac{eur:.2f}/hour<i> \u00b7 {w}\u2009W</i>{tag}</span></li>')
+    lo_name, lo_w, lo_e = rows[0]
+    hi_name, hi_w, hi_e = rows[-1]
+    ratio = hi_w / lo_w
+    spread = f" \u2014 a {ratio:.1f}\u00d7 difference between them" if ratio >= 1.5 else ""
+    have, total = len(rows), len(products)
+    gap = total - have
+    missing = ("" if gap == 0 else
+               f" {have} of the {total} {unit_noun}s on this page have a manufacturer-published "
+               + ("power figure; the other one is left out rather than estimated." if gap == 1
+                  else f"power figure; the other {gap} are left out rather than estimated."))
+    cap = (f"At Ireland\u2019s day rate of \u20ac{KWH_RATE:.2f}/kWh, the cheapest "
+           f"{unit_noun} here is the {esc(lo_name)} at \u20ac{lo_e:.2f} per hour "
+           f"({lo_w}\u2009W) and the most expensive is the {esc(hi_name)} at "
+           f"\u20ac{hi_e:.2f} per hour ({hi_w}\u2009W){spread}."
+           f"{missing} These are ceilings, not bills: the figure is the manufacturer\u2019s "
+           f"rated draw at full power multiplied by the tariff, and in practice "
+           f"{RC_QUALIFIER.get(category, 'the appliance rarely runs at its rated maximum')}. "
+           f'Tariff source: <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" '
+           f'rel="nofollow noopener" target="_blank">SEAI</a>, July 2026.')
+    return (f'<h2>What each one costs to run</h2>\n'
+            f'<figure class="rcfig">'
+            f'<p class="rcax">Cost per hour at full power, at \u20ac{KWH_RATE:.2f}/kWh '
+            f'\u2014 cheapest first</p>'
+            f'<ol class="rcbars">{"".join(items)}</ol>'
+            f'<figcaption>{cap}</figcaption></figure>')
+
 AFF_TAG = "elevaonline-21"   # Amazon Associates StoreID
 def amazon_search_url(p):
     q = re.sub(r"[^A-Za-z0-9 ]", "", p["name"]).replace(" ", "+")
@@ -276,6 +369,22 @@ h1{font-size:2.6rem;line-height:1.08;letter-spacing:-1.2px;margin:12px 0 14px;fo
 .quick-answer{background:linear-gradient(135deg,var(--green-t),#F4FAF6);border:1px solid #CFE4D8;border-left:5px solid var(--green);border-radius:0 14px 14px 0;padding:16px 22px;margin:0 0 26px;font-size:1.03rem;line-height:1.7;color:#22323F;max-width:850px}
 .quick-answer strong{color:var(--green-d);font-weight:800}
 /* citação de fonte primária (GEO/E-E-A-T) */
+.rcfig{margin:0 0 26px;background:var(--card);border:1px solid var(--line);border-radius:var(--rad);box-shadow:var(--sh-sm);padding:16px 20px 14px;max-width:850px}
+.rcfig .rcax{font-size:.74rem;text-transform:uppercase;letter-spacing:.7px;font-weight:700;color:var(--mut);margin:0 0 12px}
+.rcbars{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.rcbars li{display:grid;grid-template-columns:minmax(150px,34%) 1fr minmax(132px,auto);align-items:center;gap:10px}
+.rcbars .rcn{font-size:.88rem;line-height:1.35;color:var(--ink)}
+.rcbars .rcb{background:#EDF1EE;border-radius:5px;height:14px;overflow:hidden}
+.rcbars .rcf{display:block;height:100%;background:var(--green-l);border-radius:5px}
+.rcbars .rcf.rc-best{background:var(--green)}
+.rcbars .rcv{font-size:.88rem;font-weight:800;color:var(--green-d);white-space:nowrap}
+.rcbars .rcv i{font-style:normal;font-weight:500;color:var(--mut)}
+.rcbars .rc-tag{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.6px;font-weight:800;color:var(--green)}
+.rcfig figcaption{font-size:.86rem;color:var(--mut);line-height:1.65;margin-top:14px;border-top:1px solid var(--line);padding-top:11px}
+.rcfig figcaption a{color:var(--green-l)}
+@media(max-width:640px){.rcbars li{grid-template-columns:1fr auto;gap:4px 10px}
+.rcbars .rcn{grid-column:1/-1}
+.rcbars .rc-tag{display:inline;margin-left:6px}}
 .sources{font-size:.86rem;color:var(--mut);background:#F6F8F6;border:1px solid var(--line);border-radius:12px;padding:13px 18px;margin:18px 0 0;line-height:1.65}
 .sources strong{color:var(--ink)}
 .sources a{font-weight:600}
@@ -810,7 +919,17 @@ for cat in CATS:
         canonical = f"{DOMAIN}/{cat['category']}/{page['slug']}.html"
         # datas honestas: so mudam quando o conteudo real desta pagina muda
         guide_src = page.get("guide") or cat["guide"]
-        pub, mod = page_dates(f"{cat['category']}/{page['slug']}", [
+        # O grafico e conteudo visivel: se ele aparece, muda ou some, a pagina mudou.
+        # Precisa entrar no hash ANTES de page_dates, senao a guia principal ganharia o
+        # grafico sem o dateModified se mover (as specs dela nao mudaram) — frescor falso
+        # ao contrario: pagina nova declarada como velha.
+        rc_html = running_cost_chart(page["products"], cat["category"],
+                                     RC_NOUN.get(cat["category"], "unit"))
+        # rc_html so entra na lista quando existe. Se entrasse sempre (como "" nas 30 guias
+        # sem grafico), o proprio separador "||" mudaria o hash dessas paginas e as 50 guias
+        # seriam remarcadas como modificadas hoje sem nada ter mudado nelas.
+        pub, mod = page_dates(f"{cat['category']}/{page['slug']}",
+            ([rc_html] if rc_html else []) + [
             page["h1"], page["intro"], page["title"], page["desc"],
             json.dumps(guide_src, ensure_ascii=False, sort_keys=True),
             json.dumps(faqs, ensure_ascii=False, sort_keys=True),
@@ -837,6 +956,7 @@ for cat in CATS:
 <div class="toc"><b>{icon(cat['category'], 18)} Our top {len(page['products'])} at a glance</b><ol>{toc}</ol></div>
 <h2>Quick comparison</h2>
 {comparison_table(page['products'])}
+{rc_html}
 <h2>The picks, reviewed</h2>
 {cards}
 <h2>Buying guide: how to choose</h2>
@@ -1030,6 +1150,13 @@ _VOLATILE_PATTERNS = [
     # a unica diferenca era esse texto.
     (re.compile(r'\b\d{1,2}\s+(January|February|March|April|May|June|July|August|'
                 r'September|October|November|December)\s+\d{4}\b'), ''),
+    # CSS e JS embutidos sao ATIVO PARTILHADO, nao conteudo desta pagina. Sem esta linha,
+    # acrescentar uma regra de estilo (foi o que aconteceu ao criar o grafico de custo em
+    # 22/08) remarca as 15 paginas sem produto como "modificadas hoje" — frescor falso,
+    # exatamente o que este mecanismo existe para impedir. JSON-LD NAO entra aqui: aquilo
+    # e conteudo declarado e tem de continuar a mover o hash.
+    (re.compile(r'<style\b[^>]*>.*?</style>', re.S), '<style/>'),
+    (re.compile(r'<script(?![^>]*application/ld\+json)\b[^>]*>.*?</script>', re.S), '<script/>'),
 ]
 
 def _stable_html(path):

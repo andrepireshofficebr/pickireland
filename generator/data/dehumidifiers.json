@@ -316,7 +316,8 @@
       "Extraction": "6 L/day",
       "Noise": "32 dB",
       "Coverage": "Apartments/bedrooms",
-      "Modes": "Night, laundry"
+      "Modes": "Night, laundry",
+      "Power": "101 W"
      },
      "pros": [
       "32 dB — genuinely sleep-through quiet",
@@ -416,7 +417,8 @@
       "Extraction": "12 L/day",
       "Filter": "HEPA built in",
       "Noise": "~36 dB",
-      "Smart": "App + voice"
+      "Smart": "App + voice",
+      "Power": "136 W"
      },
      "pros": [
       "Ultra-quiet, low-energy compressor",
@@ -551,7 +553,8 @@
       "Extraction": "20 L/day",
       "Coverage": "3–4 bed house",
       "Modes": "Laundry, auto",
-      "Drain": "Continuous option"
+      "Drain": "Continuous option",
+      "Power": "320 W"
      },
      "pros": [
       "Serious 20L extraction under €140",
@@ -576,7 +579,8 @@
       "Extraction": "12 L/day",
       "Filter": "HEPA built in",
       "Noise": "~36 dB",
-      "Smart": "App + voice"
+      "Smart": "App + voice",
+      "Power": "136 W"
      },
      "pros": [
       "Ultra-quiet, low-energy compressor",
@@ -601,7 +605,8 @@
       "Extraction": "12 L/day",
       "Extras": "Purifier + ioniser",
       "Smart": "WiFi app",
-      "Defrost": "Auto"
+      "Defrost": "Auto",
+      "Power": "185 W"
      },
      "pros": [
       "Dehumidifies, purifies and ionises",
@@ -626,7 +631,8 @@
       "Extraction": "8 L/day",
       "Type": "Desiccant",
       "Cold rooms": "Full power at 5°C",
-      "Laundry mode": "Yes"
+      "Laundry mode": "Yes",
+      "Power": "330 W"
      },
      "pros": [
       "Full extraction in cold Irish rooms",
@@ -783,7 +789,8 @@
       "Extraction": "8 L/day",
       "Type": "Desiccant",
       "Cold rooms": "Full power at 5°C",
-      "Laundry mode": "Yes"
+      "Laundry mode": "Yes",
+      "Power": "330 W"
      },
      "pros": [
       "Full extraction in cold Irish rooms",
@@ -808,7 +815,8 @@
       "Extraction": "20 L/day",
       "Coverage": "3–4 bed house",
       "Modes": "Laundry, auto",
-      "Drain": "Continuous option"
+      "Drain": "Continuous option",
+      "Power": "320 W"
      },
      "pros": [
       "Serious 20L extraction under €140",
@@ -833,7 +841,8 @@
       "Extraction": "12 L/day",
       "Filter": "HEPA built in",
       "Noise": "~36 dB",
-      "Smart": "App + voice"
+      "Smart": "App + voice",
+      "Power": "136 W"
      },
      "pros": [
       "Ultra-quiet, low-energy compressor",
@@ -858,7 +867,8 @@
       "Extraction": "12 L/day",
       "Extras": "Purifier + ioniser",
       "Smart": "WiFi app",
-      "Defrost": "Auto"
+      "Defrost": "Auto",
+      "Power": "185 W"
      },
      "pros": [
       "Dehumidifies, purifies and ionises",
@@ -883,7 +893,8 @@
       "Extraction": "6 L/day",
       "Noise": "32 dB",
       "Coverage": "Apartments/bedrooms",
-      "Modes": "Night, laundry"
+      "Modes": "Night, laundry",
+      "Power": "101 W"
      },
      "pros": [
       "32 dB — genuinely sleep-through quiet",
@@ -1016,7 +1027,8 @@
       "Extraction": "12 L/day",
       "Filter": "HEPA built in",
       "Noise": "~36 dB",
-      "Smart": "App + voice"
+      "Smart": "App + voice",
+      "Power": "136 W"
      },
      "pros": [
       "Ultra-quiet, low-energy compressor",
@@ -1041,7 +1053,8 @@
       "Extraction": "12 L/day",
       "Extras": "Purifier + ioniser",
       "Smart": "WiFi app",
-      "Defrost": "Auto"
+      "Defrost": "Auto",
+      "Power": "185 W"
      },
      "pros": [
       "Dehumidifies, purifies and ionises",
@@ -1066,7 +1079,8 @@
       "Extraction": "20 L/day",
       "Coverage": "3–4 bed house",
       "Modes": "Laundry, auto",
-      "Drain": "Continuous option"
+      "Drain": "Continuous option",
+      "Power": "320 W"
      },
      "pros": [
       "Serious 20L extraction under €140",
@@ -1091,7 +1105,8 @@
       "Extraction": "8 L/day",
       "Type": "Desiccant",
       "Cold rooms": "Full power at 5°C",
-      "Laundry mode": "Yes"
+      "Laundry mode": "Yes",
+      "Power": "330 W"
      },
      "pros": [
       "Full extraction in cold Irish rooms",
