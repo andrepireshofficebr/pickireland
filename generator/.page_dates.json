@@ -105,23 +105,23 @@
   "published": "2026-08-15"
  },
  "dehumidifiers/best-20l-dehumidifiers-large-homes-ireland": {
-  "hash": "eebf3b5c6281a3f8",
-  "modified": "2026-08-22",
+  "hash": "d7e808743c16e7a0",
+  "modified": "2026-08-29",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-drying-clothes-ireland": {
-  "hash": "b9a656c6acaf708b",
-  "modified": "2026-08-22",
+  "hash": "6b962b5e29366101",
+  "modified": "2026-08-29",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-ireland": {
-  "hash": "e8ac0fd3797d70d4",
-  "modified": "2026-08-22",
+  "hash": "faa5c86a228d65e8",
+  "modified": "2026-08-29",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-mould-damp-ireland": {
-  "hash": "370e509772b9b250",
-  "modified": "2026-08-22",
+  "hash": "1e67ba16d0b06c82",
+  "modified": "2026-08-29",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-small-dehumidifiers-bedroom-ireland": {
@@ -129,9 +129,14 @@
   "modified": "2026-08-22",
   "published": "2026-07-31"
  },
+ "dehumidifiers/dehumidifier-running-costs-ireland": {
+  "hash": "c709ad876d07159c",
+  "modified": "2026-08-29",
+  "published": "2026-08-29"
+ },
  "dehumidifiers/index": {
-  "hash": "537477b53cbdbcd9",
-  "modified": "2026-08-15",
+  "hash": "7f2655b06724d980",
+  "modified": "2026-08-29",
   "published": "2026-08-15"
  },
  "electric-bikes/best-commuter-electric-bikes-ireland": {
