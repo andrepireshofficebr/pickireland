@@ -40,6 +40,8 @@ An air fryer at ~1,500 W cooking for 20 minutes uses roughly 0.5 kWh (~18 cents)
 ## What actually matters
 Skip the 12-preset marketing. What separates good from bad: drawer build quality, even cooking without shaking religiously, dishwasher-safe parts, and a max temp of 200°C+. Ninja dominates because it nails these four.
 
+Full running-cost table for every air fryer we track: https://pickireland.best/air-fryers/air-fryer-running-costs-ireland.html
+
 
 ------------------------------------------------------------------------------
 ## GUIDE: The Best Air Fryers in Ireland (2026)
@@ -53,10 +55,12 @@ Half of Irish kitchens now have an air fryer; the other half are deciding which 
 Brand: Ninja
 Price: ~€150
 Rating: 4.9/5 (Amazon.ie)
+Running cost: €0.91/hour at €0.38/kWh
 Capacity: 7.6 L (2 drawers)
 Functions: 6-in-1
 Sync: Finish together
 Dishwasher safe: Yes
+Power: 2400 W
 Pros: Mains and sides cook simultaneously; SYNC finishes both drawers together; Ireland's best-loved kitchen gadget
 Cons: Wide on the counter; Rarely discounted
 Verdict: Two independent 7.6-litre drawers with a SYNC function that times mains and sides to finish together is the whole pitch, and for anyone cooking for more than one person it's a genuinely different way to run a kitchen than a single-basket fryer. Amazon.ie reviewers consistently rank it as one of the most-loved appliances in Ireland, and the 4.9-star average backs that up. The trade-off is footprint: at this width it eats real counter space, and because demand stays high, discounts are rare, so budget for close to full price. Families juggling a main and side dish nightly will get the most from it; anyone cooking solo or short on counter depth should look at a single-drawer model instead.
@@ -78,10 +82,12 @@ Verdict: At €95 this is the cheapest way into Ninja's crisping performance, an
 Brand: Philips
 Price: ~€89
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
 Capacity: 4.2 L
 Tech: RapidAir
 Functions: 7 presets
 Dishwasher safe: Yes
+Power: 1500 W
 Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
 Cons: 200°C ceiling; Plain looks
 Verdict: Philips essentially created this category, and the RapidAir system here is built to circulate hot air evenly enough that food needs less mid-cook shaking than most rivals — useful if you tend to forget the basket exists until the timer beeps. Seven presets and dishwasher-safe parts keep daily use simple, and owner feedback on Amazon.ie points to Philips' long reliability record and notably quiet running. The catch is a 200°C ceiling, which rules out high-heat crisping some other machines allow, and the design is plain rather than a countertop statement piece. It suits anyone who wants a fuss-free, hands-off fryer over one with showy design or maximum temperature range.
@@ -90,10 +96,12 @@ Verdict: Philips essentially created this category, and the RapidAir system here
 Brand: Tower
 Price: ~€60
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.53/hour at €0.38/kWh
 Capacity: 4.2 L
 Presets: 8
 Timer: 60 min
 Warranty: 3 yr (registered)
+Power: 1400 W
 Pros: 8 calibrated presets; 3-year registered warranty; Strong mid-size value
 Cons: Needs a mid-cook shake; Basket quality is fair, not premium
 Verdict: Eight calibrated presets and a 60-minute timer give this Tower proper digital control at a price closer to a basic analogue fryer, and the three-year warranty (once registered) is longer cover than most competitors offer at €60. At 4.2 litres it handles a normal family portion without the bulk of the bigger dual-zone units. The basket itself is fair rather than premium — it won't feel as solid as the Ninja or Philips baskets — and unlike the Philips above, it does need a manual shake partway through cooking to crisp evenly. Good value-focused buyers who don't mind a bit of hands-on attention will get the most out of it; anyone wanting true set-and-forget should pay more.
@@ -137,7 +145,9 @@ Verdict: Swan's retro-styled dual basket fryer carries a 4.5-star owner rating o
 Brand: Cuisinart
 Price: ~€110
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.91/hour at €0.38/kWh
 Capacity: 10.4 L
+Power: 2400 W
 Pros: €40 less than our top pick; 10.4 L capacity
 Cons: 5 of the 8 picks here are better rated by owners; Our top pick still rates higher with owners at 4.9★
 Verdict: Two 5.2-litre baskets add up to 10.4 litres total, more combined capacity than the Ninja Foodi above, and at €110 it undercuts that market leader by a real margin while still holding a 4.4-star owner score. Buying through Amazon.ie also means full standard returns cover if the unit doesn't suit. Cuisinart is a recognisable name in kitchen appliances generally, but this particular model is newer to our comparison than the established air-fryer specialists, and buyers have reported that support quality can vary depending on which seller fulfils the order. Large households wanting maximum dual-basket volume for less money are the target buyer; anyone prioritising a single proven seller relationship may prefer the Ninja.
@@ -202,10 +212,12 @@ Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-
 Brand: Philips
 Price: ~€89
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
 Capacity: 4.2 L
 Tech: RapidAir
 Functions: 7 presets
 Dishwasher safe: Yes
+Power: 1500 W
 Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
 Cons: 200°C ceiling; Plain looks
 Verdict: From the inventors of the category: the most forgiving set-and-forget air fryer here.
@@ -214,10 +226,12 @@ Verdict: From the inventors of the category: the most forgiving set-and-forget a
 Brand: Tower
 Price: ~€60
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.53/hour at €0.38/kWh
 Capacity: 4.2 L
 Presets: 8
 Timer: 60 min
 Warranty: 3 yr (registered)
+Power: 1400 W
 Pros: 8 calibrated presets; 3-year registered warranty; Strong mid-size value
 Cons: Needs a mid-cook shake; Basket quality is fair, not premium
 Verdict: The sweet-spot Tower: digital controls and real capacity at a price Ninja can't touch.
@@ -239,10 +253,12 @@ Verdict: The budget workhorse: proper family-adjacent capacity at an impulse-buy
 Brand: Daewoo
 Price: ~€29
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.34/hour at €0.38/kWh
 Capacity: 2 L
 Temp: 80–200°C
 Timer: 30 min
 Size: Mini
+Power: 900 W
 Pros: Simple dial controls; Space-saving design; Trusted budget brand
 Cons: Small batches only; No presets
 Verdict: The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend.
@@ -312,10 +328,12 @@ Dual-zone is the air fryer feature with the highest keep-rate: once a family coo
 Brand: Ninja
 Price: ~€150
 Rating: 4.9/5 (Amazon.ie)
+Running cost: €0.91/hour at €0.38/kWh
 Capacity: 7.6 L (2 drawers)
 Functions: 6-in-1
 Sync: Finish together
 Dishwasher safe: Yes
+Power: 2400 W
 Pros: Mains and sides cook simultaneously; SYNC finishes both drawers together; Ireland's best-loved kitchen gadget
 Cons: Wide on the counter; Rarely discounted
 Verdict: The family dinner machine — two drawers, one finish time, weeknights permanently simplified.
@@ -336,10 +354,12 @@ Verdict: The dual-zone bargain: Ninja's trick at half Ninja's price, if you acce
 Brand: Cooks Professional
 Price: ~€90
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.65/hour at €0.38/kWh
 Capacity: 8 L (twin basket)
 Body: Stainless steel
 Modes: Dual digital
 Energy: Efficient vs oven
+Power: 1700 W
 Pros: Stainless build looks premium; Big twin-basket capacity; Strong energy savings vs oven
 Cons: Bulky; Brand support lighter than Ninja
 Verdict: The stainless family option: big, handsome and dual-zone for under €100.
@@ -361,10 +381,12 @@ Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-
 Brand: Philips
 Price: ~€89
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
 Capacity: 4.2 L
 Tech: RapidAir
 Functions: 7 presets
 Dishwasher safe: Yes
+Power: 1500 W
 Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
 Cons: 200°C ceiling; Plain looks
 Verdict: From the inventors of the category: the most forgiving set-and-forget air fryer here.
@@ -373,7 +395,9 @@ Verdict: From the inventors of the category: the most forgiving set-and-forget a
 Brand: Russell Hobbs
 Price: ~€78
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.68/hour at €0.38/kWh
 Capacity: 8 L
+Power: 1800 W
 Pros: €72 less than our top pick; 8 L capacity; Strong 4.6★ owner rating
 Cons: 2 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.9★
 Verdict: Russell Hobbs' XXL gives you 8 litres for €78, roughly half the Ninja's €150, with a strong 4.6-star owner rating. The catch on this page is that it's a single large basket, not two independent drawers — so it can't run chips and fish at different temperatures, which is the whole point of dual zone. Better value if you've decided one big basket is enough.
@@ -438,10 +462,12 @@ For households of five-plus, most 'family' air fryers still mean cooking in roun
 Brand: Ninja
 Price: ~€150
 Rating: 4.9/5 (Amazon.ie)
+Running cost: €0.91/hour at €0.38/kWh
 Capacity: 7.6 L (2 drawers)
 Functions: 6-in-1
 Sync: Finish together
 Dishwasher safe: Yes
+Power: 2400 W
 Pros: Mains and sides cook simultaneously; SYNC finishes both drawers together; Ireland's best-loved kitchen gadget
 Cons: Wide on the counter; Rarely discounted
 Verdict: The family dinner machine — two drawers, one finish time, weeknights permanently simplified.
@@ -450,10 +476,12 @@ Verdict: The family dinner machine — two drawers, one finish time, weeknights 
 Brand: Cooks Professional
 Price: ~€90
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.65/hour at €0.38/kWh
 Capacity: 8 L (twin basket)
 Body: Stainless steel
 Modes: Dual digital
 Energy: Efficient vs oven
+Power: 1700 W
 Pros: Stainless build looks premium; Big twin-basket capacity; Strong energy savings vs oven
 Cons: Bulky; Brand support lighter than Ninja
 Verdict: The stainless family option: big, handsome and dual-zone for under €100.
@@ -487,10 +515,12 @@ Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-
 Brand: Tower
 Price: ~€60
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.53/hour at €0.38/kWh
 Capacity: 4.2 L
 Presets: 8
 Timer: 60 min
 Warranty: 3 yr (registered)
+Power: 1400 W
 Pros: 8 calibrated presets; 3-year registered warranty; Strong mid-size value
 Cons: Needs a mid-cook shake; Basket quality is fair, not premium
 Verdict: The sweet-spot Tower: digital controls and real capacity at a price Ninja can't touch.
@@ -510,7 +540,9 @@ Verdict: Cecotec's 8-litre, 1800W Supreme 8000 matches the capacity bracket our 
 Brand: Russell Hobbs
 Price: ~€98
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.68/hour at €0.38/kWh
 Capacity: 8.3 L
+Power: 1800 W
 Pros: €52 less than our top pick; 8.3 L capacity; Strong 4.6★ owner rating
 Cons: 2 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.9★
 Verdict: The Satisfry's 8.3 litres is more usable single-basket volume than our Ninja pick's 7.6 split across two drawers, and at €98 it undercuts the Ninja by over €50 with a strong 4.6-star owner rating. The trade is that it's one large basket rather than two independent zones, so you can't run chips and fish at different temperatures. The better buy for a family cooking one thing in bulk.
@@ -575,10 +607,12 @@ Verdict: The €20 experiment that wins: perfect for singles, students and air-f
 Brand: Daewoo
 Price: ~€29
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.34/hour at €0.38/kWh
 Capacity: 2 L
 Temp: 80–200°C
 Timer: 30 min
 Size: Mini
+Power: 900 W
 Pros: Simple dial controls; Space-saving design; Trusted budget brand
 Cons: Small batches only; No presets
 Verdict: The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend.
@@ -613,10 +647,12 @@ Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-
 Brand: Philips
 Price: ~€89
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
 Capacity: 4.2 L
 Tech: RapidAir
 Functions: 7 presets
 Dishwasher safe: Yes
+Power: 1500 W
 Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
 Cons: 200°C ceiling; Plain looks
 Verdict: From the inventors of the category: the most forgiving set-and-forget air fryer here.
@@ -700,6 +736,8 @@ A €150 purifier with €60 annual filters costs more over five years than a �
 ## Placement and runtime
 Run continuously on low/auto rather than blasting occasionally — particle levels rebound within hours. Place 30+ cm from walls, ideally in the room you sleep in: you spend a third of your life there breathing its air.
 
+Full running-cost table for every air purifier we track: https://pickireland.best/air-purifiers/air-purifier-running-costs-ireland.html
+
 
 ------------------------------------------------------------------------------
 ## GUIDE: The Best Air Purifiers in Ireland (2026)
@@ -713,10 +751,12 @@ Between damp-loving mould spores, lengthening pollen seasons and winter smoke, I
 Brand: Philips
 Price: ~€80
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
 Energy: Ultra-efficient
 Noise: Very quiet
+Power: 12 W
 Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
 Cons: No app on base model; Filter replacements yearly
 Verdict: Rated to cover up to 44 square metres with a true HEPA filter, this Philips pairs sensor-driven accuracy with ultra-low energy consumption, which matters if it's going to run most of the day in an Irish home. Owners on Amazon.ie regularly point to the near-silent sleep mode as the standout feature — it's quiet enough for a bedroom without a dedicated bedroom model. The base unit skips app connectivity, so there's no remote monitoring or scheduling from your phone, and filters need replacing yearly, an ongoing cost worth budgeting for. It suits anyone wanting reliable everyday coverage for a living room or bedroom-sized space without smart-home features; buyers who want app control should look at the Levoit instead.
@@ -725,10 +765,12 @@ Verdict: Rated to cover up to 44 square metres with a true HEPA filter, this Phi
 Brand: Levoit
 Price: ~€121
 Rating: 4.7/5 (Amazon.ie)
+Running cost: €0.01/hour at €0.38/kWh
 Coverage: Up to 70 m²
 Filter: H13 HEPA
 Smart: Alexa + app
 Modes: Auto, sleep
+Power: 37 W
 Pros: Covers open-plan spaces; Excellent app and auto mode; Cheap, available filters
 Cons: Big white cylinder; Top speed is loud
 Verdict: With coverage rated up to 70 square metres and an H13 HEPA filter, this Levoit is sized for open-plan living rooms or knocked-through spaces that smaller purifiers can't keep up with. Alexa and app integration let it run in auto mode, adjusting itself to conditions, and replacement filters are inexpensive and easy to find, which keeps running costs down over the 4.7-star-rated unit's lifetime. It's a large white cylinder that's hard to disguise in a small room, and at top fan speed several owners note it gets noticeably loud — fine for daytime background running, less ideal right beside a bed at night. Best suited to bigger, open-plan spaces; the smaller Levoit bedroom model below is the better fit for sleeping areas.
@@ -737,10 +779,12 @@ Verdict: With coverage rated up to 70 square metres and an H13 HEPA filter, this
 Brand: Levoit
 Price: ~€61
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
 Extras: Fragrance sponge
 Noise: Near-silent low
+Power: 7 W
 Pros: Designed for sleep — very quiet; Optional gentle fragrance; Compact bedside size
 Cons: Smaller rooms only; Basic display
 Verdict: Built specifically around sleep rather than maximum coverage, this Levoit runs near-silent on its low setting, and its compact size means it fits comfortably on a nightstand rather than taking up floor space. A HEPA filter handles the core air-cleaning job, and an optional fragrance sponge lets you add a light scent if you want one — a feature the larger open-plan model doesn't bother with. The trade-off for that quiet, compact design is scale: it's rated for bedroom-sized rooms only, not open-plan living spaces, and the display is basic with none of the smart-app extras found on Levoit's bigger unit. Ideal for a bedroom or small box room; anyone purifying a larger shared space needs the 70 m² model instead.
@@ -749,10 +793,12 @@ Verdict: Built specifically around sleep rather than maximum coverage, this Levo
 Brand: AZEUS
 Price: ~€90
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.02/hour at €0.38/kWh
 Filtration: 4-stage
 Filter: True HEPA
 Coverage: Large rooms
 Noise: Quiet operation
+Power: 45 W
 Pros: 4-stage filtration; Strong large-room airflow; Quiet for its size
 Cons: Brand less known in Ireland; Filter sourcing online
 Verdict: Four separate filtration stages built around a true HEPA core give this AZEUS more filtration depth on paper than several single-stage competitors, and it's built with large-room airflow in mind rather than just a bedroom or office corner. Reviewers note it stays quiet given its size and output, which is a reasonable trade against the coverage on offer. AZEUS isn't a brand with much recognition in Ireland yet, so buyers are relying more on the 4.4-star Amazon.ie score than on established reputation, and replacement filters generally need to be sourced online rather than picked up locally. A sensible pick for anyone prioritising filtration stages and large-room power over brand familiarity; those who want a known name should look to Philips or Levoit.
@@ -761,10 +807,12 @@ Verdict: Four separate filtration stages built around a true HEPA core give this
 Brand: MELEDEN
 Price: ~€29
 Rating: 4.1/5 (Amazon.ie)
+Running cost: &lt;€0.001/hour at €0.38/kWh
 Filter: HEPA
 Targets: Smoke, pollen, dander
 Size: Compact
 Noise: Low
+Power: 2.5 W
 Pros: Real HEPA for €29; Tackles pollen and pet dander; Tiny footprint
 Cons: Small rooms strictly; Basic controls
 Verdict: €29 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above.
@@ -824,10 +872,12 @@ Irish grass pollen season now stretches from May into August, with tree pollen f
 Brand: Philips
 Price: ~€80
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
 Energy: Ultra-efficient
 Noise: Very quiet
+Power: 12 W
 Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
 Cons: No app on base model; Filter replacements yearly
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
@@ -836,10 +886,12 @@ Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to r
 Brand: Levoit
 Price: ~€121
 Rating: 4.7/5 (Amazon.ie)
+Running cost: €0.01/hour at €0.38/kWh
 Coverage: Up to 70 m²
 Filter: H13 HEPA
 Smart: Alexa + app
 Modes: Auto, sleep
+Power: 37 W
 Pros: Covers open-plan spaces; Excellent app and auto mode; Cheap, available filters
 Cons: Big white cylinder; Top speed is loud
 Verdict: The open-plan answer: serious clean-air throughput with the best app in the class.
@@ -848,10 +900,12 @@ Verdict: The open-plan answer: serious clean-air throughput with the best app in
 Brand: Levoit
 Price: ~€61
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
 Extras: Fragrance sponge
 Noise: Near-silent low
+Power: 7 W
 Pros: Designed for sleep — very quiet; Optional gentle fragrance; Compact bedside size
 Cons: Smaller rooms only; Basic display
 Verdict: The bedroom specialist: clean air all night without a sound you'll notice.
@@ -884,7 +938,9 @@ Verdict: Mid-room H13 cleaning with an ioniser boost — solid value at €50.
 Brand: Blueair
 Price: ~€160
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.006/hour at €0.38/kWh
 Coverage: 52 m²
+Power: 17 W
 Pros: 52 m² coverage; Strong 4.5★ owner rating
 Cons: 3 of the 6 picks here are better rated by owners; €80 more than our top pick, which owners rate higher at 4.6★
 Verdict: Blueair's Blue 511i Max covers a stated 52 m², well beyond the room size our €80 Philips pick targets, and carries a 4.5-star owner rating against the Philips's 4.6. At €160 it's double the price for coverage most Irish bedrooms and sitting rooms don't need. Genuinely the better machine for a large open-plan space; overkill, and overpriced, for the allergy-in-one-room job this page is about.
@@ -936,10 +992,12 @@ A bedroom purifier that's too loud gets switched off, and a switched-off purifie
 Brand: Levoit
 Price: ~€61
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
 Extras: Fragrance sponge
 Noise: Near-silent low
+Power: 7 W
 Pros: Designed for sleep — very quiet; Optional gentle fragrance; Compact bedside size
 Cons: Smaller rooms only; Basic display
 Verdict: The bedroom specialist: clean air all night without a sound you'll notice.
@@ -948,10 +1006,12 @@ Verdict: The bedroom specialist: clean air all night without a sound you'll noti
 Brand: Philips
 Price: ~€80
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
 Energy: Ultra-efficient
 Noise: Very quiet
+Power: 12 W
 Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
 Cons: No app on base model; Filter replacements yearly
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
@@ -984,10 +1044,12 @@ Verdict: Mid-room H13 cleaning with an ioniser boost — solid value at €50.
 Brand: Levoit
 Price: ~€121
 Rating: 4.7/5 (Amazon.ie)
+Running cost: €0.01/hour at €0.38/kWh
 Coverage: Up to 70 m²
 Filter: H13 HEPA
 Smart: Alexa + app
 Modes: Auto, sleep
+Power: 37 W
 Pros: Covers open-plan spaces; Excellent app and auto mode; Cheap, available filters
 Cons: Big white cylinder; Top speed is loud
 Verdict: The open-plan answer: serious clean-air throughput with the best app in the class.
@@ -1008,10 +1070,12 @@ Verdict: GoveeLife's large-room unit carries the same 4.6-star owner rating as o
 Brand: Blueair
 Price: ~€364
 Rating: 4.3/5 (Amazon.ie)
+Running cost: €0.01/hour at €0.38/kWh
 CADR: 510 m³/h
 Coverage: Up to 103 m²
 Filtration: 3-stage HEPASilent
 Pre-filter: Washable fabric
+Power: 38 W
 Pros: 510 m³/h cadr; Up to 103 m² coverage
 Cons: 4 of the 7 picks here are better rated by owners; €303 more than our top pick, which owners rate higher at 4.6★
 Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €61 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
@@ -1063,10 +1127,12 @@ Open-plan living — the default in newer Irish builds — defeats small purifie
 Brand: Levoit
 Price: ~€121
 Rating: 4.7/5 (Amazon.ie)
+Running cost: €0.01/hour at €0.38/kWh
 Coverage: Up to 70 m²
 Filter: H13 HEPA
 Smart: Alexa + app
 Modes: Auto, sleep
+Power: 37 W
 Pros: Covers open-plan spaces; Excellent app and auto mode; Cheap, available filters
 Cons: Big white cylinder; Top speed is loud
 Verdict: The open-plan answer: serious clean-air throughput with the best app in the class.
@@ -1075,10 +1141,12 @@ Verdict: The open-plan answer: serious clean-air throughput with the best app in
 Brand: AZEUS
 Price: ~€90
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.02/hour at €0.38/kWh
 Filtration: 4-stage
 Filter: True HEPA
 Coverage: Large rooms
 Noise: Quiet operation
+Power: 45 W
 Pros: 4-stage filtration; Strong large-room airflow; Quiet for its size
 Cons: Brand less known in Ireland; Filter sourcing online
 Verdict: The 4-stage workhorse for bigger rooms — filtration depth at a fair price.
@@ -1087,10 +1155,12 @@ Verdict: The 4-stage workhorse for bigger rooms — filtration depth at a fair p
 Brand: Philips
 Price: ~€80
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
 Energy: Ultra-efficient
 Noise: Very quiet
+Power: 12 W
 Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
 Cons: No app on base model; Filter replacements yearly
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
@@ -1111,10 +1181,12 @@ Verdict: Mid-room H13 cleaning with an ioniser boost — solid value at €50.
 Brand: MELEDEN
 Price: ~€29
 Rating: 4.1/5 (Amazon.ie)
+Running cost: &lt;€0.001/hour at €0.38/kWh
 Filter: HEPA
 Targets: Smoke, pollen, dander
 Size: Compact
 Noise: Low
+Power: 2.5 W
 Pros: Real HEPA for €29; Tackles pollen and pet dander; Tiny footprint
 Cons: Small rooms strictly; Basic controls
 Verdict: The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries.
@@ -1123,6 +1195,8 @@ Verdict: The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries
 Brand: Levoit
 Price: ~€365
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.02/hour at €0.38/kWh
+Power: 49 W
 Pros: Second-best owner rating on this page at 4.6★
 Cons: 1 of the 6 picks here is better rated by owners; €244 more than our top pick, which owners rate higher at 4.7★
 Verdict: This Levoit is the most expensive machine on the page at €365 and well rated at 4.6 stars, from the same brand as our €121 top pick. The awkward part is that our pick is also a Levoit, covers up to 70 m², and rates slightly higher at 4.7 — so you'd be paying roughly triple for the same badge. Only worth it if its coverage figure genuinely exceeds what the cheaper Levoit handles in your room.
@@ -1174,10 +1248,12 @@ Under €150, air purifiers split into two species: genuine HEPA machines from s
 Brand: Philips
 Price: ~€80
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
 Energy: Ultra-efficient
 Noise: Very quiet
+Power: 12 W
 Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
 Cons: No app on base model; Filter replacements yearly
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
@@ -1186,10 +1262,12 @@ Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to r
 Brand: Levoit
 Price: ~€61
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
 Extras: Fragrance sponge
 Noise: Near-silent low
+Power: 7 W
 Pros: Designed for sleep — very quiet; Optional gentle fragrance; Compact bedside size
 Cons: Smaller rooms only; Basic display
 Verdict: The bedroom specialist: clean air all night without a sound you'll notice.
@@ -1222,10 +1300,12 @@ Verdict: The pet-corner purifier: H13 spore and dander capture for pocket money.
 Brand: MELEDEN
 Price: ~€29
 Rating: 4.1/5 (Amazon.ie)
+Running cost: &lt;€0.001/hour at €0.38/kWh
 Filter: HEPA
 Targets: Smoke, pollen, dander
 Size: Compact
 Noise: Low
+Power: 2.5 W
 Pros: Real HEPA for €29; Tackles pollen and pet dander; Tiny footprint
 Cons: Small rooms strictly; Basic controls
 Verdict: The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries.
@@ -1298,10 +1378,12 @@ The €3.80 flat white habit costs serious money at scale — and the home alter
 Brand: De'Longhi
 Price: ~€336
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Grinder: Steel burr
 Milk: Steam wand
 Cup cost: ~28c
+Power: 1450 W
 Pros: Fresh-bean espresso at a button; Best-value automatic on Amazon.ie; Compact for the category
 Cons: Wand milk takes practice; Plastic-forward build
 Verdict: A built-in steel burr grinder means every cup starts from fresh beans rather than pre-ground pods, and at roughly 28 cents a cup, running costs stay low for daily espresso drinkers. Amazon.ie pricing puts this near the front of the bean-to-cup value conversation, and the compact footprint makes it realistic for smaller Irish kitchens where the bigger automatics won't fit. Milk still comes from a manual steam wand rather than an automated frother, so texturing takes some early practice, and the build leans plastic rather than the steel-heavy finish of pricier De'Longhi models. Best for anyone who wants genuine fresh-ground espresso daily and doesn't mind a learning curve on milk; those wanting one-touch lattes should budget for a machine with an automatic milk system.
@@ -1310,10 +1392,12 @@ Verdict: A built-in steel burr grinder means every cup starts from fresh beans r
 Brand: De'Longhi
 Price: ~€122
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.42/hour at €0.38/kWh
 Type: Manual espresso
 Pressure: 15 bar
 Milk: Steam wand
 Skill: Learning fortnight
+Power: 1100 W
 Pros: Real pump espresso + wand; The proven budget barista trainer; Slim footprint
 Cons: Needs technique (and ideally a grinder); Plastic tamper — replace it
 Verdict: Fifteen bars of real pump pressure and a manual steam wand put this Stilosa in proper espresso-machine territory rather than the pod-machine category, at a price well below most bean-to-cup automatics. It's earned a reputation as the standard first machine for anyone learning to pull shots and steam milk by hand, and its slim footprint suits a tight worktop. Realistically it takes around a fortnight of practice to get consistent results, and it works best paired with a separate grinder rather than pre-ground coffee — plus the included plastic tamper is worth swapping out early. Ideal for someone who wants to actually learn the craft of espresso on a budget; anyone wanting zero-effort consistency from day one should pick a pod machine instead.
@@ -1322,10 +1406,12 @@ Verdict: Fifteen bars of real pump pressure and a manual steam wand put this Sti
 Brand: Nespresso
 Price: ~€68
 Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
 Type: Pod (Vertuo)
 Sizes: 5 cup formats
 Speed: ~30 s
 Skill: Zero
+Power: 1500 W
 Pros: Total consistency, zero effort; 5 cup sizes incl. mug; Compact and colourful
 Cons: Pod costs add up; Closed ecosystem
 Verdict: Every cup comes out the same way in about 30 seconds with zero technique required, and five different cup-size formats — including a full mug — cover more than the usual single-shot pod machine. At €68 it's one of the cheaper entries here, and the compact, colourful design suits a small kitchen or office desk. The catch is ongoing cost: Vertuo pods aren't cheap and you're locked into Nespresso's closed capsule system, so the per-cup price climbs well above a bean-to-cup machine's roughly 28-cent shot over time. Right for someone who drinks one or two consistent cups a day and values zero-hassle simplicity; heavy daily drinkers will find the pod spend adds up faster than a grinder-based machine.
@@ -1334,10 +1420,12 @@ Verdict: Every cup comes out the same way in about 30 seconds with zero techniqu
 Brand: De'Longhi
 Price: ~€414
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Grinder: 13-setting burr
 Milk: Manual wand
 Pedigree: Europe's bestseller
+Power: 1450 W
 Pros: The proven Magnifica S platform; Parts and service everywhere; Espresso quality above its price
 Cons: Dated display; Wand learning curve
 Verdict: This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and, like the cheaper Magnifica Start, milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Magnifica Start instead.
@@ -1346,10 +1434,12 @@ Verdict: This is the platform De'Longhi has sold across Europe for years, which 
 Brand: Krups
 Price: ~€31
 Rating: 4.3/5 (Amazon.ie)
+Running cost: €0.61/hour at €0.38/kWh
 Type: Pod (Dolce Gusto)
 Drinks: 50+ incl. choc
 Size: Tiny
 Skill: Zero
+Power: 1600 W
 Pros: Hot choc, chai and coffee range; €31 machine; Kid-friendly drinks
 Cons: Coffee ceiling modest; Milk pods double cost
 Verdict: At €31 this is the cheapest machine on the list, and the Dolce Gusto pod range stretches well beyond coffee into hot chocolate, chai and other drinks that make it genuinely useful for a household with kids as well as coffee drinkers. Its tiny footprint and zero-skill operation mean anyone in the house can use it without instruction. Coffee quality has a modest ceiling compared with the espresso machines above, so it's not really aimed at coffee purists, and milk-based pods cost roughly double standard ones, which adds up in a family that drinks lattes daily. Best for households wanting variety and simplicity over espresso-bar quality; serious coffee drinkers should look toward the Stilosa or Magnifica machines.
@@ -1414,10 +1504,12 @@ Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh 
 Brand: De'Longhi
 Price: ~€336
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Grinder: Steel burr
 Milk: Steam wand
 Cup cost: ~28c
+Power: 1450 W
 Pros: Fresh-bean espresso at a button; Best-value automatic on Amazon.ie; Compact for the category
 Cons: Wand milk takes practice; Plastic-forward build
 Verdict: The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price.
@@ -1426,10 +1518,12 @@ Verdict: The bean-to-cup gateway: real fresh-ground espresso, daily-driver relia
 Brand: De'Longhi
 Price: ~€414
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Grinder: 13-setting burr
 Milk: Manual wand
 Pedigree: Europe's bestseller
+Power: 1450 W
 Pros: The proven Magnifica S platform; Parts and service everywhere; Espresso quality above its price
 Cons: Dated display; Wand learning curve
 Verdict: Europe's bestselling automatic for a reason — the default answer for daily coffee.
@@ -1438,10 +1532,12 @@ Verdict: Europe's bestselling automatic for a reason — the default answer for 
 Brand: De'Longhi
 Price: ~€368
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Milk: Auto carafe
 Drinks: One-touch
 Cup cost: ~28c
+Power: 1450 W
 Pros: Auto milk at the Start price; One-touch cappuccino; Great value per feature
 Cons: Carafe needs cleaning ritual; Louder grinder
 Verdict: The cheapest one-touch-milk automatic here — family cappuccinos without barista effort.
@@ -1450,10 +1546,12 @@ Verdict: The cheapest one-touch-milk automatic here — family cappuccinos witho
 Brand: De'Longhi
 Price: ~€521
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Milk: LatteCrema system
 Display: Modern controls
 Drinks: One-touch milk
+Power: 1450 W
 Pros: One-touch flat whites; Modern interface; Auto-cleaning milk carafe
 Cons: Price step up; Bigger footprint
 Verdict: The milk-drink automatic: lattes and flat whites at one literal button.
@@ -1462,10 +1560,12 @@ Verdict: The milk-drink automatic: lattes and flat whites at one literal button.
 Brand: De'Longhi
 Price: ~€612
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Milk: Full auto
 Profiles: Multiple drinks
 Build: Top of range
+Power: 1450 W
 Pros: The full-feature flagship; Best milk texture of the line; Multiple drink profiles
 Cons: €600+; Counter presence
 Verdict: The endgame Magnifica: every drink, automatically, for households that live on coffee.
@@ -1486,10 +1586,12 @@ Verdict: Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercu
 Brand: Ninja
 Price: ~€455
 Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.63/hour at €0.38/kWh
 Drinks: 2 espresso + 3 drip styles
 Grinder: Conical burr, 25 settings
 Frother: Dual Froth, hands-free
 Type: 2-in-1 espresso + drip
+Power: 1650 W
 Pros: €455 — 5th-cheapest of the 7 picks here; 2 espresso + 3 drip styles drinks; Conical burr, 25 settings grinder
 Cons: 5 of the 7 picks here are better rated by owners; €119 more than our top pick, which owners rate higher at 4.6★
 Verdict: Ninja's Luxe Essential is a 2-in-1 that brews filter coffee as well as espresso-style drinks, which no other machine on this page does. At €455 it's well above our €336 De'Longhi pick, and its 4.2-star owner rating is the lowest here. The dual-format flexibility is genuine; whether it's worth €119 more than a dedicated bean-to-cup that rates higher depends entirely on whether you actually want filter coffee too.
@@ -1541,10 +1643,12 @@ Under €150 buys genuinely good coffee if you pick the right architecture: supe
 Brand: Nespresso
 Price: ~€68
 Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
 Type: Pod (Vertuo)
 Sizes: 5 cup formats
 Speed: ~30 s
 Skill: Zero
+Power: 1500 W
 Pros: Total consistency, zero effort; 5 cup sizes incl. mug; Compact and colourful
 Cons: Pod costs add up; Closed ecosystem
 Verdict: The one-good-cup-a-day machine: unbeatable simplicity, just mind the pod maths.
@@ -1553,10 +1657,12 @@ Verdict: The one-good-cup-a-day machine: unbeatable simplicity, just mind the po
 Brand: De'Longhi
 Price: ~€122
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.42/hour at €0.38/kWh
 Type: Manual espresso
 Pressure: 15 bar
 Milk: Steam wand
 Skill: Learning fortnight
+Power: 1100 W
 Pros: Real pump espresso + wand; The proven budget barista trainer; Slim footprint
 Cons: Needs technique (and ideally a grinder); Plastic tamper — replace it
 Verdict: The cheapest ticket to real espresso craft: with practice, café-bothering shots.
@@ -1565,10 +1671,12 @@ Verdict: The cheapest ticket to real espresso craft: with practice, café-bother
 Brand: Bosch
 Price: ~€47
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.53/hour at €0.38/kWh
 Type: Pod (Tassimo)
 Drinks: Costa, Kenco, choc
 Tech: Barcode auto-brew
 Size: Compact
+Power: 1400 W
 Pros: Barcode pods self-program; Costa range at home; Bosch reliability
 Cons: Pod range narrowing; Coffee purists will sniff
 Verdict: The zero-thought machine: scan, brew, done — with Costa on the menu.
@@ -1577,10 +1685,12 @@ Verdict: The zero-thought machine: scan, brew, done — with Costa on the menu.
 Brand: Krups
 Price: ~€31
 Rating: 4.3/5 (Amazon.ie)
+Running cost: €0.61/hour at €0.38/kWh
 Type: Pod (Dolce Gusto)
 Drinks: 50+ incl. choc
 Size: Tiny
 Skill: Zero
+Power: 1600 W
 Pros: Hot choc, chai and coffee range; €31 machine; Kid-friendly drinks
 Cons: Coffee ceiling modest; Milk pods double cost
 Verdict: The family pleaser: something for everyone from a €31 box.
@@ -1589,10 +1699,12 @@ Verdict: The family pleaser: something for everyone from a €31 box.
 Brand: Quest
 Price: ~€29
 Rating: 4.1/5 (Amazon.ie)
+Running cost: €0.34/hour at €0.38/kWh
 Type: Filter
 Capacity: 12 cups
 Timer: Programmable
 Cup cost: ~13c
+Power: 900 W
 Pros: Cheapest per-cup coffee going; Wake-up timer brewing; 12 cups for guests
 Cons: No espresso drinks; Hotplate taste after 30 min
 Verdict: The volume economist: mugs not shots, brewed before you wake, ~13c each.
@@ -1609,10 +1721,12 @@ Verdict: This is a grinder, not a coffee machine — which is exactly why it's o
 Brand: Breville
 Price: ~€394
 Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.49/hour at €0.38/kWh
 Pressure: 15 bar
 Grinder: Conical burr, 30 settings
 Water tank: 2.8 L
 Portafilter: 58 mm
+Power: 1300 W
 Pros: 15 bar pressure; Conical burr, 30 settings grinder; Matches our top pick's 4.2★ owner rating
 Cons: 4 of the 7 picks here are better rated by owners; €326 more than our top pick
 Verdict: At €394 the Barista Max sits far outside this page's under-€150 remit, and we've kept it here only as the obvious upgrade path: it's an espresso machine with an integrated grinder, which is the thing no genuine sub-€150 machine can offer. Its 4.2-star owner rating is middling for the money. Relevant if the budget cap is soft and you'd rather buy once; ignore it entirely if €150 is a hard ceiling.
@@ -1664,10 +1778,12 @@ Pod machines run on a printer-ink business model — cheap machine, profitable p
 Brand: Nespresso
 Price: ~€107
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.48/hour at €0.38/kWh
 Type: Pod (Original line)
 Speed: 25 s
 Size: Tiny
 Pods: 3rd-party compatible
+Power: 1260 W
 Pros: Original line = cheap 3rd-party pods; Tiny footprint; Fast heat-up
 Cons: Small water tank; Espresso sizes only
 Verdict: The smart pod choice: the open Original ecosystem keeps per-cup costs honest forever.
@@ -1676,10 +1792,12 @@ Verdict: The smart pod choice: the open Original ecosystem keeps per-cup costs h
 Brand: Nespresso
 Price: ~€68
 Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
 Type: Pod (Vertuo)
 Sizes: 5 cup formats
 Speed: ~30 s
 Skill: Zero
+Power: 1500 W
 Pros: Total consistency, zero effort; 5 cup sizes incl. mug; Compact and colourful
 Cons: Pod costs add up; Closed ecosystem
 Verdict: The one-good-cup-a-day machine: unbeatable simplicity, just mind the pod maths.
@@ -1688,10 +1806,12 @@ Verdict: The one-good-cup-a-day machine: unbeatable simplicity, just mind the po
 Brand: Nespresso
 Price: ~€161
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.48/hour at €0.38/kWh
 Type: Pod (Original)
 Build: Premium metal accents
 Speed: Fast
 Pods: Open ecosystem
+Power: 1260 W
 Pros: Premium build for a pod machine; Original-line pod freedom; 19-bar extraction
 Cons: Dearer than Inissia; No milk
 Verdict: The grown-up pod machine: CitiZ style with the open ecosystem's cheap refills.
@@ -1700,10 +1820,12 @@ Verdict: The grown-up pod machine: CitiZ style with the open ecosystem's cheap r
 Brand: Krups
 Price: ~€31
 Rating: 4.3/5 (Amazon.ie)
+Running cost: €0.61/hour at €0.38/kWh
 Type: Pod (Dolce Gusto)
 Drinks: 50+ incl. choc
 Size: Tiny
 Skill: Zero
+Power: 1600 W
 Pros: Hot choc, chai and coffee range; €31 machine; Kid-friendly drinks
 Cons: Coffee ceiling modest; Milk pods double cost
 Verdict: The family pleaser: something for everyone from a €31 box.
@@ -1712,10 +1834,12 @@ Verdict: The family pleaser: something for everyone from a €31 box.
 Brand: Bosch
 Price: ~€47
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.53/hour at €0.38/kWh
 Type: Pod (Tassimo)
 Drinks: Costa, Kenco, choc
 Tech: Barcode auto-brew
 Size: Compact
+Power: 1400 W
 Pros: Barcode pods self-program; Costa range at home; Bosch reliability
 Cons: Pod range narrowing; Coffee purists will sniff
 Verdict: The zero-thought machine: scan, brew, done — with Costa on the menu.
@@ -1767,10 +1891,12 @@ Home espresso is a learnable fortnight, not a dark art — if the machine forgiv
 Brand: De'Longhi
 Price: ~€122
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.42/hour at €0.38/kWh
 Type: Manual espresso
 Pressure: 15 bar
 Milk: Steam wand
 Skill: Learning fortnight
+Power: 1100 W
 Pros: Real pump espresso + wand; The proven budget barista trainer; Slim footprint
 Cons: Needs technique (and ideally a grinder); Plastic tamper — replace it
 Verdict: The cheapest ticket to real espresso craft: with practice, café-bothering shots.
@@ -1791,10 +1917,12 @@ Verdict: The guided starter: touchscreen hand-holding makes first espresso shots
 Brand: Quest
 Price: ~€78
 Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.42/hour at €0.38/kWh
 Type: Manual espresso
 Pressure: 15 bar
 Includes: Filter + measuring cup
 Milk: Steam wand
+Power: 1100 W
 Pros: Full espresso kit for €78; Real 15-bar pump; Compact
 Cons: Budget build quality; Learning curve
 Verdict: The cheapest complete espresso setup — a fair first rung on the barista ladder.
@@ -1803,10 +1931,12 @@ Verdict: The cheapest complete espresso setup — a fair first rung on the baris
 Brand: Nespresso
 Price: ~€107
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.48/hour at €0.38/kWh
 Type: Pod (Original line)
 Speed: 25 s
 Size: Tiny
 Pods: 3rd-party compatible
+Power: 1260 W
 Pros: Original line = cheap 3rd-party pods; Tiny footprint; Fast heat-up
 Cons: Small water tank; Espresso sizes only
 Verdict: The smart pod choice: the open Original ecosystem keeps per-cup costs honest forever.
@@ -1815,10 +1945,12 @@ Verdict: The smart pod choice: the open Original ecosystem keeps per-cup costs h
 Brand: De'Longhi
 Price: ~€336
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Grinder: Steel burr
 Milk: Steam wand
 Cup cost: ~28c
+Power: 1450 W
 Pros: Fresh-bean espresso at a button; Best-value automatic on Amazon.ie; Compact for the category
 Cons: Wand milk takes practice; Plastic-forward build
 Verdict: The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price.
@@ -1961,7 +2093,9 @@ Verdict: At €54 and with extraction rated up to 650ml a day, this EasyAcc is b
 Brand: HOMCOM
 Price: ~€100
 Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.08/hour at €0.38/kWh
 Extraction: 12 L/day
+Power: 210 W
 Pros: €159 less than our top pick; 12 L/day extraction; Strong 4.6★ owner rating
 Cons: 2 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
 Verdict: Twelve litres a day of extraction with a continuous drainage option puts this HOMCOM's specs close to the pricier Masterplug and Meaco Arete above, but at roughly €100 it costs meaningfully less than either. Its 4.6-star owner rating is actually higher than several machines ranked above it here, and buying through Amazon.ie keeps the warranty and returns process straightforward. It hasn't taken our top overall spot because it lacks the HEPA purification and app scheduling that set the Meaco Arete apart, so it's a specs-and-price play rather than a features play. Worth comparing closely against the Masterplug if smart features aren't essential; a strong option for anyone who wants solid extraction without paying for extras.
@@ -2062,10 +2196,12 @@ Verdict: The cheap fix for one mildly damp room, wardrobe or ensuite.
 Brand: Belaco
 Price: ~€37
 Rating: 4.0/5 (Amazon.ie)
+Running cost: €0.01/hour at €0.38/kWh
 Extraction: ~300 ml/day
 Tank: 1 L
 Size: Compact
 Use: Small rooms
+Power: 36 W
 Pros: €37 entry point; Tiny and portable; One-button simplicity
 Cons: Small rooms only; Limited daily extraction
 Verdict: The windowsill-class mini for light condensation spots and caravans.
@@ -2092,6 +2228,7 @@ Type: Passive — no electricity
 Coverage: Up to 20 m²
 Refill: 450 g tab
 Tab life: Up to 3 months
+Power: None (non-electric)
 Pros: Cheapest pick on this page at €11; Passive — no electricity type; Up to 20 m² coverage
 Cons: 3 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.6★
 Verdict: At €11 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one.
@@ -2221,7 +2358,9 @@ Verdict: The cheap fix for one mildly damp room, wardrobe or ensuite.
 Brand: HUMILABS
 Price: ~€140
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.07/hour at €0.38/kWh
 Extraction: 12 L/day
+Power: 185 W
 Pros: €140 — 4th-cheapest of the 7 picks here; 12 L/day extraction
 Cons: 4 of the 7 picks here are better rated by owners; €6 more than our top pick, which owners rate higher at 4.5★
 Verdict: HUMILABS extracts 12 litres a day at €140 against the Nyxi's 20 litres at €134 — so you're paying slightly more for meaningfully less extraction on a page specifically about large, damp homes. Its 4.4-star rating is a shade below the Nyxi's 4.5. The low-energy positioning is genuine and it would suit a single damp room well, but for whole-house drying the Nyxi is the better buy.
@@ -2354,7 +2493,9 @@ Verdict: The bedroom and apartment pick: whisper-quiet condensation control from
 Brand: Pro Breeze
 Price: ~€150
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.08/hour at €0.38/kWh
 Extraction: 12 L/day
+Power: 200 W
 Pros: €15 less than our top pick; 12 L/day extraction
 Cons: Lowest owner rating of the picks here at 4.4★; Our top pick still rates higher with owners at 4.7★
 Verdict: Pro Breeze's OmniDry extracts a stated 12 litres a day against our laundry pick's 8, and costs €150 against €165 — so on the headline numbers it looks like the better buy. The reason it isn't our first choice is that our pick is a desiccant model, which keeps working at full capacity in a cold room, while a compressor unit like this one loses output below about 15°C. In a heated utility room the Pro Breeze is the better value; in an unheated garage or spare room, it isn't.
@@ -2487,6 +2628,8 @@ Verdict: The cheap fix for one mildly damp room, wardrobe or ensuite.
 Brand: De'Longhi
 Price: ~€181
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.12/hour at €0.38/kWh
+Power: 305 W
 Pros: €78 less than our top pick; Strong 4.5★ owner rating
 Cons: 2 of the 6 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
 Verdict: De'Longhi is a genuinely established name and this AriaDry sits mid-range here at €181 with a solid 4.5-star rating. Our €259 Meaco pick beats it on owner sentiment at 4.8 and pairs extraction with HEPA filtration, which is what a mould-focused page ranks on — dealing with spores as well as the damp that feeds them. Good value if you want brand reassurance and are treating damp rather than visible mould.
@@ -3082,6 +3225,8 @@ At ~36c/kWh standard rate: a 2 kW heater flat-out costs ~72c/hour; a 1 kW settin
 ## Spot heating beats whole-home electric
 Electric heating a whole Irish house is brutal on bills. The winning strategy: keep central heating low, spot-heat the occupied room. A 1 kW oil radiator in a home office for 8 hours (~€1.50–2.50 with thermostat cycling) beats firing gas through the whole house.
 
+Full running-cost table for every heater we track: https://pickireland.best/electric-heaters/electric-heater-running-costs-ireland.html
+
 
 ------------------------------------------------------------------------------
 ## GUIDE: The Best Electric Heaters in Ireland (2026)
@@ -3301,6 +3446,8 @@ Verdict: The absolute floor price for instant heat. Short bursts, small rooms, t
 Brand: Belaco
 Price: ~€32
 Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.76/hour at €0.38/kWh
+Power: 2000 W
 Pros: €32 — third-cheapest of the 7 picks here; Owners rate it 4.5★, above our top pick's 4.0★
 Cons: 2 of the 7 picks here are better rated by owners; €11 more than our top pick
 Verdict: A €32 PTC ceramic heater with a digital thermostat and remote, rated 4.5 stars by owners — a better score than our cheapest-to-run pick manages at 4.0. PTC ceramic heats fast and aims heat at a person, which is the right principle for this page. It sits below our top pick only because that Warmlite draws 650W against the higher wattage a 2kW-class ceramic unit pulls at full tilt, and this page ranks on running cost first. Strong choice if you'd rather have the thermostat and remote than the absolute lowest draw.
@@ -3309,7 +3456,8 @@ Verdict: A €32 PTC ceramic heater with a digital thermostat and remote, rated 
 Brand: Morphy Richards
 Price: ~€55
 Rating: 4.8/5 (Amazon.ie)
-Power: 2 kW
+Running cost: €0.76/hour at €0.38/kWh
+Power: 2000 W
 Coverage: Up to 20 m²
 Thermostat: 15–35 °C
 Oscillation: ~80°
@@ -3442,7 +3590,8 @@ Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-fil
 Brand: Dimplex
 Price: ~€150
 Rating: 4.3/5 (Amazon.ie)
-Power: 2.5 kW
+Running cost: €0.95/hour at €0.38/kWh
+Power: 2500 W
 Oscillation: 76°
 Timer: 12-hr runback
 Control: Digital + remote
@@ -3696,6 +3845,8 @@ Verdict: The absolute floor price for instant heat. Short bursts, small rooms, t
 Brand: Morphy Richards
 Price: ~€51
 Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.57/hour at €0.38/kWh
+Power: 1500 W
 Pros: €37 less than our top pick; Owners rate it 4.4★, above our top pick's 4.3★
 Cons: 1 of the 7 picks here is better rated by owners; Full specs not confirmed — check the current listing before buying
 Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars and cheap at €51, undercutting our €88 Purus pick. The problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It's also not bathroom-rated the way the Purus is. A good buy for a small bedroom; the wrong tool for a wet room.

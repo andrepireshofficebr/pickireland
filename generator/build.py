@@ -144,16 +144,37 @@ MAINS_CATEGORIES = {"dehumidifiers", "electric-heaters", "air-fryers",
 _POWER_KEYS = ("power", "wattage", "consumption", "rated power", "input")
 
 def _watts(specs):
-    """Extrai a potencia em watts das specs. Devolve int ou None. Nunca chuta."""
+    """Extrai a potencia em watts das specs. Devolve float ou None. Nunca chuta.
+
+    01/09: a regex exigia 2+ digitos, entao "7 W" (Levoit Core Mini) e "2.5 W" (purificador
+    USB de mesa) eram silenciosamente descartados — e purificador e justamente a categoria
+    onde o numero baixo E o argumento. Agora aceita 1 digito e decimal. O filtro de chave
+    (_POWER_KEYS) e que evita falso positivo, nao a contagem de digitos."""
     for k, v in (specs or {}).items():
         if not any(t in k.lower() for t in _POWER_KEYS):
             continue
         txt = str(v).replace(",", "")
         # pega o MAIOR numero seguido de W (ex: "600-2000 W" -> 2000, que e o consumo maximo)
-        nums = [int(m) for m in re.findall(r"(\d{2,5})\s*(?:W\b|watt)", txt, re.I)]
+        nums = [float(m) for m in re.findall(r"(\d{1,5}(?:\.\d+)?)\s*(?:W\b|watt)", txt, re.I)]
         if nums:
             return max(nums)
     return None
+
+def w_txt(w):
+    """1450.0 -> '1450', 2.5 -> '2.5'. _watts agora devolve float."""
+    return f"{w:g}"
+
+def rc_eur(x):
+    """€/hora com casas suficientes para o numero nao sumir. Um purificador de 7 W custa
+    €0.003/hora; arredondado para €0.00 ele lê como campo vazio — o oposto do que queremos,
+    ja que 'praticamente nada' e justamente o argumento da categoria."""
+    if x <= 0:
+        return "€0.00"
+    if x < 0.001:
+        return "&lt;€0.001"      # 2.5 W a noite da €0.00045: um teto, nao um zero
+    if x < 0.01:
+        return f"€{x:.3f}"
+    return f"€{x:.2f}"
 
 def running_cost_line(specs, category):
     """'€0.08' por hora, ou None. Campo curto e extraivel de proposito."""
@@ -162,7 +183,7 @@ def running_cost_line(specs, category):
     w = _watts(specs)
     if not w:
         return None
-    return f"€{w / 1000 * KWH_RATE:.2f}/hour at €{KWH_RATE:.2f}/kWh"
+    return f"{rc_eur(w / 1000 * KWH_RATE)}/hour at €{KWH_RATE:.2f}/kWh"
 
 # ---------------------------------------------------------------- grafico de custo de operacao
 # Por que existe: o site tem ZERO imagem de produto (a Amazon so autoriza imagem via API, e a
@@ -230,7 +251,7 @@ def running_cost_chart(products, category, unit_noun="unit", more_href=None, mor
         items.append(
             f'<li><span class="rcn">{esc(name)}</span>'
             f'<span class="rcb"><span class="rcf{cheap}" style="width:{pct}%"></span></span>'
-            f'<span class="rcv">\u20ac{eur:.2f}/hour<i> \u00b7 {w}\u2009W</i>{tag}</span></li>')
+            f'<span class="rcv">{rc_eur(eur)}/hour<i> \u00b7 {w_txt(w)}\u2009W</i>{tag}</span></li>')
     lo_name, lo_w, lo_e = rows[0]
     hi_name, hi_w, hi_e = rows[-1]
     ratio = hi_w / lo_w
@@ -319,6 +340,13 @@ RC_REF_PAGES = {
         "noun": "dehumidifier",
         "noun_pl": "dehumidifiers",
         "unit": "litre of water removed",
+        "hours_day": 8,
+        "hours_text": "8 hours a day",
+        "amount_spec": "Extraction",
+        "amount_head": "Rated extraction",
+        "unit_note_label": "extraction",
+        "ceiling_short": "the humidistat switches the compressor off once the room reaches "
+                         "its target humidity, so a real bill lands below them.",
         "link_text": "See the full running-cost table for every dehumidifier we track →",
         # Por que a conta e um TETO — a razao e FISICA DA CATEGORIA e muda de uma para outra.
         # Em 22/08 um texto unico para todas as categorias afirmou "o humidostato desliga o
@@ -337,6 +365,87 @@ RC_REF_PAGES = {
             "will pull out considerably less, and the real cost per litre will be higher than "
             "the column above. We show the rated figure because it is the one the manufacturer "
             "publishes and the one you can verify — not because we think you will get it.",
+    },
+    # As tres abaixo entraram em 01/09, depois de a pesquisa de potencia fechar a lacuna de
+    # dados (74 cards ganharam watts). Cada uma tem horas/dia e ressalva PROPRIAS: um aquecedor
+    # nao roda 8 h/dia como um desumidificador, e um air fryer nao roda nem meia hora.
+    # Coffee machines ficam DE FORA de proposito: uma maquina de cafe fica ligada por minutos,
+    # entao custo/mes por horas/dia seria um numero certo respondendo a pergunta errada.
+    "electric-heaters": {
+        "link_text": "See what every heater we track costs per hour →",
+        "slug": "electric-heater-running-costs-ireland",
+        "title": "What Electric Heaters Cost to Run in Ireland (2026)",
+        "h1": "What an electric heater actually costs to run in Ireland",
+        "desc": "Rated power and cost per hour at Irish day and night rates, plus cost per "
+                "month over a winter evening, for every electric heater we track.",
+        "noun": "heater",
+        "noun_pl": "heaters",
+        "unit": None,
+        "hours_day": 5,
+        "hours_text": "5 hours a day",
+        "amount_spec": "Type",
+        "amount_head": "Heater type",
+        "ceiling_short": "a thermostat switches the element off once the room is up to "
+                         "temperature, so few heaters draw their rated wattage for a full "
+                         "hour and a real bill lands below them.",
+        "ceiling_note":
+            "Every heater here converts essentially all the electricity it draws into heat, "
+            "so at full power a 2 kW heater costs the same to run whatever the badge on it "
+            "says. What separates them is how much of the hour they spend at full power: a "
+            "heater with a decent thermostat reaches the set temperature and then idles, "
+            "while a cheap two-setting fan heater with no thermostat runs flat out until you "
+            "switch it off. That is where the difference in a real bill comes from, not from "
+            "one heater being more efficient than another.",
+    },
+    "air-fryers": {
+        "link_text": "See what every air fryer we track costs to run →",
+        "slug": "air-fryer-running-costs-ireland",
+        "title": "What Air Fryers Cost to Run in Ireland (2026)",
+        "h1": "What an air fryer actually costs to run in Ireland",
+        "desc": "Rated power and cost per hour at Irish day and night rates for every air "
+                "fryer we track, plus what a typical cook actually costs.",
+        "noun": "air fryer",
+        "noun_pl": "air fryers",
+        "unit": None,
+        "hours_day": 0.5,
+        "hours_text": "30 minutes a day",
+        "amount_spec": "Capacity",
+        "amount_head": "Capacity",
+        "ceiling_short": "the element only draws full power while it is heating, and most "
+                         "recipes run for 15 to 25 minutes rather than a full hour, so a "
+                         "real bill lands well below them.",
+        "ceiling_note":
+            "An air fryer is a fan and a heating element in a small insulated box. The element "
+            "pulls its rated wattage while it is bringing the box up to temperature and then "
+            "cycles, so a 2,400 W machine is not pulling 2,400 W for the whole cook. The "
+            "comparison that matters for most households is not against another air fryer but "
+            "against the oven: a fan oven drawing around 2 kW has a far larger cavity to heat "
+            "and a longer preheat, which is where the running-cost saving actually comes from.",
+    },
+    "air-purifiers": {
+        "link_text": "See what every air purifier we track costs to run →",
+        "slug": "air-purifier-running-costs-ireland",
+        "title": "What Air Purifiers Cost to Run in Ireland (2026)",
+        "h1": "What an air purifier actually costs to run in Ireland",
+        "desc": "Rated power and cost per hour at Irish day and night rates for every air "
+                "purifier we track — the appliance people most often assume is expensive.",
+        "noun": "air purifier",
+        "noun_pl": "air purifiers",
+        "unit": None,
+        "hours_day": 12,
+        "hours_text": "12 hours a day",
+        "amount_spec": "Coverage",
+        "amount_head": "Rated coverage",
+        "ceiling_short": "the rated figure is the top fan speed, and almost nobody runs a "
+                         "purifier flat out, so a real bill lands well below them.",
+        "ceiling_note":
+            "The rated wattage of an air purifier is its draw on the highest fan speed. On "
+            "auto or sleep mode — how most of these actually get used — a unit rated at "
+            "40 W is often pulling under 10. This is the appliance people most often assume "
+            "is expensive to leave on, and the table above is the argument that it is not: "
+            "even at the ceiling figure, running the most power-hungry purifier here costs "
+            "less per month than the cheapest heater on this site costs in a single evening. "
+            "Filters, not electricity, are what an air purifier costs you.",
     },
 }
 
@@ -1094,40 +1203,54 @@ def rc_reference_page(cat):
     cfg = RC_REF_PAGES.get(cat["category"])
     if not cfg:
         return None
+    # Generalizacao 01/09: esta pagina nasceu so para desumidificador e tinha a categoria
+    # embutida na prosa e nas colunas (extracao em L/dia, custo por litro). Cada categoria
+    # agora traz o proprio numero de horas/dia, a propria coluna de capacidade e a propria
+    # ressalva fisica. Nada de texto unico para todas — foi exatamente o erro de 22/08.
+    HRS      = cfg.get("hours_day", RC_REF_HOURS_DAY)
+    HRS_TXT  = cfg.get("hours_text", f"{HRS} hours a day")
+    AMT_SPEC = cfg.get("amount_spec")
+    AMT_HEAD = cfg.get("amount_head", "")
+    UNIT     = cfg.get("unit")
     prods = _unique_products(cat)
     withp, without = [], []
     for p in prods:
         w = _watts(p.get("specs") or {})
         if w:
-            withp.append((p, w, _extraction_lpd(p.get("specs") or {})))
+            withp.append((p, w, _extraction_lpd(p.get("specs") or {}) if UNIT else None))
         else:
             without.append(p)
     if len(withp) < RC_CHART_MIN:
         return None
     withp.sort(key=lambda t: t[1])
 
-    def _eur(x):
-        return f"€{x:.2f}"
+    _eur = rc_eur
+
+    def _amt(p):
+        return esc(str((p.get("specs") or {}).get(AMT_SPEC, "—"))) if AMT_SPEC else ""
 
     rows = []
     for p, w, lpd in withp:
         kw = w / 1000.0
         hr_day = kw * KWH_RATE
         hr_night = kw * KWH_RATE_NIGHT
-        month = hr_day * RC_REF_HOURS_DAY * 30
+        month = hr_day * HRS * 30
         per_l = (kw * 24 * KWH_RATE / lpd) if lpd else None
-        rows.append(
-            f"<tr><td><b>{esc(p['name'])}</b></td>"
-            f"<td>{w} W</td>"
-            f"<td>{_eur(hr_day)}</td>"
-            f"<td>{_eur(hr_night)}</td>"
-            f"<td>{_eur(month)}</td>"
-            f"<td>{esc(str((p.get('specs') or {}).get('Extraction', '—')))}</td>"
-            f"<td>{_eur(per_l) if per_l else '—'}</td></tr>")
-    head = ("<tr><th>Model</th><th>Rated power</th><th>Per hour (day)</th>"
-            "<th>Per hour (night)</th><th>Per month at "
-            f"{RC_REF_HOURS_DAY} h/day</th><th>Rated extraction</th>"
-            "<th>Per litre removed</th></tr>")
+        cells = [f"<td><b>{esc(p['name'])}</b></td>", f"<td>{w_txt(w)} W</td>",
+                 f"<td>{_eur(hr_day)}</td>", f"<td>{_eur(hr_night)}</td>",
+                 f"<td>{_eur(month)}</td>"]
+        if AMT_SPEC:
+            cells.append(f"<td>{_amt(p)}</td>")
+        if UNIT:
+            cells.append(f"<td>{_eur(per_l) if per_l else '—'}</td>")
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    hcells = ["<th>Model</th>", "<th>Rated power</th>", "<th>Per hour (day)</th>",
+              "<th>Per hour (night)</th>", f"<th>Per month at {HRS_TXT}</th>"]
+    if AMT_SPEC:
+        hcells.append(f"<th>{esc(AMT_HEAD)}</th>")
+    if UNIT:
+        hcells.append("<th>Per litre removed</th>")
+    head = "<tr>" + "".join(hcells) + "</tr>"
     table = f'<div class="tbl-scroll"><table class="cmp">{head}{"".join(rows)}</table></div>'
 
     lo_p, lo_w, _ = withp[0]
@@ -1139,7 +1262,7 @@ def rc_reference_page(cat):
     if without:
         miss_rows = "".join(
             f"<tr><td><b>{esc(p['name'])}</b></td>"
-            f"<td>{esc(str((p.get('specs') or {}).get('Extraction', '—')))}</td>"
+            f"{f'<td>{_amt(p)}</td>' if AMT_SPEC else ''}"
             f"<td>Not published by the manufacturer</td></tr>" for p in without)
         miss_table = (
             f"<h2>The {len(without)} models where we could not calculate a cost</h2>"
@@ -1148,7 +1271,8 @@ def rc_reference_page(cat):
             f"a cost per hour. We would rather show the gap than fill it with an estimate "
             f"and present it as a measurement.</p>"
             f'<div class="tbl-scroll"><table class="cmp">'
-            f"<tr><th>Model</th><th>Rated extraction</th><th>Rated power</th></tr>"
+            f"<tr><th>Model</th>{f'<th>{esc(AMT_HEAD)}</th>' if AMT_SPEC else ''}"
+            f"<th>Rated power</th></tr>"
             f"{miss_rows}</table></div>")
     else:
         miss_table = ""
@@ -1156,15 +1280,23 @@ def rc_reference_page(cat):
     qa = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> '
           f'At Ireland’s domestic day rate of about {_eur(KWH_RATE)}/kWh, the '
           f'{cfg["noun_pl"]} we track cost between {_eur(lo_h)} and {_eur(hi_h)} per hour '
-          f'at full power — {_eur(lo_h * RC_REF_HOURS_DAY * 30)} to '
-          f'{_eur(hi_h * RC_REF_HOURS_DAY * 30)} a month if you run one for '
-          f'{RC_REF_HOURS_DAY} hours a day. On a smart-meter night rate of about '
+          f'at full power — {_eur(lo_h * HRS * 30)} to '
+          f'{_eur(hi_h * HRS * 30)} a month if you run one for '
+          f'{HRS_TXT}. On a smart-meter night rate of about '
           f'{_eur(KWH_RATE_NIGHT)}/kWh the same run costs roughly half. These are ceilings: '
-          f'the humidistat switches the compressor off once the room reaches its target '
-          f'humidity, so a real bill lands below them.</p>')
+          f'{cfg["ceiling_short"]}</p>')
 
     guides = "".join(
         f'<a href="{pg["slug"]}.html">{esc(pg["h1"])} {ARROW}</a>' for pg in cat["pages"])
+
+    per_unit_step = (f"""<li><strong>Cost per {cfg['unit']}</strong> = a full 24 hours at
+rated power, divided by the rated daily extraction. It is the fairest way to compare a
+thirsty 20 L machine against a frugal 6 L one, because the cheaper machine per hour
+is not automatically the cheaper machine per litre.</li>""" if UNIT else "")
+    unit_note_block = (f"<p><strong>The {cfg.get('unit_note_label', 'capacity')} figures are "
+                       f"lab figures.</strong> {cfg['unit_note']}</p>"
+                       if cfg.get("unit_note") else "")
+    intro_tail = (f", per month and per {cfg['unit']}," if UNIT else " and per month")
 
     method = f"""
 <h2>How these numbers are worked out</h2>
@@ -1182,21 +1314,17 @@ target="_blank">SEAI energy price statistics</a> and published supplier standard
 July 2026. Your own unit rate is on your bill and may differ; the arithmetic below is easy
 to redo with it.</li>
 <li><strong>Cost per hour</strong> = rated watts &divide; 1,000 &times; the unit rate. A
-{lo_w}&nbsp;W unit is {lo_w / 1000:.3f}&nbsp;kW, so {lo_w / 1000:.3f} &times;
+{w_txt(lo_w)}&nbsp;W unit is {lo_w / 1000:.3f}&nbsp;kW, so {lo_w / 1000:.3f} &times;
 {KWH_RATE:.2f} = {_eur(lo_h)} an hour.</li>
-<li><strong>Cost per month</strong> = cost per hour &times; {RC_REF_HOURS_DAY} hours &times;
-30 days. {RC_REF_HOURS_DAY} hours a day is our assumption, not a measurement — scale it
-to how you actually run yours.</li>
-<li><strong>Cost per {cfg['unit']}</strong> = a full 24 hours at rated power, divided by the
-rated daily extraction. It is the fairest way to compare a thirsty 20&nbsp;L machine against
-a frugal 6&nbsp;L one, because the cheaper machine per hour is not automatically the cheaper
-machine per litre.</li>
+<li><strong>Cost per month</strong> = cost per hour &times; {HRS} hours &times; 30 days.
+{HRS_TXT} is our assumption, not a measurement — scale it to how you actually run yours.</li>
+{per_unit_step}
 </ol>
 <h2>Three things these numbers are not</h2>
 <p><strong>They are not your bill.</strong> Every figure here is a ceiling: rated draw at
 full power, multiplied out. {cfg['ceiling_note']} Either way, treat the table as the worst
 case.</p>
-<p><strong>The extraction figures are lab figures.</strong> {cfg['unit_note']}</p>
+{unit_note_block}
 <p><strong>They do not include standing charges or VAT changes.</strong> The unit rate is the
 marginal cost of running the appliance. Your standing charge is there whether the
 {cfg['noun']} is plugged in or not.</p>
@@ -1217,22 +1345,23 @@ checked rather than taken on trust. Spot an error or a wattage we have wrong?
 {qa}
 <p class="intro">Almost every {cfg['noun']} page online tells you which one to buy and none of
 them tell you what it costs to keep switched on. This page is the other half: every
-{cfg['noun']} we track, its rated power, and what that works out to per hour, per month and
-per {cfg['unit']} at Irish electricity prices — with the arithmetic shown so you can redo
-it with your own unit rate.</p>
+{cfg['noun']} we track, its rated power, and what that works out to per hour{intro_tail}
+at Irish electricity prices — with the arithmetic shown so you can redo it with your own
+unit rate.</p>
 <h2>Running cost of every {cfg['noun']} we track</h2>
 {table}
 <p class="sources"><strong>Tariff source:</strong> {_eur(KWH_RATE)}/kWh day rate and
 {_eur(KWH_RATE_NIGHT)}/kWh night rate, cross-checked against
 <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener"
 target="_blank">SEAI energy price statistics</a> and published supplier standard rates, July
-2026. Rated power and rated extraction are the manufacturers’ own published figures.</p>
+2026. Rated power{f" and {AMT_HEAD.lower()}" if AMT_SPEC else ""} are the manufacturers’
+own published figures.</p>
 {miss_table}
 {method}
 """
     key = f"{cat['category']}/{cfg['slug']}"
     pub, mod = page_dates(key, [
-        cfg["h1"], cfg["title"], cfg["desc"], f"{KWH_RATE}|{KWH_RATE_NIGHT}|{RC_REF_HOURS_DAY}",
+        cfg["h1"], cfg["title"], cfg["desc"], f"{KWH_RATE}|{KWH_RATE_NIGHT}|{HRS}",
         json.dumps([[p["name"], w, lpd] for p, w, lpd in withp], ensure_ascii=False),
         json.dumps([p["name"] for p in without], ensure_ascii=False)])
     body = body.replace("{MOD}", mod).replace(
