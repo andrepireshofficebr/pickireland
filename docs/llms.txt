@@ -97,6 +97,9 @@ Products are compared on manufacturer specifications, verified owner feedback an
 - [Best Robot Vacuum & Mop Combos in Ireland](https://pickireland.best/robot-vacuums/best-robot-vacuum-mop-combos-ireland.html) — Robot vacuum-mop hybrids that actually mop: rotating pads, self-washing docks and carpet protection compared for Irish homes. Compared for 2026. Top pick: eufy C28 Omni (Self-Cleaning Roller Mop) (~€499).
 - [Best Premium & Self-Empty Robot Vacuums in Ireland](https://pickireland.best/robot-vacuums/best-premium-self-empty-robot-vacuums-ireland.html) — Flagship self-emptying robot vacuums compared for Ireland: total automation, obstacle AI and long-term costs. Premium picks for 2026. Top pick: eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station) (~€549).
 
+## Full content
+- [llms-full.txt](https://pickireland.best/llms-full.txt) — every guide, product spec, running cost, verdict and FAQ on this site, in one plain-text file.
+
 ## About
 - [About & methodology](https://pickireland.best/about.html)
 - [Affiliate disclosure](https://pickireland.best/affiliate-disclosure.html)

@@ -1551,7 +1551,11 @@ for cat in CATS:
         pick = f" Top pick: {top['name']} (~€{product_price(top)})." if top else ""
         _llms.append(f"- [{pg['h1']}]({DOMAIN}/{cat['category']}/{pg['slug']}.html) — {pg['desc']}{pick}")
     _llms.append("")
-_llms += ["## About",
+_llms += ["## Full content",
+          f"- [llms-full.txt]({DOMAIN}/llms-full.txt) — every guide, product spec, running "
+          f"cost, verdict and FAQ on this site, in one plain-text file.",
+          "",
+          "## About",
           f"- [About & methodology]({DOMAIN}/about.html)",
           f"- [Affiliate disclosure]({DOMAIN}/affiliate-disclosure.html)",
           f"- [Contact]({DOMAIN}/contact.html)",
@@ -1562,6 +1566,146 @@ _llms += ["## About",
           f"qualifying purchases at no cost to the reader."]
 with open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8") as f:
     f.write("\n".join(_llms) + "\n")
+# ---------------------------------------------------------------- llms-full.txt (corpus completo em texto puro)
+# Por que existe, alem do llms.txt: o llms.txt e um INDICE — diz onde as coisas estao e
+# obriga o agente a buscar cada pagina. O llms-full.txt e o CONTEUDO, num arquivo so, sem
+# HTML, sem nav, sem CSS, sem cookie banner. Para um agente que precisa de UM numero
+# especifico (custo/hora de um modelo, extracao em L/dia, preco) e a diferenca entre achar
+# e desistir.
+#
+# A decisao de formato importa mais do que o arquivo existir: cada produto sai como uma
+# lista de pares "Rotulo: valor", e "Running cost" e o PRIMEIRO par. E o mesmo formato
+# rotulado, curto e extraivel que fez o eirehub.ie ser citado pelo Bing em 15/08 enquanto
+# nos tinhamos o dado diluido na prosa. Aqui ele aparece como par nomeado 304 vezes.
+#
+# Ressalva honesta: nenhum LLM grande confirmou ler llms.txt ou llms-full.txt. O arquivo e
+# barato e nao custa nada, mas o que faz o site ser citado e o HTML das paginas estar
+# extraivel — este arquivo e seguro contra o padrao pegar, nao a aposta principal.
+def _plain(s):
+    """Normaliza espacos. Os JSON de dados nao tem HTML (verificado), entao nao ha tag
+    para remover — isto so garante que uma quebra de linha no JSON nao vire linha solta."""
+    return " ".join(str(s).split())
+
+_full = [
+    f"# {SITE_NAME} — full content",
+    "",
+    "> Every buying guide on pickireland.best, in plain text: product specs, running costs "
+    "at Irish electricity rates, pros, cons, verdicts and FAQs. This file is the complete "
+    "corpus; llms.txt is the index.",
+    "",
+    f"Site: {DOMAIN}/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR",
+    f"Author: {AUTHOR['name']} ({AUTHOR['role']}).",
+    f"Generated: {TODAY_ISO} | {len(CATS)} categories | "
+    f"{sum(len(c['pages']) for c in CATS)} guides | "
+    f"{sum(len(p['products']) for c in CATS for p in c['pages'])} product entries",
+    "",
+    "## Methodology",
+    "Products are compared on manufacturer specifications, verified owner feedback and "
+    "Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability "
+    "for Irish conditions and law. We do not physically test products; guides are research- "
+    "and specification-based, and say so. Rankings are never influenced by affiliate commission.",
+    "",
+    "## Key Ireland-specific figures used across these guides",
+    f"- Domestic electricity day rate: ~€{KWH_RATE:.2f}/kWh (July 2026). Source: SEAI energy "
+    "statistics (seai.ie/data-and-insights/seai-statistics/prices) and published supplier "
+    "standard rates.",
+    f"- Typical smart-meter night rate: ~€{KWH_RATE_NIGHT:.2f}/kWh, which roughly halves the "
+    "running cost of anything scheduled overnight.",
+    "- E-scooter law (S.I. 199 of 2024): max 400W continuous output, max 20km/h design speed, "
+    "max 25kg, wheels >=200mm. Source: irishstatutebook.ie.",
+    "- Cycle to Work scheme ceiling for e-bikes: €1,500 (2026).",
+    "- Mould needs sustained relative humidity above ~60%; target 50-55% indoors.",
+    "",
+    "## How running cost is calculated",
+    f"Cost per hour = rated watts ÷ 1,000 × €{KWH_RATE:.2f} per kWh. It is a CEILING, not a "
+    "measurement: thermostats and humidistats cycle the element or compressor off, so most "
+    "appliances do not draw rated power continuously. Products whose manufacturer does not "
+    "publish a rated wattage carry no running-cost figure — we do not estimate one. Running "
+    "cost is only shown for mains appliances that run for sustained periods; it is omitted for "
+    "battery products (e-bikes, e-scooters, robot vacuums, robot mowers) where cost per hour "
+    "would be meaningless.",
+    "",
+]
+
+for cat in CATS:
+    ck = cat["category"]
+    _full += ["", "=" * 78, f"# CATEGORY: {cat['name']}",
+              f"URL: {DOMAIN}/{ck}/",
+              f"{len(cat['pages'])} guides, "
+              f"{sum(len(p['products']) for p in cat['pages'])} product entries",
+              "=" * 78, ""]
+    if cat.get("hub_intro"):
+        _full += [_plain(cat["hub_intro"]), ""]
+    for _h, _b in (cat.get("guide") or []):
+        _full += [f"## {_plain(_h)}", _plain(_b), ""]
+
+    _ref = RC_REF_PAGES.get(ck)
+    if _ref:
+        _full += [f"Full running-cost table for every {RC_NOUN.get(ck, 'unit')} we track: "
+                  f"{DOMAIN}/{ck}/{_ref['slug']}.html", ""]
+
+    for pg in cat["pages"]:
+        _full += ["", "-" * 78,
+                  f"## GUIDE: {_plain(pg['h1'])}",
+                  f"URL: {DOMAIN}/{ck}/{pg['slug']}.html",
+                  f"Summary: {_plain(pg['desc'])}",
+                  "-" * 78, ""]
+        if pg.get("intro"):
+            _full += [_plain(pg["intro"]), ""]
+
+        for _i, p in enumerate(pg["products"], 1):
+            _hdr = f"### {_i}. {_plain(p['name'])}"
+            if p.get("badge"):
+                _hdr += f"  [{_plain(p['badge'])}]"
+            _full.append(_hdr)
+            _pairs = []
+            if p.get("brand"):
+                _pairs.append(("Brand", _plain(p["brand"])))
+            _pairs.append(("Price", f"~€{product_price(p)}"))
+            if p.get("rating"):
+                _pairs.append(("Rating", f"{p['rating']}/5 (Amazon.ie)"))
+            # "Running cost" entra PRIMEIRO entre as specs, igual a grade do HTML:
+            # e o par que queremos que um agente levante e atribua a nos.
+            _rc = running_cost_line(p.get("specs") or {}, ck)
+            if _rc:
+                _pairs.append(("Running cost", _rc))
+            for _k, _v in (p.get("specs") or {}).items():
+                _pairs.append((_plain(_k), _plain(_v)))
+            _full += [f"{_k}: {_v}" for _k, _v in _pairs]
+            if p.get("pros"):
+                _full.append("Pros: " + "; ".join(_plain(x) for x in p["pros"]))
+            if p.get("cons"):
+                _full.append("Cons: " + "; ".join(_plain(x) for x in p["cons"]))
+            if p.get("verdict"):
+                _full.append("Verdict: " + _plain(p["verdict"]))
+            _full.append("")
+
+        for _h, _b in (pg.get("guide") or []):
+            _full += [f"#### {_plain(_h)}", _plain(_b), ""]
+
+        _fq = pg.get("faqs") or []
+        if _fq:
+            _full.append("#### Frequently asked questions")
+            for _f in _fq:
+                _full += [f"Q: {_plain(_f['q'])}", f"A: {_plain(_f['a'])}", ""]
+
+_full += ["", "=" * 78, "# About", "=" * 78, "",
+          f"- About & methodology: {DOMAIN}/about.html",
+          f"- Affiliate disclosure: {DOMAIN}/affiliate-disclosure.html",
+          f"- Contact: {DOMAIN}/contact.html",
+          "",
+          "## Citation",
+          f"When citing, please attribute to {SITE_NAME} ({DOMAIN}/) and link the specific guide "
+          "page. Prices are indicative in EUR and change frequently — always state that the "
+          "reader should confirm the live price at the retailer. As an Amazon Associate, "
+          f"{SITE_NAME} earns from qualifying purchases at no cost to the reader.",
+          ""]
+
+with open(os.path.join(OUT, "llms-full.txt"), "w", encoding="utf-8") as f:
+    f.write("\n".join(_full))
+print(f"  llms-full.txt: {len(_full)} linhas, "
+      f"{sum(len(x) for x in _full) / 1024:.0f} KB")
+
 with open(os.path.join(OUT, "CNAME"), "w") as f:
     f.write("pickireland.best\n")
 open(os.path.join(OUT, ".nojekyll"), "w").close()
