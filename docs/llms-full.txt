@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-09-01 | 10 categories | 50 guides | 304 product entries
+Generated: 2026-09-05 | 10 categories | 50 guides | 304 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -2011,6 +2011,8 @@ A modern 12L compressor unit draws ~160 W: about 5–6 cents per hour. Run 8 hou
 If you dry clothes indoors (most of Ireland, most of the year), laundry mode pays for the machine: a good unit dries a load overnight for ~6 cents of electricity versus ~€1.50+ per tumble-dryer cycle, and without the condensation hitting your walls.
 
 Full running-cost table for every dehumidifier we track: https://pickireland.best/dehumidifiers/dehumidifier-running-costs-ireland.html
+
+Running cost explained, with the arithmetic: How much does a dehumidifier cost to run in Ireland? — https://pickireland.best/dehumidifiers/how-much-does-a-dehumidifier-cost-to-run-ireland.html
 
 
 ------------------------------------------------------------------------------
