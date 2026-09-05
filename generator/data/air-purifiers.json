@@ -1,1101 +1,1123 @@
 {
- "category": "air-purifiers",
- "name": "Air Purifiers",
- "emoji": "🌬️",
- "hub_intro": "Irish homes have an indoor air problem nobody talks about: damp-driven mould spores, dust mites thriving in humidity, pollen seasons that now run March to September, and solid-fuel smoke drifting through winter estates. A true HEPA purifier removes 99.95%+ of these particles. We compare real performance — CADR, filter costs, noise — across every budget.",
- "guide": [
-  [
-   "HEPA means H13 or it doesn't mean much",
-   "Look for 'True HEPA' H13/H14 — filters capturing 99.95%+ of 0.3-micron particles. 'HEPA-type' or 'HEPA-like' is marketing for lesser filters. For Irish mould spores (1–20 microns) and pollen (10–100 microns), genuine H13 catches essentially everything."
+  "category": "air-purifiers",
+  "name": "Air Purifiers",
+  "emoji": "🌬️",
+  "hub_intro": "Irish homes have an indoor air problem nobody talks about: damp-driven mould spores, dust mites thriving in humidity, pollen seasons that now run March to September, and solid-fuel smoke drifting through winter estates. A true HEPA purifier removes 99.95%+ of these particles. We compare real performance — CADR, filter costs, noise — across every budget.",
+  "guide": [
+    [
+      "HEPA means H13 or it doesn't mean much",
+      "Look for 'True HEPA' H13/H14 — filters capturing 99.95%+ of 0.3-micron particles. 'HEPA-type' or 'HEPA-like' is marketing for lesser filters. For Irish mould spores (1–20 microns) and pollen (10–100 microns), genuine H13 catches essentially everything."
+    ],
+    [
+      "CADR is the horsepower figure",
+      "Clean Air Delivery Rate tells you how much purified air the unit moves. Match it to your room: you want the room's volume cleaned 3–5 times per hour. A typical 20 m² Irish living room (~50 m³) needs a CADR of 150–250 m³/h minimum."
+    ],
+    [
+      "Filter costs are the real price",
+      "A €150 purifier with €60 annual filters costs more over five years than a €250 unit with €30 filters. We factor replacement costs into every recommendation — it's where cheap brands claw their money back."
+    ],
+    [
+      "Placement and runtime",
+      "Run continuously on low/auto rather than blasting occasionally — particle levels rebound within hours. Place 30+ cm from walls, ideally in the room you sleep in: you spend a third of your life there breathing its air."
+    ]
   ],
-  [
-   "CADR is the horsepower figure",
-   "Clean Air Delivery Rate tells you how much purified air the unit moves. Match it to your room: you want the room's volume cleaned 3–5 times per hour. A typical 20 m² Irish living room (~50 m³) needs a CADR of 150–250 m³/h minimum."
+  "faqs": [
+    {
+      "q": "Do air purifiers help with mould in Irish homes?",
+      "a": "They capture airborne mould spores (H13 HEPA catches them efficiently) which reduces spread and inhalation — but they don't fix the moisture source. The winning combo for damp Irish homes is dehumidifier (stops growth) + purifier (clears spores)."
+    },
+    {
+      "q": "Do air purifiers help with hay fever?",
+      "a": "Significantly, for indoor relief. Running a HEPA purifier in the bedroom with windows closed during pollen season measurably cuts indoor pollen. Sufferers report better sleep within days. Pair with showering before bed during peak grass pollen (May–July in Ireland)."
+    },
+    {
+      "q": "What size air purifier do I need?",
+      "a": "Match CADR to room volume: aim for 3–5 air changes per hour. Bedroom (~30 m³): CADR 100–150. Living room (~50 m³): CADR 150–250. Open-plan (~80 m³+): CADR 300+. Undersized purifiers running flat-out are loud and ineffective."
+    },
+    {
+      "q": "How much do air purifiers cost to run in Ireland?",
+      "a": "Very little: most run 5–30 W on low/auto — roughly €1–3 per month running continuously. The real cost is filters: €25–70 per year depending on brand. Check filter prices before buying the machine."
+    },
+    {
+      "q": "Air purifier or dehumidifier for an Irish home?",
+      "a": "Different jobs: dehumidifiers remove moisture (fixing mould's cause, condensation, damp), purifiers remove particles (spores, pollen, dust, smoke). Damp/mould house: dehumidifier first. Allergies/asthma: purifier first. Many Irish homes genuinely benefit from both."
+    },
+    {
+      "q": "Are air purifiers worth it for asthma?",
+      "a": "Clinical evidence supports HEPA filtration reducing airborne triggers — dust mite allergen, pollen, mould spores, smoke. Many Irish asthma sufferers report fewer night symptoms with a bedroom purifier. They complement, never replace, prescribed treatment. This is general information, not medical advice."
+    },
+    {
+      "q": "Do air purifiers remove smells and smoke?",
+      "a": "Only models with substantial activated carbon filters handle odours and gases — thin carbon sheets do little. For turf/wood smoke drifting in, or cooking smells, prioritise units with 0.5 kg+ carbon. HEPA alone removes smoke particles but not the smell."
+    },
+    {
+      "q": "Should I sleep with an air purifier on?",
+      "a": "Yes — night mode exists for exactly this. Bedroom air quality matters most during your 8 sleeping hours. Pick a unit that drops below 25 dB in sleep mode with display-off, and let it run all night on auto."
+    }
   ],
-  [
-   "Filter costs are the real price",
-   "A €150 purifier with €60 annual filters costs more over five years than a €250 unit with €30 filters. We factor replacement costs into every recommendation — it's where cheap brands claw their money back."
-  ],
-  [
-   "Placement and runtime",
-   "Run continuously on low/auto rather than blasting occasionally — particle levels rebound within hours. Place 30+ cm from walls, ideally in the room you sleep in: you spend a third of your life there breathing its air."
+  "pages": [
+    {
+      "slug": "best-air-purifiers-ireland",
+      "title": "Best Air Purifiers in Ireland 2026 — HEPA Picks Compared",
+      "desc": "Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026.",
+      "h1": "The Best Air Purifiers in Ireland (2026)",
+      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €121.",
+      "faq_idx": [
+        0,
+        2,
+        3
+      ],
+      "guide": [
+        [
+          "What are Irish air purifiers actually filtering out?",
+          "Irish indoor air is dominated by year-round mould spores (2–10 microns) from persistent humidity, large grass pollen (20–35 microns) that any decent filter traps easily, and sub-micron combustion particles from open fires and stoves that no fibre filter touches alone. That mix calls for a true H13 filter rated to 0.3 microns plus genuine activated carbon measured by weight, not a thin mesh sheet. The particle mix in an Irish house is not the continental one the marketing is written for, and combustion is the awkward fraction: smoke from open fires, ranges and stoves across older estates produces PM2.5 and PM1 particles well under a micron, plus gases that no fibre filter touches at all. A unit optimised purely for pollen will underperform badly on a still winter evening."
+        ],
+        [
+          "How do you read an air purifier's CADR and room-size claim?",
+          "Coverage claims on the box — \"cleans 90 m²\" — are usually calculated at one air change per hour on maximum fan speed. One air change is close to useless; three to five is the target. Work from the CADR figure in cubic metres per hour instead and divide it by your room volume. A 250 m³/h unit in a 20 m² sitting room with 2.4 m ceilings, so 48 m³, delivers about five changes an hour, which is genuinely good. The same unit in a 45 m² open-plan space of 108 m³ manages barely two. Check which speed the CADR was measured at, too, because top speed on most machines is unusable in an occupied room. If a listing quotes only square metres and never gives a m³/h figure, the omission is the answer."
+        ],
+        [
+          "What does an air purifier really cost over five years?",
+          "Price the machine over five years, not at the checkout. Take a €200 mid-range unit with a €45 combined HEPA-and-carbon filter replaced annually: that is €225 in consumables. Electricity is larger than most people assume — 20 W running continuously is 175 kWh a year, which at Irish standard rates of roughly 38 cent a unit comes to about €67 a year, or €333 across five years. Running total: €758. Now take a €110 budget unit whose only filter costs €55 and is rated for six months: €550 of filters over the same period, usually with a less efficient motor as well. The cheaper box wins at the till and loses everywhere afterwards. Check the replacement filter's current price and Irish stock before buying the machine; that one search prevents most of the regret."
+        ],
+        [
+          "Which air purifier certifications actually mean something?",
+          "Three marks are worth looking for here. AHAM Verifide means the CADR figures were measured to a common test standard rather than self-declared. The ECARF seal and the Allergy UK Seal of Approval indicate that someone other than the manufacturer assessed allergen reduction — imperfect, but better than a brand's own bar chart. EN 1822 or ISO 29463 classification, the source of the H13 and H14 grades, tells you the media itself was tested, though it says nothing about whether the housing leaks around it. Gasketed, sealed filter chambers matter more than the grade on the sticker: air takes the easiest path, and on cheaply moulded bodies that path runs around the filter rather than through it. Absent all of these, ask whether the brand publishes a m³/h CADR and a dB(A) figure at a stated distance."
+        ],
+        [
+          "Buying in Ireland: filters, warranty and support",
+          "Physical retail for purifiers is thin here, so most purchases happen online through Amazon.ie, Currys, Harvey Norman, DID or a brand's own store. Two practical consequences follow. First, confirm the replacement filter has an Irish or EU fulfilment route; owner reports consistently mention long waits and unexpected customs charges on filters shipped from outside the EU, which quietly doubles their cost. Second, check the warranty is honoured by an EU entity, because posting a six-kilo appliance to a UK service address is rarely worth the trouble. Third-party filters exist for popular models at roughly half price, but some machines carry an RFID chip that refuses to reset the filter counter for a non-genuine part. That is not a dealbreaker, just a cost worth pricing in before the box is sitting in your hall."
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Which room should I put my first air purifier in?",
+          "a": "The bedroom, in almost every case. You spend seven to nine hours a night in there with the door closed, which is both the longest continuous exposure of your day and by far the easiest volume for a purifier to actually clean — a sealed 12 m² room is a fair fight, an open-plan downstairs is not. A sitting room is the second choice if you have an open fire or a stove, or if someone in the house is home all day. Only add a second unit once the first is running continuously and you have judged whether it made a difference."
+        },
+        {
+          "q": "Do I need to run an air purifier all year in Ireland, or just in pollen season?",
+          "a": "All year suits most Irish homes, because the triggers rotate rather than stop. Tree and grass pollen run from February through July, weed pollen and outdoor mould spores carry into September, and the damp months that follow bring indoor spores and solid-fuel smoke drifting from neighbouring chimneys. There is no genuinely clean month. Running continuously on a low or auto setting costs a few euro a month and stops particle levels rebounding, which they do within a couple of hours of the unit being switched off. Seasonal-only use makes sense if you have a single confirmed trigger and nothing else."
+        },
+        {
+          "q": "Can an air purifier replace opening the windows?",
+          "a": "No, and they solve different problems. A purifier recirculates and filters air already in the room; it removes particles but does nothing about carbon dioxide, cooking moisture or the stale feel of an unventilated space. Irish homes, especially well-sealed newer builds, need ventilation to control humidity — and humidity control is what actually prevents mould forming in the first place. The workable compromise during pollen season is to ventilate briefly in the middle of the day or just after rain, when grass counts are lower, then close up and let the purifier deal with what came in."
+        },
+        {
+          "q": "Do air purifiers remove radon or carbon monoxide?",
+          "a": "No. Radon is a radioactive gas and a real concern in parts of Ireland — the EPA publishes high-radon maps covering large areas of the west, midlands and southeast — but it is a gas, and HEPA media only captures particles. Activated carbon does not hold it either. Radon is dealt with through testing, sub-floor sumps and ventilation. Carbon monoxide is the same story: no domestic purifier removes it, and none is any substitute for a working CO alarm. If a listing claims otherwise, that alone tells you what the brand's other claims are worth."
+        },
+        {
+          "q": "How long does an air purifier take to clean a room?",
+          "a": "Roughly the time needed for three to four air changes, so with a correctly sized unit you are looking at 30 to 60 minutes from a standing start on a medium speed. The arithmetic is simple: divide the CADR in m³/h by the room volume to get changes per hour. A 200 m³/h machine in a 48 m³ sitting room manages about four an hour, so most of the improvement lands inside the first twenty minutes. The catch is that particles keep arriving from outside and from ordinary activity, which is why continuous low-speed running beats occasional blasts on turbo."
+        },
+        {
+          "q": "Are third-party replacement filters worth buying?",
+          "a": "Often, with two caveats. Generic filters for popular models typically cost 40–60% less, and the better ones use genuine H13 media, but there is no way to verify the grade from a listing photograph — buy from sellers with a long review history and check that the pleat count and depth match the original. The second issue is chipped filters: some manufacturers embed an RFID tag so the machine will not reset its counter for a non-genuine part. You can generally still run it, but the reminder light stays on. Factor that in when choosing the machine, not afterwards."
+        }
+      ],
+      "products": [
+        {
+          "id": "apr-001",
+          "asin": "B0BX4LB7HL",
+          "name": "Philips 600 Series Air Purifier",
+          "brand": "Philips",
+          "price": 80,
+          "rating": 4.6,
+          "badge": "Best Overall",
+          "specs": {
+            "Coverage": "Up to 44 m²",
+            "Filter": "True HEPA",
+            "Energy": "Ultra-efficient",
+            "Noise": "Very quiet",
+            "Power": "12 W"
+          },
+          "pros": [
+            "Philips sensor accuracy",
+            "Ultra-low energy use",
+            "Near-silent sleep mode"
+          ],
+          "cons": [
+            "No app on base model",
+            "Filter replacements yearly"
+          ],
+          "verdict": "Rated to cover up to 44 square metres with a true HEPA filter, this Philips pairs sensor-driven accuracy with ultra-low energy consumption, which matters if it's going to run most of the day in an Irish home. Owners on Amazon.ie regularly point to the near-silent sleep mode as the standout feature — it's quiet enough for a bedroom without a dedicated bedroom model. The base unit skips app connectivity, so there's no remote monitoring or scheduling from your phone, and filters need replacing yearly, an ongoing cost worth budgeting for. It suits anyone wanting reliable everyday coverage for a living room or bedroom-sized space without smart-home features; buyers who want app control should look at the Levoit instead."
+        },
+        {
+          "id": "apr-002",
+          "asin": "B0CMQPZC72",
+          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "brand": "Levoit",
+          "price": 121,
+          "rating": 4.7,
+          "badge": "Best Smart Large-Room",
+          "specs": {
+            "Coverage": "Up to 70 m²",
+            "Filter": "H13 HEPA",
+            "Smart": "Alexa + app",
+            "Modes": "Auto, sleep",
+            "Power": "37 W"
+          },
+          "pros": [
+            "Covers open-plan spaces",
+            "Excellent app and auto mode",
+            "Cheap, available filters"
+          ],
+          "cons": [
+            "Big white cylinder",
+            "Top speed is loud"
+          ],
+          "verdict": "With coverage rated up to 70 square metres and an H13 HEPA filter, this Levoit is sized for open-plan living rooms or knocked-through spaces that smaller purifiers can't keep up with. Alexa and app integration let it run in auto mode, adjusting itself to conditions, and replacement filters are inexpensive and easy to find, which keeps running costs down over the 4.7-star-rated unit's lifetime. It's a large white cylinder that's hard to disguise in a small room, and at top fan speed several owners note it gets noticeably loud — fine for daytime background running, less ideal right beside a bed at night. Best suited to bigger, open-plan spaces; the smaller Levoit bedroom model below is the better fit for sleeping areas."
+        },
+        {
+          "id": "apr-003",
+          "asin": "B0CG1N11DV",
+          "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
+          "brand": "Levoit",
+          "price": 61,
+          "rating": 4.6,
+          "badge": "Best for Bedrooms",
+          "specs": {
+            "Coverage": "Bedrooms",
+            "Filter": "HEPA",
+            "Extras": "Fragrance sponge",
+            "Noise": "Near-silent low",
+            "Power": "7 W"
+          },
+          "pros": [
+            "Designed for sleep — very quiet",
+            "Optional gentle fragrance",
+            "Compact bedside size"
+          ],
+          "cons": [
+            "Smaller rooms only",
+            "Basic display"
+          ],
+          "verdict": "Built specifically around sleep rather than maximum coverage, this Levoit runs near-silent on its low setting, and its compact size means it fits comfortably on a nightstand rather than taking up floor space. A HEPA filter handles the core air-cleaning job, and an optional fragrance sponge lets you add a light scent if you want one — a feature the larger open-plan model doesn't bother with. The trade-off for that quiet, compact design is scale: it's rated for bedroom-sized rooms only, not open-plan living spaces, and the display is basic with none of the smart-app extras found on Levoit's bigger unit. Ideal for a bedroom or small box room; anyone purifying a larger shared space needs the 70 m² model instead."
+        },
+        {
+          "id": "apr-004",
+          "asin": "B0FJLZFDHR",
+          "name": "AZEUS True HEPA Air Purifier (GL-FS32)",
+          "brand": "AZEUS",
+          "price": 90,
+          "rating": 4.4,
+          "badge": "Best 4-Stage Filtration",
+          "specs": {
+            "Filtration": "4-stage",
+            "Filter": "True HEPA",
+            "Coverage": "Large rooms",
+            "Noise": "Quiet operation",
+            "Power": "45 W"
+          },
+          "pros": [
+            "4-stage filtration",
+            "Strong large-room airflow",
+            "Quiet for its size"
+          ],
+          "cons": [
+            "Brand less known in Ireland",
+            "Filter sourcing online"
+          ],
+          "verdict": "Four separate filtration stages built around a true HEPA core give this AZEUS more filtration depth on paper than several single-stage competitors, and it's built with large-room airflow in mind rather than just a bedroom or office corner. Reviewers note it stays quiet given its size and output, which is a reasonable trade against the coverage on offer. AZEUS isn't a brand with much recognition in Ireland yet, so buyers are relying more on the 4.4-star Amazon.ie score than on established reputation, and replacement filters generally need to be sourced online rather than picked up locally. A sensible pick for anyone prioritising filtration stages and large-room power over brand familiarity; those who want a known name should look to Philips or Levoit."
+        },
+        {
+          "id": "apr-005",
+          "asin": "B0BXWYLSPP",
+          "name": "MELEDEN HEPA Air Purifier",
+          "brand": "MELEDEN",
+          "price": 29,
+          "rating": 4.1,
+          "badge": "Best Budget",
+          "specs": {
+            "Filter": "HEPA",
+            "Targets": "Smoke, pollen, dander",
+            "Size": "Compact",
+            "Noise": "Low",
+            "Power": "2.5 W"
+          },
+          "pros": [
+            "Real HEPA for €29",
+            "Tackles pollen and pet dander",
+            "Tiny footprint"
+          ],
+          "cons": [
+            "Small rooms strictly",
+            "Basic controls"
+          ],
+          "verdict": "€29 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above."
+        },
+        {
+          "id": "apr-027",
+          "asin": "B07T8ZQHN2",
+          "name": "MIKO HEPA Air Purifier for Home",
+          "brand": "MIKO",
+          "price": 95,
+          "rating": 4.4,
+          "badge": "Worth Considering",
+          "specs": {},
+          "pros": [
+            "€95 — 5th-cheapest of the 6 picks here"
+          ],
+          "cons": [
+            "3 of the 6 picks here are better rated by owners",
+            "€15 more than our top pick, which owners rate higher at 4.6★"
+          ],
+          "verdict": "MIKO's HEPA purifier holds a 4.4-star owner rating on Amazon.ie at a €95 price point that sits squarely between the AZEUS and the Levoit large-room model, making it a reasonable middle-ground option if neither of those quite fits your budget. Buying through Amazon.ie means the usual full returns protection if the fit isn't right for your room. It's a newer addition to our comparison set than the Philips or Levoit models, so there's less accumulated owner history to draw on, and post-purchase support has been reported to vary depending on the specific seller fulfilling the order. Worth a look for buyers comparison-shopping on price who are comfortable with a less-established brand; those wanting maximum certainty should default to Philips or Levoit."
+        }
+      ]
+    },
+    {
+      "slug": "best-air-purifiers-allergies-hay-fever-ireland",
+      "title": "Best Air Purifiers for Allergies & Hay Fever Ireland 2026",
+      "desc": "Suffer hay fever or dust allergies in Ireland? The best HEPA air purifiers for pollen, dust mites and pet dander, compared for 2026.",
+      "h1": "Best Air Purifiers for Allergies & Hay Fever in Ireland",
+      "intro": "Irish grass pollen season now stretches from May into August, with tree pollen from March — and a third of us react. A bedroom HEPA purifier won't fix outdoors, but it gives allergy sufferers what antihistamines can't: eight hours of genuinely low-pollen sleep. We ranked these six on allergen capture, sleep-mode silence and certified performance.",
+      "faq_idx": [
+        1,
+        7,
+        5
+      ],
+      "guide": [
+        [
+          "When does hay fever season actually run in Ireland?",
+          "Irish allergy season is really three overlapping ones: hazel and alder from February, birch and ash from March to May, and grass — the main hay-fever trigger — from mid-May through July, peaking around mid-June. Met Éireann publishes a daily pollen forecast from 1 February to 30 September, the practical window for keeping windows shut and a purifier running. Weed pollen and outdoor mould spores then carry the load into September, especially after warm damp spells. If you react only in June you can run the machine seasonally, but most Irish sufferers are sensitised to more than one trigger and do better leaving it on from early spring, with auto mode throttling it back on quiet days."
+        ],
+        [
+          "Why the bedroom beats the sitting room",
+          "The highest-value place for an allergy purifier is beside the bed. You spend seven to nine unbroken hours there with the door shut, and that is the only stretch of the day when the machine works on a small, sealed volume without fresh pollen walking in on clothes and hair. A 12 m² bedroom with a 2.4 m ceiling is about 29 m³, so a modest 120 m³/h CADR gives four air changes an hour — comfortably enough. The routine matters as much as the hardware: close the window by late afternoon, when grass pollen settles back to ground level on a warm evening, shower and wash your hair before bed, and keep the day's clothes out of the room. The purifier then handles what remains airborne instead of fighting a constant inflow."
+        ],
+        [
+          "Why won't a HEPA filter fix a dust mite problem?",
+          "House dust mites thrive in Irish humidity, and their allergen — a protein carried in their droppings — is a common year-round trigger. But that allergen mostly rides on heavy particles which settle within minutes of being disturbed, so it spends very little time suspended. A purifier catches what gets stirred up during bed-making and hoovering; it cannot pull allergen out of a mattress or a carpet. If mites are your diagnosis, the machine is a supporting player behind allergen-proof mattress and pillow encasements, hot-washing bedding weekly, and keeping indoor relative humidity below 50%. Pet dander is the opposite case entirely: it is light, stays suspended for hours, and is exactly the load HEPA filtration removes well. Match the tool to the allergen rather than buying on the word \"allergy\" alone."
+        ],
+        [
+          "Why does a sealed housing matter more than the filter grade?",
+          "An H13 filter only helps if all of the air goes through it. Cheaply moulded bodies without gaskets let a slice of the airflow slip around the media, and for an allergy sufferer that bypass is the difference between relief and nothing. Look for a filter seating against a rubber or foam seal and a door that clamps rather than clips. The pre-filter matters too: grains at 20–35 microns and pet hair clog fine media fast, so a washable mesh pre-filter rinsed monthly through summer adds months to the life of the expensive element behind it. Independent marks — the ECARF seal, the Allergy UK Seal of Approval — at least indicate somebody other than the manufacturer assessed allergen performance. Neither guarantees results, but their absence on a product sold specifically for allergies is worth noticing."
+        ],
+        [
+          "What a hay fever season actually costs to run",
+          "Run the numbers for a bedroom unit across the Irish season. A machine drawing 8 W on a low overnight setting, eight hours a night from mid-May to the end of August, uses under 8 kWh — around €3 for the entire season at the 38 cent per kWh most Irish standard tariffs charge in 2026. Leave the same unit running 24 hours a day year-round at 15 W and it is 131 kWh, close to €50 a year. Filters are the real expense, and allergy households replace them sooner because pollen and dander load the media faster, so budget €40–70 annually rather than trusting the manufacturer's optimistic twelve months. Set against fifteen weeks of antihistamines and broken sleep that is modest — but compare units on filter price, not sticker price."
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Do air purifiers actually stop hay fever symptoms?",
+          "a": "They reduce indoor exposure rather than cure the allergy. With windows shut and a correctly sized HEPA unit running in the bedroom, indoor pollen levels drop substantially, and the benefit most Irish sufferers describe is better sleep and a milder morning — you start the day without an overnight allergen load already in your system. It does nothing for the hours spent outdoors, commuting or at work, so treat it as one layer alongside antihistamines, nasal sprays and the usual avoidance habits. Anyone with severe or worsening symptoms should be talking to a pharmacist or GP rather than shopping for appliances."
+        },
+        {
+          "q": "Should I keep bedroom windows closed during grass pollen season?",
+          "a": "Yes, from mid-May to late July especially, and above all in the early morning and the evening. Grass pollen rises through the morning as the air warms, stays high all afternoon, then sinks back to ground level as things cool — the classic hay fever window on a warm Irish evening. Air the room in the middle of the day, or after rain has washed the air, then close up. A purifier running with the window open during a high count is fighting a losing battle: it can only filter air faster than new pollen arrives, and it will not win that race."
+        },
+        {
+          "q": "How long before I notice a difference?",
+          "a": "For the air itself, under an hour. For symptoms, give it two to three weeks of consistent nightly use before judging. Allergic inflammation is cumulative — nasal passages irritated for months do not settle overnight, and one good night is not evidence in either direction. Run it every night with the door closed and the window shut, keep the rest of your routine steady, and compare how you wake across a fortnight. If nothing has shifted after a month of proper use in a correctly sized room, pollen is probably not your main indoor trigger and it is worth looking at mites, damp or pets."
+        },
+        {
+          "q": "Will a purifier help if the dog or cat sleeps in the bedroom?",
+          "a": "It will help, but the animal undoes much of the work. Pet dander is light enough to stay suspended for hours, which is precisely what HEPA filtration handles well, and a unit running beside the bed measurably lowers the airborne load. The problem is supply: an animal in the room replenishes dander continuously and deposits it in the bedding you breathe against all night. Keeping the pet out of the bedroom achieves more than any purifier will. If that is not happening, expect faster filter loading and budget for replacement well ahead of the stated interval."
+        },
+        {
+          "q": "Does an air purifier help with autumn mould spore allergy?",
+          "a": "Yes, and it is an underrated use here. Outdoor mould spore counts — Alternaria and Cladosporium in particular — climb through late summer and peak around September and October, when mild damp weather follows a warm spell. Those spores sit in the 2–10 micron range and are captured efficiently by H13 media. Indoors, the same filter catches spores released from damp patches and from condensation forming on cold external walls. What it cannot do is stop them being produced: where there is visible mould or persistent condensation, the moisture itself has to be dealt with."
+        },
+        {
+          "q": "Should the purifier be right beside the bed or across the room?",
+          "a": "Beside the bed, but not aimed at your face. A metre or two from the pillow puts the clean-air outlet inside your breathing zone, which is where it does most good, and it keeps the controls in reach. Leave 30 cm clear of the wall and the headboard so the intake is not blocked, and angle the outlet along the bed rather than at it — constant airflow on your face is drying, and in an unheated Irish bedroom in February it is cold as well. A low bedside locker is usually the best compromise."
+        }
+      ],
+      "products": [
+        {
+          "id": "apr-006",
+          "asin": "B0BX4LB7HL",
+          "name": "Philips 600 Series Air Purifier",
+          "brand": "Philips",
+          "price": 80,
+          "rating": 4.6,
+          "badge": "Best Allergy Pick",
+          "specs": {
+            "Coverage": "Up to 44 m²",
+            "Filter": "True HEPA",
+            "Energy": "Ultra-efficient",
+            "Noise": "Very quiet",
+            "Power": "12 W"
+          },
+          "pros": [
+            "Philips sensor accuracy",
+            "Ultra-low energy use",
+            "Near-silent sleep mode"
+          ],
+          "cons": [
+            "No app on base model",
+            "Filter replacements yearly"
+          ],
+          "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
+        },
+        {
+          "id": "apr-007",
+          "asin": "B0CMQPZC72",
+          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "brand": "Levoit",
+          "price": 121,
+          "rating": 4.7,
+          "badge": "Best Whole-Room Allergy",
+          "specs": {
+            "Coverage": "Up to 70 m²",
+            "Filter": "H13 HEPA",
+            "Smart": "Alexa + app",
+            "Modes": "Auto, sleep",
+            "Power": "37 W"
+          },
+          "pros": [
+            "Covers open-plan spaces",
+            "Excellent app and auto mode",
+            "Cheap, available filters"
+          ],
+          "cons": [
+            "Big white cylinder",
+            "Top speed is loud"
+          ],
+          "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
+        },
+        {
+          "id": "apr-008",
+          "asin": "B0CG1N11DV",
+          "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
+          "brand": "Levoit",
+          "price": 61,
+          "rating": 4.6,
+          "badge": "Best Bedroom Allergy",
+          "specs": {
+            "Coverage": "Bedrooms",
+            "Filter": "HEPA",
+            "Extras": "Fragrance sponge",
+            "Noise": "Near-silent low",
+            "Power": "7 W"
+          },
+          "pros": [
+            "Designed for sleep — very quiet",
+            "Optional gentle fragrance",
+            "Compact bedside size"
+          ],
+          "cons": [
+            "Smaller rooms only",
+            "Basic display"
+          ],
+          "verdict": "The bedroom specialist: clean air all night without a sound you'll notice."
+        },
+        {
+          "id": "apr-009",
+          "asin": "B0DYHQW1NN",
+          "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
+          "brand": "MELEDEN",
+          "price": 31,
+          "rating": 4.3,
+          "badge": "Best Pet Dander Budget",
+          "specs": {
+            "Filter": "True HEPA H13",
+            "Extras": "Aroma pad",
+            "Use": "Bedroom/pets",
+            "Noise": "Quiet"
+          },
+          "pros": [
+            "H13 filtration at €31",
+            "Pet-focused filter",
+            "Aroma pad bonus"
+          ],
+          "cons": [
+            "Limited coverage",
+            "No auto mode"
+          ],
+          "verdict": "The pet-corner purifier: H13 spore and dander capture for pocket money."
+        },
+        {
+          "id": "apr-010",
+          "asin": "B07QT1WNJP",
+          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
+          "brand": "QUEENTY",
+          "price": 50,
+          "rating": 4.2,
+          "badge": "Best H13 Value",
+          "specs": {
+            "Filter": "H13 HEPA",
+            "Extras": "Ioniser (switchable)",
+            "Coverage": "Medium rooms",
+            "Noise": "Low"
+          },
+          "pros": [
+            "H13 + optional ioniser",
+            "Decent medium-room coverage",
+            "Simple operation"
+          ],
+          "cons": [
+            "Plastic build",
+            "Brand support thin"
+          ],
+          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+        },
+        {
+          "id": "apr-028",
+          "asin": "B08KQHR2KR",
+          "name": "Blueair Blue 511i Max Smart WiFi Air Purifier",
+          "brand": "Blueair",
+          "price": 160,
+          "rating": 4.5,
+          "badge": "Challenger Pick",
+          "specs": {
+            "Coverage": "52 m²",
+            "Power": "17 W"
+          },
+          "pros": [
+            "52 m² coverage",
+            "Strong 4.5★ owner rating"
+          ],
+          "cons": [
+            "3 of the 6 picks here are better rated by owners",
+            "€80 more than our top pick, which owners rate higher at 4.6★"
+          ],
+          "verdict": "Blueair's Blue 511i Max covers a stated 52 m², well beyond the room size our €80 Philips pick targets, and carries a 4.5-star owner rating against the Philips's 4.6. At €160 it's double the price for coverage most Irish bedrooms and sitting rooms don't need. Genuinely the better machine for a large open-plan space; overkill, and overpriced, for the allergy-in-one-room job this page is about."
+        }
+      ]
+    },
+    {
+      "slug": "best-quiet-air-purifiers-bedroom-ireland",
+      "title": "Best Quiet Air Purifiers for Bedrooms Ireland 2026",
+      "desc": "The quietest air purifiers for Irish bedrooms — all under 25 dB in sleep mode, displays off, real HEPA. Compared for 2026.",
+      "h1": "Best Quiet Air Purifiers for Bedrooms in Ireland",
+      "intro": "A bedroom purifier that's too loud gets switched off, and a switched-off purifier cleans nothing. The seven below all run below 25 dB in sleep mode — quieter than a ticking clock — with dimmed or killed displays. We ranked on sleep-mode CADR (how much cleaning survives the silence), because some units go quiet by going useless.",
+      "faq_idx": [
+        7,
+        1,
+        3
+      ],
+      "guide": [
+        [
+          "What does a 25 dB air purifier actually sound like?",
+          "Decibels are logarithmic, so the gap between 25 dB and 35 dB is far wider than it reads — every 10 dB is roughly a doubling of perceived loudness. A quiet Irish bedroom sits around 20-30 dB of background noise at night, so a purifier at 24 dB effectively disappears into it, while one at 38 dB is impossible to ignore at 3am. The catch is measurement. Manufacturer figures are taken in an anechoic chamber at one metre; the same unit on a hard bedside locker 40 cm from your ear, reflecting off a wall, reads higher in practice. Treat quoted sleep-mode numbers as a ranking tool between models rather than a promise. Any figure given without a distance, or as an \"as low as\" range with no speed named, is not really a specification."
+        ],
+        [
+          "Sleep-mode CADR: the number that decides everything",
+          "Any purifier can be silent — switch it off. What matters is how much clean air survives the quiet setting. Brands headline maximum CADR at top speed, which on most machines is 50–55 dB and unusable in an occupied bedroom. The useful question is airflow at the lowest setting. A unit delivering 60–80 m³/h below 25 dB turns over a 29 m³ Irish double bedroom two to three times an hour, which is enough to matter. One that drops to 25 m³/h in order to hit its silence claim gives under one change an hour and is essentially decorative. Where brands publish per-speed tables, read them. Where they do not, owner reports consistently mention whether the low setting moves perceptible air at arm's length, and that crude proxy is better than nothing."
+        ],
+        [
+          "Why are bigger air purifiers usually the quieter ones?",
+          "Noise comes from air velocity and turbulence, not from cleaning. A 360 mm cylindrical unit with a large impeller moves the same volume as a compact tower at a far lower blade speed, and lower blade speed means less broadband hiss. That is why physically larger purifiers tend to be the quiet ones, and why an oversized machine loafing on setting one beats a small one straining on setting three. Motor type matters as well: brushless DC motors run smoother and allow genuinely low speeds, while cheap AC motors have a floor below which they stall or hum. The last variable is tone. Broadband whoosh disappears into sleep; a bearing whine, or a resonance that appears at one particular speed, does not — and it is the most common complaint in long-term owner feedback."
+        ],
+        [
+          "Light, draught and the three-in-the-morning problems",
+          "Two non-acoustic details ruin bedroom purifiers. The first is light: air-quality LEDs, illuminated rings and bright displays are genuinely disruptive in a dark room, so the unit needs a full display-off mode rather than a dimmed one — a strip of tape is a poor answer on a €300 appliance. The second is auto mode. A purifier left on auto ramps up whenever the sensor sees a spike, and in a bedroom that spike is usually you rolling over and disturbing dust. Waking at three to a machine at full tilt defeats the point, so favour models whose sleep mode locks the fan speed instead of merely dimming the lights. Draught is the third consideration: a directional tower pointed at the bed is unpleasantly cold in an Irish bedroom in January."
+        ],
+        [
+          "Overnight running costs and how fast the filter loads",
+          "A bedroom-only purifier is cheap to run. At 6 W on sleep mode for eight hours a night, a full year of overnight use is 17.5 kWh — about €7 at current Irish unit rates. Leave the same unit on low around the clock and it is roughly 53 kWh, or €20 a year. Neither figure should change your decision; filters will. Night-only running loads the media far more slowly than continuous operation, so an element rated for twelve months of constant use often stretches well past that on a bedroom duty cycle. Judge replacement by airflow and smell rather than by the counter, which on most machines simply counts hours regardless of load. Budget €30–60 a year and check that price before buying, because small units are where filter mark-ups are steepest."
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "How many decibels is too loud for a bedroom?",
+          "a": "Above about 30 dB most people notice a purifier in a quiet room, and above 35 dB it becomes the loudest thing in there. A typical Irish bedroom at night has a background of 20–30 dB, so anything at or below 25 dB effectively disappears into it. Remember that manufacturer figures are measured at one metre in a treated room; on a hard bedside locker close to your head, add a few decibels in practice. If you are a light sleeper, prioritise models that publish a dB(A) figure for each fan speed over those quoting a single \"as low as\" number with no context."
+        },
+        {
+          "q": "Is the white noise from a purifier good for sleep?",
+          "a": "For some people, genuinely yes — a steady broadband hiss masks traffic, wind and a partner's movement, and plenty of owners keep a unit running mainly for that. What matters is the character of the sound rather than its level. Smooth, low-frequency airflow noise is easy to sleep through; a bearing whine, a motor hum at one particular speed, or a fan that surges up and down on auto is not, and habituation does not fix it. If you want the masking effect, choose a unit that holds a fixed medium speed rather than one that hunts."
+        },
+        {
+          "q": "Should I use auto mode or sleep mode overnight?",
+          "a": "Sleep mode, in most bedrooms. Auto reacts to the sensor, and the sensor reacts to ordinary night-time events — turning over, the duvet moving, dust stirred as you get up. The result is a machine ramping to a noisy speed at three in the morning, which is the single most common complaint in long-term owner feedback. A fixed low speed cleans a bedroom-sized volume perfectly well across eight hours. Save auto mode for daytime use in living areas, where a spike from cooking or an opened door is genuinely worth an immediate response."
+        },
+        {
+          "q": "Can I put the purifier in a corner or under the bed?",
+          "a": "No to under the bed, and corners are a compromise. Almost all purifiers draw air in through the sides or base and exhaust upwards or forwards, so boxing one in starves the intake, drops actual delivery well below the rated CADR, and makes the motor work harder and louder for less clean air. Aim for 30 cm of clear space around the intake faces, and avoid deep pile carpet if the unit breathes from underneath. Where floor space is tight, a tall slim tower against a wall loses less performance than a cylindrical model jammed into a corner."
+        },
+        {
+          "q": "Do purifiers make a bedroom colder or draughty?",
+          "a": "They do not cool the air — the motor actually adds a watt or two of heat — but they move it, and moving air feels colder against skin. In an Irish bedroom in winter, with an external wall sitting at 14–16 °C, an outlet pointed at the bed is noticeably chilly. The fix is placement rather than a different machine: angle the discharge along the room or up towards the ceiling, or choose a cylindrical model with 360-degree output that never concentrates flow in one direction. On sleep mode the airflow is usually too gentle to feel at all."
+        },
+        {
+          "q": "Do air purifiers get louder as the filter clogs?",
+          "a": "Usually yes, and it is a useful signal. As media loads with dust, resistance rises, and a fan holding the same speed against more back-pressure gets louder while moving less air. On units with fixed manual speeds you hear it first as a change in tone; on models with automatic pressure compensation you may only see the power draw creep up. Vacuuming or rinsing the pre-filter monthly delays it considerably. If a machine that used to disappear at night is now audible on the same setting, check the pre-filter before assuming the main element is finished."
+        }
+      ],
+      "products": [
+        {
+          "id": "apr-011",
+          "asin": "B0CG1N11DV",
+          "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
+          "brand": "Levoit",
+          "price": 61,
+          "rating": 4.6,
+          "badge": "Quietest Overall",
+          "specs": {
+            "Coverage": "Bedrooms",
+            "Filter": "HEPA",
+            "Extras": "Fragrance sponge",
+            "Noise": "Near-silent low",
+            "Power": "7 W"
+          },
+          "pros": [
+            "Designed for sleep — very quiet",
+            "Optional gentle fragrance",
+            "Compact bedside size"
+          ],
+          "cons": [
+            "Smaller rooms only",
+            "Basic display"
+          ],
+          "verdict": "The bedroom specialist: clean air all night without a sound you'll notice."
+        },
+        {
+          "id": "apr-012",
+          "asin": "B0BX4LB7HL",
+          "name": "Philips 600 Series Air Purifier",
+          "brand": "Philips",
+          "price": 80,
+          "rating": 4.6,
+          "badge": "Best Quiet All-Rounder",
+          "specs": {
+            "Coverage": "Up to 44 m²",
+            "Filter": "True HEPA",
+            "Energy": "Ultra-efficient",
+            "Noise": "Very quiet",
+            "Power": "12 W"
+          },
+          "pros": [
+            "Philips sensor accuracy",
+            "Ultra-low energy use",
+            "Near-silent sleep mode"
+          ],
+          "cons": [
+            "No app on base model",
+            "Filter replacements yearly"
+          ],
+          "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
+        },
+        {
+          "id": "apr-013",
+          "asin": "B0DYHQW1NN",
+          "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
+          "brand": "MELEDEN",
+          "price": 31,
+          "rating": 4.3,
+          "badge": "Best Quiet Budget",
+          "specs": {
+            "Filter": "True HEPA H13",
+            "Extras": "Aroma pad",
+            "Use": "Bedroom/pets",
+            "Noise": "Quiet"
+          },
+          "pros": [
+            "H13 filtration at €31",
+            "Pet-focused filter",
+            "Aroma pad bonus"
+          ],
+          "cons": [
+            "Limited coverage",
+            "No auto mode"
+          ],
+          "verdict": "The pet-corner purifier: H13 spore and dander capture for pocket money."
+        },
+        {
+          "id": "apr-014",
+          "asin": "B07QT1WNJP",
+          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
+          "brand": "QUEENTY",
+          "price": 50,
+          "rating": 4.2,
+          "badge": "Best Value H13",
+          "specs": {
+            "Filter": "H13 HEPA",
+            "Extras": "Ioniser (switchable)",
+            "Coverage": "Medium rooms",
+            "Noise": "Low"
+          },
+          "pros": [
+            "H13 + optional ioniser",
+            "Decent medium-room coverage",
+            "Simple operation"
+          ],
+          "cons": [
+            "Plastic build",
+            "Brand support thin"
+          ],
+          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+        },
+        {
+          "id": "apr-015",
+          "asin": "B0CMQPZC72",
+          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "brand": "Levoit",
+          "price": 121,
+          "rating": 4.7,
+          "badge": "Best Quiet Large Room",
+          "specs": {
+            "Coverage": "Up to 70 m²",
+            "Filter": "H13 HEPA",
+            "Smart": "Alexa + app",
+            "Modes": "Auto, sleep",
+            "Power": "37 W"
+          },
+          "pros": [
+            "Covers open-plan spaces",
+            "Excellent app and auto mode",
+            "Cheap, available filters"
+          ],
+          "cons": [
+            "Big white cylinder",
+            "Top speed is loud"
+          ],
+          "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
+        },
+        {
+          "id": "apr-026",
+          "asin": "B0DTHD85T1",
+          "name": "GoveeLife Smart Air Purifier (Large Rooms)",
+          "brand": "GoveeLife",
+          "price": 78,
+          "rating": 4.6,
+          "badge": "Strong Alternative",
+          "specs": {
+            "Coverage": "Up to 97 m² (1,046 ft²)",
+            "Filter": "3-in-1 HEPA",
+            "Sleep mode": "24 dB",
+            "Monitor": "PM2.5 sensor"
+          },
+          "pros": [
+            "€78 — 4th-cheapest of the 7 picks here",
+            "Up to 97 m² (1,046 ft²) coverage",
+            "3-in-1 HEPA filter"
+          ],
+          "cons": [
+            "1 of the 7 picks here is better rated by owners",
+            "€17 more than our top pick"
+          ],
+          "verdict": "GoveeLife's large-room unit carries the same 4.6-star owner rating as our quietest pick while costing €78 against €61, and it's built for bigger spaces than a bedroom. That's the catch on this page specifically: it's a large-room machine, and large-room machines earn their coverage with more airflow, which is the opposite of what a bedroom needs at 3am. Consider it if the room doubles as a home office by day; for sleep alone, the LEVOIT is the better fit."
+        },
+        {
+          "id": "apr-029",
+          "asin": "B08KPK8NKN",
+          "name": "Blueair Blue Max 3450i Smart WiFi",
+          "brand": "Blueair",
+          "price": 364,
+          "rating": 4.3,
+          "badge": "Notable Mention",
+          "specs": {
+            "CADR": "510 m³/h",
+            "Coverage": "Up to 103 m²",
+            "Filtration": "3-stage HEPASilent",
+            "Pre-filter": "Washable fabric",
+            "Power": "38 W"
+          },
+          "pros": [
+            "510 m³/h cadr",
+            "Up to 103 m² coverage"
+          ],
+          "cons": [
+            "4 of the 7 picks here are better rated by owners",
+            "€303 more than our top pick, which owners rate higher at 4.6★"
+          ],
+          "verdict": "Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €61 LEVOIT does the bedroom job this page is about for a fraction of the outlay."
+        }
+      ]
+    },
+    {
+      "slug": "best-air-purifiers-large-rooms-ireland",
+      "title": "Best Air Purifiers for Large & Open-Plan Rooms Ireland 2026",
+      "desc": "High-CADR air purifiers for large Irish living rooms and open-plan spaces — 300+ m³/h units compared on coverage and cost. Compared for 2026.",
+      "h1": "Best Air Purifiers for Large Rooms in Ireland",
+      "intro": "Open-plan living — the default in newer Irish builds — defeats small purifiers: they clean their corner while the kitchen end pumps out cooking particles. Big spaces need CADR of 300+ m³/h to manage 3+ air changes hourly. These six movers handle 60–100 m² honestly, ranked on airflow, noise at useful speeds, and cost per cubic metre cleaned.",
+      "faq_idx": [
+        2,
+        6,
+        4
+      ],
+      "guide": [
+        [
+          "How do you size an air purifier for an open-plan Irish home?",
+          "Measure the whole connected space, not just the part you sit in: a 45 m² kitchen-dining-living run with a 2.4 m ceiling is 108 m³, and a double-height void or open stairs can push that to 140–160 m³. Three air changes an hour at 108 m³ needs 324 m³/h of clean air delivery — five changes needs close to 550. Open-plan is the default in Irish builds from the 2000s onward, which is exactly why the sizing rules printed on purifier boxes mislead here. Very few single domestic machines produce that kind of clean-air delivery at a noise level anyone would tolerate while watching television. This calculation is what decides whether you buy one flagship, two mid-size units, or consciously accept two air changes an hour as good enough for the space."
+        ],
+        [
+          "What CADR do you need at a usable, quiet fan speed?",
+          "Headline CADR is measured at maximum fan speed, and on large machines maximum is typically 55–65 dB — louder than conversation. The figure to hunt for is delivery at the second or third of five speeds, which is where a big unit actually lives day to day. As a working rule for Irish open-plan rooms: under 80 m³, look for a 300 m³/h headline; 80–120 m³, aim at 400 m³/h; above 120 m³, either 600 m³/h or two machines. Expect roughly half the headline number at a comfortable speed and size up accordingly — a unit rated 500 m³/h running at 250 in the evening still gives two-plus changes an hour in a 108 m³ room without anyone raising their voice. Oversizing is the only reliable route to quiet in a large space."
+        ],
+        [
+          "One large unit or two smaller ones",
+          "Two mid-size purifiers usually beat one large one in an open-plan room, for a reason unconnected to total airflow. Air does not mix instantly. A single machine at one end creates a clean zone around itself while the far corner — behind the island, past the sofa — stays comparatively dirty, because furniture, peninsulas and changes in ceiling height all create dead air. A pair placed at opposite ends covers the volume far more evenly, lets both run at lower and quieter speeds, and means one failure does not leave you with nothing. The counter-argument is consumables: two sets of filters every year instead of one. Price both scenarios across five years, because two €180 units with €35 filters frequently land cheaper than one €450 flagship with €80 filters."
+        ],
+        [
+          "Cooking, stoves and the evening spike",
+          "The largest particle event in an Irish open-plan house happens between six and eight in the evening. Frying, grilling and toasting throw PM2.5 into the room in quantities that dwarf anything drifting in from outdoors, and in an open-plan layout there is no door to contain it. A stove or open fire in the same connected space adds a further load every time the door is opened to refuel. Two implications for choosing a machine. Put real weight on carbon capacity — a substantial carbon layer, measured in hundreds of grams, deals with cooking odours and smoke gases that HEPA media ignores entirely. And favour a responsive particle sensor with fast auto reaction, because you want full speed within a minute of the pan going on, not twenty minutes later."
+        ],
+        [
+          "How much does running a large air purifier cost per year in Ireland?",
+          "Large purifiers consume real electricity. A high-CADR unit averaging 45 W across the day uses 394 kWh a year, roughly €150 at a 38 cent unit rate — not trivial. Run it hard at 70 W and you are past €230. Filters follow the same curve: large-format HEPA-and-carbon cartridges cost €60–100, and heavy carbon loading in a cooking space usually means annual rather than eighteen-monthly replacement. A realistic five-year total for a €400 machine is around €400 in filters plus €600–750 in electricity, which makes the appliance itself the smallest line on the bill. Two levers pull that down: use auto mode so the unit idles at 10–15 W between events, and check the wattage at the speeds you will genuinely use rather than the maximum figure stamped on the plate."
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Will one air purifier clean a whole house?",
+          "a": "No. Purifiers clean the room they occupy, and the effect falls away sharply past a doorway — a closed door blocks it almost entirely, and even an open one leaves the next room receiving a small fraction of the clean air delivery. Manufacturer \"whole home\" claims generally assume a single air change per hour across an unrealistically open floor plan. In practice a two-storey Irish semi needs one unit downstairs in the main living space and another in the principal bedroom before you can reasonably say the house is covered."
+        },
+        {
+          "q": "Where should a purifier go in an open-plan kitchen-living room?",
+          "a": "Between the two zones rather than in either of them, and out of the corners. The classic mistake is tucking it behind the sofa at the far end, where it cleans a bubble around itself while cooking particles fill the other half of the room. A position along the main run, with clear space on all sides and near the path air naturally takes between the hob and the seating area, does far more work. If you can only choose one end, choose the one nearer the cooker — that is where the biggest particle events originate."
+        },
+        {
+          "q": "Does a good extractor hood mean I don't need a purifier in the kitchen?",
+          "a": "A ducted extractor vented outside is the better tool for cooking particles, and if you have one, use it — switch it on before the pan heats and leave it running fifteen minutes afterwards. Many Irish kitchens, though, have recirculating hoods that trap grease and vent straight back into the room, which does very little for PM2.5. A purifier is a useful backstop either way, because an open-plan layout lets whatever escapes the hood spread across the whole ground floor instead of staying in one room."
+        },
+        {
+          "q": "Can an air purifier cope with a stove or open fire in the same room?",
+          "a": "It will help with what escapes into the room — particularly the puff of smoke and fine particulate released each time the door is opened to refuel, and the general PM2.5 rise on a still evening. It is not a fix for a badly drawing chimney or a poorly sealed stove, both of which need a sweep or an installer. Prioritise carbon capacity if this describes your sitting room, since HEPA media catches soot particles but none of the gases, and expect noticeably shorter filter life across the heating season."
+        },
+        {
+          "q": "Should the unit sit on the floor or on furniture?",
+          "a": "It depends on where it breathes. Units with a base or lower-side intake and a top outlet work well on the floor, which is also where much of the heavier dust settles. Models drawing in from the front at mid-height do better raised 30–60 cm on a low table or console. Either way the priority is clearance at the intake faces. In a large room a slightly raised position also helps the clean-air stream travel further before it mixes, which matters when one machine is trying to cover 100 m²."
+        },
+        {
+          "q": "Is a big purifier on a low speed better than a small one on high?",
+          "a": "Almost always, for the same delivered airflow. A large impeller turning slowly moves air with less turbulence and less noise than a small one spinning hard, so the bigger machine gives equivalent cleaning at a level you can talk over. It also carries more filter area, which means lower resistance, lower power draw per cubic metre moved, and longer intervals between replacements. The trade-offs are purchase price, floor space and a heftier filter bill when it finally comes due. In an open-plan room, buying a size up is rarely a mistake."
+        }
+      ],
+      "products": [
+        {
+          "id": "apr-016",
+          "asin": "B0CMQPZC72",
+          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "brand": "Levoit",
+          "price": 121,
+          "rating": 4.7,
+          "badge": "Best Large-Room Overall",
+          "specs": {
+            "Coverage": "Up to 70 m²",
+            "Filter": "H13 HEPA",
+            "Smart": "Alexa + app",
+            "Modes": "Auto, sleep",
+            "Power": "37 W"
+          },
+          "pros": [
+            "Covers open-plan spaces",
+            "Excellent app and auto mode",
+            "Cheap, available filters"
+          ],
+          "cons": [
+            "Big white cylinder",
+            "Top speed is loud"
+          ],
+          "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
+        },
+        {
+          "id": "apr-017",
+          "asin": "B0FJLZFDHR",
+          "name": "AZEUS True HEPA Air Purifier (GL-FS32)",
+          "brand": "AZEUS",
+          "price": 90,
+          "rating": 4.4,
+          "badge": "Best Airflow Value",
+          "specs": {
+            "Filtration": "4-stage",
+            "Filter": "True HEPA",
+            "Coverage": "Large rooms",
+            "Noise": "Quiet operation",
+            "Power": "45 W"
+          },
+          "pros": [
+            "4-stage filtration",
+            "Strong large-room airflow",
+            "Quiet for its size"
+          ],
+          "cons": [
+            "Brand less known in Ireland",
+            "Filter sourcing online"
+          ],
+          "verdict": "The 4-stage workhorse for bigger rooms — filtration depth at a fair price."
+        },
+        {
+          "id": "apr-018",
+          "asin": "B0BX4LB7HL",
+          "name": "Philips 600 Series Air Purifier",
+          "brand": "Philips",
+          "price": 80,
+          "rating": 4.6,
+          "badge": "Best Efficient Large",
+          "specs": {
+            "Coverage": "Up to 44 m²",
+            "Filter": "True HEPA",
+            "Energy": "Ultra-efficient",
+            "Noise": "Very quiet",
+            "Power": "12 W"
+          },
+          "pros": [
+            "Philips sensor accuracy",
+            "Ultra-low energy use",
+            "Near-silent sleep mode"
+          ],
+          "cons": [
+            "No app on base model",
+            "Filter replacements yearly"
+          ],
+          "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
+        },
+        {
+          "id": "apr-019",
+          "asin": "B07QT1WNJP",
+          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
+          "brand": "QUEENTY",
+          "price": 50,
+          "rating": 4.2,
+          "badge": "Best Mid-Room Support",
+          "specs": {
+            "Filter": "H13 HEPA",
+            "Extras": "Ioniser (switchable)",
+            "Coverage": "Medium rooms",
+            "Noise": "Low"
+          },
+          "pros": [
+            "H13 + optional ioniser",
+            "Decent medium-room coverage",
+            "Simple operation"
+          ],
+          "cons": [
+            "Plastic build",
+            "Brand support thin"
+          ],
+          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+        },
+        {
+          "id": "apr-020",
+          "asin": "B0BXWYLSPP",
+          "name": "MELEDEN HEPA Air Purifier",
+          "brand": "MELEDEN",
+          "price": 29,
+          "rating": 4.1,
+          "badge": "Best Spot Support",
+          "specs": {
+            "Filter": "HEPA",
+            "Targets": "Smoke, pollen, dander",
+            "Size": "Compact",
+            "Noise": "Low",
+            "Power": "2.5 W"
+          },
+          "pros": [
+            "Real HEPA for €29",
+            "Tackles pollen and pet dander",
+            "Tiny footprint"
+          ],
+          "cons": [
+            "Small rooms strictly",
+            "Basic controls"
+          ],
+          "verdict": "The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries."
+        },
+        {
+          "id": "apr-030",
+          "asin": "B09BJMY8HL",
+          "name": "Levoit Smart Air Purifier for Large Rooms",
+          "brand": "Levoit",
+          "price": 365,
+          "rating": 4.6,
+          "badge": "Smart Alternative",
+          "specs": {
+            "Power": "49 W"
+          },
+          "pros": [
+            "Second-best owner rating on this page at 4.6★"
+          ],
+          "cons": [
+            "1 of the 6 picks here is better rated by owners",
+            "€244 more than our top pick, which owners rate higher at 4.7★"
+          ],
+          "verdict": "This Levoit is the most expensive machine on the page at €365 and well rated at 4.6 stars, from the same brand as our €121 top pick. The awkward part is that our pick is also a Levoit, covers up to 70 m², and rates slightly higher at 4.7 — so you'd be paying roughly triple for the same badge. Only worth it if its coverage figure genuinely exceeds what the cheaper Levoit handles in your room."
+        }
+      ]
+    },
+    {
+      "slug": "best-budget-air-purifiers-under-150-ireland",
+      "title": "Best Budget Air Purifiers Under €150 Ireland 2026",
+      "desc": "Real HEPA air purification under €150: five budget units for Irish homes compared on filtration, noise and filter costs. 2026 guide.",
+      "h1": "Best Budget Air Purifiers Under €150 in Ireland",
+      "intro": "Under €150, air purifiers split into two species: genuine HEPA machines from serious brands' entry lines, and glowing plastic that moves air past a sponge. Every unit below is the first kind — verified true-HEPA filtration with filters you can actually buy next year. The differences left are room size, noise and small luxuries.",
+      "faq_idx": [
+        3,
+        0,
+        2
+      ],
+      "guide": [
+        [
+          "What does a budget air purifier under €150 actually give up?",
+          "True H13 filtration is no longer a premium feature — even entry models from established brands use the same filter media grade as machines costing three times as much. What the budget tier sacrifices is airflow, carbon and refinement: expect a CADR of 100–180 m³/h, honest coverage for a 10–20 m² bedroom or small sitting room, not a family living space. Carbon is typically a thin coated layer rather than granules by weight, so odour and smoke performance is limited. Many units also drop the particle sensor and auto mode entirely, meaning you set a speed and leave it. None of that makes a cheap purifier pointless — it makes it a single-room appliance, and buying it as one is the whole trick."
+        ],
+        [
+          "How a €99 purifier becomes a €350 purifier",
+          "Budget purifiers are frequently sold at or below cost, with the margin waiting in the filters. Do the sum before ordering. A €99 machine with a €55 filter rated for six months costs €110 a year to keep running, so three years in you have spent €429. A €145 machine with a €30 annual filter costs €235 across the same period. Electricity barely moves the needle at this size — 12 W continuous is 105 kWh, about €40 a year on a 38 cent tariff — so filters are the entire argument. Before buying, search the exact replacement part number, confirm it is stocked with EU delivery, and check whether the model has been quietly discontinued. A cheap purifier whose filter vanishes in eighteen months is a disposable appliance."
+        ],
+        [
+          "The red flags in the sub-€150 aisle",
+          "Four claims should send you scrolling onward. \"HEPA-type\", \"HEPA-style\" and \"99% at 3 microns\" are all ways of dodging the H13 standard, which is defined at 0.3 microns. Ioniser-only devices with no filter charge particles so they stick to walls and surfaces rather than being removed, and some generate ozone as a by-product — an irritant, and precisely what an asthma or allergy household does not want. \"UV-C sterilisation\" in a domestic purifier exposes passing air to the lamp for a fraction of a second, far too briefly to do useful work. Finally, be sceptical of any listing quoting coverage in square metres with no m³/h CADR anywhere: the omission is deliberate, and at this price it normally means the number is embarrassing."
+        ],
+        [
+          "What size room should a budget air purifier be asked to cover?",
+          "The commonest budget mistake is asking a €120 machine to clean an entire downstairs. Pick the single room where the hours are, which for most people is the bedroom at 10–14 m², or about 24–34 m³. A 150 m³/h unit produces four to six air changes an hour in that volume, which is proper performance rather than a compromise. Keep the door shut while it runs, because a purifier in a space open to the landing is effectively trying to clean the whole floor. And if damp and mould are the reason you are buying, be honest with yourself: the machine catches airborne spores but does nothing about the moisture producing them. In a persistently damp Irish bedroom, €150 on a dehumidifier and better ventilation will outperform €150 spent here."
+        ],
+        [
+          "How do you get more out of a cheap air purifier?",
+          "Three habits close most of the gap with expensive units. First, vacuum or rinse the pre-filter mesh monthly — pollen, pet hair and general dust choke it quickly, and a clogged pre-filter strangles airflow while shortening the life of the H13 element behind it. Second, run continuously on a low speed instead of blasting it for an hour: particle levels rebound within a couple of hours, and low-speed running is quieter and gentler on the media. Third, give it space — 30 cm clear of walls and furniture, out of the corner, and off deep pile carpet if it draws from underneath. Timing helps as well: entry models are heavily discounted in late spring ahead of grass pollen season, and again in the November sales."
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Are cheap air purifiers from marketplace sellers any good?",
+          "a": "Some are, many are not, and the listing itself tells you which. The ones worth buying name an H13 or EN 1822 filter grade, publish a CADR in m³/h, and sell a replacement filter under a part number you can search independently. The ones to avoid quote coverage only in square metres, lean on words like \"HEPA-type\" or \"ioniser\", and have no filter listing at all. Brand obscurity matters less than filter availability: an unknown brand with a stocked, cheap, well-reviewed replacement is a better buy than a familiar name whose filter has been discontinued."
+        },
+        {
+          "q": "Can I use a generic replacement filter in a budget purifier?",
+          "a": "Usually yes, and at this end of the market it is often the difference between a sensible appliance and a money pit. Check the generic states an H13 grade rather than \"HEPA-type\", compare the stated depth and pleat density against the original, and read reviews for complaints about fit — a filter that does not seal lets air bypass the media entirely, which defeats the point. Some machines use a chipped filter and will keep flashing a replacement reminder with a third-party part. That is cosmetic, but worth knowing before you assume the saving is free."
+        },
+        {
+          "q": "Do I need activated carbon in a cheap purifier?",
+          "a": "Only if you have a specific odour or smoke problem — cooking in a small flat, a smoker in the house, or solid-fuel smoke drifting in over winter. HEPA media does nothing for gases and smells, so carbon is the only component addressing them, but the thin coated sheet fitted to most sub-€150 units saturates within a few months and then contributes very little. If odour is your main reason for buying, the honest answer is that meaningful carbon — granules measured in hundreds of grams — starts above this budget."
+        },
+        {
+          "q": "Is a €150 purifier enough for an apartment?",
+          "a": "For a bedroom in that apartment, yes. For the whole thing, no. A typical budget unit delivering 120–180 m³/h gives good air change rates in a 10–20 m² room with the door closed, and very little in a 45 m² open-plan apartment where it would manage barely one change an hour. If the budget is fixed, put the machine in the bedroom and shut the door at night rather than leaving it in the living area attempting to cover everything. One room done properly beats a whole flat done badly."
+        },
+        {
+          "q": "Can I wash a HEPA filter to save money?",
+          "a": "No — washing an H13 element ruins it. The media is a mat of fine fibres holding an electrostatic charge; water destroys the charge, mats the fibres and leaves damp material that can grow mould in a humid Irish house. Only filters explicitly sold as washable can be rinsed, and those are almost always coarse pre-filters or lower-grade media rather than true HEPA. The pre-filter mesh, by contrast, should be vacuumed or rinsed monthly, and doing so genuinely extends the life of the expensive element sitting behind it."
+        },
+        {
+          "q": "Should I buy a cheap purifier now or save for a better one?",
+          "a": "Buy the cheap one if the filter costs are sane and the room is small — a €130 unit running every night for the next five years does far more good than a €400 unit you are still saving towards. Hold off instead if you need to cover an open-plan space, if odour and smoke control is the actual requirement, or if you are a light sleeper and want published low-speed noise figures. A useful middle path is last year's model from a serious brand: the media grade is identical and the discount often brings a €200 machine inside budget."
+        }
+      ],
+      "products": [
+        {
+          "id": "apr-021",
+          "asin": "B0BX4LB7HL",
+          "name": "Philips 600 Series Air Purifier",
+          "brand": "Philips",
+          "price": 80,
+          "rating": 4.6,
+          "badge": "Best Under €150",
+          "specs": {
+            "Coverage": "Up to 44 m²",
+            "Filter": "True HEPA",
+            "Energy": "Ultra-efficient",
+            "Noise": "Very quiet",
+            "Power": "12 W"
+          },
+          "pros": [
+            "Philips sensor accuracy",
+            "Ultra-low energy use",
+            "Near-silent sleep mode"
+          ],
+          "cons": [
+            "No app on base model",
+            "Filter replacements yearly"
+          ],
+          "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
+        },
+        {
+          "id": "apr-022",
+          "asin": "B0CG1N11DV",
+          "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
+          "brand": "Levoit",
+          "price": 61,
+          "rating": 4.6,
+          "badge": "Best Value Bedroom",
+          "specs": {
+            "Coverage": "Bedrooms",
+            "Filter": "HEPA",
+            "Extras": "Fragrance sponge",
+            "Noise": "Near-silent low",
+            "Power": "7 W"
+          },
+          "pros": [
+            "Designed for sleep — very quiet",
+            "Optional gentle fragrance",
+            "Compact bedside size"
+          ],
+          "cons": [
+            "Smaller rooms only",
+            "Basic display"
+          ],
+          "verdict": "The bedroom specialist: clean air all night without a sound you'll notice."
+        },
+        {
+          "id": "apr-023",
+          "asin": "B07QT1WNJP",
+          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
+          "brand": "QUEENTY",
+          "price": 50,
+          "rating": 4.2,
+          "badge": "Best H13 Under €60",
+          "specs": {
+            "Filter": "H13 HEPA",
+            "Extras": "Ioniser (switchable)",
+            "Coverage": "Medium rooms",
+            "Noise": "Low"
+          },
+          "pros": [
+            "H13 + optional ioniser",
+            "Decent medium-room coverage",
+            "Simple operation"
+          ],
+          "cons": [
+            "Plastic build",
+            "Brand support thin"
+          ],
+          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+        },
+        {
+          "id": "apr-024",
+          "asin": "B0DYHQW1NN",
+          "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
+          "brand": "MELEDEN",
+          "price": 31,
+          "rating": 4.3,
+          "badge": "Best Pet Budget",
+          "specs": {
+            "Filter": "True HEPA H13",
+            "Extras": "Aroma pad",
+            "Use": "Bedroom/pets",
+            "Noise": "Quiet"
+          },
+          "pros": [
+            "H13 filtration at €31",
+            "Pet-focused filter",
+            "Aroma pad bonus"
+          ],
+          "cons": [
+            "Limited coverage",
+            "No auto mode"
+          ],
+          "verdict": "The pet-corner purifier: H13 spore and dander capture for pocket money."
+        },
+        {
+          "id": "apr-025",
+          "asin": "B0BXWYLSPP",
+          "name": "MELEDEN HEPA Air Purifier",
+          "brand": "MELEDEN",
+          "price": 29,
+          "rating": 4.1,
+          "badge": "Cheapest Real HEPA",
+          "specs": {
+            "Filter": "HEPA",
+            "Targets": "Smoke, pollen, dander",
+            "Size": "Compact",
+            "Noise": "Low",
+            "Power": "2.5 W"
+          },
+          "pros": [
+            "Real HEPA for €29",
+            "Tackles pollen and pet dander",
+            "Tiny footprint"
+          ],
+          "cons": [
+            "Small rooms strictly",
+            "Basic controls"
+          ],
+          "verdict": "The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries."
+        }
+      ]
+    }
   ]
- ],
- "faqs": [
-  {
-   "q": "Do air purifiers help with mould in Irish homes?",
-   "a": "They capture airborne mould spores (H13 HEPA catches them efficiently) which reduces spread and inhalation — but they don't fix the moisture source. The winning combo for damp Irish homes is dehumidifier (stops growth) + purifier (clears spores)."
-  },
-  {
-   "q": "Do air purifiers help with hay fever?",
-   "a": "Significantly, for indoor relief. Running a HEPA purifier in the bedroom with windows closed during pollen season measurably cuts indoor pollen. Sufferers report better sleep within days. Pair with showering before bed during peak grass pollen (May–July in Ireland)."
-  },
-  {
-   "q": "What size air purifier do I need?",
-   "a": "Match CADR to room volume: aim for 3–5 air changes per hour. Bedroom (~30 m³): CADR 100–150. Living room (~50 m³): CADR 150–250. Open-plan (~80 m³+): CADR 300+. Undersized purifiers running flat-out are loud and ineffective."
-  },
-  {
-   "q": "How much do air purifiers cost to run in Ireland?",
-   "a": "Very little: most run 5–30 W on low/auto — roughly €1–3 per month running continuously. The real cost is filters: €25–70 per year depending on brand. Check filter prices before buying the machine."
-  },
-  {
-   "q": "Air purifier or dehumidifier for an Irish home?",
-   "a": "Different jobs: dehumidifiers remove moisture (fixing mould's cause, condensation, damp), purifiers remove particles (spores, pollen, dust, smoke). Damp/mould house: dehumidifier first. Allergies/asthma: purifier first. Many Irish homes genuinely benefit from both."
-  },
-  {
-   "q": "Are air purifiers worth it for asthma?",
-   "a": "Clinical evidence supports HEPA filtration reducing airborne triggers — dust mite allergen, pollen, mould spores, smoke. Many Irish asthma sufferers report fewer night symptoms with a bedroom purifier. They complement, never replace, prescribed treatment. This is general information, not medical advice."
-  },
-  {
-   "q": "Do air purifiers remove smells and smoke?",
-   "a": "Only models with substantial activated carbon filters handle odours and gases — thin carbon sheets do little. For turf/wood smoke drifting in, or cooking smells, prioritise units with 0.5 kg+ carbon. HEPA alone removes smoke particles but not the smell."
-  },
-  {
-   "q": "Should I sleep with an air purifier on?",
-   "a": "Yes — night mode exists for exactly this. Bedroom air quality matters most during your 8 sleeping hours. Pick a unit that drops below 25 dB in sleep mode with display-off, and let it run all night on auto."
-  }
- ],
- "pages": [
-  {
-   "slug": "best-air-purifiers-ireland",
-   "title": "Best Air Purifiers in Ireland 2026 — HEPA Picks Compared",
-   "desc": "Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026.",
-   "h1": "The Best Air Purifiers in Ireland (2026)",
-   "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €121.",
-   "faq_idx": [
-    0,
-    2,
-    3
-   ],
-   "guide": [
-    [
-     "What are Irish air purifiers actually filtering out?",
-     "Irish indoor air is dominated by year-round mould spores (2–10 microns) from persistent humidity, large grass pollen (20–35 microns) that any decent filter traps easily, and sub-micron combustion particles from open fires and stoves that no fibre filter touches alone. That mix calls for a true H13 filter rated to 0.3 microns plus genuine activated carbon measured by weight, not a thin mesh sheet. The particle mix in an Irish house is not the continental one the marketing is written for, and combustion is the awkward fraction: smoke from open fires, ranges and stoves across older estates produces PM2.5 and PM1 particles well under a micron, plus gases that no fibre filter touches at all. A unit optimised purely for pollen will underperform badly on a still winter evening."
-    ],
-    [
-     "How do you read an air purifier's CADR and room-size claim?",
-     "Coverage claims on the box — \"cleans 90 m²\" — are usually calculated at one air change per hour on maximum fan speed. One air change is close to useless; three to five is the target. Work from the CADR figure in cubic metres per hour instead and divide it by your room volume. A 250 m³/h unit in a 20 m² sitting room with 2.4 m ceilings, so 48 m³, delivers about five changes an hour, which is genuinely good. The same unit in a 45 m² open-plan space of 108 m³ manages barely two. Check which speed the CADR was measured at, too, because top speed on most machines is unusable in an occupied room. If a listing quotes only square metres and never gives a m³/h figure, the omission is the answer."
-    ],
-    [
-     "What does an air purifier really cost over five years?",
-     "Price the machine over five years, not at the checkout. Take a €200 mid-range unit with a €45 combined HEPA-and-carbon filter replaced annually: that is €225 in consumables. Electricity is larger than most people assume — 20 W running continuously is 175 kWh a year, which at Irish standard rates of roughly 38 cent a unit comes to about €67 a year, or €333 across five years. Running total: €758. Now take a €110 budget unit whose only filter costs €55 and is rated for six months: €550 of filters over the same period, usually with a less efficient motor as well. The cheaper box wins at the till and loses everywhere afterwards. Check the replacement filter's current price and Irish stock before buying the machine; that one search prevents most of the regret."
-    ],
-    [
-     "Which air purifier certifications actually mean something?",
-     "Three marks are worth looking for here. AHAM Verifide means the CADR figures were measured to a common test standard rather than self-declared. The ECARF seal and the Allergy UK Seal of Approval indicate that someone other than the manufacturer assessed allergen reduction — imperfect, but better than a brand's own bar chart. EN 1822 or ISO 29463 classification, the source of the H13 and H14 grades, tells you the media itself was tested, though it says nothing about whether the housing leaks around it. Gasketed, sealed filter chambers matter more than the grade on the sticker: air takes the easiest path, and on cheaply moulded bodies that path runs around the filter rather than through it. Absent all of these, ask whether the brand publishes a m³/h CADR and a dB(A) figure at a stated distance."
-    ],
-    [
-     "Buying in Ireland: filters, warranty and support",
-     "Physical retail for purifiers is thin here, so most purchases happen online through Amazon.ie, Currys, Harvey Norman, DID or a brand's own store. Two practical consequences follow. First, confirm the replacement filter has an Irish or EU fulfilment route; owner reports consistently mention long waits and unexpected customs charges on filters shipped from outside the EU, which quietly doubles their cost. Second, check the warranty is honoured by an EU entity, because posting a six-kilo appliance to a UK service address is rarely worth the trouble. Third-party filters exist for popular models at roughly half price, but some machines carry an RFID chip that refuses to reset the filter counter for a non-genuine part. That is not a dealbreaker, just a cost worth pricing in before the box is sitting in your hall."
-    ]
-   ],
-   "faqs": [
-    {
-     "q": "Which room should I put my first air purifier in?",
-     "a": "The bedroom, in almost every case. You spend seven to nine hours a night in there with the door closed, which is both the longest continuous exposure of your day and by far the easiest volume for a purifier to actually clean — a sealed 12 m² room is a fair fight, an open-plan downstairs is not. A sitting room is the second choice if you have an open fire or a stove, or if someone in the house is home all day. Only add a second unit once the first is running continuously and you have judged whether it made a difference."
-    },
-    {
-     "q": "Do I need to run an air purifier all year in Ireland, or just in pollen season?",
-     "a": "All year suits most Irish homes, because the triggers rotate rather than stop. Tree and grass pollen run from February through July, weed pollen and outdoor mould spores carry into September, and the damp months that follow bring indoor spores and solid-fuel smoke drifting from neighbouring chimneys. There is no genuinely clean month. Running continuously on a low or auto setting costs a few euro a month and stops particle levels rebounding, which they do within a couple of hours of the unit being switched off. Seasonal-only use makes sense if you have a single confirmed trigger and nothing else."
-    },
-    {
-     "q": "Can an air purifier replace opening the windows?",
-     "a": "No, and they solve different problems. A purifier recirculates and filters air already in the room; it removes particles but does nothing about carbon dioxide, cooking moisture or the stale feel of an unventilated space. Irish homes, especially well-sealed newer builds, need ventilation to control humidity — and humidity control is what actually prevents mould forming in the first place. The workable compromise during pollen season is to ventilate briefly in the middle of the day or just after rain, when grass counts are lower, then close up and let the purifier deal with what came in."
-    },
-    {
-     "q": "Do air purifiers remove radon or carbon monoxide?",
-     "a": "No. Radon is a radioactive gas and a real concern in parts of Ireland — the EPA publishes high-radon maps covering large areas of the west, midlands and southeast — but it is a gas, and HEPA media only captures particles. Activated carbon does not hold it either. Radon is dealt with through testing, sub-floor sumps and ventilation. Carbon monoxide is the same story: no domestic purifier removes it, and none is any substitute for a working CO alarm. If a listing claims otherwise, that alone tells you what the brand's other claims are worth."
-    },
-    {
-     "q": "How long does an air purifier take to clean a room?",
-     "a": "Roughly the time needed for three to four air changes, so with a correctly sized unit you are looking at 30 to 60 minutes from a standing start on a medium speed. The arithmetic is simple: divide the CADR in m³/h by the room volume to get changes per hour. A 200 m³/h machine in a 48 m³ sitting room manages about four an hour, so most of the improvement lands inside the first twenty minutes. The catch is that particles keep arriving from outside and from ordinary activity, which is why continuous low-speed running beats occasional blasts on turbo."
-    },
-    {
-     "q": "Are third-party replacement filters worth buying?",
-     "a": "Often, with two caveats. Generic filters for popular models typically cost 40–60% less, and the better ones use genuine H13 media, but there is no way to verify the grade from a listing photograph — buy from sellers with a long review history and check that the pleat count and depth match the original. The second issue is chipped filters: some manufacturers embed an RFID tag so the machine will not reset its counter for a non-genuine part. You can generally still run it, but the reminder light stays on. Factor that in when choosing the machine, not afterwards."
-    }
-   ],
-   "products": [
-    {
-     "id": "apr-001",
-     "asin": "B0BX4LB7HL",
-     "name": "Philips 600 Series Air Purifier",
-     "brand": "Philips",
-     "price": 80,
-     "rating": 4.6,
-     "badge": "Best Overall",
-     "specs": {
-      "Coverage": "Up to 44 m²",
-      "Filter": "True HEPA",
-      "Energy": "Ultra-efficient",
-      "Noise": "Very quiet"
-     },
-     "pros": [
-      "Philips sensor accuracy",
-      "Ultra-low energy use",
-      "Near-silent sleep mode"
-     ],
-     "cons": [
-      "No app on base model",
-      "Filter replacements yearly"
-     ],
-     "verdict": "Rated to cover up to 44 square metres with a true HEPA filter, this Philips pairs sensor-driven accuracy with ultra-low energy consumption, which matters if it's going to run most of the day in an Irish home. Owners on Amazon.ie regularly point to the near-silent sleep mode as the standout feature — it's quiet enough for a bedroom without a dedicated bedroom model. The base unit skips app connectivity, so there's no remote monitoring or scheduling from your phone, and filters need replacing yearly, an ongoing cost worth budgeting for. It suits anyone wanting reliable everyday coverage for a living room or bedroom-sized space without smart-home features; buyers who want app control should look at the Levoit instead."
-    },
-    {
-     "id": "apr-002",
-     "asin": "B0CMQPZC72",
-     "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
-     "brand": "Levoit",
-     "price": 121,
-     "rating": 4.7,
-     "badge": "Best Smart Large-Room",
-     "specs": {
-      "Coverage": "Up to 70 m²",
-      "Filter": "H13 HEPA",
-      "Smart": "Alexa + app",
-      "Modes": "Auto, sleep"
-     },
-     "pros": [
-      "Covers open-plan spaces",
-      "Excellent app and auto mode",
-      "Cheap, available filters"
-     ],
-     "cons": [
-      "Big white cylinder",
-      "Top speed is loud"
-     ],
-     "verdict": "With coverage rated up to 70 square metres and an H13 HEPA filter, this Levoit is sized for open-plan living rooms or knocked-through spaces that smaller purifiers can't keep up with. Alexa and app integration let it run in auto mode, adjusting itself to conditions, and replacement filters are inexpensive and easy to find, which keeps running costs down over the 4.7-star-rated unit's lifetime. It's a large white cylinder that's hard to disguise in a small room, and at top fan speed several owners note it gets noticeably loud — fine for daytime background running, less ideal right beside a bed at night. Best suited to bigger, open-plan spaces; the smaller Levoit bedroom model below is the better fit for sleeping areas."
-    },
-    {
-     "id": "apr-003",
-     "asin": "B0CG1N11DV",
-     "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
-     "brand": "Levoit",
-     "price": 61,
-     "rating": 4.6,
-     "badge": "Best for Bedrooms",
-     "specs": {
-      "Coverage": "Bedrooms",
-      "Filter": "HEPA",
-      "Extras": "Fragrance sponge",
-      "Noise": "Near-silent low"
-     },
-     "pros": [
-      "Designed for sleep — very quiet",
-      "Optional gentle fragrance",
-      "Compact bedside size"
-     ],
-     "cons": [
-      "Smaller rooms only",
-      "Basic display"
-     ],
-     "verdict": "Built specifically around sleep rather than maximum coverage, this Levoit runs near-silent on its low setting, and its compact size means it fits comfortably on a nightstand rather than taking up floor space. A HEPA filter handles the core air-cleaning job, and an optional fragrance sponge lets you add a light scent if you want one — a feature the larger open-plan model doesn't bother with. The trade-off for that quiet, compact design is scale: it's rated for bedroom-sized rooms only, not open-plan living spaces, and the display is basic with none of the smart-app extras found on Levoit's bigger unit. Ideal for a bedroom or small box room; anyone purifying a larger shared space needs the 70 m² model instead."
-    },
-    {
-     "id": "apr-004",
-     "asin": "B0FJLZFDHR",
-     "name": "AZEUS True HEPA Air Purifier (GL-FS32)",
-     "brand": "AZEUS",
-     "price": 90,
-     "rating": 4.4,
-     "badge": "Best 4-Stage Filtration",
-     "specs": {
-      "Filtration": "4-stage",
-      "Filter": "True HEPA",
-      "Coverage": "Large rooms",
-      "Noise": "Quiet operation"
-     },
-     "pros": [
-      "4-stage filtration",
-      "Strong large-room airflow",
-      "Quiet for its size"
-     ],
-     "cons": [
-      "Brand less known in Ireland",
-      "Filter sourcing online"
-     ],
-     "verdict": "Four separate filtration stages built around a true HEPA core give this AZEUS more filtration depth on paper than several single-stage competitors, and it's built with large-room airflow in mind rather than just a bedroom or office corner. Reviewers note it stays quiet given its size and output, which is a reasonable trade against the coverage on offer. AZEUS isn't a brand with much recognition in Ireland yet, so buyers are relying more on the 4.4-star Amazon.ie score than on established reputation, and replacement filters generally need to be sourced online rather than picked up locally. A sensible pick for anyone prioritising filtration stages and large-room power over brand familiarity; those who want a known name should look to Philips or Levoit."
-    },
-    {
-     "id": "apr-005",
-     "asin": "B0BXWYLSPP",
-     "name": "MELEDEN HEPA Air Purifier",
-     "brand": "MELEDEN",
-     "price": 29,
-     "rating": 4.1,
-     "badge": "Best Budget",
-     "specs": {
-      "Filter": "HEPA",
-      "Targets": "Smoke, pollen, dander",
-      "Size": "Compact",
-      "Noise": "Low"
-     },
-     "pros": [
-      "Real HEPA for €29",
-      "Tackles pollen and pet dander",
-      "Tiny footprint"
-     ],
-     "cons": [
-      "Small rooms strictly",
-      "Basic controls"
-     ],
-     "verdict": "€29 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above."
-    },
-    {
-     "id": "apr-027",
-     "asin": "B07T8ZQHN2",
-     "name": "MIKO HEPA Air Purifier for Home",
-     "brand": "MIKO",
-     "price": 95,
-     "rating": 4.4,
-     "badge": "Worth Considering",
-     "specs": {},
-     "pros": [
-      "€95 — 5th-cheapest of the 6 picks here"
-     ],
-     "cons": [
-      "3 of the 6 picks here are better rated by owners",
-      "€15 more than our top pick, which owners rate higher at 4.6★"
-     ],
-     "verdict": "MIKO's HEPA purifier holds a 4.4-star owner rating on Amazon.ie at a €95 price point that sits squarely between the AZEUS and the Levoit large-room model, making it a reasonable middle-ground option if neither of those quite fits your budget. Buying through Amazon.ie means the usual full returns protection if the fit isn't right for your room. It's a newer addition to our comparison set than the Philips or Levoit models, so there's less accumulated owner history to draw on, and post-purchase support has been reported to vary depending on the specific seller fulfilling the order. Worth a look for buyers comparison-shopping on price who are comfortable with a less-established brand; those wanting maximum certainty should default to Philips or Levoit."
-    }
-   ]
-  },
-  {
-   "slug": "best-air-purifiers-allergies-hay-fever-ireland",
-   "title": "Best Air Purifiers for Allergies & Hay Fever Ireland 2026",
-   "desc": "Suffer hay fever or dust allergies in Ireland? The best HEPA air purifiers for pollen, dust mites and pet dander, compared for 2026.",
-   "h1": "Best Air Purifiers for Allergies & Hay Fever in Ireland",
-   "intro": "Irish grass pollen season now stretches from May into August, with tree pollen from March — and a third of us react. A bedroom HEPA purifier won't fix outdoors, but it gives allergy sufferers what antihistamines can't: eight hours of genuinely low-pollen sleep. We ranked these six on allergen capture, sleep-mode silence and certified performance.",
-   "faq_idx": [
-    1,
-    7,
-    5
-   ],
-   "guide": [
-    [
-     "When does hay fever season actually run in Ireland?",
-     "Irish allergy season is really three overlapping ones: hazel and alder from February, birch and ash from March to May, and grass — the main hay-fever trigger — from mid-May through July, peaking around mid-June. Met Éireann publishes a daily pollen forecast from 1 February to 30 September, the practical window for keeping windows shut and a purifier running. Weed pollen and outdoor mould spores then carry the load into September, especially after warm damp spells. If you react only in June you can run the machine seasonally, but most Irish sufferers are sensitised to more than one trigger and do better leaving it on from early spring, with auto mode throttling it back on quiet days."
-    ],
-    [
-     "Why the bedroom beats the sitting room",
-     "The highest-value place for an allergy purifier is beside the bed. You spend seven to nine unbroken hours there with the door shut, and that is the only stretch of the day when the machine works on a small, sealed volume without fresh pollen walking in on clothes and hair. A 12 m² bedroom with a 2.4 m ceiling is about 29 m³, so a modest 120 m³/h CADR gives four air changes an hour — comfortably enough. The routine matters as much as the hardware: close the window by late afternoon, when grass pollen settles back to ground level on a warm evening, shower and wash your hair before bed, and keep the day's clothes out of the room. The purifier then handles what remains airborne instead of fighting a constant inflow."
-    ],
-    [
-     "Why won't a HEPA filter fix a dust mite problem?",
-     "House dust mites thrive in Irish humidity, and their allergen — a protein carried in their droppings — is a common year-round trigger. But that allergen mostly rides on heavy particles which settle within minutes of being disturbed, so it spends very little time suspended. A purifier catches what gets stirred up during bed-making and hoovering; it cannot pull allergen out of a mattress or a carpet. If mites are your diagnosis, the machine is a supporting player behind allergen-proof mattress and pillow encasements, hot-washing bedding weekly, and keeping indoor relative humidity below 50%. Pet dander is the opposite case entirely: it is light, stays suspended for hours, and is exactly the load HEPA filtration removes well. Match the tool to the allergen rather than buying on the word \"allergy\" alone."
-    ],
-    [
-     "Why does a sealed housing matter more than the filter grade?",
-     "An H13 filter only helps if all of the air goes through it. Cheaply moulded bodies without gaskets let a slice of the airflow slip around the media, and for an allergy sufferer that bypass is the difference between relief and nothing. Look for a filter seating against a rubber or foam seal and a door that clamps rather than clips. The pre-filter matters too: grains at 20–35 microns and pet hair clog fine media fast, so a washable mesh pre-filter rinsed monthly through summer adds months to the life of the expensive element behind it. Independent marks — the ECARF seal, the Allergy UK Seal of Approval — at least indicate somebody other than the manufacturer assessed allergen performance. Neither guarantees results, but their absence on a product sold specifically for allergies is worth noticing."
-    ],
-    [
-     "What a hay fever season actually costs to run",
-     "Run the numbers for a bedroom unit across the Irish season. A machine drawing 8 W on a low overnight setting, eight hours a night from mid-May to the end of August, uses under 8 kWh — around €3 for the entire season at the 38 cent per kWh most Irish standard tariffs charge in 2026. Leave the same unit running 24 hours a day year-round at 15 W and it is 131 kWh, close to €50 a year. Filters are the real expense, and allergy households replace them sooner because pollen and dander load the media faster, so budget €40–70 annually rather than trusting the manufacturer's optimistic twelve months. Set against fifteen weeks of antihistamines and broken sleep that is modest — but compare units on filter price, not sticker price."
-    ]
-   ],
-   "faqs": [
-    {
-     "q": "Do air purifiers actually stop hay fever symptoms?",
-     "a": "They reduce indoor exposure rather than cure the allergy. With windows shut and a correctly sized HEPA unit running in the bedroom, indoor pollen levels drop substantially, and the benefit most Irish sufferers describe is better sleep and a milder morning — you start the day without an overnight allergen load already in your system. It does nothing for the hours spent outdoors, commuting or at work, so treat it as one layer alongside antihistamines, nasal sprays and the usual avoidance habits. Anyone with severe or worsening symptoms should be talking to a pharmacist or GP rather than shopping for appliances."
-    },
-    {
-     "q": "Should I keep bedroom windows closed during grass pollen season?",
-     "a": "Yes, from mid-May to late July especially, and above all in the early morning and the evening. Grass pollen rises through the morning as the air warms, stays high all afternoon, then sinks back to ground level as things cool — the classic hay fever window on a warm Irish evening. Air the room in the middle of the day, or after rain has washed the air, then close up. A purifier running with the window open during a high count is fighting a losing battle: it can only filter air faster than new pollen arrives, and it will not win that race."
-    },
-    {
-     "q": "How long before I notice a difference?",
-     "a": "For the air itself, under an hour. For symptoms, give it two to three weeks of consistent nightly use before judging. Allergic inflammation is cumulative — nasal passages irritated for months do not settle overnight, and one good night is not evidence in either direction. Run it every night with the door closed and the window shut, keep the rest of your routine steady, and compare how you wake across a fortnight. If nothing has shifted after a month of proper use in a correctly sized room, pollen is probably not your main indoor trigger and it is worth looking at mites, damp or pets."
-    },
-    {
-     "q": "Will a purifier help if the dog or cat sleeps in the bedroom?",
-     "a": "It will help, but the animal undoes much of the work. Pet dander is light enough to stay suspended for hours, which is precisely what HEPA filtration handles well, and a unit running beside the bed measurably lowers the airborne load. The problem is supply: an animal in the room replenishes dander continuously and deposits it in the bedding you breathe against all night. Keeping the pet out of the bedroom achieves more than any purifier will. If that is not happening, expect faster filter loading and budget for replacement well ahead of the stated interval."
-    },
-    {
-     "q": "Does an air purifier help with autumn mould spore allergy?",
-     "a": "Yes, and it is an underrated use here. Outdoor mould spore counts — Alternaria and Cladosporium in particular — climb through late summer and peak around September and October, when mild damp weather follows a warm spell. Those spores sit in the 2–10 micron range and are captured efficiently by H13 media. Indoors, the same filter catches spores released from damp patches and from condensation forming on cold external walls. What it cannot do is stop them being produced: where there is visible mould or persistent condensation, the moisture itself has to be dealt with."
-    },
-    {
-     "q": "Should the purifier be right beside the bed or across the room?",
-     "a": "Beside the bed, but not aimed at your face. A metre or two from the pillow puts the clean-air outlet inside your breathing zone, which is where it does most good, and it keeps the controls in reach. Leave 30 cm clear of the wall and the headboard so the intake is not blocked, and angle the outlet along the bed rather than at it — constant airflow on your face is drying, and in an unheated Irish bedroom in February it is cold as well. A low bedside locker is usually the best compromise."
-    }
-   ],
-   "products": [
-    {
-     "id": "apr-006",
-     "asin": "B0BX4LB7HL",
-     "name": "Philips 600 Series Air Purifier",
-     "brand": "Philips",
-     "price": 80,
-     "rating": 4.6,
-     "badge": "Best Allergy Pick",
-     "specs": {
-      "Coverage": "Up to 44 m²",
-      "Filter": "True HEPA",
-      "Energy": "Ultra-efficient",
-      "Noise": "Very quiet"
-     },
-     "pros": [
-      "Philips sensor accuracy",
-      "Ultra-low energy use",
-      "Near-silent sleep mode"
-     ],
-     "cons": [
-      "No app on base model",
-      "Filter replacements yearly"
-     ],
-     "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
-    },
-    {
-     "id": "apr-007",
-     "asin": "B0CMQPZC72",
-     "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
-     "brand": "Levoit",
-     "price": 121,
-     "rating": 4.7,
-     "badge": "Best Whole-Room Allergy",
-     "specs": {
-      "Coverage": "Up to 70 m²",
-      "Filter": "H13 HEPA",
-      "Smart": "Alexa + app",
-      "Modes": "Auto, sleep"
-     },
-     "pros": [
-      "Covers open-plan spaces",
-      "Excellent app and auto mode",
-      "Cheap, available filters"
-     ],
-     "cons": [
-      "Big white cylinder",
-      "Top speed is loud"
-     ],
-     "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
-    },
-    {
-     "id": "apr-008",
-     "asin": "B0CG1N11DV",
-     "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
-     "brand": "Levoit",
-     "price": 61,
-     "rating": 4.6,
-     "badge": "Best Bedroom Allergy",
-     "specs": {
-      "Coverage": "Bedrooms",
-      "Filter": "HEPA",
-      "Extras": "Fragrance sponge",
-      "Noise": "Near-silent low"
-     },
-     "pros": [
-      "Designed for sleep — very quiet",
-      "Optional gentle fragrance",
-      "Compact bedside size"
-     ],
-     "cons": [
-      "Smaller rooms only",
-      "Basic display"
-     ],
-     "verdict": "The bedroom specialist: clean air all night without a sound you'll notice."
-    },
-    {
-     "id": "apr-009",
-     "asin": "B0DYHQW1NN",
-     "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
-     "brand": "MELEDEN",
-     "price": 31,
-     "rating": 4.3,
-     "badge": "Best Pet Dander Budget",
-     "specs": {
-      "Filter": "True HEPA H13",
-      "Extras": "Aroma pad",
-      "Use": "Bedroom/pets",
-      "Noise": "Quiet"
-     },
-     "pros": [
-      "H13 filtration at €31",
-      "Pet-focused filter",
-      "Aroma pad bonus"
-     ],
-     "cons": [
-      "Limited coverage",
-      "No auto mode"
-     ],
-     "verdict": "The pet-corner purifier: H13 spore and dander capture for pocket money."
-    },
-    {
-     "id": "apr-010",
-     "asin": "B07QT1WNJP",
-     "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-     "brand": "QUEENTY",
-     "price": 50,
-     "rating": 4.2,
-     "badge": "Best H13 Value",
-     "specs": {
-      "Filter": "H13 HEPA",
-      "Extras": "Ioniser (switchable)",
-      "Coverage": "Medium rooms",
-      "Noise": "Low"
-     },
-     "pros": [
-      "H13 + optional ioniser",
-      "Decent medium-room coverage",
-      "Simple operation"
-     ],
-     "cons": [
-      "Plastic build",
-      "Brand support thin"
-     ],
-     "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
-    },
-    {
-     "id": "apr-028",
-     "asin": "B08KQHR2KR",
-     "name": "Blueair Blue 511i Max Smart WiFi Air Purifier",
-     "brand": "Blueair",
-     "price": 160,
-     "rating": 4.5,
-     "badge": "Challenger Pick",
-     "specs": {
-      "Coverage": "52 m²"
-     },
-     "pros": [
-      "52 m² coverage",
-      "Strong 4.5★ owner rating"
-     ],
-     "cons": [
-      "3 of the 6 picks here are better rated by owners",
-      "€80 more than our top pick, which owners rate higher at 4.6★"
-     ],
-     "verdict": "Blueair's Blue 511i Max covers a stated 52 m², well beyond the room size our €80 Philips pick targets, and carries a 4.5-star owner rating against the Philips's 4.6. At €160 it's double the price for coverage most Irish bedrooms and sitting rooms don't need. Genuinely the better machine for a large open-plan space; overkill, and overpriced, for the allergy-in-one-room job this page is about."
-    }
-   ]
-  },
-  {
-   "slug": "best-quiet-air-purifiers-bedroom-ireland",
-   "title": "Best Quiet Air Purifiers for Bedrooms Ireland 2026",
-   "desc": "The quietest air purifiers for Irish bedrooms — all under 25 dB in sleep mode, displays off, real HEPA. Compared for 2026.",
-   "h1": "Best Quiet Air Purifiers for Bedrooms in Ireland",
-   "intro": "A bedroom purifier that's too loud gets switched off, and a switched-off purifier cleans nothing. The seven below all run below 25 dB in sleep mode — quieter than a ticking clock — with dimmed or killed displays. We ranked on sleep-mode CADR (how much cleaning survives the silence), because some units go quiet by going useless.",
-   "faq_idx": [
-    7,
-    1,
-    3
-   ],
-   "guide": [
-    [
-     "What does a 25 dB air purifier actually sound like?",
-     "Decibels are logarithmic, so the gap between 25 dB and 35 dB is far wider than it reads — every 10 dB is roughly a doubling of perceived loudness. A quiet Irish bedroom sits around 20-30 dB of background noise at night, so a purifier at 24 dB effectively disappears into it, while one at 38 dB is impossible to ignore at 3am. The catch is measurement. Manufacturer figures are taken in an anechoic chamber at one metre; the same unit on a hard bedside locker 40 cm from your ear, reflecting off a wall, reads higher in practice. Treat quoted sleep-mode numbers as a ranking tool between models rather than a promise. Any figure given without a distance, or as an \"as low as\" range with no speed named, is not really a specification."
-    ],
-    [
-     "Sleep-mode CADR: the number that decides everything",
-     "Any purifier can be silent — switch it off. What matters is how much clean air survives the quiet setting. Brands headline maximum CADR at top speed, which on most machines is 50–55 dB and unusable in an occupied bedroom. The useful question is airflow at the lowest setting. A unit delivering 60–80 m³/h below 25 dB turns over a 29 m³ Irish double bedroom two to three times an hour, which is enough to matter. One that drops to 25 m³/h in order to hit its silence claim gives under one change an hour and is essentially decorative. Where brands publish per-speed tables, read them. Where they do not, owner reports consistently mention whether the low setting moves perceptible air at arm's length, and that crude proxy is better than nothing."
-    ],
-    [
-     "Why are bigger air purifiers usually the quieter ones?",
-     "Noise comes from air velocity and turbulence, not from cleaning. A 360 mm cylindrical unit with a large impeller moves the same volume as a compact tower at a far lower blade speed, and lower blade speed means less broadband hiss. That is why physically larger purifiers tend to be the quiet ones, and why an oversized machine loafing on setting one beats a small one straining on setting three. Motor type matters as well: brushless DC motors run smoother and allow genuinely low speeds, while cheap AC motors have a floor below which they stall or hum. The last variable is tone. Broadband whoosh disappears into sleep; a bearing whine, or a resonance that appears at one particular speed, does not — and it is the most common complaint in long-term owner feedback."
-    ],
-    [
-     "Light, draught and the three-in-the-morning problems",
-     "Two non-acoustic details ruin bedroom purifiers. The first is light: air-quality LEDs, illuminated rings and bright displays are genuinely disruptive in a dark room, so the unit needs a full display-off mode rather than a dimmed one — a strip of tape is a poor answer on a €300 appliance. The second is auto mode. A purifier left on auto ramps up whenever the sensor sees a spike, and in a bedroom that spike is usually you rolling over and disturbing dust. Waking at three to a machine at full tilt defeats the point, so favour models whose sleep mode locks the fan speed instead of merely dimming the lights. Draught is the third consideration: a directional tower pointed at the bed is unpleasantly cold in an Irish bedroom in January."
-    ],
-    [
-     "Overnight running costs and how fast the filter loads",
-     "A bedroom-only purifier is cheap to run. At 6 W on sleep mode for eight hours a night, a full year of overnight use is 17.5 kWh — about €7 at current Irish unit rates. Leave the same unit on low around the clock and it is roughly 53 kWh, or €20 a year. Neither figure should change your decision; filters will. Night-only running loads the media far more slowly than continuous operation, so an element rated for twelve months of constant use often stretches well past that on a bedroom duty cycle. Judge replacement by airflow and smell rather than by the counter, which on most machines simply counts hours regardless of load. Budget €30–60 a year and check that price before buying, because small units are where filter mark-ups are steepest."
-    ]
-   ],
-   "faqs": [
-    {
-     "q": "How many decibels is too loud for a bedroom?",
-     "a": "Above about 30 dB most people notice a purifier in a quiet room, and above 35 dB it becomes the loudest thing in there. A typical Irish bedroom at night has a background of 20–30 dB, so anything at or below 25 dB effectively disappears into it. Remember that manufacturer figures are measured at one metre in a treated room; on a hard bedside locker close to your head, add a few decibels in practice. If you are a light sleeper, prioritise models that publish a dB(A) figure for each fan speed over those quoting a single \"as low as\" number with no context."
-    },
-    {
-     "q": "Is the white noise from a purifier good for sleep?",
-     "a": "For some people, genuinely yes — a steady broadband hiss masks traffic, wind and a partner's movement, and plenty of owners keep a unit running mainly for that. What matters is the character of the sound rather than its level. Smooth, low-frequency airflow noise is easy to sleep through; a bearing whine, a motor hum at one particular speed, or a fan that surges up and down on auto is not, and habituation does not fix it. If you want the masking effect, choose a unit that holds a fixed medium speed rather than one that hunts."
-    },
-    {
-     "q": "Should I use auto mode or sleep mode overnight?",
-     "a": "Sleep mode, in most bedrooms. Auto reacts to the sensor, and the sensor reacts to ordinary night-time events — turning over, the duvet moving, dust stirred as you get up. The result is a machine ramping to a noisy speed at three in the morning, which is the single most common complaint in long-term owner feedback. A fixed low speed cleans a bedroom-sized volume perfectly well across eight hours. Save auto mode for daytime use in living areas, where a spike from cooking or an opened door is genuinely worth an immediate response."
-    },
-    {
-     "q": "Can I put the purifier in a corner or under the bed?",
-     "a": "No to under the bed, and corners are a compromise. Almost all purifiers draw air in through the sides or base and exhaust upwards or forwards, so boxing one in starves the intake, drops actual delivery well below the rated CADR, and makes the motor work harder and louder for less clean air. Aim for 30 cm of clear space around the intake faces, and avoid deep pile carpet if the unit breathes from underneath. Where floor space is tight, a tall slim tower against a wall loses less performance than a cylindrical model jammed into a corner."
-    },
-    {
-     "q": "Do purifiers make a bedroom colder or draughty?",
-     "a": "They do not cool the air — the motor actually adds a watt or two of heat — but they move it, and moving air feels colder against skin. In an Irish bedroom in winter, with an external wall sitting at 14–16 °C, an outlet pointed at the bed is noticeably chilly. The fix is placement rather than a different machine: angle the discharge along the room or up towards the ceiling, or choose a cylindrical model with 360-degree output that never concentrates flow in one direction. On sleep mode the airflow is usually too gentle to feel at all."
-    },
-    {
-     "q": "Do air purifiers get louder as the filter clogs?",
-     "a": "Usually yes, and it is a useful signal. As media loads with dust, resistance rises, and a fan holding the same speed against more back-pressure gets louder while moving less air. On units with fixed manual speeds you hear it first as a change in tone; on models with automatic pressure compensation you may only see the power draw creep up. Vacuuming or rinsing the pre-filter monthly delays it considerably. If a machine that used to disappear at night is now audible on the same setting, check the pre-filter before assuming the main element is finished."
-    }
-   ],
-   "products": [
-    {
-     "id": "apr-011",
-     "asin": "B0CG1N11DV",
-     "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
-     "brand": "Levoit",
-     "price": 61,
-     "rating": 4.6,
-     "badge": "Quietest Overall",
-     "specs": {
-      "Coverage": "Bedrooms",
-      "Filter": "HEPA",
-      "Extras": "Fragrance sponge",
-      "Noise": "Near-silent low"
-     },
-     "pros": [
-      "Designed for sleep — very quiet",
-      "Optional gentle fragrance",
-      "Compact bedside size"
-     ],
-     "cons": [
-      "Smaller rooms only",
-      "Basic display"
-     ],
-     "verdict": "The bedroom specialist: clean air all night without a sound you'll notice."
-    },
-    {
-     "id": "apr-012",
-     "asin": "B0BX4LB7HL",
-     "name": "Philips 600 Series Air Purifier",
-     "brand": "Philips",
-     "price": 80,
-     "rating": 4.6,
-     "badge": "Best Quiet All-Rounder",
-     "specs": {
-      "Coverage": "Up to 44 m²",
-      "Filter": "True HEPA",
-      "Energy": "Ultra-efficient",
-      "Noise": "Very quiet"
-     },
-     "pros": [
-      "Philips sensor accuracy",
-      "Ultra-low energy use",
-      "Near-silent sleep mode"
-     ],
-     "cons": [
-      "No app on base model",
-      "Filter replacements yearly"
-     ],
-     "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
-    },
-    {
-     "id": "apr-013",
-     "asin": "B0DYHQW1NN",
-     "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
-     "brand": "MELEDEN",
-     "price": 31,
-     "rating": 4.3,
-     "badge": "Best Quiet Budget",
-     "specs": {
-      "Filter": "True HEPA H13",
-      "Extras": "Aroma pad",
-      "Use": "Bedroom/pets",
-      "Noise": "Quiet"
-     },
-     "pros": [
-      "H13 filtration at €31",
-      "Pet-focused filter",
-      "Aroma pad bonus"
-     ],
-     "cons": [
-      "Limited coverage",
-      "No auto mode"
-     ],
-     "verdict": "The pet-corner purifier: H13 spore and dander capture for pocket money."
-    },
-    {
-     "id": "apr-014",
-     "asin": "B07QT1WNJP",
-     "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-     "brand": "QUEENTY",
-     "price": 50,
-     "rating": 4.2,
-     "badge": "Best Value H13",
-     "specs": {
-      "Filter": "H13 HEPA",
-      "Extras": "Ioniser (switchable)",
-      "Coverage": "Medium rooms",
-      "Noise": "Low"
-     },
-     "pros": [
-      "H13 + optional ioniser",
-      "Decent medium-room coverage",
-      "Simple operation"
-     ],
-     "cons": [
-      "Plastic build",
-      "Brand support thin"
-     ],
-     "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
-    },
-    {
-     "id": "apr-015",
-     "asin": "B0CMQPZC72",
-     "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
-     "brand": "Levoit",
-     "price": 121,
-     "rating": 4.7,
-     "badge": "Best Quiet Large Room",
-     "specs": {
-      "Coverage": "Up to 70 m²",
-      "Filter": "H13 HEPA",
-      "Smart": "Alexa + app",
-      "Modes": "Auto, sleep"
-     },
-     "pros": [
-      "Covers open-plan spaces",
-      "Excellent app and auto mode",
-      "Cheap, available filters"
-     ],
-     "cons": [
-      "Big white cylinder",
-      "Top speed is loud"
-     ],
-     "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
-    },
-    {
-     "id": "apr-026",
-     "asin": "B0DTHD85T1",
-     "name": "GoveeLife Smart Air Purifier (Large Rooms)",
-     "brand": "GoveeLife",
-     "price": 78,
-     "rating": 4.6,
-     "badge": "Strong Alternative",
-     "specs": {
-      "Coverage": "Up to 97 m² (1,046 ft²)",
-      "Filter": "3-in-1 HEPA",
-      "Sleep mode": "24 dB",
-      "Monitor": "PM2.5 sensor"
-     },
-     "pros": [
-      "€78 — 4th-cheapest of the 7 picks here",
-      "Up to 97 m² (1,046 ft²) coverage",
-      "3-in-1 HEPA filter"
-     ],
-     "cons": [
-      "1 of the 7 picks here is better rated by owners",
-      "€17 more than our top pick"
-     ],
-     "verdict": "GoveeLife's large-room unit carries the same 4.6-star owner rating as our quietest pick while costing €78 against €61, and it's built for bigger spaces than a bedroom. That's the catch on this page specifically: it's a large-room machine, and large-room machines earn their coverage with more airflow, which is the opposite of what a bedroom needs at 3am. Consider it if the room doubles as a home office by day; for sleep alone, the LEVOIT is the better fit."
-    },
-    {
-     "id": "apr-029",
-     "asin": "B08KPK8NKN",
-     "name": "Blueair Blue Max 3450i Smart WiFi",
-     "brand": "Blueair",
-     "price": 364,
-     "rating": 4.3,
-     "badge": "Notable Mention",
-     "specs": {
-      "CADR": "510 m³/h",
-      "Coverage": "Up to 103 m²",
-      "Filtration": "3-stage HEPASilent",
-      "Pre-filter": "Washable fabric"
-     },
-     "pros": [
-      "510 m³/h cadr",
-      "Up to 103 m² coverage"
-     ],
-     "cons": [
-      "4 of the 7 picks here are better rated by owners",
-      "€303 more than our top pick, which owners rate higher at 4.6★"
-     ],
-     "verdict": "Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €61 LEVOIT does the bedroom job this page is about for a fraction of the outlay."
-    }
-   ]
-  },
-  {
-   "slug": "best-air-purifiers-large-rooms-ireland",
-   "title": "Best Air Purifiers for Large & Open-Plan Rooms Ireland 2026",
-   "desc": "High-CADR air purifiers for large Irish living rooms and open-plan spaces — 300+ m³/h units compared on coverage and cost. Compared for 2026.",
-   "h1": "Best Air Purifiers for Large Rooms in Ireland",
-   "intro": "Open-plan living — the default in newer Irish builds — defeats small purifiers: they clean their corner while the kitchen end pumps out cooking particles. Big spaces need CADR of 300+ m³/h to manage 3+ air changes hourly. These six movers handle 60–100 m² honestly, ranked on airflow, noise at useful speeds, and cost per cubic metre cleaned.",
-   "faq_idx": [
-    2,
-    6,
-    4
-   ],
-   "guide": [
-    [
-     "How do you size an air purifier for an open-plan Irish home?",
-     "Measure the whole connected space, not just the part you sit in: a 45 m² kitchen-dining-living run with a 2.4 m ceiling is 108 m³, and a double-height void or open stairs can push that to 140–160 m³. Three air changes an hour at 108 m³ needs 324 m³/h of clean air delivery — five changes needs close to 550. Open-plan is the default in Irish builds from the 2000s onward, which is exactly why the sizing rules printed on purifier boxes mislead here. Very few single domestic machines produce that kind of clean-air delivery at a noise level anyone would tolerate while watching television. This calculation is what decides whether you buy one flagship, two mid-size units, or consciously accept two air changes an hour as good enough for the space."
-    ],
-    [
-     "What CADR do you need at a usable, quiet fan speed?",
-     "Headline CADR is measured at maximum fan speed, and on large machines maximum is typically 55–65 dB — louder than conversation. The figure to hunt for is delivery at the second or third of five speeds, which is where a big unit actually lives day to day. As a working rule for Irish open-plan rooms: under 80 m³, look for a 300 m³/h headline; 80–120 m³, aim at 400 m³/h; above 120 m³, either 600 m³/h or two machines. Expect roughly half the headline number at a comfortable speed and size up accordingly — a unit rated 500 m³/h running at 250 in the evening still gives two-plus changes an hour in a 108 m³ room without anyone raising their voice. Oversizing is the only reliable route to quiet in a large space."
-    ],
-    [
-     "One large unit or two smaller ones",
-     "Two mid-size purifiers usually beat one large one in an open-plan room, for a reason unconnected to total airflow. Air does not mix instantly. A single machine at one end creates a clean zone around itself while the far corner — behind the island, past the sofa — stays comparatively dirty, because furniture, peninsulas and changes in ceiling height all create dead air. A pair placed at opposite ends covers the volume far more evenly, lets both run at lower and quieter speeds, and means one failure does not leave you with nothing. The counter-argument is consumables: two sets of filters every year instead of one. Price both scenarios across five years, because two €180 units with €35 filters frequently land cheaper than one €450 flagship with €80 filters."
-    ],
-    [
-     "Cooking, stoves and the evening spike",
-     "The largest particle event in an Irish open-plan house happens between six and eight in the evening. Frying, grilling and toasting throw PM2.5 into the room in quantities that dwarf anything drifting in from outdoors, and in an open-plan layout there is no door to contain it. A stove or open fire in the same connected space adds a further load every time the door is opened to refuel. Two implications for choosing a machine. Put real weight on carbon capacity — a substantial carbon layer, measured in hundreds of grams, deals with cooking odours and smoke gases that HEPA media ignores entirely. And favour a responsive particle sensor with fast auto reaction, because you want full speed within a minute of the pan going on, not twenty minutes later."
-    ],
-    [
-     "How much does running a large air purifier cost per year in Ireland?",
-     "Large purifiers consume real electricity. A high-CADR unit averaging 45 W across the day uses 394 kWh a year, roughly €150 at a 38 cent unit rate — not trivial. Run it hard at 70 W and you are past €230. Filters follow the same curve: large-format HEPA-and-carbon cartridges cost €60–100, and heavy carbon loading in a cooking space usually means annual rather than eighteen-monthly replacement. A realistic five-year total for a €400 machine is around €400 in filters plus €600–750 in electricity, which makes the appliance itself the smallest line on the bill. Two levers pull that down: use auto mode so the unit idles at 10–15 W between events, and check the wattage at the speeds you will genuinely use rather than the maximum figure stamped on the plate."
-    ]
-   ],
-   "faqs": [
-    {
-     "q": "Will one air purifier clean a whole house?",
-     "a": "No. Purifiers clean the room they occupy, and the effect falls away sharply past a doorway — a closed door blocks it almost entirely, and even an open one leaves the next room receiving a small fraction of the clean air delivery. Manufacturer \"whole home\" claims generally assume a single air change per hour across an unrealistically open floor plan. In practice a two-storey Irish semi needs one unit downstairs in the main living space and another in the principal bedroom before you can reasonably say the house is covered."
-    },
-    {
-     "q": "Where should a purifier go in an open-plan kitchen-living room?",
-     "a": "Between the two zones rather than in either of them, and out of the corners. The classic mistake is tucking it behind the sofa at the far end, where it cleans a bubble around itself while cooking particles fill the other half of the room. A position along the main run, with clear space on all sides and near the path air naturally takes between the hob and the seating area, does far more work. If you can only choose one end, choose the one nearer the cooker — that is where the biggest particle events originate."
-    },
-    {
-     "q": "Does a good extractor hood mean I don't need a purifier in the kitchen?",
-     "a": "A ducted extractor vented outside is the better tool for cooking particles, and if you have one, use it — switch it on before the pan heats and leave it running fifteen minutes afterwards. Many Irish kitchens, though, have recirculating hoods that trap grease and vent straight back into the room, which does very little for PM2.5. A purifier is a useful backstop either way, because an open-plan layout lets whatever escapes the hood spread across the whole ground floor instead of staying in one room."
-    },
-    {
-     "q": "Can an air purifier cope with a stove or open fire in the same room?",
-     "a": "It will help with what escapes into the room — particularly the puff of smoke and fine particulate released each time the door is opened to refuel, and the general PM2.5 rise on a still evening. It is not a fix for a badly drawing chimney or a poorly sealed stove, both of which need a sweep or an installer. Prioritise carbon capacity if this describes your sitting room, since HEPA media catches soot particles but none of the gases, and expect noticeably shorter filter life across the heating season."
-    },
-    {
-     "q": "Should the unit sit on the floor or on furniture?",
-     "a": "It depends on where it breathes. Units with a base or lower-side intake and a top outlet work well on the floor, which is also where much of the heavier dust settles. Models drawing in from the front at mid-height do better raised 30–60 cm on a low table or console. Either way the priority is clearance at the intake faces. In a large room a slightly raised position also helps the clean-air stream travel further before it mixes, which matters when one machine is trying to cover 100 m²."
-    },
-    {
-     "q": "Is a big purifier on a low speed better than a small one on high?",
-     "a": "Almost always, for the same delivered airflow. A large impeller turning slowly moves air with less turbulence and less noise than a small one spinning hard, so the bigger machine gives equivalent cleaning at a level you can talk over. It also carries more filter area, which means lower resistance, lower power draw per cubic metre moved, and longer intervals between replacements. The trade-offs are purchase price, floor space and a heftier filter bill when it finally comes due. In an open-plan room, buying a size up is rarely a mistake."
-    }
-   ],
-   "products": [
-    {
-     "id": "apr-016",
-     "asin": "B0CMQPZC72",
-     "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
-     "brand": "Levoit",
-     "price": 121,
-     "rating": 4.7,
-     "badge": "Best Large-Room Overall",
-     "specs": {
-      "Coverage": "Up to 70 m²",
-      "Filter": "H13 HEPA",
-      "Smart": "Alexa + app",
-      "Modes": "Auto, sleep"
-     },
-     "pros": [
-      "Covers open-plan spaces",
-      "Excellent app and auto mode",
-      "Cheap, available filters"
-     ],
-     "cons": [
-      "Big white cylinder",
-      "Top speed is loud"
-     ],
-     "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
-    },
-    {
-     "id": "apr-017",
-     "asin": "B0FJLZFDHR",
-     "name": "AZEUS True HEPA Air Purifier (GL-FS32)",
-     "brand": "AZEUS",
-     "price": 90,
-     "rating": 4.4,
-     "badge": "Best Airflow Value",
-     "specs": {
-      "Filtration": "4-stage",
-      "Filter": "True HEPA",
-      "Coverage": "Large rooms",
-      "Noise": "Quiet operation"
-     },
-     "pros": [
-      "4-stage filtration",
-      "Strong large-room airflow",
-      "Quiet for its size"
-     ],
-     "cons": [
-      "Brand less known in Ireland",
-      "Filter sourcing online"
-     ],
-     "verdict": "The 4-stage workhorse for bigger rooms — filtration depth at a fair price."
-    },
-    {
-     "id": "apr-018",
-     "asin": "B0BX4LB7HL",
-     "name": "Philips 600 Series Air Purifier",
-     "brand": "Philips",
-     "price": 80,
-     "rating": 4.6,
-     "badge": "Best Efficient Large",
-     "specs": {
-      "Coverage": "Up to 44 m²",
-      "Filter": "True HEPA",
-      "Energy": "Ultra-efficient",
-      "Noise": "Very quiet"
-     },
-     "pros": [
-      "Philips sensor accuracy",
-      "Ultra-low energy use",
-      "Near-silent sleep mode"
-     ],
-     "cons": [
-      "No app on base model",
-      "Filter replacements yearly"
-     ],
-     "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
-    },
-    {
-     "id": "apr-019",
-     "asin": "B07QT1WNJP",
-     "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-     "brand": "QUEENTY",
-     "price": 50,
-     "rating": 4.2,
-     "badge": "Best Mid-Room Support",
-     "specs": {
-      "Filter": "H13 HEPA",
-      "Extras": "Ioniser (switchable)",
-      "Coverage": "Medium rooms",
-      "Noise": "Low"
-     },
-     "pros": [
-      "H13 + optional ioniser",
-      "Decent medium-room coverage",
-      "Simple operation"
-     ],
-     "cons": [
-      "Plastic build",
-      "Brand support thin"
-     ],
-     "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
-    },
-    {
-     "id": "apr-020",
-     "asin": "B0BXWYLSPP",
-     "name": "MELEDEN HEPA Air Purifier",
-     "brand": "MELEDEN",
-     "price": 29,
-     "rating": 4.1,
-     "badge": "Best Spot Support",
-     "specs": {
-      "Filter": "HEPA",
-      "Targets": "Smoke, pollen, dander",
-      "Size": "Compact",
-      "Noise": "Low"
-     },
-     "pros": [
-      "Real HEPA for €29",
-      "Tackles pollen and pet dander",
-      "Tiny footprint"
-     ],
-     "cons": [
-      "Small rooms strictly",
-      "Basic controls"
-     ],
-     "verdict": "The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries."
-    },
-    {
-     "id": "apr-030",
-     "asin": "B09BJMY8HL",
-     "name": "Levoit Smart Air Purifier for Large Rooms",
-     "brand": "Levoit",
-     "price": 365,
-     "rating": 4.6,
-     "badge": "Smart Alternative",
-     "specs": {},
-     "pros": [
-      "Second-best owner rating on this page at 4.6★"
-     ],
-     "cons": [
-      "1 of the 6 picks here is better rated by owners",
-      "€244 more than our top pick, which owners rate higher at 4.7★"
-     ],
-     "verdict": "This Levoit is the most expensive machine on the page at €365 and well rated at 4.6 stars, from the same brand as our €121 top pick. The awkward part is that our pick is also a Levoit, covers up to 70 m², and rates slightly higher at 4.7 — so you'd be paying roughly triple for the same badge. Only worth it if its coverage figure genuinely exceeds what the cheaper Levoit handles in your room."
-    }
-   ]
-  },
-  {
-   "slug": "best-budget-air-purifiers-under-150-ireland",
-   "title": "Best Budget Air Purifiers Under €150 Ireland 2026",
-   "desc": "Real HEPA air purification under €150: five budget units for Irish homes compared on filtration, noise and filter costs. 2026 guide.",
-   "h1": "Best Budget Air Purifiers Under €150 in Ireland",
-   "intro": "Under €150, air purifiers split into two species: genuine HEPA machines from serious brands' entry lines, and glowing plastic that moves air past a sponge. Every unit below is the first kind — verified true-HEPA filtration with filters you can actually buy next year. The differences left are room size, noise and small luxuries.",
-   "faq_idx": [
-    3,
-    0,
-    2
-   ],
-   "guide": [
-    [
-     "What does a budget air purifier under €150 actually give up?",
-     "True H13 filtration is no longer a premium feature — even entry models from established brands use the same filter media grade as machines costing three times as much. What the budget tier sacrifices is airflow, carbon and refinement: expect a CADR of 100–180 m³/h, honest coverage for a 10–20 m² bedroom or small sitting room, not a family living space. Carbon is typically a thin coated layer rather than granules by weight, so odour and smoke performance is limited. Many units also drop the particle sensor and auto mode entirely, meaning you set a speed and leave it. None of that makes a cheap purifier pointless — it makes it a single-room appliance, and buying it as one is the whole trick."
-    ],
-    [
-     "How a €99 purifier becomes a €350 purifier",
-     "Budget purifiers are frequently sold at or below cost, with the margin waiting in the filters. Do the sum before ordering. A €99 machine with a €55 filter rated for six months costs €110 a year to keep running, so three years in you have spent €429. A €145 machine with a €30 annual filter costs €235 across the same period. Electricity barely moves the needle at this size — 12 W continuous is 105 kWh, about €40 a year on a 38 cent tariff — so filters are the entire argument. Before buying, search the exact replacement part number, confirm it is stocked with EU delivery, and check whether the model has been quietly discontinued. A cheap purifier whose filter vanishes in eighteen months is a disposable appliance."
-    ],
-    [
-     "The red flags in the sub-€150 aisle",
-     "Four claims should send you scrolling onward. \"HEPA-type\", \"HEPA-style\" and \"99% at 3 microns\" are all ways of dodging the H13 standard, which is defined at 0.3 microns. Ioniser-only devices with no filter charge particles so they stick to walls and surfaces rather than being removed, and some generate ozone as a by-product — an irritant, and precisely what an asthma or allergy household does not want. \"UV-C sterilisation\" in a domestic purifier exposes passing air to the lamp for a fraction of a second, far too briefly to do useful work. Finally, be sceptical of any listing quoting coverage in square metres with no m³/h CADR anywhere: the omission is deliberate, and at this price it normally means the number is embarrassing."
-    ],
-    [
-     "What size room should a budget air purifier be asked to cover?",
-     "The commonest budget mistake is asking a €120 machine to clean an entire downstairs. Pick the single room where the hours are, which for most people is the bedroom at 10–14 m², or about 24–34 m³. A 150 m³/h unit produces four to six air changes an hour in that volume, which is proper performance rather than a compromise. Keep the door shut while it runs, because a purifier in a space open to the landing is effectively trying to clean the whole floor. And if damp and mould are the reason you are buying, be honest with yourself: the machine catches airborne spores but does nothing about the moisture producing them. In a persistently damp Irish bedroom, €150 on a dehumidifier and better ventilation will outperform €150 spent here."
-    ],
-    [
-     "How do you get more out of a cheap air purifier?",
-     "Three habits close most of the gap with expensive units. First, vacuum or rinse the pre-filter mesh monthly — pollen, pet hair and general dust choke it quickly, and a clogged pre-filter strangles airflow while shortening the life of the H13 element behind it. Second, run continuously on a low speed instead of blasting it for an hour: particle levels rebound within a couple of hours, and low-speed running is quieter and gentler on the media. Third, give it space — 30 cm clear of walls and furniture, out of the corner, and off deep pile carpet if it draws from underneath. Timing helps as well: entry models are heavily discounted in late spring ahead of grass pollen season, and again in the November sales."
-    ]
-   ],
-   "faqs": [
-    {
-     "q": "Are cheap air purifiers from marketplace sellers any good?",
-     "a": "Some are, many are not, and the listing itself tells you which. The ones worth buying name an H13 or EN 1822 filter grade, publish a CADR in m³/h, and sell a replacement filter under a part number you can search independently. The ones to avoid quote coverage only in square metres, lean on words like \"HEPA-type\" or \"ioniser\", and have no filter listing at all. Brand obscurity matters less than filter availability: an unknown brand with a stocked, cheap, well-reviewed replacement is a better buy than a familiar name whose filter has been discontinued."
-    },
-    {
-     "q": "Can I use a generic replacement filter in a budget purifier?",
-     "a": "Usually yes, and at this end of the market it is often the difference between a sensible appliance and a money pit. Check the generic states an H13 grade rather than \"HEPA-type\", compare the stated depth and pleat density against the original, and read reviews for complaints about fit — a filter that does not seal lets air bypass the media entirely, which defeats the point. Some machines use a chipped filter and will keep flashing a replacement reminder with a third-party part. That is cosmetic, but worth knowing before you assume the saving is free."
-    },
-    {
-     "q": "Do I need activated carbon in a cheap purifier?",
-     "a": "Only if you have a specific odour or smoke problem — cooking in a small flat, a smoker in the house, or solid-fuel smoke drifting in over winter. HEPA media does nothing for gases and smells, so carbon is the only component addressing them, but the thin coated sheet fitted to most sub-€150 units saturates within a few months and then contributes very little. If odour is your main reason for buying, the honest answer is that meaningful carbon — granules measured in hundreds of grams — starts above this budget."
-    },
-    {
-     "q": "Is a €150 purifier enough for an apartment?",
-     "a": "For a bedroom in that apartment, yes. For the whole thing, no. A typical budget unit delivering 120–180 m³/h gives good air change rates in a 10–20 m² room with the door closed, and very little in a 45 m² open-plan apartment where it would manage barely one change an hour. If the budget is fixed, put the machine in the bedroom and shut the door at night rather than leaving it in the living area attempting to cover everything. One room done properly beats a whole flat done badly."
-    },
-    {
-     "q": "Can I wash a HEPA filter to save money?",
-     "a": "No — washing an H13 element ruins it. The media is a mat of fine fibres holding an electrostatic charge; water destroys the charge, mats the fibres and leaves damp material that can grow mould in a humid Irish house. Only filters explicitly sold as washable can be rinsed, and those are almost always coarse pre-filters or lower-grade media rather than true HEPA. The pre-filter mesh, by contrast, should be vacuumed or rinsed monthly, and doing so genuinely extends the life of the expensive element sitting behind it."
-    },
-    {
-     "q": "Should I buy a cheap purifier now or save for a better one?",
-     "a": "Buy the cheap one if the filter costs are sane and the room is small — a €130 unit running every night for the next five years does far more good than a €400 unit you are still saving towards. Hold off instead if you need to cover an open-plan space, if odour and smoke control is the actual requirement, or if you are a light sleeper and want published low-speed noise figures. A useful middle path is last year's model from a serious brand: the media grade is identical and the discount often brings a €200 machine inside budget."
-    }
-   ],
-   "products": [
-    {
-     "id": "apr-021",
-     "asin": "B0BX4LB7HL",
-     "name": "Philips 600 Series Air Purifier",
-     "brand": "Philips",
-     "price": 80,
-     "rating": 4.6,
-     "badge": "Best Under €150",
-     "specs": {
-      "Coverage": "Up to 44 m²",
-      "Filter": "True HEPA",
-      "Energy": "Ultra-efficient",
-      "Noise": "Very quiet"
-     },
-     "pros": [
-      "Philips sensor accuracy",
-      "Ultra-low energy use",
-      "Near-silent sleep mode"
-     ],
-     "cons": [
-      "No app on base model",
-      "Filter replacements yearly"
-     ],
-     "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
-    },
-    {
-     "id": "apr-022",
-     "asin": "B0CG1N11DV",
-     "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
-     "brand": "Levoit",
-     "price": 61,
-     "rating": 4.6,
-     "badge": "Best Value Bedroom",
-     "specs": {
-      "Coverage": "Bedrooms",
-      "Filter": "HEPA",
-      "Extras": "Fragrance sponge",
-      "Noise": "Near-silent low"
-     },
-     "pros": [
-      "Designed for sleep — very quiet",
-      "Optional gentle fragrance",
-      "Compact bedside size"
-     ],
-     "cons": [
-      "Smaller rooms only",
-      "Basic display"
-     ],
-     "verdict": "The bedroom specialist: clean air all night without a sound you'll notice."
-    },
-    {
-     "id": "apr-023",
-     "asin": "B07QT1WNJP",
-     "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-     "brand": "QUEENTY",
-     "price": 50,
-     "rating": 4.2,
-     "badge": "Best H13 Under €60",
-     "specs": {
-      "Filter": "H13 HEPA",
-      "Extras": "Ioniser (switchable)",
-      "Coverage": "Medium rooms",
-      "Noise": "Low"
-     },
-     "pros": [
-      "H13 + optional ioniser",
-      "Decent medium-room coverage",
-      "Simple operation"
-     ],
-     "cons": [
-      "Plastic build",
-      "Brand support thin"
-     ],
-     "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
-    },
-    {
-     "id": "apr-024",
-     "asin": "B0DYHQW1NN",
-     "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
-     "brand": "MELEDEN",
-     "price": 31,
-     "rating": 4.3,
-     "badge": "Best Pet Budget",
-     "specs": {
-      "Filter": "True HEPA H13",
-      "Extras": "Aroma pad",
-      "Use": "Bedroom/pets",
-      "Noise": "Quiet"
-     },
-     "pros": [
-      "H13 filtration at €31",
-      "Pet-focused filter",
-      "Aroma pad bonus"
-     ],
-     "cons": [
-      "Limited coverage",
-      "No auto mode"
-     ],
-     "verdict": "The pet-corner purifier: H13 spore and dander capture for pocket money."
-    },
-    {
-     "id": "apr-025",
-     "asin": "B0BXWYLSPP",
-     "name": "MELEDEN HEPA Air Purifier",
-     "brand": "MELEDEN",
-     "price": 29,
-     "rating": 4.1,
-     "badge": "Cheapest Real HEPA",
-     "specs": {
-      "Filter": "HEPA",
-      "Targets": "Smoke, pollen, dander",
-      "Size": "Compact",
-      "Noise": "Low"
-     },
-     "pros": [
-      "Real HEPA for €29",
-      "Tackles pollen and pet dander",
-      "Tiny footprint"
-     ],
-     "cons": [
-      "Small rooms strictly",
-      "Basic controls"
-     ],
-     "verdict": "The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries."
-    }
-   ]
-  }
- ]
 }

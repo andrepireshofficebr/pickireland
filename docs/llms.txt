@@ -97,6 +97,16 @@ Products are compared on manufacturer specifications, verified owner feedback an
 - [Best Robot Vacuum & Mop Combos in Ireland](https://pickireland.best/robot-vacuums/best-robot-vacuum-mop-combos-ireland.html) — Robot vacuum-mop hybrids that actually mop: rotating pads, self-washing docks and carpet protection compared for Irish homes. Compared for 2026. Top pick: eufy C28 Omni (Self-Cleaning Roller Mop) (~€499).
 - [Best Premium & Self-Empty Robot Vacuums in Ireland](https://pickireland.best/robot-vacuums/best-premium-self-empty-robot-vacuums-ireland.html) — Flagship self-emptying robot vacuums compared for Ireland: total automation, obstacle AI and long-term costs. Premium picks for 2026. Top pick: eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station) (~€549).
 
+## Running costs: reference tables and explainers
+- [What an air fryer actually costs to run in Ireland](https://pickireland.best/air-fryers/air-fryer-running-costs-ireland.html) — Rated power and cost per hour at Irish day and night rates for every air fryer we track, plus what a typical cook actually costs.
+- [What an air purifier actually costs to run in Ireland](https://pickireland.best/air-purifiers/air-purifier-running-costs-ireland.html) — Rated power and cost per hour at Irish day and night rates for every air purifier we track — the appliance people most often assume is expensive.
+- [What a dehumidifier actually costs to run in Ireland](https://pickireland.best/dehumidifiers/dehumidifier-running-costs-ireland.html) — Rated power, cost per hour at Irish day and night rates, cost per month and cost per litre of water removed, for every dehumidifier we track.
+- [How much does a dehumidifier cost to run in Ireland?](https://pickireland.best/dehumidifiers/how-much-does-a-dehumidifier-cost-to-run-ireland.html) — What a dehumidifier costs per hour, per night and per month at Irish electricity rates, with the arithmetic shown and the assumptions named.
+- [What an electric heater actually costs to run in Ireland](https://pickireland.best/electric-heaters/electric-heater-running-costs-ireland.html) — Rated power and cost per hour at Irish day and night rates, plus cost per month over a winter evening, for every electric heater we track.
+
+## Full content
+- [llms-full.txt](https://pickireland.best/llms-full.txt) — every guide, product spec, running cost, verdict and FAQ on this site, in one plain-text file.
+
 ## About
 - [About & methodology](https://pickireland.best/about.html)
 - [Affiliate disclosure](https://pickireland.best/affiliate-disclosure.html)

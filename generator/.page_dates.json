@@ -9,89 +9,99 @@
   "modified": "2026-08-15",
   "published": "2026-08-15"
  },
+ "air-fryers/air-fryer-running-costs-ireland": {
+  "hash": "d598c1dd7711130a",
+  "modified": "2026-09-01",
+  "published": "2026-09-01"
+ },
  "air-fryers/best-air-fryers-ireland": {
-  "hash": "1c33a52649f6a641",
-  "modified": "2026-08-22",
+  "hash": "ac7ed10b451d0d61",
+  "modified": "2026-09-01",
   "published": "2026-07-28"
  },
  "air-fryers/best-budget-air-fryers-under-100-ireland": {
-  "hash": "2a77ee2171982670",
-  "modified": "2026-08-16",
+  "hash": "3b0b60d45011029a",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-fryers/best-compact-air-fryers-small-kitchens-ireland": {
-  "hash": "d52966c77abb28d6",
-  "modified": "2026-08-22",
+  "hash": "27447ba71164754d",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-fryers/best-dual-zone-air-fryers-ireland": {
-  "hash": "397f4ef779691504",
-  "modified": "2026-08-16",
+  "hash": "bba33cfb165f9b2f",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-fryers/best-large-air-fryers-families-ireland": {
-  "hash": "b4d39a28655ce96d",
-  "modified": "2026-08-16",
+  "hash": "f52dab5f92b40fd1",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-fryers/index": {
-  "hash": "0299ea0f06a3effe",
-  "modified": "2026-08-15",
+  "hash": "fda3a0b2a69b76ba",
+  "modified": "2026-09-01",
   "published": "2026-06-01"
  },
+ "air-purifiers/air-purifier-running-costs-ireland": {
+  "hash": "7195dedd5857b57a",
+  "modified": "2026-09-01",
+  "published": "2026-09-01"
+ },
  "air-purifiers/best-air-purifiers-allergies-hay-fever-ireland": {
-  "hash": "edaf5328e7d56a35",
-  "modified": "2026-07-31",
+  "hash": "2b7dac7d9573a25e",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-purifiers/best-air-purifiers-ireland": {
-  "hash": "dc64c97b42e18747",
-  "modified": "2026-07-31",
+  "hash": "c902435fd62f6977",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-purifiers/best-air-purifiers-large-rooms-ireland": {
-  "hash": "4436b90f3e2213ea",
-  "modified": "2026-07-31",
+  "hash": "128461e9ec78174f",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-purifiers/best-budget-air-purifiers-under-150-ireland": {
-  "hash": "252a90cef3721d0a",
-  "modified": "2026-07-31",
+  "hash": "b47f2b1b7a33de39",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-purifiers/best-quiet-air-purifiers-bedroom-ireland": {
-  "hash": "052ae74890761fef",
-  "modified": "2026-07-31",
+  "hash": "485d7e13f888810f",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "air-purifiers/index": {
-  "hash": "42ace99e1d0c8e84",
-  "modified": "2026-08-15",
+  "hash": "608ca52da39599ad",
+  "modified": "2026-09-01",
   "published": "2026-08-15"
  },
  "coffee-machines/best-bean-to-cup-coffee-machines-ireland": {
-  "hash": "ad7116c385221cba",
-  "modified": "2026-07-31",
+  "hash": "522c8ec7fb429ac7",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "coffee-machines/best-budget-coffee-machines-under-150-ireland": {
-  "hash": "dea55937a8061a42",
-  "modified": "2026-07-31",
+  "hash": "c0926f78d13bef24",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "coffee-machines/best-coffee-machines-ireland": {
-  "hash": "bd02a25c77b09567",
-  "modified": "2026-08-16",
+  "hash": "7d07cd60cc0f48b1",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "coffee-machines/best-espresso-machines-beginners-ireland": {
-  "hash": "2a944a31b4771d3a",
-  "modified": "2026-07-31",
+  "hash": "ffd989266850853b",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "coffee-machines/best-pod-coffee-machines-ireland": {
-  "hash": "8d20f8ba3b2ceb56",
-  "modified": "2026-07-31",
+  "hash": "6469baa4b0f1ac3a",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "coffee-machines/index": {
@@ -105,38 +115,43 @@
   "published": "2026-08-15"
  },
  "dehumidifiers/best-20l-dehumidifiers-large-homes-ireland": {
-  "hash": "d7e808743c16e7a0",
-  "modified": "2026-08-29",
+  "hash": "74be5243d97dfa75",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-drying-clothes-ireland": {
-  "hash": "6b962b5e29366101",
-  "modified": "2026-08-29",
+  "hash": "97a63b4637dc3c9e",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-ireland": {
-  "hash": "faa5c86a228d65e8",
-  "modified": "2026-08-29",
+  "hash": "99d6e08d80e1396f",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-mould-damp-ireland": {
-  "hash": "1e67ba16d0b06c82",
-  "modified": "2026-08-29",
+  "hash": "3849ccbc5af402a0",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-small-dehumidifiers-bedroom-ireland": {
-  "hash": "a0b788e3809087d8",
-  "modified": "2026-08-22",
+  "hash": "b762686af05ef710",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "dehumidifiers/dehumidifier-running-costs-ireland": {
-  "hash": "c709ad876d07159c",
-  "modified": "2026-08-29",
+  "hash": "770c4284c7bf601b",
+  "modified": "2026-09-05",
   "published": "2026-08-29"
  },
+ "dehumidifiers/how-much-does-a-dehumidifier-cost-to-run-ireland": {
+  "hash": "701a6d411a867ee3",
+  "modified": "2026-09-05",
+  "published": "2026-09-05"
+ },
  "dehumidifiers/index": {
-  "hash": "7f2655b06724d980",
-  "modified": "2026-08-29",
+  "hash": "f787c6c029c7bdc1",
+  "modified": "2026-09-05",
   "published": "2026-08-15"
  },
  "electric-bikes/best-commuter-electric-bikes-ireland": {
@@ -170,33 +185,38 @@
   "published": "2026-08-15"
  },
  "electric-heaters/best-bathroom-small-room-heaters-ireland": {
-  "hash": "82f2e4e2dc809857",
-  "modified": "2026-08-22",
+  "hash": "8f61fee939e12a46",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "electric-heaters/best-electric-heaters-ireland": {
-  "hash": "71bec69374d0f73c",
-  "modified": "2026-08-22",
+  "hash": "44f5a3c62b30a8fe",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "electric-heaters/best-oil-filled-radiators-ireland": {
-  "hash": "50bf7bccfe7e4663",
-  "modified": "2026-08-22",
+  "hash": "b412b4b21949321b",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "electric-heaters/best-panel-heaters-ireland": {
-  "hash": "cc337c751df245ce",
-  "modified": "2026-08-22",
+  "hash": "058489138136a1f4",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
  "electric-heaters/cheapest-electric-heaters-to-run-ireland": {
-  "hash": "c7affa3e2f5d75f8",
-  "modified": "2026-08-22",
+  "hash": "7b8c7ef026be16b9",
+  "modified": "2026-09-01",
   "published": "2026-07-31"
  },
+ "electric-heaters/electric-heater-running-costs-ireland": {
+  "hash": "5fb753afa95d794e",
+  "modified": "2026-09-01",
+  "published": "2026-09-01"
+ },
  "electric-heaters/index": {
-  "hash": "add0f19be5f84c53",
-  "modified": "2026-08-15",
+  "hash": "1295a468e71394fa",
+  "modified": "2026-09-01",
   "published": "2026-08-15"
  },
  "electric-scooters/best-budget-electric-scooters-under-500-ireland": {
