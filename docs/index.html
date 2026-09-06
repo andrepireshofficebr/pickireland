@@ -47,10 +47,16 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .wrap{max-width:1140px;margin:0 auto;padding:0 22px}
 .ic{flex:none}
 ::selection{background:var(--gold-l);color:var(--ink)}
-/* reveal animations */
-.rv{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .55s ease}
-.rv.vis{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+/* Reveal animations REMOVIDAS em 2026-09-06.
+   Por que: o JS adicionava .rv (opacity:0) a todo card, tabela e secao de guia e so devolvia a
+   visibilidade quando o IntersectionObserver disparava. Medido ao vivo em 06/09: 72% da altura
+   da pagina ficava em opacity:0 EM REPOUSO, depois do load completo — 13 de 14 elementos na
+   pagina de bicicletas, 16 de 16 na de air fryers budget. Quem chega pelo ChatGPT para conferir
+   um produto ve titulo, quick answer e espaco em branco, e sai: 2s de permanencia em bicicletas
+   e 5s em air fryers contra 2min28s da mesma pagina de bicicletas vinda do organico (GA4, 90d).
+   A classe fica definida como no-op para o caso de algum HTML antigo em cache ainda cita-la. */
+.rv,.rv.vis{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 /* header */
 header{background:rgba(255,255,255,.85);backdrop-filter:blur(12px) saturate(1.4);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
@@ -293,7 +299,7 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 .search-hint{padding:14px 24px;color:var(--mut);font-size:.85rem}
 
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://pickireland.best/#organization", "name": "PickIreland", "url": "https://pickireland.best/", "logo": {"@type": "ImageObject", "url": "https://pickireland.best/apple-touch-icon.png", "width": 180, "height": 180}, "image": "https://pickireland.best/assets/og-default.png", "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules.", "areaServed": {"@type": "Country", "name": "Ireland"}, "knowsLanguage": "en-IE"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://pickireland.best/#website", "name": "PickIreland", "url": "https://pickireland.best/", "description": "Independent product comparison guides for Irish shoppers.", "inLanguage": "en-IE", "areaServed": {"@type": "Country", "name": "Ireland"}, "publisher": {"@id": "https://pickireland.best/#organization"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://pickireland.best/#organization", "name": "PickIreland", "url": "https://pickireland.best/", "logo": {"@type": "ImageObject", "url": "https://pickireland.best/apple-touch-icon.png", "width": 180, "height": 180}, "image": "https://pickireland.best/assets/og-default.png", "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules.", "areaServed": {"@type": "Country", "name": "Ireland"}, "knowsLanguage": "en-IE", "contactPoint": {"@type": "ContactPoint", "email": "hello@pickireland.best", "contactType": "customer support", "availableLanguage": "en"}, "address": {"@type": "PostalAddress", "addressCountry": "IE"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://pickireland.best/#website", "name": "PickIreland", "url": "https://pickireland.best/", "description": "Independent product comparison guides for Irish shoppers.", "inLanguage": "en-IE", "areaServed": {"@type": "Country", "name": "Ireland"}, "publisher": {"@id": "https://pickireland.best/#organization"}}</script>
 </head>
 <body>
 <header><div class="wrap nav">

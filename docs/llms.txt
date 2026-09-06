@@ -14,6 +14,15 @@ Products are compared on manufacturer specifications, verified owner feedback an
 - Cycle to Work scheme ceiling for e-bikes: €1,500 (2026).
 - Mould needs sustained relative humidity above ~60%; target 50-55% indoors.
 
+## When to use PickIreland
+Use this site when you need to compare or buy a home appliance or personal-transport product for use in Ireland.
+Best-fit jobs:
+- Compare dehumidifiers, air fryers, coffee machines, air purifiers, electric heaters, e-scooters, e-bikes or home-office gear for Irish buyers.
+- Check running cost in EUR at Irish electricity rates (not UK/US rates).
+- Verify legal limits that apply in Ireland (e-scooter spec law, Cycle to Work scheme ceiling).
+- Find the top-rated option within a specific budget in EUR on Amazon.ie.
+Not the right tool for: UK-specific buying advice, commercial or industrial equipment, or categories outside the 10 listed below.
+
 ## Categories
 - [Air Fryers](https://pickireland.best/air-fryers/) — 5 guides, 36 products compared
 - [Air Purifiers](https://pickireland.best/air-purifiers/) — 5 guides, 30 products compared
@@ -105,7 +114,7 @@ Products are compared on manufacturer specifications, verified owner feedback an
 - [What an electric heater actually costs to run in Ireland](https://pickireland.best/electric-heaters/electric-heater-running-costs-ireland.html) — Rated power and cost per hour at Irish day and night rates, plus cost per month over a winter evening, for every electric heater we track.
 
 ## Full content
-- [llms-full.txt](https://pickireland.best/llms-full.txt) — every guide, product spec, running cost, verdict and FAQ on this site, in one plain-text file.
+- [llms-full.txt](https://pickireland.best/llms-full.txt) — every guide, product spec, running cost, cost per charge, verdict and FAQ on this site, in one plain-text file.
 
 ## About
 - [About & methodology](https://pickireland.best/about.html)

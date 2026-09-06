@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-09-05 | 10 categories | 50 guides | 304 product entries
+Generated: 2026-09-06 | 10 categories | 50 guides | 304 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -18,6 +18,9 @@ Products are compared on manufacturer specifications, verified owner feedback an
 
 ## How running cost is calculated
 Cost per hour = rated watts ÷ 1,000 × €0.38 per kWh. It is a CEILING, not a measurement: thermostats and humidistats cycle the element or compressor off, so most appliances do not draw rated power continuously. Products whose manufacturer does not publish a rated wattage carry no running-cost figure — we do not estimate one. Running cost is only shown for mains appliances that run for sustained periods; it is omitted for battery products (e-bikes, e-scooters, robot vacuums, robot mowers) where cost per hour would be meaningless.
+
+## How cost per charge is calculated
+Cost of one full charge = battery capacity in Wh ÷ 1,000 × €0.38 per kWh, at the Irish domestic day rate. Unlike running cost this is a FLOOR, not a ceiling: it is the energy the battery stores, and the wall socket delivers a few percent more because charger losses are heat rather than capacity. Capacity is taken from the manufacturer spec, either as a published Wh figure or as nominal volts × amp-hours. Products whose battery capacity is not published carry no figure — we do not estimate one. Shown for e-bikes and e-scooters; robot vacuums and robot mowers publish no capacity, so they carry no figure.
 
 
 ==============================================================================
@@ -2704,6 +2707,7 @@ The Irish e-bike market has matured fast: you can now get a genuinely good commu
 Brand: ENGWE
 Price: ~€1699
 Rating: 4.8/5 (Amazon.ie)
+Cost per charge: €0.27 per full charge at €0.38/kWh
 Battery: 48V 15Ah — up to 130 km
 Sensor: Torque (natural assist)
 Type: Folding fat-tyre
@@ -2716,6 +2720,7 @@ Verdict: A torque sensor rather than a basic cadence sensor is the headline spec
 Brand: ENGWE
 Price: ~€1049
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.24 per full charge at €0.38/kWh
 Battery: 48V 13Ah removable
 Range: Up to 120 km
 Type: Folding
@@ -2728,6 +2733,7 @@ Verdict: Claimed range of up to 120km comes from the same ENGWE build quality as
 Brand: Fafrees
 Price: ~€1999
 Rating: 4.5/5 (Amazon.ie)
+Cost per charge: €0.55 per full charge at €0.38/kWh
 Battery: 1440 Wh — the biggest here
 Range: Class-leading
 Type: Fat folding
@@ -2819,6 +2825,7 @@ Verdict: The Amazon.ie entry hero — legal, practical, and now even cheaper at 
 Brand: Fafrees
 Price: ~€699
 Rating: 4.2/5 (Amazon.ie)
+Cost per charge: €0.18 per full charge at €0.38/kWh
 Wheel: 26" classic
 Battery: 36V 13Ah removable
 Style: Traditional commuter
@@ -2831,6 +2838,7 @@ Verdict: The traditional commuter: full-size wheels and removable battery withou
 Brand: VARUN
 Price: ~€749
 Rating: 4.4/5 (Amazon.ie)
+Cost per charge: €0.24 per full charge at €0.38/kWh
 Battery: 48V 624Wh
 Wheel: 27.5"
 App: Yes
@@ -2843,6 +2851,7 @@ Verdict: The big-battery do-it-all, now €50 cheaper: trails Saturday, commutes
 Brand: VARUN
 Price: ~€799
 Rating: 4.4/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Battery: 48V 18Ah
 Tyres: 26×4.0 fat
 Terrain: Sand, gravel, mud
@@ -2910,6 +2919,7 @@ Folding e-bikes solve the three most Irish bike problems at once: theft (it live
 Brand: ENGWE
 Price: ~€1699
 Rating: 4.8/5 (Amazon.ie)
+Cost per charge: €0.27 per full charge at €0.38/kWh
 Battery: 48V 15Ah — up to 130 km
 Sensor: Torque (natural assist)
 Type: Folding fat-tyre
@@ -2922,6 +2932,7 @@ Verdict: The best e-bike on Amazon.ie right now: massive range, natural torque-s
 Brand: ENGWE
 Price: ~€1049
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.24 per full charge at €0.38/kWh
 Battery: 48V 13Ah removable
 Range: Up to 120 km
 Type: Folding
@@ -2946,6 +2957,7 @@ Verdict: The folding fat bestseller: comfort, storage and price in the sweet spo
 Brand: VARUN
 Price: ~€849
 Rating: 4.6/5 (Amazon.ie)
+Cost per charge: €0.24 per full charge at €0.38/kWh
 Type: Folding fat 20"
 Battery: 48V 13Ah
 Rating: 4.6★
@@ -2958,6 +2970,7 @@ Verdict: The compact adventure folder owners love — 4.6 stars don't lie.
 Brand: VARUN
 Price: ~€459
 Rating: 4.2/5 (Amazon.ie)
+Cost per charge: €0.11 per full charge at €0.38/kWh
 Wheel: 14" folding
 Battery: 36V 280Wh
 Range: ~45 km
@@ -3013,6 +3026,7 @@ From Ticknock to Ballyhoura to the Wicklow gap roads, Ireland's trail scene rewa
 Brand: VARUN
 Price: ~€749
 Rating: 4.4/5 (Amazon.ie)
+Cost per charge: €0.24 per full charge at €0.38/kWh
 Battery: 48V 624Wh
 Wheel: 27.5"
 App: Yes
@@ -3037,6 +3051,7 @@ Verdict: The marathon hardtail: more amp-hours than bikes twice the price.
 Brand: Lohang
 Price: ~€1099
 Rating: 4.6/5 (Amazon.ie)
+Cost per charge: €0.47 per full charge at €0.38/kWh
 Motors: Dual
 Battery: 52V 24Ah
 Power: Off-road class
@@ -3049,6 +3064,7 @@ Verdict: The private-land powerhouse — beyond pedelec rules, built for trails 
 Brand: ENGWE
 Price: ~€1399
 Rating: 4.4/5 (Amazon.ie)
+Cost per charge: €0.25 per full charge at €0.38/kWh
 Battery: 48V 13.5Ah — 135 km
 App: Full tuning + lock
 Sensor: Torque
@@ -3061,6 +3077,7 @@ Verdict: The connected tourer: app-tuned power, huge range and torque feel for s
 Brand: VARUN
 Price: ~€799
 Rating: 4.4/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Battery: 48V 18Ah
 Tyres: 26×4.0 fat
 Terrain: Sand, gravel, mud
@@ -3128,6 +3145,7 @@ Verdict: The accessibility champion: swing a leg through, not over — comfort-f
 Brand: ENGWE
 Price: ~€1049
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.24 per full charge at €0.38/kWh
 Battery: 48V 13Ah removable
 Range: Up to 120 km
 Type: Folding
@@ -3140,6 +3158,7 @@ Verdict: The range-per-euro king: week-of-commutes battery in a folding frame at
 Brand: Fafrees
 Price: ~€699
 Rating: 4.2/5 (Amazon.ie)
+Cost per charge: €0.18 per full charge at €0.38/kWh
 Wheel: 26" classic
 Battery: 36V 13Ah removable
 Style: Traditional commuter
@@ -3164,6 +3183,7 @@ Verdict: The Amazon.ie entry hero — legal, practical, and now even cheaper at 
 Brand: Fafrees
 Price: ~€1800
 Rating: 4.6/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Wheels: 3 — self-standing
 Battery: 873 Wh
 Cargo: Big rear basket
@@ -3944,6 +3964,7 @@ Verdict: The Xiaomi Mi Electric Scooter 4 Ultra is the flagship here, with a 940
 Brand: KuKirin
 Price: ~€509
 Rating: 4.5/5 (Amazon.ie)
+Cost per charge: €0.28 per full charge at €0.38/kWh
 Battery: 48V 15.6Ah
 Range: Up to 55 km
 Display: Turn signals + LCD
@@ -3956,6 +3977,7 @@ Verdict: With a 48V 15.6Ah battery good for up to 55km and enough power for stro
 Brand: Generic
 Price: ~€499
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Battery: 48V 18Ah
 Range: 50–55 km
 Tyres: 11 inch
@@ -4059,6 +4081,7 @@ Verdict: The budget folding commuter: station-to-office legs and apartment stora
 Brand: Generic
 Price: ~€499
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Battery: 48V 18Ah
 Range: 50–55 km
 Tyres: 11 inch
@@ -4152,6 +4175,7 @@ Verdict: The premium pick on Amazon.ie: flagship comfort and range — confirm t
 Brand: KuKirin
 Price: ~€509
 Rating: 4.5/5 (Amazon.ie)
+Cost per charge: €0.28 per full charge at €0.38/kWh
 Battery: 48V 15.6Ah
 Range: Up to 55 km
 Display: Turn signals + LCD
@@ -4164,6 +4188,7 @@ Verdict: The range monster under €520 — limit it to 25 km/h for the road and
 Brand: Generic
 Price: ~€499
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Battery: 48V 18Ah
 Range: 50–55 km
 Tyres: 11 inch
@@ -4267,6 +4292,7 @@ Verdict: The legality-first pick: 25 km/h from the factory, no settings to worry
 Brand: Generic
 Price: ~€499
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Battery: 48V 18Ah
 Range: 50–55 km
 Tyres: 11 inch
@@ -4347,6 +4373,7 @@ Most scooters are rated to 100 kg — and ride poorly long before that. For ride
 Brand: KuKirin
 Price: ~€509
 Rating: 4.5/5 (Amazon.ie)
+Cost per charge: €0.28 per full charge at €0.38/kWh
 Battery: 48V 15.6Ah
 Range: Up to 55 km
 Display: Turn signals + LCD
@@ -4359,6 +4386,7 @@ Verdict: The range monster under €520 — limit it to 25 km/h for the road and
 Brand: Generic
 Price: ~€499
 Rating: 4.3/5 (Amazon.ie)
+Cost per charge: €0.33 per full charge at €0.38/kWh
 Battery: 48V 18Ah
 Range: 50–55 km
 Tyres: 11 inch

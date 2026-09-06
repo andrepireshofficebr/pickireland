@@ -1,7 +1,7 @@
 (function(){
-var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
-if(!rm&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.06});
-document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a,.spot').forEach(function(el){el.classList.add('rv');io.observe(el)})}
+/* O bloco de reveal por IntersectionObserver foi removido em 2026-09-06: ele punha
+   opacity:0 em todo card/tabela/guia e devolvia a visibilidade so ao rolar, deixando 72% da
+   pagina invisivel em repouso. Ver o comentario no CSS (.rv) para a medicao. */
 var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
 var spot=document.querySelector('.spot');
 if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
