@@ -447,6 +447,7 @@ RC_REF_PAGES = {
             "less per month than the cheapest heater on this site costs in a single evening. "
             "Filters, not electricity, are what an air purifier costs you.",
     },
+<<<<<<< HEAD
 }
 
 # Artigos informacionais de custo (semana 3 da fila, 05/09/2026). Um por categoria, no
@@ -462,6 +463,8 @@ RC_ARTICLES = {
         "crumb": "Running cost explained",
         "hub_text": "How much does a dehumidifier cost to run in Ireland?",
     },
+=======
+>>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
 }
 
 AFF_TAG = "elevaonline-21"   # Amazon Associates StoreID
@@ -1322,6 +1325,15 @@ is not automatically the cheaper machine per litre.</li>""" if UNIT else "")
                        if cfg.get("unit_note") else "")
     intro_tail = (f", per month and per {cfg['unit']}," if UNIT else " and per month")
 
+    per_unit_step = (f"""<li><strong>Cost per {cfg['unit']}</strong> = a full 24 hours at
+rated power, divided by the rated daily extraction. It is the fairest way to compare a
+thirsty 20 L machine against a frugal 6 L one, because the cheaper machine per hour
+is not automatically the cheaper machine per litre.</li>""" if UNIT else "")
+    unit_note_block = (f"<p><strong>The {cfg.get('unit_note_label', 'capacity')} figures are "
+                       f"lab figures.</strong> {cfg['unit_note']}</p>"
+                       if cfg.get("unit_note") else "")
+    intro_tail = (f", per month and per {cfg['unit']}," if UNIT else " and per month")
+
     method = f"""
 <h2>How these numbers are worked out</h2>
 <p>The whole calculation is three numbers and one multiplication, and we would rather you
@@ -1386,11 +1398,14 @@ own published figures.</p>
     key = f"{cat['category']}/{cfg['slug']}"
     pub, mod = page_dates(key, [
         cfg["h1"], cfg["title"], cfg["desc"], f"{KWH_RATE}|{KWH_RATE_NIGHT}|{HRS}",
+<<<<<<< HEAD
         # o link para o artigo e conteudo visivel: se aparece, a pagina mudou. Entra na lista
         # SO quando existe — se entrasse sempre (como "" nas 3 categorias sem artigo), o
         # proprio separador "||" mudaria o hash delas e as marcaria como modificadas hoje
         # sem uma letra ter mudado no HTML. Mesmo bug de frescor falso de 22/08 e 29/08.
         ] + ([art_link] if art_link else []) + [
+=======
+>>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
         json.dumps([[p["name"], w, lpd] for p, w, lpd in withp], ensure_ascii=False),
         json.dumps([p["name"] for p in without], ensure_ascii=False)])
     body = body.replace("{MOD}", mod).replace(
@@ -2018,6 +2033,7 @@ for cat in CATS:
         pick = f" Top pick: {top['name']} (~€{product_price(top)})." if top else ""
         _llms.append(f"- [{pg['h1']}]({DOMAIN}/{cat['category']}/{pg['slug']}.html) — {pg['desc']}{pick}")
     _llms.append("")
+<<<<<<< HEAD
 # Referencias e explicadores: as paginas que um motor generativo deve citar quando a
 # pergunta e sobre CUSTO, nao sobre qual modelo comprar. Estavam invisiveis no llms.txt.
 _refs = []
@@ -2032,6 +2048,8 @@ for cat in CATS:
                      f"{_a['desc']}")
 if _refs:
     _llms += ["## Running costs: reference tables and explainers"] + _refs + [""]
+=======
+>>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
 _llms += ["## Full content",
           f"- [llms-full.txt]({DOMAIN}/llms-full.txt) — every guide, product spec, running "
           f"cost, verdict and FAQ on this site, in one plain-text file.",
@@ -2124,10 +2142,13 @@ for cat in CATS:
     if _ref:
         _full += [f"Full running-cost table for every {RC_NOUN.get(ck, 'unit')} we track: "
                   f"{DOMAIN}/{ck}/{_ref['slug']}.html", ""]
+<<<<<<< HEAD
     _art = RC_ARTICLES.get(ck)
     if _art:
         _full += [f"Running cost explained, with the arithmetic: {_art['h1']} — "
                   f"{DOMAIN}/{ck}/{_art['slug']}.html", ""]
+=======
+>>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
 
     for pg in cat["pages"]:
         _full += ["", "-" * 78,
