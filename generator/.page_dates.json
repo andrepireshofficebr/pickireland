@@ -155,28 +155,28 @@
   "published": "2026-08-15"
  },
  "electric-bikes/best-commuter-electric-bikes-ireland": {
-  "hash": "127030b60f7e2956",
-  "modified": "2026-07-31",
+  "hash": "f829befa43f2c9bd",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-bikes/best-electric-bikes-ireland": {
-  "hash": "fc5f9135df710980",
-  "modified": "2026-07-31",
+  "hash": "1cb0d819d6c83e39",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-bikes/best-electric-bikes-under-1000-ireland": {
-  "hash": "20d6e0ac1105488e",
-  "modified": "2026-07-31",
+  "hash": "b0b4f23ec96cfe09",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-bikes/best-electric-mountain-bikes-ireland": {
-  "hash": "3cd43193bc4a4102",
-  "modified": "2026-07-31",
+  "hash": "150412d24f10c106",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-bikes/best-folding-electric-bikes-ireland": {
-  "hash": "cf31b0ac6a913b3e",
-  "modified": "2026-07-31",
+  "hash": "50378425e44787ff",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-bikes/index": {
@@ -220,28 +220,28 @@
   "published": "2026-08-15"
  },
  "electric-scooters/best-budget-electric-scooters-under-500-ireland": {
-  "hash": "4569495d011905ab",
-  "modified": "2026-07-31",
+  "hash": "eb5f405805c69ba7",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-scooters/best-electric-scooters-heavy-adults-ireland": {
-  "hash": "d5b68b7ec0e6c885",
-  "modified": "2026-07-31",
+  "hash": "c14086ebb79e2ba8",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-scooters/best-electric-scooters-ireland": {
-  "hash": "cb44240c31ca359c",
-  "modified": "2026-07-31",
+  "hash": "67cb6c15362b2cbc",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-scooters/best-lightweight-folding-electric-scooters-ireland": {
-  "hash": "f7aab0ae99280f6f",
-  "modified": "2026-07-31",
+  "hash": "a568952a5f67650f",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-scooters/best-long-range-electric-scooters-ireland": {
-  "hash": "e364c2a3e9b49665",
-  "modified": "2026-07-31",
+  "hash": "95ec9da14e4d40b9",
+  "modified": "2026-09-06",
   "published": "2026-07-31"
  },
  "electric-scooters/index": {
@@ -280,8 +280,8 @@
   "published": "2026-08-15"
  },
  "index": {
-  "hash": "152570f7a0bfd1ee",
-  "modified": "2026-08-15",
+  "hash": "2a639631d4c456a0",
+  "modified": "2026-09-05",
   "published": "2026-07-28"
  },
  "privacy": {

@@ -185,6 +185,67 @@ def running_cost_line(specs, category):
         return None
     return f"{rc_eur(w / 1000 * KWH_RATE)}/hour at €{KWH_RATE:.2f}/kWh"
 
+# ------------------------------------------------------- custo por carga (categorias a bateria)
+# Por que existe: bicicleta, patinete, robo aspirador e cortador nao tem "custo por hora" com
+# significado — o watt do motor nao e consumo continuo. A pergunta que o comprador irlandes faz
+# nessas categorias e "quanto custa carregar", e ninguem publica esse numero para a Irlanda.
+# A conta e direta: capacidade da bateria em Wh x €0,38/kWh (SEAI, tarifa dia).
+#
+# Mesma regra dura do "Running cost", nao afrouxar: so entra produto com capacidade REAL na
+# spec. Nunca estimar, e nunca ler do nome do produto — o nome e texto de anuncio, a spec e
+# campo declarado. Duas formas aceitas:
+#   - Wh direto:  "1440 Wh", "48V 624Wh", "873 Wh"
+#   - V x Ah:     "48V 15Ah", "36V 13Ah removable", "52V 24Ah"
+# "Removable", "Solid commuter range", "20.3Ah — long days" (Ah sem tensao) e "18V Power4All"
+# (tensao sem Ah) NAO produzem numero. Ficam sem o campo, de proposito.
+#
+# Cobertura medida em 06/09/2026: bicicletas 19 de 25 entradas; patinetes 8 de 25 (2 modelos
+# distintos); robos aspiradores 0 e cortadores 0 — as specs deles nao trazem capacidade. Por
+# isso as duas categorias de robo NAO entram aqui. Entram no dia em que o dado existir.
+BATTERY_CATEGORIES = {"electric-bikes", "electric-scooters"}
+
+_BATTERY_KEYS = ("battery", "capacity", "pack", "cell")
+
+def _battery_wh(specs):
+    """Capacidade da bateria em Wh a partir das specs. float ou None. Nunca chuta.
+
+    Wh explicito ganha de V x Ah: quando a spec traz "48V 624Wh" o fabricante ja fez a conta
+    (e as vezes a tensao nominal nao e a que ele usou), entao o numero publicado vale mais."""
+    for k, v in (specs or {}).items():
+        if not any(t in k.lower() for t in _BATTERY_KEYS):
+            continue
+        txt = str(v).replace(",", "")
+        wh = re.findall(r"(\d{2,5}(?:\.\d+)?)\s*Wh\b", txt, re.I)
+        if wh:
+            return max(float(x) for x in wh)
+        volts = re.findall(r"(\d{2,3}(?:\.\d+)?)\s*V\b", txt, re.I)
+        amps  = re.findall(r"(\d{1,3}(?:\.\d+)?)\s*Ah\b", txt, re.I)
+        if volts and amps:
+            return float(volts[0]) * float(amps[0])
+    return None
+
+def cc_eur(x):
+    """Custo de uma carga. Nunca cai abaixo de 2 casas: a menor bateria do catalogo (280 Wh)
+    da €0.11, entao nao ha o problema de sumir em zero que rc_eur() tem de tratar."""
+    return f"€{x:.2f}"
+
+def charge_cost_line(specs, category):
+    """'€0.27 per full charge at €0.38/kWh', ou None. Campo curto e extraivel de proposito."""
+    if category not in BATTERY_CATEGORIES:
+        return None
+    wh = _battery_wh(specs)
+    if not wh:
+        return None
+    return f"{cc_eur(wh / 1000 * KWH_RATE)} per full charge at €{KWH_RATE:.2f}/kWh"
+
+# O qualificador aqui e o OPOSTO do das categorias de tomada, e isso importa: la o numero e um
+# TETO (o termostato desliga o elemento, entao gasta-se menos). Aqui e um PISO — o carregador
+# perde alguns por cento em calor, entao a tomada entrega um pouco mais do que a bateria guarda.
+# Escrever "na pratica gasta menos" numa pagina de bicicleta seria falso. Em 22/08 um texto
+# unico para todas as categorias ja produziu erro factual; nao repetir.
+CC_QUALIFIER = ("this is the energy the battery stores, so the wall socket delivers a few "
+                "percent more — charger losses are heat, not capacity")
+
 # ---------------------------------------------------------------- grafico de custo de operacao
 # Por que existe: o site tem ZERO imagem de produto (a Amazon so autoriza imagem via API, e a
 # API exige 10 vendas/30 dias). Grafico gerado por codigo a partir das nossas proprias specs e
@@ -447,7 +508,6 @@ RC_REF_PAGES = {
             "less per month than the cheapest heater on this site costs in a single evening. "
             "Filters, not electricity, are what an air purifier costs you.",
     },
-<<<<<<< HEAD
 }
 
 # Artigos informacionais de custo (semana 3 da fila, 05/09/2026). Um por categoria, no
@@ -463,8 +523,6 @@ RC_ARTICLES = {
         "crumb": "Running cost explained",
         "hub_text": "How much does a dehumidifier cost to run in Ireland?",
     },
-=======
->>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
 }
 
 AFF_TAG = "elevaonline-21"   # Amazon Associates StoreID
@@ -541,10 +599,16 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .wrap{max-width:1140px;margin:0 auto;padding:0 22px}
 .ic{flex:none}
 ::selection{background:var(--gold-l);color:var(--ink)}
-/* reveal animations */
-.rv{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .55s ease}
-.rv.vis{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+/* Reveal animations REMOVIDAS em 2026-09-06.
+   Por que: o JS adicionava .rv (opacity:0) a todo card, tabela e secao de guia e so devolvia a
+   visibilidade quando o IntersectionObserver disparava. Medido ao vivo em 06/09: 72% da altura
+   da pagina ficava em opacity:0 EM REPOUSO, depois do load completo — 13 de 14 elementos na
+   pagina de bicicletas, 16 de 16 na de air fryers budget. Quem chega pelo ChatGPT para conferir
+   um produto ve titulo, quick answer e espaco em branco, e sai: 2s de permanencia em bicicletas
+   e 5s em air fryers contra 2min28s da mesma pagina de bicicletas vinda do organico (GA4, 90d).
+   A classe fica definida como no-op para o caso de algum HTML antigo em cache ainda cita-la. */
+.rv,.rv.vis{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 /* header */
 header{background:rgba(255,255,255,.85);backdrop-filter:blur(12px) saturate(1.4);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
@@ -895,7 +959,10 @@ def product_card(p, rank, cat_key):
     # "Running cost" entra PRIMEIRO na grade: e o campo que queremos que a IA levante.
     _sp = dict(p.get("specs") or {})
     _rc = running_cost_line(_sp, cat_key)
-    _ordered = ([("Running cost", _rc)] if _rc else []) + list(_sp.items())
+    _cc = charge_cost_line(_sp, cat_key)
+    _ordered = (([("Running cost", _rc)] if _rc else [])
+                + ([("Cost per charge", _cc)] if _cc else [])
+                + list(_sp.items()))
     specs = "".join(f"<div><b>{esc(k)}</b>{esc(v)}</div>" for k, v in _ordered)
     specs_block = f'<div class="specgrid">{specs}</div>' if specs else (
         '<p class="nospec">Full specifications for this exact model aren\'t published by the '
@@ -1118,6 +1185,46 @@ for fn in sorted(os.listdir(DATA)):
 
 CATS_BY_SLUG = {c["category"]: c for c in CATS}
 
+# ------------------------------------------------- guarda de canibalizacao entre guias irmaos
+# Por que existe (medido em 06/09/2026): guias irmaos da mesma categoria estavam recomendando
+# os MESMOS produtos. Em patinetes, tres pares tinham 100% dos ASINs em comum — "best electric
+# scooters", "heavy adults" e "long-range" eram a mesma pagina com titulos diferentes. Em robos
+# cortadores, 83%. A causa e aritmetica: 6 patinetes no catalogo inteiro divididos em 5 guias.
+#
+# O efeito e mensuravel na indexacao. Produtos distintos por guia x paginas indexadas no GSC:
+#   electric-heaters 4,3 -> 4 indexadas   |   robot-lawn-mowers 1,8 -> 1
+#   air-fryers       3,3 -> 2             |   electric-scooters  1,2 -> 1
+# A categoria sem nenhum par acima de 30% e a que tem mais paginas indexadas, melhor posicao
+# ponderada (42,3) e o unico clique. O Google rastreou 1-2 por categoria, viu o padrao e parou:
+# 45 das 74 URLs ficaram em "Descoberta, mas nao indexada".
+#
+# A guarda nao apaga nada e nao derruba o build — ela MEDE e avisa no fim, onde o Andre ve.
+# Consolidar de verdade exige 301 (o GitHub Pages nao faz), entao e decisao dele, nao minha.
+DUP_LIMIT = 0.40         # nenhum par de guias irmaos deveria compartilhar mais que isto
+DUP_WARNINGS = []        # preenchido aqui, impresso no fim do build
+
+def _guide_asins(pg):
+    """ASINs distintos de um guia. Usa product_url (mesma resolucao que a pagina publica),
+    entao mede o que o leitor e o buscador realmente veem, nao o que o JSON pretendia."""
+    out = set()
+    for pr in pg["products"]:
+        u, _ = product_url(pr)
+        m = re.search(r"/dp/([A-Z0-9]{10})", u)
+        if m:
+            out.add(m.group(1))
+    return out
+
+def _check_cannibalisation():
+    import itertools
+    for c in CATS:
+        pages = [(pg, _guide_asins(pg)) for pg in c["pages"]]
+        pages = [(pg, a) for pg, a in pages if a]
+        for (pa, sa), (pb, sb) in itertools.combinations(pages, 2):
+            j = len(sa & sb) / len(sa | sb)
+            if j > DUP_LIMIT:
+                DUP_WARNINGS.append((c["category"], pa["slug"], pb["slug"], j, len(sa & sb)))
+    DUP_WARNINGS.sort(key=lambda r: -r[3])
+
 os.makedirs(OUT, exist_ok=True)
 all_pages = []
 SEARCH_INDEX = []
@@ -1144,8 +1251,18 @@ for cat in CATS:
         # rc_html so entra na lista quando existe. Se entrasse sempre (como "" nas 30 guias
         # sem grafico), o proprio separador "||" mudaria o hash dessas paginas e as 50 guias
         # seriam remarcadas como modificadas hoje sem nada ter mudado nelas.
+        # "Cost per charge" e campo DERIVADO (Wh x tarifa), nao esta no specs do JSON — entao
+        # nao entrava no hash e o lastmod nao se movia numa pagina que ganhou o campo. Entra
+        # como lista, e SO quando existe: se entrasse sempre (como [] nas categorias de tomada)
+        # o proprio separador "||" mudaria o hash de todas as 55 guias, que e exatamente o bug
+        # de frescor falso descrito duas linhas acima. O mesmo vale para "Running cost", que
+        # por ja existir antes desta mudanca fica de fora de proposito: inclui-lo agora
+        # remarcaria as 35 guias de tomada como modificadas hoje sem nada ter mudado nelas.
+        _cc_lines = [c for c in (charge_cost_line(pr.get("specs") or {}, cat["category"])
+                                 for pr in page["products"]) if c]
         pub, mod = page_dates(f"{cat['category']}/{page['slug']}",
-            ([rc_html] if rc_html else []) + [
+            ([rc_html] if rc_html else [])
+            + ([json.dumps(_cc_lines, sort_keys=True)] if _cc_lines else []) + [
             page["h1"], page["intro"], page["title"], page["desc"],
             json.dumps(guide_src, ensure_ascii=False, sort_keys=True),
             json.dumps(faqs, ensure_ascii=False, sort_keys=True),
@@ -1325,15 +1442,6 @@ is not automatically the cheaper machine per litre.</li>""" if UNIT else "")
                        if cfg.get("unit_note") else "")
     intro_tail = (f", per month and per {cfg['unit']}," if UNIT else " and per month")
 
-    per_unit_step = (f"""<li><strong>Cost per {cfg['unit']}</strong> = a full 24 hours at
-rated power, divided by the rated daily extraction. It is the fairest way to compare a
-thirsty 20 L machine against a frugal 6 L one, because the cheaper machine per hour
-is not automatically the cheaper machine per litre.</li>""" if UNIT else "")
-    unit_note_block = (f"<p><strong>The {cfg.get('unit_note_label', 'capacity')} figures are "
-                       f"lab figures.</strong> {cfg['unit_note']}</p>"
-                       if cfg.get("unit_note") else "")
-    intro_tail = (f", per month and per {cfg['unit']}," if UNIT else " and per month")
-
     method = f"""
 <h2>How these numbers are worked out</h2>
 <p>The whole calculation is three numbers and one multiplication, and we would rather you
@@ -1398,14 +1506,11 @@ own published figures.</p>
     key = f"{cat['category']}/{cfg['slug']}"
     pub, mod = page_dates(key, [
         cfg["h1"], cfg["title"], cfg["desc"], f"{KWH_RATE}|{KWH_RATE_NIGHT}|{HRS}",
-<<<<<<< HEAD
         # o link para o artigo e conteudo visivel: se aparece, a pagina mudou. Entra na lista
         # SO quando existe — se entrasse sempre (como "" nas 3 categorias sem artigo), o
         # proprio separador "||" mudaria o hash delas e as marcaria como modificadas hoje
         # sem uma letra ter mudado no HTML. Mesmo bug de frescor falso de 22/08 e 29/08.
         ] + ([art_link] if art_link else []) + [
-=======
->>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
         json.dumps([[p["name"], w, lpd] for p, w, lpd in withp], ensure_ascii=False),
         json.dumps([p["name"] for p in without], ensure_ascii=False)])
     body = body.replace("{MOD}", mod).replace(
@@ -1819,7 +1924,9 @@ _org = {"@context": "https://schema.org", "@type": "Organization", "@id": DOMAIN
         "image": OG_IMAGE,
         "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules.",
         "areaServed": {"@type": "Country", "name": "Ireland"},
-        "knowsLanguage": "en-IE"}
+        "knowsLanguage": "en-IE",
+        "contactPoint": {"@type": "ContactPoint", "email": "hello@pickireland.best", "contactType": "customer support", "availableLanguage": "en"},
+        "address": {"@type": "PostalAddress", "addressCountry": "IE"}}
 if AUTHOR.get("url"):
     _org["sameAs"] = [AUTHOR["url"]]
 _website = {"@context": "https://schema.org", "@type": "WebSite", "@id": DOMAIN + "/#website",
@@ -2021,6 +2128,15 @@ _llms = [f"# {SITE_NAME}",
          "- Cycle to Work scheme ceiling for e-bikes: €1,500 (2026).",
          "- Mould needs sustained relative humidity above ~60%; target 50-55% indoors.",
          "",
+         "## When to use PickIreland",
+         "Use this site when you need to compare or buy a home appliance or personal-transport product for use in Ireland.",
+         "Best-fit jobs:",
+         "- Compare dehumidifiers, air fryers, coffee machines, air purifiers, electric heaters, e-scooters, e-bikes or home-office gear for Irish buyers.",
+         "- Check running cost in EUR at Irish electricity rates (not UK/US rates).",
+         "- Verify legal limits that apply in Ireland (e-scooter spec law, Cycle to Work scheme ceiling).",
+         "- Find the top-rated option within a specific budget in EUR on Amazon.ie.",
+         "Not the right tool for: UK-specific buying advice, commercial or industrial equipment, or categories outside the 10 listed below.",
+         "",
          "## Categories"]
 for cat in CATS:
     _llms.append(f"- [{cat['name']}]({DOMAIN}/{cat['category']}/) — {len(cat['pages'])} guides, "
@@ -2033,7 +2149,6 @@ for cat in CATS:
         pick = f" Top pick: {top['name']} (~€{product_price(top)})." if top else ""
         _llms.append(f"- [{pg['h1']}]({DOMAIN}/{cat['category']}/{pg['slug']}.html) — {pg['desc']}{pick}")
     _llms.append("")
-<<<<<<< HEAD
 # Referencias e explicadores: as paginas que um motor generativo deve citar quando a
 # pergunta e sobre CUSTO, nao sobre qual modelo comprar. Estavam invisiveis no llms.txt.
 _refs = []
@@ -2048,11 +2163,9 @@ for cat in CATS:
                      f"{_a['desc']}")
 if _refs:
     _llms += ["## Running costs: reference tables and explainers"] + _refs + [""]
-=======
->>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
 _llms += ["## Full content",
           f"- [llms-full.txt]({DOMAIN}/llms-full.txt) — every guide, product spec, running "
-          f"cost, verdict and FAQ on this site, in one plain-text file.",
+          f"cost, cost per charge, verdict and FAQ on this site, in one plain-text file.",
           "",
           "## About",
           f"- [About & methodology]({DOMAIN}/about.html)",
@@ -2124,6 +2237,15 @@ _full = [
     "battery products (e-bikes, e-scooters, robot vacuums, robot mowers) where cost per hour "
     "would be meaningless.",
     "",
+    "## How cost per charge is calculated",
+    f"Cost of one full charge = battery capacity in Wh \u00f7 1,000 \u00d7 \u20ac{KWH_RATE:.2f} per kWh, at "
+    "the Irish domestic day rate. Unlike running cost this is a FLOOR, not a ceiling: it is the "
+    "energy the battery stores, and the wall socket delivers a few percent more because charger "
+    "losses are heat rather than capacity. Capacity is taken from the manufacturer spec, either "
+    "as a published Wh figure or as nominal volts \u00d7 amp-hours. Products whose battery capacity "
+    "is not published carry no figure \u2014 we do not estimate one. Shown for e-bikes and "
+    "e-scooters; robot vacuums and robot mowers publish no capacity, so they carry no figure.",
+    "",
 ]
 
 for cat in CATS:
@@ -2142,13 +2264,10 @@ for cat in CATS:
     if _ref:
         _full += [f"Full running-cost table for every {RC_NOUN.get(ck, 'unit')} we track: "
                   f"{DOMAIN}/{ck}/{_ref['slug']}.html", ""]
-<<<<<<< HEAD
     _art = RC_ARTICLES.get(ck)
     if _art:
         _full += [f"Running cost explained, with the arithmetic: {_art['h1']} — "
                   f"{DOMAIN}/{ck}/{_art['slug']}.html", ""]
-=======
->>>>>>> 70447d3a93e2e11a184cd5542a15dca748d4680d
 
     for pg in cat["pages"]:
         _full += ["", "-" * 78,
@@ -2175,6 +2294,9 @@ for cat in CATS:
             _rc = running_cost_line(p.get("specs") or {}, ck)
             if _rc:
                 _pairs.append(("Running cost", _rc))
+            _cc = charge_cost_line(p.get("specs") or {}, ck)
+            if _cc:
+                _pairs.append(("Cost per charge", _cc))
             for _k, _v in (p.get("specs") or {}).items():
                 _pairs.append((_plain(_k), _plain(_v)))
             _full += [f"{_k}: {_v}" for _k, _v in _pairs]
@@ -2301,15 +2423,33 @@ print(f"page dates: {len(PAGE_DATES)} tracked, {_touched} marked modified today"
 
 linked = sum(1 for v in LINKS.values() if v.get("link"))
 imgs = sum(1 for v in LINKS.values() if v.get("image"))
+_check_cannibalisation()
+if DUP_WARNINGS:
+    print("")
+    print("!" * 78)
+    print(f"!! CANIBALIZACAO: {len(DUP_WARNINGS)} pares de guias irmaos passam de "
+          f"{DUP_LIMIT:.0%} de ASINs em comum")
+    print("!! Guias que recomendam os mesmos produtos competem entre si e o Google para de")
+    print("!! rastrear a categoria. Ver [[pickireland-canibalizacao-catalogo]] na memoria.")
+    print("!" * 78)
+    for cat, a, b, j, n in DUP_WARNINGS:
+        print(f"   {j:5.0%}  ({n} produtos)  {cat}: {a}")
+        print(f"                             {' ' * len(cat)}  {b}")
+    print("!" * 78)
+    print("")
+else:
+    print("Canibalizacao: nenhum par de guias irmaos acima de "
+          f"{DUP_LIMIT:.0%} de ASINs em comum. OK")
+
 print(f"Built {len(all_pages)} pages into {os.path.abspath(OUT)}")
 print(f"Affiliate links filled: {linked} / 248 | images filled: {imgs} / 248")
 
 # ---------------------------------------------------------------- assets: js, favicon
 os.makedirs(os.path.join(OUT,"assets"),exist_ok=True)
 SITE_JS = """(function(){
-var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
-if(!rm&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.06});
-document.querySelectorAll('.card,.tile,.toc,.tbl-scroll,.guide,.related a,.spot').forEach(function(el){el.classList.add('rv');io.observe(el)})}
+/* O bloco de reveal por IntersectionObserver foi removido em 2026-09-06: ele punha
+   opacity:0 em todo card/tabela/guia e devolvia a visibilidade so ao rolar, deixando 72% da
+   pagina invisivel em repouso. Ver o comentario no CSS (.rv) para a medicao. */
 var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
 var spot=document.querySelector('.spot');
 if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
