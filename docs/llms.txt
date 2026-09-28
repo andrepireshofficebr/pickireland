@@ -113,6 +113,9 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [How much does a dehumidifier cost to run in Ireland?](https://pickireland.best/dehumidifiers/how-much-does-a-dehumidifier-cost-to-run-ireland.html) — What a dehumidifier costs per hour, per night and per month at Irish electricity rates, with the arithmetic shown and the assumptions named.
 - [What an electric heater actually costs to run in Ireland](https://pickireland.best/electric-heaters/electric-heater-running-costs-ireland.html) — Rated power and cost per hour at Irish day and night rates, plus cost per month over a winter evening, for every electric heater we track.
 
+## Irish regulation: what is actually in force
+- [E-scooter law in Ireland 2026](https://pickireland.best/electric-scooters/e-scooter-law-ireland-2026.html) — Helmets and high-vis became compulsory on 4 September 2026. The full Irish e-scooter rules — 20 km/h, 400 W, 25 kg — with the statute cited for each. Last checked 19 September 2026.
+
 ## Full content
 - [llms-full.txt](https://pickireland.best/llms-full.txt) — every guide, product spec, running cost, cost per charge, verdict and FAQ on this site, in one plain-text file.
 

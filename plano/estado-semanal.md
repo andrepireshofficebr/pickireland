@@ -9,6 +9,226 @@ não depende de nenhuma ferramenta: o motor sempre alcança essa pasta.
 
 ---
 
+## 2026-09-19 (sábado) — Semana 5 da fila
+
+> **Não houve execução em 12/09.** O bloco anterior é de 05/09, e o trabalho de 06/09
+> (correção do reveal + custo por carga) foi publicado mas nunca registrado aqui.
+> A comparação abaixo é, portanto, de **duas semanas**, não de uma.
+
+### Números medidos
+
+**GA4 (propriedade 541544668), sessões por canal, 22 de agosto – 18 de setembro de 2026**
+
+| Canal | Sessões | % | Engajamento | Tempo médio |
+|---|---|---|---|---|
+| AI Assistant | 61 | 40,4% | 40,98% | 20s |
+| Organic Search | 50 | 33,1% | 62,0% | 1min17s |
+| Direct | 33 | 21,9% | 27,27% | 5s |
+| Unassigned | 5 | 3,3% | 20% | 7s |
+| Organic Shopping | 1 | 0,7% | 100% | 17s |
+| Referral | 1 | 0,7% | 100% | 1min |
+| **Total** | **151** | | **45,03%** | **35s** |
+
+**GA4 — origem da sessão, mesma janela.** O caminho que funcionou mudou: a **busca do topo
+do GA4 parou de devolver sugestões** ("Não há resultados de pesquisa para o Google
+Analytics"). O que funcionou foi o **seletor de dimensão da tabela clicado por referência de
+elemento** (`find` → `ref_N`), não por coordenada — a armadilha registrada desde 15/08 era de
+coordenada, e some quando se clica pelo ref. Depois: buscar "Origem da sessão" no seletor.
+
+(direct) 33 · **chatgpt.com 60** · google 16 · bing 11 · duckduckgo 11 ·
+uk.search.yahoo.com 8 · (not set) 3 · ecosia.org 2 · perplexity 2 · **gemini.google.com 1**
+(5min47s de engajamento, o maior do site) · nl.search.yahoo.com 1 · yahoo 1 ·
+**paragon-eu.amazon.com 1** · search.brave.com 1. Soma = 151. ✔
+
+**Search Console (sc-domain:pickireland.best), 28 dias (20/08–16/09)**
+
+| Métrica | Valor |
+|---|---|
+| Cliques | 17 |
+| Impressões | 6,06 mil |
+| CTR | 0,3% |
+| Posição média | 50 |
+| **Páginas indexadas** | **22** |
+| Não indexadas | 57 (49 "detectada, não indexada"; 3 "rastreada, não indexada"; 3 redirect; 2 canônica alternativa) |
+| Total conhecidas | 79 |
+
+### Comparação com 05/09
+
+| Métrica | 05/09 | 19/09 | Δ |
+|---|---|---|---|
+| Sessões / 28d | 120 | **151** | **+31 (+26%)** |
+| AI Assistant | 36 | **61** | **+25 (+69%)** |
+| chatgpt.com (origem) | 37 | **60** | **+23** |
+| Organic Search | 30 | **50** | **+20 (+67%)** |
+| Direct | 48 | 33 | −15 |
+| Tempo médio (Organic) | 47s | **1min17s** | +30s |
+| Tempo médio (site) | 24s | **35s** | +11s |
+| Páginas indexadas | 22 | 22 | **0 — quarta semana parada** |
+| Não indexadas | 52 | 57 | +5 |
+| Posição média | 51,9 | **50** | **+1,9 (melhor)** |
+| Cliques (28d) | 12 | **17** | +5 |
+| Impressões | 5,69 mil | 6,06 mil | +0,37 mil |
+
+**Leitura honesta.** Este é o primeiro movimento real desde que o plano começou. Os dois
+canais que importam subiram juntos e forte — ChatGPT +23 e orgânico +20 — enquanto o Direct,
+o canal de pior qualidade, caiu 15. O engajamento subiu junto: 24s → 35s no site inteiro,
+e 47s → 1min17s no orgânico.
+
+**A hipótese mais provável é a correção do reveal de 06/09**, que devolveu a visibilidade de
+~72% de cada página e foi publicada logo depois. O diagnóstico daquele dia previa exatamente
+isto: o tráfego de IA chegava e via espaço em branco. **É hipótese, não prova** — dois pontos
+de medição, base pequena, e nada isola a causa. Mas o tamanho e a simultaneidade dos dois
+canais tornam sazonalidade uma explicação pior.
+
+**O que continua travado: a indexação, parada em 22 há quatro semanas**, enquanto as
+conhecidas subiram de 74 para 79 e as "detectadas, não indexadas" de 45 para 49. O Google
+está descobrindo páginas e não as rastreando. **A meta de 4 semanas da seção 8 do plano —
+"data do último rastreamento passar de 15/06 para algo recente" — não foi verificada nesta
+execução** e deve ser o primeiro item da próxima.
+
+Ainda faltam 149 sessões/28d para o sinal de 8 semanas (300).
+
+### O que foi produzido
+
+**Semana 5 da fila — o segundo artigo informacional: a lei do patinete.**
+Nova página: `/electric-scooters/e-scooter-law-ireland-2026.html`
+("E-scooter law in Ireland 2026"), ~1.900 palavras.
+
+Escolhi *"E-scooter law Ireland 2026"* em vez de *"Cycle to Work e-bike 2026"* (o plano
+permitia os dois) por um motivo que apareceu durante a pesquisa e que mudou a natureza da
+tarefa: **o site estava factualmente errado sobre essa lei, em duas frentes.**
+
+### ACHADO GRAVE 1 — o site dizia que a obrigação de capacete não estava em vigor
+
+Em **4 de setembro de 2026** capacete e alta-visibilidade passaram a ser **obrigatórios**
+para quem anda de patinete elétrico na Irlanda (S.I. 455/2026, que altera a S.I. 199/2024).
+O site dizia, em duas páginas no ar: *"Helmets and hi-vis clothing are currently recommended,
+not required by law"* e *"None of this is in force yet as of writing"*, apontando para
+"agosto de 2026" como data futura. **Estava errado havia duas semanas.**
+
+Nuance que a página nova preserva e que quase toda a imprensa errou: a regra é lei desde
+04/09, mas **a multa por descumpri-la ainda não existe**. O Departamento de Transportes disse
+que a notificação de €100 entra junto com o aumento geral de €50 para €100, "nas próximas
+semanas".
+
+### ACHADO GRAVE 2 — o site dizia que o limite legal era 25 km/h. É 20 km/h.
+
+Este é o pior dos dois, porque estava em **20 lugares** e numa página comercial: o site
+chamava um patinete de 25 km/h de *"25 km/h — Irish-legal out of the box"*, com o selo
+*"Best Road-Legal Entry"*, e dizia *"Irish law caps road-legal speed at 25km/h"*.
+
+**A origem do erro, agora documentada:** são duas leis diferentes lidas como uma.
+- **Road Traffic Act 2024, s.16** define a classe *powered personal transporter*: até 25 kg,
+  velocidade de projeto entre 6 e **25 km/h**, motor até **0,5 kW**. É o envelope da classe.
+- **S.I. 199/2024** regula o *uso do patinete* dentro dessa classe, e é mais apertada:
+  velocidade máxima de projeto **20 km/h** (reg. 12) e potência contínua **400 W** (reg. 13).
+
+Os anúncios citam o envelope da classe; a lei do patinete é a outra. O site repetia o número
+do anúncio. **Corrigido em 20 pontos dos dados da categoria**, incluindo selos, prós,
+specs e veredictos — nenhum produto é mais descrito como "road-legal" por causa dos 25 km/h.
+
+### ACHADO 3 — patinete infantil sem a idade mínima legal
+
+O Segway Ninebot C2 Pro E (idades 6–14) aparece em duas guias. A página já dizia que adulto
+não pode usá-lo, mas não dizia que **a idade mínima legal na Irlanda é 16**, ou seja, que ele
+não tem uso lícito em lugar público nenhum aqui. Acrescentado nas duas.
+
+### Conferência adversarial — tudo checado em fonte primária
+
+Nenhum número desta página veio de notícia. Cada um foi conferido no texto da lei:
+- `irishstatutebook.ie` — **S.I. 199/2024** lida inteira (regs. 4, 5, 6, 7, 8, 10, 12, 13,
+  16, 17–20, 23, 24, 26, 27).
+- `irishstatutebook.ie` — **Road Traffic Act 2024, s.16**, que é onde estão os 25 kg e o
+  envelope de 25 km/h (**não estão na S.I. 199** — o site atribuía os 25 kg à S.I. errada).
+- **S.I. 455/2026**: a versão HTML ainda não foi publicada no statute book (404). Confirmei
+  que o **PDF existe** (HTTP 200, `application/pdf`, 139 KB) e usei a leitura do IrishCycle,
+  que cita o instrumento e as normas EN, mais a nota do Departamento de Transportes.
+- `citizensinformation.ie` (página editada em 04/09/2026) para separar em-vigor de anunciado.
+
+**Três coisas que NÃO afirmei por não estarem em vigor:** idade mínima 18 (precisa de lei do
+Oireachtas, adiada por parecer do Procurador-Geral), multas de €100, e a reclassificação como
+veículo a motor. Ficaram numa seção "Announced, but not law yet" separada, com data.
+
+**Um erro meu pego na leitura humana da página pronta, não pelas checagens:** "Gardí" em vez
+de "Gardaí", em dois lugares. As checagens programáticas passaram 100% com o erro presente —
+é a lição de sempre, pela enésima vez.
+
+### Mudanças no gerador (`build.py`)
+
+- `LAW_ARTICLES` + `law_article(cat)` + `LAW_SOURCES`: mecanismo novo, paralelo ao
+  `RC_ARTICLES`. Separado de propósito — a fonte não é dado nosso, é texto de lei, então a
+  regra de honestidade é outra: cada número traz o instrumento que o cria, e em-vigor fica
+  separado de anunciado. A config tem campo `checked` (data da última conferência), que
+  aparece na página.
+- Hub: `hub_law` **colado** em `{hub_ref}` na mesma linha.
+- Guias: `law_rel` **colado** em `{related}` na mesma linha.
+- `llms.txt`: seção nova "Irish regulation: what is actually in force".
+- `llms-full.txt`: linha da lei por categoria, com a data de conferência.
+- Backups: `generator/build.py.pre-lawarticle`,
+  `generator/data/electric-scooters.json.pre-law-2026`.
+
+### Checagens de coerência (todas passaram)
+
+- **Teste de churn**: build da versão anterior num diretório fora da montagem, diff contra o
+  build de hoje → **exatamente 11 arquivos diferem**: os 5 guias de patinete, o hub, a página
+  nova, `sitemap.xml`, `llms.txt`, `llms-full.txt`, `google-ads-page-feed.csv`. Nenhuma das
+  outras 9 categorias, nenhum asset, nenhum favicon.
+- sitemap `<loc>` ≡ conjunto de canonicals: **71 = 71**.
+- `lastmod` = hoje em **7 URLs** e só nelas (5 guias + hub + página nova). 64 preservadas.
+- **Comparação contra o sitemap AO VIVO** (o teste que importa de verdade): 1 URL nova,
+  **0 URLs sumindo, 0 lastmod retrocedendo**. O build é superconjunto do que está publicado.
+- IndexNow: 71 URLs do sitemap, **zero** terminando em `index.html`, 11 hubs com barra final,
+  um único arquivo de chave.
+- JSON-LD: 270 blocos no site, **0 inválidos**. A página nova tem `Article` + `WebPage`
+  (Speakable) + `FAQPage` (6) + `BreadcrumbList`, com `citation` de tipo `Legislation`.
+- Links internos: **0 quebrados** no site inteiro.
+- Title 51 caracteres, description 149. Nenhum aviso `[SEO]` no build.
+- Guarda de canibalização: **30 pares acima de 40%**, igual a 06/09 — não piorei.
+
+### Entrega
+
+Copiado para `C:\Users\andre\OneDrive\Documentos\GitHub\pickireland`: `docs/` inteiro,
+`generator/build.py`, `generator/.page_dates.json`, `generator/indexnow_submit.py`,
+`generator/data/`. Verificado **por conteúdo** (diff recursivo + md5 arquivo a arquivo):
+origem e clone idênticos. `.env` e `.github_token` **não** foram copiados.
+**Nenhum comando git foi executado no clone.**
+
+Aviso: antes da cópia o clone divergia da origem em ~47 arquivos além das 11 mudanças de
+hoje. A comparação contra o sitemap ao vivo mostra que **nada publicado regride**, então é
+ruído de fim de linha / build, não conteúdo perdido. O GitHub Desktop pode mostrar mais
+arquivos do que 11 — a versão certa continua sendo a do computador dele.
+
+### Estado da fila (seção 7 do plano)
+
+- Semana 1 (gráficos de custo, dehumidifiers) — feita 22/08, **publicada**
+- Semana 2 (ativo linkável €/hora) — feita 29/08, **publicada**
+- Semana 4 (gráficos heaters + air-fryers + air-purifiers) — feita fora de ordem 01/09, **publicada**
+- Semana 3 (artigo de custo do desumidificador) — feita 05/09, **publicada** (confirmado no ar)
+- Correção do reveal + custo por carga — feita 06/09, **publicada** (confirmado no ar)
+- 12/09 — **não houve execução**
+- Semana 5 (artigo da lei do patinete) — **feita em 19/09, aguardando publicação**
+- **Próxima: Semana 6** — perfis de marca (Pinterest primeiro) e a reavaliação com dado:
+  o Google voltou a rastrear? Como a indexação está parada em 22 há quatro semanas, a
+  reavaliação é a parte urgente.
+
+### Pendências para a próxima execução
+
+1. **Indexação parada em 22 há 4 semanas.** Abrir a inspeção de URL no GSC e ver a **data do
+   último rastreamento** de 3 ou 4 das 49 "detectada, não indexada". É o sinal de 4 semanas
+   da seção 8 e nunca foi medido. A tarefa diária de pedidos de indexação foi criada? Roda?
+2. **IndexNow não foi disparado** — a página ainda não está no ar. Depois do push:
+   `python3 generator/indexnow_submit.py --all`.
+3. **Varrer as outras 9 categorias atrás do mesmo tipo de erro legal.** O erro dos 25 km/h
+   sobreviveu 3 meses e passou por três rodadas de validação automática. As bicicletas
+   elétricas têm limites legais próprios (250 W, 25 km/h assistida) e ninguém conferiu.
+4. `mcp__memory` existe nesta sessão mas é **somente leitura** — não deu para gravar em
+   `pickireland-metricas-semanais.md`. Este arquivo segue sendo a memória que funciona.
+   `device_list_dir` e `mcp__claude-code-remote__send_later` continuam não existindo; o
+   acesso ao PC funcionou pelas ferramentas de arquivo e pelo shell.
+5. Diretório duplicado `generator/data/data/` no clone desde 15/08 — ainda não limpo.
+
+---
+
 ## 2026-09-05 (sábado) — Semana 3 da fila
 
 ### Números medidos

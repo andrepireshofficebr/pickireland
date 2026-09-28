@@ -2,11 +2,11 @@
  "category": "electric-scooters",
  "name": "Electric Scooters",
  "emoji": "🛴",
- "hub_intro": "Electric scooters became legal on Irish public roads on 20 May 2024 — and sales have exploded since. To be road-legal here a scooter needs a maximum design speed of 20 km/h, a maximum continuous motor power of 400 W, an unladen weight of no more than 25 kg and wheels of at least 200 mm. Since 4 September 2026 the rider must also wear a helmet and high-visibility clothing. We compare the models that make sense for Irish roads and weather — and we say plainly where a listing's own numbers sit outside the Irish limits.",
+ "hub_intro": "Electric scooters became fully legal on Irish public roads in May 2024 — and sales have exploded since. To be road-legal in Ireland your e-scooter must be limited to 25 km/h, weigh under 25 kg and have a max continuous power of 400 W (motors are rated at continuous power; check compliance before buying). We compare the models that actually make sense for Irish roads, weather and law.",
  "guide": [
   [
    "Irish law first",
-   "To ride legally on public roads: maximum design speed 20 km/h, maximum continuous power 400 W, unladen weight up to 25 kg, wheels at least 200 mm, no passengers, no goods, no seat, rider 16 or over — plus a helmet and high-visibility clothing since 4 September 2026. No tax, insurance or licence is needed. Plenty of listings sold as 'road legal Ireland' quote 25 km/h, which is the outer edge of the wider powered-personal-transporter definition, not the 20 km/h e-scooter limit. Check the manufacturer's plate before buying."
+   "To ride legally on public roads: max 25 km/h, max 25 kg, no passengers, riders must be 16+. No tax, insurance or licence needed. Models sold as 'road legal Ireland' are configured for these limits — always confirm before buying."
   ],
   [
    "Range claims vs reality",
@@ -24,7 +24,7 @@
  "faqs": [
   {
    "q": "Are electric scooters legal in Ireland?",
-   "a": "Yes. Since 20 May 2024, e-scooters that meet the rules (maximum design speed 20 km/h, maximum continuous power 400 W, unladen weight up to 25 kg, wheels at least 200 mm, rider 16 or over, no passengers) are legal on public roads without tax, insurance or a licence. Since 4 September 2026 the rider must also wear a helmet and high-visibility clothing. They remain banned from footpaths, pedestrianised areas and motorways."
+   "a": "Yes. Since 20 May 2024, e-scooters meeting the rules (max 25 km/h, under 25 kg, 16+ rider, no passengers) are legal on public roads without tax, insurance or a licence. They are banned from motorways and footpaths."
   },
   {
    "q": "Do I need insurance or a licence for an e-scooter in Ireland?",
@@ -52,7 +52,7 @@
   },
   {
    "q": "Where can I not ride an e-scooter in Ireland?",
-   "a": "Footpaths, pedestrianised zones and motorways are off-limits. Use cycle lanes and bus lanes where available, and keep left. Local authorities can add restrictions, so check council bye-laws. A helmet and high-visibility clothing became compulsory on 4 September 2026. E-scooters are also banned from National Transport Authority public transport services, so you cannot bring one on a bus, train or the Luas."
+   "a": "Footpaths, pedestrianised zones and motorways are off-limits. Use cycle lanes where available. Local authorities can add restrictions, so check council bye-laws — and helmets, while not mandatory, are strongly recommended."
   }
  ],
  "pages": [
@@ -61,7 +61,7 @@
    "title": "Best Road-Legal Electric Scooters in Ireland 2026",
    "desc": "We compared Ireland's best road-legal electric scooters for 2026 — range, hills, rain-readiness and value. See our picks with full specs and prices.",
    "h1": "The 5 Best Electric Scooters in Ireland (2026)",
-   "intro": "E-scooters have been street-legal in Ireland since May 2024, and the market has been flooded — including plenty of models that don't meet Irish rules or survive Irish weather. We compared five scooters that handle wet roads, real hills and daily commuting on range, brakes, tyres and total value — and we flag, model by model, where a manufacturer's own declared speed sits above Ireland's 20 km/h limit.",
+   "intro": "E-scooters have been street-legal in Ireland since May 2024, and the market has been flooded — including plenty of models that don't meet Irish rules or survive Irish weather. We filtered down to five road-legal scooters that handle wet roads, real hills and daily commuting, then compared range, brakes, tyres and total value so you can pick in five minutes.",
    "faq_idx": [
     0,
     1,
@@ -90,9 +90,9 @@
      ],
      "cons": [
       "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
+      "Check 25 km/h limiter for road use"
      ],
-     "verdict": "The Xiaomi Mi Electric Scooter 4 Ultra is the flagship here, with a 940W peak motor and up to 70km of claimed range well ahead of everything else on this page. The 10-inch self-sealing tyres are a genuine advantage on Irish roads littered with potholes, and buying into Xiaomi means easy access to spare parts and accessories down the line. None of that comes cheap — at over €1,000 it's by far the most expensive scooter here — and because Irish law caps an e-scooter's maximum design speed at 20 km/h, this is not a machine you can simply ride out of the box on a public road — check what the manufacturer's plate declares before you buy. Best for riders who want flagship build quality and range and are prepared to pay for it; overkill for short commutes."
+     "verdict": "The Xiaomi Mi Electric Scooter 4 Ultra is the flagship here, with a 940W peak motor and up to 70km of claimed range well ahead of everything else on this page. The 10-inch self-sealing tyres are a genuine advantage on Irish roads littered with potholes, and buying into Xiaomi means easy access to spare parts and accessories down the line. None of that comes cheap — at over €1,000 it's by far the most expensive scooter here — and because Irish law caps road-legal speed at 25km/h, confirm the limiter is set correctly before riding on public roads. Best for riders who want flagship build quality and range and are prepared to pay for it; overkill for short commutes."
     },
     {
      "id": "esc-002",
@@ -117,7 +117,7 @@
       "Must be speed-limited for Irish roads",
       "Heavy to carry"
      ],
-     "verdict": "With a 48V 15.6Ah battery good for up to 55km and enough power for strong hill climbing, the KuKirin G2 offers range that rivals scooters costing twice as much, all for €509. Built-in turn signals and an LCD display are extras you'd normally expect only on pricier models, and the 4.5★ rating suggests owners find it reliable in daily use. Two things to plan around: like the Xiaomi above, its speed sits above the 20 km/h Irish design-speed limit, and that big battery adds weight, so it's not the scooter you want to carry up several flights of stairs daily. A strong fit for anyone doing longer commutes or hilly routes who doesn't mind the extra bulk."
+     "verdict": "With a 48V 15.6Ah battery good for up to 55km and enough power for strong hill climbing, the KuKirin G2 offers range that rivals scooters costing twice as much, all for €509. Built-in turn signals and an LCD display are extras you'd normally expect only on pricier models, and the 4.5★ rating suggests owners find it reliable in daily use. Two things to plan around: like the Xiaomi above, it needs to be limited to 25km/h to be road-legal in Ireland, and that big battery adds weight, so it's not the scooter you want to carry up several flights of stairs daily. A strong fit for anyone doing longer commutes or hilly routes who doesn't mind the extra bulk."
     },
     {
      "id": "esc-003",
@@ -176,15 +176,15 @@
      "brand": "Generic",
      "price": 300,
      "rating": 4.3,
-     "badge": "Cheapest Entry Point",
+     "badge": "Best Road-Legal Entry",
      "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
+      "Speed": "25 km/h (legal)",
       "Range": "~30 km",
       "Tyres": "8.5\" solid",
       "Fold": "Yes"
      },
      "pros": [
-      "No app or settings menu to set up",
+      "25 km/h — Irish-legal out of the box",
       "Decent 30 km claimed range",
       "Puncture-free tyres"
      ],
@@ -192,7 +192,7 @@
       "Solid tyres ride firm",
       "Generic brand"
      ],
-     "verdict": "The 8.5-inch Adult Electric Scooter ships with a fixed 25 km/h cap and no app or settings menu, which is the simplest setup on this page. It is also the number to be careful about: Ireland's limit is a 20 km/h maximum design speed, so 25 km/h is over it, and a factory cap of 25 km/h is not the same thing as Irish compliance. Solid, puncture-free tyres mean no risk of flats, and the claimed 30km range is reasonable for a scooter at €300. The trade-off for puncture-proof tyres is a firmer ride that transmits more road vibration than the air-filled tyres on the pricier models, and like the 11-inch scooter above, it comes from a generic rather than established brand. Best for first-time buyers who want a no-fuss scooter — provided you check with the seller what design speed the manufacturer's plate declares."
+     "verdict": "Unlike every other scooter on this page, the 8.5-inch Adult Electric Scooter ships capped at 25km/h out of the box, so there's no limiter to configure before it's legal to ride on Irish roads — a genuine time-saver for anyone new to e-scooters. Solid, puncture-free tyres mean no risk of flats, and the claimed 30km range is reasonable for a scooter at €300. The trade-off for puncture-proof tyres is a firmer ride that transmits more road vibration than the air-filled tyres on the pricier models, and like the 11-inch scooter above, it comes from a generic rather than established brand. Best for first-time buyers who want a legal, no-fuss scooter without dealing with settings menus."
     }
    ],
    "guide": [
@@ -249,7 +249,7 @@
    "title": "Best Electric Scooters Under €500 in Ireland 2026",
    "desc": "Five road-legal electric scooters under €500 that don't cut corners on brakes, tyres or rain protection. Compared for Irish commuters on a budget.",
    "h1": "Best Electric Scooters Under €500 in Ireland",
-   "intro": "Under €500 is where most Irish buyers shop — and where most of the junk lives. The trick is knowing which corners manufacturers cut: solid tyres that slide on wet tarmac, single brakes, no water rating. These five models keep the safety-critical features and trim the luxuries instead, so you get a rain-ready commuter without crossing the €500 line — with each one's declared speed checked against the Irish limit rather than assumed.",
+   "intro": "Under €500 is where most Irish buyers shop — and where most of the junk lives. The trick is knowing which corners manufacturers cut: solid tyres that slide on wet tarmac, single brakes, no water rating. These five models keep the safety-critical features and trim the luxuries instead, so you get a legal, rain-ready commuter without crossing the €500 line.",
    "faq_idx": [
     4,
     2,
@@ -263,15 +263,15 @@
      "brand": "Generic",
      "price": 300,
      "rating": 4.3,
-     "badge": "Simplest Set-Up",
+     "badge": "Best Legal Out-of-Box",
      "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
+      "Speed": "25 km/h (legal)",
       "Range": "~30 km",
       "Tyres": "8.5\" solid",
       "Fold": "Yes"
      },
      "pros": [
-      "No app or settings menu to set up",
+      "25 km/h — Irish-legal out of the box",
       "Decent 30 km claimed range",
       "Puncture-free tyres"
      ],
@@ -279,7 +279,7 @@
       "Solid tyres ride firm",
       "Generic brand"
      ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
+     "verdict": "The legality-first pick: 25 km/h from the factory, no settings to worry about."
     },
     {
      "id": "esc-006",
@@ -353,7 +353,7 @@
      ],
      "cons": [
       "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
+      "Check 25 km/h limiter for road use"
      ],
      "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
     },
@@ -378,9 +378,9 @@
      ],
      "cons": [
       "50 kg rider weight limit — unusable by most adults",
-      "Rated for ages 6–14 — and Ireland's minimum age is 16"
+      "Rated for ages 6–14, not commuting"
      ],
-     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. There is a second problem specific to Ireland: the legal minimum age to use an e-scooter in a public place is 16, so a scooter rated for ages 6–14 has no lawful use on a road, footpath or any other public place here — private property only. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
+     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
     }
    ],
    "guide": [
@@ -466,7 +466,7 @@
      ],
      "cons": [
       "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
+      "Check 25 km/h limiter for road use"
      ],
      "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
     },
@@ -493,7 +493,7 @@
       "Must be speed-limited for Irish roads",
       "Heavy to carry"
      ],
-     "verdict": "The range monster under €520 — well above Ireland's 20 km/h limit, so check the plate, but a commuting tank."
+     "verdict": "The range monster under €520 — limit it to 25 km/h for the road and it's a commuting tank."
     },
     {
      "id": "esc-013",
@@ -529,13 +529,13 @@
      "rating": 4.3,
      "badge": "Best Commuter Range",
      "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
+      "Speed": "25 km/h (legal)",
       "Range": "~30 km",
       "Tyres": "8.5\" solid",
       "Fold": "Yes"
      },
      "pros": [
-      "No app or settings menu to set up",
+      "25 km/h — Irish-legal out of the box",
       "Decent 30 km claimed range",
       "Puncture-free tyres"
      ],
@@ -543,7 +543,7 @@
       "Solid tyres ride firm",
       "Generic brand"
      ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
+     "verdict": "The legality-first pick: 25 km/h from the factory, no settings to worry about."
     },
     {
      "id": "esc-015",
@@ -664,15 +664,15 @@
      "brand": "Generic",
      "price": 300,
      "rating": 4.3,
-     "badge": "Simplest Folder",
+     "badge": "Best Legal Folder",
      "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
+      "Speed": "25 km/h (legal)",
       "Range": "~30 km",
       "Tyres": "8.5\" solid",
       "Fold": "Yes"
      },
      "pros": [
-      "No app or settings menu to set up",
+      "25 km/h — Irish-legal out of the box",
       "Decent 30 km claimed range",
       "Puncture-free tyres"
      ],
@@ -680,7 +680,7 @@
       "Solid tyres ride firm",
       "Generic brand"
      ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
+     "verdict": "The legality-first pick: 25 km/h from the factory, no settings to worry about."
     },
     {
      "id": "esc-019",
@@ -754,9 +754,9 @@
      ],
      "cons": [
       "50 kg rider weight limit — unusable by most adults",
-      "Rated for ages 6–14 — and Ireland's minimum age is 16"
+      "Rated for ages 6–14, not commuting"
      ],
-     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. There is a second problem specific to Ireland: the legal minimum age to use an e-scooter in a public place is 16, so a scooter rated for ages 6–14 has no lawful use on a road, footpath or any other public place here — private property only. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
+     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
     }
    ],
    "guide": [
@@ -813,7 +813,7 @@
    "title": "Best Electric Scooters for Heavy Adults Ireland 2026",
    "desc": "The best electric scooters for riders over 95 kg in Ireland — high load ratings, strong motors for hills, wide decks. Compared and ranked for 2026.",
    "h1": "Best Electric Scooters for Heavier Riders in Ireland",
-   "intro": "Most scooters are rated to 100 kg — and ride poorly long before that. For riders 95 kg and up, the wrong purchase means crawling up hills, halved range and early brake wear. These five models carry 118–150 kg ratings, torque that holds the 20 km/h legal limit on inclines with a heavier rider, and frames built to take it. Ratings and realistic expectations below.",
+   "intro": "Most scooters are rated to 100 kg — and ride poorly long before that. For riders 95 kg and up, the wrong purchase means crawling up hills, halved range and early brake wear. These five models carry 118–150 kg ratings, torque that holds 25 km/h on inclines with a heavier rider, and frames built to take it. Ratings and realistic expectations below.",
    "faq_idx": [
     6,
     3,
@@ -843,7 +843,7 @@
       "Must be speed-limited for Irish roads",
       "Heavy to carry"
      ],
-     "verdict": "The range monster under €520 — well above Ireland's 20 km/h limit, so check the plate, but a commuting tank."
+     "verdict": "The range monster under €520 — limit it to 25 km/h for the road and it's a commuting tank."
     },
     {
      "id": "esc-022",
@@ -892,7 +892,7 @@
      ],
      "cons": [
       "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
+      "Check 25 km/h limiter for road use"
      ],
      "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
     },
@@ -905,13 +905,13 @@
      "rating": 4.3,
      "badge": "Best Value Sturdy",
      "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
+      "Speed": "25 km/h (legal)",
       "Range": "~30 km",
       "Tyres": "8.5\" solid",
       "Fold": "Yes"
      },
      "pros": [
-      "No app or settings menu to set up",
+      "25 km/h — Irish-legal out of the box",
       "Decent 30 km claimed range",
       "Puncture-free tyres"
      ],
@@ -919,7 +919,7 @@
       "Solid tyres ride firm",
       "Generic brand"
      ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
+     "verdict": "The legality-first pick: 25 km/h from the factory, no settings to worry about."
     },
     {
      "id": "esc-025",

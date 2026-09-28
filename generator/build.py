@@ -24,7 +24,11 @@ GTAG = ("" if not GA_ID else
         "<!-- Google tag (gtag.js) -->\n"
         f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
         "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
-        f"gtag('js',new Date());gtag('config','{GA_ID}');</script>")
+        f"gtag('js',new Date());gtag('config','{GA_ID}');"
+        "document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*=\"amazon.\"]');"
+        "if(!a||!window.gtag)return;var c=a.closest('[id],section,article');"
+        "gtag('event','affiliate_click',{link_url:a.href,link_text:(a.textContent||'').trim().slice(0,100),"
+        "product_block:c&&c.id?c.id:'',outbound:true,transport_type:'beacon'});},true);</script>")
 # Banner de cookies discreto e nao-bloqueante (consentimento implicito; permite recusar)
 COOKIE_BANNER = """<div id="ckb" style="display:none;position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;background:#0E1B26;color:#C4D2DE;border:1px solid #25394a;border-radius:12px;padding:12px 16px;font:14px/1.5 Inter,system-ui,sans-serif;box-shadow:0 12px 32px -12px rgba(0,0,0,.55);z-index:120;gap:12px;align-items:center;flex-wrap:wrap">
 <span style="flex:1;min-width:210px">We use cookies to measure site traffic (Google Analytics). <a href="/privacy.html" style="color:#7FD4A8">Learn more</a>.</span>
@@ -522,6 +526,25 @@ RC_ARTICLES = {
                 "electricity rates, with the arithmetic shown and the assumptions named.",
         "crumb": "Running cost explained",
         "hub_text": "How much does a dehumidifier cost to run in Ireland?",
+    },
+}
+
+# Artigos de regulamentacao (semana 5 da fila, 19/09/2026). Um por categoria, no maximo.
+# Por que existem separados de RC_ARTICLES: a fonte nao e o nosso proprio dado de produto,
+# e o texto da lei. Logo a regra de honestidade e outra — cada numero tem de vir de uma
+# fonte primaria nomeada e datada, e o que foi so anunciado fica separado do que esta em
+# vigor. Motivo direto desta pagina: em 04/09/2026 capacete e alta-visibilidade passaram a
+# ser obrigatorios (S.I. 455/2026) e o site continuava dizendo que nao estavam em vigor.
+LAW_ARTICLES = {
+    "electric-scooters": {
+        "slug": "e-scooter-law-ireland-2026",
+        "title": "E-Scooter Law in Ireland 2026: The Rules That Apply",
+        "h1": "E-scooter law in Ireland 2026",
+        "desc": "Helmets and high-vis became compulsory on 4 September 2026. The full Irish "
+                "e-scooter rules \u2014 20 km/h, 400 W, 25 kg \u2014 with the statute cited for each.",
+        "crumb": "E-scooter law",
+        "hub_text": "E-scooter law in Ireland 2026: the rules that apply",
+        "checked": "19 September 2026",
     },
 }
 
@@ -1280,6 +1303,11 @@ for cat in CATS:
         guide = "".join(f"<h3>{esc(h)}</h3><p>{esc(t)}</p>" for h, t in (page.get("guide") or cat["guide"]))
         others = [pg for pg in cat["pages"] if pg["slug"] != page["slug"]]
         related = "".join(f'<a href="{pg["slug"]}.html">{esc(pg["h1"])} {ARROW}</a>' for pg in others)
+        # ponte das guias para o artigo de regulamentacao da categoria, quando existe.
+        # COLADO em {related} (licao de 29/08): em linha propria, a quebra sobraria nas 9
+        # categorias sem artigo de lei e mudaria o hash delas sem o conteudo ter mudado.
+        _lw = LAW_ARTICLES.get(cat["category"])
+        law_rel = (f'<a href="{_lw["slug"]}.html">{esc(_lw["hub_text"])} {ARROW}</a>') if _lw else ""
         body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(page['h1'])}</nav>
 <h1>{esc(page['h1'])}</h1>
@@ -1297,7 +1325,7 @@ for cat in CATS:
 {sources_html(page, faqs, guide_src)}
 <h2>Frequently asked questions</h2>
 {faq_html(faqs)}
-<div class="related"><h2>More {esc(cat['name'].lower())} guides</h2>{related}</div>
+<div class="related"><h2>More {esc(cat['name'].lower())} guides</h2>{related}{law_rel}</div>
 {cross_links_html(cat['category'], CATS_BY_SLUG)}
 <p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Prices are indicative, in EUR, and fluctuate — always confirm the live price. We select products based on specifications, owner feedback and value analysis.</p>
 """
@@ -1322,11 +1350,14 @@ for cat in CATS:
     hub_ref = ('<div class="related"><h2>Running costs, in one table</h2>'
                f'<a href="{_hr["slug"]}.html">{esc(_hr["h1"])} {ARROW}</a>'
                f'{hub_art}</div>') if _hr else ""
+    _hl = LAW_ARTICLES.get(cat["category"])
+    hub_law = ('<div class="related"><h2>The law, in plain English</h2>'
+               f'<a href="{_hl["slug"]}.html">{esc(_hl["hub_text"])} {ARROW}</a></div>') if _hl else ""
     body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › {esc(cat['name'])}</nav>
 <h1>Best {esc(cat['name'])} in Ireland — All Guides</h1>
 <p class="intro">{esc(cat['hub_intro'])}</p>
-<div class="grid">{tiles}</div>{hub_ref}
+<div class="grid">{tiles}</div>{hub_ref}{hub_law}
 <h2>{esc(cat['name'])}: frequently asked questions</h2>
 {hub_faq}
 """
@@ -1870,6 +1901,311 @@ calculated from manufacturer-published rated power and are indicative, not measu
 for cat in CATS:
     running_cost_article(cat)
 
+# ---------------------------------------------------------------- artigo de regulamentacao
+# Semana 5 da fila (secao 7 do plano, 19/09/2026).
+#
+# REGRA DE HONESTIDADE DESTA PAGINA — diferente da do artigo de custo, porque a fonte e
+# outra. Aqui nenhum numero vem do nosso dado de produto; todos vem do texto da lei, e cada
+# um aparece com o instrumento que o cria. Tres separacoes que a pagina nunca pode perder:
+#   1. EM VIGOR vs ANUNCIADO. Foi exatamente aqui que o site errou: dizia "nada disso esta em
+#      vigor" sobre uma regra que passou a valer em 04/09/2026.
+#   2. A regra do E-SCOOTER (S.I. 199/2024: 20 km/h, 0,4 kW) vs a definicao mais larga de
+#      POWERED PERSONAL TRANSPORTER (Road Traffic Act 2024, s.16: 25 km/h, 0,5 kW, 25 kg).
+#      Confundir as duas e a origem do "25 km/h road legal" que circula nos anuncios — e era
+#      o erro que este site repetia em 20 lugares ate hoje.
+#   3. Data de ultima conferencia visivel na pagina. Pagina de lei sem data e pagina inutil.
+LAW_SOURCES = [
+    ("S.I. No. 199/2024 — Road Traffic (Electric Scooters) Regulations 2024",
+     "https://www.irishstatutebook.ie/eli/2024/si/199/made/en/print",
+     "design speed, power, wheels, brakes, lights, plate, minimum age"),
+    ("Road Traffic Act 2024, section 16 — definition of ‘powered personal transporter’",
+     "https://www.irishstatutebook.ie/eli/2024/act/10/section/16/enacted/en/html",
+     "the 25 kg / 25 km/h / 0.5 kW outer envelope of the vehicle class"),
+    ("S.I. No. 455 of 2026 — Road Traffic (Electric Scooters) (Amendment) Regulations 2026",
+     "https://www.irishstatutebook.ie/eli/2026/si/455/made/en/pdf",
+     "the helmet and high-visibility requirement, in force 4 September 2026"),
+    ("Citizens Information — E-scooters",
+     "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/motorcycle-electric-and-off-road-vehicles/e-scooters/",
+     "current rules, fines and what is only announced"),
+    ("Department of Transport press release, 2 September 2026",
+     "https://www.gov.ie/en/department-of-transport/press-releases/ministers-obrien-and-canney-introduce-first-in-new-suite-of-road-safety-regulations-addressing-e-scooter-use/",
+     "the announced €100 fixed charge, age 18 and storage fees"),
+]
+
+
+def law_article(cat):
+    """Artigo de regulamentacao da categoria. Devolve o caminho relativo ou None."""
+    cfg = LAW_ARTICLES.get(cat["category"])
+    if not cfg:
+        return None
+
+    qa = ("""<div class="quick-answer"><p><strong>Quick answer:</strong> An e-scooter is legal on
+an Irish public road if its maximum design speed is 20 km/h or less, its motor is rated at
+400 W continuous or less, it weighs no more than 25 kg unladen, its wheels are at least
+200 mm, and it has two brakes, front and rear lights, reflectors, a bell and a
+manufacturer’s plate. The rider must be 16 or over and, <strong>since 4 September
+2026</strong>, must wear a helmet and high-visibility clothing. No tax, insurance, licence or
+registration is required. The 25 km/h figure you see in listings is not the Irish
+e-scooter limit — it is the outer edge of a wider vehicle class, and a scooter built to
+25 km/h does not meet the 20 km/h rule.</p></div>""")
+
+    checklist = """<div class="tbl-scroll"><table class="cmp">
+<thead><tr><th>What the law sets</th><th>The limit</th><th>Where it comes from</th></tr></thead>
+<tbody>
+<tr><td>Maximum design speed</td><td><strong>20 km/h</strong></td><td>S.I. 199/2024, reg. 12</td></tr>
+<tr><td>Speed limit on the road</td><td><strong>20 km/h</strong>, or lower where the road’s own limit is lower</td><td>S.I. 199/2024, reg. 4</td></tr>
+<tr><td>Maximum continuous motor power</td><td><strong>400 W</strong> (0.4 kW)</td><td>S.I. 199/2024, reg. 13</td></tr>
+<tr><td>Maximum unladen weight</td><td><strong>25 kg</strong>, including the battery</td><td>Road Traffic Act 2024, s.16</td></tr>
+<tr><td>Minimum wheel diameter</td><td><strong>200 mm</strong>, including the tyre</td><td>S.I. 199/2024, reg. 24</td></tr>
+<tr><td>Brakes</td><td>Two independent brakes, one front, one rear, both usable without taking a hand off the bars</td><td>S.I. 199/2024, reg. 16</td></tr>
+<tr><td>Lights and reflectors</td><td>White front lamp, red rear lamp, reflectors front, rear and both sides</td><td>S.I. 199/2024, regs. 17–20</td></tr>
+<tr><td>Bell or horn</td><td>Required</td><td>S.I. 199/2024, reg. 23</td></tr>
+<tr><td>Manufacturer’s plate</td><td>Must state model, design speed, continuous power, weight and serial number</td><td>S.I. 199/2024, reg. 26</td></tr>
+<tr><td>CE marking</td><td>Required on the scooter and on the battery</td><td>S.I. 199/2024, reg. 27</td></tr>
+<tr><td>Seat</td><td>Not allowed — an e-scooter is a standing vehicle</td><td>S.I. 199/2024, reg. 8</td></tr>
+<tr><td>Minimum rider age</td><td><strong>16</strong></td><td>S.I. 199/2024, reg. 5</td></tr>
+<tr><td>Passengers, goods, towing</td><td>All prohibited</td><td>S.I. 199/2024, regs. 6, 7, 10</td></tr>
+<tr><td>Helmet and high-vis</td><td><strong>Compulsory since 4 September 2026</strong></td><td>S.I. 455/2026</td></tr>
+</tbody></table></div>"""
+
+    fines = """<div class="tbl-scroll"><table class="cmp">
+<thead><tr><th>Offence</th><th>What applies today</th><th>Announced</th></tr></thead>
+<tbody>
+<tr><td>Fixed charge offences (speeding, footpath riding, phone use, no lights)</td><td><strong>€50</strong></td><td>Rising to €100, “in the coming weeks”</td></tr>
+<tr><td>No helmet or no high-vis</td><td>Unlawful, but <strong>no fixed charge notice yet</strong></td><td>€100 fixed charge, to start with the increase above</td></tr>
+<tr><td>Riding under the influence of drink or drugs</td><td>Court matter, fine up to <strong>€2,000</strong></td><td>—</td></tr>
+<tr><td>Non-compliant scooter (over the limits, no plate, no brakes)</td><td>Gardaí can seize it; prosecution rather than a fixed charge</td><td>—</td></tr>
+<tr><td>Release of a detained scooter</td><td>Current fee</td><td><strong>€80</strong> first day plus <strong>€30</strong> per extra day, from 2 October 2026</td></tr>
+</tbody></table></div>"""
+
+    faqs = [
+        ("Is the Irish e-scooter speed limit 20 km/h or 25 km/h?",
+         "20 km/h. Regulation 12 of S.I. 199/2024 sets the maximum design speed of an e-scooter "
+         "at 20 km/h, and regulation 4 sets the road speed limit at 20 km/h as well, or lower "
+         "where the road itself has a lower limit. The 25 km/h figure comes from a different "
+         "place: section 16 of the Road Traffic Act 2024 defines the wider ‘powered personal "
+         "transporter’ class as topping out at 25 km/h and 0.5 kW. E-scooters are one type of "
+         "powered personal transporter and are held to the tighter figures. A listing that "
+         "advertises 25 km/h is quoting the class envelope, not the e-scooter rule."),
+        ("Do I have to wear a helmet on an e-scooter in Ireland?",
+         "Yes, since 4 September 2026. S.I. 455/2026 requires a helmet meeting European "
+         "standard EN 1078:2012+A1:2012, carrying a CE mark, securely fastened on your head. "
+         "High-visibility clothing to EN ISO 20471:2013+A1:2016 is required at the same time, "
+         "and it has to cover at least the front and back of your torso — a vest, T-shirt, "
+         "jumper or jacket qualifies, a hi-vis belt or harness does not. As of the date this "
+         "page was last checked there is no fixed charge notice for breaking either rule yet; "
+         "the Department of Transport has said a €100 charge will be introduced in the coming "
+         "weeks."),
+        ("Can a scooter that does 25 km/h be made legal by limiting it in the app?",
+         "Not reliably, and this is the question the listings gloss over. Regulation 12 is "
+         "written about the scooter’s maximum design speed — the speed it is built and "
+         "declared to reach, which is one of the figures that must appear on the "
+         "manufacturer’s plate. A software cap does not change what the plate declares. "
+         "Regulation 9 separately forbids modifying a scooter so that it no longer matches the "
+         "manufacturer’s specification or so that the rider can raise the speed or power while "
+         "riding. If you want certainty, buy a scooter whose plate states a 20 km/h design "
+         "speed, and ask the retailer for the declaration of conformity before you pay."),
+        ("Do I need insurance, tax or a licence for an e-scooter in Ireland?",
+         "No. A compliant e-scooter needs no driving licence, no motor tax, no registration "
+         "plate and no compulsory insurance. That is one of the things that could change: the "
+         "Government has said it intends to reclassify e-scooters as mechanically propelled "
+         "vehicles, which would bring registration and licensing with it. That legislation has "
+         "not been enacted."),
+        ("Is the minimum age 16 or 18?",
+         "16 today. The Government announced in September 2026 that it would raise the minimum "
+         "age to 18, but that change needs primary legislation through the Oireachtas and is "
+         "not in force; Citizens Information lists it as expected by the end of the year. Until "
+         "it is enacted, regulation 5 of S.I. 199/2024 applies and the minimum age is 16. "
+         "Gardaí can confiscate a scooter ridden by someone under 16."),
+        ("Where can I actually ride an e-scooter?",
+         "Local, regional and national roads, cycle lanes and bus lanes, keeping to the left. "
+         "Footpaths, pedestrianised areas and motorways are off-limits with no exceptions. "
+         "E-scooters are also banned from every National Transport Authority public transport "
+         "service — Dublin Bus, Bus Éireann, Go-Ahead, Iarnród Éireann, Luas and TFI Local "
+         "Link — so a scooter cannot be part of a mixed bus-and-scooter commute. That ban does "
+         "not apply to e-bikes."),
+    ]
+
+    sources_html = "".join(
+        f'<li><a href="{u}" rel="nofollow noopener" target="_blank">{esc(n)}</a> — {esc(w)}.</li>'
+        for n, u, w in LAW_SOURCES)
+
+    guides = "".join(
+        f'<a href="{pg["slug"]}.html">{esc(pg["h1"])} {ARROW}</a>' for pg in cat["pages"])
+
+    body = f"""
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(cfg['crumb'])}</nav>
+<h1>{esc(cfg['h1'])}</h1>
+<div class="updated"><span class="trust-chip">{SHIELD} Every rule cited to the statute</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Last checked against the law on <time datetime="{{MOD}}">{esc(cfg['checked'])}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
+{qa}
+<p class="intro">Irish e-scooter rules changed on 4 September 2026, and most of what is
+written about them online still describes the situation before that date. This page lists
+what is in force today, names the regulation behind each number, and keeps what has only
+been <em>announced</em> in a separate section at the bottom, because the two get mixed up
+constantly — including, until today, on this site.</p>
+
+<h2>What changed on 4 September 2026</h2>
+<p>A helmet and high-visibility clothing became compulsory for anyone using an e-scooter in a
+public place. The change was made by the Road Traffic (Electric Scooters) (Amendment)
+Regulations 2026, S.I. 455/2026, which amends the 2024 e-scooter regulations rather than
+replacing them: every device rule from 2024 still stands, and the helmet and hi-vis
+obligations sit on top.</p>
+<p>One nuance matters if you are weighing up the risk. The requirement is real law from
+4 September, but <strong>the fixed charge notice for breaking it does not exist yet</strong>.
+The Department of Transport has said the fine will be introduced along with a general
+increase of e-scooter fixed charges from €50 to €100, “in the coming weeks”. Riding
+without a helmet today is unlawful; it is just not yet a €100 ticket.</p>
+
+<h2>The full checklist: what makes an e-scooter legal here</h2>
+{checklist}
+
+<h2>The 20 km/h problem, and why listings say 25</h2>
+<p>This is the single most common mistake in Irish e-scooter shopping, and it comes from two
+laws being read as one.</p>
+<p>Section 16 of the Road Traffic Act 2024 created the vehicle class. A
+<em>powered personal transporter</em> is a one-person vehicle weighing no more than 25 kg
+unladen, with a maximum design speed between 6 and 25 km/h and motors totalling no more than
+0.5 kW. Those are the outer walls of the class — go past them and the device is not a
+powered personal transporter at all, it is a mechanically propelled vehicle needing tax,
+insurance and a licence.</p>
+<p>S.I. 199/2024 then sets the rules for <em>using an e-scooter</em> inside that class, and
+they are tighter: 20 km/h maximum design speed, 400 W maximum continuous power. So both
+numbers are real, they come from different instruments, and only one of them is the limit you
+are judged against on an Irish road.</p>
+<p>A scooter advertised at 25 km/h is inside the vehicle class and outside the e-scooter
+rule. That is why “25 km/h — road legal” appears on listings that are not describing Irish
+law. The number to look for is on the manufacturer’s plate, which regulation 26 requires to
+state the design speed — and the retailer has to hand you a declaration of conformity when
+you buy.</p>
+
+<h2>The helmet and high-vis rules, precisely</h2>
+<ul>
+<li><strong>Helmet:</strong> to European standard EN 1078:2012+A1:2012, CE marked, and
+“securely fastened” to your head. In practice this is an ordinary bicycle helmet — it does
+not have to be a motorcycle helmet.</li>
+<li><strong>High-visibility clothing:</strong> to EN ISO 20471:2013+A1:2016, CE marked,
+covering <em>at least the front and back of your torso</em>. A vest, T-shirt, jumper or
+jacket in fluorescent yellow, orange or red with retroreflective strips all qualify.</li>
+<li><strong>What does not qualify:</strong> a hi-vis belt or Sam Browne-style harness does not
+cover the torso front and back, so it does not meet the requirement. Hi-vis trousers or arm
+bands are not required, and do not substitute for the torso covering.</li>
+</ul>
+
+<h2>Where you can and cannot ride</h2>
+<p><strong>Allowed:</strong> local, regional and national roads; cycle lanes; bus lanes. Keep
+to the left, follow traffic lights and pedestrian crossings, and obey a Garda or school
+warden the same as any other road user.</p>
+<p><strong>Not allowed:</strong> footpaths, pedestrianised areas and motorways — there is no
+exception for a quiet footpath or a short pedestrianised shortcut. You also cannot carry a
+passenger or goods, use a phone while riding, or park in a loading bay, accessible space or
+charging bay.</p>
+<p><strong>Also not allowed, and often missed:</strong> e-scooters are banned from every
+National Transport Authority public transport service, including Dublin Bus, Bus Éireann,
+Go-Ahead Ireland, Iarnród Éireann, Luas and TFI Local Link. If your plan was to scoot to the
+station and take the scooter on the train, that plan does not work here. The ban does not
+apply to e-bikes.</p>
+
+<h2>Fines: what applies now, and what is coming</h2>
+{fines}
+
+<h2>Announced, but not law yet</h2>
+<p>Three changes have been announced and are commonly reported as though they were already in
+force. As of {esc(cfg['checked'])} they are not:</p>
+<ul>
+<li><strong>Minimum age 18.</strong> Announced in September 2026. It needs an Act of the
+Oireachtas, not just a ministerial regulation, and was deferred on the Attorney General’s
+advice. Citizens Information lists it as expected by the end of the year. Until then the
+minimum age is 16.</li>
+<li><strong>€100 fixed charges.</strong> Expected “in the coming weeks”, and the new helmet
+and hi-vis fixed charge arrives with them. Today the figure is €50.</li>
+<li><strong>Reclassification as mechanically propelled vehicles</strong>, which would bring
+registration and possibly licensing. No enacted legislation.</li>
+</ul>
+<p>The storage fee increase is the one dated change: from <strong>2 October 2026</strong>,
+recovering a detained e-scooter costs €80 for the first day and €30 for each day after.</p>
+
+<h2>What this means if you are buying</h2>
+<p>Four questions, in order, and the first one disqualifies most of what is sold on general
+marketplaces:</p>
+<ol>
+<li><strong>What design speed does the manufacturer’s plate state?</strong> If it says 25
+km/h, it is over the Irish limit — regardless of what the listing title says.</li>
+<li><strong>What is the continuous power rating?</strong> Not peak. Peak wattage is a
+marketing number; regulation 13 is about continuous rated power, capped at 400 W.</li>
+<li><strong>Will the seller give you a declaration of conformity?</strong> You are entitled
+to one at purchase. A seller who cannot produce it is a seller who has not checked.</li>
+<li><strong>Does it have two independent brakes, lights front and rear, reflectors on four
+sides and a bell?</strong> A scooter missing any of these cannot be used lawfully in a public
+place even if the speed and power are right.</li>
+</ol>
+<p>We apply the same test to our own pages. Several scooters in our guides ship with a
+25 km/h factory setting, and we now say so on each of them instead of describing them as
+road-legal.</p>
+
+<h2>Sources</h2>
+<ul class="sources">{sources_html}</ul>
+<p class="sources">This page is a plain-English summary of published regulations, not legal
+advice. Where a figure below differs from the statute, the statute is right —
+<a href="../contact.html">tell us</a> and we will correct it. Last checked against the
+sources above on {esc(cfg['checked'])}.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="guide">{"".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in faqs)}</div>
+
+<h2>Our electric scooter guides</h2>
+<div class="related">{guides}</div>
+"""
+
+    key = f"{cat['category']}/{cfg['slug']}"
+    pub, mod = page_dates(key, [
+        cfg["h1"], cfg["title"], cfg["desc"], cfg["checked"],
+        qa, checklist, fines,
+        json.dumps(faqs, ensure_ascii=False),
+        json.dumps(LAW_SOURCES, ensure_ascii=False)])
+    body = body.replace("{MOD}", mod)
+
+    canonical = f"{DOMAIN}/{cat['category']}/{cfg['slug']}.html"
+    article = {
+        "@context": "https://schema.org", "@type": "Article", "@id": canonical + "#article",
+        "headline": cfg["h1"], "description": cfg["desc"],
+        "mainEntityOfPage": {"@type": "WebPage", "@id": canonical},
+        "inLanguage": "en-IE", "datePublished": pub, "dateModified": mod,
+        "author": author_schema(), "publisher": {"@id": DOMAIN + "/#organization"},
+        "image": cat_og_image(cat["category"]),
+        "about": {"@type": "Thing", "name": "Electric scooter law in Ireland"},
+        "spatialCoverage": {"@type": "Country", "name": "Ireland"},
+        "citation": [{"@type": "Legislation", "name": n, "url": u} for n, u, _w in LAW_SOURCES]}
+    webpage = {
+        "@context": "https://schema.org", "@type": "WebPage", "@id": canonical,
+        "url": canonical, "name": cfg["title"], "description": cfg["desc"],
+        "inLanguage": "en-IE", "datePublished": pub, "dateModified": mod,
+        "speakable": {"@type": "SpeakableSpecification",
+                      "cssSelector": [".quick-answer", "h1"]}}
+    faqpage = {
+        "@context": "https://schema.org", "@type": "FAQPage",
+        "@id": canonical + "#faq", "mainEntity": [
+            {"@type": "Question", "name": q,
+             "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+        {"@type": "ListItem", "position": 2, "name": cat["name"],
+         "item": f"{DOMAIN}/{cat['category']}/"},
+        {"@type": "ListItem", "position": 3, "name": cfg["crumb"], "item": canonical}]}
+    jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
+                     for x in (article, webpage, faqpage, crumb))
+    out = page_shell(cfg["title"], cfg["desc"], canonical, body, depth=1, jsonld=jsonld,
+                     og_image=cat_og_image(cat["category"]))
+    with open(os.path.join(OUT, cat["category"], cfg["slug"] + ".html"), "w",
+              encoding="utf-8") as f:
+        f.write(out)
+    all_pages.append(f"{cat['category']}/{cfg['slug']}.html")
+    print(f"  [law] {canonical} — {len(faqs)} FAQs, {len(LAW_SOURCES)} sources")
+    return f"{cat['category']}/{cfg['slug']}.html"
+
+
+for cat in CATS:
+    law_article(cat)
+
 # ---------------------------------------------------------------- homepage
 tiles = ""
 for cat in CATS:
@@ -2163,6 +2499,14 @@ for cat in CATS:
                      f"{_a['desc']}")
 if _refs:
     _llms += ["## Running costs: reference tables and explainers"] + _refs + [""]
+_laws = []
+for cat in CATS:
+    _l = LAW_ARTICLES.get(cat["category"])
+    if _l:
+        _laws.append(f"- [{_l['h1']}]({DOMAIN}/{cat['category']}/{_l['slug']}.html) — "
+                     f"{_l['desc']} Last checked {_l['checked']}.")
+if _laws:
+    _llms += ["## Irish regulation: what is actually in force"] + _laws + [""]
 _llms += ["## Full content",
           f"- [llms-full.txt]({DOMAIN}/llms-full.txt) — every guide, product spec, running "
           f"cost, cost per charge, verdict and FAQ on this site, in one plain-text file.",
@@ -2268,6 +2612,11 @@ for cat in CATS:
     if _art:
         _full += [f"Running cost explained, with the arithmetic: {_art['h1']} — "
                   f"{DOMAIN}/{ck}/{_art['slug']}.html", ""]
+    _law = LAW_ARTICLES.get(ck)
+    if _law:
+        _full += [f"Irish law for this category, with the statute cited and the date it was "
+                  f"last checked ({_law['checked']}): {_law['h1']} — "
+                  f"{DOMAIN}/{ck}/{_law['slug']}.html", ""]
 
     for pg in cat["pages"]:
         _full += ["", "-" * 78,
