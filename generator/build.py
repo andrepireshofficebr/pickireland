@@ -1253,6 +1253,279 @@ all_pages = []
 SEARCH_INDEX = []
 
 # ---------------------------------------------------------------- comparison pages
+# ---------------------------------------------------------------- calculadora de custo de inverno
+# 28/09/2026. Pagina-ferramenta: aquecedores e desumidificadores, com os dados do proprio
+# catalogo. Regras (as mesmas do "Running cost", nao afrouxar):
+#  - so entra produto com potencia REAL na spec; sem watt fica de fora, listado como tal.
+#  - toda premissa e declarada na pagina e ajustavel pelo leitor.
+#  - o HTML ja sai com os numeros do cenario padrao (buscador e IA leem sem rodar JS);
+#    o JS so recalcula com a mesma formula.
+# A tese honesta da pagina (e o motivo de ela ser citavel): todo aquecedor eletrico resistivo
+# converte ~100% da energia em calor. Com dois aquecedores grandes o bastante no mesmo comodo,
+# a conta de luz e a mesma — o que muda e o preco de compra. "Oil radiator is cheaper to run"
+# e mito. Aquecedor pequeno demais roda no maximo o tempo todo e nao aquece.
+CALC_SLUG = "running-cost-calculator-ireland.html"
+CALC_CATS = ("electric-heaters", "dehumidifiers")
+CALC_INSUL = [("poor", "Draughty / older house (BER E–G)", 100),
+              ("average", "Average (BER C–D)", 70),
+              ("good", "Well insulated (BER A–B)", 45)]
+CALC_DEF = {"room": 12, "insul": "average", "hours": 4, "load": 60, "weeks": 26,
+            "dhours": 8, "rate": KWH_RATE}
+
+def _calc_products():
+    out = {"electric-heaters": [], "dehumidifiers": []}
+    skipped = {"electric-heaters": [], "dehumidifiers": []}
+    for cat in CATS:
+        if cat["category"] not in CALC_CATS:
+            continue
+        seen = set()
+        for pg in cat["pages"]:
+            for p in pg["products"]:
+                key = re.sub(r"\s+", " ", p["name"]).strip().lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                w = _watts(p.get("specs") or {})
+                url, _ = product_url(p)
+                row = {"id": p["id"], "n": p["name"], "w": w, "p": product_price(p),
+                       "b": p.get("badge", ""), "u": url,
+                       "g": f'{cat["category"]}/{pg["slug"]}.html#{p["id"]}'}
+                if cat["category"] == "dehumidifiers":
+                    row["l"] = _extraction_lpd(p.get("specs") or {})
+                    if not w:
+                        skipped["dehumidifiers"].append(p["name"]); continue
+                elif not w:
+                    skipped["electric-heaters"].append(p["name"]); continue
+                out[cat["category"]].append(row)
+    return out, skipped
+
+def _eur(x):
+    return f"€{x:,.0f}" if x >= 100 else f"€{x:,.2f}"
+
+def _calc_heater_rows(heaters, room, wpm2, hours, load, weeks, rate):
+    need = room * wpm2                       # W para o dia mais frio (dimensionamento)
+    days = weeks * 7
+    ok_kwh = need / 1000 * hours * (load / 100) * days
+    rows = []
+    for h in heaters:
+        big = h["w"] >= need
+        kwh = ok_kwh if big else h["w"] / 1000 * hours * days   # pequeno: roda no talo
+        cost = kwh * rate
+        rows.append(dict(h, big=big, cost=cost, total=cost + h["p"]))
+    rows.sort(key=lambda r: (not r["big"], r["total"]))
+    return need, ok_kwh * rate, rows
+
+def _calc_dehu_rows(dehus, hours, weeks, rate):
+    rows = []
+    for d in dehus:
+        cost = d["w"] / 1000 * hours * weeks * 7 * rate
+        ppl = (d["w"] / 1000 * 24 * rate / d["l"]) if d.get("l") else None
+        rows.append(dict(d, cost=cost, ppl=ppl))
+    rows.sort(key=lambda r: (r["ppl"] is None, r["ppl"] or 0, r["cost"]))
+    return rows
+
+def calculator_page():
+    prods, skipped = _calc_products()
+    H, D = prods["electric-heaters"], prods["dehumidifiers"]
+    dflt = CALC_DEF
+    wpm2 = dict((k, v) for k, _, v in CALC_INSUL)[dflt["insul"]]
+    need, heat_bill, hrows = _calc_heater_rows(H, dflt["room"], wpm2, dflt["hours"],
+                                               dflt["load"], dflt["weeks"], dflt["rate"])
+    drows = _calc_dehu_rows(D, dflt["dhours"], dflt["weeks"], dflt["rate"])
+
+    def hrow(r, i):
+        tag = ('<span class="ck ok">Big enough</span>' if r["big"]
+               else '<span class="ck no">Too small — runs flat out, room stays cold</span>')
+        return (f'<tr class="{"" if r["big"] else "dim"}"><td>{i}</td><td><a href="{esc(r["g"])}">{esc(r["n"])}</a>'
+                f'<div class="sub">{w_txt(r["w"])} W · {tag}</div></td>'
+                f'<td>€{r["p"]}</td><td>{_eur(r["cost"])}</td><td><b>{_eur(r["total"])}</b></td>'
+                f'<td><a class="cbtn" href="{esc(r["u"])}" target="_blank" rel="sponsored noopener">Check price</a></td></tr>')
+
+    def drow(r, i):
+        ppl = f'€{r["ppl"]:.3f}/L' if r["ppl"] is not None else "extraction not published"
+        ltxt = f'{r["l"]:g} L/day · ' if r.get("l") else ""
+        return (f'<tr><td>{i}</td><td><a href="{esc(r["g"])}">{esc(r["n"])}</a>'
+                f'<div class="sub">{ltxt}{w_txt(r["w"])} W</div></td>'
+                f'<td>€{r["p"]}</td><td>{_eur(r["cost"])}</td><td><b>{ppl}</b></td>'
+                f'<td><a class="cbtn" href="{esc(r["u"])}" target="_blank" rel="sponsored noopener">Check price</a></td></tr>')
+
+    htable = "".join(hrow(r, i + 1) for i, r in enumerate(hrows))
+    dtable = "".join(drow(r, i + 1) for i, r in enumerate(drows))
+    best_h = next(r for r in hrows if r["big"])
+    best_d = next(r for r in drows if r["ppl"] is not None)
+    two_kw_hour = 2 * KWH_RATE
+    _w12 = sorted(d["w"] for d in D if d.get("l") == 12)
+    w12 = (_w12[0], _w12[-1])
+    ins_opts = "".join(f'<option value="{v}"{" selected" if k == dflt["insul"] else ""}>{esc(t)}</option>'
+                       for k, t, v in CALC_INSUL)
+    rate_opts = (f'<option value="{KWH_RATE}" selected>Day rate — €{KWH_RATE:.2f}/kWh</option>'
+                 f'<option value="{KWH_RATE_NIGHT}">Night rate (smart meter) — €{KWH_RATE_NIGHT:.2f}/kWh</option>'
+                 '<option value="custom">My own rate…</option>')
+    skip_h = ", ".join(esc(s) for s in skipped["electric-heaters"]) or "none"
+    skip_d = ", ".join(esc(s) for s in skipped["dehumidifiers"]) or "none"
+
+    faqs = [
+        ("How much does it cost to run a 2kW heater in Ireland?",
+         f"At a day rate of €{KWH_RATE:.2f}/kWh a 2kW heater costs €{two_kw_hour:.2f} per hour at full power. "
+         f"With a thermostat it draws full power only part of the time, so the real cost is lower. "
+         f"On a night rate of €{KWH_RATE_NIGHT:.2f}/kWh the same hour costs €{2*KWH_RATE_NIGHT:.2f}."),
+        ("Is an oil-filled radiator cheaper to run than a fan heater?",
+         "No. Every plug-in electric heater turns close to 100% of the electricity it uses into heat. "
+         "If two heaters are both big enough for the room, keeping it at the same temperature for the same hours costs "
+         "the same. Oil radiators feel gentler and keep radiating after they switch off; fan heaters warm the air faster. "
+         "The difference is comfort and purchase price, not the bill."),
+        ("What size heater do I need for my room?",
+         f"A common installer rule of thumb is about 45 W per m² in a well-insulated room, 70 W/m² in an average one and "
+         f"100 W/m² in a draughty one. A {dflt['room']} m² room of average insulation needs roughly {need:,.0f} W. "
+         "A heater smaller than that runs at full power without ever reaching temperature."),
+        ("How much does a dehumidifier cost to run in Ireland?",
+         f"The 12 L/day dehumidifiers we compare draw {w12[0]:g}–{w12[1]:g} W, which is about €{w12[0]/1000*KWH_RATE:.2f}–€{w12[1]/1000*KWH_RATE:.2f} per hour "
+         f"at €{KWH_RATE:.2f}/kWh. Running {dflt['dhours']} hours a day for a {dflt['weeks']}-week winter that is at most "
+         f"€{w12[0]/1000*dflt['dhours']*dflt['weeks']*7*KWH_RATE:.0f}–€{w12[1]/1000*dflt['dhours']*dflt['weeks']*7*KWH_RATE:.0f}, and less once the humidistat cycles."),
+        ("Which dehumidifier removes the most water per euro?",
+         f"Of the models we compare, the {best_d['n']} has the lowest electricity cost per litre of rated extraction "
+         f"(€{best_d['ppl']:.3f} per litre at €{KWH_RATE:.2f}/kWh). Rated extraction is measured at warm, very humid test "
+         "conditions, so real-world litres in an Irish winter are lower for every model — the ranking still holds."),
+    ]
+    faq_block = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in faqs)
+
+    data_js = json.dumps({"h": H, "d": D, "rate": KWH_RATE}, ensure_ascii=False).replace("</", "<\\/")
+    body = f"""
+<style>
+.calc{{background:#fff;border:1px solid #dbe5e0;border-radius:16px;padding:20px 22px;margin:18px 0}}
+.ctabs{{display:flex;gap:8px;margin:18px 0 0}}.ctabs button{{flex:1;padding:12px;border-radius:12px 12px 0 0;border:1px solid #dbe5e0;border-bottom:0;background:#f3f7f5;font-weight:700;cursor:pointer;font-size:15px}}
+.ctabs button.on{{background:#0B5B40;color:#fff;border-color:#0B5B40}}
+.cform{{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}}
+.cform label{{font-size:13px;font-weight:600;color:#3b4a44;display:block}}.cform input,.cform select{{width:100%;margin-top:5px;padding:10px;border:1px solid #c9d6cf;border-radius:10px;font-size:15px;background:#fff;box-sizing:border-box}}
+.cres{{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:18px 0}}
+.cres div{{background:#f3f7f5;border-radius:12px;padding:14px}}.cres b{{display:block;font-size:24px;color:#0B5B40}}.cres span{{font-size:13px;color:#51615a}}
+.ctab{{width:100%;border-collapse:collapse;font-size:14px}}.ctab th{{text-align:left;font-size:12px;color:#51615a;border-bottom:2px solid #dbe5e0;padding:8px 6px}}
+.ctab td{{border-bottom:1px solid #eef2f0;padding:10px 6px;vertical-align:top}}.ctab .sub{{font-size:12px;color:#62716b;margin-top:3px}}
+.ctab tr.dim td{{opacity:.55}}.ck{{font-weight:700}}.ck.ok{{color:#0B5B40}}.ck.no{{color:#a4481b}}
+.cbtn{{display:inline-block;background:#F0A41C;color:#2A1A00;font-weight:700;padding:7px 12px;border-radius:9px;text-decoration:none;white-space:nowrap;font-size:13px}}
+.cform label[hidden]{{display:none}}.cwrap{{overflow-x:auto}}.cnote{{font-size:13px;color:#51615a}}.cpanel[hidden]{{display:none}}
+.insight{{border-left:4px solid #F0A41C;background:#fff8ea;padding:14px 16px;border-radius:0 12px 12px 0;margin:16px 0}}
+</style>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › Running cost calculator</nav>
+<h1>Heater &amp; dehumidifier running cost calculator (Ireland)</h1>
+<div class="updated"><span class="trust-chip">{SHIELD} Built from our own spec data</span><span class="dot"></span><span>By <a href="about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><a href="affiliate-disclosure.html">How we make money</a></div>
+<p class="intro">Work out what a plug-in heater or a dehumidifier will add to your electricity bill this winter, at Irish rates — and see which of the {len(H) + len(D)} models we compare gives you the most for your money. Change any number and the results update instantly.</p>
+<div class="insight"><b>The one thing most heater guides get wrong:</b> every plug-in electric heater turns almost 100% of its electricity into heat. If two heaters are both big enough for your room, they cost the <i>same</i> to keep it warm. So the smart buy is the cheapest heater that is big enough — not the one that claims to be “economical”.</div>
+
+<div class="ctabs" role="tablist"><button type="button" class="on" data-p="heat" role="tab">Heaters</button><button type="button" data-p="dehu" role="tab">Dehumidifiers</button></div>
+<div class="calc" style="margin-top:0;border-radius:0 16px 16px 16px">
+<section class="cpanel" id="p-heat">
+<div class="cform">
+<label>Room size (m²)<input id="h-room" type="number" min="2" max="80" step="1" value="{dflt['room']}"></label>
+<label>How well insulated?<select id="h-ins">{ins_opts}</select></label>
+<label>Heating hours per day<input id="h-hours" type="number" min="1" max="24" step="0.5" value="{dflt['hours']}"></label>
+<label>Heat actually needed (% of coldest day)<input id="h-load" type="number" min="10" max="100" step="5" value="{dflt['load']}"></label>
+<label>Electricity rate<select id="h-rate">{rate_opts}</select></label>
+<label>Weeks of heating<input id="h-weeks" type="number" min="1" max="52" step="1" value="{dflt['weeks']}"></label>
+<label id="h-custom-w" hidden>Your rate (€/kWh)<input id="h-custom" type="number" min="0.05" max="1" step="0.01" value="{KWH_RATE}"></label>
+</div>
+<div class="cres">
+<div><b id="h-need">{need:,.0f} W</b><span>heater size your room needs</span></div>
+<div><b id="h-bill">{_eur(heat_bill)}</b><span>electricity this winter, any big-enough heater</span></div>
+<div><b id="h-best">€{best_h['p']}</b><span>cheapest heater that is big enough: <a id="h-best-n" href="{esc(best_h['g'])}">{esc(best_h['n'])}</a></span></div>
+</div>
+<div class="cwrap"><table class="ctab"><thead><tr><th>#</th><th>Heater</th><th>Price</th><th>Electricity this winter</th><th>Total 1st winter</th><th></th></tr></thead><tbody id="h-rows">{htable}</tbody></table></div>
+<p class="cnote">Ranked by total first-winter cost (price + electricity) among heaters big enough for the room. Heaters we compare but whose wattage is not published are left out rather than guessed: {skip_h}.</p>
+</section>
+<section class="cpanel" id="p-dehu" hidden>
+<div class="cform">
+<label>Hours per day it runs<input id="d-hours" type="number" min="1" max="24" step="0.5" value="{dflt['dhours']}"></label>
+<label>Electricity rate<select id="d-rate">{rate_opts}</select></label>
+<label>Weeks<input id="d-weeks" type="number" min="1" max="52" step="1" value="{dflt['weeks']}"></label>
+<label id="d-custom-w" hidden>Your rate (€/kWh)<input id="d-custom" type="number" min="0.05" max="1" step="0.01" value="{KWH_RATE}"></label>
+</div>
+<div class="cres">
+<div><b id="d-best">€{best_d['ppl']:.3f}/L</b><span>lowest cost per litre removed: <a id="d-best-n" href="{esc(best_d['g'])}">{esc(best_d['n'])}</a></span></div>
+<div><b id="d-bestc">{_eur(best_d['cost'])}</b><span>what that model costs to run this winter</span></div>
+</div>
+<div class="cwrap"><table class="ctab"><thead><tr><th>#</th><th>Dehumidifier</th><th>Price</th><th>Electricity for the period</th><th>Cost per litre removed</th><th></th></tr></thead><tbody id="d-rows">{dtable}</tbody></table></div>
+<p class="cnote">Ranked by electricity cost per litre of rated extraction — the fairest way to compare a small unit with a big one. Costs assume the compressor runs the whole time; a humidistat switches it off once the room is dry, so real bills are lower. Left out (no published wattage): {skip_d}.</p>
+</section>
+</div>
+
+<h2>How the calculator works</h2>
+<div class="guide" style="padding:18px 28px">
+<h3>Electricity rate</h3><p>We use a domestic day rate of €{KWH_RATE:.2f}/kWh and a smart-meter night rate of €{KWH_RATE_NIGHT:.2f}/kWh (July 2026), cross-checked against <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener" target="_blank">SEAI price statistics</a> and supplier standard rates. Pick “My own rate” to use the figure on your bill.</p>
+<h3>Heater size</h3><p>Room size × a watts-per-m² rule of thumb: 45 W/m² for a well-insulated room, 70 for an average one, 100 for a draughty one. It is the size needed on the coldest days, not what you burn every hour.</p>
+<h3>Heater running cost</h3><p>Size needed × hours × the share of that heat you need on an average day (60% by default) × days × rate. A heater big enough for the room reaches temperature and its thermostat cycles, so this cost is the same for every adequate heater. A heater that is too small runs at full power for every hour and the room never gets warm — we show that cost too, greyed out.</p>
+<h3>Dehumidifier running cost</h3><p>Rated wattage × hours × days × rate, as a ceiling. Cost per litre = one day at full power ÷ rated litres per day. Wattages and extraction figures come from manufacturer specifications on each product page; nothing is estimated.</p>
+</div>
+<h2>Frequently asked questions</h2>
+<div class="guide">{faq_block}</div>
+<div class="related"><h2>Go deeper</h2><a href="electric-heaters/index.html">All electric heater guides {ARROW}</a><a href="dehumidifiers/index.html">All dehumidifier guides {ARROW}</a><a href="electric-heaters/electric-heater-running-costs-ireland.html">Electric heater running costs, model by model {ARROW}</a><a href="dehumidifiers/dehumidifier-running-costs-ireland.html">Dehumidifier running costs, model by model {ARROW}</a></div>
+<p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Prices are indicative, in EUR, and change — always confirm the live price.</p>
+<script id="calc-data" type="application/json">{data_js}</script>
+<script>(function(){{
+var D=JSON.parse(document.getElementById('calc-data').textContent);
+function $(i){{return document.getElementById(i)}}
+function eur(x){{return x>=100?'€'+Math.round(x).toLocaleString('en-IE'):'€'+x.toFixed(2)}}
+function esc(s){{return String(s).replace(/[&<>"]/g,function(c){{return{{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]}})}}
+function num(i,d){{var v=parseFloat($(i).value);return isFinite(v)&&v>0?v:d}}
+function rate(p){{var s=$(p+'-rate').value;$(p+'-custom-w').hidden=s!=='custom';return s==='custom'?num(p+'-custom',D.rate):parseFloat(s)}}
+function btn(u){{return '<a class="cbtn" href="'+esc(u)+'" target="_blank" rel="sponsored noopener">Check price</a>'}}
+function heat(){{
+ var room=num('h-room',12),w=parseFloat($('h-ins').value),hrs=num('h-hours',4),load=num('h-load',60),wk=num('h-weeks',26),r=rate('h');
+ var need=room*w,days=wk*7,ok=need/1000*hrs*(load/100)*days;
+ var rows=D.h.map(function(h){{var big=h.w>=need,c=(big?ok:h.w/1000*hrs*days)*r;return{{h:h,big:big,c:c,t:c+h.p}}}});
+ rows.sort(function(a,b){{return (a.big===b.big)?a.t-b.t:(a.big?-1:1)}});
+ $('h-need').textContent=Math.round(need).toLocaleString('en-IE')+' W';$('h-bill').textContent=eur(ok*r);
+ var b=rows.filter(function(x){{return x.big}})[0];
+ if(b){{$('h-best').textContent='€'+b.h.p;$('h-best-n').textContent=b.h.n;$('h-best-n').href=b.h.g}}else{{$('h-best').textContent='—';$('h-best-n').textContent='none of our heaters is big enough — use two, or heat a smaller space';$('h-best-n').removeAttribute('href')}}
+ $('h-rows').innerHTML=rows.map(function(x,i){{return '<tr class="'+(x.big?'':'dim')+'"><td>'+(i+1)+'</td><td><a href="'+esc(x.h.g)+'">'+esc(x.h.n)+'</a><div class="sub">'+x.h.w+' W · '+(x.big?'<span class="ck ok">Big enough</span>':'<span class="ck no">Too small — runs flat out, room stays cold</span>')+'</div></td><td>€'+x.h.p+'</td><td>'+eur(x.c)+'</td><td><b>'+eur(x.t)+'</b></td><td>'+btn(x.h.u)+'</td></tr>'}}).join('');
+}}
+function dehu(){{
+ var hrs=num('d-hours',8),wk=num('d-weeks',26),r=rate('d');
+ var rows=D.d.map(function(d){{return{{d:d,c:d.w/1000*hrs*wk*7*r,p:d.l?d.w/1000*24*r/d.l:null}}}});
+ rows.sort(function(a,b){{if((a.p===null)!==(b.p===null))return a.p===null?1:-1;return (a.p||0)-(b.p||0)||a.c-b.c}});
+ var b=rows[0];$('d-best').textContent='€'+b.p.toFixed(3)+'/L';$('d-best-n').textContent=b.d.n;$('d-best-n').href=b.d.g;$('d-bestc').textContent=eur(b.c);
+ $('d-rows').innerHTML=rows.map(function(x,i){{return '<tr><td>'+(i+1)+'</td><td><a href="'+esc(x.d.g)+'">'+esc(x.d.n)+'</a><div class="sub">'+(x.d.l?x.d.l+' L/day · ':'')+x.d.w+' W</div></td><td>€'+x.d.p+'</td><td>'+eur(x.c)+'</td><td><b>'+(x.p===null?'extraction not published':'€'+x.p.toFixed(3)+'/L')+'</b></td><td>'+btn(x.d.u)+'</td></tr>'}}).join('');
+}}
+['h-room','h-ins','h-hours','h-load','h-weeks','h-rate','h-custom'].forEach(function(i){{$(i).addEventListener('input',heat);$(i).addEventListener('change',heat)}});
+['d-hours','d-weeks','d-rate','d-custom'].forEach(function(i){{$(i).addEventListener('input',dehu);$(i).addEventListener('change',dehu)}});
+var tabs=document.querySelectorAll('.ctabs button');
+function show(p){{tabs.forEach(function(t){{t.classList.toggle('on',t.dataset.p===p)}});$('p-heat').hidden=p!=='heat';$('p-dehu').hidden=p!=='dehu';}}
+tabs.forEach(function(t){{t.addEventListener('click',function(){{show(t.dataset.p);try{{history.replaceState(null,'','#'+(t.dataset.p==='dehu'?'dehumidifiers':'heaters'))}}catch(e){{}}}})}});
+if(location.hash==='#dehumidifiers')show('dehu');
+var tim=0;document.addEventListener('input',function(e){{if(!e.target.closest||!e.target.closest('.calc'))return;clearTimeout(tim);tim=setTimeout(function(){{if(window.gtag)gtag('event','calculator_use',{{tool:$('p-dehu').hidden?'heaters':'dehumidifiers'}})}},1500)}});
+}})();</script>
+"""
+    url = f"{DOMAIN}/{CALC_SLUG}"
+    title = "Heating & Dehumidifier Cost Calculator Ireland | PickIreland"
+    desc = ("Free calculator: what a heater or dehumidifier costs to run this winter at Irish "
+            "electricity rates, and which models give you most for your money.")
+    app = {"@context": "https://schema.org", "@type": "WebApplication",
+           "name": "Heater & dehumidifier running cost calculator (Ireland)", "url": url,
+           "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any",
+           "isAccessibleForFree": True, "inLanguage": "en-IE", "description": desc,
+           "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
+           "areaServed": {"@type": "Country", "name": "Ireland"},
+           "author": {"@type": "Person", "name": AUTHOR["name"]},
+           "publisher": {"@id": DOMAIN + "/#organization"}}
+    faq_ld = {"@context": "https://schema.org", "@type": "FAQPage",
+              "mainEntity": [{"@type": "Question", "name": q,
+                              "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+        {"@type": "ListItem", "position": 2, "name": "Running cost calculator", "item": url}]}
+    jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
+                     for x in (app, faq_ld, crumb))
+    with open(os.path.join(OUT, CALC_SLUG), "w", encoding="utf-8") as f:
+        f.write(page_shell(title, desc, url, body, depth=0, jsonld=jsonld, og_type="website"))
+    all_pages.append(CALC_SLUG)
+
+CALC_CTA = {c: (f'<div class="insight" style="border-left:4px solid #F0A41C;background:#fff8ea;padding:14px 16px;'
+                f'border-radius:0 12px 12px 0;margin:16px 0"><b>{"Not sure what size you need, or what it will cost this winter?" if c == "electric-heaters" else "Which dehumidifier removes the most water per euro?"}</b> '
+                f'Try our free <a href="../{CALC_SLUG}{"" if c == "electric-heaters" else "#dehumidifiers"}">running cost calculator</a> — '
+                f'enter your room and hours, and it ranks every model we compare at Irish electricity rates.</div>')
+            for c in CALC_CATS}
+
+calculator_page()
+
 for cat in CATS:
     cdir = os.path.join(OUT, cat["category"])
     os.makedirs(cdir, exist_ok=True)
@@ -1283,8 +1556,9 @@ for cat in CATS:
         # remarcaria as 35 guias de tomada como modificadas hoje sem nada ter mudado nelas.
         _cc_lines = [c for c in (charge_cost_line(pr.get("specs") or {}, cat["category"])
                                  for pr in page["products"]) if c]
+        calc_cta = CALC_CTA.get(cat["category"], "")
         pub, mod = page_dates(f"{cat['category']}/{page['slug']}",
-            ([rc_html] if rc_html else [])
+            ([rc_html] if rc_html else []) + ([calc_cta] if calc_cta else [])
             + ([json.dumps(_cc_lines, sort_keys=True)] if _cc_lines else []) + [
             page["h1"], page["intro"], page["title"], page["desc"],
             json.dumps(guide_src, ensure_ascii=False, sort_keys=True),
@@ -1317,7 +1591,7 @@ for cat in CATS:
 <div class="toc"><b>{icon(cat['category'], 18)} Our top {len(page['products'])} at a glance</b><ol>{toc}</ol></div>
 <h2>Quick comparison</h2>
 {comparison_table(page['products'])}
-{rc_html}
+{rc_html}{calc_cta}
 <h2>The picks, reviewed</h2>
 {cards}
 <h2>Buying guide: how to choose</h2>
@@ -1357,7 +1631,7 @@ for cat in CATS:
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › {esc(cat['name'])}</nav>
 <h1>Best {esc(cat['name'])} in Ireland — All Guides</h1>
 <p class="intro">{esc(cat['hub_intro'])}</p>
-<div class="grid">{tiles}</div>{hub_ref}{hub_law}
+<div class="grid">{tiles}</div>{hub_ref}{hub_law}{CALC_CTA.get(cat["category"], "")}
 <h2>{esc(cat['name'])}: frequently asked questions</h2>
 {hub_faq}
 """
@@ -2250,7 +2524,7 @@ body_home = f"""
 <h2 id="categories">Browse by category</h2>
 <div class="grid">{tiles}</div>
 <h2>Featured guides</h2>
-<div class="related">{featured}</div>
+<div class="related">{featured}<a href="{CALC_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>New:</b>&nbsp;What will a heater or dehumidifier cost you this winter? Free calculator</span> {ARROW}</a></div>
 <h2>How {SITE_NAME} works</h2>
 <p>Every guide compares five carefully selected products using manufacturer specifications, verified owner feedback and Irish-specific factors — electricity rates, weather, legal rules and local availability. When you buy through our links we may earn a commission from Amazon.ie or other retailers, at no cost to you. That's the entire business model: useful guides, honest picks. <a href="affiliate-disclosure.html">Full disclosure here</a>.</p>
 """
@@ -2497,6 +2771,9 @@ for cat in CATS:
     if _a:
         _refs.append(f"- [{_a['h1']}]({DOMAIN}/{cat['category']}/{_a['slug']}.html) — "
                      f"{_a['desc']}")
+_refs.insert(0, f"- [Heater & dehumidifier running cost calculator (Ireland)]({DOMAIN}/{CALC_SLUG}) — "
+              "interactive: heater size for a room, winter electricity cost at Irish rates, and "
+              "every model we compare ranked by total cost (heaters) or cost per litre removed (dehumidifiers).")
 if _refs:
     _llms += ["## Running costs: reference tables and explainers"] + _refs + [""]
 _laws = []
