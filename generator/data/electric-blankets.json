@@ -1,0 +1,234 @@
+{
+ "category": "electric-blankets",
+ "name": "Electric Blankets",
+ "emoji": "🛏️",
+ "hub_intro": "An electric blanket is the cheapest way to stay warm on an Irish winter night: a double underblanket draws 70–120 W, about 3–5 cent an hour at Irish day rates, against 76 cent for a 2 kW heater. You heat the bed you are in, not the whole room. We compare underblankets and heated throws on wattage, controls, size and owner ratings on Amazon.ie.",
+ "guide": [
+  [
+   "Heat the person, not the room",
+   "A 2 kW heater costs about €0.76 an hour at €0.38/kWh. A double electric underblanket rated 70–120 W costs €0.03–€0.05 an hour at full power, and most people pre-warm the bed and then drop to the lowest setting or switch off. If your goal is a warm bed in a cold bedroom, no heater comes close on running cost."
+  ],
+  [
+   "Underblanket or heated throw?",
+   "An underblanket is fitted over the mattress, under the sheet, and warms the bed before you get in. A heated throw goes over you on the sofa or at a desk. Underblankets are the better buy for cold bedrooms; throws are the cheapest way to stay warm while working from home or watching TV without heating the whole house."
+  ],
+  [
+   "Dual control matters for couples",
+   "Single-control double blankets heat both sides the same. Dual control gives each side its own controller, so one person can run on high while the other stays cool. It usually adds €15–€30 to the price and is worth it for most couples."
+  ],
+  [
+   "Safety",
+   "Look for overheat protection and an auto shut-off timer, check the blanket fits your mattress size, never use one folded or with a hot-water bottle, and replace it if the wiring feels lumpy or the cord is damaged. Most modern underblankets are machine washable once the controller is detached — check the label first."
+  ]
+ ],
+ "faqs": [
+  {
+   "q": "How much does an electric blanket cost to run in Ireland?",
+   "a": "A double underblanket rated 70–120 W costs €0.027–€0.046 an hour at full power at €0.38/kWh. Eight hours on the highest setting every night would be about €0.21–€0.36; in practice most people pre-warm for 30–60 minutes and run on low or off, so the real cost is a few cent a night."
+  },
+  {
+   "q": "Is an electric blanket cheaper than a heater?",
+   "a": "Yes, by a factor of about 15–25 per hour. A 2 kW heater costs about €0.76 an hour at €0.38/kWh; a double electric blanket costs €0.03–€0.05 at full power. The blanket only warms you and the bed, not the room air, which is exactly why it is so cheap."
+  },
+  {
+   "q": "Is it safe to leave an electric blanket on all night?",
+   "a": "Only if the manufacturer says the model is designed for all-night use on its lowest setting, and many are not. Most include an auto shut-off timer. The safest habit is to pre-warm the bed and switch off, or use the lowest setting with the timer."
+  },
+  {
+   "q": "Can you wash an electric blanket?",
+   "a": "Many modern underblankets and throws are machine washable at 30–40°C once the controller is unplugged and removed. Always check the care label, dry it fully before use, and never tumble dry unless the label allows it."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-electric-blankets-ireland",
+   "title": "Best Electric Blankets Ireland 2026 (Cost Per Night)",
+   "desc": "Electric blankets and heated throws on Amazon.ie compared for Irish homes: wattage, cost per hour at Irish rates, dual control and owner ratings.",
+   "h1": "Best Electric Blankets in Ireland",
+   "intro": "Heating a bedroom with a 2 kW heater costs about 76 cent an hour. Warming the bed with an electric underblanket costs 3–5 cent. That gap is why electric blankets are the most cost-effective winter buy in Ireland. We compared six underblankets and a heated throw on wattage, controls, size and verified owner ratings on Amazon.ie.",
+   "faq_idx": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "products": [
+    {
+     "id": "ebl-001",
+     "asin": "B07V4FWLWH",
+     "name": "Russell Hobbs Double Fitted Electric Underblanket (90W)",
+     "brand": "Russell Hobbs",
+     "price": 36,
+     "rating": 4.4,
+     "badge": "Best Overall",
+     "specs": {
+      "Power": "90 W",
+      "Size": "140 x 150 cm (double)",
+      "Heat settings": "3",
+      "Type": "Fitted underblanket"
+     },
+     "pros": [
+      "Low 90 W draw",
+      "Fitted, stays in place",
+      "Machine washable",
+      "4.4 stars from 1,400+ owners"
+     ],
+     "cons": [
+      "Single control for both sides"
+     ],
+     "verdict": "The Russell Hobbs fitted double underblanket gets the basics right at a sensible price: 90 W, three heat settings, a fitted design that stays put on the mattress, and a 4.4-star average from more than 1,400 owners on Amazon.ie. At €0.38/kWh it costs €0.034 an hour on the highest setting. The one thing it lacks is dual control, so both sides of the bed run at the same heat. Buy this if you want a proven, low-cost double blanket; pick a dual-control model if you and your partner disagree on temperature."
+    },
+    {
+     "id": "ebl-002",
+     "asin": "B0777K6KK7",
+     "name": "Silentnight Dual Control Double Electric Underblanket",
+     "brand": "Silentnight",
+     "price": 58,
+     "rating": 4.4,
+     "badge": "Best Dual Control",
+     "specs": {
+      "Controls": "Dual (one per side)",
+      "Size": "Double",
+      "Heat settings": "3 per side",
+      "Type": "Underblanket"
+     },
+     "pros": [
+      "Separate control for each side",
+      "Most-reviewed blanket here (4,500+ ratings)",
+      "Well-known UK/Irish bedding brand"
+     ],
+     "cons": [
+      "Wattage not published on the listing",
+      "Costs more than single-control models"
+     ],
+     "verdict": "Silentnight's dual-control double is the most-reviewed electric blanket we found on Amazon.ie, with a 4.4-star average from more than 4,500 owners. Each side has its own three-setting controller, which is the feature that ends the 'too hot / too cold' argument for couples. The listing does not publish a wattage, so we do not quote a running cost rather than guess one; double underblankets of this type typically sit in the same low range as the others here. Buy this if you share the bed and want separate heat; skip it if you sleep alone, where a single-control blanket does the same job for less."
+    },
+    {
+     "id": "ebl-003",
+     "asin": "B089W6CDTJ",
+     "name": "Warmer Double Electric Blanket, Dual Zones, 9 Settings (120W)",
+     "brand": "Warmer",
+     "price": 57,
+     "rating": 4.3,
+     "badge": "Most Heat Settings",
+     "specs": {
+      "Power": "120 W",
+      "Size": "Double, maximum coverage",
+      "Heat settings": "9",
+      "Controls": "Dual (left and right zones)"
+     },
+     "pros": [
+      "Nine heat settings per zone",
+      "Dual control",
+      "Timer options"
+     ],
+     "cons": [
+      "Highest wattage in this guide",
+      "Nine settings can be fiddly"
+     ],
+     "verdict": "If you want fine control, the Warmer double gives each side nine heat settings and its own timer, with a 4.3-star average from about 1,500 owners. It is the highest-wattage blanket in this guide at 120 W, which still works out at only €0.046 an hour flat out at €0.38/kWh. The extra settings matter most for people who run warm and want something between 'off' and 'low'. Buy it for precise dual-zone control; the Silentnight is the simpler dual-control alternative."
+    },
+    {
+     "id": "ebl-004",
+     "asin": "B07N7JT1K2",
+     "name": "Daewoo Double Electric Blanket, 3 Heat Settings (85W)",
+     "brand": "Daewoo",
+     "price": 34,
+     "rating": 4.2,
+     "badge": "Best Budget",
+     "specs": {
+      "Power": "85 W",
+      "Size": "Double",
+      "Heat settings": "3",
+      "Safety": "Overheat protection"
+     },
+     "pros": [
+      "Low price",
+      "85 W draw",
+      "Detachable controller for washing",
+      "2,000+ owner ratings"
+     ],
+     "cons": [
+      "Single control",
+      "Thinner than premium fleece models"
+     ],
+     "verdict": "Daewoo's double blanket is the value pick: about €34, 85 W, three settings, overheat protection and a detachable controller so it can be washed. More than 2,000 owners give it a 4.2-star average on Amazon.ie. At €0.38/kWh it costs €0.032 an hour on high. It is thinner than the premium fleece models, which some owners notice on very cold nights. Buy it if price comes first; spend more for dual control or a thicker fleece."
+    },
+    {
+     "id": "ebl-005",
+     "asin": "B00EO2VRJ8",
+     "name": "STATUS Double Electric Underblanket (70W)",
+     "brand": "STATUS",
+     "price": 28,
+     "rating": 4.0,
+     "badge": "Cheapest to Run",
+     "specs": {
+      "Power": "70 W",
+      "Size": "Double",
+      "Heat settings": "3",
+      "Type": "Underblanket"
+     },
+     "pros": [
+      "Lowest price here",
+      "Lowest wattage here: 70 W",
+      "Simple three-setting control"
+     ],
+     "cons": [
+      "Basic build",
+      "Lowest owner rating in this guide (4.0)"
+     ],
+     "verdict": "At under €30 and 70 W, the STATUS double underblanket is both the cheapest to buy and the cheapest to run in this guide: €0.027 an hour at full power at €0.38/kWh. It is a basic tie-on underblanket with three settings, and its 4.0-star average from about 1,400 owners is the lowest here. Buy it for a spare room or as a first try of an electric blanket; for nightly use in your main bed, the Russell Hobbs is the better long-term buy for a few euro more."
+    },
+    {
+     "id": "ebl-006",
+     "asin": "B015DCGP6C",
+     "name": "Homefront Premium Fleece Dual Control Double Electric Blanket",
+     "brand": "Homefront",
+     "price": 87,
+     "rating": 4.5,
+     "badge": "Premium Pick",
+     "specs": {
+      "Controls": "Dual",
+      "Size": "Double, fully fitted",
+      "Material": "Premium fleece",
+      "Type": "Fitted mattress cover"
+     },
+     "pros": [
+      "Highest owner rating here (4.5 from 5,200+)",
+      "Fully fitted fleece cover",
+      "Dual control"
+     ],
+     "cons": [
+      "Most expensive here",
+      "Wattage not published on the listing"
+     ],
+     "verdict": "Homefront's fully fitted fleece blanket has the highest owner rating in this guide, 4.5 stars from more than 5,200 people on Amazon.ie, and combines dual control with a thick fleece top that doubles as a mattress cover. It is the most expensive at about €87, and the listing does not state its wattage, so we do not quote a running cost. Buy it if you want the most comfortable, best-reviewed option and will use it every night; the Silentnight gives dual control for about €30 less."
+    },
+    {
+     "id": "ebl-007",
+     "asin": "B08PKRS7J7",
+     "name": "Bauer Professional Electric Heated Throw, 120 x 160 cm",
+     "brand": "Bauer",
+     "price": 36,
+     "rating": 4.4,
+     "badge": "Best Heated Throw",
+     "specs": {
+      "Size": "120 x 160 cm",
+      "Type": "Heated throw (over-blanket)",
+      "Material": "Ultra-soft fleece"
+     },
+     "pros": [
+      "For the sofa or desk, not just bed",
+      "Soft fleece",
+      "4.4 stars from 300+ owners"
+     ],
+     "cons": [
+      "Wattage not published on the listing",
+      "Smaller than a bed blanket"
+     ],
+     "verdict": "The Bauer heated throw is for the hours you are not in bed: on the sofa or at a desk while working from home. It is a 120 x 160 cm fleece throw with a 4.4-star average from more than 300 owners. The listing does not state its wattage, so we do not quote an hourly cost, but heated throws as a type draw a small fraction of what any room heater does. Buy it to stay warm in one spot without heating the whole house; for the bed, choose an underblanket above."
+    }
+   ]
+  }
+ ]
+}

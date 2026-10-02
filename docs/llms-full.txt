@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-09-28 | 10 categories | 50 guides | 304 product entries
+Generated: 2026-09-28 | 12 categories | 52 guides | 316 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -3228,6 +3228,123 @@ A: For anyone commuting in a skirt, suit, or generally restrictive clothing, yes
 
 
 ==============================================================================
+# CATEGORY: Electric Blankets
+URL: https://pickireland.best/electric-blankets/
+1 guides, 7 product entries
+==============================================================================
+
+An electric blanket is the cheapest way to stay warm on an Irish winter night: a double underblanket draws 70–120 W, about 3–5 cent an hour at Irish day rates, against 76 cent for a 2 kW heater. You heat the bed you are in, not the whole room. We compare underblankets and heated throws on wattage, controls, size and owner ratings on Amazon.ie.
+
+## Heat the person, not the room
+A 2 kW heater costs about €0.76 an hour at €0.38/kWh. A double electric underblanket rated 70–120 W costs €0.03–€0.05 an hour at full power, and most people pre-warm the bed and then drop to the lowest setting or switch off. If your goal is a warm bed in a cold bedroom, no heater comes close on running cost.
+
+## Underblanket or heated throw?
+An underblanket is fitted over the mattress, under the sheet, and warms the bed before you get in. A heated throw goes over you on the sofa or at a desk. Underblankets are the better buy for cold bedrooms; throws are the cheapest way to stay warm while working from home or watching TV without heating the whole house.
+
+## Dual control matters for couples
+Single-control double blankets heat both sides the same. Dual control gives each side its own controller, so one person can run on high while the other stays cool. It usually adds €15–€30 to the price and is worth it for most couples.
+
+## Safety
+Look for overheat protection and an auto shut-off timer, check the blanket fits your mattress size, never use one folded or with a hot-water bottle, and replace it if the wiring feels lumpy or the cord is damaged. Most modern underblankets are machine washable once the controller is detached — check the label first.
+
+
+------------------------------------------------------------------------------
+## GUIDE: Best Electric Blankets in Ireland
+URL: https://pickireland.best/electric-blankets/best-electric-blankets-ireland.html
+Summary: Electric blankets and heated throws on Amazon.ie compared for Irish homes: wattage, cost per hour at Irish rates, dual control and owner ratings.
+------------------------------------------------------------------------------
+
+Heating a bedroom with a 2 kW heater costs about 76 cent an hour. Warming the bed with an electric underblanket costs 3–5 cent. That gap is why electric blankets are the most cost-effective winter buy in Ireland. We compared six underblankets and a heated throw on wattage, controls, size and verified owner ratings on Amazon.ie.
+
+### 1. Russell Hobbs Double Fitted Electric Underblanket (90W)  [Best Overall]
+Brand: Russell Hobbs
+Price: ~€36
+Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.03/hour at €0.38/kWh
+Power: 90 W
+Size: 140 x 150 cm (double)
+Heat settings: 3
+Type: Fitted underblanket
+Pros: Low 90 W draw; Fitted, stays in place; Machine washable; 4.4 stars from 1,400+ owners
+Cons: Single control for both sides
+Verdict: The Russell Hobbs fitted double underblanket gets the basics right at a sensible price: 90 W, three heat settings, a fitted design that stays put on the mattress, and a 4.4-star average from more than 1,400 owners on Amazon.ie. At €0.38/kWh it costs €0.034 an hour on the highest setting. The one thing it lacks is dual control, so both sides of the bed run at the same heat. Buy this if you want a proven, low-cost double blanket; pick a dual-control model if you and your partner disagree on temperature.
+
+### 2. Silentnight Dual Control Double Electric Underblanket  [Best Dual Control]
+Brand: Silentnight
+Price: ~€58
+Rating: 4.4/5 (Amazon.ie)
+Controls: Dual (one per side)
+Size: Double
+Heat settings: 3 per side
+Type: Underblanket
+Pros: Separate control for each side; Most-reviewed blanket here (4,500+ ratings); Well-known UK/Irish bedding brand
+Cons: Wattage not published on the listing; Costs more than single-control models
+Verdict: Silentnight's dual-control double is the most-reviewed electric blanket we found on Amazon.ie, with a 4.4-star average from more than 4,500 owners. Each side has its own three-setting controller, which is the feature that ends the 'too hot / too cold' argument for couples. The listing does not publish a wattage, so we do not quote a running cost rather than guess one; double underblankets of this type typically sit in the same low range as the others here. Buy this if you share the bed and want separate heat; skip it if you sleep alone, where a single-control blanket does the same job for less.
+
+### 3. Warmer Double Electric Blanket, Dual Zones, 9 Settings (120W)  [Most Heat Settings]
+Brand: Warmer
+Price: ~€57
+Rating: 4.3/5 (Amazon.ie)
+Running cost: €0.05/hour at €0.38/kWh
+Power: 120 W
+Size: Double, maximum coverage
+Heat settings: 9
+Controls: Dual (left and right zones)
+Pros: Nine heat settings per zone; Dual control; Timer options
+Cons: Highest wattage in this guide; Nine settings can be fiddly
+Verdict: If you want fine control, the Warmer double gives each side nine heat settings and its own timer, with a 4.3-star average from about 1,500 owners. It is the highest-wattage blanket in this guide at 120 W, which still works out at only €0.046 an hour flat out at €0.38/kWh. The extra settings matter most for people who run warm and want something between 'off' and 'low'. Buy it for precise dual-zone control; the Silentnight is the simpler dual-control alternative.
+
+### 4. Daewoo Double Electric Blanket, 3 Heat Settings (85W)  [Best Budget]
+Brand: Daewoo
+Price: ~€34
+Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.03/hour at €0.38/kWh
+Power: 85 W
+Size: Double
+Heat settings: 3
+Safety: Overheat protection
+Pros: Low price; 85 W draw; Detachable controller for washing; 2,000+ owner ratings
+Cons: Single control; Thinner than premium fleece models
+Verdict: Daewoo's double blanket is the value pick: about €34, 85 W, three settings, overheat protection and a detachable controller so it can be washed. More than 2,000 owners give it a 4.2-star average on Amazon.ie. At €0.38/kWh it costs €0.032 an hour on high. It is thinner than the premium fleece models, which some owners notice on very cold nights. Buy it if price comes first; spend more for dual control or a thicker fleece.
+
+### 5. STATUS Double Electric Underblanket (70W)  [Cheapest to Run]
+Brand: STATUS
+Price: ~€28
+Rating: 4.0/5 (Amazon.ie)
+Running cost: €0.03/hour at €0.38/kWh
+Power: 70 W
+Size: Double
+Heat settings: 3
+Type: Underblanket
+Pros: Lowest price here; Lowest wattage here: 70 W; Simple three-setting control
+Cons: Basic build; Lowest owner rating in this guide (4.0)
+Verdict: At under €30 and 70 W, the STATUS double underblanket is both the cheapest to buy and the cheapest to run in this guide: €0.027 an hour at full power at €0.38/kWh. It is a basic tie-on underblanket with three settings, and its 4.0-star average from about 1,400 owners is the lowest here. Buy it for a spare room or as a first try of an electric blanket; for nightly use in your main bed, the Russell Hobbs is the better long-term buy for a few euro more.
+
+### 6. Homefront Premium Fleece Dual Control Double Electric Blanket  [Premium Pick]
+Brand: Homefront
+Price: ~€87
+Rating: 4.5/5 (Amazon.ie)
+Controls: Dual
+Size: Double, fully fitted
+Material: Premium fleece
+Type: Fitted mattress cover
+Pros: Highest owner rating here (4.5 from 5,200+); Fully fitted fleece cover; Dual control
+Cons: Most expensive here; Wattage not published on the listing
+Verdict: Homefront's fully fitted fleece blanket has the highest owner rating in this guide, 4.5 stars from more than 5,200 people on Amazon.ie, and combines dual control with a thick fleece top that doubles as a mattress cover. It is the most expensive at about €87, and the listing does not state its wattage, so we do not quote a running cost. Buy it if you want the most comfortable, best-reviewed option and will use it every night; the Silentnight gives dual control for about €30 less.
+
+### 7. Bauer Professional Electric Heated Throw, 120 x 160 cm  [Best Heated Throw]
+Brand: Bauer
+Price: ~€36
+Rating: 4.4/5 (Amazon.ie)
+Size: 120 x 160 cm
+Type: Heated throw (over-blanket)
+Material: Ultra-soft fleece
+Pros: For the sofa or desk, not just bed; Soft fleece; 4.4 stars from 300+ owners
+Cons: Wattage not published on the listing; Smaller than a bed blanket
+Verdict: The Bauer heated throw is for the hours you are not in bed: on the sofa or at a desk while working from home. It is a 120 x 160 cm fleece throw with a 4.4-star average from more than 300 owners. The listing does not state its wattage, so we do not quote an hourly cost, but heated throws as a type draw a small fraction of what any room heater does. Buy it to stay warm in one spot without heating the whole house; for the bed, choose an underblanket above.
+
+
+==============================================================================
 # CATEGORY: Electric Heaters
 URL: https://pickireland.best/electric-heaters/
 5 guides, 36 product entries
@@ -4467,6 +4584,97 @@ A: It varies by model, but manufacturer hill-climb figures are typically tested 
 
 Q: Is there a rider weight where an e-scooter stops making sense compared to an e-bike?
 A: For riders well above most scooters' load ratings, or whose commute is long and hilly, an e-bike is often the more comfortable option since e-bike motors, frames and braking systems are generally built around a wider weight range and the seated riding position distributes load differently than standing. There's no strict cutoff, but if you're consistently having to choose the most heavy-duty scooter available and still reading cautious owner reports about wear, that's a signal worth taking seriously rather than working around.
+
+
+==============================================================================
+# CATEGORY: Heated Clothes Airers
+URL: https://pickireland.best/heated-airers/
+1 guides, 5 product entries
+==============================================================================
+
+Drying clothes indoors is the default for most of the Irish year. A heated airer warms the rails so laundry dries faster than on a plain clothes horse, for a fraction of a tumble dryer's running cost: a 220–230 W airer costs about 8–9 cent an hour at Irish day rates. We compare heated airers on wattage, capacity, size and owner ratings on Amazon.ie.
+
+## What a heated airer actually costs to run
+Most heated airers have no thermostat: they draw close to their rated power the whole time they are on. A 230 W airer costs €0.087 an hour at €0.38/kWh, so a six-hour drying session is about €0.52. A 1,000 W heated dryer with a cover dries faster but costs €0.380 an hour — over four times as much.
+
+## Heated airer, dehumidifier or tumble dryer?
+A heated airer adds warmth to the clothes but the water still goes into the room air, which is a problem in a damp Irish home. Pairing an airer with a dehumidifier in the same closed room is the fastest non-tumble option and removes the moisture instead of spreading it. A tumble dryer is fastest of all but is the most expensive to run per load.
+
+## Covers speed things up
+A cover traps warm air around the clothes, which can noticeably cut drying time. Several airers sell one as an extra; check whether it is included before comparing prices.
+
+## Capacity and space
+Three-tier airers hold the most laundry in the smallest floor area. Winged, single-level airers are easier to load and fold flatter for storage. Check the maximum load and the folded size against where you will actually keep it.
+
+
+------------------------------------------------------------------------------
+## GUIDE: Best Heated Clothes Airers in Ireland
+URL: https://pickireland.best/heated-airers/best-heated-clothes-airers-ireland.html
+Summary: Heated clothes airers on Amazon.ie for drying laundry indoors in Ireland: wattage, cost per hour at Irish rates, capacity and owner ratings.
+------------------------------------------------------------------------------
+
+Irish laundry spends half the year drying indoors. A heated airer does it faster than a plain clothes horse for about 9 cent an hour, a fraction of a tumble dryer. We compared five heated airers on Amazon.ie on wattage, capacity, size and verified owner ratings — and we say plainly where a listing does not publish its wattage.
+
+### 1. BLACK+DECKER 3-Tier Heated Clothes Airer  [Best Overall]
+Brand: BLACK+DECKER
+Price: ~€125
+Rating: 4.2/5 (Amazon.ie)
+Type: 3-tier heated airer
+Size: 140 x 73 x 68 cm
+Material: Aluminium
+Pros: Most-reviewed airer here (1,500+ ratings); Three tiers in a small footprint; Aluminium frame
+Cons: Wattage not published on the listing; Expensive
+Verdict: The BLACK+DECKER three-tier airer is the most-reviewed heated airer we found on Amazon.ie, with a 4.2-star average from more than 1,500 owners. Three tiers fit a full wash in a small footprint, and the aluminium frame is light enough to move between rooms. The listing does not publish its wattage, so we do not quote a running cost. Buy it if you want the proven, high-capacity option; the Daewoo does the job for half the price if you have floor space for a single level.
+
+### 2. Daewoo HEA1874 Foldable Heated Clothes Airer (230W)  [Best Value]
+Brand: Daewoo
+Price: ~€58
+Rating: 4.0/5 (Amazon.ie)
+Running cost: €0.09/hour at €0.38/kWh
+Power: 230 W
+Max load: 15 kg (per title)
+Size: 146 x 54 x 94 cm
+Cable: 1.4 m
+Pros: Published 230 W rating; Half the price of three-tier models; Folds for storage
+Cons: Short 1.4 m cable; Single level takes more floor space
+Verdict: Daewoo's foldable airer is the value pick and one of the few with a published wattage: 230 W, which is €0.087 an hour at €0.38/kWh, or about €0.52 for a six-hour load. Around 590 owners give it a 4.0-star average on Amazon.ie. It is a single level with wings, so it needs more floor space than a tower, and the 1.4 m cable means planning where it goes. Buy it for low-cost indoor drying; choose a three-tier airer if floor space is tight.
+
+### 3. GlamHaus EcoDry 3-Tier Heated Airer with Cover (220W)  [Best With Cover]
+Brand: GlamHaus
+Price: ~€148
+Rating: 4.1/5 (Amazon.ie)
+Running cost: €0.08/hour at €0.38/kWh
+Power: 220 W
+Type: 3-tier heated airer
+Cover: Included
+Material: Aluminium
+Pros: Cover included, which traps heat; Low 220 W draw; Folds flat
+Cons: Most expensive airer here
+Verdict: The GlamHaus EcoDry is a three-tier airer that comes with a cover, which traps warm air around the laundry. It draws 220 W — €0.084 an hour at €0.38/kWh — and has a 4.1-star average from about 390 owners. It is the most expensive airer in this guide. Buy it if you dry a lot of laundry indoors and want the cover included; the BLACK+DECKER is the better-reviewed three-tier option without one.
+
+### 4. Neo Indoor Electric Winged Heated Airer  [Easy to Load]
+Brand: Neo
+Price: ~€77
+Rating: 4.0/5 (Amazon.ie)
+Type: Winged heated airer
+Size: 147 x 54 x 94 cm
+Material: Aluminium
+Pros: Wide winged design, easy to load; Mid-range price
+Cons: Wattage not published on the listing; Takes floor space
+Verdict: Neo's winged airer spreads laundry on one wide level, which makes it quick to load and good for bedding and towels. About 260 owners give it 4.0 stars on Amazon.ie. The listing does not state its wattage, so we do not quote a running cost. Buy it if you prefer a single wide level; the Daewoo is a similar shape with a published 230 W rating for less.
+
+### 5. 2-Tier Heated Clothes Dryer with Cover and Timer (1000W)  [Fastest (Costs More)]
+Brand: Generic
+Price: ~€88
+Rating: 3.9/5 (Amazon.ie)
+Running cost: €0.38/hour at €0.38/kWh
+Power: 1000 W
+Heater: PTC ceramic
+Cover: Included
+Timer: Yes
+Pros: Fastest drying here; Cover and timer included
+Cons: 1,000 W: €0.380 an hour; Lowest owner rating here (3.9)
+Verdict: This covered dryer uses a 1,000 W PTC ceramic heater and a fan inside a cover, so it dries faster than any open airer here — but at €0.380 an hour at €0.38/kWh it costs over four times as much to run as the 230 W Daewoo. Around 120 owners give it 3.9 stars, the lowest here. Buy it only if speed matters more than running cost; for most households a low-wattage airer, ideally with a dehumidifier in the room, is the cheaper way to dry clothes.
 
 
 ==============================================================================

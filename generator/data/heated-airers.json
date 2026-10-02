@@ -1,0 +1,179 @@
+{
+ "category": "heated-airers",
+ "name": "Heated Clothes Airers",
+ "emoji": "👕",
+ "hub_intro": "Drying clothes indoors is the default for most of the Irish year. A heated airer warms the rails so laundry dries faster than on a plain clothes horse, for a fraction of a tumble dryer's running cost: a 220–230 W airer costs about 8–9 cent an hour at Irish day rates. We compare heated airers on wattage, capacity, size and owner ratings on Amazon.ie.",
+ "guide": [
+  [
+   "What a heated airer actually costs to run",
+   "Most heated airers have no thermostat: they draw close to their rated power the whole time they are on. A 230 W airer costs €0.087 an hour at €0.38/kWh, so a six-hour drying session is about €0.52. A 1,000 W heated dryer with a cover dries faster but costs €0.380 an hour — over four times as much."
+  ],
+  [
+   "Heated airer, dehumidifier or tumble dryer?",
+   "A heated airer adds warmth to the clothes but the water still goes into the room air, which is a problem in a damp Irish home. Pairing an airer with a dehumidifier in the same closed room is the fastest non-tumble option and removes the moisture instead of spreading it. A tumble dryer is fastest of all but is the most expensive to run per load."
+  ],
+  [
+   "Covers speed things up",
+   "A cover traps warm air around the clothes, which can noticeably cut drying time. Several airers sell one as an extra; check whether it is included before comparing prices."
+  ],
+  [
+   "Capacity and space",
+   "Three-tier airers hold the most laundry in the smallest floor area. Winged, single-level airers are easier to load and fold flatter for storage. Check the maximum load and the folded size against where you will actually keep it."
+  ]
+ ],
+ "faqs": [
+  {
+   "q": "How much does a heated clothes airer cost to run in Ireland?",
+   "a": "A typical 220–230 W heated airer costs about €0.084–€0.087 an hour at €0.38/kWh. Most have no thermostat and draw near their rated power the whole time, so a six-hour load is roughly €0.50. On a night rate of €0.18/kWh the same load is about €0.25."
+  },
+  {
+   "q": "Is a heated airer cheaper than a tumble dryer?",
+   "a": "Per hour, yes by a wide margin: a heated airer draws around 220–230 W while a tumble dryer typically draws 2,000 W or more when heating. The airer is slower, so compare per load, not per hour — but for most households a heated airer is still much cheaper per load."
+  },
+  {
+   "q": "Do heated airers cause damp and mould?",
+   "a": "The water in your clothes has to go somewhere, and with an airer it goes into the room. In a small closed room that raises humidity and condensation. Running a dehumidifier in the same room, or drying near an open window or extractor, prevents it."
+  },
+  {
+   "q": "Can I leave a heated airer on overnight?",
+   "a": "Many people do, and running it overnight on a night-rate or smart-meter tariff roughly halves the cost. Follow the manufacturer's instructions, keep it away from curtains and bedding, and don't cover it with anything other than the cover designed for it."
+  }
+ ],
+ "pages": [
+  {
+   "slug": "best-heated-clothes-airers-ireland",
+   "title": "Best Heated Clothes Airers Ireland 2026 (Running Cost)",
+   "desc": "Heated clothes airers on Amazon.ie for drying laundry indoors in Ireland: wattage, cost per hour at Irish rates, capacity and owner ratings.",
+   "h1": "Best Heated Clothes Airers in Ireland",
+   "intro": "Irish laundry spends half the year drying indoors. A heated airer does it faster than a plain clothes horse for about 9 cent an hour, a fraction of a tumble dryer. We compared five heated airers on Amazon.ie on wattage, capacity, size and verified owner ratings — and we say plainly where a listing does not publish its wattage.",
+   "faq_idx": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "products": [
+    {
+     "id": "hta-001",
+     "asin": "B07PL763M9",
+     "name": "BLACK+DECKER 3-Tier Heated Clothes Airer",
+     "brand": "BLACK+DECKER",
+     "price": 125,
+     "rating": 4.2,
+     "badge": "Best Overall",
+     "specs": {
+      "Type": "3-tier heated airer",
+      "Size": "140 x 73 x 68 cm",
+      "Material": "Aluminium"
+     },
+     "pros": [
+      "Most-reviewed airer here (1,500+ ratings)",
+      "Three tiers in a small footprint",
+      "Aluminium frame"
+     ],
+     "cons": [
+      "Wattage not published on the listing",
+      "Expensive"
+     ],
+     "verdict": "The BLACK+DECKER three-tier airer is the most-reviewed heated airer we found on Amazon.ie, with a 4.2-star average from more than 1,500 owners. Three tiers fit a full wash in a small footprint, and the aluminium frame is light enough to move between rooms. The listing does not publish its wattage, so we do not quote a running cost. Buy it if you want the proven, high-capacity option; the Daewoo does the job for half the price if you have floor space for a single level."
+    },
+    {
+     "id": "hta-002",
+     "asin": "B01MCXGNEF",
+     "name": "Daewoo HEA1874 Foldable Heated Clothes Airer (230W)",
+     "brand": "Daewoo",
+     "price": 58,
+     "rating": 4.0,
+     "badge": "Best Value",
+     "specs": {
+      "Power": "230 W",
+      "Max load": "15 kg (per title)",
+      "Size": "146 x 54 x 94 cm",
+      "Cable": "1.4 m"
+     },
+     "pros": [
+      "Published 230 W rating",
+      "Half the price of three-tier models",
+      "Folds for storage"
+     ],
+     "cons": [
+      "Short 1.4 m cable",
+      "Single level takes more floor space"
+     ],
+     "verdict": "Daewoo's foldable airer is the value pick and one of the few with a published wattage: 230 W, which is €0.087 an hour at €0.38/kWh, or about €0.52 for a six-hour load. Around 590 owners give it a 4.0-star average on Amazon.ie. It is a single level with wings, so it needs more floor space than a tower, and the 1.4 m cable means planning where it goes. Buy it for low-cost indoor drying; choose a three-tier airer if floor space is tight."
+    },
+    {
+     "id": "hta-003",
+     "asin": "B09HQZ9TQC",
+     "name": "GlamHaus EcoDry 3-Tier Heated Airer with Cover (220W)",
+     "brand": "GlamHaus",
+     "price": 148,
+     "rating": 4.1,
+     "badge": "Best With Cover",
+     "specs": {
+      "Power": "220 W",
+      "Type": "3-tier heated airer",
+      "Cover": "Included",
+      "Material": "Aluminium"
+     },
+     "pros": [
+      "Cover included, which traps heat",
+      "Low 220 W draw",
+      "Folds flat"
+     ],
+     "cons": [
+      "Most expensive airer here"
+     ],
+     "verdict": "The GlamHaus EcoDry is a three-tier airer that comes with a cover, which traps warm air around the laundry. It draws 220 W — €0.084 an hour at €0.38/kWh — and has a 4.1-star average from about 390 owners. It is the most expensive airer in this guide. Buy it if you dry a lot of laundry indoors and want the cover included; the BLACK+DECKER is the better-reviewed three-tier option without one."
+    },
+    {
+     "id": "hta-004",
+     "asin": "B0BN49KJ3F",
+     "name": "Neo Indoor Electric Winged Heated Airer",
+     "brand": "Neo",
+     "price": 77,
+     "rating": 4.0,
+     "badge": "Easy to Load",
+     "specs": {
+      "Type": "Winged heated airer",
+      "Size": "147 x 54 x 94 cm",
+      "Material": "Aluminium"
+     },
+     "pros": [
+      "Wide winged design, easy to load",
+      "Mid-range price"
+     ],
+     "cons": [
+      "Wattage not published on the listing",
+      "Takes floor space"
+     ],
+     "verdict": "Neo's winged airer spreads laundry on one wide level, which makes it quick to load and good for bedding and towels. About 260 owners give it 4.0 stars on Amazon.ie. The listing does not state its wattage, so we do not quote a running cost. Buy it if you prefer a single wide level; the Daewoo is a similar shape with a published 230 W rating for less."
+    },
+    {
+     "id": "hta-005",
+     "asin": "B0CYC12J64",
+     "name": "2-Tier Heated Clothes Dryer with Cover and Timer (1000W)",
+     "brand": "Generic",
+     "price": 88,
+     "rating": 3.9,
+     "badge": "Fastest (Costs More)",
+     "specs": {
+      "Power": "1000 W",
+      "Heater": "PTC ceramic",
+      "Cover": "Included",
+      "Timer": "Yes"
+     },
+     "pros": [
+      "Fastest drying here",
+      "Cover and timer included"
+     ],
+     "cons": [
+      "1,000 W: €0.380 an hour",
+      "Lowest owner rating here (3.9)"
+     ],
+     "verdict": "This covered dryer uses a 1,000 W PTC ceramic heater and a fan inside a cover, so it dries faster than any open airer here — but at €0.380 an hour at €0.38/kWh it costs over four times as much to run as the 230 W Daewoo. Around 120 owners give it 3.9 stars, the lowest here. Buy it only if speed matters more than running cost; for most households a low-wattage airer, ideally with a dehumidifier in the room, is the cheaper way to dry clothes."
+    }
+   ]
+  }
+ ]
+}

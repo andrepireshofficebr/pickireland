@@ -1,0 +1,4 @@
+generator/.env
+generator/amazon_live.json
+generator/amazon_asins.json
+generator/.github_token

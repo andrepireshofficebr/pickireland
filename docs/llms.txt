@@ -2,7 +2,7 @@
 > Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
-Author: André Pires (Founder & Editor). 10 categories, 50 buying guides, 304 products compared.
+Author: André Pires (Founder & Editor). 12 categories, 52 buying guides, 316 products compared.
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -29,8 +29,10 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [Coffee Machines](https://pickireland.best/coffee-machines/) — 5 guides, 30 products compared
 - [Dehumidifiers](https://pickireland.best/dehumidifiers/) — 5 guides, 34 products compared
 - [Electric Bikes](https://pickireland.best/electric-bikes/) — 5 guides, 25 products compared
+- [Electric Blankets](https://pickireland.best/electric-blankets/) — 1 guides, 7 products compared
 - [Electric Heaters](https://pickireland.best/electric-heaters/) — 5 guides, 36 products compared
 - [Electric Scooters](https://pickireland.best/electric-scooters/) — 5 guides, 25 products compared
+- [Heated Clothes Airers](https://pickireland.best/heated-airers/) — 1 guides, 5 products compared
 - [Home Office](https://pickireland.best/home-office/) — 5 guides, 28 products compared
 - [Robot Lawn Mowers](https://pickireland.best/robot-lawn-mowers/) — 5 guides, 28 products compared
 - [Robot Vacuums](https://pickireland.best/robot-vacuums/) — 5 guides, 32 products compared
@@ -71,6 +73,9 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [Best Electric Mountain Bikes in Ireland](https://pickireland.best/electric-bikes/best-electric-mountain-bikes-ireland.html) — Ireland's best electric mountain bikes for trail centres like Ticknock and Ballyhoura — motors, suspension and batteries compared for 2026. Top pick: VARUN 27.5" Electric Mountain Bike (624Wh, App) (~€749).
 - [Best Commuter Electric Bikes in Ireland](https://pickireland.best/electric-bikes/best-commuter-electric-bikes-ireland.html) — The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison. Top pick: ENGWE 20"×4.0 Fat Step-Through E-Bike (7-Speed) (~€1149).
 
+### Electric Blankets
+- [Best Electric Blankets in Ireland](https://pickireland.best/electric-blankets/best-electric-blankets-ireland.html) — Electric blankets and heated throws on Amazon.ie compared for Irish homes: wattage, cost per hour at Irish rates, dual control and owner ratings. Top pick: Russell Hobbs Double Fitted Electric Underblanket (90W) (~€36).
+
 ### Electric Heaters
 - [The Best Electric Heaters in Ireland (2026)](https://pickireland.best/electric-heaters/best-electric-heaters-ireland.html) — The best electric heaters for Irish homes in 2026, compared on real running costs per hour, heat type and safety. Ranked for 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€49).
 - [Cheapest Electric Heaters to Run in Ireland](https://pickireland.best/electric-heaters/cheapest-electric-heaters-to-run-ireland.html) — The cheapest electric heaters to actually run at Irish electricity prices — low-watt radiant, smart thermostats and real hourly costs. Compared for 2026. Top pick: Warmlite 650W 5-Fin Mini Oil Radiator (~€21).
@@ -84,6 +89,9 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [Best Long-Range & Premium Electric Scooters in Ireland](https://pickireland.best/electric-scooters/best-long-range-electric-scooters-ireland.html) — Need 40+ km of real range? We compared Ireland's best premium long-range e-scooters on battery, comfort and build. Compared for 2026. Top pick: Xiaomi Mi Electric Scooter 4 Ultra (~€1002).
 - [Best Lightweight & Folding Electric Scooters in Ireland](https://pickireland.best/electric-scooters/best-lightweight-folding-electric-scooters-ireland.html) — The lightest folding e-scooters sold in Ireland, compared on verified carry weight, fold quality and whether range survives the weight diet. Top pick: iScooter i8 Folding Electric Scooter (350W) (~€330).
 - [Best Electric Scooters for Heavier Riders in Ireland](https://pickireland.best/electric-scooters/best-electric-scooters-heavy-adults-ireland.html) — The best electric scooters for riders over 95 kg in Ireland — high load ratings, strong motors for hills, wide decks. Compared and ranked for 2026. Top pick: KuKirin G2 Electric Scooter (48V 15.6Ah) (~€509).
+
+### Heated Clothes Airers
+- [Best Heated Clothes Airers in Ireland](https://pickireland.best/heated-airers/best-heated-clothes-airers-ireland.html) — Heated clothes airers on Amazon.ie for drying laundry indoors in Ireland: wattage, cost per hour at Irish rates, capacity and owner ratings. Top pick: BLACK+DECKER 3-Tier Heated Clothes Airer (~€125).
 
 ### Home Office
 - [The Best Ergonomic Office Chairs in Ireland (2026)](https://pickireland.best/home-office/best-ergonomic-office-chairs-ireland.html) — The best ergonomic office chairs in Ireland for remote work — lumbar support, adjustability and durability compared across budgets. Compared for 2026. Top pick: SIHOO M102C Ergonomic Mesh Chair (3D Lumbar) (~€160).

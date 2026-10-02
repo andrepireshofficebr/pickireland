@@ -1,0 +1,98 @@
+# Publica o site no GitHub Pages COM imagem e preco da Amazon (Creators API).
+#
+# Por que existe: a Amazon so permite mostrar imagem/preco da API com ate 24h de idade.
+# Site estatico publicado a mao ficaria velho no dia seguinte. Aqui, 2x por dia, o robo:
+#   1. busca imagem e preco dos ASINs na Creators API (secrets CREATORS_*);
+#   2. roda o build.py com esses dados (as datas das paginas NAO mudam: build-sombra);
+#   3. publica o resultado direto no Pages.
+# Se a API falhar ou a conta nao estiver elegivel, publica o docs/ do repo como esta
+# (sem imagem) — assim nunca fica no ar dado com mais de ~12h.
+#
+# REGRA DO PROJETO: este robo NUNCA faz commit. A unica origem de push continua sendo o
+# clone do Andre (GitHub Desktop). Exige Settings -> Pages -> Source = "GitHub Actions".
+
+name: Publicar site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 4 * * *'    # 01:17 em Brasilia
+    - cron: '17 16 * * *'   # 13:17 em Brasilia
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests openpyxl
+
+      - name: Buscar dados da Amazon e gerar o site
+        working-directory: generator
+        env:
+          CREATORS_CREDENTIAL_ID: ${{ secrets.CREATORS_CREDENTIAL_ID }}
+          CREATORS_SECRET: ${{ secrets.CREATORS_SECRET }}
+          CREATORS_VERSION: '3.2'
+          CREATORS_PARTNER_TAG: elevaonline-21
+          CREATORS_MARKETPLACE: www.amazon.ie
+        shell: bash
+        run: |
+          set +e
+          # chave do IndexNow e publica por design; sem ela o build geraria outra
+          echo "INDEXNOW_KEY=9f862f7e7b8a3116b6cae4616f0d3344" > .env
+          if [ -z "$CREATORS_SECRET" ] || [ -z "$CREATORS_CREDENTIAL_ID" ]; then
+            echo "::warning::Secrets CREATORS_* ausentes: publicando o docs/ do repo sem dados da Amazon."
+            exit 0
+          fi
+          # passo 0: build sem API numa copia, so para gerar a lista de ASINs (amazon_asins.json)
+          cp -r ../docs /tmp/docs0
+          PICKIRELAND_NO_LIVE=1 PICKIRELAND_OUT=/tmp/docs0 python build.py > /tmp/build0.log 2>&1 \
+            || { tail -30 /tmp/build0.log; echo "::warning::build 0 falhou: publicando docs/ do repo."; exit 0; }
+          git checkout -- . 2>/dev/null   # desfaz qualquer arquivo que o build 0 tocou no generator/
+          echo "INDEXNOW_KEY=9f862f7e7b8a3116b6cae4616f0d3344" > .env
+          python amazon_sync.py
+          rc=$?
+          if [ $rc -ne 0 ]; then
+            [ $rc -eq 2 ] && echo "::notice::Conta ainda NAO elegivel na Creators API. Site publicado sem imagens."
+            [ $rc -ne 2 ] && echo "::warning::amazon_sync falhou (codigo $rc). Site publicado sem imagens."
+            exit 0
+          fi
+          python build.py > /tmp/build.log 2>&1
+          if [ $? -ne 0 ]; then
+            tail -40 /tmp/build.log
+            git checkout -- ../docs; git clean -fdq ../docs
+            echo "::warning::build com dados da Amazon falhou: publicando docs/ do repo."
+            exit 0
+          fi
+          grep -E "page dates|Built|sombra" /tmp/build.log
+          echo "::notice::Site publicado COM dados da Amazon: $(grep -rl 'm.media-amazon.com' ../docs --include=*.html | wc -l) paginas com imagem."
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

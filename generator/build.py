@@ -12,7 +12,7 @@ import json, os, re, html, datetime, csv, hashlib
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
-OUT  = os.path.join(BASE, "..", "docs")
+OUT  = os.environ.get("PICKIRELAND_OUT") or os.path.join(BASE, "..", "docs")
 SITE_NAME = "PickIreland"
 DOMAIN = "https://pickireland.best"   # change when you buy the domain
 YEAR = datetime.date.today().year
@@ -95,11 +95,13 @@ if os.path.exists(_extra):
 # Categorias que resolvem problemas adjacentes. Quebra os silos estanques (antes: 0 links
 # contextuais cruzando categorias) e espalha link equity para fora do proprio silo.
 CROSS_LINKS = {
-    "dehumidifiers":     [("air-purifiers", "damp and mould also mean airborne spores"),
+    "dehumidifiers":     [("heated-airers", "drying laundry indoors without a tumble dryer"),
+                          ("air-purifiers", "damp and mould also mean airborne spores"),
                           ("electric-heaters", "warm air holds moisture better")],
     "air-purifiers":     [("dehumidifiers", "high humidity feeds mould spores"),
                           ("robot-vacuums", "less settled dust means less to filter")],
-    "electric-heaters":  [("dehumidifiers", "drier air is cheaper to heat"),
+    "electric-heaters":  [("electric-blankets", "3–5 cent an hour to warm a bed instead of a room"),
+                          ("dehumidifiers", "drier air is cheaper to heat"),
                           ("home-office", "heating one room while you work")],
     "electric-bikes":    [("electric-scooters", "the shorter-commute alternative")],
     "electric-scooters": [("electric-bikes", "when the commute is longer or hillier")],
@@ -109,6 +111,10 @@ CROSS_LINKS = {
     "air-fryers":        [("coffee-machines", "the other counter-top running-cost question")],
     "coffee-machines":   [("air-fryers", "the other appliance that pays for itself"),
                           ("home-office", "if the kitchen is also the office")],
+    "electric-blankets": [("electric-heaters", "when you need the whole room warm"),
+                          ("dehumidifiers", "cold bedrooms are damp bedrooms")],
+    "heated-airers":     [("dehumidifiers", "the water from your laundry has to go somewhere"),
+                          ("electric-blankets", "the other low-watt winter buy")],
     "home-office":       [("electric-heaters", "heating a home office without heating the house"),
                           ("coffee-machines", "the desk-side coffee question")],
 }
@@ -143,7 +149,7 @@ KWH_RATE = 0.38          # €/kWh, day rate domestico irlandes (SEAI, julho 202
 # realmente faz. Bicicleta, patinete, robo aspirador e cortador sao a bateria: o watt do motor
 # nao e consumo continuo, e €/hora ali seria numero sem significado.
 MAINS_CATEGORIES = {"dehumidifiers", "electric-heaters", "air-fryers",
-                    "air-purifiers", "coffee-machines"}
+                    "air-purifiers", "coffee-machines", "electric-blankets", "heated-airers"}
 
 _POWER_KEYS = ("power", "wattage", "consumption", "rated power", "input")
 
@@ -264,7 +270,8 @@ CC_QUALIFIER = ("this is the energy the battery stores, so the wall socket deliv
 RC_CHART_MIN = 3        # minimo de produtos com potencia para o grafico existir
 RC_NOUN = {"dehumidifiers": "dehumidifier", "electric-heaters": "heater",
            "air-fryers": "air fryer", "air-purifiers": "air purifier",
-           "coffee-machines": "coffee machine"}
+           "coffee-machines": "coffee machine", "electric-blankets": "blanket",
+           "heated-airers": "airer"}
 # Por que a conta de cima e um TETO, e nao a conta real — a razao muda por categoria.
 # Escrever "o humidostato desliga o compressor" numa pagina de air fryer seria falso, e foi
 # o que a primeira versao deste bloco fez em 22/08 (o texto era unico para todas). Cada
@@ -280,6 +287,11 @@ RC_QUALIFIER = {
                   "well below it",
  "coffee-machines": "the element draws full power only while it heats up, which is a fraction "
                     "of the time the machine is switched on",
+ # 28/09: blanket e airer tem verdades opostas. Nao unificar.
+ "electric-blankets": "most people pre-warm the bed on the top setting and then drop to the lowest "
+                      "setting or switch off, so a night costs a fraction of eight full-power hours",
+ "heated-airers": "the saving comes only from switching it off sooner — most heated airers have no "
+                  "thermostat, so while one is on it draws close to this figure",
 }
 
 def _rc_rows(products, category):
@@ -554,8 +566,17 @@ def amazon_search_url(p):
     # mesmo sem o link exato do produto, mantém a tag -> clique monetizado (seta o cookie de afiliado)
     return f"https://www.amazon.ie/s?k={q}&tag={AFF_TAG}"
 
+# Auditoria de links de 28/09/2026 (fetch de cada /dp/ no amazon.ie): estes ASINs deram 404
+# ou "Currently unavailable". Link morto = clique perdido e venda perdida sem aviso. Enquanto
+# nao houver substituto escolhido, caem para a busca pelo nome (com tag: o clique continua
+# monetizado). Remover daqui quando o produto voltar ou for trocado. Refazer a auditoria mensal.
+DEAD_ASINS = {"B09ZL5Z8WQ", "B0H24Z4NPD", "B07VTMQLY1", "B0CLLLY2Q8", "B0D6BYW8HK"}
+
 def product_url(p):
     info = LINKS.get(p["id"], {})
+    _m = re.search(r"/dp/([A-Z0-9]{10})", info.get("link") or "")
+    if (_m and _m.group(1) in DEAD_ASINS) or (p.get("asin") or "").strip().upper() in DEAD_ASINS:
+        return amazon_search_url(p), False
     if info.get("link"):
         return info["link"], True
     # fallback 1: usa o ASIN do proprio JSON de dados (evita link de busca quando o
@@ -566,7 +587,67 @@ def product_url(p):
     # fallback 2: busca com tag (clique ainda monetizado)
     return amazon_search_url(p), False
 
+# ---------------------------------------------------------------- Creators API (dados vivos)
+# amazon_live.json e gravado pelo amazon_sync.py. Regra da Amazon: dado da API (imagem,
+# preco) so pode ser usado com ate 24h. Arquivo ausente, velho ou com erro -> LIVE fica vazio
+# e o site sai exatamente como antes (sem imagem, preco "typical").
+LIVE_FILE = os.path.join(BASE, "amazon_live.json")
+LIVE_MAX_AGE_H = 24
+LIVE, LIVE_AT = {}, None
+try:
+    if os.path.exists(LIVE_FILE) and not os.environ.get("PICKIRELAND_NO_LIVE"):
+        _lv = json.load(open(LIVE_FILE, encoding="utf-8"))
+        _at = datetime.datetime.fromisoformat(_lv["fetched_at"])
+        _age = (datetime.datetime.now(datetime.timezone.utc) - _at).total_seconds() / 3600
+        if 0 <= _age <= LIVE_MAX_AGE_H:
+            LIVE, LIVE_AT = _lv.get("items") or {}, _at
+        else:
+            print(f"! amazon_live.json tem {_age:.0f}h (limite {LIVE_MAX_AGE_H}h): IGNORADO, site sai sem dados da API")
+except Exception as _e:
+    print("! amazon_live.json ilegivel, ignorado:", _e)
+# dateModified NAO pode andar por causa de preco/imagem da API (mudam todo dia; nao e mudanca
+# editorial). Com dados vivos, as datas sao calculadas por um build-sombra SEM dados vivos
+# (numa copia temporaria do docs/) e este build so as le. Resultado: as datas sao identicas
+# as de um build sem API, e o site publicado recebe imagem e preco atuais.
+DATES_READONLY = False
+if LIVE:
+    import subprocess, tempfile, shutil, sys as _sys
+    _tmp = tempfile.mkdtemp(prefix="pi_shadow_")
+    try:
+        _sh_out = os.path.join(_tmp, "docs")
+        if os.path.isdir(OUT):
+            shutil.copytree(OUT, _sh_out)
+        _r = subprocess.run([_sys.executable, os.path.abspath(__file__)], cwd=BASE,
+                            env=dict(os.environ, PICKIRELAND_NO_LIVE="1", PICKIRELAND_OUT=_sh_out),
+                            capture_output=True, text=True)
+        if _r.returncode != 0:
+            print(_r.stdout[-2000:], _r.stderr[-2000:])
+            raise SystemExit("! build-sombra (datas sem API) falhou — abortando para nao publicar datas erradas")
+        for _l in _r.stdout.splitlines():
+            if _l.startswith("page dates:"):
+                print("datas (build-sombra sem API) ->", _l)
+        DATES_READONLY = True
+    finally:
+        shutil.rmtree(_tmp, ignore_errors=True)
+LIVE_AT_TXT = (f"{LIVE_AT.day} " + LIVE_AT.strftime("%B %Y, %H:%M UTC")) if LIVE_AT else ""
+AMAZON_PRICE_DISCLAIMER = ("Product prices and availability are accurate as of the date/time indicated and are "
+                           "subject to change. Any price and availability information displayed on Amazon.ie at "
+                           "the time of purchase will apply to the purchase of this product.")
+
+def product_asin(p):
+    """ASIN efetivo do produto (mesma resolucao do product_url); None se cai em busca."""
+    url, _ = product_url(p)
+    m = re.search(r"/dp/([A-Z0-9]{10})", url or "")
+    return m.group(1) if m else None
+
+def live_info(p):
+    a = product_asin(p)
+    return LIVE.get(a, {}) if a else {}
+
 def product_price(p):
+    _lp = live_info(p).get("price")
+    if _lp is not None:
+        return int(round(_lp))
     info = LINKS.get(p["id"], {})
     if info.get("price"):
         try: return int(float(info["price"]))
@@ -574,7 +655,7 @@ def product_price(p):
     return p["price"]
 
 def product_image(p):
-    return LINKS.get(p["id"], {}).get("image", "")
+    return live_info(p).get("image") or LINKS.get(p["id"], {}).get("image", "")
 
 def esc(s): return html.escape(str(s), quote=True)
 
@@ -589,6 +670,8 @@ ICONS = {
 "robot-vacuums": '<circle cx="12" cy="12" r="9"/><path d="M8 12h8m-4-4v.01"/>',
 "robot-lawn-mowers": '<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>',
 "home-office": '<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/>',
+"electric-blankets": '<rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 10h10M7 14h6"/>',
+"heated-airers": '<path d="M4 20V8m16 12V8M4 8h16M4 12h16M4 16h16"/><path d="M9 4c0 1 1 1 1 2m4-2c0 1 1 1 1 2"/>',
 "coffee-machines": '<path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M7 2v3m4-3v3m4-3v3"/>',
 }
 def icon(cat_key, size=24, cls="ic"):
@@ -904,7 +987,7 @@ def footer_html(depth=0):
 <div><h4>About</h4><a href="{p}about.html">About us</a><br><a href="{p}affiliate-disclosure.html">Affiliate disclosure</a><br><a href="{p}privacy.html">Privacy policy</a><br><a href="{p}contact.html">Contact</a></div>
 </div>
 <div class="aff-line">As an Amazon Associate, {SITE_NAME} earns from qualifying purchases. <a href="{p}affiliate-disclosure.html">Learn more</a>.</div>
-<div class="legal">© {YEAR} {SITE_NAME}. Prices shown are typical/indicative in EUR and change frequently — always check the current price at the retailer. As an Amazon Associate we earn from qualifying purchases.</div>
+<div class="legal">© {YEAR} {SITE_NAME}. Prices shown are typical/indicative in EUR and change frequently — always check the current price at the retailer.{(" " + AMAZON_PRICE_DISCLAIMER) if LIVE else ""} As an Amazon Associate we earn from qualifying purchases.</div>
 </div></footer>"""
 
 def page_shell(title, desc, canonical, body, depth=0, jsonld="", og_type="article", og_image=None):
@@ -974,7 +1057,9 @@ def product_card(p, rank, cat_key):
     img = product_image(p)
     rel = 'sponsored noopener' if has_aff else 'nofollow noopener'
     if img:
-        img_html = f'<img src="{esc(img)}" alt="{esc(p["name"])}" loading="lazy" width="170" height="170">'
+        img_html = (f'<img src="{esc(img)}" alt="{esc(p["name"])}" loading="lazy" '
+                    f'width="170" height="170" referrerpolicy="no-referrer-when-downgrade" '
+                    f'style="object-fit:contain">')
     else:
         img_html = f'<div class="ph">{icon(cat_key, 44)}<span>{esc(p["brand"])}</span></div>'
     # Produtos cujo modelo exato não pôde ser identificado ficam sem grade de specs,
@@ -993,6 +1078,12 @@ def product_card(p, rank, cat_key):
     pros = "".join(f"<li>{esc(x)}</li>" for x in p["pros"])
     cons = "".join(f"<li>{esc(x)}</li>" for x in p["cons"])
     top = " top-pick" if rank == 1 else ""
+    if live_info(p).get("price") is not None:
+        price_note = f"Amazon.ie price as of {LIVE_AT_TXT}"
+        price_note_attr = f' title="{esc(AMAZON_PRICE_DISCLAIMER)}"'
+        price_label = "on Amazon.ie"
+    else:
+        price_note, price_note_attr, price_label = "Price accurate as of publishing", "", "typical price"
     return f"""<article class="card{top}" id="{p['id']}">
 <div class="rank" aria-label="Rank {rank}">{rank}</div>
 <span class="badge">{esc(p['badge'])}</span>
@@ -1002,13 +1093,13 @@ def product_card(p, rank, cat_key):
     <h3>{esc(p['name'])}</h3>
     <div class="brandline">by {esc(p['brand'])}</div>
     <div class="pricerow">
-      <div class="price">€{price}<small>typical price</small></div>
+      <div class="price">€{price}<small>{price_label}</small></div>
       <div class="stars" aria-label="Rated {p['rating']} out of 5">{stars(p['rating'])}</div>
     </div>
   </div>
   <div class="card-cta">
     <a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">Check Price on Amazon.ie {ARROW}</a>
-    <span class="btn-sub">Price accurate as of publishing</span>
+    <span class="btn-sub"{price_note_attr}>{price_note}</span>
   </div>
 </div>
 {specs_block}
@@ -1054,6 +1145,8 @@ TRACKED_IN_GEN = set()   # chaves ja hasheadas durante a geracao das paginas
 def page_dates(key, content_parts):
     """Devolve (datePublished, dateModified) estaveis para uma pagina."""
     TRACKED_IN_GEN.add(key)
+    if DATES_READONLY and key in PAGE_DATES:
+        return PAGE_DATES[key]["published"], PAGE_DATES[key]["modified"]
     h = hashlib.sha256("||".join(str(p) for p in content_parts).encode("utf-8")).hexdigest()[:16]
     rec = PAGE_DATES.get(key)
     if rec is None:
@@ -1327,6 +1420,15 @@ def _calc_dehu_rows(dehus, hours, weeks, rate):
 def calculator_page():
     prods, skipped = _calc_products()
     H, D = prods["electric-heaters"], prods["dehumidifiers"]
+    # comparacao "aquecer a pessoa": o cobertor Best Overall da categoria, com potencia real
+    BL = None
+    for _c in CATS:
+        if _c["category"] == "electric-blankets":
+            for _p in _c["pages"][0]["products"]:
+                _w = _watts(_p.get("specs") or {})
+                if _w and _p.get("badge") == "Best Overall":
+                    BL = {"n": _p["name"], "w": _w, "p": product_price(_p), "u": product_url(_p)[0],
+                          "g": f'electric-blankets/{_c["pages"][0]["slug"]}.html#{_p["id"]}'}
     dflt = CALC_DEF
     wpm2 = dict((k, v) for k, _, v in CALC_INSUL)[dflt["insul"]]
     need, heat_bill, hrows = _calc_heater_rows(H, dflt["room"], wpm2, dflt["hours"],
@@ -1389,7 +1491,12 @@ def calculator_page():
     ]
     faq_block = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in faqs)
 
-    data_js = json.dumps({"h": H, "d": D, "rate": KWH_RATE}, ensure_ascii=False).replace("</", "<\\/")
+    bl_card = ""
+    if BL:
+        _blc = BL["w"] / 1000 * dflt["hours"] * dflt["weeks"] * 7 * dflt["rate"]
+        bl_card = (f'<div><b id="h-bl">{_eur(_blc)}</b><span>only need a warm bed? A {w_txt(BL["w"])} W '
+                   f'<a href="{esc(BL["g"])}">electric blanket</a> for the same hours, at full power</span></div>')
+    data_js = json.dumps({"h": H, "d": D, "rate": KWH_RATE, "bl": BL}, ensure_ascii=False).replace("</", "<\\/")
     body = f"""
 <style>
 .calc{{background:#fff;border:1px solid #dbe5e0;border-radius:16px;padding:20px 22px;margin:18px 0}}
@@ -1427,7 +1534,7 @@ def calculator_page():
 <div class="cres">
 <div><b id="h-need">{need:,.0f} W</b><span>heater size your room needs</span></div>
 <div><b id="h-bill">{_eur(heat_bill)}</b><span>electricity this winter, any big-enough heater</span></div>
-<div><b id="h-best">€{best_h['p']}</b><span>cheapest heater that is big enough: <a id="h-best-n" href="{esc(best_h['g'])}">{esc(best_h['n'])}</a></span></div>
+{bl_card}<div><b id="h-best">€{best_h['p']}</b><span>cheapest heater that is big enough: <a id="h-best-n" href="{esc(best_h['g'])}">{esc(best_h['n'])}</a></span></div>
 </div>
 <div class="cwrap"><table class="ctab"><thead><tr><th>#</th><th>Heater</th><th>Price</th><th>Electricity this winter</th><th>Total 1st winter</th><th></th></tr></thead><tbody id="h-rows">{htable}</tbody></table></div>
 <p class="cnote">Ranked by total first-winter cost (price + electricity) among heaters big enough for the room. Heaters we compare but whose wattage is not published are left out rather than guessed: {skip_h}.</p>
@@ -1473,7 +1580,7 @@ function heat(){{
  var need=room*w,days=wk*7,ok=need/1000*hrs*(load/100)*days;
  var rows=D.h.map(function(h){{var big=h.w>=need,c=(big?ok:h.w/1000*hrs*days)*r;return{{h:h,big:big,c:c,t:c+h.p}}}});
  rows.sort(function(a,b){{return (a.big===b.big)?a.t-b.t:(a.big?-1:1)}});
- $('h-need').textContent=Math.round(need).toLocaleString('en-IE')+' W';$('h-bill').textContent=eur(ok*r);
+ if(D.bl&&$('h-bl'))$('h-bl').textContent=eur(D.bl.w/1000*hrs*days*r);$('h-need').textContent=Math.round(need).toLocaleString('en-IE')+' W';$('h-bill').textContent=eur(ok*r);
  var b=rows.filter(function(x){{return x.big}})[0];
  if(b){{$('h-best').textContent='€'+b.h.p;$('h-best-n').textContent=b.h.n;$('h-best-n').href=b.h.g}}else{{$('h-best').textContent='—';$('h-best-n').textContent='none of our heaters is big enough — use two, or heat a smaller space';$('h-best-n').removeAttribute('href')}}
  $('h-rows').innerHTML=rows.map(function(x,i){{return '<tr class="'+(x.big?'':'dim')+'"><td>'+(i+1)+'</td><td><a href="'+esc(x.h.g)+'">'+esc(x.h.n)+'</a><div class="sub">'+x.h.w+' W · '+(x.big?'<span class="ck ok">Big enough</span>':'<span class="ck no">Too small — runs flat out, room stays cold</span>')+'</div></td><td>€'+x.h.p+'</td><td>'+eur(x.c)+'</td><td><b>'+eur(x.t)+'</b></td><td>'+btn(x.h.u)+'</td></tr>'}}).join('');
@@ -2492,7 +2599,7 @@ n_guides = sum(len(c["pages"]) for c in CATS)
 n_prods = sum(len(p["products"]) for c in CATS for p in c["pages"])
 
 # spotlight featured products
-_spot_labels={'dehumidifiers':'Damp season essential','air-fryers':'Kitchen favourite','coffee-machines':'High-ticket pick','air-purifiers':'Allergy season pick','electric-heaters':'Winter essential','electric-bikes':'Commuter favourite','electric-scooters':'City mobility','home-office':'WFH upgrade','robot-vacuums':'Hands-free cleaning','robot-lawn-mowers':'Garden on autopilot'}
+_spot_labels={'dehumidifiers':'Damp season essential','air-fryers':'Kitchen favourite','coffee-machines':'High-ticket pick','air-purifiers':'Allergy season pick','electric-heaters':'Winter essential','electric-bikes':'Commuter favourite','electric-scooters':'City mobility','home-office':'WFH upgrade','electric-blankets':'Cheapest winter warmth','heated-airers':'Indoor drying','robot-vacuums':'Hands-free cleaning','robot-lawn-mowers':'Garden on autopilot'}
 spot_keys=[(c['category'], _spot_labels.get(c['category'],'Editor pick')) for c in CATS]
 spot_tabs=""; spot_panels=""
 for si,(sk,slabel) in enumerate(spot_keys):
@@ -2628,6 +2735,11 @@ simple_page("contact.html", "Contact", f"""
 # (priceValidUntil avanca 90 dias, datas do proprio build). Assim o hash so muda quando o
 # conteudo real muda.
 _VOLATILE_PATTERNS = [
+    # Dados da Creators API mudam todo dia (preco, URL de imagem, hora da consulta). Nao sao
+    # mudanca editorial: nao podem mover o dateModified. Sem dados vivos, estas 3 linhas nao
+    # casam nada (identidade) e os hashes de hoje ficam iguais.
+    (re.compile(r'https://m\.media-amazon\.com/images/[^"\s]+'), ''),
+    (re.compile(r'\b\d{1,2}:\d{2} UTC\b'), ''),
     (re.compile(r'"priceValidUntil":\s*"\d{4}-\d{2}-\d{2}"'), '"priceValidUntil":""'),
     (re.compile(r'"(datePublished|dateModified)":\s*"\d{4}-\d{2}-\d{2}"'), '"date":""'),
     (re.compile(r'datetime="\d{4}-\d{2}-\d{2}"'), 'datetime=""'),
@@ -3041,9 +3153,24 @@ with open(feed_path, "w", newline="", encoding="utf-8") as f:
         feed_count += 1
 print(f"Google Ads page feed: {feed_count} URLs -> {os.path.abspath(feed_path)}")
 
+# manifest de ASINs para o amazon_sync.py (ASIN -> ids de produto que o usam)
+_asin_map = {}
+for _c in CATS:
+    for _pg in _c["pages"]:
+        for _pr in _pg["products"]:
+            _a = product_asin(_pr)
+            if _a:
+                _asin_map.setdefault(_a, set()).add(_pr["id"])
+with open(os.path.join(BASE, "amazon_asins.json"), "w", encoding="utf-8") as f:
+    json.dump({k: sorted(v) for k, v in sorted(_asin_map.items())}, f, indent=1)
+_live_hits = sum(1 for _a in _asin_map if _a in LIVE)
+print(f"amazon api: {len(_asin_map)} ASINs no manifest | dados vivos: "
+      + (f"{_live_hits} ASINs, consulta de {LIVE_AT_TXT}" if LIVE else "NAO (site sem imagem, precos tipicos)"))
+
 # persiste os hashes/datas para o proximo build (e o que mantem dateModified honesto)
-with open(DATES_FILE, "w", encoding="utf-8") as f:
-    json.dump(PAGE_DATES, f, indent=1, sort_keys=True)
+if not DATES_READONLY:      # com API, quem grava as datas e o build-sombra
+    with open(DATES_FILE, "w", encoding="utf-8") as f:
+        json.dump(PAGE_DATES, f, indent=1, sort_keys=True)
 _touched = sum(1 for v in PAGE_DATES.values() if v.get("modified") == TODAY_ISO)
 print(f"page dates: {len(PAGE_DATES)} tracked, {_touched} marked modified today")
 
