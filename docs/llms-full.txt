@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-09-28 | 12 categories | 52 guides | 316 product entries
+Generated: 2026-10-02 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -1351,7 +1351,7 @@ A: Buy the cheap one if the filter costs are sane and the room is small — a �
 ==============================================================================
 # CATEGORY: Coffee Machines
 URL: https://pickireland.best/coffee-machines/
-5 guides, 30 product entries
+5 guides, 29 product entries
 ==============================================================================
 
 Ireland's coffee culture grew up fast — flat whites outsell tea in Dublin cafés — and the €3.80 daily habit maths pushed serious machines into Irish kitchens. The home setup question spans €100 pod machines to €700 bean-to-cup automatics, with wildly different running costs: pods cost ~45c a cup, fresh beans ~28c. We compare every route to better home coffee.
@@ -1433,19 +1433,19 @@ Pros: The proven Magnifica S platform; Parts and service everywhere; Espresso qu
 Cons: Dated display; Wand learning curve
 Verdict: This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and, like the cheaper Magnifica Start, milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Magnifica Start instead.
 
-### 5. Nescafé Dolce Gusto Piccolo XS  [Best Family Pods]
-Brand: Krups
-Price: ~€31
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.61/hour at €0.38/kWh
-Type: Pod (Dolce Gusto)
-Drinks: 50+ incl. choc
-Size: Tiny
-Skill: Zero
-Power: 1600 W
-Pros: Hot choc, chai and coffee range; €31 machine; Kid-friendly drinks
-Cons: Coffee ceiling modest; Milk pods double cost
-Verdict: At €31 this is the cheapest machine on the list, and the Dolce Gusto pod range stretches well beyond coffee into hot chocolate, chai and other drinks that make it genuinely useful for a household with kids as well as coffee drinkers. Its tiny footprint and zero-skill operation mean anyone in the house can use it without instruction. Coffee quality has a modest ceiling compared with the espresso machines above, so it's not really aimed at coffee purists, and milk-based pods cost roughly double standard ones, which adds up in a family that drinks lattes daily. Best for households wanting variety and simplicity over espresso-bar quality; serious coffee drinkers should look toward the Stilosa or Magnifica machines.
+### 5. Tassimo by Bosch Finesse  [Best Family Pods]
+Brand: Bosch
+Price: ~€47
+Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.53/hour at €0.38/kWh
+Type: Pod (Tassimo)
+Drinks: Costa, Kenco, choc
+Tech: Barcode auto-brew
+Size: Compact
+Power: 1400 W
+Pros: Barcode pods self-program; Costa range at home; Bosch reliability
+Cons: Pod range narrowing; Coffee purists will sniff
+Verdict: The easiest machine here for a mixed household: each Tassimo pod carries a barcode that sets water volume, temperature and brew time on its own, so anyone in the house gets the same result without learning anything. The range covers Costa and Kenco coffee plus hot chocolate, which makes it useful when not everyone drinks coffee. Coffee purists will find the ceiling lower than the espresso machines above, and the pod range is narrower than it used to be, so check which drinks you actually want before committing.
 
 ### 6. Ariete 1318R Moderna Espresso (15 Bar)  [Worth Considering]
 Brand: Ariete
@@ -1531,21 +1531,7 @@ Pros: The proven Magnifica S platform; Parts and service everywhere; Espresso qu
 Cons: Dated display; Wand learning curve
 Verdict: Europe's bestselling automatic for a reason — the default answer for daily coffee.
 
-### 3. De'Longhi Magnifica Start (ECAM220.60.B, Milk)  [Best One-Touch Milk Value]
-Brand: De'Longhi
-Price: ~€368
-Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.55/hour at €0.38/kWh
-Type: Bean-to-cup
-Milk: Auto carafe
-Drinks: One-touch
-Cup cost: ~28c
-Power: 1450 W
-Pros: Auto milk at the Start price; One-touch cappuccino; Great value per feature
-Cons: Carafe needs cleaning ritual; Louder grinder
-Verdict: The cheapest one-touch-milk automatic here — family cappuccinos without barista effort.
-
-### 4. De'Longhi Magnifica Evo Next (ECAM310.80.SB)  [Best Milk Drinks]
+### 3. De'Longhi Magnifica Evo Next (ECAM310.80.SB)  [Best Milk Drinks]
 Brand: De'Longhi
 Price: ~€521
 Rating: 4.4/5 (Amazon.ie)
@@ -1559,7 +1545,7 @@ Pros: One-touch flat whites; Modern interface; Auto-cleaning milk carafe
 Cons: Price step up; Bigger footprint
 Verdict: The milk-drink automatic: lattes and flat whites at one literal button.
 
-### 5. De'Longhi Magnifica Evo Next (ECAM312.80.TB)  [Best Flagship]
+### 4. De'Longhi Magnifica Evo Next (ECAM312.80.TB)  [Best Flagship]
 Brand: De'Longhi
 Price: ~€612
 Rating: 4.5/5 (Amazon.ie)
@@ -1573,7 +1559,7 @@ Pros: The full-feature flagship; Best milk texture of the line; Multiple drink p
 Cons: €600+; Counter presence
 Verdict: The endgame Magnifica: every drink, automatically, for households that live on coffee.
 
-### 6. Chefman Crema Supreme 15-Bar Espresso  [Challenger Pick]
+### 5. Chefman Crema Supreme 15-Bar Espresso  [Challenger Pick]
 Brand: Chefman
 Price: ~€283
 Rating: 4.0/5 (Amazon.ie)
@@ -1585,7 +1571,7 @@ Pros: Cheapest pick on this page at €283; 15 bar pressure; Conical burr, 30 se
 Cons: Lowest owner rating of the picks here at 4.0★; 4.0★ owner rating is only average for this price bracket
 Verdict: Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €336 De'Longhi bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for.
 
-### 7. Ninja Luxe Essential 2-in-1 Coffee Maker  [Smart Alternative]
+### 6. Ninja Luxe Essential 2-in-1 Coffee Maker  [Smart Alternative]
 Brand: Ninja
 Price: ~€455
 Rating: 4.2/5 (Amazon.ie)
@@ -1684,19 +1670,19 @@ Pros: Barcode pods self-program; Costa range at home; Bosch reliability
 Cons: Pod range narrowing; Coffee purists will sniff
 Verdict: The zero-thought machine: scan, brew, done — with Costa on the menu.
 
-### 4. Nescafé Dolce Gusto Piccolo XS  [Cheapest Multi-Drink]
-Brand: Krups
-Price: ~€31
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.61/hour at €0.38/kWh
+### 4. NESCAFÉ Dolce Gusto Genio S (De'Longhi EDG226.A)  [Cheapest Multi-Drink]
+Brand: De'Longhi
+Price: ~€60
+Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.56/hour at €0.38/kWh
 Type: Pod (Dolce Gusto)
-Drinks: 50+ incl. choc
-Size: Tiny
-Skill: Zero
-Power: 1600 W
-Pros: Hot choc, chai and coffee range; €31 machine; Kid-friendly drinks
-Cons: Coffee ceiling modest; Milk pods double cost
-Verdict: The family pleaser: something for everyone from a €31 box.
+Drinks: 40+ incl. choc, iced
+Tank: 0.8 L
+Size: 27 × 12 × 28 cm
+Power: 1470 W
+Pros: Hot, iced and chocolate drinks; Eco mode switches off after 1 min; Strong owner rating on Amazon.ie
+Cons: Pods cost more than Nespresso Original; Mostly plastic build
+Verdict: Around €60, the Genio S is the low-cost way into pods that do more than coffee: hot chocolate, tea and iced drinks are all in the Dolce Gusto range, and the cup size is adjustable. Over 4,700 owners rate it 4.5 stars on Amazon.ie. The machine is cheap; the pods are where the money goes, and they cost more per cup than Nespresso Original compatibles, so budget for that if you drink several cups a day.
 
 ### 5. Quest Digital Filter Coffee Machine 1.5L  [Best for Volume]
 Brand: Quest
@@ -1819,19 +1805,19 @@ Pros: Premium build for a pod machine; Original-line pod freedom; 19-bar extract
 Cons: Dearer than Inissia; No milk
 Verdict: The grown-up pod machine: CitiZ style with the open ecosystem's cheap refills.
 
-### 4. Nescafé Dolce Gusto Piccolo XS  [Best Family Variety]
-Brand: Krups
-Price: ~€31
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.61/hour at €0.38/kWh
+### 4. NESCAFÉ Dolce Gusto Genio S (De'Longhi EDG226.A)  [Best Family Variety]
+Brand: De'Longhi
+Price: ~€60
+Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.56/hour at €0.38/kWh
 Type: Pod (Dolce Gusto)
-Drinks: 50+ incl. choc
-Size: Tiny
-Skill: Zero
-Power: 1600 W
-Pros: Hot choc, chai and coffee range; €31 machine; Kid-friendly drinks
-Cons: Coffee ceiling modest; Milk pods double cost
-Verdict: The family pleaser: something for everyone from a €31 box.
+Drinks: 40+ incl. choc, iced
+Tank: 0.8 L
+Size: 27 × 12 × 28 cm
+Power: 1470 W
+Pros: Hot, iced and chocolate drinks; Eco mode switches off after 1 min; Strong owner rating on Amazon.ie
+Cons: Pods cost more than Nespresso Original; Mostly plastic build
+Verdict: Dolce Gusto is the system to pick when not everyone in the house drinks espresso: the pod range runs from Starbucks and Nescafé coffees to hot chocolate, teas and iced drinks, and the Genio S lets you set a bigger or smaller cup. It holds a 4.5-star rating from more than 4,700 owners on Amazon.ie, and its eco mode switches the machine off after a minute idle. The trade-off is the pod itself: Dolce Gusto capsules are mostly plastic and cost more per cup than third-party Nespresso Original pods, so heavy coffee drinkers will pay more over a year.
 
 ### 5. Tassimo by Bosch Finesse  [Best Barcode Simplicity]
 Brand: Bosch
@@ -1996,7 +1982,7 @@ A: Roughly monthly with regular use on the harder water found across much of the
 ==============================================================================
 # CATEGORY: Dehumidifiers
 URL: https://pickireland.best/dehumidifiers/
-5 guides, 34 product entries
+5 guides, 33 product entries
 ==============================================================================
 
 Ireland's damp climate makes dehumidifiers less a luxury than a household appliance category of their own: condensation on windows, mould creeping into corners, laundry that takes two days to dry indoors. The right machine fixes all three for cents per day. We compare compressor and desiccant models across every budget and room size, with running costs at Irish electricity rates.
@@ -2157,7 +2143,7 @@ URL: https://pickireland.best/dehumidifiers/best-small-dehumidifiers-bedroom-ire
 Summary: Quiet, compact dehumidifiers for Irish bedrooms, apartments and single rooms — noise levels, size and running costs compared. Our picks for 2026.
 ------------------------------------------------------------------------------
 
-Condensation hits bedrooms hardest — we each breathe out half a litre of moisture a night into a cold, closed room. The fix needs to be small enough for a corner and quiet enough to sleep beside. We ranked these seven on noise first, then extraction and footprint, because a dehumidifier you switch off at bedtime is a dehumidifier that doesn't work.
+Condensation hits bedrooms hardest — we each breathe out half a litre of moisture a night into a cold, closed room. The fix needs to be small enough for a corner and quiet enough to sleep beside. We ranked these six on noise first, then extraction and footprint, because a dehumidifier you switch off at bedtime is a dehumidifier that doesn't work.
 
 ### 1. MeacoDry Arete One 6L Dehumidifier & Air Purifier  [Best Bedroom Choice]
 Brand: Meaco
@@ -2237,16 +2223,6 @@ Power: None (non-electric)
 Pros: Cheapest pick on this page at €11; Passive — no electricity type; Up to 20 m² coverage
 Cons: 3 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.6★
 Verdict: At €11 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one.
-
-### 7. ROMMQB 3L Ultra-Quiet Portable Dehumidifier  [Worth Considering]
-Brand: ROMMQB
-Price: ~€70
-Rating: 4.6/5 (Amazon.ie)
-Tank: 3 L
-Type: Portable, ultra-quiet
-Pros: €99 less than our top pick; 3 L tank; Portable, ultra-quiet type
-Cons: 1 of the 7 picks here is better rated by owners; Not our category winner — compare against the MeacoDry Arete One 6L Dehumidifier & Air Purifier
-Verdict: At €70 with a 4.6-star owner rating, this ROMMQB matches our €169 Meaco pick on owner sentiment for a fraction of the price, and its 3-litre capacity suits a single bedroom. What you don't get is Meaco's track record in Ireland or the same build reputation, which matters on an appliance that runs unattended overnight. A sound budget choice for one room if you accept the unknown-brand risk.
 
 #### Why do bedrooms fog up faster than any other room in an Irish house?
 An adult breathes out roughly half a litre of water vapour overnight, and two people sharing a room double that, all released into a space that's closed off, unheated once the radiator goes down, and often fitted with older single glazing that runs cold to the touch. That combination is exactly what condensation needs: warm moist air meeting a cold surface. It's why bedroom windows are wet by morning even in houses that seem dry everywhere else. A dehumidifier pulls that moisture out of the air before it can land on the glass or the wall behind the headboard, usually the coldest, least ventilated corner in the room and the first place mould shows up on wallpaper or paint. Two adults sharing a double bed in a poorly ventilated room can push local humidity noticeably higher than the rest of the house by morning, even in a home that otherwise reads dry.
@@ -3347,7 +3323,7 @@ Verdict: The Bauer heated throw is for the hours you are not in bed: on the sofa
 ==============================================================================
 # CATEGORY: Electric Heaters
 URL: https://pickireland.best/electric-heaters/
-5 guides, 36 product entries
+5 guides, 35 product entries
 ==============================================================================
 
 With Irish electricity among the priciest in Europe, the wrong electric heater is a money bonfire — but the right one, used to heat the person instead of the whole house, cuts bills. The maths matters: every heater converts electricity to heat at ~100% efficiency, so the differences are in how they deliver it (radiant vs convection vs oil), how well they hold it, and thermostat intelligence. We compare them honestly, running costs included.
@@ -3794,20 +3770,7 @@ Pros: Schedule around night rates; Glass panel looks built-in; Accurate electron
 Cons: Needs WiFi for best tricks; Convection suits sealed rooms
 Verdict: The smart panel: pre-warm rooms on cheap-rate electricity and forget it exists.
 
-### 2. TCP Smart Glass Panel Heater 2000W  [Best 2kW Smart]
-Brand: TCP
-Price: ~€121
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.76/hour at €0.38/kWh
-Power: 2,000 W
-Control: App + WiFi
-Modes: 2 heat
-Style: Black glass
-Pros: 2 kW with app scheduling; Sleek black glass; Wall-mountable
-Cons: App occasionally fiddly; Bigger rooms only
-Verdict: The 2 kW smart panel for larger rooms — schedule it once, stay warm all winter.
-
-### 3. Purus 1200W Electric Radiator (Bathroom Safe)  [Best Bathroom-Safe]
+### 2. Purus 1200W Electric Radiator (Bathroom Safe)  [Best Bathroom-Safe]
 Brand: Purus
 Price: ~€88
 Rating: 4.3/5 (Amazon.ie)
@@ -3820,7 +3783,7 @@ Pros: Bathroom-safe rating; Neat wall-mounted look; Digital thermostat + timer
 Cons: 1.2 kW = small-medium rooms; Plain design
 Verdict: The fitted-look bathroom answer: safe, slim and permanent for under €90.
 
-### 4. MYLEK 1KW Smart WiFi Slim Panel Heater  [Best Budget Smart]
+### 3. MYLEK 1KW Smart WiFi Slim Panel Heater  [Best Budget Smart]
 Brand: MYLEK
 Price: ~€61
 Rating: 4.2/5 (Amazon.ie)
@@ -3833,7 +3796,7 @@ Pros: Smart scheduling at €61; Slim, discreet profile; Ideal home-office size
 Cons: 1 kW small rooms only; Plastic finish
 Verdict: The budget smart panel: app-scheduled background warmth for a box-room office.
 
-### 5. BLACK+DECKER Ceramic Tower Fan Heater  [Reader Favourite]
+### 4. BLACK+DECKER Ceramic Tower Fan Heater  [Reader Favourite]
 Brand: BLACK+DECKER
 Price: ~€90
 Rating: 4.0/5 (Amazon.ie)
@@ -3846,7 +3809,7 @@ Pros: €20 less than our top pick; 1000 / 1500 W power; 75° oscillation
 Cons: Lowest owner rating of the picks here at 4.0★; 4.0★ owner rating is only average for this price bracket
 Verdict: BLACK+DECKER's ceramic tower is a recognisable brand at €90, undercutting our €110 Devola panel pick. It's a fan heater rather than a panel heater, though, which means fast warmth and fan noise rather than the silent background heat a panel is bought for — and its 4.0-star owner rating is the lowest on this page against the Devola's 4.5. Fine as a quick-heat backup; not a substitute for a wall-mounted panel.
 
-### 6. Philips 5000 Series Connected Tower Heater  [Value Contender]
+### 5. Philips 5000 Series Connected Tower Heater  [Value Contender]
 Brand: Philips
 Price: ~€114
 Rating: 4.3/5 (Amazon.ie)
@@ -3859,7 +3822,7 @@ Pros: €114 — 5th-cheapest of the 7 picks here; 1200 / 2000 W power; Up to 20
 Cons: 2 of the 7 picks here are better rated by owners; €4 more than our top pick, which owners rate higher at 4.5★
 Verdict: Philips' Connected Tower is €114 against our €110 Devola pick, so effectively the same money, and rates 4.3 stars to the Devola's 4.5. The difference that matters here is format: this is a tower fan heater, not a wall-mountable panel, so it delivers fast directional warmth with fan noise rather than the silent, fitted background heat this page is about. Fine heater, wrong shape for this list.
 
-### 7. De'Longhi Bend Line Ceramic Heater (Remote)  [Challenger Pick]
+### 6. De'Longhi Bend Line Ceramic Heater (Remote)  [Challenger Pick]
 Brand: De'Longhi
 Price: ~€155
 Rating: 4.4/5 (Amazon.ie)
@@ -5785,7 +5748,7 @@ A: Generally no — the navigation hardware (GPS-RTK modules, cameras, sensor ar
 ==============================================================================
 # CATEGORY: Robot Vacuums
 URL: https://pickireland.best/robot-vacuums/
-5 guides, 32 product entries
+5 guides, 31 product entries
 ==============================================================================
 
 Robot vacuums crossed the believability line around 2023: modern lidar navigation actually maps your home, mops actually mop, and self-empty docks mean weeks without thinking about floors. Prices run €150 to €1,500, and the right answer depends on floors, pets and tolerance for occasional robot nonsense. We compare what each euro tier really buys in an Irish home.
@@ -5918,7 +5881,7 @@ URL: https://pickireland.best/robot-vacuums/best-budget-robot-vacuums-under-300-
 Summary: Five robot vacuums under €300 that clean properly — lidar options, app control and honest trade-offs compared for Irish homes. 2026.
 ------------------------------------------------------------------------------
 
-Under €300 used to mean dumb bouncing discs; now it includes genuine lidar mapping and even budget self-empty docks. The trade-offs moved to mopping quality and obstacle avoidance. These seven maximise different priorities at the price — mapping, quietness, dock convenience — and we're explicit about what each one gives up.
+Under €300 used to mean dumb bouncing discs; now it includes genuine lidar mapping and even budget self-empty docks. The trade-offs moved to mopping quality and obstacle avoidance. These six maximise different priorities at the price — mapping, quietness, dock convenience — and we're explicit about what each one gives up.
 
 ### 1. eufy L60 Robot Vacuum (5,000 Pa)  [Best Under €300]
 Brand: eufy
@@ -5987,18 +5950,6 @@ Rating: 4.0/5 (Amazon.ie)
 Pros: €39 less than our top pick
 Cons: Lowest owner rating of the picks here at 4.0★; 4.0★ owner rating is only average for this price bracket
 Verdict: Cecotec's programmable robot sits under our budget pick on price at €210 against €249, but also well under it on owner rating at 4.0 stars against 4.4 — the lowest score on this page. It self-charges and mops, which covers the basics. Given the gap is only €39 and the eufy L60 brings 5,000Pa suction and materially better owner feedback, the saving is hard to justify here unless the Cecotec is discounted further.
-
-### 7. Shark Matrix Plus 2-in-1 Robot Vacuum & Mop  [Worth Considering]
-Brand: Shark
-Price: ~€239
-Rating: 4.0/5 (Amazon.ie)
-Mopping: Sonic, 100 scrubs/min
-Navigation: 360° LiDAR
-Dock: Bagless self-empty
-Filter: HEPA
-Pros: €10 less than our top pick; Sonic, 100 scrubs/min mopping; 360° LiDAR navigation
-Cons: Lowest owner rating of the picks here at 4.0★; 4.0★ owner rating is only average for this price bracket
-Verdict: Shark is a well-known name and the Matrix Plus vacuums and mops at €239, just under our €249 eufy L60 pick. Its 4.0-star owner rating is the weakest on this page against the eufy's 4.4, and for a €10 saving that's a poor trade. Worth considering if you specifically want Shark's brand support in Ireland; otherwise the eufy is better rated for almost the same money.
 
 #### What kind of navigation do you actually get under €300 now?
 A few years ago, sub-€300 meant random-bounce navigation with no memory between cleans; that's no longer true across the board. Several budget-tier robots now ship with genuine lidar or basic vision mapping, giving room-by-room cleaning, resumable cleans after charging, and app-drawn no-go zones — features that were mid-range exclusives not long ago. What you still don't get at this price is the mapping precision or multi-floor memory of pricier models: budget lidar units typically hold one or two saved maps rather than several, and re-mapping after furniture moves takes longer. For a typical Irish terraced house or apartment with a fairly stable layout, that's rarely a practical problem. It becomes one if you rearrange furniture often or want separate saved maps for upstairs and downstairs — check the spec sheet's map-storage number specifically, not just whether it says smart navigation.

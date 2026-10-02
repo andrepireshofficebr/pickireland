@@ -173,30 +173,30 @@
           "verdict": "This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and, like the cheaper Magnifica Start, milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Magnifica Start instead."
         },
         {
-          "id": "cfm-005",
-          "asin": "B07VTMQLY1",
-          "name": "Nescafé Dolce Gusto Piccolo XS",
-          "brand": "Krups",
-          "price": 31,
-          "rating": 4.3,
+          "id": "cfm-031",
+          "asin": "B0DP56SQH4",
+          "name": "Tassimo by Bosch Finesse",
+          "brand": "Bosch",
+          "price": 47,
+          "rating": 4.5,
           "badge": "Best Family Pods",
           "specs": {
-            "Type": "Pod (Dolce Gusto)",
-            "Drinks": "50+ incl. choc",
-            "Size": "Tiny",
-            "Skill": "Zero",
-            "Power": "1600 W"
+            "Type": "Pod (Tassimo)",
+            "Drinks": "Costa, Kenco, choc",
+            "Tech": "Barcode auto-brew",
+            "Size": "Compact",
+            "Power": "1400 W"
           },
           "pros": [
-            "Hot choc, chai and coffee range",
-            "€31 machine",
-            "Kid-friendly drinks"
+            "Barcode pods self-program",
+            "Costa range at home",
+            "Bosch reliability"
           ],
           "cons": [
-            "Coffee ceiling modest",
-            "Milk pods double cost"
+            "Pod range narrowing",
+            "Coffee purists will sniff"
           ],
-          "verdict": "At €31 this is the cheapest machine on the list, and the Dolce Gusto pod range stretches well beyond coffee into hot chocolate, chai and other drinks that make it genuinely useful for a household with kids as well as coffee drinkers. Its tiny footprint and zero-skill operation mean anyone in the house can use it without instruction. Coffee quality has a modest ceiling compared with the espresso machines above, so it's not really aimed at coffee purists, and milk-based pods cost roughly double standard ones, which adds up in a family that drinks lattes daily. Best for households wanting variety and simplicity over espresso-bar quality; serious coffee drinkers should look toward the Stilosa or Magnifica machines."
+          "verdict": "The easiest machine here for a mixed household: each Tassimo pod carries a barcode that sets water volume, temperature and brew time on its own, so anyone in the house gets the same result without learning anything. The range covers Costa and Kenco coffee plus hot chocolate, which makes it useful when not everyone drinks coffee. Coffee purists will find the ceiling lower than the espresso machines above, and the pod range is narrower than it used to be, so check which drinks you actually want before committing."
         },
         {
           "id": "cfm-027",
@@ -336,32 +336,6 @@
             "Wand learning curve"
           ],
           "verdict": "Europe's bestselling automatic for a reason — the default answer for daily coffee."
-        },
-        {
-          "id": "cfm-008",
-          "asin": "B0CLLLY2Q8",
-          "name": "De'Longhi Magnifica Start (ECAM220.60.B, Milk)",
-          "brand": "De'Longhi",
-          "price": 368,
-          "rating": 4.5,
-          "badge": "Best One-Touch Milk Value",
-          "specs": {
-            "Type": "Bean-to-cup",
-            "Milk": "Auto carafe",
-            "Drinks": "One-touch",
-            "Cup cost": "~28c",
-            "Power": "1450 W"
-          },
-          "pros": [
-            "Auto milk at the Start price",
-            "One-touch cappuccino",
-            "Great value per feature"
-          ],
-          "cons": [
-            "Carafe needs cleaning ritual",
-            "Louder grinder"
-          ],
-          "verdict": "The cheapest one-touch-milk automatic here — family cappuccinos without barista effort."
         },
         {
           "id": "cfm-009",
@@ -607,30 +581,30 @@
           "verdict": "The zero-thought machine: scan, brew, done — with Costa on the menu."
         },
         {
-          "id": "cfm-014",
-          "asin": "B07VTMQLY1",
-          "name": "Nescafé Dolce Gusto Piccolo XS",
-          "brand": "Krups",
-          "price": 31,
-          "rating": 4.3,
+          "id": "cfm-033",
+          "asin": "B0CMD922SQ",
+          "name": "NESCAFÉ Dolce Gusto Genio S (De'Longhi EDG226.A)",
+          "brand": "De'Longhi",
+          "price": 60,
+          "rating": 4.5,
           "badge": "Cheapest Multi-Drink",
           "specs": {
             "Type": "Pod (Dolce Gusto)",
-            "Drinks": "50+ incl. choc",
-            "Size": "Tiny",
-            "Skill": "Zero",
-            "Power": "1600 W"
+            "Drinks": "40+ incl. choc, iced",
+            "Tank": "0.8 L",
+            "Size": "27 × 12 × 28 cm",
+            "Power": "1470 W"
           },
           "pros": [
-            "Hot choc, chai and coffee range",
-            "€31 machine",
-            "Kid-friendly drinks"
+            "Hot, iced and chocolate drinks",
+            "Eco mode switches off after 1 min",
+            "Strong owner rating on Amazon.ie"
           ],
           "cons": [
-            "Coffee ceiling modest",
-            "Milk pods double cost"
+            "Pods cost more than Nespresso Original",
+            "Mostly plastic build"
           ],
-          "verdict": "The family pleaser: something for everyone from a €31 box."
+          "verdict": "Around €60, the Genio S is the low-cost way into pods that do more than coffee: hot chocolate, tea and iced drinks are all in the Dolce Gusto range, and the cup size is adjustable. Over 4,700 owners rate it 4.5 stars on Amazon.ie. The machine is cheap; the pods are where the money goes, and they cost more per cup than Nespresso Original compatibles, so budget for that if you drink several cups a day."
         },
         {
           "id": "cfm-015",
@@ -844,30 +818,30 @@
           "verdict": "The grown-up pod machine: CitiZ style with the open ecosystem's cheap refills."
         },
         {
-          "id": "cfm-019",
-          "asin": "B07VTMQLY1",
-          "name": "Nescafé Dolce Gusto Piccolo XS",
-          "brand": "Krups",
-          "price": 31,
-          "rating": 4.3,
+          "id": "cfm-032",
+          "asin": "B0CMD922SQ",
+          "name": "NESCAFÉ Dolce Gusto Genio S (De'Longhi EDG226.A)",
+          "brand": "De'Longhi",
+          "price": 60,
+          "rating": 4.5,
           "badge": "Best Family Variety",
           "specs": {
             "Type": "Pod (Dolce Gusto)",
-            "Drinks": "50+ incl. choc",
-            "Size": "Tiny",
-            "Skill": "Zero",
-            "Power": "1600 W"
+            "Drinks": "40+ incl. choc, iced",
+            "Tank": "0.8 L",
+            "Size": "27 × 12 × 28 cm",
+            "Power": "1470 W"
           },
           "pros": [
-            "Hot choc, chai and coffee range",
-            "€31 machine",
-            "Kid-friendly drinks"
+            "Hot, iced and chocolate drinks",
+            "Eco mode switches off after 1 min",
+            "Strong owner rating on Amazon.ie"
           ],
           "cons": [
-            "Coffee ceiling modest",
-            "Milk pods double cost"
+            "Pods cost more than Nespresso Original",
+            "Mostly plastic build"
           ],
-          "verdict": "The family pleaser: something for everyone from a €31 box."
+          "verdict": "Dolce Gusto is the system to pick when not everyone in the house drinks espresso: the pod range runs from Starbucks and Nescafé coffees to hot chocolate, teas and iced drinks, and the Genio S lets you set a bigger or smaller cup. It holds a 4.5-star rating from more than 4,700 owners on Amazon.ie, and its eco mode switches the machine off after a minute idle. The trade-off is the pod itself: Dolce Gusto capsules are mostly plastic and cost more per cup than third-party Nespresso Original pods, so heavy coffee drinkers will pay more over a year."
         },
         {
           "id": "cfm-020",

@@ -26,8 +26,12 @@ TOKEN_URLS = {"2.1": "https://creatorsapi.auth.us-east-1.amazoncognito.com/oauth
               "3.1": "https://api.amazon.com/auth/o2/token",
               "3.2": "https://api.amazon.co.uk/auth/o2/token",
               "3.3": "https://api.amazon.co.jp/auth/o2/token"}
-RESOURCES = ["images.primary.large", "offersV2.listings.price",
-             "offersV2.listings.availability", "offersV2.listings.isBuyBoxWinner"]
+RESOURCES_BASE = ["images.primary.large", "offersV2.listings.price",
+                  "offersV2.listings.availability", "offersV2.listings.isBuyBoxWinner"]
+# fotos extras do anuncio (carrossel do site). Se a API recusar este recurso (HTTP 400),
+# o robo refaz SEM ele: o site nunca perde a foto principal por causa do carrossel.
+RESOURCES = RESOURCES_BASE + ["images.variants.large"]
+GALLERY_MAX = 8
 
 
 def read_env():
@@ -76,6 +80,13 @@ def parse_item(it):
     if img.get("url"):
         out["image"] = img["url"]
         out["w"], out["h"] = img.get("width"), img.get("height")
+        gal = [img["url"]]
+        for v in ((it.get("images") or {}).get("variants") or []):
+            u = ((v or {}).get("large") or {}).get("url")
+            if u and u not in gal:
+                gal.append(u)
+        if len(gal) > 1:
+            out["gallery"] = gal[:GALLERY_MAX]
     l = pick_listing(((it.get("offersV2") or {}).get("listings")) or [])
     money = (((l or {}).get("price") or {}).get("money") or {})
     if money.get("amount") is not None and (money.get("currency") or "EUR") == "EUR":
@@ -103,15 +114,23 @@ def main():
     mk = env.get("CREATORS_MARKETPLACE") or "www.amazon.ie"
     auth = get_token(env)
     items, missing = {}, []
+    resources = list(RESOURCES)
     for n, b in enumerate(batches, 1):
-        body = {"itemIds": b, "itemIdType": "ASIN", "marketplace": mk,
-                "partnerTag": env["CREATORS_PARTNER_TAG"], "resources": RESOURCES}
-        for attempt in range(4):
-            r = requests.post(API, json=body, timeout=30, headers={
-                "Authorization": auth, "Content-Type": "application/json", "x-marketplace": mk})
-            if r.status_code == 429:            # limite de taxa: espera e tenta de novo
-                time.sleep(2 * (attempt + 1)); continue
-            break
+        def ask(res):
+            body = {"itemIds": b, "itemIdType": "ASIN", "marketplace": mk,
+                    "partnerTag": env["CREATORS_PARTNER_TAG"], "resources": res}
+            for attempt in range(4):
+                rr = requests.post(API, json=body, timeout=30, headers={
+                    "Authorization": auth, "Content-Type": "application/json", "x-marketplace": mk})
+                if rr.status_code == 429:       # limite de taxa: espera e tenta de novo
+                    time.sleep(2 * (attempt + 1)); continue
+                return rr
+            return rr
+        r = ask(resources)
+        if r.status_code == 400 and resources != RESOURCES_BASE:
+            print("! API recusou as fotos extras (HTTP 400): seguindo so com a foto principal.")
+            resources = list(RESOURCES_BASE)
+            r = ask(resources)
         try:
             data = r.json()
         except ValueError:
@@ -141,9 +160,38 @@ def main():
     os.replace(tmp, OUTFILE)
     n_img = sum(1 for v in items.values() if v.get("image"))
     n_pr = sum(1 for v in items.values() if v.get("price") is not None)
-    print(f"OK: {len(items)}/{len(asins)} ASINs | {n_img} com imagem | {n_pr} com preco | {len(missing)} com erro")
+    n_gal = sum(1 for v in items.values() if v.get("gallery"))
+    print(f"OK: {len(items)}/{len(asins)} ASINs | {n_img} com imagem | {n_gal} com carrossel | "
+          f"{n_pr} com preco | {len(missing)} com erro")
     for m in missing[:15]:
         print("  -", m)
+    # relatorio para o resumo da execucao no GitHub: ASIN que a Amazon nao devolveu, ou que
+    # voltou sem foto/preco/estoque = candidato a troca de produto. Le-se na pagina da execucao.
+    manifest = json.load(open(MANIFEST, encoding="utf-8"))
+    falhas = []
+    for a in asins:
+        v = items.get(a)
+        if not v:
+            motivo = "nao devolvido pela Amazon (anuncio removido ou ASIN errado)"
+        elif not v.get("image"):
+            motivo = "sem foto"
+        elif v.get("price") is None:
+            motivo = "sem preco (provavelmente sem estoque)"
+        elif v.get("availability") and v["availability"] not in ("IN_STOCK", "IN_STOCK_SCARCE", "AVAILABLE_DATE", "PREORDER"):
+            motivo = f"disponibilidade {v['availability']}"
+        else:
+            continue
+        falhas.append(f"{a} ({', '.join(manifest.get(a, []))}): {motivo}")
+    summ = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summ:
+        with open(summ, "a", encoding="utf-8") as f:
+            f.write(f"### Amazon: {len(items)}/{len(asins)} ASINs, {n_img} com foto, {n_gal} com carrossel\n\n")
+            if falhas:
+                f.write("**Produtos para revisar:**\n\n" + "\n".join(f"- {x}" for x in falhas) + "\n")
+            else:
+                f.write("Nenhum produto com problema.\n")
+    for x in falhas:
+        print("  REVISAR:", x)
 
 
 if __name__ == "__main__":

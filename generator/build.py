@@ -809,6 +809,30 @@ table.cmp tr:hover td{background:var(--green-t)}
 .card-cta .btn-sub{font-size:.7rem;color:var(--mut);text-align:center;margin:0;line-height:1.4}
 .pimg{width:112px;height:112px;flex:none;border-radius:14px;border:1px solid var(--line);background:radial-gradient(circle at 30% 25%,#fff, #F2F6F2);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
+.pimg-btn{all:unset;box-sizing:border-box;position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;cursor:zoom-in;border-radius:13px}
+.pimg-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.pimg-n{position:absolute;right:5px;bottom:5px;background:rgba(17,32,45,.78);color:#fff;font-size:.62rem;font-weight:700;line-height:1;padding:4px 6px;border-radius:7px}
+dialog.gal{margin:auto;border:0;padding:0;border-radius:20px;width:min(92vw,620px);max-height:92vh;background:#fff;color:var(--ink);box-shadow:0 30px 80px -20px rgba(7,63,44,.45)}
+dialog.gal::backdrop{background:rgba(17,32,45,.72)}
+.gal-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px 0 20px}
+.gal-top h2{font-size:1rem;line-height:1.35;margin:0;padding:0;border:0}
+.gal-top h2::before,.gal-top h2::after{content:none;display:none}
+.gal-x{all:unset;cursor:pointer;width:36px;height:36px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:var(--mut)}
+.gal-x:hover,.gal-x:focus-visible{background:var(--green-t);color:var(--green)}
+.gal-stage{position:relative;display:flex;align-items:center;justify-content:center;height:min(62vh,500px);padding:10px 56px}
+.gal-stage img{max-width:100%;max-height:100%;object-fit:contain}
+.gal-nav{all:unset;cursor:pointer;position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;background:var(--green-t);color:var(--green);display:flex;align-items:center;justify-content:center;font-size:1.4rem;font-weight:700}
+.gal-nav:hover,.gal-nav:focus-visible{background:var(--green);color:#fff}
+.gal-prev{left:10px}.gal-next{right:10px}
+.gal-thumbs{display:flex;gap:8px;overflow-x:auto;padding:4px 20px 2px}
+.gal-thumbs button{all:unset;cursor:pointer;flex:none;width:54px;height:54px;border-radius:10px;border:2px solid var(--line);display:flex;align-items:center;justify-content:center;background:#fff}
+.gal-thumbs button[aria-current="true"]{border-color:var(--green)}
+.gal-thumbs img{max-width:46px;max-height:46px;object-fit:contain}
+.gal-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px 18px;flex-wrap:wrap}
+.gal-count{color:var(--mut);font-size:.85rem}
+.gal-foot a{background:var(--gold);color:var(--ink);font-weight:700;padding:11px 18px;border-radius:12px}
+.gal-foot a:hover{background:var(--gold-l)}
+@media (max-width:560px){.gal-stage{padding:8px 46px;height:52vh}.gal-nav{width:36px;height:36px}}
 .pimg .ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:#9AABA0;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:0 6px}
 .pimg .ph .ic{width:34px;height:34px;color:#BECDC2}
 @media(max-width:1000px){
@@ -1060,6 +1084,14 @@ def product_card(p, rank, cat_key):
         img_html = (f'<img src="{esc(img)}" alt="{esc(p["name"])}" loading="lazy" '
                     f'width="170" height="170" referrerpolicy="no-referrer-when-downgrade" '
                     f'style="object-fit:contain">')
+        # foto clicavel: abre ampliada, com as outras fotos do anuncio (so carregam no clique).
+        # Tudo vem da API (amazon_live.json, <=24h); nada e baixado nem re-hospedado.
+        _gal = live_info(p).get("gallery") or [img]
+        _n = len(_gal)
+        _chip = f'<span class="pimg-n">{_n} photos</span>' if _n > 1 else ""
+        img_html = (f'<button type="button" class="pimg-btn" data-gallery="{esc(json.dumps(_gal))}" '
+                    f'data-name="{esc(p["name"])}" data-href="{esc(url)}" data-aff="{1 if has_aff else 0}" '
+                    f'aria-label="Enlarge photo of {esc(p["name"])}">{img_html}{_chip}</button>')
     else:
         img_html = f'<div class="ph">{icon(cat_key, 44)}<span>{esc(p["brand"])}</span></div>'
     # Produtos cujo modelo exato não pôde ser identificado ficam sem grade de specs,
@@ -3203,6 +3235,30 @@ SITE_JS = """(function(){
 /* O bloco de reveal por IntersectionObserver foi removido em 2026-09-06: ele punha
    opacity:0 em todo card/tabela/guia e devolvia a visibilidade so ao rolar, deixando 72% da
    pagina invisivel em repouso. Ver o comentario no CSS (.rv) para a medicao. */
+/* galeria de fotos do produto: abre ao clicar na foto do card */
+var galBtns=document.querySelectorAll('.pimg-btn');
+if(galBtns.length){var dlg=document.createElement('dialog');dlg.className='gal';dlg.id='gallery';dlg.setAttribute('aria-label','Product photos');
+dlg.innerHTML='<div class=\\"gal-top\\"><h2></h2><button type=\\"button\\" class=\\"gal-x\\" aria-label=\\"Close\\">\u00d7</button></div><div class=\\"gal-stage\\"><button type=\\"button\\" class=\\"gal-nav gal-prev\\" aria-label=\\"Previous photo\\">\u2039</button><img alt=\\"\\"><button type=\\"button\\" class=\\"gal-nav gal-next\\" aria-label=\\"Next photo\\">\u203a</button></div><div class=\\"gal-thumbs\\"></div><div class=\\"gal-foot\\"><span class=\\"gal-count\\"></span><a target=\\"_blank\\">Check price on Amazon.ie</a></div>';
+document.body.appendChild(dlg);
+var gImg=dlg.querySelector('.gal-stage img'),gTh=dlg.querySelector('.gal-thumbs'),gCt=dlg.querySelector('.gal-count'),gA=dlg.querySelector('.gal-foot a'),gH=dlg.querySelector('h2'),gList=[],gI=0,gName='';
+function gShow(i){gI=(i+gList.length)%gList.length;gImg.src=gList[gI];gImg.alt=gName+' \u2014 photo '+(gI+1)+' of '+gList.length;
+gCt.textContent=gList.length>1?(gI+1)+' / '+gList.length:'';
+gTh.querySelectorAll('button').forEach(function(b,k){b.setAttribute('aria-current',k===gI?'true':'false')})}
+galBtns.forEach(function(b){b.addEventListener('click',function(){
+try{gList=JSON.parse(b.dataset.gallery)}catch(e){gList=[b.querySelector('img').src]}
+gName=b.dataset.name;gH.textContent=gName;gA.href=b.dataset.href;gA.rel=b.dataset.aff==='1'?'sponsored noopener':'nofollow noopener';
+var multi=gList.length>1;dlg.querySelectorAll('.gal-nav').forEach(function(n){n.hidden=!multi});gTh.hidden=!multi;
+gTh.innerHTML=multi?gList.map(function(u,k){return '<button type=\\"button\\" aria-label=\\"Photo '+(k+1)+'\\"><img src=\\"'+u+'\\" alt=\\"\\" loading=\\"lazy\\" referrerpolicy=\\"no-referrer-when-downgrade\\"></button>'}).join(''):'';
+gTh.querySelectorAll('button').forEach(function(t,k){t.addEventListener('click',function(){gShow(k)})});
+gShow(0);dlg.showModal();
+if(window.gtag)gtag('event','product_gallery_open',{product:gName,photos:gList.length})})});
+dlg.querySelector('.gal-x').addEventListener('click',function(){dlg.close()});
+dlg.querySelector('.gal-prev').addEventListener('click',function(){gShow(gI-1)});
+dlg.querySelector('.gal-next').addEventListener('click',function(){gShow(gI+1)});
+dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close()});
+dlg.addEventListener('keydown',function(e){if(gList.length<2)return;if(e.key==='ArrowLeft')gShow(gI-1);if(e.key==='ArrowRight')gShow(gI+1)});
+var tx=null;gImg.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+gImg.addEventListener('touchend',function(e){if(tx===null||gList.length<2)return;var d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>40)gShow(gI+(d<0?1:-1));tx=null})}
 var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
 var spot=document.querySelector('.spot');
 if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');

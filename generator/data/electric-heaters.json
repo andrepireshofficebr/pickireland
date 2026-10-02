@@ -816,31 +816,6 @@
           "verdict": "The smart panel: pre-warm rooms on cheap-rate electricity and forget it exists."
         },
         {
-          "id": "eht-017",
-          "asin": "B09ZL5Z8WQ",
-          "name": "TCP Smart Glass Panel Heater 2000W",
-          "brand": "TCP",
-          "price": 121,
-          "rating": 4.3,
-          "badge": "Best 2kW Smart",
-          "specs": {
-            "Power": "2,000 W",
-            "Control": "App + WiFi",
-            "Modes": "2 heat",
-            "Style": "Black glass"
-          },
-          "pros": [
-            "2 kW with app scheduling",
-            "Sleek black glass",
-            "Wall-mountable"
-          ],
-          "cons": [
-            "App occasionally fiddly",
-            "Bigger rooms only"
-          ],
-          "verdict": "The 2 kW smart panel for larger rooms — schedule it once, stay warm all winter."
-        },
-        {
           "id": "eht-018",
           "asin": "B07K1NWSKK",
           "name": "Purus 1200W Electric Radiator (Bathroom Safe)",

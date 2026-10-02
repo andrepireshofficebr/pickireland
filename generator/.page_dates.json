@@ -80,18 +80,18 @@
   "published": "2026-08-15"
  },
  "coffee-machines/best-bean-to-cup-coffee-machines-ireland": {
-  "hash": "522c8ec7fb429ac7",
-  "modified": "2026-09-01",
+  "hash": "3a9c723b9abb65d9",
+  "modified": "2026-10-02",
   "published": "2026-07-31"
  },
  "coffee-machines/best-budget-coffee-machines-under-150-ireland": {
-  "hash": "c0926f78d13bef24",
-  "modified": "2026-09-01",
+  "hash": "dc2137addd12fad4",
+  "modified": "2026-10-02",
   "published": "2026-07-31"
  },
  "coffee-machines/best-coffee-machines-ireland": {
-  "hash": "7d07cd60cc0f48b1",
-  "modified": "2026-09-01",
+  "hash": "f976000287cf3f33",
+  "modified": "2026-10-02",
   "published": "2026-07-31"
  },
  "coffee-machines/best-espresso-machines-beginners-ireland": {
@@ -100,8 +100,8 @@
   "published": "2026-07-31"
  },
  "coffee-machines/best-pod-coffee-machines-ireland": {
-  "hash": "6469baa4b0f1ac3a",
-  "modified": "2026-09-01",
+  "hash": "541c4339d2c35b98",
+  "modified": "2026-10-02",
   "published": "2026-07-31"
  },
  "coffee-machines/index": {
@@ -135,18 +135,18 @@
   "published": "2026-07-31"
  },
  "dehumidifiers/best-small-dehumidifiers-bedroom-ireland": {
-  "hash": "26b9948e319a2843",
-  "modified": "2026-09-28",
+  "hash": "a7ca454fdf1d87f4",
+  "modified": "2026-10-02",
   "published": "2026-07-31"
  },
  "dehumidifiers/dehumidifier-running-costs-ireland": {
-  "hash": "770c4284c7bf601b",
-  "modified": "2026-09-05",
+  "hash": "c7ffd88a9e76ce09",
+  "modified": "2026-10-02",
   "published": "2026-08-29"
  },
  "dehumidifiers/how-much-does-a-dehumidifier-cost-to-run-ireland": {
-  "hash": "701a6d411a867ee3",
-  "modified": "2026-09-05",
+  "hash": "9d79cc86a81fe5c1",
+  "modified": "2026-10-02",
   "published": "2026-09-05"
  },
  "dehumidifiers/index": {
@@ -210,8 +210,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/best-panel-heaters-ireland": {
-  "hash": "23c5303bbd384cfc",
-  "modified": "2026-09-28",
+  "hash": "2580530081d78013",
+  "modified": "2026-10-02",
   "published": "2026-07-31"
  },
  "electric-heaters/cheapest-electric-heaters-to-run-ireland": {
@@ -220,8 +220,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/electric-heater-running-costs-ireland": {
-  "hash": "5fb753afa95d794e",
-  "modified": "2026-09-01",
+  "hash": "442cbc0ecba88f9c",
+  "modified": "2026-10-02",
   "published": "2026-09-01"
  },
  "electric-heaters/index": {
@@ -305,8 +305,8 @@
   "published": "2026-08-15"
  },
  "index": {
-  "hash": "6d6451c0c665e4fd",
-  "modified": "2026-09-28",
+  "hash": "17506e5acbe15e3e",
+  "modified": "2026-10-02",
   "published": "2026-07-28"
  },
  "privacy": {
@@ -345,8 +345,8 @@
   "published": "2026-08-15"
  },
  "robot-vacuums/best-budget-robot-vacuums-under-300-ireland": {
-  "hash": "24fe5b9a6f90151a",
-  "modified": "2026-07-31",
+  "hash": "614ddc4138ad2450",
+  "modified": "2026-10-02",
   "published": "2026-07-31"
  },
  "robot-vacuums/best-premium-self-empty-robot-vacuums-ireland": {
@@ -375,8 +375,8 @@
   "published": "2026-08-15"
  },
  "running-cost-calculator-ireland": {
-  "hash": "463bc4c76819e584",
-  "modified": "2026-09-28",
+  "hash": "5a71059cb4be8f77",
+  "modified": "2026-10-02",
   "published": "2026-09-28"
  }
 }

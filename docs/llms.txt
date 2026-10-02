@@ -2,7 +2,7 @@
 > Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
-Author: André Pires (Founder & Editor). 12 categories, 52 buying guides, 316 products compared.
+Author: André Pires (Founder & Editor). 12 categories, 52 buying guides, 312 products compared.
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -26,16 +26,16 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 ## Categories
 - [Air Fryers](https://pickireland.best/air-fryers/) — 5 guides, 36 products compared
 - [Air Purifiers](https://pickireland.best/air-purifiers/) — 5 guides, 30 products compared
-- [Coffee Machines](https://pickireland.best/coffee-machines/) — 5 guides, 30 products compared
-- [Dehumidifiers](https://pickireland.best/dehumidifiers/) — 5 guides, 34 products compared
+- [Coffee Machines](https://pickireland.best/coffee-machines/) — 5 guides, 29 products compared
+- [Dehumidifiers](https://pickireland.best/dehumidifiers/) — 5 guides, 33 products compared
 - [Electric Bikes](https://pickireland.best/electric-bikes/) — 5 guides, 25 products compared
 - [Electric Blankets](https://pickireland.best/electric-blankets/) — 1 guides, 7 products compared
-- [Electric Heaters](https://pickireland.best/electric-heaters/) — 5 guides, 36 products compared
+- [Electric Heaters](https://pickireland.best/electric-heaters/) — 5 guides, 35 products compared
 - [Electric Scooters](https://pickireland.best/electric-scooters/) — 5 guides, 25 products compared
 - [Heated Clothes Airers](https://pickireland.best/heated-airers/) — 1 guides, 5 products compared
 - [Home Office](https://pickireland.best/home-office/) — 5 guides, 28 products compared
 - [Robot Lawn Mowers](https://pickireland.best/robot-lawn-mowers/) — 5 guides, 28 products compared
-- [Robot Vacuums](https://pickireland.best/robot-vacuums/) — 5 guides, 32 products compared
+- [Robot Vacuums](https://pickireland.best/robot-vacuums/) — 5 guides, 31 products compared
 
 ## All guides
 ### Air Fryers

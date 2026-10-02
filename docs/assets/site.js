@@ -2,6 +2,30 @@
 /* O bloco de reveal por IntersectionObserver foi removido em 2026-09-06: ele punha
    opacity:0 em todo card/tabela/guia e devolvia a visibilidade so ao rolar, deixando 72% da
    pagina invisivel em repouso. Ver o comentario no CSS (.rv) para a medicao. */
+/* galeria de fotos do produto: abre ao clicar na foto do card */
+var galBtns=document.querySelectorAll('.pimg-btn');
+if(galBtns.length){var dlg=document.createElement('dialog');dlg.className='gal';dlg.id='gallery';dlg.setAttribute('aria-label','Product photos');
+dlg.innerHTML='<div class=\"gal-top\"><h2></h2><button type=\"button\" class=\"gal-x\" aria-label=\"Close\">×</button></div><div class=\"gal-stage\"><button type=\"button\" class=\"gal-nav gal-prev\" aria-label=\"Previous photo\">‹</button><img alt=\"\"><button type=\"button\" class=\"gal-nav gal-next\" aria-label=\"Next photo\">›</button></div><div class=\"gal-thumbs\"></div><div class=\"gal-foot\"><span class=\"gal-count\"></span><a target=\"_blank\">Check price on Amazon.ie</a></div>';
+document.body.appendChild(dlg);
+var gImg=dlg.querySelector('.gal-stage img'),gTh=dlg.querySelector('.gal-thumbs'),gCt=dlg.querySelector('.gal-count'),gA=dlg.querySelector('.gal-foot a'),gH=dlg.querySelector('h2'),gList=[],gI=0,gName='';
+function gShow(i){gI=(i+gList.length)%gList.length;gImg.src=gList[gI];gImg.alt=gName+' — photo '+(gI+1)+' of '+gList.length;
+gCt.textContent=gList.length>1?(gI+1)+' / '+gList.length:'';
+gTh.querySelectorAll('button').forEach(function(b,k){b.setAttribute('aria-current',k===gI?'true':'false')})}
+galBtns.forEach(function(b){b.addEventListener('click',function(){
+try{gList=JSON.parse(b.dataset.gallery)}catch(e){gList=[b.querySelector('img').src]}
+gName=b.dataset.name;gH.textContent=gName;gA.href=b.dataset.href;gA.rel=b.dataset.aff==='1'?'sponsored noopener':'nofollow noopener';
+var multi=gList.length>1;dlg.querySelectorAll('.gal-nav').forEach(function(n){n.hidden=!multi});gTh.hidden=!multi;
+gTh.innerHTML=multi?gList.map(function(u,k){return '<button type=\"button\" aria-label=\"Photo '+(k+1)+'\"><img src=\"'+u+'\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></button>'}).join(''):'';
+gTh.querySelectorAll('button').forEach(function(t,k){t.addEventListener('click',function(){gShow(k)})});
+gShow(0);dlg.showModal();
+if(window.gtag)gtag('event','product_gallery_open',{product:gName,photos:gList.length})})});
+dlg.querySelector('.gal-x').addEventListener('click',function(){dlg.close()});
+dlg.querySelector('.gal-prev').addEventListener('click',function(){gShow(gI-1)});
+dlg.querySelector('.gal-next').addEventListener('click',function(){gShow(gI+1)});
+dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close()});
+dlg.addEventListener('keydown',function(e){if(gList.length<2)return;if(e.key==='ArrowLeft')gShow(gI-1);if(e.key==='ArrowRight')gShow(gI+1)});
+var tx=null;gImg.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+gImg.addEventListener('touchend',function(e){if(tx===null||gList.length<2)return;var d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>40)gShow(gI+(d<0?1:-1));tx=null})}
 var tb=document.querySelector('.top-btn');if(tb){addEventListener('scroll',function(){tb.classList.toggle('show',scrollY>700)},{passive:true})}
 var spot=document.querySelector('.spot');
 if(spot){var tabs=spot.querySelectorAll('.spot-tab'),panels=spot.querySelectorAll('.spot-panel');
