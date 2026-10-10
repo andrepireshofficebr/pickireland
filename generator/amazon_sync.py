@@ -41,6 +41,7 @@ GALLERY_MAX = 8
 # (envia em X dias), PREORDER e AVAILABLE_DATE contam como compravel. Sem preco = sem oferta
 # ativa (o "Currently unavailable" da pagina da Amazon) = indisponivel.
 UNAVAILABLE_TYPES = {"OUT_OF_STOCK", "UNAVAILABLE"}
+REPLACE_AFTER_H = 48  # igual ao build.py: indisponivel 48h+ sem variante -> fila de troca
 VAR_MAX = 40          # no maximo 40 consultas de variantes por execucao (~1 por segundo)
 VAR_RESOURCES = ["itemInfo.title", "offersV2.listings.price", "offersV2.listings.availability",
                  "offersV2.listings.isBuyBoxWinner", "variationSummary.variationDimension"]
@@ -275,7 +276,8 @@ def main():
     for a in asins:
         v = items.get(a) or {}
         if v.get("unavailable"):
-            dias = (now - datetime.datetime.fromisoformat(v["oos_since"])).days
+            horas = int((now - datetime.datetime.fromisoformat(v["oos_since"])).total_seconds() // 3600)
+            dias = horas // 24
             if not v.get("image") and v.get("price") is None and not v.get("availability"):
                 motivo = "nao devolvido pela Amazon (anuncio removido ou ASIN errado)"
             else:
@@ -283,7 +285,7 @@ def main():
             motivo += f" ha {dias} dia(s)"
             if v.get("alt"):
                 motivo += f" | site aponta para a variante {v['alt']['label']} ({v['alt']['asin']}, EUR {v['alt']['price']:.2f})"
-            if dias >= 7:
+            if horas >= REPLACE_AFTER_H and not v.get("alt"):
                 fila.append(f"{a} ({', '.join(manifest.get(a, []))}): {motivo}")
         elif not v.get("image"):
             motivo = "sem foto"
@@ -295,7 +297,7 @@ def main():
         with open(summ, "a", encoding="utf-8") as f:
             f.write(f"### Amazon: {len(items)}/{len(asins)} ASINs, {n_img} com foto, {n_gal} com carrossel\n\n")
             if fila:
-                f.write("**Fila de troca (indisponivel ha 7+ dias):**\n\n" + "\n".join(f"- {x}" for x in fila) + "\n\n")
+                f.write(f"**Fila de troca (indisponivel ha {REPLACE_AFTER_H}h+, sem variante):**\n\n" + "\n".join(f"- {x}" for x in fila) + "\n\n")
             if falhas:
                 f.write("**Produtos para revisar:**\n\n" + "\n".join(f"- {x}" for x in falhas) + "\n")
             else:

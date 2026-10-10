@@ -691,6 +691,10 @@ STOCK_ON = bool(LIVE and LIVE_REQUESTED)
 # Guarda contra resposta anomala da API: se "metade do catalogo" sumir de uma vez, e defeito
 # da consulta, nao realidade. Nesse caso o site ignora o estoque nesta execucao.
 STOCK_GUARD = 0.35
+# Indisponivel ha mais que isto (e sem variante) -> entra na fila de troca de produto.
+# 48h = 4 execucoes seguidas do robo: filtra a falta de estoque de 1 dia, que e comum,
+# sem deixar um produto morto parado no guia por uma semana.
+REPLACE_AFTER_H = 48
 
 def _asin_unavailable(a):
     if not STOCK_ON or not a or a not in LIVE_REQUESTED:
@@ -3320,21 +3324,24 @@ if STOCK_ON:
         _v = LIVE.get(_a) or {}
         _since = _v.get("oos_since")
         try:
-            _days = (_now - datetime.datetime.fromisoformat(_since)).days if _since else None
+            _hours = int((_now - datetime.datetime.fromisoformat(_since)).total_seconds() // 3600) if _since else None
         except ValueError:
-            _days = None
+            _hours = None
+        _days = _hours // 24 if _hours is not None else None
         _rows.append({"asin": _a, "product_ids": sorted(_asin_map[_a]),
                       "names": sorted({_p["name"] for _c in CATS for _pg in _c["pages"]
                                        for _p in _pg["products"] if _p["id"] in _asin_map[_a]}),
                       "pages": sorted({_k for _k, _i in STOCK_MOVED if _i in _asin_map[_a]}),
-                      "unavailable_since": _since, "days_unavailable": _days,
+                      "unavailable_since": _since, "hours_unavailable": _hours, "days_unavailable": _days,
                       "variant": _v.get("alt"),
-                      "replace_queue": bool(_days is not None and _days >= 7)})
+                      "replace_queue": bool(_hours is not None and _hours >= REPLACE_AFTER_H
+                                            and not _v.get("alt"))})
     with open(os.path.join(OUT, "stock-status.json"), "w", encoding="utf-8") as f:
         json.dump({"checked_at": LIVE_AT.isoformat() if LIVE_AT else None,
+                   "replace_after_hours": REPLACE_AFTER_H,
                    "asins_checked": len(_asin_map), "unavailable": _rows}, f, indent=1, ensure_ascii=False)
     print(f"estoque: {len(_rows)} ASINs indisponiveis | {sum(1 for r in _rows if r['variant'])} com variante | "
-          f"{sum(1 for r in _rows if r['replace_queue'])} na fila de troca (7+ dias) | "
+          f"{sum(1 for r in _rows if r['replace_queue'])} na fila de troca ({REPLACE_AFTER_H}h+) | "
           f"{len(STOCK_MOVED)} cards rebaixados")
 _live_hits = sum(1 for _a in _asin_map if _a in LIVE)
 print(f"amazon api: {len(_asin_map)} ASINs no manifest | dados vivos: "
