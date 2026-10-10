@@ -572,7 +572,20 @@ def amazon_search_url(p):
 # monetizado). Remover daqui quando o produto voltar ou for trocado. Refazer a auditoria mensal.
 DEAD_ASINS = {"B09ZL5Z8WQ", "B0H24Z4NPD", "B07VTMQLY1", "B0CLLLY2Q8", "B0D6BYW8HK"}
 
-def product_url(p):
+def _base_product_url(p):
+    """URL do produto EXATO que o guia analisa, sem olhar estoque nem DEAD_ASINS.
+    E dela que sai o ASIN consultado na API (manifest) — assim um produto que esgotou
+    continua sendo consultado e volta sozinho ao site quando o estoque voltar."""
+    info = LINKS.get(p["id"], {})
+    if info.get("link"):
+        return info["link"], True
+    asin = (p.get("asin") or "").strip().upper()
+    if re.fullmatch(r"[A-Z0-9]{10}", asin):
+        return f"https://www.amazon.ie/dp/{asin}?tag={AFF_TAG}", True
+    return amazon_search_url(p), False
+
+def _static_product_url(p):
+    """Comportamento SEM dados da API (build local / build-sombra): DEAD_ASINS -> busca."""
     info = LINKS.get(p["id"], {})
     _m = re.search(r"/dp/([A-Z0-9]{10})", info.get("link") or "")
     if (_m and _m.group(1) in DEAD_ASINS) or (p.get("asin") or "").strip().upper() in DEAD_ASINS:
@@ -635,8 +648,8 @@ AMAZON_PRICE_DISCLAIMER = ("Product prices and availability are accurate as of t
                            "the time of purchase will apply to the purchase of this product.")
 
 def product_asin(p):
-    """ASIN efetivo do produto (mesma resolucao do product_url); None se cai em busca."""
-    url, _ = product_url(p)
+    """ASIN do produto exato analisado (resolucao base); None se nao ha ASIN."""
+    url, _ = _base_product_url(p)
     m = re.search(r"/dp/([A-Z0-9]{10})", url or "")
     return m.group(1) if m else None
 
@@ -656,6 +669,66 @@ def product_price(p):
 
 def product_image(p):
     return live_info(p).get("image") or LINKS.get(p["id"], {}).get("image", "")
+
+# ---------------------------------------------------------------- estoque automatico (09/10/2026)
+# Por que existe: os produtos mais clicados estavam "Currently unavailable" na Amazon e o site
+# seguia mandando o leitor para la, com preco "tipico" e schema InStock. Agora, a cada execucao
+# do robo (amazon_sync.py, 2x/dia):
+#   - indisponivel + variante compravel no mesmo anuncio -> botao vai para a variante, com aviso
+#   - indisponivel sem variante -> aviso + botao "See alternatives" (busca com tag: o clique
+#     continua valendo comissao por 24h sobre qualquer compra)
+#   - o produto desce para o fim do guia e o "#1 pick" passa para o melhor disponivel
+#   - schema Offer passa a dizer OutOfStock
+# Tudo deriva de LIVE: sem dados da API (build local, build-sombra) nada disso existe, entao as
+# datas das paginas NAO se movem por causa de estoque. Voltou o estoque -> volta tudo sozinho.
+LIVE_REQUESTED = set()
+try:
+    if LIVE:
+        LIVE_REQUESTED = set(_lv.get("requested") or [])
+except NameError:
+    pass
+STOCK_ON = bool(LIVE and LIVE_REQUESTED)
+# Guarda contra resposta anomala da API: se "metade do catalogo" sumir de uma vez, e defeito
+# da consulta, nao realidade. Nesse caso o site ignora o estoque nesta execucao.
+STOCK_GUARD = 0.35
+
+def _asin_unavailable(a):
+    if not STOCK_ON or not a or a not in LIVE_REQUESTED:
+        return False
+    v = LIVE.get(a)
+    if not v:
+        return True
+    if "unavailable" in v:
+        return bool(v["unavailable"])
+    return v.get("price") is None or v.get("availability") in ("OUT_OF_STOCK", "UNAVAILABLE")
+
+if STOCK_ON:
+    _n_un = sum(1 for _a in LIVE_REQUESTED if _asin_unavailable(_a))
+    if _n_un > STOCK_GUARD * len(LIVE_REQUESTED):
+        print(f"! estoque: {_n_un}/{len(LIVE_REQUESTED)} indisponiveis (> {STOCK_GUARD:.0%}) — "
+              "parece falha da API; estoque IGNORADO nesta execucao")
+        STOCK_ON = False
+
+def stock_state(p):
+    """None (compravel / sem dado) | {"alt": {...}} | {"alt": None}"""
+    a = product_asin(p)
+    if not _asin_unavailable(a):
+        return None
+    alt = (LIVE.get(a) or {}).get("alt")
+    return {"alt": alt if alt and alt.get("asin") else None,
+            "since": (LIVE.get(a) or {}).get("oos_since")}
+
+def product_url(p):
+    """URL que o LEITOR recebe. Com dados da API, segue o estoque; sem eles, o comportamento
+    estatico de sempre."""
+    if STOCK_ON and product_asin(p) in LIVE_REQUESTED:
+        st = stock_state(p)
+        if st is None:
+            return _base_product_url(p)
+        if st["alt"]:
+            return f"https://www.amazon.ie/dp/{st['alt']['asin']}?tag={AFF_TAG}", True
+        return amazon_search_url(p), True     # busca com tag: clique monetizado
+    return _static_product_url(p)
 
 def esc(s): return html.escape(str(s), quote=True)
 
@@ -854,6 +927,7 @@ dialog.gal::backdrop{background:rgba(17,32,45,.72)}
 .stars small{color:var(--mut);margin-left:8px;font-weight:700;font-size:.85rem}
 .specgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:16px 0 0;font-size:.82rem}
 .specgrid div{background:#F4F7F3;border-radius:10px;padding:8px 12px;border:1px solid #ECF1EB}
+.stock-note{font-size:.88rem;line-height:1.5;color:#5A3A00;background:#FFF6E3;border:1px solid #F3D49A;border-left:4px solid var(--gold);border-radius:0 11px 11px 0;padding:10px 14px;margin:16px 0 0}.stock-note b{color:#3A2700}.card.oos .pimg img{filter:grayscale(.55);opacity:.8}.price.price-oos{font-size:1.05rem;color:#8A5A00}
 .nospec{font-size:.84rem;color:var(--mut);background:#F7F8F6;border:1px dashed var(--line);border-radius:11px;padding:10px 14px;margin:16px 0 0}
 .specgrid b{display:block;font-size:.64rem;text-transform:uppercase;color:var(--mut);letter-spacing:.7px;margin-bottom:2px;font-weight:700}
 .pc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
@@ -1109,14 +1183,42 @@ def product_card(p, rank, cat_key):
         'manufacturer — check the current Amazon.ie listing before buying.</p>')
     pros = "".join(f"<li>{esc(x)}</li>" for x in p["pros"])
     cons = "".join(f"<li>{esc(x)}</li>" for x in p["cons"])
-    top = " top-pick" if rank == 1 else ""
-    if live_info(p).get("price") is not None:
+    st = stock_state(p)
+    top = " top-pick" if rank == 1 and not st else ""
+    btn_txt, btn_foot = f"Check Price on Amazon.ie {ARROW}", f"Check price on Amazon.ie {ARROW}"
+    stock_html, oos_cls = "", ""
+    if st:
+        oos_cls = " oos"
+        if st["alt"]:
+            _al = st["alt"]
+            _ol = f" ({esc(_al['orig_label'])})" if _al.get("orig_label") else ""
+            stock_html = (f'<p class="stock-note"><b>Out of stock on Amazon.ie</b> — this exact '
+                          f'version{_ol} was unavailable when we last checked ({LIVE_AT_TXT}). The '
+                          f'<b>{esc(_al["label"])}</b> version of the same model is in stock at '
+                          f'€{_al["price"]:.2f}; the button goes straight to it.</p>')
+            btn_txt = f"See the {esc(_al['label'])} version {ARROW}"
+            btn_foot = f"See the {esc(_al['label'])} version on Amazon.ie {ARROW}"
+        else:
+            stock_html = (f'<p class="stock-note"><b>Out of stock on Amazon.ie</b> — unavailable when '
+                          f'we last checked ({LIVE_AT_TXT}). Our review still stands if it comes back; '
+                          f'meanwhile the button shows similar models that are in stock.</p>')
+            btn_txt = f"See alternatives on Amazon.ie {ARROW}"
+            btn_foot = btn_txt
+    if st:
+        price_note, price_note_attr = f"Checked {LIVE_AT_TXT}", f' title="{esc(AMAZON_PRICE_DISCLAIMER)}"'
+        if st["alt"]:
+            price, price_label = f"{st['alt']['price']:.0f}", f"{st['alt']['label']} version"
+        else:
+            price, price_label = None, ""
+    elif live_info(p).get("price") is not None:
         price_note = f"Amazon.ie price as of {LIVE_AT_TXT}"
         price_note_attr = f' title="{esc(AMAZON_PRICE_DISCLAIMER)}"'
         price_label = "on Amazon.ie"
     else:
         price_note, price_note_attr, price_label = "Price accurate as of publishing", "", "typical price"
-    return f"""<article class="card{top}" id="{p['id']}">
+    price_html = (f'<div class="price">€{price}<small>{esc(price_label)}</small></div>' if price is not None
+                  else '<div class="price price-oos">Out of stock</div>')
+    return f"""<article class="card{top}{oos_cls}" id="{p['id']}">
 <div class="rank" aria-label="Rank {rank}">{rank}</div>
 <span class="badge">{esc(p['badge'])}</span>
 <div class="card-head">
@@ -1125,22 +1227,22 @@ def product_card(p, rank, cat_key):
     <h3>{esc(p['name'])}</h3>
     <div class="brandline">by {esc(p['brand'])}</div>
     <div class="pricerow">
-      <div class="price">€{price}<small>{price_label}</small></div>
+      {price_html}
       <div class="stars" aria-label="Rated {p['rating']} out of 5">{stars(p['rating'])}</div>
     </div>
   </div>
   <div class="card-cta">
-    <a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">Check Price on Amazon.ie {ARROW}</a>
+    <a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">{btn_txt}</a>
     <span class="btn-sub"{price_note_attr}>{price_note}</span>
   </div>
 </div>
-{specs_block}
+{stock_html}{specs_block}
 <div class="pc">
   <div class="pros"><b>{CHECK} Pros</b><ul>{pros}</ul></div>
   <div class="cons"><b>{CROSS} Cons</b><ul>{cons}</ul></div>
 </div>
 <p class="verdict"><strong>Our verdict:</strong> {esc(p['verdict'])}</p>
-<a class="btn btn-foot" href="{esc(url)}" target="_blank" rel="{rel}">Check price on Amazon.ie {ARROW}</a>
+<a class="btn btn-foot" href="{esc(url)}" target="_blank" rel="{rel}">{btn_foot}</a>
 </article>"""
 
 def comparison_table(products):
@@ -1154,7 +1256,7 @@ def comparison_table(products):
     rows = ""
     for p in products:
         cells = "".join(f"<td>{esc(p['specs'].get(k, '—'))}</td>" for k in spec_keys)
-        rows += f"""<tr><td><a href="#{p['id']}"><b>{esc(p['name'])}</b></a></td><td>{esc(p['badge'])}</td><td><b>€{product_price(p)}</b></td>{cells}<td><b>{p['rating']}</b>/5</td></tr>"""
+        rows += f"""<tr><td><a href="#{p['id']}"><b>{esc(p['name'])}</b></a></td><td>{esc(p['badge'])}</td><td><b>{"Out of stock" if stock_state(p) else "€" + str(product_price(p))}</b></td>{cells}<td><b>{p['rating']}</b>/5</td></tr>"""
     return f'<div class="tbl-scroll"><table class="cmp">{head}{rows}</table></div>'
 
 def faq_html(faqs):
@@ -1241,7 +1343,8 @@ def quick_answer(page, cat):
     # prometida, produto infantil, etc). Antes o minimo por preco pegava justamente esses.
     OUT_OF_BRIEF = ("above budget", "smaller sites", "smaller family", "room to grow",
                     "widest here", "not for adults", "not lightweight", "not a desk")
-    in_brief = [p for p in prods if not any(k in p["badge"].lower() for k in OUT_OF_BRIEF)]
+    in_brief = [p for p in prods if not any(k in p["badge"].lower() for k in OUT_OF_BRIEF)
+                and not stock_state(p)]
     cheapest = min(in_brief or prods, key=lambda p: product_price(p))
     # "Our top pick" e nao "for most homes": o rank 1 nem sempre e o best-overall
     # (em electric-scooters, por ex., o #1 e o "Best Premium" a ~€1.000). Dizer
@@ -1267,7 +1370,8 @@ def jsonld_page(page, cat, faqs, pub, mod):
     for i, p in enumerate(page["products"]):
         prod = {"@type": "Product", "name": p["name"], "description": p["verdict"], "brand": {"@type": "Brand", "name": p["brand"]},
                 "offers": {"@type": "Offer", "price": str(product_price(p)), "priceCurrency": "EUR",
-                           "availability": "https://schema.org/InStock", "url": product_url(p)[0],
+                           "availability": "https://schema.org/" + ("OutOfStock" if stock_state(p) else "InStock"),
+                           "url": (_base_product_url(p) if stock_state(p) else product_url(p))[0],
                            # priceValidUntil: o Google recomenda em Offer. Preco e indicativo e muda
                            # direto na Amazon, entao damos uma validade curta e honesta (90 dias).
                            "priceValidUntil": (datetime.date.today() + datetime.timedelta(days=90)).isoformat()},
@@ -1333,6 +1437,16 @@ for fn in sorted(os.listdir(DATA)):
 
 CATS_BY_SLUG = {c["category"]: c for c in CATS}
 
+STOCK_MOVED = []   # (pagina, produto) que desceram por estoque nesta execucao
+if STOCK_ON:
+    for _c in CATS:
+        for _pg in _c["pages"]:
+            _orig = list(_pg["products"])
+            _pg["products"] = sorted(_orig, key=lambda _p: 1 if stock_state(_p) else 0)
+            for _p in _orig:
+                if stock_state(_p):
+                    STOCK_MOVED.append((f"{_c['category']}/{_pg['slug']}", _p["id"]))
+
 # ------------------------------------------------- guarda de canibalizacao entre guias irmaos
 # Por que existe (medido em 06/09/2026): guias irmaos da mesma categoria estavam recomendando
 # os MESMOS produtos. Em patinetes, tres pares tinham 100% dos ASINs em comum — "best electric
@@ -1356,7 +1470,7 @@ def _guide_asins(pg):
     entao mede o que o leitor e o buscador realmente veem, nao o que o JSON pretendia."""
     out = set()
     for pr in pg["products"]:
-        u, _ = product_url(pr)
+        u, _ = _static_product_url(pr)
         m = re.search(r"/dp/([A-Z0-9]{10})", u)
         if m:
             out.add(m.group(1))
@@ -3195,6 +3309,33 @@ for _c in CATS:
                 _asin_map.setdefault(_a, set()).add(_pr["id"])
 with open(os.path.join(BASE, "amazon_asins.json"), "w", encoding="utf-8") as f:
     json.dump({k: sorted(v) for k, v in sorted(_asin_map.items())}, f, indent=1)
+# estoque: status publico para a tarefa semanal (fila de troca de produto, nivel 3).
+# So existe com dados da API; sem eles o arquivo nao e escrito (nada de status velho).
+if STOCK_ON:
+    _now = datetime.datetime.now(datetime.timezone.utc)
+    _rows = []
+    for _a in sorted(_asin_map):
+        if not _asin_unavailable(_a):
+            continue
+        _v = LIVE.get(_a) or {}
+        _since = _v.get("oos_since")
+        try:
+            _days = (_now - datetime.datetime.fromisoformat(_since)).days if _since else None
+        except ValueError:
+            _days = None
+        _rows.append({"asin": _a, "product_ids": sorted(_asin_map[_a]),
+                      "names": sorted({_p["name"] for _c in CATS for _pg in _c["pages"]
+                                       for _p in _pg["products"] if _p["id"] in _asin_map[_a]}),
+                      "pages": sorted({_k for _k, _i in STOCK_MOVED if _i in _asin_map[_a]}),
+                      "unavailable_since": _since, "days_unavailable": _days,
+                      "variant": _v.get("alt"),
+                      "replace_queue": bool(_days is not None and _days >= 7)})
+    with open(os.path.join(OUT, "stock-status.json"), "w", encoding="utf-8") as f:
+        json.dump({"checked_at": LIVE_AT.isoformat() if LIVE_AT else None,
+                   "asins_checked": len(_asin_map), "unavailable": _rows}, f, indent=1, ensure_ascii=False)
+    print(f"estoque: {len(_rows)} ASINs indisponiveis | {sum(1 for r in _rows if r['variant'])} com variante | "
+          f"{sum(1 for r in _rows if r['replace_queue'])} na fila de troca (7+ dias) | "
+          f"{len(STOCK_MOVED)} cards rebaixados")
 _live_hits = sum(1 for _a in _asin_map if _a in LIVE)
 print(f"amazon api: {len(_asin_map)} ASINs no manifest | dados vivos: "
       + (f"{_live_hits} ASINs, consulta de {LIVE_AT_TXT}" if LIVE else "NAO (site sem imagem, precos tipicos)"))
