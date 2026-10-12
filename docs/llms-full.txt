@@ -1081,7 +1081,7 @@ Filtration: 3-stage HEPASilent
 Pre-filter: Washable fabric
 Power: 38 W
 Pros: 510 m³/h cadr; Up to 103 m² coverage
-Cons: 4 of the 7 picks here are better rated by owners; €303 more than our top pick, which owners rate higher at 4.6★
+Cons: 5 of the 7 picks here are better rated by owners; €303 more than our top pick, which owners rate higher at 4.6★
 Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €61 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
 
 #### What does a 25 dB air purifier actually sound like?
@@ -1703,7 +1703,7 @@ Brand: Cuisinart
 Price: ~€60
 Rating: 4.3/5 (Amazon.ie)
 Pros: €8 less than our top pick; Owners rate it 4.3★, above our top pick's 4.2★
-Cons: 2 of the 7 picks here are better rated by owners; Full specs not confirmed — check the current listing before buying
+Cons: 3 of the 7 picks here are better rated by owners; Full specs not confirmed — check the current listing before buying
 Verdict: This is a grinder, not a coffee machine — which is exactly why it's on a budget page. Pairing a €60 Cuisinart burr grinder with one of the cheaper espresso machines above gets you fresher coffee than spending the same total on a single all-in-one, and its 4.3-star owner rating is solid. Buy it as the second half of a two-part setup rather than as a machine in its own right.
 
 ### 7. Breville Barista Max Espresso Machine (Grinder)  [Above budget — upgrade path]
@@ -2219,7 +2219,7 @@ Refill: 450 g tab
 Tab life: Up to 3 months
 Power: None (non-electric)
 Pros: Cheapest pick on this page at €11; Passive — no electricity type; Up to 20 m² coverage
-Cons: 3 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.6★
+Cons: 2 of the 6 picks here are better rated by owners; Our top pick still rates higher with owners at 4.6★
 Verdict: At €11 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one.
 
 #### Why do bedrooms fog up faster than any other room in an Irish house?
@@ -3422,7 +3422,7 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.87/hour at €0.38/kWh
 Power: 2300 W
 Pros: €89 — 4th-cheapest of the 8 picks here; 2300 W power
-Cons: 3 of the 8 picks here are better rated by owners; €40 more than our top pick, which owners rate higher at 4.7★
+Cons: 2 of the 8 picks here are better rated by owners; €40 more than our top pick, which owners rate higher at 4.7★
 Verdict: The Zanussi 2300W Oil Filled Radiator sits just outside our top picks but is worth a look on value alone: an 11-fin, 2,300W design at €89 undercuts the De'Longhi oil radiator above by a significant margin while still holding a 4.4★ owner rating on Amazon.ie. It ships with the standard Amazon.ie returns protection, which takes some of the risk out of trying a less familiar name. Set against that, it hasn't been in our comparison as long as the established picks, and because Zanussi products are sold through multiple sellers, the level of support you get can vary. A reasonable pick for anyone who wants oil-radiator style heat without paying De'Longhi money, provided they're comfortable with a shorter track record.
 
 ### 7. De'Longhi Radia S (Rooms up to 60 m³)  [Strong Alternative]
@@ -3435,7 +3435,7 @@ Heat settings: 3
 Room size: Up to 60 m³
 Type: Oil-filled radiator
 Pros: €135 — 6th-cheapest of the 8 picks here; 2000 W power; 3 heat settings
-Cons: 3 of the 8 picks here are better rated by owners; €86 more than our top pick, which owners rate higher at 4.7★
+Cons: 2 of the 8 picks here are better rated by owners; €86 more than our top pick, which owners rate higher at 4.7★
 Verdict: The De'Longhi Radia S carries the same trusted De'Longhi name as our oil radiator winner, sized for rooms up to 60 m³, and holds a solid 4.4★ from Amazon.ie owners at €135. It offers honest value for what's on the spec sheet, and buying through Amazon.ie keeps warranty and returns simple. It didn't take the category badge here, so it's positioned as an alternative rather than the outright pick, and given how close it's priced to the Dragon 4 above, it's worth comparing both spec sheets before deciding. Reasonable for buyers who prefer this model's size or styling to the Dragon 4, but not an obvious upgrade over our top choice.
 
 ### 8. De'Longhi Dragon 4 Pro TRDX41025E (Digital)  [Notable Mention]
@@ -3448,7 +3448,7 @@ Room size: Up to 75 m³
 Heat settings: 3
 Timer: 24 h digital
 Pros: 2500 W power; Up to 75 m³ room size
-Cons: 6 of the 8 picks here are better rated by owners; €187 more than our top pick, which owners rate higher at 4.7★
+Cons: 5 of the 8 picks here are better rated by owners; €187 more than our top pick, which owners rate higher at 4.7★
 Verdict: The Dragon 4 Pro TRDX41025E is De'Longhi's digital step up, and at €236 it's the most expensive heater on this page by a wide margin. Amazon.ie owners still rate it 4.3★, and the digital controls give it a more premium feel than the standard Dragon 4, with the same easy warranty route from buying through Amazon.ie. That price is hard to ignore — roughly five times the Warmlite fan heater above for a difference in day-to-day warmth most rooms won't notice — and it doesn't unseat our category winner. Only worth the jump if digital precision and De'Longhi's premium finish specifically matter to you; the standard Dragon 4 covers the same ground for less.
 
 #### How do you actually pick the right electric heater for a room?
@@ -6074,7 +6074,7 @@ Dock: 2.5 L bag, ~45 days
 Navigation: iPath laser
 Brushroll: Anti-tangle
 Pros: 2× 4,000 Pa twin-turbine suction; 2.5 L bag, ~45 days dock
-Cons: 5 of the 7 picks here are better rated by owners; Most expensive pick on this page at €549
+Cons: 6 of the 7 picks here are better rated by owners; Most expensive pick on this page at €549
 Verdict: The X8 Pro is the same price as our top pick at €549 and from the same brand, eufy, with a self-empty dock. It rates 4.2 stars against the X10 Pro Omni's 4.7 — a wide gap for identical money from the same maker. On a pet-hair page specifically, the X10's anti-tangle brush design and full wash-and-dry station do more for the actual problem. Hard to recommend over its own sibling at the same price.
 
 #### Does brush design matter more than suction for pet hair?
