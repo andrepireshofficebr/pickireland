@@ -2855,6 +2855,8 @@ simple_page("about.html", "About PickIreland", f"""
 <li><strong>Pollen and weather</strong> — seasonal timings follow <a href="https://www.met.ie" rel="nofollow noopener" target="_blank">Met Éireann</a> published forecasts.</li>
 <li><strong>Prices and owner ratings</strong> — taken from Amazon.ie listings at time of writing, and flagged as indicative because they change constantly.</li>
 </ul>
+<h2 style="margin-top:34px">Shopping in the UK or Germany?</h2>
+<p>We run a sister site, <a href="https://pickwatt.com/en/">PickWatt</a>, that applies the same method to the UK and German markets: real running costs worked out from published wattages at local electricity rates, for electric heaters, electric blankets, bean-to-cup coffee machines, robot vacuums and plug-in solar. It links to Amazon.co.uk and Amazon.de instead of Amazon.ie.</p>
 <p>Got a correction or a product suggestion? See our <a href="contact.html">contact page</a>.</p>""",
     desc="Who writes PickIreland and how we research Irish buying guides — manufacturer specs, owner feedback and running costs at real Irish electricity rates.",
     page_type="AboutPage", extra={"mainEntity": author_schema()})
