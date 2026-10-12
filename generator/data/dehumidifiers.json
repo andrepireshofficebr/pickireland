@@ -222,26 +222,28 @@
         },
         {
           "id": "deh-029",
-          "asin": "B0CJFLBG3G",
-          "name": "HOMCOM 12L/Day Quiet Dehumidifier (2000ml Tank)",
-          "brand": "HOMCOM",
-          "price": 110,
-          "rating": 4.6,
+          "asin": "B0F5PZ6M6X",
+          "name": "OKYUK 10L/Day Compressor Dehumidifier (30 m²)",
+          "brand": "OKYUK",
+          "price": 130,
+          "rating": 4.4,
           "badge": "Notable Mention",
           "specs": {
-            "Extraction": "12 L/day",
-            "Power": "180 W"
+            "Extraction": "10 L/day",
+            "Room size": "Up to 30 m²",
+            "Tank": "2.5 L",
+            "Noise": "32 dB (sleep mode)"
           },
           "pros": [
-            "€149 less than our top pick",
-            "12 L/day extraction",
-            "Strong 4.6★ owner rating"
+            "€129 less than our top pick",
+            "Quiet 32 dB sleep mode",
+            "24-hour timer and auto shut-off"
           ],
           "cons": [
-            "2 of the 7 picks here are better rated by owners",
+            "Lesser-known brand",
             "Our top pick still rates higher with owners at 4.8★"
           ],
-          "verdict": "This second HOMCOM shares the 12-litre-a-day extraction and 4.6-star rating of the Challenger Pick above but comes with a smaller 2,000ml tank and a specific emphasis on quiet running, making it worth comparing directly against its sibling model before choosing between them. At around €110 it sits just above that other HOMCOM in price, and it's readily available for Irish buyers right now. As with any HOMCOM model on this list, it hasn't built the years of track record that Meaco has, so it's less proven at the very top end of durability and long-term performance. Check the tank size and noise spec against your actual room before deciding between this and the other HOMCOM option; buyers wanting the single best-proven machine should still default to the Meaco Arete."
+          "verdict": "OKYUK's 10-litre compressor unit is sized for rooms up to 30 m², with a 2.5-litre tank that shuts the machine off when full and a 24-hour timer for running it while you're out. Its sleep mode is rated at 32 dB, and owners give it 4.4 stars. At €130 it costs half what our Meaco top pick does, but it's a lesser-known brand without Meaco's years of track record on durability. A sensible mid-budget pick for a single damp room; buyers wanting the best-proven machine should still default to the Meaco Arete."
         }
       ],
       "guide": [
@@ -383,29 +385,28 @@
         },
         {
           "id": "deh-009",
-          "asin": "B0BW1P37CC",
-          "name": "Belaco 1000ml Portable Dehumidifier",
-          "brand": "Belaco",
-          "price": 37,
-          "rating": 4.0,
+          "asin": "B0CH1JQPFH",
+          "name": "SA Products 500ml Portable Dehumidifier",
+          "brand": "SA Products",
+          "price": 41,
+          "rating": 4.3,
           "badge": "Cheapest Worth Buying",
           "specs": {
-            "Extraction": "~300 ml/day",
-            "Tank": "1 L",
-            "Size": "Compact",
-            "Use": "Small rooms",
-            "Power": "36 W"
+            "Tank": "500 ml",
+            "Technology": "Thermo-electric (no compressor)",
+            "Shut-off": "Auto when full",
+            "Use": "Small rooms"
           },
           "pros": [
-            "€37 entry point",
-            "Tiny and portable",
-            "One-button simplicity"
+            "€41 entry point",
+            "Whisper-quiet thermo-electric design",
+            "Auto shut-off when the tank fills"
           ],
           "cons": [
             "Small rooms only",
-            "Limited daily extraction"
+            "500 ml tank needs frequent emptying"
           ],
-          "verdict": "The windowsill-class mini for light condensation spots and caravans."
+          "verdict": "The windowsill-class mini for light condensation spots, wardrobes and caravans."
         },
         {
           "id": "deh-010",

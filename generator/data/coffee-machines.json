@@ -96,29 +96,29 @@
         },
         {
           "id": "cfm-002",
-          "asin": "B085J8LBXF",
-          "name": "De'Longhi Stilosa EC260 (15 Bar)",
-          "brand": "De'Longhi",
-          "price": 122,
+          "asin": "B0DKPH19SD",
+          "name": "Krups Virtuoso+ Pump Espresso Machine (15 Bar)",
+          "brand": "Krups",
+          "price": 137,
           "rating": 4.4,
           "badge": "Best Manual Entry",
           "specs": {
             "Type": "Manual espresso",
             "Pressure": "15 bar",
-            "Milk": "Steam wand",
-            "Skill": "Learning fortnight",
-            "Power": "1100 W"
+            "Milk": "Steam nozzle (froth + heat)",
+            "Shot control": "Auto flow-stop",
+            "Controls": "4 buttons"
           },
           "pros": [
-            "Real pump espresso + wand",
-            "The proven budget barista trainer",
-            "Slim footprint"
+            "Real 15-bar pump espresso + steam",
+            "Auto flow-stop for repeatable shots",
+            "Compact footprint"
           ],
           "cons": [
-            "Needs technique (and ideally a grinder)",
-            "Plastic tamper — replace it"
+            "Needs technique (and ideally a separate grinder)",
+            "€137 sits near the top of the under-€150 range"
           ],
-          "verdict": "Fifteen bars of real pump pressure and a manual steam wand put this Stilosa in proper espresso-machine territory rather than the pod-machine category, at a price well below most bean-to-cup automatics. It's earned a reputation as the standard first machine for anyone learning to pull shots and steam milk by hand, and its slim footprint suits a tight worktop. Realistically it takes around a fortnight of practice to get consistent results, and it works best paired with a separate grinder rather than pre-ground coffee — plus the included plastic tamper is worth swapping out early. Ideal for someone who wants to actually learn the craft of espresso on a budget; anyone wanting zero-effort consistency from day one should pick a pod machine instead."
+          "verdict": "Fifteen bars of pump pressure and a steam nozzle that both froths and heats milk put the Krups Virtuoso+ in proper espresso-machine territory rather than the pod-machine category, at well under half the price of most bean-to-cup automatics. Its automatic flow-stop pours a set amount each time, which takes some guesswork out of the learning phase, and four labelled buttons keep the controls simple for a first machine. It's still a manual machine: expect a couple of weeks of practice before shots are consistent, and results improve sharply with freshly ground coffee from a separate grinder. Ideal for someone who wants to learn espresso by hand on a budget; anyone wanting zero-effort consistency from day one should pick a pod machine instead."
         },
         {
           "id": "cfm-003",
@@ -221,7 +221,7 @@
             "Lowest owner rating of the picks here at 3.8★",
             "3.8★ owner rating is only average for this price bracket"
           ],
-          "verdict": "Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.8-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Stilosa or either Magnifica model achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Stilosa at a lower price instead."
+          "verdict": "Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.8-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Krups Virtuoso+ or either Magnifica model achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Krups Virtuoso+ at a lower price instead."
         }
       ],
       "guide": [
@@ -278,7 +278,7 @@
       "title": "Best Bean-to-Cup Coffee Machines Ireland 2026 — Automatics",
       "desc": "Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Compared for 2026.",
       "h1": "Best Bean-to-Cup Coffee Machines in Ireland",
-      "intro": "Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €283 to €612+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.",
+      "intro": "Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €283 to €535+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.",
       "faq_idx": [
         0,
         7,
@@ -365,29 +365,29 @@
         },
         {
           "id": "cfm-010",
-          "asin": "B0FBRSF4JC",
-          "name": "De'Longhi Magnifica Evo Next (ECAM312.80.TB)",
-          "brand": "De'Longhi",
-          "price": 612,
-          "rating": 4.5,
+          "asin": "B09NH4RQ9S",
+          "name": "Philips 5400 Series LatteGo Bean-to-Cup (EP5446/70)",
+          "brand": "Philips",
+          "price": 535,
+          "rating": 4.4,
           "badge": "Best Flagship",
           "specs": {
             "Type": "Bean-to-cup",
-            "Milk": "Full auto",
-            "Profiles": "Multiple drinks",
-            "Build": "Top of range",
-            "Power": "1450 W"
+            "Milk": "LatteGo, fully automatic",
+            "Drinks": "12 one-touch",
+            "Grinder": "Ceramic, 12 steps",
+            "Display": "Touch"
           },
           "pros": [
-            "The full-feature flagship",
-            "Best milk texture of the line",
-            "Multiple drink profiles"
+            "12 one-touch coffees incl. milk drinks",
+            "LatteGo milk system: two parts, no tubes",
+            "Ceramic grinder with 12 settings"
           ],
           "cons": [
-            "€600+",
-            "Counter presence"
+            "€500+",
+            "Owner rating 4.4★, below the two Magnificas"
           ],
-          "verdict": "The endgame Magnifica: every drink, automatically, for households that live on coffee."
+          "verdict": "The automatic flagship: twelve drinks at a touch, and a milk system that rinses clean in seconds."
         },
         {
           "id": "cfm-028",
@@ -416,29 +416,29 @@
         },
         {
           "id": "cfm-030",
-          "asin": "B0DFWRHZ7L",
-          "name": "Ninja Luxe Essential 2-in-1 Coffee Maker",
+          "asin": "B0DFCSXC1S",
+          "name": "Ninja Luxury Premier 3-in-1 Coffee Maker (ES601EU)",
           "brand": "Ninja",
-          "price": 455,
-          "rating": 4.2,
+          "price": 489,
+          "rating": 4.3,
           "badge": "Smart Alternative",
           "specs": {
-            "Drinks": "2 espresso + 3 drip styles",
-            "Grinder": "Conical burr, 25 settings",
-            "Frother": "Dual Froth, hands-free",
-            "Type": "2-in-1 espresso + drip",
+            "Drinks": "Espresso, filter, cold brew",
+            "Grinder": "Built-in, 25 settings",
+            "Frother": "Hands-free, 4 presets",
+            "Extras": "Integrated scale",
             "Power": "1650 W"
           },
           "pros": [
-            "€455 — 5th-cheapest of the 7 picks here",
-            "2 espresso + 3 drip styles drinks",
-            "Conical burr, 25 settings grinder"
+            "Espresso, filter and cold brew in one",
+            "Built-in grinder and scale",
+            "Hands-free frothing for dairy and plant milk"
           ],
           "cons": [
-            "5 of the 7 picks here are better rated by owners",
-            "€119 more than our top pick, which owners rate higher at 4.6★"
+            "€153 more than our top pick, which owners rate higher at 4.6★",
+            "17 kg and deep on the counter"
           ],
-          "verdict": "Ninja's Luxe Essential is a 2-in-1 that brews filter coffee as well as espresso-style drinks, which no other machine on this page does. At €455 it's well above our €336 De'Longhi pick, and its 4.2-star owner rating is the lowest here. The dual-format flexibility is genuine; whether it's worth €119 more than a dedicated bean-to-cup that rates higher depends entirely on whether you actually want filter coffee too."
+          "verdict": "Ninja's Luxury Premier is a 3-in-1 that brews filter coffee and cold brew as well as espresso, which no other machine on this page does. A built-in grinder with 25 settings, an integrated scale and a hands-free frother with four foam presets do much of the barista work for you. At €489 it's well above our €336 De'Longhi pick, and its 4.3-star owner rating sits below the De'Longhi's 4.6. The flexibility is genuine; whether it's worth €153 more than a dedicated bean-to-cup depends on whether you'll actually drink filter and cold brew too."
         }
       ],
       "guide": [
@@ -530,29 +530,29 @@
         },
         {
           "id": "cfm-012",
-          "asin": "B085J8LBXF",
-          "name": "De'Longhi Stilosa EC260 (15 Bar)",
-          "brand": "De'Longhi",
-          "price": 122,
+          "asin": "B0DKPH19SD",
+          "name": "Krups Virtuoso+ Pump Espresso Machine (15 Bar)",
+          "brand": "Krups",
+          "price": 137,
           "rating": 4.4,
           "badge": "Best Budget Espresso",
           "specs": {
             "Type": "Manual espresso",
             "Pressure": "15 bar",
-            "Milk": "Steam wand",
-            "Skill": "Learning fortnight",
-            "Power": "1100 W"
+            "Milk": "Steam nozzle (froth + heat)",
+            "Shot control": "Auto flow-stop",
+            "Controls": "4 buttons"
           },
           "pros": [
-            "Real pump espresso + wand",
-            "The proven budget barista trainer",
-            "Slim footprint"
+            "Real 15-bar pump espresso + steam",
+            "Auto flow-stop for repeatable shots",
+            "Compact footprint"
           ],
           "cons": [
-            "Needs technique (and ideally a grinder)",
-            "Plastic tamper — replace it"
+            "Needs technique (and ideally a separate grinder)",
+            "€137 sits near the top of the under-€150 range"
           ],
-          "verdict": "The cheapest ticket to real espresso craft: with practice, café-bothering shots."
+          "verdict": "The budget route to real espresso craft: 15 bars, a steam nozzle and flow-stop for under €140."
         },
         {
           "id": "cfm-013",
@@ -933,29 +933,29 @@
       "products": [
         {
           "id": "cfm-021",
-          "asin": "B085J8LBXF",
-          "name": "De'Longhi Stilosa EC260 (15 Bar)",
-          "brand": "De'Longhi",
-          "price": 122,
+          "asin": "B0DKPH19SD",
+          "name": "Krups Virtuoso+ Pump Espresso Machine (15 Bar)",
+          "brand": "Krups",
+          "price": 137,
           "rating": 4.4,
           "badge": "Best First Espresso",
           "specs": {
             "Type": "Manual espresso",
             "Pressure": "15 bar",
-            "Milk": "Steam wand",
-            "Skill": "Learning fortnight",
-            "Power": "1100 W"
+            "Milk": "Steam nozzle (froth + heat)",
+            "Shot control": "Auto flow-stop",
+            "Controls": "4 buttons"
           },
           "pros": [
-            "Real pump espresso + wand",
-            "The proven budget barista trainer",
-            "Slim footprint"
+            "Real 15-bar pump espresso + steam",
+            "Auto flow-stop for repeatable shots",
+            "Compact footprint"
           ],
           "cons": [
-            "Needs technique (and ideally a grinder)",
-            "Plastic tamper — replace it"
+            "Needs technique (and ideally a separate grinder)",
+            "€137 sits near the top of the under-€150 range"
           ],
-          "verdict": "The cheapest ticket to real espresso craft: with practice, café-bothering shots."
+          "verdict": "The beginner-friendly manual: flow-stop takes the guesswork out of the first fortnight's shots."
         },
         {
           "id": "cfm-022",

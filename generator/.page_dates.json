@@ -10,8 +10,8 @@
   "published": "2026-08-15"
  },
  "air-fryers/air-fryer-running-costs-ireland": {
-  "hash": "d598c1dd7711130a",
-  "modified": "2026-09-01",
+  "hash": "e5ff5aa91c66f54e",
+  "modified": "2026-10-12",
   "published": "2026-09-01"
  },
  "air-fryers/best-air-fryers-ireland": {
@@ -30,13 +30,13 @@
   "published": "2026-07-31"
  },
  "air-fryers/best-dual-zone-air-fryers-ireland": {
-  "hash": "bba33cfb165f9b2f",
-  "modified": "2026-09-01",
+  "hash": "141268263e7aac2c",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "air-fryers/best-large-air-fryers-families-ireland": {
-  "hash": "f52dab5f92b40fd1",
-  "modified": "2026-09-01",
+  "hash": "05e67826d420ca3f",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "air-fryers/index": {
@@ -45,13 +45,13 @@
   "published": "2026-06-01"
  },
  "air-purifiers/air-purifier-running-costs-ireland": {
-  "hash": "7195dedd5857b57a",
-  "modified": "2026-09-01",
+  "hash": "4d9703a2c3b227f9",
+  "modified": "2026-10-12",
   "published": "2026-09-01"
  },
  "air-purifiers/best-air-purifiers-allergies-hay-fever-ireland": {
-  "hash": "2b7dac7d9573a25e",
-  "modified": "2026-09-01",
+  "hash": "2ac048999c5b7ada",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "air-purifiers/best-air-purifiers-ireland": {
@@ -60,18 +60,18 @@
   "published": "2026-07-31"
  },
  "air-purifiers/best-air-purifiers-large-rooms-ireland": {
-  "hash": "128461e9ec78174f",
-  "modified": "2026-09-01",
+  "hash": "1afa61715b7cb5ac",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "air-purifiers/best-budget-air-purifiers-under-150-ireland": {
-  "hash": "b47f2b1b7a33de39",
-  "modified": "2026-09-01",
+  "hash": "81bd280a3791fbc1",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "air-purifiers/best-quiet-air-purifiers-bedroom-ireland": {
-  "hash": "485d7e13f888810f",
-  "modified": "2026-09-01",
+  "hash": "a809863f35cb3c0f",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "air-purifiers/index": {
@@ -80,23 +80,23 @@
   "published": "2026-08-15"
  },
  "coffee-machines/best-bean-to-cup-coffee-machines-ireland": {
-  "hash": "3a9c723b9abb65d9",
-  "modified": "2026-10-02",
+  "hash": "a23665ca5304fb1a",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "coffee-machines/best-budget-coffee-machines-under-150-ireland": {
-  "hash": "dc2137addd12fad4",
-  "modified": "2026-10-02",
+  "hash": "b1f1371f161dd01f",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "coffee-machines/best-coffee-machines-ireland": {
-  "hash": "f976000287cf3f33",
-  "modified": "2026-10-02",
+  "hash": "a6541190f06bc10f",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "coffee-machines/best-espresso-machines-beginners-ireland": {
-  "hash": "ffd989266850853b",
-  "modified": "2026-09-01",
+  "hash": "b243074d158ee8a3",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "coffee-machines/best-pod-coffee-machines-ireland": {
@@ -125,8 +125,8 @@
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-ireland": {
-  "hash": "36b81778f2b80165",
-  "modified": "2026-09-28",
+  "hash": "111159cab3db4f43",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-mould-damp-ireland": {
@@ -135,18 +135,18 @@
   "published": "2026-07-31"
  },
  "dehumidifiers/best-small-dehumidifiers-bedroom-ireland": {
-  "hash": "a7ca454fdf1d87f4",
-  "modified": "2026-10-02",
+  "hash": "c59c5a1141a773f8",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "dehumidifiers/dehumidifier-running-costs-ireland": {
-  "hash": "c7ffd88a9e76ce09",
-  "modified": "2026-10-02",
+  "hash": "de1007b15415902a",
+  "modified": "2026-10-12",
   "published": "2026-08-29"
  },
  "dehumidifiers/how-much-does-a-dehumidifier-cost-to-run-ireland": {
-  "hash": "9d79cc86a81fe5c1",
-  "modified": "2026-10-02",
+  "hash": "40ebc87d34f31a22",
+  "modified": "2026-10-12",
   "published": "2026-09-05"
  },
  "dehumidifiers/index": {
@@ -185,8 +185,8 @@
   "published": "2026-08-15"
  },
  "electric-blankets/best-electric-blankets-ireland": {
-  "hash": "8d058cf7ab4f1293",
-  "modified": "2026-09-28",
+  "hash": "2f5dedb80b670f53",
+  "modified": "2026-10-12",
   "published": "2026-09-28"
  },
  "electric-blankets/index": {
@@ -200,8 +200,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/best-electric-heaters-ireland": {
-  "hash": "c1748e95f561a0b3",
-  "modified": "2026-09-28",
+  "hash": "c0fc094c3aea9805",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "electric-heaters/best-oil-filled-radiators-ireland": {
@@ -210,18 +210,18 @@
   "published": "2026-07-31"
  },
  "electric-heaters/best-panel-heaters-ireland": {
-  "hash": "2580530081d78013",
-  "modified": "2026-10-02",
+  "hash": "88d696e561db8f64",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "electric-heaters/cheapest-electric-heaters-to-run-ireland": {
-  "hash": "b2caec3c68ff44fe",
-  "modified": "2026-09-28",
+  "hash": "9aa427236d568a00",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "electric-heaters/electric-heater-running-costs-ireland": {
-  "hash": "442cbc0ecba88f9c",
-  "modified": "2026-10-02",
+  "hash": "448104d35cff5b0e",
+  "modified": "2026-10-12",
   "published": "2026-09-01"
  },
  "electric-heaters/index": {
@@ -280,13 +280,13 @@
   "published": "2026-07-31"
  },
  "home-office/best-desks-small-spaces-ireland": {
-  "hash": "85b6160e6abd9b4c",
-  "modified": "2026-07-31",
+  "hash": "cecbfa24505bfd70",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "home-office/best-ergonomic-office-chairs-ireland": {
-  "hash": "891937ccc2709d6c",
-  "modified": "2026-07-31",
+  "hash": "fa5ae703f3c07220",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "home-office/best-standing-desk-converters-accessories-ireland": {
@@ -295,8 +295,8 @@
   "published": "2026-07-31"
  },
  "home-office/best-standing-desks-ireland": {
-  "hash": "57e87ed6041c4e3e",
-  "modified": "2026-07-31",
+  "hash": "eef851d2e4dc9efd",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "home-office/index": {
@@ -305,8 +305,8 @@
   "published": "2026-08-15"
  },
  "index": {
-  "hash": "17506e5acbe15e3e",
-  "modified": "2026-10-02",
+  "hash": "d60c97ed44f0695c",
+  "modified": "2026-10-12",
   "published": "2026-07-28"
  },
  "privacy": {
@@ -365,8 +365,8 @@
   "published": "2026-07-31"
  },
  "robot-vacuums/best-robot-vacuums-pet-hair-ireland": {
-  "hash": "fe6c8468d1cf2a61",
-  "modified": "2026-07-31",
+  "hash": "1d1e12936c4996c5",
+  "modified": "2026-10-12",
   "published": "2026-07-31"
  },
  "robot-vacuums/index": {
@@ -375,8 +375,8 @@
   "published": "2026-08-15"
  },
  "running-cost-calculator-ireland": {
-  "hash": "5a71059cb4be8f77",
-  "modified": "2026-10-02",
+  "hash": "a03de1646e6a07f6",
+  "modified": "2026-10-12",
   "published": "2026-09-28"
  }
 }

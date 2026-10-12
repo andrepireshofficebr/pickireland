@@ -644,28 +644,28 @@
     },
     {
      "id": "rvc-029",
-     "asin": "B0DZ273MVP",
-     "name": "Roborock Q10 VF Robot Vacuum",
+     "asin": "B0DQPVLXF8",
+     "name": "roborock QV 35A Robot Vacuum & Mop (All-in-One Dock)",
      "brand": "Roborock",
-     "price": 524,
-     "rating": 4.0,
+     "price": 493,
+     "rating": 4.5,
      "badge": "Notable Mention",
      "specs": {
-      "Suction": "10,000 Pa",
-      "Mop": "VibraRise 2.0, 8 mm lift",
-      "Dust bin": "350 ml",
-      "Noise": "65 dB"
+      "Suction": "8,000 Pa",
+      "Mop": "Twin rotating pads, 10 mm lift",
+      "Navigation": "LiDAR",
+      "Brushes": "Anti-tangle side + rubber main"
      },
      "pros": [
-      "€25 less than our top pick",
-      "10,000 Pa suction",
-      "VibraRise 2.0, 8 mm lift mop"
+      "€56 less than our top pick",
+      "Anti-tangle brushes aimed at pet hair",
+      "Twin rotating mops lift 10 mm on rugs"
      ],
      "cons": [
-      "Lowest owner rating of the picks here at 4.0★",
-      "4.0★ owner rating is only average for this price bracket"
+      "Our top pick still rates higher with owners at 4.7★",
+      "All-in-one dock needs floor space"
      ],
-     "verdict": "The Q10 VF is a Roborock, a brand with a strong track record in this category, and at €524 it's slightly cheaper than our €549 pet-hair pick. Its 4.0-star owner rating is the weak point — noticeably below the eufy X10 Pro Omni's 4.7, and low for a machine at this price. For pet hair specifically, the brush design matters more than the badge, so we'd want a clearer picture of this model's anti-tangle performance before recommending it over the eufy."
+     "verdict": "The QV 35A is a Roborock, a brand with a strong track record in this category, and at €493 it's €56 cheaper than our €549 pet-hair pick. For pet homes the relevant part is the brush system: an asymmetrical side brush that Roborock says is SGS-certified for a 0% hair-tangle rate, plus a solid rubber main brush, behind 8,000 Pa of suction. Twin rotating mop pads lift 10 mm to keep rugs dry, and LiDAR handles the mapping. Owners rate it 4.5 stars, below the eufy X10 Pro Omni's 4.7, which keeps the eufy as our top choice."
     },
     {
      "id": "rvc-030",

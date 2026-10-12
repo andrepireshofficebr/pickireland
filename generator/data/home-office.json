@@ -118,28 +118,28 @@
    "products": [
     {
      "id": "ofc-001",
-     "asin": "B0D93DMFWC",
-     "name": "SIHOO M102C Ergonomic Mesh Chair (3D Lumbar)",
+     "asin": "B0CLLRNFB8",
+     "name": "SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)",
      "brand": "SIHOO",
      "price": 160,
-     "rating": 4.6,
+     "rating": 4.3,
      "badge": "Best Overall",
      "specs": {
       "Back": "Mesh, high",
-      "Lumbar": "3D adjustable",
-      "Arms": "Adjustable",
-      "Headrest": "Yes"
+      "Lumbar": "Up/down, 6 cm range",
+      "Arms": "3D, flip-up",
+      "Headrest": "Adjustable"
      },
      "pros": [
-      "3D lumbar that actually fits backs",
-      "Full mesh breathability",
-      "Strong warranty support"
+      "Separate mesh lumbar with 6 cm of travel",
+      "Flip-up arms slide under the desk",
+      "Full mesh breathability"
      ],
      "cons": [
-      "Assembly ~30 min",
-      "Firm seat at first"
+      "Lumbar moves up and down only, not in depth",
+      "4.3★ — below some cheaper chairs here"
      ],
-     "verdict": "The SIHOO M102C takes the Best Overall badge because its 3D adjustable lumbar support moves in ways fixed lumbar chairs can't, fitting a wider range of back shapes — a point owner reviews on Amazon.ie repeatedly single out as the standout feature at this price. Full mesh construction keeps it breathable for long sitting sessions, and SIHOO backs it with warranty support that's unusually strong for a €160 chair. Assembly takes around 30 minutes, longer than some rivals, and the seat pan feels firm out of the box before it settles in. A strong pick for long working hours and adjustability reserved for pricier chairs; those wanting instant plushness may prefer something softer."
+     "verdict": "The SIHOO M102C keeps the Best Overall badge for the range of adjustment it packs in at €160: a separate mesh lumbar pad with 6 cm of vertical travel, an adjustable headrest, and 3D armrests that also flip up so the chair slides under a desk. Full mesh keeps it breathable through long sitting sessions. Its 4.3-star owner rating from nearly 2,000 buyers is lower than some cheaper chairs on this page, and the lumbar only moves up and down rather than in depth. A strong pick for long working hours if adjustability matters more to you than the rating; those wanting the best-scored budget option should look at the Ticova."
     },
     {
      "id": "ofc-002",
@@ -164,7 +164,7 @@
       "Unbranded support",
       "Plain styling"
      ],
-     "verdict": "At €123, this generic-brand High-Back Chair matches the SIHOO M102C's 4.6★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box."
+     "verdict": "At €123, this generic-brand High-Back Chair outscores the SIHOO M102C's 4.3★ with a 4.6★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box."
     },
     {
      "id": "ofc-003",
@@ -260,8 +260,8 @@
       "90°–126° recline"
      ],
      "cons": [
-      "Lowest owner rating of the picks here at 4.3★",
-      "€90 more than our top pick, which owners rate higher at 4.6★"
+      "Joint-lowest owner rating of the picks here at 4.3★",
+      "€90 more than our top pick, the M102C"
      ],
      "verdict": "The SIHOO M57 adds 3-way adjustable arms to the SIHOO ergonomic lineup and holds a solid 4.3★ owner rating on Amazon.ie, with typical pricing around €200 putting it above the M102C and M18 already covered here. As with those chairs, buying through Amazon.ie means the returns process is straightforward if it doesn't suit. It's newer to our comparison than the top picks, so there's less accumulated feedback to lean on, and because SIHOO chairs are listed through multiple sellers, the support experience can vary depending on who you buy from. Worth a look if you specifically want 3-way arm adjustment and are happy paying more for it, but the M102C remains the stronger all-round value."
     },
@@ -285,7 +285,7 @@
       "Up to 130° recline"
      ],
      "cons": [
-      "Not our category winner — compare against the SIHOO M102C Ergonomic Mesh Chair (3D Lumbar)"
+      "Not our category winner — compare against the SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)"
      ],
      "verdict": "The Ticova Ergonomic Office Chair posts the highest owner rating on this entire page at 4.8★, combining a high back with adjustable lumbar support and headrest — the same core feature set as the SIHOO chairs above. Amazon.ie listings show it available in Ireland right now, and reviewers consistently rate it well despite the generic build behind the Ticova name. Set against that near-perfect score, it has less of a track record in our own comparison than the established SIHOO picks, so it's worth reading a few current reviews and double-checking the exact spec listing matches what you need before buying, since generic-brand listings can vary. An intriguing alternative for anyone chasing the single highest rating on this list."
     }
@@ -626,53 +626,53 @@
     },
     {
      "id": "ofc-013",
-     "asin": "B0D9MCZSCS",
-     "name": "ErGear Standing Desk 160×80 cm (Brushless)",
-     "brand": "ErGear",
-     "price": 168,
+     "asin": "B0FMJT7357",
+     "name": "HUANUO Electric Standing Desk 160×80 cm",
+     "brand": "HUANUO",
+     "price": 173,
      "rating": 4.6,
      "badge": "Best Large Surface",
      "specs": {
-      "Drive": "Brushless motor",
       "Size": "160×80 cm",
-      "Load": "High",
-      "Memory": "Presets"
+      "Height": "72–118 cm",
+      "Memory": "4 presets",
+      "Tested": "50,000 lift cycles"
      },
      "pros": [
       "Big 160×80 surface",
-      "Quiet brushless motor",
-      "Strong value per cm"
+      "Four memory presets",
+      "Wide 72–118 cm height range"
      ],
      "cons": [
       "Needs the wall space",
-      "Heavier assembly"
+      "Pricier than the 120 cm desks here"
      ],
-     "verdict": "The big-surface value king: dual-monitor real estate that rises on command."
+     "verdict": "The big-surface pick: dual-monitor real estate with four memory heights."
     },
     {
      "id": "ofc-014",
-     "asin": "B0GBWJ44GZ",
-     "name": "ERGOMAKER Electric Standing Desk 100×60 cm",
+     "asin": "B0D9GS5Z3T",
+     "name": "ERGOMAKER Electric Standing Desk 90×60 cm",
      "brand": "ERGOMAKER",
-     "price": 130,
+     "price": 144,
      "rating": 4.5,
      "badge": "Best Compact",
      "specs": {
       "Drive": "Electric",
-      "Size": "100×60 cm compact",
-      "Memory": "Presets",
-      "Use": "Box rooms"
+      "Size": "90×60 cm compact",
+      "Memory": "2 presets + child lock",
+      "Load": "65 kg"
      },
      "pros": [
-      "Compact 100 cm width",
-      "Electric with presets",
+      "Compact 90 cm width",
+      "Electric with two presets",
       "Box-room friendly"
      ],
      "cons": [
       "Small surface",
-      "Single motor"
+      "Spliced two-piece tabletop"
      ],
-     "verdict": "The box-room sit-stand: full electric function squeezed into 100 cm."
+     "verdict": "The box-room sit-stand: full electric function squeezed into 90 cm."
     },
     {
      "id": "ofc-015",
@@ -763,28 +763,28 @@
    "products": [
     {
      "id": "ofc-016",
-     "asin": "B0GBWJ44GZ",
-     "name": "ERGOMAKER Electric Standing Desk 100×60 cm",
+     "asin": "B0D9GS5Z3T",
+     "name": "ERGOMAKER Electric Standing Desk 90×60 cm",
      "brand": "ERGOMAKER",
-     "price": 130,
+     "price": 144,
      "rating": 4.5,
      "badge": "Best Small Sit-Stand",
      "specs": {
       "Drive": "Electric",
-      "Size": "100×60 cm compact",
-      "Memory": "Presets",
-      "Use": "Box rooms"
+      "Size": "90×60 cm compact",
+      "Memory": "2 presets + child lock",
+      "Load": "65 kg"
      },
      "pros": [
-      "Compact 100 cm width",
-      "Electric with presets",
+      "Compact 90 cm width",
+      "Electric with two presets",
       "Box-room friendly"
      ],
      "cons": [
       "Small surface",
-      "Single motor"
+      "Spliced two-piece tabletop"
      ],
-     "verdict": "The box-room sit-stand: full electric function squeezed into 100 cm."
+     "verdict": "The box-room sit-stand: full electric function squeezed into 90 cm."
     },
     {
      "id": "ofc-017",

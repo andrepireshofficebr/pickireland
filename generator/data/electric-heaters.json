@@ -120,11 +120,11 @@
         },
         {
           "id": "eht-003",
-          "asin": "B081T75Y16",
-          "name": "Devola 1500W Smart Glass Panel Heater",
+          "asin": "B0CK8LX955",
+          "name": "Devola 1500W Smart Glass Panel Heater (Grey)",
           "brand": "Devola",
-          "price": 110,
-          "rating": 4.5,
+          "price": 124,
+          "rating": 4.3,
           "badge": "Best Smart Panel",
           "specs": {
             "Power": "1,500 W",
@@ -135,13 +135,13 @@
           "pros": [
             "Schedule around night rates",
             "Glass panel looks built-in",
-            "Accurate electronic thermostat"
+            "Open-window detection"
           ],
           "cons": [
             "Needs WiFi for best tricks",
             "Convection suits sealed rooms"
           ],
-          "verdict": "Devola's 1500W Smart Glass Panel Heater earns its badge through control, not raw power: WiFi and Alexa support let you schedule heating around cheaper night-rate electricity, and the electronic thermostat holds temperature accurately according to Amazon.ie buyers. The glass panel also looks more like fitted furniture than a portable heater, which matters if it stays in view year-round. Two caveats: the smart scheduling only pays off if your WiFi reaches the room, and as a convection heater it performs best in a sealed space rather than one with draughts or an open door. Ideal for pre-warming a room automatically before waking up or getting home; less useful if you just want to plug in and go."
+          "verdict": "Devola's 1500W Smart Glass Panel Heater earns its badge through control, not raw power: WiFi and Alexa support let you schedule heating around cheaper night-rate electricity, and open-window detection is built in. The 65 × 47 cm glass panel looks more like fitted furniture than a portable heater, which matters if it stays in view year-round, and it can go on the wall or stand on its feet. Two caveats: the smart scheduling only pays off if your WiFi reaches the room, and as a convection heater it performs best in a sealed space rather than one with draughts or an open door. Ideal for pre-warming a room automatically before waking up or getting home; less useful if you just want to plug in and go."
         },
         {
           "id": "eht-004",
@@ -448,24 +448,27 @@
         },
         {
           "id": "eht-025",
-          "asin": "B0CL4XM7VN",
-          "name": "Belaco PTC Heater (Digital + Remote)",
-          "brand": "Belaco",
-          "price": 32,
-          "rating": 4.5,
+          "asin": "B09512XD1T",
+          "name": "Pro Breeze 2000W Mini Ceramic Fan Heater",
+          "brand": "Pro Breeze",
+          "price": 40,
+          "rating": 4.4,
           "badge": "Strong Alternative",
           "specs": {
-            "Power": "2000 W"
+            "Power": "900 / 1,300 / 2,000 W",
+            "Modes": "3 heat + fan only",
+            "Thermostat": "Adjustable",
+            "Safety": "Overheat + tip-over"
           },
           "pros": [
-            "€32 — third-cheapest of the 7 picks here",
-            "Owners rate it 4.5★, above our top pick's 4.0★"
+            "€40 — 4th-cheapest of the 7 picks here",
+            "Owners rate it 4.4★, above our top pick's 4.0★"
           ],
           "cons": [
             "2 of the 7 picks here are better rated by owners",
-            "€11 more than our top pick"
+            "€19 more than our top pick"
           ],
-          "verdict": "A €32 PTC ceramic heater with a digital thermostat and remote, rated 4.5 stars by owners — a better score than our cheapest-to-run pick manages at 4.0. PTC ceramic heats fast and aims heat at a person, which is the right principle for this page. It sits below our top pick only because that Warmlite draws 650W against the higher wattage a 2kW-class ceramic unit pulls at full tilt, and this page ranks on running cost first. Strong choice if you'd rather have the thermostat and remote than the absolute lowest draw."
+          "verdict": "A €40 mini ceramic heater with three power levels — 900, 1,300 and 2,000 W — plus a fan-only mode, an adjustable thermostat and tip-over protection, rated 4.4 stars by more than 1,000 owners. Ceramic heats fast and aims warmth at a person, which is the right principle for this page, and the 900 W setting costs about €0.34 an hour at €0.38/kWh. It sits below our top pick only because that Warmlite draws 650W, and this page ranks on running cost first. Strong choice if you want a thermostat and a low setting in a heater small enough for a desk."
         },
         {
           "id": "eht-027",
@@ -792,11 +795,11 @@
       "products": [
         {
           "id": "eht-016",
-          "asin": "B081T75Y16",
-          "name": "Devola 1500W Smart Glass Panel Heater",
+          "asin": "B0CK8LX955",
+          "name": "Devola 1500W Smart Glass Panel Heater (Grey)",
           "brand": "Devola",
-          "price": 110,
-          "rating": 4.5,
+          "price": 124,
+          "rating": 4.3,
           "badge": "Best Panel Overall",
           "specs": {
             "Power": "1,500 W",
@@ -807,7 +810,7 @@
           "pros": [
             "Schedule around night rates",
             "Glass panel looks built-in",
-            "Accurate electronic thermostat"
+            "Open-window detection"
           ],
           "cons": [
             "Needs WiFi for best tricks",
@@ -867,28 +870,28 @@
         },
         {
           "id": "eht-030",
-          "asin": "B07W6XBRVQ",
-          "name": "BLACK+DECKER Ceramic Tower Fan Heater",
-          "brand": "BLACK+DECKER",
-          "price": 90,
-          "rating": 4.0,
+          "asin": "B09W9DTMDL",
+          "name": "Dreo 1500W Oscillating Ceramic Heater (Remote)",
+          "brand": "Dreo",
+          "price": 80,
+          "rating": 4.5,
           "badge": "Reader Favourite",
           "specs": {
-            "Power": "1000 / 1500 W",
-            "Oscillation": "75°",
-            "Settings": "3 (fan, low, high)",
-            "Thermostat": "Adjustable"
+            "Power": "1,500 W",
+            "Oscillation": "70°",
+            "Modes": "High, Low, ECO, Fan",
+            "Timer": "1–12 h"
           },
           "pros": [
-            "€20 less than our top pick",
-            "1000 / 1500 W power",
-            "75° oscillation"
+            "70° oscillation with remote control",
+            "ECO mode adjusts power to the room",
+            "Tip-over and overheat protection"
           ],
           "cons": [
-            "Lowest owner rating of the picks here at 4.0★",
-            "4.0★ owner rating is only average for this price bracket"
+            "Fan heater, not a panel",
+            "Compact 26.2 cm unit, not a tower"
           ],
-          "verdict": "BLACK+DECKER's ceramic tower is a recognisable brand at €90, undercutting our €110 Devola panel pick. It's a fan heater rather than a panel heater, though, which means fast warmth and fan noise rather than the silent background heat a panel is bought for — and its 4.0-star owner rating is the lowest on this page against the Devola's 4.5. Fine as a quick-heat backup; not a substitute for a wall-mounted panel."
+          "verdict": "Dreo's compact ceramic heater costs €80 against our €124 Devola panel pick and carries a stronger 4.5-star owner rating from more than 5,000 buyers. Like the other fan heaters on this page, though, it isn't a panel: it pushes warm air quickly across a 70° sweep, with fan noise, rather than giving off the silent background heat a wall-mounted panel is bought for. The ECO mode and 1–12 hour timer help keep running time in check. A good quick-heat backup for a desk or bedside; not a replacement for a fitted panel."
         },
         {
           "id": "eht-032",
@@ -905,15 +908,15 @@
             "Smart": "Air+ app connected"
           },
           "pros": [
-            "€114 — 5th-cheapest of the 7 picks here",
+            "€114 — 4th-cheapest of the 7 picks here",
             "1200 / 2000 W power",
             "Up to 20 m² coverage"
           ],
           "cons": [
             "2 of the 7 picks here are better rated by owners",
-            "€4 more than our top pick, which owners rate higher at 4.5★"
+            "€10 less than our top pick, with the same 4.3★ owner rating"
           ],
-          "verdict": "Philips' Connected Tower is €114 against our €110 Devola pick, so effectively the same money, and rates 4.3 stars to the Devola's 4.5. The difference that matters here is format: this is a tower fan heater, not a wall-mountable panel, so it delivers fast directional warmth with fan noise rather than the silent, fitted background heat this page is about. Fine heater, wrong shape for this list."
+          "verdict": "Philips' Connected Tower is €114 against our €124 Devola pick, so slightly cheaper, and matches the Devola's 4.3-star owner rating. The difference that matters here is format: this is a tower fan heater, not a wall-mountable panel, so it delivers fast directional warmth with fan noise rather than the silent, fitted background heat this page is about. Fine heater, wrong shape for this list."
         },
         {
           "id": "eht-035",
@@ -936,7 +939,7 @@
           ],
           "cons": [
             "1 of the 7 picks here is better rated by owners",
-            "€45 more than our top pick, which owners rate higher at 4.5★"
+            "€31 more than our top pick, the Devola panel"
           ],
           "verdict": "De'Longhi's Bend Line is the most expensive option on this page at €155 and carries a good 4.4-star rating from a brand with real service presence in Ireland. Like the other towers here it's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it only if you'd rather have De'Longhi's build than a true panel."
         }

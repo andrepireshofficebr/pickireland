@@ -431,28 +431,28 @@
         },
         {
           "id": "apr-010",
-          "asin": "B07QT1WNJP",
-          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-          "brand": "QUEENTY",
-          "price": 50,
-          "rating": 4.2,
+          "asin": "B0B24L2Y1T",
+          "name": "AIRTOK H13 HEPA Air Purifier (AP0601)",
+          "brand": "AIRTOK",
+          "price": 48,
+          "rating": 4.4,
           "badge": "Best H13 Value",
           "specs": {
-            "Filter": "H13 HEPA",
-            "Extras": "Ioniser (switchable)",
-            "Coverage": "Medium rooms",
-            "Noise": "Low"
+            "Filter": "H13 HEPA, 4-stage",
+            "Coverage": "35 m² twice an hour",
+            "Noise": "Under 25 dB (sleep)",
+            "Timer": "2 / 4 / 8 h"
           },
           "pros": [
-            "H13 + optional ioniser",
-            "Decent medium-room coverage",
-            "Simple operation"
+            "H13 HEPA under €50",
+            "Under 25 dB on the lowest speed",
+            "Night light can be switched off"
           ],
           "cons": [
-            "Plastic build",
-            "Brand support thin"
+            "Medium rooms only (35 m²)",
+            "Aroma pads add nothing to filtration"
           ],
-          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+          "verdict": "H13 filtration for a bedroom-sized room at €48 — the low-cost route to a lower-pollen night."
         },
         {
           "id": "apr-028",
@@ -617,28 +617,28 @@
         },
         {
           "id": "apr-014",
-          "asin": "B07QT1WNJP",
-          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-          "brand": "QUEENTY",
-          "price": 50,
-          "rating": 4.2,
+          "asin": "B0B24L2Y1T",
+          "name": "AIRTOK H13 HEPA Air Purifier (AP0601)",
+          "brand": "AIRTOK",
+          "price": 48,
+          "rating": 4.4,
           "badge": "Best Value H13",
           "specs": {
-            "Filter": "H13 HEPA",
-            "Extras": "Ioniser (switchable)",
-            "Coverage": "Medium rooms",
-            "Noise": "Low"
+            "Filter": "H13 HEPA, 4-stage",
+            "Coverage": "35 m² twice an hour",
+            "Noise": "Under 25 dB (sleep)",
+            "Timer": "2 / 4 / 8 h"
           },
           "pros": [
-            "H13 + optional ioniser",
-            "Decent medium-room coverage",
-            "Simple operation"
+            "H13 HEPA under €50",
+            "Under 25 dB on the lowest speed",
+            "Night light can be switched off"
           ],
           "cons": [
-            "Plastic build",
-            "Brand support thin"
+            "Medium rooms only (35 m²)",
+            "Aroma pads add nothing to filtration"
           ],
-          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+          "verdict": "Under 25 dB in sleep mode with the light off — H13 bedroom cleaning for €48."
         },
         {
           "id": "apr-015",
@@ -668,28 +668,28 @@
         },
         {
           "id": "apr-026",
-          "asin": "B0DTHD85T1",
-          "name": "GoveeLife Smart Air Purifier (Large Rooms)",
+          "asin": "B0CYT3C692",
+          "name": "GoveeLife Smart Mini Air Purifier (App & Alexa)",
           "brand": "GoveeLife",
-          "price": 78,
+          "price": 76,
           "rating": 4.6,
           "badge": "Strong Alternative",
           "specs": {
-            "Coverage": "Up to 97 m² (1,046 ft²)",
-            "Filter": "3-in-1 HEPA",
-            "Sleep mode": "24 dB",
-            "Monitor": "PM2.5 sensor"
+            "Coverage": "376 ft² once an hour",
+            "Filter": "HEPA",
+            "Control": "App, Alexa, Google Assistant",
+            "Sensor": "None (no auto mode)"
           },
           "pros": [
-            "€78 — 4th-cheapest of the 7 picks here",
-            "Up to 97 m² (1,046 ft²) coverage",
-            "3-in-1 HEPA filter"
+            "App, Alexa and Google control",
+            "Scheduled custom speed modes",
+            "Compact with 360° air intake"
           ],
           "cons": [
-            "1 of the 7 picks here is better rated by owners",
-            "€17 more than our top pick"
+            "No PM2.5 sensor, so no auto mode",
+            "2.4 GHz Wi-Fi only"
           ],
-          "verdict": "GoveeLife's large-room unit carries the same 4.6-star owner rating as our quietest pick while costing €78 against €61, and it's built for bigger spaces than a bedroom. That's the catch on this page specifically: it's a large-room machine, and large-room machines earn their coverage with more airflow, which is the opposite of what a bedroom needs at 3am. Consider it if the room doubles as a home office by day; for sleep alone, the LEVOIT is the better fit."
+          "verdict": "GoveeLife's mini purifier carries the same 4.6-star owner rating as our quietest pick for €76 against €61, and its pitch is control rather than power: app, Alexa and Google Assistant support, plus custom modes that switch fan speed at times you set. It's sized for a bedroom at 376 sq ft once an hour, which suits this page, but it has no PM2.5 sensor, so there's no automatic mode reacting to the air. Worth the extra €15 if you want to schedule it from your phone; for plain quiet overnight running, the LEVOIT does the job for less."
         },
         {
           "id": "apr-029",
@@ -858,28 +858,28 @@
         },
         {
           "id": "apr-019",
-          "asin": "B07QT1WNJP",
-          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-          "brand": "QUEENTY",
-          "price": 50,
-          "rating": 4.2,
+          "asin": "B0B24L2Y1T",
+          "name": "AIRTOK H13 HEPA Air Purifier (AP0601)",
+          "brand": "AIRTOK",
+          "price": 48,
+          "rating": 4.4,
           "badge": "Best Mid-Room Support",
           "specs": {
-            "Filter": "H13 HEPA",
-            "Extras": "Ioniser (switchable)",
-            "Coverage": "Medium rooms",
-            "Noise": "Low"
+            "Filter": "H13 HEPA, 4-stage",
+            "Coverage": "35 m² twice an hour",
+            "Noise": "Under 25 dB (sleep)",
+            "Timer": "2 / 4 / 8 h"
           },
           "pros": [
-            "H13 + optional ioniser",
-            "Decent medium-room coverage",
-            "Simple operation"
+            "H13 HEPA under €50",
+            "Under 25 dB on the lowest speed",
+            "Night light can be switched off"
           ],
           "cons": [
-            "Plastic build",
-            "Brand support thin"
+            "Medium rooms only (35 m²)",
+            "Aroma pads add nothing to filtration"
           ],
-          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+          "verdict": "A quiet H13 unit for the smaller rooms off an open-plan space: 35 m² twice an hour for €48."
         },
         {
           "id": "apr-020",
@@ -909,23 +909,28 @@
         },
         {
           "id": "apr-030",
-          "asin": "B09BJMY8HL",
-          "name": "Levoit Smart Air Purifier for Large Rooms",
+          "asin": "B08R794ZMX",
+          "name": "Levoit Core 400S Smart Air Purifier (83 m²)",
           "brand": "Levoit",
-          "price": 365,
+          "price": 415,
           "rating": 4.6,
           "badge": "Smart Alternative",
           "specs": {
-            "Power": "49 W"
+            "Coverage": "83 m² twice an hour",
+            "CADR": "400 m³/h",
+            "Sensor": "PM2.5 laser",
+            "Control": "App + Alexa"
           },
           "pros": [
-            "Second-best owner rating on this page at 4.6★"
+            "Clears this page's 300 m³/h CADR bar",
+            "PM2.5 sensor drives auto mode",
+            "4.6★ from 15,000+ owners"
           ],
           "cons": [
-            "1 of the 6 picks here is better rated by owners",
-            "€244 more than our top pick, which owners rate higher at 4.7★"
+            "Most expensive on this page",
+            "€294 more than our top pick, which owners rate higher at 4.7★"
           ],
-          "verdict": "This Levoit is the most expensive machine on the page at €365 and well rated at 4.6 stars, from the same brand as our €121 top pick. The awkward part is that our pick is also a Levoit, covers up to 70 m², and rates slightly higher at 4.7 — so you'd be paying roughly triple for the same badge. Only worth it if its coverage figure genuinely exceeds what the cheaper Levoit handles in your room."
+          "verdict": "The Core 400S is the most expensive machine on this page at €415, and its 400 m³/h CADR is enough to cycle an 83 m² room twice an hour, which is the open-plan scale this page is about. A PM2.5 laser sensor runs its auto mode, it works with Alexa, and more than 15,000 owners rate it 4.6 stars. The awkward part is our €121 top pick, also a Levoit, which covers up to 70 m² and rates slightly higher at 4.7. Pay the difference only if your space is clearly bigger than 70 m²."
         }
       ]
     },
@@ -1043,28 +1048,28 @@
         },
         {
           "id": "apr-023",
-          "asin": "B07QT1WNJP",
-          "name": "QUEENTY H13 HEPA Air Purifier with Ioniser",
-          "brand": "QUEENTY",
-          "price": 50,
-          "rating": 4.2,
+          "asin": "B0B24L2Y1T",
+          "name": "AIRTOK H13 HEPA Air Purifier (AP0601)",
+          "brand": "AIRTOK",
+          "price": 48,
+          "rating": 4.4,
           "badge": "Best H13 Under €60",
           "specs": {
-            "Filter": "H13 HEPA",
-            "Extras": "Ioniser (switchable)",
-            "Coverage": "Medium rooms",
-            "Noise": "Low"
+            "Filter": "H13 HEPA, 4-stage",
+            "Coverage": "35 m² twice an hour",
+            "Noise": "Under 25 dB (sleep)",
+            "Timer": "2 / 4 / 8 h"
           },
           "pros": [
-            "H13 + optional ioniser",
-            "Decent medium-room coverage",
-            "Simple operation"
+            "H13 HEPA under €50",
+            "Under 25 dB on the lowest speed",
+            "Night light can be switched off"
           ],
           "cons": [
-            "Plastic build",
-            "Brand support thin"
+            "Medium rooms only (35 m²)",
+            "Aroma pads add nothing to filtration"
           ],
-          "verdict": "Mid-room H13 cleaning with an ioniser boost — solid value at €50."
+          "verdict": "H13 filtration and a 2/4/8-hour timer for under €50 — honest bedroom value."
         },
         {
           "id": "apr-024",

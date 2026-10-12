@@ -587,28 +587,28 @@
         },
         {
           "id": "afr-012",
-          "asin": "B0D86SYK74",
-          "name": "9L Dual Air Fryer (2× 4.5L Drawers)",
-          "brand": "Tobersolic",
-          "price": 74,
-          "rating": 4.3,
+          "asin": "B0CM9RXKZH",
+          "name": "Daewoo 9L Dual Air Fryer (2× 4.5L Drawers)",
+          "brand": "Daewoo",
+          "price": 92,
+          "rating": 4.4,
           "badge": "Best Value Dual Zone",
           "specs": {
-            "Capacity": "9 L (2× 4.5)",
-            "Presets": "8-in-1",
-            "Window": "Visual drawers",
-            "Sync": "Smart finish"
+            "Capacity": "9 L (2× 4.5 L)",
+            "Sync": "Both drawers finish together",
+            "Timer": "60 min",
+            "Functions": "Air fry, bake, roast, grill"
           },
           "pros": [
-            "9L dual-zone under €75",
-            "Two genuinely big drawers",
-            "Viewing windows"
+            "9L dual-zone under €95",
+            "Sync finishes both drawers together",
+            "Two 4.5 L drawers for mains and sides"
           ],
           "cons": [
-            "Lesser-known brand",
-            "Crisping a step behind Ninja"
+            "Smaller review base than the Ninja (330 ratings)",
+            "Timer tops out at 60 minutes"
           ],
-          "verdict": "The dual-zone bargain: Ninja's trick at half Ninja's price, if you accept a plainer badge."
+          "verdict": "The dual-zone bargain: two 4.5-litre drawers with a sync finish for well under the Ninja's price."
         },
         {
           "id": "afr-013",
@@ -712,28 +712,28 @@
         },
         {
           "id": "afr-031",
-          "asin": "B0FMRPRPP4",
-          "name": "Tower T17181AFR Vortx Dual Basket Air Fryer",
+          "asin": "B0BFX3MDTS",
+          "name": "Tower T17102 Vortx Vizion Dual Compartment Air Fryer (11L)",
           "brand": "Tower",
-          "price": 121,
-          "rating": 4.4,
+          "price": 113,
+          "rating": 4.3,
           "badge": "Reader Favourite",
           "specs": {
-            "Capacity": "8 L (2× 4 L)",
-            "Power": "2460 W",
-            "Presets": "8",
-            "Sync": "Dual + Meal finish-together"
+            "Capacity": "11 L (2× 5.5 L)",
+            "Functions": "Air fry, roast, bake, grill, dehydrate",
+            "Presets": "10",
+            "Controls": "Digital touch panel"
           },
           "pros": [
-            "€29 less than our top pick",
-            "8 L (2× 4 L) capacity",
-            "2460 W power"
+            "€37 less than our top pick",
+            "11 L (2× 5.5 L) capacity",
+            "10 one-touch presets"
           ],
           "cons": [
-            "4 of the 7 picks here are better rated by owners",
+            "Lowest owner rating of the picks here at 4.3★",
             "Our top pick still rates higher with owners at 4.9★"
           ],
-          "verdict": "Tower's dual-basket Vortx is the budget route into two independently controlled drawers, at €121 against the Ninja Foodi's €150. Owners rate it 4.4 stars to the Ninja's 4.9, and that gap shows up mostly in build feel and how evenly the two zones hold temperature. Worth the saving if dual-zone capability matters more to you than finish; otherwise the extra €29 for the Ninja is money well spent."
+          "verdict": "Tower's Vortx Vizion splits 11 litres into two 5.5-litre compartments, the largest total capacity on this page, at €113 against the Ninja Foodi's €150. Owners rate it 4.3 stars to the Ninja's 4.9, the lowest score here, so you're trading proven finish for space and price. Ten one-touch presets and five cooking modes, including dehydrate, cover more than most families will use. Worth the saving if raw capacity matters most; otherwise the Ninja's extra €37 buys the better-rated machine."
         }
       ],
       "guide": [
@@ -851,28 +851,28 @@
         },
         {
           "id": "afr-018",
-          "asin": "B0D86SYK74",
-          "name": "9L Dual Air Fryer (2× 4.5L Drawers)",
-          "brand": "Tobersolic",
-          "price": 74,
-          "rating": 4.3,
+          "asin": "B0CM9RXKZH",
+          "name": "Daewoo 9L Dual Air Fryer (2× 4.5L Drawers)",
+          "brand": "Daewoo",
+          "price": 92,
+          "rating": 4.4,
           "badge": "Best 9L Value",
           "specs": {
-            "Capacity": "9 L (2× 4.5)",
-            "Presets": "8-in-1",
-            "Window": "Visual drawers",
-            "Sync": "Smart finish"
+            "Capacity": "9 L (2× 4.5 L)",
+            "Sync": "Both drawers finish together",
+            "Timer": "60 min",
+            "Functions": "Air fry, bake, roast, grill"
           },
           "pros": [
-            "9L dual-zone under €75",
-            "Two genuinely big drawers",
-            "Viewing windows"
+            "9L dual-zone under €95",
+            "Sync finishes both drawers together",
+            "Two 4.5 L drawers for mains and sides"
           ],
           "cons": [
-            "Lesser-known brand",
-            "Crisping a step behind Ninja"
+            "Smaller review base than the Ninja (330 ratings)",
+            "Timer tops out at 60 minutes"
           ],
-          "verdict": "The dual-zone bargain: Ninja's trick at half Ninja's price, if you accept a plainer badge."
+          "verdict": "Nine litres across two synced drawers for €92 — big-family capacity without the Ninja premium."
         },
         {
           "id": "afr-019",
@@ -950,26 +950,28 @@
         },
         {
           "id": "afr-034",
-          "asin": "B0DQQ3RKVJ",
-          "name": "Russell Hobbs Satisfry 8.3L (9 Programs)",
+          "asin": "B0BHLDZY47",
+          "name": "Russell Hobbs XXL 8L Air Fryer (10 Programmes)",
           "brand": "Russell Hobbs",
-          "price": 98,
+          "price": 120,
           "rating": 4.6,
           "badge": "Strong Alternative",
           "specs": {
-            "Capacity": "8.3 L",
-            "Power": "1800 W"
+            "Capacity": "8 L",
+            "Power": "1800 W",
+            "Programmes": "10",
+            "Max temp": "220 °C"
           },
           "pros": [
-            "€52 less than our top pick",
-            "8.3 L capacity",
-            "Strong 4.6★ owner rating"
+            "€30 less than our top pick",
+            "8 L single basket",
+            "Strong 4.6★ from 8,000+ owners"
           ],
           "cons": [
-            "2 of the 7 picks here are better rated by owners",
+            "Single basket — no independent zones",
             "Our top pick still rates higher with owners at 4.9★"
           ],
-          "verdict": "The Satisfry's 8.3 litres is more usable single-basket volume than our Ninja pick's 7.6 split across two drawers, and at €98 it undercuts the Ninja by over €50 with a strong 4.6-star owner rating. The trade is that it's one large basket rather than two independent zones, so you can't run chips and fish at different temperatures. The better buy for a family cooking one thing in bulk."
+          "verdict": "Russell Hobbs' XXL puts 8 litres into one basket, slightly more usable single-basket volume than the 7.6 litres our Ninja pick splits across two drawers, and at €120 it undercuts the Ninja by €30. More than 8,000 owners give it 4.6 stars, and ten preset programmes plus a 220 °C maximum cover chips, chicken, dehydrating and reheating. The trade is that it's one large basket rather than two independent zones, so you can't run chips and fish at different temperatures. The better buy for a family cooking one thing in bulk."
         }
       ],
       "guide": [
