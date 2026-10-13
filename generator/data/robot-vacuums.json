@@ -61,7 +61,7 @@
    "title": "Best Robot Vacuums in Ireland 2026 — Ranked",
    "desc": "Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Ranked for 2026.",
    "h1": "The Best Robot Vacuums in Ireland (2026)",
-   "intro": "The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation intelligence, real pickup on carpet and hard floor, dock capabilities and parts availability in Ireland. Six machines define the current sweet spots, from €112 to €549.",
+   "intro": "The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation intelligence, real pickup on carpet and hard floor, dock capabilities and parts availability in Ireland. Six machines define the current sweet spots, from €138 to €549.",
    "faq_idx": [
     0,
     4,
@@ -214,28 +214,28 @@
     },
     {
      "id": "rvc-005",
-     "asin": "B0F7LQGXM9",
-     "name": "Lefant M310 Robot Vacuum (4,500 Pa, Slim)",
+     "asin": "B09WMV9MQK",
+     "name": "Lefant M210P Robot Vacuum (Slim, 2,200 Pa)",
      "brand": "Lefant",
-     "price": 112,
-     "rating": 4.4,
+     "price": 138,
+     "rating": 4.3,
      "badge": "Best Budget",
      "specs": {
-      "Suction": "4,500 Pa",
-      "Height": "7.9 cm slim",
-      "Runtime": "Long",
-      "App": "Basic + Alexa"
+      "Suction": "2,200 Pa",
+      "Height": "7.8 cm slim",
+      "Runtime": "Up to 120 min",
+      "Bin": "500 ml"
      },
      "pros": [
       "Slides under low furniture",
-      "Solid suction",
-      "Proven budget brand"
+      "Up to 120 min per charge",
+      "Brushless nozzle resists hair tangles"
      ],
      "cons": [
-      "No mapping",
-      "Small bin"
+      "No mapping (infrared sensors)",
+      "Lowest suction on this page"
      ],
-     "verdict": "At just 7.9 cm tall, the Lefant M310 fits under furniture that would stop every other robot on this list, including the low sofas and beds common in Irish homes, while still delivering a solid 4,500 Pa of suction for €112 — the lowest price on this page. Lefant has a longer track record in the budget segment than newer entrants like HONITURE, and basic Alexa support covers simple voice commands. It skips proper mapping, navigating more by bumping and sensing than by building a floor plan, and the bin is noticeably smaller than the eufy or Tapo units, meaning more frequent emptying. Best for smaller homes where slim clearance under furniture matters more than smart mapping."
+     "verdict": "At 7.8 cm tall and 28 cm across, the Lefant M210P slips under low sofas and beds that block the bulkier robots on this list, and at €138 it is still the cheapest machine on this page. Its brushless suction nozzle means pet hair and long hair don't wrap around a roller you have to cut free, and one charge runs for up to 120 minutes, enough for most Irish homes in a single pass. The compromise is power and brains: 2,200 Pa is the lowest suction figure here, and it steers with infrared sensors rather than building a floor plan, so coverage is less methodical than the laser-guided eufy and Tapo models above. Best for smaller homes and hard floors where slim clearance matters more than smart mapping."
     },
     {
      "id": "rvc-028",
@@ -256,7 +256,7 @@
       "Lowest owner rating of the picks here at 4.1★",
       "4.1★ owner rating is only average for this price bracket"
      ],
-     "verdict": "The eufy C10 brings the eufy name and a self-empty station down to €299, a middle ground between the budget picks above and the €499–549 Omni models at the top of this page, with 4,000 Pa suction and a 4.1★ owner rating on Amazon.ie. It offers honest value for that spec sheet, and buying it through Amazon.ie keeps warranty and returns simple. It's a challenger rather than the category winner here, carrying less suction than the Tapo, HONITURE, or Lefant despite the higher price, so compare the numbers before choosing it over those. A sensible pick for eufy loyalists who want a self-empty dock without paying Omni prices, but check suction figures against cheaper rivals first."
+     "verdict": "The eufy C10 brings the eufy name and a self-empty station down to €299, a middle ground between the budget picks above and the €499–549 Omni models at the top of this page, with 4,000 Pa suction and a 4.1★ owner rating on Amazon.ie. It offers honest value for that spec sheet, and buying it through Amazon.ie keeps warranty and returns simple. It's a challenger rather than the category winner here, carrying less suction than the Tapo or HONITURE despite the higher price, so compare the numbers before choosing it over those. A sensible pick for eufy loyalists who want a self-empty dock without paying Omni prices, but check suction figures against cheaper rivals first."
     }
    ]
   },
@@ -619,28 +619,28 @@
     },
     {
      "id": "rvc-015",
-     "asin": "B0F7LQGXM9",
-     "name": "Lefant M310 Robot Vacuum (4,500 Pa, Slim)",
+     "asin": "B09WMV9MQK",
+     "name": "Lefant M210P Robot Vacuum (Slim, 2,200 Pa)",
      "brand": "Lefant",
-     "price": 112,
-     "rating": 4.4,
+     "price": 138,
+     "rating": 4.3,
      "badge": "Budget Pet Pick",
      "specs": {
-      "Suction": "4,500 Pa",
-      "Height": "7.9 cm slim",
-      "Runtime": "Long",
-      "App": "Basic + Alexa"
+      "Suction": "2,200 Pa",
+      "Height": "7.8 cm slim",
+      "Runtime": "Up to 120 min",
+      "Bin": "500 ml"
      },
      "pros": [
       "Slides under low furniture",
-      "Solid suction",
-      "Proven budget brand"
+      "Up to 120 min per charge",
+      "Brushless nozzle resists hair tangles"
      ],
      "cons": [
-      "No mapping",
-      "Small bin"
+      "No mapping (infrared sensors)",
+      "Lowest suction on this page"
      ],
-     "verdict": "The under-furniture specialist: slim, simple and dependable daily dust control."
+     "verdict": "The slim budget pet pick: a brushless nozzle hair can't tangle, daily passes under low furniture."
     },
     {
      "id": "rvc-029",

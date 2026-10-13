@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-12 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-13 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -3363,18 +3363,18 @@ Pros: Heats in seconds; Accurate digital thermostat; Quiet for a fan heater
 Cons: Room-size limits; No app
 Verdict: At €49, the Dreo 1500W Ceramic Space Heater earns the Best Overall badge by getting the fundamentals right: ceramic PTC heating that warms a room in seconds, paired with a digital thermostat owner reviews on Amazon.ie describe as unusually precise for the price. It also runs quieter than typical fan heaters, and tip-over plus overheat protection cover the safety basics. Where it falls short is scale — 1,500W suits a bedroom or home office, not an open-plan living area, and there's no app, so scheduling means walking over and pressing a button. Buy this if you want fast, accurate heat in one room without paying for smart features you won't use; skip it if you're heating a large space.
 
-### 2. De'Longhi Dragon 4 2000W Oil Radiator (TRD40820T)  [Best Oil Radiator]
-Brand: De'Longhi
+### 2. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator]
+Brand: Rowenta
 Price: ~€135
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Type: Oil-filled
-Thermostat: Precision dial
-Use: All-evening rooms
-Pros: Retains heat after cycling off; Silent operation; Built to last a decade
-Cons: Slow first 20 minutes; Bulky to store
-Verdict: The De'Longhi Dragon 4 suits rooms you sit in all evening rather than blast for ten minutes. Its 2,000W oil-filled design keeps radiating warmth after the thermostat cycles off, which is why owners on Amazon.ie say running costs feel lower over a full evening despite the higher price. It's also silent — no fan hum — and the build has a reputation for lasting years rather than one winter. The trade-off is patience: oil radiators take around 20 minutes to get going, so it's the wrong choice for instant heat, and its size makes it awkward to store in summer. Best suited to a living room or bedroom used for hours at a stretch.
+Settings: 3 incl. Eco
+Room size: Up to 25 m²
+Pros: Retains heat after cycling off; Quiet operation; Tip-over and overheat cut-outs
+Cons: Slow warm-up like all oil; Sized for rooms up to 25 m²
+Verdict: The Rowenta suits rooms you sit in all evening rather than blast for ten minutes. Its 2,000W oil-filled body keeps radiating warmth after the thermostat cycles off, and one of its three settings is an Eco mode, so you can hold a comfortable temperature without running flat out for hours. It is quiet, with no fan hum, and has both tip-over and overheat protection for long unattended stretches. The trade-off is patience: like every oil radiator it takes a while to get going, so it's the wrong choice for instant heat, and Rowenta sizes it for rooms up to 25 m² rather than open-plan spaces. Best suited to a bedroom or a modest living room used for hours at a stretch.
 
 ### 3. Devola 1500W Smart Glass Panel Heater (Grey)  [Best Smart Panel]
 Brand: Devola
@@ -3422,8 +3422,8 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.87/hour at €0.38/kWh
 Power: 2300 W
 Pros: €89 — 4th-cheapest of the 8 picks here; 2300 W power
-Cons: 2 of the 8 picks here are better rated by owners; €40 more than our top pick, which owners rate higher at 4.7★
-Verdict: The Zanussi 2300W Oil Filled Radiator sits just outside our top picks but is worth a look on value alone: an 11-fin, 2,300W design at €89 undercuts the De'Longhi oil radiator above by a significant margin while still holding a 4.4★ owner rating on Amazon.ie. It ships with the standard Amazon.ie returns protection, which takes some of the risk out of trying a less familiar name. Set against that, it hasn't been in our comparison as long as the established picks, and because Zanussi products are sold through multiple sellers, the level of support you get can vary. A reasonable pick for anyone who wants oil-radiator style heat without paying De'Longhi money, provided they're comfortable with a shorter track record.
+Cons: 1 of the 8 picks here is better rated by owners; €40 more than our top pick, which owners rate higher at 4.7★
+Verdict: The Zanussi 2300W Oil Filled Radiator sits just outside our top picks but is worth a look on value alone: an 11-fin, 2,300W design at €89 undercuts the Rowenta oil radiator above by a significant margin while still holding a 4.4★ owner rating on Amazon.ie. It ships with the standard Amazon.ie returns protection, which takes some of the risk out of trying a less familiar name. Set against that, it hasn't been in our comparison as long as the established picks, and because Zanussi products are sold through multiple sellers, the level of support you get can vary. A reasonable pick for anyone who wants oil-radiator style heat without paying big-brand money, provided they're comfortable with a shorter track record.
 
 ### 7. De'Longhi Radia S (Rooms up to 60 m³)  [Strong Alternative]
 Brand: De'Longhi
@@ -3435,8 +3435,8 @@ Heat settings: 3
 Room size: Up to 60 m³
 Type: Oil-filled radiator
 Pros: €135 — 6th-cheapest of the 8 picks here; 2000 W power; 3 heat settings
-Cons: 2 of the 8 picks here are better rated by owners; €86 more than our top pick, which owners rate higher at 4.7★
-Verdict: The De'Longhi Radia S carries the same trusted De'Longhi name as our oil radiator winner, sized for rooms up to 60 m³, and holds a solid 4.4★ from Amazon.ie owners at €135. It offers honest value for what's on the spec sheet, and buying through Amazon.ie keeps warranty and returns simple. It didn't take the category badge here, so it's positioned as an alternative rather than the outright pick, and given how close it's priced to the Dragon 4 above, it's worth comparing both spec sheets before deciding. Reasonable for buyers who prefer this model's size or styling to the Dragon 4, but not an obvious upgrade over our top choice.
+Cons: 1 of the 8 picks here is better rated by owners; €86 more than our top pick, which owners rate higher at 4.7★
+Verdict: The De'Longhi Radia S is sized for rooms up to 60 m³ and holds a solid 4.4★ from Amazon.ie owners at €135, a touch above the 4.3★ of our Rowenta oil radiator winner. It offers honest value for what's on the spec sheet, and buying through Amazon.ie keeps warranty and returns simple. It didn't take the category badge here, so it's positioned as an alternative rather than the outright pick, and given how close it's priced to the Rowenta above, it's worth comparing both spec sheets before deciding. Reasonable for buyers who prefer this model's size or styling to the Rowenta, but not an obvious upgrade over our top choice.
 
 ### 8. De'Longhi Dragon 4 Pro TRDX41025E (Digital)  [Notable Mention]
 Brand: De'Longhi
@@ -3448,8 +3448,8 @@ Room size: Up to 75 m³
 Heat settings: 3
 Timer: 24 h digital
 Pros: 2500 W power; Up to 75 m³ room size
-Cons: 5 of the 8 picks here are better rated by owners; €187 more than our top pick, which owners rate higher at 4.7★
-Verdict: The Dragon 4 Pro TRDX41025E is De'Longhi's digital step up, and at €236 it's the most expensive heater on this page by a wide margin. Amazon.ie owners still rate it 4.3★, and the digital controls give it a more premium feel than the standard Dragon 4, with the same easy warranty route from buying through Amazon.ie. That price is hard to ignore — roughly five times the Warmlite fan heater above for a difference in day-to-day warmth most rooms won't notice — and it doesn't unseat our category winner. Only worth the jump if digital precision and De'Longhi's premium finish specifically matter to you; the standard Dragon 4 covers the same ground for less.
+Cons: 4 of the 8 picks here are better rated by owners; €187 more than our top pick, which owners rate higher at 4.7★
+Verdict: The Dragon 4 Pro TRDX41025E is De'Longhi's digital step up, and at €236 it's the most expensive heater on this page by a wide margin. Amazon.ie owners still rate it 4.3★, and the digital controls give it a more premium feel than the standard Dragon 4, with the same easy warranty route from buying through Amazon.ie. That price is hard to ignore — roughly five times the Warmlite fan heater above for a difference in day-to-day warmth most rooms won't notice — and it doesn't unseat our category winner. Only worth the jump if digital precision and De'Longhi's premium finish specifically matter to you; the Rowenta oil radiator above covers the same ground for less.
 
 #### How do you actually pick the right electric heater for a room?
 Answer three questions before comparing wattage or price: how big is the room, how well does it hold heat, and how long will the heater run each time you switch it on. A draughty period-house bedroom with single glazing loses heat far faster than a sealed 2020s apartment with the same floor area, so the same heater behaves completely differently in each. Rooms you occupy for hours — a sitting room in the evening, a home office all day — suit heaters with thermal mass or accurate thermostats that hold a set temperature efficiently. Rooms you pass through briefly — a hallway, a bathroom before a shower — suit fast radiant or fan heat that warms a person, not the air. Getting this match wrong is the single biggest reason Irish households end up with a heater that either never feels warm enough or runs constantly and produces a bill to match.
@@ -3625,18 +3625,18 @@ Summary: Oil-filled radiators compared for Irish homes: heat retention, thermost
 
 For hours-long heating of a closed room, nothing plug-in beats an oil-filled radiator: the oil holds heat, so the element cycles off while warmth keeps coming. They're silent, safe enough for long unattended stretches (with the right features), and kindest to all-evening bills. We compared thermal mass, thermostat quality and €-per-warm-evening across the seven best.
 
-### 1. De'Longhi Dragon 4 2000W Oil Radiator (TRD40820T)  [Best Oil Radiator Overall]
-Brand: De'Longhi
+### 1. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator Overall]
+Brand: Rowenta
 Price: ~€135
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Type: Oil-filled
-Thermostat: Precision dial
-Use: All-evening rooms
-Pros: Retains heat after cycling off; Silent operation; Built to last a decade
-Cons: Slow first 20 minutes; Bulky to store
-Verdict: The all-evening room heater: silent, frugal across hours, the category benchmark.
+Settings: 3 incl. Eco
+Room size: Up to 25 m²
+Pros: Retains heat after cycling off; Quiet operation; Tip-over and overheat cut-outs
+Cons: Slow warm-up like all oil; Sized for rooms up to 25 m²
+Verdict: The steady all-evening heater: quiet, Eco-mode thrifty, with full tip-over safety.
 
 ### 2. Midea 2000W Oil-Filled Radiator (9-Fin)  [Best Value 9-Fin]
 Brand: Midea
@@ -3699,9 +3699,9 @@ Power: 700–1500 W
 Oscillation: 70°
 Noise: From 25 dB
 Timer: 1–12 h
-Pros: €45 less than our top pick; 700–1500 W power; 70° oscillation
-Cons: 1 of the 7 picks here is better rated by owners; Our top pick still rates higher with owners at 4.6★
-Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €90 against €135 and rated a close 4.5 stars against 4.6. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
+Pros: €56 less than our top pick; 700–1500 W power; 70° oscillation
+Cons: Fan heater, not oil-filled; Stops warming when it switches off
+Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €90 against €146, and owners actually rate it higher, 4.5 stars against 4.3. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
 
 ### 7. Dimplex Studio G 2.5kW Ceramic Tower  [Worth Considering]
 Brand: Dimplex
@@ -3713,8 +3713,8 @@ Oscillation: 76°
 Timer: 12-hr runback
 Control: Digital + remote
 Pros: 2.5 kW power; 76° oscillation
-Cons: 4 of the 7 picks here are better rated by owners; €15 more than our top pick, which owners rate higher at 4.6★
-Verdict: Dimplex is a name with genuine service presence in Ireland, and this 2.5kW ceramic tower is the most powerful unit on this page at €150. Like the Dreo above it's a ceramic tower rather than an oil-filled radiator, so it heats quickly and stops just as quickly. Its 4.3-star owner rating is the lowest here. Consider it for a large room that needs heat fast; for the slow, retained warmth this page ranks on, the De'Longhi is the better buy at €135.
+Cons: 3 of the 7 picks here are better rated by owners; €4 more than our top pick, which owners rate the same at 4.3★
+Verdict: Dimplex is a name with genuine service presence in Ireland, and this 2.5kW ceramic tower is the most powerful unit on this page at €150. Like the Dreo above it's a ceramic tower rather than an oil-filled radiator, so it heats quickly and stops just as quickly. Its 4.3-star owner rating trails the Midea, MYLEK and Dreo above. Consider it for a large room that needs heat fast; for the slow, retained warmth this page ranks on, the Rowenta is the better buy at €146.
 
 #### Why do oil-filled radiators stay warm after the thermostat switches off?
 An oil-filled radiator heats a sealed reservoir of thermal oil rather than air or a person directly, and that oil holds heat far longer than the metal casing of a fan or ceramic heater. In practice the thermostat can switch the element off well before the room stops feeling warm, because the oil keeps radiating stored heat for a good while afterwards. The trade-off is a slower start — you feel a fan heater's output within seconds, but an oil radiator can take fifteen to twenty minutes to noticeably warm a room. For anywhere you're settling in for an evening rather than passing through, that slow, steady, even heat is usually the more comfortable and often the cheaper option over the full session, because the element spends less of the evening actually drawing power.
@@ -5774,7 +5774,7 @@ URL: https://pickireland.best/robot-vacuums/best-robot-vacuums-ireland.html
 Summary: Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Ranked for 2026.
 ------------------------------------------------------------------------------
 
-The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation intelligence, real pickup on carpet and hard floor, dock capabilities and parts availability in Ireland. Six machines define the current sweet spots, from €112 to €549.
+The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation intelligence, real pickup on carpet and hard floor, dock capabilities and parts availability in Ireland. Six machines define the current sweet spots, from €138 to €549.
 
 ### 1. eufy X10 Pro Omni (Vacuum + Mop, All-in-One Station)  [Best Overall]
 Brand: eufy
@@ -5824,17 +5824,17 @@ Pros: 8,000 Pa at €141; Vacuum-mop combo; Voice control
 Cons: Random-ish pathing vs lidar; No dock
 Verdict: The HONITURE G20 matches the eufy X10 Pro's 8,000 Pa suction figure at a fraction of the price — €141 versus €549 — while still combining vacuuming and mopping in one pass and supporting voice control through the app. For raw suction power per euro, it's the strongest figure on this entire page. The saving shows up elsewhere, though: without lidar mapping, its cleaning paths are less methodical than the laser-guided eufy and Tapo models above, and there's no self-empty or self-cleaning dock, so day-to-day maintenance falls entirely on you. Good value for someone who wants serious suction on a tight budget and doesn't mind manual upkeep and less efficient room coverage.
 
-### 5. Lefant M310 Robot Vacuum (4,500 Pa, Slim)  [Best Budget]
+### 5. Lefant M210P Robot Vacuum (Slim, 2,200 Pa)  [Best Budget]
 Brand: Lefant
 Price: ~€112
-Rating: 4.4/5 (Amazon.ie)
-Suction: 4,500 Pa
-Height: 7.9 cm slim
-Runtime: Long
-App: Basic + Alexa
-Pros: Slides under low furniture; Solid suction; Proven budget brand
-Cons: No mapping; Small bin
-Verdict: At just 7.9 cm tall, the Lefant M310 fits under furniture that would stop every other robot on this list, including the low sofas and beds common in Irish homes, while still delivering a solid 4,500 Pa of suction for €112 — the lowest price on this page. Lefant has a longer track record in the budget segment than newer entrants like HONITURE, and basic Alexa support covers simple voice commands. It skips proper mapping, navigating more by bumping and sensing than by building a floor plan, and the bin is noticeably smaller than the eufy or Tapo units, meaning more frequent emptying. Best for smaller homes where slim clearance under furniture matters more than smart mapping.
+Rating: 4.3/5 (Amazon.ie)
+Suction: 2,200 Pa
+Height: 7.8 cm slim
+Runtime: Up to 120 min
+Bin: 500 ml
+Pros: Slides under low furniture; Up to 120 min per charge; Brushless nozzle resists hair tangles
+Cons: No mapping (infrared sensors); Lowest suction on this page
+Verdict: At 7.8 cm tall and 28 cm across, the Lefant M210P slips under low sofas and beds that block the bulkier robots on this list, and at €138 it is still the cheapest machine on this page. Its brushless suction nozzle means pet hair and long hair don't wrap around a roller you have to cut free, and one charge runs for up to 120 minutes, enough for most Irish homes in a single pass. The compromise is power and brains: 2,200 Pa is the lowest suction figure here, and it steers with infrared sensors rather than building a floor plan, so coverage is less methodical than the laser-guided eufy and Tapo models above. Best for smaller homes and hard floors where slim clearance matters more than smart mapping.
 
 ### 6. eufy C10 Robot Vacuum with Self-Empty Station (4,000Pa)  [Challenger Pick]
 Brand: eufy
@@ -5843,7 +5843,7 @@ Rating: 4.1/5 (Amazon.ie)
 Suction: 4,000 Pa
 Pros: €250 less than our top pick; 4,000 Pa suction
 Cons: Lowest owner rating of the picks here at 4.1★; 4.1★ owner rating is only average for this price bracket
-Verdict: The eufy C10 brings the eufy name and a self-empty station down to €299, a middle ground between the budget picks above and the €499–549 Omni models at the top of this page, with 4,000 Pa suction and a 4.1★ owner rating on Amazon.ie. It offers honest value for that spec sheet, and buying it through Amazon.ie keeps warranty and returns simple. It's a challenger rather than the category winner here, carrying less suction than the Tapo, HONITURE, or Lefant despite the higher price, so compare the numbers before choosing it over those. A sensible pick for eufy loyalists who want a self-empty dock without paying Omni prices, but check suction figures against cheaper rivals first.
+Verdict: The eufy C10 brings the eufy name and a self-empty station down to €299, a middle ground between the budget picks above and the €499–549 Omni models at the top of this page, with 4,000 Pa suction and a 4.1★ owner rating on Amazon.ie. It offers honest value for that spec sheet, and buying it through Amazon.ie keeps warranty and returns simple. It's a challenger rather than the category winner here, carrying less suction than the Tapo or HONITURE despite the higher price, so compare the numbers before choosing it over those. A sensible pick for eufy loyalists who want a self-empty dock without paying Omni prices, but check suction figures against cheaper rivals first.
 
 #### Why can't a robot vacuum clean an upstairs and downstairs on its own?
 Robot vacuums don't climb stairs, full stop, and that single fact shapes the purchase more than any spec on the box. The typical Irish semi-detached or terraced house puts bedrooms on the first floor and kitchen and sitting room below, and a single robot only ever covers the level it's parked on. Owners either carry the unit between floors manually, buy a second cheaper unit for upstairs, or accept that one floor gets robot coverage and the other gets a stick vacuum on Saturdays. None of this is a flaw in any particular model; it's true of every robot vacuum sold, flagship or budget. Work out which floor genuinely needs the automation — usually the one with the most foot traffic or the pet — before comparing navigation systems or suction figures, because the floor-coverage question decides more about satisfaction than which lidar sensor is inside.
@@ -6041,17 +6041,17 @@ Pros: TP-Link app polish; Strong suction per euro; Quiet operation
 Cons: No self-empty dock; Pad-style mop only
 Verdict: The mid-range smart pick: big-brand software at a small price.
 
-### 5. Lefant M310 Robot Vacuum (4,500 Pa, Slim)  [Budget Pet Pick]
+### 5. Lefant M210P Robot Vacuum (Slim, 2,200 Pa)  [Budget Pet Pick]
 Brand: Lefant
 Price: ~€112
-Rating: 4.4/5 (Amazon.ie)
-Suction: 4,500 Pa
-Height: 7.9 cm slim
-Runtime: Long
-App: Basic + Alexa
-Pros: Slides under low furniture; Solid suction; Proven budget brand
-Cons: No mapping; Small bin
-Verdict: The under-furniture specialist: slim, simple and dependable daily dust control.
+Rating: 4.3/5 (Amazon.ie)
+Suction: 2,200 Pa
+Height: 7.8 cm slim
+Runtime: Up to 120 min
+Bin: 500 ml
+Pros: Slides under low furniture; Up to 120 min per charge; Brushless nozzle resists hair tangles
+Cons: No mapping (infrared sensors); Lowest suction on this page
+Verdict: The slim budget pet pick: a brushless nozzle hair can't tangle, daily passes under low furniture.
 
 ### 6. roborock QV 35A Robot Vacuum & Mop (All-in-One Dock)  [Notable Mention]
 Brand: Roborock
