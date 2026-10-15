@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-13 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-15 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -6277,14 +6277,17 @@ Pros: TP-Link app polish; Strong suction per euro; Quiet operation
 Cons: No self-empty dock; Pad-style mop only
 Verdict: The mid-range smart pick: big-brand software at a small price.
 
-### 6. Roborock QV 35S Robot Vacuum (10,000Pa, Self-Empty Dock)  [Reader Favourite]
+### 6. roborock QV 35A Robot Vacuum & Mop (All-in-One Dock)  [Reader Favourite]
 Brand: Roborock
-Price: ~€649
+Price: ~€524
 Rating: 4.5/5 (Amazon.ie)
-Suction: 10,000 Pa
-Pros: €649 — 6th-cheapest of the 7 picks here; 10,000 Pa suction; Second-best owner rating on this page at 4.5★
-Cons: 1 of the 7 picks here is better rated by owners; €100 more than our top pick, which owners rate higher at 4.7★
-Verdict: The QV 35S pairs high suction with a self-empty dock at €649, and its 4.5-star owner rating is respectable, if below our €549 eufy pick's 4.7. You're paying about €100 more than the eufy for a machine owners rate slightly lower, and without the eufy's full wash-and-dry station. Worth comparing directly if you prefer Roborock's app; the eufy remains the better-value complete system.
+Suction: 8,000 Pa
+Dock: Self-wash, dry, drain, refill
+Mop: Twin rotating pads, 200 RPM, 10 mm lift
+Navigation: LiDAR
+Pros: €25 less than our top pick; 8,000 Pa suction with LiDAR mapping; Joint second-best owner rating on this page at 4.5★
+Cons: 1 of the 7 picks here is better rated by owners; All-in-one dock needs floor space
+Verdict: The QV 35A brings Roborock's all-in-one dock in at €524, €25 under our eufy pick, with 8,000 Pa of suction, LiDAR mapping and twin rotating mop pads that spin at 200 RPM and lift 10 mm over rugs. Roborock describes the dock as washing, drying, draining and refilling on its own. Owners rate it 4.5 stars, below the eufy X10 Pro Omni's 4.7, which keeps the eufy as our first choice. Worth it if you prefer Roborock's app and want to save a little.
 
 ### 7. Roborock Q Revo MaxV Robot Vacuum & Mop (Auto-Wash Dock)  [Solid Backup Choice]
 Brand: Roborock
