@@ -190,19 +190,20 @@
     {
      "id": "rvc-004",
      "asin": "B0C2YCSM9X",
-     "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+     "name": "HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)",
      "brand": "HONITURE",
-     "price": 141,
-     "rating": 4.4,
+     "price": 154,
+     "rating": 4.3,
      "badge": "Best Value Vacuum-Mop",
      "specs": {
-      "Suction": "8,000 Pa",
+      "Suction": "10,000 Pa",
       "Mop": "Yes",
       "Control": "App + voice",
-      "Bin": "Large"
+      "Bin": "Large",
+      "Runtime": "Up to 150 min"
      },
      "pros": [
-      "8,000 Pa at €141",
+      "10,000 Pa at €154",
       "Vacuum-mop combo",
       "Voice control"
      ],
@@ -210,7 +211,7 @@
       "Random-ish pathing vs lidar",
       "No dock"
      ],
-     "verdict": "The HONITURE G20 matches the eufy X10 Pro's 8,000 Pa suction figure at a fraction of the price — €141 versus €549 — while still combining vacuuming and mopping in one pass and supporting voice control through the app. For raw suction power per euro, it's the strongest figure on this entire page. The saving shows up elsewhere, though: without lidar mapping, its cleaning paths are less methodical than the laser-guided eufy and Tapo models above, and there's no self-empty or self-cleaning dock, so day-to-day maintenance falls entirely on you. Good value for someone who wants serious suction on a tight budget and doesn't mind manual upkeep and less efficient room coverage."
+     "verdict": "The HONITURE G20 Pro is rated at 10,000 Pa of suction, above the eufy X10 Pro's 8,000 Pa, at a fraction of the price — €154 versus €549 — while still combining vacuuming and mopping in one pass and supporting voice control through the app. For raw suction power per euro, it's the strongest figure on this entire page. The saving shows up elsewhere, though: without lidar mapping, its cleaning paths are less methodical than the laser-guided eufy and Tapo models above, and there's no self-empty or self-cleaning dock, so day-to-day maintenance falls entirely on you. Good value for someone who wants serious suction on a tight budget and doesn't mind manual upkeep and less efficient room coverage."
     },
     {
      "id": "rvc-005",
@@ -239,24 +240,27 @@
     },
     {
      "id": "rvc-028",
-     "asin": "B0DR8XJ9XZ",
-     "name": "eufy C10 Robot Vacuum with Self-Empty Station (4,000Pa)",
-     "brand": "eufy",
-     "price": 299,
-     "rating": 4.1,
+     "asin": "B0DGV8GTZY",
+     "name": "Tapo RV30 Max Plus Robot Vacuum & Mop (Auto-Empty Dock)",
+     "brand": "TP-Link Tapo",
+     "price": 223,
+     "rating": 4.3,
      "badge": "Challenger Pick",
      "specs": {
-      "Suction": "4,000 Pa"
+      "Suction": "5,300 Pa",
+      "Navigation": "LiDAR + IMU",
+      "Dock": "Auto-empty, 3 L bag",
+      "Mop": "Yes"
      },
      "pros": [
-      "€250 less than our top pick",
-      "4,000 Pa suction"
+      "€326 less than our top pick",
+      "Auto-empty dock with a 3 L bag (up to 2 months)"
      ],
      "cons": [
-      "Lowest owner rating of the picks here at 4.1★",
-      "4.1★ owner rating is only average for this price bracket"
+      "Our top pick still rates higher with owners at 4.7★",
+      "Dock bags are an ongoing cost"
      ],
-     "verdict": "The eufy C10 brings the eufy name and a self-empty station down to €299, a middle ground between the budget picks above and the €499–549 Omni models at the top of this page, with 4,000 Pa suction and a 4.1★ owner rating on Amazon.ie. It offers honest value for that spec sheet, and buying it through Amazon.ie keeps warranty and returns simple. It's a challenger rather than the category winner here, carrying less suction than the Tapo or HONITURE despite the higher price, so compare the numbers before choosing it over those. A sensible pick for eufy loyalists who want a self-empty dock without paying Omni prices, but check suction figures against cheaper rivals first."
+     "verdict": "Tapo's RV30 Max Plus brings a self-emptying dock and LiDAR navigation to €223, well below the €499–549 Omni models at the top of this page. The dock empties into a sealed 3-litre bag that Tapo says lasts up to two months, suction is rated at 5,300 Pa, and a mop is included for light hard-floor passes. Its 4.3-star owner rating on Amazon.ie is solid rather than outstanding, and like every self-empty machine it adds a running cost in replacement bags. The pick for anyone who wants hands-off emptying and methodical mapping without paying Omni prices; if you also want a self-washing mop, the eufy models above are the step up."
     }
    ]
   },
@@ -394,19 +398,20 @@
     {
      "id": "rvc-009",
      "asin": "B0C2YCSM9X",
-     "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+     "name": "HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)",
      "brand": "HONITURE",
-     "price": 141,
-     "rating": 4.4,
+     "price": 154,
+     "rating": 4.3,
      "badge": "Best Suction Value",
      "specs": {
-      "Suction": "8,000 Pa",
+      "Suction": "10,000 Pa",
       "Mop": "Yes",
       "Control": "App + voice",
-      "Bin": "Large"
+      "Bin": "Large",
+      "Runtime": "Up to 150 min"
      },
      "pros": [
-      "8,000 Pa at €141",
+      "10,000 Pa at €154",
       "Vacuum-mop combo",
       "Voice control"
      ],
@@ -421,8 +426,8 @@
      "asin": "B09WMV9MQK",
      "name": "Lefant M210P Robot Vacuum (Slim, 2,200 Pa)",
      "brand": "Lefant",
-     "price": 96,
-     "rating": 4.2,
+     "price": 138,
+     "rating": 4.3,
      "badge": "Cheapest Credible",
      "specs": {
       "Suction": "2,200 Pa",
@@ -431,15 +436,15 @@
       "App": "Alexa + app"
      },
      "pros": [
-      "€96 entry to robot life",
-      "Tiny and very slim",
+      "Cheapest machine on this page",
+      "Only 7.8 cm tall, 28 cm across",
       "Quiet"
      ],
      "cons": [
       "Hard floors best",
       "Random pathing"
      ],
-     "verdict": "The absolute entry ticket: apartments and hard floors get daily once-overs for under €100."
+     "verdict": "The slim entry ticket: at 7.8 cm tall it reaches under low sofas and beds, and handles daily once-overs on hard floors."
     },
     {
      "id": "rvc-026",
@@ -570,19 +575,20 @@
     {
      "id": "rvc-013",
      "asin": "B0C2YCSM9X",
-     "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+     "name": "HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)",
      "brand": "HONITURE",
-     "price": 141,
-     "rating": 4.4,
+     "price": 154,
+     "rating": 4.3,
      "badge": "Best Suction for Hair",
      "specs": {
-      "Suction": "8,000 Pa",
+      "Suction": "10,000 Pa",
       "Mop": "Yes",
       "Control": "App + voice",
-      "Bin": "Large"
+      "Bin": "Large",
+      "Runtime": "Up to 150 min"
      },
      "pros": [
-      "8,000 Pa at €141",
+      "10,000 Pa at €154",
       "Vacuum-mop combo",
       "Voice control"
      ],
@@ -647,7 +653,7 @@
      "asin": "B0DQPVLXF8",
      "name": "roborock QV 35A Robot Vacuum & Mop (All-in-One Dock)",
      "brand": "Roborock",
-     "price": 493,
+     "price": 524,
      "rating": 4.5,
      "badge": "Notable Mention",
      "specs": {
@@ -657,7 +663,7 @@
       "Brushes": "Anti-tangle side + rubber main"
      },
      "pros": [
-      "€56 less than our top pick",
+      "Cheaper than our eufy top pick",
       "Anti-tangle brushes aimed at pet hair",
       "Twin rotating mops lift 10 mm on rugs"
      ],
@@ -665,7 +671,7 @@
       "Our top pick still rates higher with owners at 4.7★",
       "All-in-one dock needs floor space"
      ],
-     "verdict": "The QV 35A is a Roborock, a brand with a strong track record in this category, and at €493 it's €56 cheaper than our €549 pet-hair pick. For pet homes the relevant part is the brush system: an asymmetrical side brush that Roborock says is SGS-certified for a 0% hair-tangle rate, plus a solid rubber main brush, behind 8,000 Pa of suction. Twin rotating mop pads lift 10 mm to keep rugs dry, and LiDAR handles the mapping. Owners rate it 4.5 stars, below the eufy X10 Pro Omni's 4.7, which keeps the eufy as our top choice."
+     "verdict": "The QV 35A is a Roborock, a brand with a strong track record in this category, and at €524 it undercuts our eufy pet-hair pick. For pet homes the relevant part is the brush system: an asymmetrical side brush that Roborock says is SGS-certified for a 0% hair-tangle rate, plus a solid rubber main brush, behind 8,000 Pa of suction. Twin rotating mop pads lift 10 mm to keep rugs dry, and LiDAR handles the mapping. Owners rate it 4.5 stars, below the eufy X10 Pro Omni's 4.7, which keeps the eufy as our top choice."
     },
     {
      "id": "rvc-030",
@@ -827,19 +833,20 @@
     {
      "id": "rvc-019",
      "asin": "B0C2YCSM9X",
-     "name": "HONITURE G20 Robot Vacuum & Mop (8,000 Pa)",
+     "name": "HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)",
      "brand": "HONITURE",
-     "price": 141,
-     "rating": 4.4,
+     "price": 154,
+     "rating": 4.3,
      "badge": "Best Budget Combo",
      "specs": {
-      "Suction": "8,000 Pa",
+      "Suction": "10,000 Pa",
       "Mop": "Yes",
       "Control": "App + voice",
-      "Bin": "Large"
+      "Bin": "Large",
+      "Runtime": "Up to 150 min"
      },
      "pros": [
-      "8,000 Pa at €141",
+      "10,000 Pa at €154",
       "Vacuum-mop combo",
       "Voice control"
      ],

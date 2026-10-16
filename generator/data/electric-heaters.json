@@ -820,28 +820,29 @@
         },
         {
           "id": "eht-018",
-          "asin": "B07K1NWSKK",
-          "name": "Purus 1200W Electric Radiator (Bathroom Safe)",
+          "asin": "B0BNJHS218",
+          "name": "Purus 600W Electric Radiator (Bathroom Safe, IP24)",
           "brand": "Purus",
-          "price": 88,
-          "rating": 4.3,
+          "price": 89,
+          "rating": 4.2,
           "badge": "Best Bathroom-Safe",
           "specs": {
-            "Power": "1,200 W",
-            "Rating": "Bathroom safe",
+            "Power": "600 W",
+            "Rating": "IP24 splash-proof",
             "Mount": "Wall or free-standing",
-            "Thermostat": "Digital"
+            "Thermostat": "Digital, 5–35 °C",
+            "Coverage": "Up to 7.5 m²"
           },
           "pros": [
-            "Bathroom-safe rating",
-            "Neat wall-mounted look",
-            "Digital thermostat + timer"
+            "IP24 rated for bathroom installation",
+            "Open-window detection switches off on a 5° drop",
+            "Wall-mounted or on supplied feet"
           ],
           "cons": [
-            "1.2 kW = small-medium rooms",
-            "Plain design"
+            "600 W suits rooms up to about 7.5 m²",
+            "4.2★ owner rating is only middling"
           ],
-          "verdict": "The fitted-look bathroom answer: safe, slim and permanent for under €90."
+          "verdict": "The fitted-look bathroom answer: IP24-rated, slim and wall-mountable for under €90."
         },
         {
           "id": "eht-019",
@@ -908,12 +909,12 @@
             "Smart": "Air+ app connected"
           },
           "pros": [
-            "€114 — 4th-cheapest of the 7 picks here",
+            "€114 — 4th-cheapest of the 6 picks here",
             "1200 / 2000 W power",
             "Up to 20 m² coverage"
           ],
           "cons": [
-            "2 of the 7 picks here are better rated by owners",
+            "2 of the 6 picks here are better rated by owners",
             "€10 less than our top pick, with the same 4.3★ owner rating"
           ],
           "verdict": "Philips' Connected Tower is €114 against our €124 Devola pick, so slightly cheaper, and matches the Devola's 4.3-star owner rating. The difference that matters here is format: this is a tower fan heater, not a wall-mountable panel, so it delivers fast directional warmth with fan noise rather than the silent, fitted background heat this page is about. Fine heater, wrong shape for this list."
@@ -938,7 +939,7 @@
             "Second-best owner rating on this page at 4.4★"
           ],
           "cons": [
-            "1 of the 7 picks here is better rated by owners",
+            "1 of the 6 picks here is better rated by owners",
             "€31 more than our top pick, the Devola panel"
           ],
           "verdict": "De'Longhi's Bend Line is the most expensive option on this page at €155 and carries a good 4.4-star rating from a brand with real service presence in Ireland. Like the other towers here it's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it only if you'd rather have De'Longhi's build than a true panel."
@@ -1007,28 +1008,29 @@
       "products": [
         {
           "id": "eht-020",
-          "asin": "B07K1NWSKK",
-          "name": "Purus 1200W Electric Radiator (Bathroom Safe)",
+          "asin": "B0BNJHS218",
+          "name": "Purus 600W Electric Radiator (Bathroom Safe, IP24)",
           "brand": "Purus",
-          "price": 88,
-          "rating": 4.3,
+          "price": 89,
+          "rating": 4.2,
           "badge": "Best Bathroom Fitted",
           "specs": {
-            "Power": "1,200 W",
-            "Rating": "Bathroom safe",
+            "Power": "600 W",
+            "Rating": "IP24 splash-proof",
             "Mount": "Wall or free-standing",
-            "Thermostat": "Digital"
+            "Thermostat": "Digital, 5–35 °C",
+            "Coverage": "Up to 7.5 m²"
           },
           "pros": [
-            "Bathroom-safe rating",
-            "Neat wall-mounted look",
-            "Digital thermostat + timer"
+            "IP24 rated for bathroom installation",
+            "Open-window detection switches off on a 5° drop",
+            "Wall-mounted or on supplied feet"
           ],
           "cons": [
-            "1.2 kW = small-medium rooms",
-            "Plain design"
+            "600 W suits rooms up to about 7.5 m²",
+            "4.2★ owner rating is only middling"
           ],
-          "verdict": "The fitted-look bathroom answer: safe, slim and permanent for under €90."
+          "verdict": "The fitted-look bathroom answer: IP24-rated, slim and wall-mountable for under €90."
         },
         {
           "id": "eht-021",
@@ -1142,14 +1144,14 @@
             "Power": "1500 W"
           },
           "pros": [
-            "€37 less than our top pick",
-            "Owners rate it 4.4★, above our top pick's 4.3★"
+            "€38 less than our top pick",
+            "Owners rate it 4.4★, above our top pick's 4.2★"
           ],
           "cons": [
             "1 of the 7 picks here is better rated by owners",
             "Full specs not confirmed — check the current listing before buying"
           ],
-          "verdict": "Morphy Richards' digital oil radiator is well rated at 4.4 stars and cheap at €51, undercutting our €88 Purus pick. The problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It's also not bathroom-rated the way the Purus is. A good buy for a small bedroom; the wrong tool for a wet room."
+          "verdict": "Morphy Richards' digital oil radiator is well rated at 4.4 stars and cheap at €51, undercutting our €89 Purus pick. The problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It's also not bathroom-rated the way the Purus is. A good buy for a small bedroom; the wrong tool for a wet room."
         },
         {
           "id": "eht-028",
@@ -1163,15 +1165,15 @@
             "Power": "2000 W"
           },
           "pros": [
-            "€15 less than our top pick",
+            "€16 less than our top pick",
             "2000 W power",
-            "Owners rate it 4.4★, above our top pick's 4.3★"
+            "Owners rate it 4.4★, above our top pick's 4.2★"
           ],
           "cons": [
             "1 of the 7 picks here is better rated by owners",
-            "Not our category winner — compare against the Purus 1200W Electric Radiator (Bathroom Safe)"
+            "Not our category winner — compare against the Purus 600W Electric Radiator (Bathroom Safe, IP24)"
           ],
-          "verdict": "Midea's 2000W PTC ceramic tower is cheaper than our bathroom pick at €73 against €88 and slightly better rated at 4.4 stars against 4.3. The reason it isn't first is placement: our pick is a bathroom-rated electric radiator, and a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom."
+          "verdict": "Midea's 2000W PTC ceramic tower is cheaper than our bathroom pick at €73 against €89 and better rated at 4.4 stars against 4.2. The reason it isn't first is placement: our pick is a bathroom-rated electric radiator, and a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom."
         }
       ],
       "guide": [

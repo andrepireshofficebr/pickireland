@@ -70,29 +70,29 @@
       "products": [
         {
           "id": "cfm-001",
-          "asin": "B0BWSDQ9WT",
-          "name": "De'Longhi Magnifica Start (ECAM222.20.B)",
-          "brand": "De'Longhi",
-          "price": 336,
-          "rating": 4.6,
+          "asin": "B079QZQ5KG",
+          "name": "Krups Arabica EA8110 Bean-to-Cup",
+          "brand": "Krups",
+          "price": 399,
+          "rating": 4.3,
           "badge": "Best Bean-to-Cup Value",
           "specs": {
             "Type": "Bean-to-cup",
-            "Grinder": "Steel burr",
-            "Milk": "Steam wand",
-            "Cup cost": "~28c",
-            "Power": "1450 W"
+            "Pressure": "15 bar",
+            "Grinder": "3 settings",
+            "Temperatures": "3 settings",
+            "Water tank": "1.7 L"
           },
           "pros": [
-            "Fresh-bean espresso at a button",
-            "Best-value automatic on Amazon.ie",
-            "Compact for the category"
+            "Fresh-ground espresso at a button",
+            "15-bar pump with 3 grind and 3 temperature settings",
+            "Compact 38 cm-wide footprint"
           ],
           "cons": [
-            "Wand milk takes practice",
-            "Plastic-forward build"
+            "Only 3 grind settings vs 13 on the Magnifica S",
+            "4.3★ owner rating trails the Magnifica S's 4.6★"
           ],
-          "verdict": "A built-in steel burr grinder means every cup starts from fresh beans rather than pre-ground pods, and at roughly 28 cents a cup, running costs stay low for daily espresso drinkers. Amazon.ie pricing puts this near the front of the bean-to-cup value conversation, and the compact footprint makes it realistic for smaller Irish kitchens where the bigger automatics won't fit. Milk still comes from a manual steam wand rather than an automated frother, so texturing takes some early practice, and the build leans plastic rather than the steel-heavy finish of pricier De'Longhi models. Best for anyone who wants genuine fresh-ground espresso daily and doesn't mind a learning curve on milk; those wanting one-touch lattes should budget for a machine with an automatic milk system."
+          "verdict": "Krups' Arabica EA8110 grinds fresh beans for every cup and pushes them through a 15-bar pump, with three grind settings and three temperature settings to tune the result. At €399 it is the cheapest bean-to-cup machine on this page, just under the Magnifica S, and its 38 cm width suits smaller Irish kitchens. The trade-off is control and track record: three grind steps is a narrow range next to the Magnifica S's thirteen, and its 4.3-star owner rating sits below the De'Longhi's 4.6. A sensible entry into fresh-bean coffee if you want push-button espresso for less; buyers who want finer grind control should spend a little more on the Magnifica S."
         },
         {
           "id": "cfm-002",
@@ -170,7 +170,7 @@
             "Dated display",
             "Wand learning curve"
           ],
-          "verdict": "This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and, like the cheaper Magnifica Start, milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Magnifica Start instead."
+          "verdict": "This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Krups Arabica instead."
         },
         {
           "id": "cfm-031",
@@ -213,7 +213,7 @@
             "Grinder": "Built-in, 250 g hopper"
           },
           "pros": [
-            "€132 less than our top pick",
+            "€195 less than our top pick",
             "15 bar pressure",
             "1080 W power"
           ],
@@ -221,7 +221,7 @@
             "Lowest owner rating of the picks here at 3.8★",
             "3.8★ owner rating is only average for this price bracket"
           ],
-          "verdict": "Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.8-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Krups Virtuoso+ or either Magnifica model achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Krups Virtuoso+ at a lower price instead."
+          "verdict": "Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.8-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Krups Virtuoso+ or the Magnifica S achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Krups Virtuoso+ at a lower price instead."
         }
       ],
       "guide": [
@@ -287,29 +287,29 @@
       "products": [
         {
           "id": "cfm-006",
-          "asin": "B0BWSDQ9WT",
-          "name": "De'Longhi Magnifica Start (ECAM222.20.B)",
-          "brand": "De'Longhi",
-          "price": 336,
-          "rating": 4.6,
+          "asin": "B079QZQ5KG",
+          "name": "Krups Arabica EA8110 Bean-to-Cup",
+          "brand": "Krups",
+          "price": 399,
+          "rating": 4.3,
           "badge": "Best Entry Bean-to-Cup",
           "specs": {
             "Type": "Bean-to-cup",
-            "Grinder": "Steel burr",
-            "Milk": "Steam wand",
-            "Cup cost": "~28c",
-            "Power": "1450 W"
+            "Pressure": "15 bar",
+            "Grinder": "3 settings",
+            "Temperatures": "3 settings",
+            "Water tank": "1.7 L"
           },
           "pros": [
-            "Fresh-bean espresso at a button",
-            "Best-value automatic on Amazon.ie",
-            "Compact for the category"
+            "Fresh-ground espresso at a button",
+            "15-bar pump with 3 grind and 3 temperature settings",
+            "Compact 38 cm-wide footprint"
           ],
           "cons": [
-            "Wand milk takes practice",
-            "Plastic-forward build"
+            "Only 3 grind settings vs 13 on the Magnifica S",
+            "4.3★ owner rating trails the Magnifica S's 4.6★"
           ],
-          "verdict": "The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price."
+          "verdict": "The entry ticket to fresh-bean espresso: 15-bar pump, three grind settings and a compact footprint."
         },
         {
           "id": "cfm-007",
@@ -385,7 +385,7 @@
           ],
           "cons": [
             "€500+",
-            "Owner rating 4.4★, below the two Magnificas"
+            "Owner rating 4.4★, below the Magnifica S's 4.6★"
           ],
           "verdict": "The automatic flagship: twelve drinks at a touch, and a milk system that rinses clean in seconds."
         },
@@ -412,7 +412,7 @@
             "Lowest owner rating of the picks here at 4.0★",
             "4.0★ owner rating is only average for this price bracket"
           ],
-          "verdict": "Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €336 De'Longhi bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for."
+          "verdict": "Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €399 Krups bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for."
         },
         {
           "id": "cfm-030",
@@ -435,10 +435,10 @@
             "Hands-free frothing for dairy and plant milk"
           ],
           "cons": [
-            "€153 more than our top pick, which owners rate higher at 4.6★",
+            "€90 more than our top pick, with the same 4.3★ owner rating",
             "17 kg and deep on the counter"
           ],
-          "verdict": "Ninja's Luxury Premier is a 3-in-1 that brews filter coffee and cold brew as well as espresso, which no other machine on this page does. A built-in grinder with 25 settings, an integrated scale and a hands-free frother with four foam presets do much of the barista work for you. At €489 it's well above our €336 De'Longhi pick, and its 4.3-star owner rating sits below the De'Longhi's 4.6. The flexibility is genuine; whether it's worth €153 more than a dedicated bean-to-cup depends on whether you'll actually drink filter and cold brew too."
+          "verdict": "Ninja's Luxury Premier is a 3-in-1 that brews filter coffee and cold brew as well as espresso, which no other machine on this page does. A built-in grinder with 25 settings, an integrated scale and a hands-free frother with four foam presets do much of the barista work for you. At €489 it's well above our €399 Krups pick and shares its 4.3-star owner rating, while the €414 Magnifica S rates higher at 4.6. The flexibility is genuine; whether it's worth €90 more than a dedicated bean-to-cup depends on whether you'll actually drink filter and cold brew too."
         }
       ],
       "guide": [
@@ -1036,29 +1036,29 @@
         },
         {
           "id": "cfm-025",
-          "asin": "B0BWSDQ9WT",
-          "name": "De'Longhi Magnifica Start (ECAM222.20.B)",
-          "brand": "De'Longhi",
-          "price": 336,
-          "rating": 4.6,
+          "asin": "B079QZQ5KG",
+          "name": "Krups Arabica EA8110 Bean-to-Cup",
+          "brand": "Krups",
+          "price": 399,
+          "rating": 4.3,
           "badge": "Skip-the-Learning Automatic",
           "specs": {
             "Type": "Bean-to-cup",
-            "Grinder": "Steel burr",
-            "Milk": "Steam wand",
-            "Cup cost": "~28c",
-            "Power": "1450 W"
+            "Pressure": "15 bar",
+            "Grinder": "3 settings",
+            "Temperatures": "3 settings",
+            "Water tank": "1.7 L"
           },
           "pros": [
-            "Fresh-bean espresso at a button",
-            "Best-value automatic on Amazon.ie",
-            "Compact for the category"
+            "Fresh-ground espresso at a button",
+            "15-bar pump with 3 grind and 3 temperature settings",
+            "Compact 38 cm-wide footprint"
           ],
           "cons": [
-            "Wand milk takes practice",
-            "Plastic-forward build"
+            "Only 3 grind settings vs 13 on the Magnifica S",
+            "4.3★ owner rating trails the Magnifica S's 4.6★"
           ],
-          "verdict": "The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price."
+          "verdict": "The entry ticket to fresh-bean espresso: 15-bar pump, three grind settings and a compact footprint."
         }
       ],
       "guide": [

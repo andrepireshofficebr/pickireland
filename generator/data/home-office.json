@@ -925,28 +925,29 @@
    "products": [
     {
      "id": "ofc-020",
-     "asin": "B075JYG2TB",
-     "name": "VIVO 81 cm Standing Desk Converter",
-     "brand": "VIVO",
-     "price": 124,
-     "rating": 4.7,
+     "asin": "B07ZR5FZQ2",
+     "name": "ERGOMAKER 81 cm Standing Desk Converter",
+     "brand": "ERGOMAKER",
+     "price": 100,
+     "rating": 4.4,
      "badge": "Best Converter Overall",
      "specs": {
       "Type": "Converter",
-      "Width": "81 cm",
-      "Mechanism": "Spring assist",
-      "Rating": "4.7★"
+      "Top": "80 × 40 cm",
+      "Height": "13.5–52 cm",
+      "Mechanism": "Gas spring",
+      "Load": "15 kg"
      },
      "pros": [
-      "Best-reviewed converter here",
-      "Smooth height changes",
-      "Proven brand"
+      "Gas-spring lift from 13.5 to 52 cm",
+      "Quick-release keyboard tray on a lower tier",
+      "15 kg top takes one or two monitors"
      ],
      "cons": [
-      "Mid width",
-      "Premium vs BONTEC"
+      "4.4★ trails the BONTEC's 4.6★",
+      "40 cm-deep top is tight for large monitors"
      ],
-     "verdict": "The crowd favourite: top ratings, smooth lift, years of proven service."
+     "verdict": "Sit-stand on the desk you already own: a gas-spring lift from 13.5 to 52 cm with a separate keyboard tier."
     },
     {
      "id": "ofc-021",

@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-15 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-16 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -122,14 +122,17 @@ Pros: €20 — cheapest credible air fryer; 12 presets at entry price; Tiny cou
 Cons: One portion at a time; Manual-feel experience
 Verdict: Twenty euro buys 12 presets and dishwasher-safe parts here, which is more control than most entry-level fryers offer at this price, and the 2-litre bowl barely takes up any counter space. It's rated 4.4 stars on the strength of being a genuinely usable everyday fryer rather than a novelty. The obvious limit is capacity — one portion at a time, so it's not built for cooking for a household — and the interface feels more manual than the app-adjacent, sensor-driven machines further up this list. Students, single-person households and anyone testing whether air frying suits them before committing to a bigger machine are the ideal buyer; families need to look elsewhere.
 
-### 6. Linsar Dual Zone Air Fryer 8L  [Notable Mention]
-Brand: Linsar
-Price: ~€73
-Rating: 4.3/5 (Amazon.ie)
-Capacity: 8 L
-Pros: €77 less than our top pick; 8 L capacity
-Cons: Lowest owner rating of the picks here at 4.3★; Our top pick still rates higher with owners at 4.9★
-Verdict: At 8 litres across two zones, this Linsar undercuts the Ninja Foodi on price while offering more combined capacity, and Amazon.ie owners currently rate it 4.3 stars — solid, if not chart-topping. It's readily stocked for Irish buyers wanting a dual-zone fryer without spending €150. The honest caveat is track record: Linsar hasn't built up the years of owner data that Ninja or Philips have, so reliability over the long run is less proven, and it's worth double-checking the exact specs against your household's needs before buying rather than assuming feature parity with the bigger names. Budget-conscious buyers wanting dual-zone convenience are the target; those who want the safest, most-reviewed option should still lean Ninja.
+### 6. Daewoo 9L Dual Air Fryer (2× 4.5L Drawers)  [Notable Mention]
+Brand: Daewoo
+Price: ~€92
+Rating: 4.4/5 (Amazon.ie)
+Capacity: 9 L (2× 4.5 L)
+Sync: Both drawers finish together
+Timer: 60 min
+Functions: Air fry, bake, roast, grill
+Pros: €58 less than our top pick; 9 L across two synced 4.5 L drawers
+Cons: Our top pick still rates higher with owners at 4.9★; Timer tops out at 60 minutes
+Verdict: Daewoo's dual fryer splits 9 litres across two 4.5-litre drawers and can sync them so mains and sides finish together, which is the core reason to buy a dual-zone machine. At €92 it undercuts the Ninja Foodi above by a clear margin and carries a 4.4-star owner rating on Amazon.ie, though from a smaller review base than Ninja's. The 60-minute timer and four core functions — air fry, bake, roast, grill — cover everyday cooking rather than long dehydrating jobs. A good fit for families who want two drawers without paying Ninja prices; buyers who value the longest owner track record should still lean Ninja.
 
 ### 7. Swan Retro Dual Basket Air Fryer  [Worth Considering]
 Brand: Swan
@@ -1380,19 +1383,18 @@ Summary: Ireland's best coffee machines for 2026 across pods, bean-to-cup and es
 
 The €3.80 flat white habit costs serious money at scale — and the home alternative got genuinely good. This page crowns winners across the machine types rather than pretending one suits everyone: best bean-to-cup, best pod, best manual, best budget route to proper espresso. Running costs at Irish prices included, because the machine is the cheap part.
 
-### 1. De'Longhi Magnifica Start (ECAM222.20.B)  [Best Bean-to-Cup Value]
-Brand: De'Longhi
+### 1. Krups Arabica EA8110 Bean-to-Cup  [Best Bean-to-Cup Value]
+Brand: Krups
 Price: ~€336
-Rating: 4.6/5 (Amazon.ie)
-Running cost: €0.55/hour at €0.38/kWh
+Rating: 4.3/5 (Amazon.ie)
 Type: Bean-to-cup
-Grinder: Steel burr
-Milk: Steam wand
-Cup cost: ~28c
-Power: 1450 W
-Pros: Fresh-bean espresso at a button; Best-value automatic on Amazon.ie; Compact for the category
-Cons: Wand milk takes practice; Plastic-forward build
-Verdict: A built-in steel burr grinder means every cup starts from fresh beans rather than pre-ground pods, and at roughly 28 cents a cup, running costs stay low for daily espresso drinkers. Amazon.ie pricing puts this near the front of the bean-to-cup value conversation, and the compact footprint makes it realistic for smaller Irish kitchens where the bigger automatics won't fit. Milk still comes from a manual steam wand rather than an automated frother, so texturing takes some early practice, and the build leans plastic rather than the steel-heavy finish of pricier De'Longhi models. Best for anyone who wants genuine fresh-ground espresso daily and doesn't mind a learning curve on milk; those wanting one-touch lattes should budget for a machine with an automatic milk system.
+Pressure: 15 bar
+Grinder: 3 settings
+Temperatures: 3 settings
+Water tank: 1.7 L
+Pros: Fresh-ground espresso at a button; 15-bar pump with 3 grind and 3 temperature settings; Compact 38 cm-wide footprint
+Cons: Only 3 grind settings vs 13 on the Magnifica S; 4.3★ owner rating trails the Magnifica S's 4.6★
+Verdict: Krups' Arabica EA8110 grinds fresh beans for every cup and pushes them through a 15-bar pump, with three grind settings and three temperature settings to tune the result. At €399 it is the cheapest bean-to-cup machine on this page, just under the Magnifica S, and its 38 cm width suits smaller Irish kitchens. The trade-off is control and track record: three grind steps is a narrow range next to the Magnifica S's thirteen, and its 4.3-star owner rating sits below the De'Longhi's 4.6. A sensible entry into fresh-bean coffee if you want push-button espresso for less; buyers who want finer grind control should spend a little more on the Magnifica S.
 
 ### 2. Krups Virtuoso+ Pump Espresso Machine (15 Bar)  [Best Manual Entry]
 Brand: Krups
@@ -1433,7 +1435,7 @@ Pedigree: Europe's bestseller
 Power: 1450 W
 Pros: The proven Magnifica S platform; Parts and service everywhere; Espresso quality above its price
 Cons: Dated display; Wand learning curve
-Verdict: This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and, like the cheaper Magnifica Start, milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Magnifica Start instead.
+Verdict: This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Krups Arabica instead.
 
 ### 5. Tassimo by Bosch Finesse  [Best Family Pods]
 Brand: Bosch
@@ -1458,9 +1460,9 @@ Pressure: 15 bar
 Power: 1080 W
 Water tank: 800 ml
 Grinder: Built-in, 250 g hopper
-Pros: €132 less than our top pick; 15 bar pressure; 1080 W power
+Pros: €195 less than our top pick; 15 bar pressure; 1080 W power
 Cons: Lowest owner rating of the picks here at 3.8★; 3.8★ owner rating is only average for this price bracket
-Verdict: Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.8-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Krups Virtuoso+ or either Magnifica model achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Krups Virtuoso+ at a lower price instead.
+Verdict: Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.8-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Krups Virtuoso+ or the Magnifica S achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Krups Virtuoso+ at a lower price instead.
 
 #### What type of coffee machine actually fits how you drink coffee?
 Start from your habit, not the spec sheet: one or two cups a day, mostly black or with a splash of milk, points at a pod machine or a simple filter brewer; a household making six to ten milk-based drinks a day with different people wanting different strengths is exactly what bean-to-cup automatics were built for; and manual espresso rewards anyone who enjoys grinding and tamping with better coffee per euro than any automatic. A pod or filter setup means minimal fuss, minimal counter space and no skill required. A bean-to-cup automatic means pressing a button and getting a repeatable flat white without a queue forming before work. Manual espresso repays the time you put in but punishes anyone who wants to grab a cup and leave. None of these is objectively best; each is a poor fit for the wrong household, which is why one single machine rarely tops every list here.
@@ -1505,19 +1507,18 @@ Summary: Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs J
 
 Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €283 to €535+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.
 
-### 1. De'Longhi Magnifica Start (ECAM222.20.B)  [Best Entry Bean-to-Cup]
-Brand: De'Longhi
+### 1. Krups Arabica EA8110 Bean-to-Cup  [Best Entry Bean-to-Cup]
+Brand: Krups
 Price: ~€336
-Rating: 4.6/5 (Amazon.ie)
-Running cost: €0.55/hour at €0.38/kWh
+Rating: 4.3/5 (Amazon.ie)
 Type: Bean-to-cup
-Grinder: Steel burr
-Milk: Steam wand
-Cup cost: ~28c
-Power: 1450 W
-Pros: Fresh-bean espresso at a button; Best-value automatic on Amazon.ie; Compact for the category
-Cons: Wand milk takes practice; Plastic-forward build
-Verdict: The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price.
+Pressure: 15 bar
+Grinder: 3 settings
+Temperatures: 3 settings
+Water tank: 1.7 L
+Pros: Fresh-ground espresso at a button; 15-bar pump with 3 grind and 3 temperature settings; Compact 38 cm-wide footprint
+Cons: Only 3 grind settings vs 13 on the Magnifica S; 4.3★ owner rating trails the Magnifica S's 4.6★
+Verdict: The entry ticket to fresh-bean espresso: 15-bar pump, three grind settings and a compact footprint.
 
 ### 2. De'Longhi Magnifica S (ECAM21.117.SB)  [Best Proven Platform]
 Brand: De'Longhi
@@ -1557,7 +1558,7 @@ Drinks: 12 one-touch
 Grinder: Ceramic, 12 steps
 Display: Touch
 Pros: 12 one-touch coffees incl. milk drinks; LatteGo milk system: two parts, no tubes; Ceramic grinder with 12 settings
-Cons: €500+; Owner rating 4.4★, below the two Magnificas
+Cons: €500+; Owner rating 4.4★, below the Magnifica S's 4.6★
 Verdict: The automatic flagship: twelve drinks at a touch, and a milk system that rinses clean in seconds.
 
 ### 5. Chefman Crema Supreme 15-Bar Espresso  [Challenger Pick]
@@ -1570,7 +1571,7 @@ Water tank: 3 L
 Milk: Steam wand
 Pros: Cheapest pick on this page at €283; 15 bar pressure; Conical burr, 30 settings grinder
 Cons: Lowest owner rating of the picks here at 4.0★; 4.0★ owner rating is only average for this price bracket
-Verdict: Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €336 De'Longhi bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for.
+Verdict: Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €399 Krups bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for.
 
 ### 6. Ninja Luxury Premier 3-in-1 Coffee Maker (ES601EU)  [Smart Alternative]
 Brand: Ninja
@@ -1583,8 +1584,8 @@ Frother: Hands-free, 4 presets
 Extras: Integrated scale
 Power: 1650 W
 Pros: Espresso, filter and cold brew in one; Built-in grinder and scale; Hands-free frothing for dairy and plant milk
-Cons: €153 more than our top pick, which owners rate higher at 4.6★; 17 kg and deep on the counter
-Verdict: Ninja's Luxury Premier is a 3-in-1 that brews filter coffee and cold brew as well as espresso, which no other machine on this page does. A built-in grinder with 25 settings, an integrated scale and a hands-free frother with four foam presets do much of the barista work for you. At €489 it's well above our €336 De'Longhi pick, and its 4.3-star owner rating sits below the De'Longhi's 4.6. The flexibility is genuine; whether it's worth €153 more than a dedicated bean-to-cup depends on whether you'll actually drink filter and cold brew too.
+Cons: €90 more than our top pick, with the same 4.3★ owner rating; 17 kg and deep on the counter
+Verdict: Ninja's Luxury Premier is a 3-in-1 that brews filter coffee and cold brew as well as espresso, which no other machine on this page does. A built-in grinder with 25 settings, an integrated scale and a hands-free frother with four foam presets do much of the barista work for you. At €489 it's well above our €399 Krups pick and shares its 4.3-star owner rating, while the €414 Magnifica S rates higher at 4.6. The flexibility is genuine; whether it's worth €90 more than a dedicated bean-to-cup depends on whether you'll actually drink filter and cold brew too.
 
 #### Why does grind quality matter more than milk features on a bean-to-cup machine?
 Every bean-to-cup machine grinds on demand, but not all grinders inside them are equal. Cheaper units around the €300 mark generally use a single conical steel burr with a fairly narrow adjustment range, which is fine for medium roasts but struggles with darker, oilier beans or very light ones; machines from roughly €500 upward widen that range and grind more consistently shot after shot. Inconsistent particle size is the single biggest cause of a sour or bitter cup from an otherwise capable machine. Ceramic burrs, found on some higher-tier models, run cooler and last longer than steel but cost more to replace on the rare occasion they need it. None of this shows up on a spec sheet as clearly as milk features do, which is exactly why it gets underweighted when comparing machines side by side in a shop.
@@ -1929,19 +1930,18 @@ Pros: Original line = cheap 3rd-party pods; Tiny footprint; Fast heat-up
 Cons: Small water tank; Espresso sizes only
 Verdict: The smart pod choice: the open Original ecosystem keeps per-cup costs honest forever.
 
-### 5. De'Longhi Magnifica Start (ECAM222.20.B)  [Skip-the-Learning Automatic]
-Brand: De'Longhi
+### 5. Krups Arabica EA8110 Bean-to-Cup  [Skip-the-Learning Automatic]
+Brand: Krups
 Price: ~€336
-Rating: 4.6/5 (Amazon.ie)
-Running cost: €0.55/hour at €0.38/kWh
+Rating: 4.3/5 (Amazon.ie)
 Type: Bean-to-cup
-Grinder: Steel burr
-Milk: Steam wand
-Cup cost: ~28c
-Power: 1450 W
-Pros: Fresh-bean espresso at a button; Best-value automatic on Amazon.ie; Compact for the category
-Cons: Wand milk takes practice; Plastic-forward build
-Verdict: The bean-to-cup gateway: real fresh-ground espresso, daily-driver reliability, fair price.
+Pressure: 15 bar
+Grinder: 3 settings
+Temperatures: 3 settings
+Water tank: 1.7 L
+Pros: Fresh-ground espresso at a button; 15-bar pump with 3 grind and 3 temperature settings; Compact 38 cm-wide footprint
+Cons: Only 3 grind settings vs 13 on the Magnifica S; 4.3★ owner rating trails the Magnifica S's 4.6★
+Verdict: The entry ticket to fresh-bean espresso: 15-bar pump, three grind settings and a compact footprint.
 
 #### Why does the grinder matter more than the espresso machine for beginners?
 A beginner will improve their coffee more by buying a €50–60 burr grinder than by spending the same money upgrading from one entry espresso machine to a slightly better one. Pre-ground coffee stales within days of the bag being opened and grinds to a single fixed size that may not suit a given machine's basket at all, which caps how good any shot can be regardless of pump pressure or boiler quality underneath it. A basic conical burr grinder, hand-cranked or electric, lets a beginner adjust grind size to fix a sour or bitter shot on the spot — the single most common early troubleshooting step anyone learns. Anyone budgeting for a first espresso machine should treat the grinder as a required line item from the start, not an optional upgrade to consider later once money allows.
@@ -3772,18 +3772,19 @@ Pros: Schedule around night rates; Glass panel looks built-in; Open-window detec
 Cons: Needs WiFi for best tricks; Convection suits sealed rooms
 Verdict: The smart panel: pre-warm rooms on cheap-rate electricity and forget it exists.
 
-### 2. Purus 1200W Electric Radiator (Bathroom Safe)  [Best Bathroom-Safe]
+### 2. Purus 600W Electric Radiator (Bathroom Safe, IP24)  [Best Bathroom-Safe]
 Brand: Purus
 Price: ~€88
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.46/hour at €0.38/kWh
-Power: 1,200 W
-Rating: Bathroom safe
+Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.23/hour at €0.38/kWh
+Power: 600 W
+Rating: IP24 splash-proof
 Mount: Wall or free-standing
-Thermostat: Digital
-Pros: Bathroom-safe rating; Neat wall-mounted look; Digital thermostat + timer
-Cons: 1.2 kW = small-medium rooms; Plain design
-Verdict: The fitted-look bathroom answer: safe, slim and permanent for under €90.
+Thermostat: Digital, 5–35 °C
+Coverage: Up to 7.5 m²
+Pros: IP24 rated for bathroom installation; Open-window detection switches off on a 5° drop; Wall-mounted or on supplied feet
+Cons: 600 W suits rooms up to about 7.5 m²; 4.2★ owner rating is only middling
+Verdict: The fitted-look bathroom answer: IP24-rated, slim and wall-mountable for under €90.
 
 ### 3. MYLEK 1KW Smart WiFi Slim Panel Heater  [Best Budget Smart]
 Brand: MYLEK
@@ -3820,8 +3821,8 @@ Power: 1200 / 2000 W
 Coverage: Up to 20 m²
 Oscillation: 60°
 Smart: Air+ app connected
-Pros: €114 — 4th-cheapest of the 7 picks here; 1200 / 2000 W power; Up to 20 m² coverage
-Cons: 2 of the 7 picks here are better rated by owners; €10 less than our top pick, with the same 4.3★ owner rating
+Pros: €114 — 4th-cheapest of the 6 picks here; 1200 / 2000 W power; Up to 20 m² coverage
+Cons: 2 of the 6 picks here are better rated by owners; €10 less than our top pick, with the same 4.3★ owner rating
 Verdict: Philips' Connected Tower is €114 against our €124 Devola pick, so slightly cheaper, and matches the Devola's 4.3-star owner rating. The difference that matters here is format: this is a tower fan heater, not a wall-mountable panel, so it delivers fast directional warmth with fan noise rather than the silent, fitted background heat this page is about. Fine heater, wrong shape for this list.
 
 ### 6. De'Longhi Bend Line Ceramic Heater (Remote)  [Challenger Pick]
@@ -3834,7 +3835,7 @@ Room size: Up to 60 m³
 Timer: 24 h
 Control: Digital + remote
 Pros: 1200 / 2000 W power; Up to 60 m³ room size; Second-best owner rating on this page at 4.4★
-Cons: 1 of the 7 picks here is better rated by owners; €31 more than our top pick, the Devola panel
+Cons: 1 of the 6 picks here is better rated by owners; €31 more than our top pick, the Devola panel
 Verdict: De'Longhi's Bend Line is the most expensive option on this page at €155 and carries a good 4.4-star rating from a brand with real service presence in Ireland. Like the other towers here it's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it only if you'd rather have De'Longhi's build than a true panel.
 
 #### What kind of room does a panel heater actually work best in?
@@ -3880,18 +3881,19 @@ Summary: Fast, splash-safe heaters for Irish bathrooms and small rooms — IP ra
 
 Bathroom heating is its own discipline: you need serious warmth in under two minutes, splash-proof safety (look for IP21 minimum, IP24 ideally), and ideally wall mounting away from water. The classic Irish cold bathroom has seven good answers, from a €45 quick fix to permanent fitted solutions. Heat-up speed and IP ratings led our ranking.
 
-### 1. Purus 1200W Electric Radiator (Bathroom Safe)  [Best Bathroom Fitted]
+### 1. Purus 600W Electric Radiator (Bathroom Safe, IP24)  [Best Bathroom Fitted]
 Brand: Purus
 Price: ~€88
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.46/hour at €0.38/kWh
-Power: 1,200 W
-Rating: Bathroom safe
+Rating: 4.2/5 (Amazon.ie)
+Running cost: €0.23/hour at €0.38/kWh
+Power: 600 W
+Rating: IP24 splash-proof
 Mount: Wall or free-standing
-Thermostat: Digital
-Pros: Bathroom-safe rating; Neat wall-mounted look; Digital thermostat + timer
-Cons: 1.2 kW = small-medium rooms; Plain design
-Verdict: The fitted-look bathroom answer: safe, slim and permanent for under €90.
+Thermostat: Digital, 5–35 °C
+Coverage: Up to 7.5 m²
+Pros: IP24 rated for bathroom installation; Open-window detection switches off on a 5° drop; Wall-mounted or on supplied feet
+Cons: 600 W suits rooms up to about 7.5 m²; 4.2★ owner rating is only middling
+Verdict: The fitted-look bathroom answer: IP24-rated, slim and wall-mountable for under €90.
 
 ### 2. Dreo 1500W Ceramic Space Heater  [Best Portable Quick Heat]
 Brand: Dreo
@@ -3951,9 +3953,9 @@ Price: ~€51
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1500 W
-Pros: €37 less than our top pick; Owners rate it 4.4★, above our top pick's 4.3★
+Pros: €38 less than our top pick; Owners rate it 4.4★, above our top pick's 4.2★
 Cons: 1 of the 7 picks here is better rated by owners; Full specs not confirmed — check the current listing before buying
-Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars and cheap at €51, undercutting our €88 Purus pick. The problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It's also not bathroom-rated the way the Purus is. A good buy for a small bedroom; the wrong tool for a wet room.
+Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars and cheap at €51, undercutting our €89 Purus pick. The problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It's also not bathroom-rated the way the Purus is. A good buy for a small bedroom; the wrong tool for a wet room.
 
 ### 7. Midea 2000W PTC Ceramic Tower Heater  [Notable Mention]
 Brand: Midea
@@ -3961,9 +3963,9 @@ Price: ~€73
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2000 W
-Pros: €15 less than our top pick; 2000 W power; Owners rate it 4.4★, above our top pick's 4.3★
-Cons: 1 of the 7 picks here is better rated by owners; Not our category winner — compare against the Purus 1200W Electric Radiator (Bathroom Safe)
-Verdict: Midea's 2000W PTC ceramic tower is cheaper than our bathroom pick at €73 against €88 and slightly better rated at 4.4 stars against 4.3. The reason it isn't first is placement: our pick is a bathroom-rated electric radiator, and a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom.
+Pros: €16 less than our top pick; 2000 W power; Owners rate it 4.4★, above our top pick's 4.2★
+Cons: 1 of the 7 picks here is better rated by owners; Not our category winner — compare against the Purus 600W Electric Radiator (Bathroom Safe, IP24)
+Verdict: Midea's 2000W PTC ceramic tower is cheaper than our bathroom pick at €73 against €89 and better rated at 4.4 stars against 4.2. The reason it isn't first is placement: our pick is a bathroom-rated electric radiator, and a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom.
 
 #### Why does speed matter more than efficiency for a bathroom heater?
 A typical Irish bathroom is small enough in volume that even a modest-wattage heater can raise its temperature quickly — a 2m x 2m bathroom with a 2.4m ceiling is under 10 cubic metres, a fraction of a bedroom or sitting room. The catch is that bathroom heating isn't judged by whether a heater can eventually get the room warm, but by whether it gets there before you're out of the shower and cold. That makes speed of response matter more here than in any other room in the house. A slow-building oil radiator that would be ideal for an evening in the sitting room is the wrong tool here, however small the room is, because you need meaningful warmth within a minute or two, not fifteen to twenty. Radiant elements and fan heaters with PTC ceramic cores lead in this room specifically because they respond fast, not because they're more efficient.
@@ -5110,17 +5112,18 @@ Summary: Standing desk converters, monitor arms and the accessories that complet
 
 Not every setup starts from scratch: converters add sit-stand to existing desks, and the right €40–150 accessories — monitor arm, footrest, anti-fatigue mat — often fix more pain than new furniture. This page covers the upgrade path: best converters first, then the accessories with the highest comfort-per-euro on an Irish desk.
 
-### 1. VIVO 81 cm Standing Desk Converter  [Best Converter Overall]
-Brand: VIVO
+### 1. ERGOMAKER 81 cm Standing Desk Converter  [Best Converter Overall]
+Brand: ERGOMAKER
 Price: ~€124
-Rating: 4.7/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Type: Converter
-Width: 81 cm
-Mechanism: Spring assist
-Rating: 4.7★
-Pros: Best-reviewed converter here; Smooth height changes; Proven brand
-Cons: Mid width; Premium vs BONTEC
-Verdict: The crowd favourite: top ratings, smooth lift, years of proven service.
+Top: 80 × 40 cm
+Height: 13.5–52 cm
+Mechanism: Gas spring
+Load: 15 kg
+Pros: Gas-spring lift from 13.5 to 52 cm; Quick-release keyboard tray on a lower tier; 15 kg top takes one or two monitors
+Cons: 4.4★ trails the BONTEC's 4.6★; 40 cm-deep top is tight for large monitors
+Verdict: Sit-stand on the desk you already own: a gas-spring lift from 13.5 to 52 cm with a separate keyboard tier.
 
 ### 2. BONTEC Standing Desk Converter  [Best Converter Value]
 Brand: BONTEC
@@ -5812,17 +5815,18 @@ Pros: TP-Link app polish; Strong suction per euro; Quiet operation
 Cons: No self-empty dock; Pad-style mop only
 Verdict: At €156, the Tapo Robot Vacuum delivers 4,200 Pa of suction — respectable output for the price — through TP-Link's Tapo app, which reviewers consistently call more polished than lesser-known brands offer. Smart path mapping and a genuine quiet mode make it pleasant to run while working from home, unlike noisier budget units elsewhere in this category. What you don't get, compared with the eufy models above, is a self-emptying dock, so the bin needs manual attention, and mopping is limited to a basic pad rather than the rotating or roller systems on pricier eufy machines. A smart middle-ground pick for anyone who wants app polish and solid suction without paying eufy Omni money.
 
-### 4. HONITURE G20 Robot Vacuum & Mop (8,000 Pa)  [Best Value Vacuum-Mop]
+### 4. HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)  [Best Value Vacuum-Mop]
 Brand: HONITURE
 Price: ~€141
-Rating: 4.4/5 (Amazon.ie)
-Suction: 8,000 Pa
+Rating: 4.3/5 (Amazon.ie)
+Suction: 10,000 Pa
 Mop: Yes
 Control: App + voice
 Bin: Large
-Pros: 8,000 Pa at €141; Vacuum-mop combo; Voice control
+Runtime: Up to 150 min
+Pros: 10,000 Pa at €154; Vacuum-mop combo; Voice control
 Cons: Random-ish pathing vs lidar; No dock
-Verdict: The HONITURE G20 matches the eufy X10 Pro's 8,000 Pa suction figure at a fraction of the price — €141 versus €549 — while still combining vacuuming and mopping in one pass and supporting voice control through the app. For raw suction power per euro, it's the strongest figure on this entire page. The saving shows up elsewhere, though: without lidar mapping, its cleaning paths are less methodical than the laser-guided eufy and Tapo models above, and there's no self-empty or self-cleaning dock, so day-to-day maintenance falls entirely on you. Good value for someone who wants serious suction on a tight budget and doesn't mind manual upkeep and less efficient room coverage.
+Verdict: The HONITURE G20 Pro is rated at 10,000 Pa of suction, above the eufy X10 Pro's 8,000 Pa, at a fraction of the price — €154 versus €549 — while still combining vacuuming and mopping in one pass and supporting voice control through the app. For raw suction power per euro, it's the strongest figure on this entire page. The saving shows up elsewhere, though: without lidar mapping, its cleaning paths are less methodical than the laser-guided eufy and Tapo models above, and there's no self-empty or self-cleaning dock, so day-to-day maintenance falls entirely on you. Good value for someone who wants serious suction on a tight budget and doesn't mind manual upkeep and less efficient room coverage.
 
 ### 5. Lefant M210P Robot Vacuum (Slim, 2,200 Pa)  [Best Budget]
 Brand: Lefant
@@ -5836,14 +5840,17 @@ Pros: Slides under low furniture; Up to 120 min per charge; Brushless nozzle res
 Cons: No mapping (infrared sensors); Lowest suction on this page
 Verdict: At 7.8 cm tall and 28 cm across, the Lefant M210P slips under low sofas and beds that block the bulkier robots on this list, and at €138 it is still the cheapest machine on this page. Its brushless suction nozzle means pet hair and long hair don't wrap around a roller you have to cut free, and one charge runs for up to 120 minutes, enough for most Irish homes in a single pass. The compromise is power and brains: 2,200 Pa is the lowest suction figure here, and it steers with infrared sensors rather than building a floor plan, so coverage is less methodical than the laser-guided eufy and Tapo models above. Best for smaller homes and hard floors where slim clearance matters more than smart mapping.
 
-### 6. eufy C10 Robot Vacuum with Self-Empty Station (4,000Pa)  [Challenger Pick]
-Brand: eufy
-Price: ~€299
-Rating: 4.1/5 (Amazon.ie)
-Suction: 4,000 Pa
-Pros: €250 less than our top pick; 4,000 Pa suction
-Cons: Lowest owner rating of the picks here at 4.1★; 4.1★ owner rating is only average for this price bracket
-Verdict: The eufy C10 brings the eufy name and a self-empty station down to €299, a middle ground between the budget picks above and the €499–549 Omni models at the top of this page, with 4,000 Pa suction and a 4.1★ owner rating on Amazon.ie. It offers honest value for that spec sheet, and buying it through Amazon.ie keeps warranty and returns simple. It's a challenger rather than the category winner here, carrying less suction than the Tapo or HONITURE despite the higher price, so compare the numbers before choosing it over those. A sensible pick for eufy loyalists who want a self-empty dock without paying Omni prices, but check suction figures against cheaper rivals first.
+### 6. Tapo RV30 Max Plus Robot Vacuum & Mop (Auto-Empty Dock)  [Challenger Pick]
+Brand: TP-Link Tapo
+Price: ~€223
+Rating: 4.3/5 (Amazon.ie)
+Suction: 5,300 Pa
+Navigation: LiDAR + IMU
+Dock: Auto-empty, 3 L bag
+Mop: Yes
+Pros: €326 less than our top pick; Auto-empty dock with a 3 L bag (up to 2 months)
+Cons: Our top pick still rates higher with owners at 4.7★; Dock bags are an ongoing cost
+Verdict: Tapo's RV30 Max Plus brings a self-emptying dock and LiDAR navigation to €223, well below the €499–549 Omni models at the top of this page. The dock empties into a sealed 3-litre bag that Tapo says lasts up to two months, suction is rated at 5,300 Pa, and a mop is included for light hard-floor passes. Its 4.3-star owner rating on Amazon.ie is solid rather than outstanding, and like every self-empty machine it adds a running cost in replacement bags. The pick for anyone who wants hands-off emptying and methodical mapping without paying Omni prices; if you also want a self-washing mop, the eufy models above are the step up.
 
 #### Why can't a robot vacuum clean an upstairs and downstairs on its own?
 Robot vacuums don't climb stairs, full stop, and that single fact shapes the purchase more than any spec on the box. The typical Irish semi-detached or terraced house puts bedrooms on the first floor and kitchen and sitting room below, and a single robot only ever covers the level it's parked on. Owners either carry the unit between floors manually, buy a second cheaper unit for upstairs, or accept that one floor gets robot coverage and the other gets a stick vacuum on Saturdays. None of this is a flaw in any particular model; it's true of every robot vacuum sold, flagship or budget. Work out which floor genuinely needs the automation — usually the one with the most foot traffic or the pet — before comparing navigation systems or suction figures, because the floor-coverage question decides more about satisfaction than which lidar sensor is inside.
@@ -5921,29 +5928,30 @@ Pros: True LiDAR mapping under €150; Neat row-by-row cleaning; Room zoning in 
 Cons: Newer brand; Mop is basic pad
 Verdict: The cheapest real LiDAR robot here — mapped, methodical cleaning on a budget.
 
-### 4. HONITURE G20 Robot Vacuum & Mop (8,000 Pa)  [Best Suction Value]
+### 4. HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)  [Best Suction Value]
 Brand: HONITURE
 Price: ~€141
-Rating: 4.4/5 (Amazon.ie)
-Suction: 8,000 Pa
+Rating: 4.3/5 (Amazon.ie)
+Suction: 10,000 Pa
 Mop: Yes
 Control: App + voice
 Bin: Large
-Pros: 8,000 Pa at €141; Vacuum-mop combo; Voice control
+Runtime: Up to 150 min
+Pros: 10,000 Pa at €154; Vacuum-mop combo; Voice control
 Cons: Random-ish pathing vs lidar; No dock
 Verdict: Raw suction per euro champion — serious pickup without the premium badge.
 
 ### 5. Lefant M210P Robot Vacuum (Slim, 2,200 Pa)  [Cheapest Credible]
 Brand: Lefant
 Price: ~€96
-Rating: 4.2/5 (Amazon.ie)
+Rating: 4.3/5 (Amazon.ie)
 Suction: 2,200 Pa
 Height: 7.8 cm
 Size: 28 cm dia
 App: Alexa + app
-Pros: €96 entry to robot life; Tiny and very slim; Quiet
+Pros: Cheapest machine on this page; Only 7.8 cm tall, 28 cm across; Quiet
 Cons: Hard floors best; Random pathing
-Verdict: The absolute entry ticket: apartments and hard floors get daily once-overs for under €100.
+Verdict: The slim entry ticket: at 7.8 cm tall it reaches under low sofas and beds, and handles daily once-overs on hard floors.
 
 ### 6. Cecotec Programmable Robot Vacuum & Mop (Self-Charging)  [Strong Alternative]
 Brand: Cecotec
@@ -6017,15 +6025,16 @@ Pros: Laser mapping + 5,000 Pa; Anti-tangle for pet hair; eufy app quality
 Cons: No self-empty dock; Mop not included
 Verdict: The mapped mid-ranger: eufy quality navigation without paying for a dock.
 
-### 3. HONITURE G20 Robot Vacuum & Mop (8,000 Pa)  [Best Suction for Hair]
+### 3. HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)  [Best Suction for Hair]
 Brand: HONITURE
 Price: ~€141
-Rating: 4.4/5 (Amazon.ie)
-Suction: 8,000 Pa
+Rating: 4.3/5 (Amazon.ie)
+Suction: 10,000 Pa
 Mop: Yes
 Control: App + voice
 Bin: Large
-Pros: 8,000 Pa at €141; Vacuum-mop combo; Voice control
+Runtime: Up to 150 min
+Pros: 10,000 Pa at €154; Vacuum-mop combo; Voice control
 Cons: Random-ish pathing vs lidar; No dock
 Verdict: Raw suction per euro champion — serious pickup without the premium badge.
 
@@ -6055,15 +6064,15 @@ Verdict: The slim budget pet pick: a brushless nozzle hair can't tangle, daily p
 
 ### 6. roborock QV 35A Robot Vacuum & Mop (All-in-One Dock)  [Notable Mention]
 Brand: Roborock
-Price: ~€493
+Price: ~€524
 Rating: 4.5/5 (Amazon.ie)
 Suction: 8,000 Pa
 Mop: Twin rotating pads, 10 mm lift
 Navigation: LiDAR
 Brushes: Anti-tangle side + rubber main
-Pros: €56 less than our top pick; Anti-tangle brushes aimed at pet hair; Twin rotating mops lift 10 mm on rugs
+Pros: Cheaper than our eufy top pick; Anti-tangle brushes aimed at pet hair; Twin rotating mops lift 10 mm on rugs
 Cons: Our top pick still rates higher with owners at 4.7★; All-in-one dock needs floor space
-Verdict: The QV 35A is a Roborock, a brand with a strong track record in this category, and at €493 it's €56 cheaper than our €549 pet-hair pick. For pet homes the relevant part is the brush system: an asymmetrical side brush that Roborock says is SGS-certified for a 0% hair-tangle rate, plus a solid rubber main brush, behind 8,000 Pa of suction. Twin rotating mop pads lift 10 mm to keep rugs dry, and LiDAR handles the mapping. Owners rate it 4.5 stars, below the eufy X10 Pro Omni's 4.7, which keeps the eufy as our top choice.
+Verdict: The QV 35A is a Roborock, a brand with a strong track record in this category, and at €524 it undercuts our eufy pet-hair pick. For pet homes the relevant part is the brush system: an asymmetrical side brush that Roborock says is SGS-certified for a 0% hair-tangle rate, plus a solid rubber main brush, behind 8,000 Pa of suction. Twin rotating mop pads lift 10 mm to keep rugs dry, and LiDAR handles the mapping. Owners rate it 4.5 stars, below the eufy X10 Pro Omni's 4.7, which keeps the eufy as our top choice.
 
 ### 7. eufy X8 Pro Robot Vacuum & Mop (Self-Empty)  [Smart Alternative]
 Brand: eufy
@@ -6153,15 +6162,16 @@ Pros: Full dock automation at €399; 7,000 Pa suction; Slim body fits under fur
 Cons: Mopping less advanced than X10; App learning curve
 Verdict: The affordable full system: dock automation €150 below its big brothers.
 
-### 4. HONITURE G20 Robot Vacuum & Mop (8,000 Pa)  [Best Budget Combo]
+### 4. HONITURE G20 Pro Robot Vacuum & Mop (10,000 Pa)  [Best Budget Combo]
 Brand: HONITURE
 Price: ~€141
-Rating: 4.4/5 (Amazon.ie)
-Suction: 8,000 Pa
+Rating: 4.3/5 (Amazon.ie)
+Suction: 10,000 Pa
 Mop: Yes
 Control: App + voice
 Bin: Large
-Pros: 8,000 Pa at €141; Vacuum-mop combo; Voice control
+Runtime: Up to 150 min
+Pros: 10,000 Pa at €154; Vacuum-mop combo; Voice control
 Cons: Random-ish pathing vs lidar; No dock
 Verdict: Raw suction per euro champion — serious pickup without the premium badge.
 

@@ -10,13 +10,13 @@
   "published": "2026-08-15"
  },
  "air-fryers/air-fryer-running-costs-ireland": {
-  "hash": "e5ff5aa91c66f54e",
-  "modified": "2026-10-12",
+  "hash": "c363318bba97efec",
+  "modified": "2026-10-16",
   "published": "2026-09-01"
  },
  "air-fryers/best-air-fryers-ireland": {
-  "hash": "ac7ed10b451d0d61",
-  "modified": "2026-09-01",
+  "hash": "e618d1e50d26e916",
+  "modified": "2026-10-16",
   "published": "2026-07-28"
  },
  "air-fryers/best-budget-air-fryers-under-100-ireland": {
@@ -80,8 +80,8 @@
   "published": "2026-08-15"
  },
  "coffee-machines/best-bean-to-cup-coffee-machines-ireland": {
-  "hash": "a23665ca5304fb1a",
-  "modified": "2026-10-12",
+  "hash": "881be125cf730462",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "coffee-machines/best-budget-coffee-machines-under-150-ireland": {
@@ -90,13 +90,13 @@
   "published": "2026-07-31"
  },
  "coffee-machines/best-coffee-machines-ireland": {
-  "hash": "0f4f48fe7f21991e",
-  "modified": "2026-10-12",
+  "hash": "8de1760227edc63a",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "coffee-machines/best-espresso-machines-beginners-ireland": {
-  "hash": "e4f88eef37f894fb",
-  "modified": "2026-10-12",
+  "hash": "ad73ca8e76e4eba9",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "coffee-machines/best-pod-coffee-machines-ireland": {
@@ -195,8 +195,8 @@
   "published": "2026-09-28"
  },
  "electric-heaters/best-bathroom-small-room-heaters-ireland": {
-  "hash": "5ac4b465d1835cd8",
-  "modified": "2026-09-28",
+  "hash": "d369e69c227fd21f",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "electric-heaters/best-electric-heaters-ireland": {
@@ -210,8 +210,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/best-panel-heaters-ireland": {
-  "hash": "88d696e561db8f64",
-  "modified": "2026-10-12",
+  "hash": "3214e223a1c838e0",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "electric-heaters/cheapest-electric-heaters-to-run-ireland": {
@@ -220,8 +220,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/electric-heater-running-costs-ireland": {
-  "hash": "b90690413b12b7b8",
-  "modified": "2026-10-13",
+  "hash": "f5484961f40322e0",
+  "modified": "2026-10-16",
   "published": "2026-09-01"
  },
  "electric-heaters/index": {
@@ -290,8 +290,8 @@
   "published": "2026-07-31"
  },
  "home-office/best-standing-desk-converters-accessories-ireland": {
-  "hash": "36002c92c7e2ae85",
-  "modified": "2026-07-31",
+  "hash": "8cc1ff3145c264b8",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "home-office/best-standing-desks-ireland": {
@@ -305,8 +305,8 @@
   "published": "2026-08-15"
  },
  "index": {
-  "hash": "d60c97ed44f0695c",
-  "modified": "2026-10-12",
+  "hash": "4749272365c72fcf",
+  "modified": "2026-10-16",
   "published": "2026-07-28"
  },
  "privacy": {
@@ -345,8 +345,8 @@
   "published": "2026-08-15"
  },
  "robot-vacuums/best-budget-robot-vacuums-under-300-ireland": {
-  "hash": "614ddc4138ad2450",
-  "modified": "2026-10-02",
+  "hash": "936b862b7dd92318",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "robot-vacuums/best-premium-self-empty-robot-vacuums-ireland": {
@@ -355,18 +355,18 @@
   "published": "2026-07-31"
  },
  "robot-vacuums/best-robot-vacuum-mop-combos-ireland": {
-  "hash": "f1137a5e4a3de3b8",
-  "modified": "2026-07-31",
+  "hash": "f053482f27119cc2",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "robot-vacuums/best-robot-vacuums-ireland": {
-  "hash": "da64e7a8a817bc4c",
-  "modified": "2026-10-13",
+  "hash": "7546fbe8fe08c346",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "robot-vacuums/best-robot-vacuums-pet-hair-ireland": {
-  "hash": "455fd8ef42e8b1dc",
-  "modified": "2026-10-13",
+  "hash": "2f2d8e31a5883aff",
+  "modified": "2026-10-16",
   "published": "2026-07-31"
  },
  "robot-vacuums/index": {
@@ -375,8 +375,8 @@
   "published": "2026-08-15"
  },
  "running-cost-calculator-ireland": {
-  "hash": "0eca31ca6c943121",
-  "modified": "2026-10-13",
+  "hash": "136d2e3afbaee247",
+  "modified": "2026-10-16",
   "published": "2026-09-28"
  }
 }
