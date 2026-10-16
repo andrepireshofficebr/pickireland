@@ -35,6 +35,12 @@ jobs:
         with:
           fetch-depth: 2
 
+      # 16/10/2026: o push dispara este workflow e o "Publicar site" juntos. Sem espera, o
+      # ping saia ~10s depois do push, antes do deploy (~2 min), e o Bing podia ler a versao velha.
+      - name: Esperar o deploy do Pages (Publicar site leva ~2 min)
+        if: github.event_name == 'push'
+        run: sleep 300
+
       - name: Descobrir o que mudou e enviar
         shell: bash
         run: |
