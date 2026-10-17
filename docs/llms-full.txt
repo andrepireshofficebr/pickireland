@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-16 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-17 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -2398,19 +2398,18 @@ Summary: Dry washing indoors overnight for cents: the best laundry-mode dehumidi
 
 Eight months a year, the Irish washing line is theoretical. A tumble dryer costs roughly €1.30–1.80 per load at current rates; a dehumidifier in laundry mode dries the same load overnight for about 6–10 cents — gentler on clothes, with zero condensation soaking your walls. These seven have the strongest dedicated laundry performance we compared.
 
-### 1. Meaco DD8L Junior Desiccant Dehumidifier  [Best Laundry Performance]
-Brand: Meaco
+### 1. Pro Breeze 20L OmniDry Smart Dehumidifier  [Best Laundry Performance]
+Brand: Pro Breeze
 Price: ~€165
-Rating: 4.7/5 (Amazon.ie)
-Running cost: €0.13/hour at €0.38/kWh
-Extraction: 8 L/day
-Type: Desiccant
-Cold rooms: Full power at 5°C
+Rating: 4.5/5 (Amazon.ie)
+Extraction: 20 L/day
+Type: Compressor
+Noise: Under 38 dB
 Laundry mode: Yes
-Power: 330 W
-Pros: Full extraction in cold Irish rooms; Gently warms as it dries; Excellent laundry drying
-Cons: Higher wattage than compressors; Smaller tank
-Verdict: The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall.
+Tank: 2 L + drain hose
+Pros: 20 L/day extraction for big washing loads; Under 38 dB — fine to leave running overnight; Drain hose for continuous running
+Cons: Compressor output drops in cold, unheated rooms; €230 is above most picks here
+Verdict: The big-load laundry pick: 20 litres a day, a laundry setting and quiet enough to run overnight — best in a heated room.
 
 ### 2. Nyxi 20L/Day Dehumidifier  [Best Big-Load Capacity]
 Brand: Nyxi
@@ -2475,9 +2474,9 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.08/hour at €0.38/kWh
 Extraction: 12 L/day
 Power: 200 W
-Pros: €15 less than our top pick; 12 L/day extraction
-Cons: Lowest owner rating of the picks here at 4.4★; Our top pick still rates higher with owners at 4.7★
-Verdict: Pro Breeze's OmniDry extracts a stated 12 litres a day against our laundry pick's 8, and costs €150 against €165 — so on the headline numbers it looks like the better buy. The reason it isn't our first choice is that our pick is a desiccant model, which keeps working at full capacity in a cold room, while a compressor unit like this one loses output below about 15°C. In a heated utility room the Pro Breeze is the better value; in an unheated garage or spare room, it isn't.
+Pros: €80 less than our top pick; 12 L/day extraction
+Cons: Lowest owner rating of the picks here at 4.4★; Our top pick still rates higher with owners at 4.5★
+Verdict: Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, and its 4.4-star owner rating trails the bigger model's 4.5. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model.
 
 ### 7. Meaco MeacoDry ABC 12L (Ultra-Quiet)  [Strong Alternative]
 Brand: Meaco
@@ -2488,9 +2487,9 @@ Extraction: 12 L/day
 Noise: 36–40 dB
 Tank: 2.6 L
 Power: 165 W
-Pros: €199 — 6th-cheapest of the 7 picks here; 12 L/day extraction; 36–40 dB noise
-Cons: 1 of the 7 picks here is better rated by owners; €34 more than our top pick
-Verdict: The MeacoDry ABC is the quietest way to dry laundry indoors on this page, from a brand with a genuine track record in Ireland, and its 4.7-star owner rating matches our top pick exactly. It extracts 12 litres a day against the DD8L's 8, but it's a compressor unit rather than a desiccant one, so it loses output in a cold room — and unheated utility rooms and garages are where indoor laundry drying usually happens. At €199 against €165, pick it only if the drying room is heated.
+Pros: €199 — 5th-cheapest of the 7 picks here; 12 L/day extraction; 36–40 dB noise
+Cons: 1 of the 7 picks here is better rated by owners; €31 less than our top pick, but extracts 12 L/day rather than 20
+Verdict: The MeacoDry ABC comes from a brand with a genuine track record in Ireland, and its 4.7-star owner rating is higher than our top pick's 4.5. It extracts 12 litres a day against the Pro Breeze's 20, so big family loads take longer, but at 36–40 dB it is just as easy to live beside. Like the Pro Breeze it's a compressor unit, so it slows down in a cold room. At €199 against €230, pick it if you value Meaco's record over raw extraction.
 
 #### How much water does one wash load actually release into the air?
 A full load spun at 1200–1400rpm still holds roughly 1.5–2.5 litres of residual water depending on fabric mix — towels and denim hold more, synthetics less. That water has to go somewhere: into a tumble dryer's exhaust or heat pump condenser, or into the room's air if you're drying on an airer, where a dehumidifier then has to pull it back out. A mid-size 8–12L/day unit comfortably handles one load's worth within a single overnight run. That's why laundry-mode dehumidifiers are sized the way they are — the extraction rate isn't really about the whole room, it's about matching what one wash load releases into the air over six to eight hours. It also explains why a single small load barely challenges a mid-size unit, while back-to-back laundry days can genuinely fill a tank or push a continuous-drain hose close to its working limit.

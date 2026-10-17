@@ -79,6 +79,11 @@
   "modified": "2026-09-28",
   "published": "2026-08-15"
  },
+ "black-friday-ireland-2026": {
+  "hash": "999cd17de27915c8",
+  "modified": "2026-10-17",
+  "published": "2026-10-17"
+ },
  "coffee-machines/best-bean-to-cup-coffee-machines-ireland": {
   "hash": "881be125cf730462",
   "modified": "2026-10-16",
@@ -120,8 +125,8 @@
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-drying-clothes-ireland": {
-  "hash": "3b29a85ce94f906f",
-  "modified": "2026-09-28",
+  "hash": "437e24bc7e8ef793",
+  "modified": "2026-10-17",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-ireland": {
@@ -140,8 +145,8 @@
   "published": "2026-07-31"
  },
  "dehumidifiers/dehumidifier-running-costs-ireland": {
-  "hash": "de1007b15415902a",
-  "modified": "2026-10-12",
+  "hash": "b591111a51e0d7dc",
+  "modified": "2026-10-17",
   "published": "2026-08-29"
  },
  "dehumidifiers/how-much-does-a-dehumidifier-cost-to-run-ireland": {
@@ -305,8 +310,8 @@
   "published": "2026-08-15"
  },
  "index": {
-  "hash": "4749272365c72fcf",
-  "modified": "2026-10-16",
+  "hash": "b64e8bd1d0daf884",
+  "modified": "2026-10-17",
   "published": "2026-07-28"
  },
  "privacy": {
@@ -375,8 +380,8 @@
   "published": "2026-08-15"
  },
  "running-cost-calculator-ireland": {
-  "hash": "136d2e3afbaee247",
-  "modified": "2026-10-16",
+  "hash": "b814fa3eddbef81b",
+  "modified": "2026-10-17",
   "published": "2026-09-28"
  }
 }

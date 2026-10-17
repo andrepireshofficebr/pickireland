@@ -2737,6 +2737,88 @@ sources above on {esc(cfg['checked'])}.</p>
 for cat in CATS:
     law_article(cat)
 
+# ---------------------------------------------------------------- Black Friday 2026 (17/10/2026)
+# Por que existe: as vendas do site se concentram em janelas de promocao (a Prime Big Deal Days
+# de 6-7/10 trouxe 9 das 11 vendas de 30 dias). A proxima e a Black Friday (sexta 27/11/2026,
+# Cyber Monday 30/11). Pagina publicada 6 semanas antes para o Bing/ChatGPT e o Google ja a
+# terem indexada quando a busca por "black friday ireland" subir. Os precos vem da API (o
+# workflow Publicar site roda 2x/dia, 6x/dia de 20/11 a 01/12). Nada aqui inventa desconto:
+# a pagina mostra o preco ATUAL e diz isso.
+BF_SLUG = "black-friday-ireland-2026.html"
+BF_ORDER = ["electric-heaters", "dehumidifiers", "electric-blankets", "heated-airers", "air-fryers",
+            "coffee-machines", "robot-vacuums", "air-purifiers", "home-office", "electric-bikes"]
+BF_WHEN = "Black Friday 2026 falls on Friday 27 November, and Cyber Monday on Monday 30 November."
+
+def black_friday_page():
+    sections, items = [], []
+    for ck in BF_ORDER:
+        cat = CATS_BY_SLUG.get(ck)
+        if not cat:
+            continue
+        pg = cat["pages"][0]
+        picks = [p for p in pg["products"] if not stock_state(p)][:3]
+        if not picks:
+            continue
+        rows = ""
+        for p in picks:
+            url, has_aff = product_url(p)
+            rel = "sponsored noopener" if has_aff else "nofollow noopener"
+            _rc = running_cost_line(dict(p.get("specs") or {}), ck)
+            _rc_txt = f'<br><small>Running cost: {esc(_rc)}</small>' if _rc else ""
+            rows += (f'<tr><td><b>{esc(p["name"])}</b><br><small>{esc(p["badge"])} · {p["rating"]}/5 owner rating</small>{_rc_txt}</td>'
+                     f'<td style="white-space:nowrap"><b>€{product_price(p)}</b></td>'
+                     f'<td><a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">Today\'s price {ARROW}</a></td></tr>')
+            items.append({"@type": "ListItem", "position": len(items) + 1, "name": p["name"],
+                          "url": f'{DOMAIN}/{ck}/{pg["slug"]}.html#{p["id"]}'})
+        sections.append(
+            f'<h2 style="margin-top:34px">{esc(cat["name"])}</h2>'
+            f'<p>Our top in-stock picks from <a href="{ck}/{pg["slug"]}.html">{esc(pg["h1"])}</a> — the full guide compares every option.</p>'
+            f'<div class="tbl-scroll"><table class="cmp"><thead><tr><th>Product</th><th>Price now</th><th></th></tr></thead><tbody>{rows}</tbody></table></div>')
+    faqs = [
+        ("When is Black Friday 2026 in Ireland?",
+         BF_WHEN + " Amazon.ie usually opens its Black Friday sale several days before the Friday itself and runs it through Cyber Monday."),
+        ("Is Black Friday actually cheaper than the rest of the year?",
+         "Sometimes, not always. A Black Friday price is only a real saving if it beats what the product normally sells for. The simplest check: note today's price on this page for the items you want, then compare on the day."),
+        ("What is worth buying for an Irish winter?",
+         "Electric heaters, dehumidifiers, electric blankets and heated airers are the categories Irish homes lean on from November to March. For anything that runs for hours, the running cost at Irish electricity rates matters more than a few euro off the sticker price — our running cost calculator works it out for you."),
+        ("How often are the prices on this page updated?",
+         "Prices come directly from Amazon.ie and refresh automatically twice a day, rising to six times a day between 20 November and 1 December. Products that go out of stock drop off the list automatically."),
+    ]
+    faq_block = "".join(f"<h3 style='margin-top:22px'>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in faqs)
+    title = "Black Friday 2026 Ireland: What's Worth Buying on Amazon.ie"
+    desc = "Black Friday 2026 in Ireland is on 27 November. Our in-stock picks for heaters, dehumidifiers, air fryers and more, with today's Amazon.ie prices."
+    url = f"{DOMAIN}/{BF_SLUG}"
+    body = f"""
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › Black Friday 2026</nav>
+<h1 style="margin-top:20px">{esc(title)}</h1>
+<div class="quick-answer"><p><strong>Quick answer:</strong> {BF_WHEN} Below are our current top in-stock picks in each category, with today's Amazon.ie price, so you can see whether a Black Friday deal is a real saving. Prices refresh automatically from Amazon.ie.</p></div>
+<p>Black Friday in Ireland lands at the start of the heating season, so the products that sell hardest are the ones that run for hours: heaters, dehumidifiers, electric blankets and heated airers. On those, the running cost at Irish electricity rates (about €0.38/kWh day rate) can outweigh a Black Friday discount within a single winter — use our <a href="{CALC_SLUG}">running cost calculator</a> before you buy.</p>
+<p><strong>How to use this page:</strong> note the price now on the items you want. When the sale starts, come back and compare. If the "deal" price isn't clearly below today's, it isn't a deal.</p>
+{''.join(sections)}
+<h2 style="margin-top:34px">Black Friday 2026: common questions</h2>
+{faq_block}
+<p style="margin-top:28px"><small>We may earn a commission when you buy through our links, at no extra cost to you. <a href="affiliate-disclosure.html">How this works</a>.</small></p>
+"""
+    page_ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "url": url,
+               "description": desc, "inLanguage": "en-IE",
+               "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/"},
+               "about": {"@type": "Event", "name": "Black Friday 2026", "startDate": "2026-11-27",
+                         "endDate": "2026-11-30", "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                         "location": {"@type": "VirtualLocation", "url": "https://www.amazon.ie/"}},
+               "mainEntity": {"@type": "ItemList", "itemListElement": items}}
+    faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+        {"@type": "ListItem", "position": 2, "name": "Black Friday 2026", "item": url}]}
+    jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
+                     for x in (page_ld, faq_ld, crumb))
+    with open(os.path.join(OUT, BF_SLUG), "w", encoding="utf-8") as f:
+        f.write(page_shell(title, desc, url, body, depth=0, jsonld=jsonld, og_type="article"))
+    all_pages.append(BF_SLUG)
+
+black_friday_page()
+
 # ---------------------------------------------------------------- homepage
 tiles = ""
 for cat in CATS:
@@ -2766,7 +2848,6 @@ for si,(sk,slabel) in enumerate(spot_keys):
 <h3>{esc(sp['name'])}</h3>
 <div class="pr">€{product_price(sp)}</div>
 <div class="bar"><div class="lb"><span>Our rating</span><span>{sp['rating']}/5</span></div><u><i data-w="{r1}"></i></u></div>
-<div class="bar"><div class="lb"><span>Editor confidence</span><span>{r2}%</span></div><u><i data-w="{r2}"></i></u></div>
 <a class="btn" href="{esc(surl)}" target="_blank" rel="sponsored noopener">Check Price on Amazon.ie {ARROW}</a>
 </div></div>"""
 spot_html=f'<section class="spot" aria-label="Featured picks"><div class="spot-head"><h2>Editor&#39;s spotlight</h2><div class="spot-tabs">{spot_tabs}</div></div>{spot_panels}</section>'
@@ -2781,7 +2862,7 @@ body_home = f"""
 <h2 id="categories">Browse by category</h2>
 <div class="grid">{tiles}</div>
 <h2>Featured guides</h2>
-<div class="related">{featured}<a href="{CALC_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>New:</b>&nbsp;What will a heater or dehumidifier cost you this winter? Free calculator</span> {ARROW}</a></div>
+<div class="related"><a href="{BF_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>Black Friday 2026:</b>&nbsp;what's worth buying, with today's Amazon.ie prices</span> {ARROW}</a>{featured}<a href="{CALC_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>New:</b>&nbsp;What will a heater or dehumidifier cost you this winter? Free calculator</span> {ARROW}</a></div>
 <h2>How {SITE_NAME} works</h2>
 <p>Every guide compares five carefully selected products using manufacturer specifications, verified owner feedback and Irish-specific factors — electricity rates, weather, legal rules and local availability. When you buy through our links we may earn a commission from Amazon.ie or other retailers, at no cost to you. That's the entire business model: useful guides, honest picks. <a href="affiliate-disclosure.html">Full disclosure here</a>.</p>
 """

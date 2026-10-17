@@ -761,29 +761,29 @@
       "products": [
         {
           "id": "deh-016",
-          "asin": "B0060MY2KQ",
-          "name": "Meaco DD8L Junior Desiccant Dehumidifier",
-          "brand": "Meaco",
-          "price": 165,
-          "rating": 4.7,
+          "asin": "B0CYZYR3NC",
+          "name": "Pro Breeze 20L OmniDry Smart Dehumidifier",
+          "brand": "Pro Breeze",
+          "price": 230,
+          "rating": 4.5,
           "badge": "Best Laundry Performance",
           "specs": {
-            "Extraction": "8 L/day",
-            "Type": "Desiccant",
-            "Cold rooms": "Full power at 5°C",
+            "Extraction": "20 L/day",
+            "Type": "Compressor",
+            "Noise": "Under 38 dB",
             "Laundry mode": "Yes",
-            "Power": "330 W"
+            "Tank": "2 L + drain hose"
           },
           "pros": [
-            "Full extraction in cold Irish rooms",
-            "Gently warms as it dries",
-            "Excellent laundry drying"
+            "20 L/day extraction for big washing loads",
+            "Under 38 dB — fine to leave running overnight",
+            "Drain hose for continuous running"
           ],
           "cons": [
-            "Higher wattage than compressors",
-            "Smaller tank"
+            "Compressor output drops in cold, unheated rooms",
+            "€230 is above most picks here"
           ],
-          "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
+          "verdict": "The big-load laundry pick: 20 litres a day, a laundry setting and quiet enough to run overnight — best in a heated room."
         },
         {
           "id": "deh-017",
@@ -902,14 +902,14 @@
             "Power": "200 W"
           },
           "pros": [
-            "€15 less than our top pick",
+            "€80 less than our top pick",
             "12 L/day extraction"
           ],
           "cons": [
             "Lowest owner rating of the picks here at 4.4★",
-            "Our top pick still rates higher with owners at 4.7★"
+            "Our top pick still rates higher with owners at 4.5★"
           ],
-          "verdict": "Pro Breeze's OmniDry extracts a stated 12 litres a day against our laundry pick's 8, and costs €150 against €165 — so on the headline numbers it looks like the better buy. The reason it isn't our first choice is that our pick is a desiccant model, which keeps working at full capacity in a cold room, while a compressor unit like this one loses output below about 15°C. In a heated utility room the Pro Breeze is the better value; in an unheated garage or spare room, it isn't."
+          "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, and its 4.4-star owner rating trails the bigger model's 4.5. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
         },
         {
           "id": "deh-034",
@@ -926,15 +926,15 @@
             "Power": "165 W"
           },
           "pros": [
-            "€199 — 6th-cheapest of the 7 picks here",
+            "€199 — 5th-cheapest of the 7 picks here",
             "12 L/day extraction",
             "36–40 dB noise"
           ],
           "cons": [
             "1 of the 7 picks here is better rated by owners",
-            "€34 more than our top pick"
+            "€31 less than our top pick, but extracts 12 L/day rather than 20"
           ],
-          "verdict": "The MeacoDry ABC is the quietest way to dry laundry indoors on this page, from a brand with a genuine track record in Ireland, and its 4.7-star owner rating matches our top pick exactly. It extracts 12 litres a day against the DD8L's 8, but it's a compressor unit rather than a desiccant one, so it loses output in a cold room — and unheated utility rooms and garages are where indoor laundry drying usually happens. At €199 against €165, pick it only if the drying room is heated."
+          "verdict": "The MeacoDry ABC comes from a brand with a genuine track record in Ireland, and its 4.7-star owner rating is higher than our top pick's 4.5. It extracts 12 litres a day against the Pro Breeze's 20, so big family loads take longer, but at 36–40 dB it is just as easy to live beside. Like the Pro Breeze it's a compressor unit, so it slows down in a cold room. At €199 against €230, pick it if you value Meaco's record over raw extraction."
         }
       ],
       "guide": [
