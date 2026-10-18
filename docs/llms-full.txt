@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-17 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-18 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -1573,19 +1573,19 @@ Pros: Cheapest pick on this page at €283; 15 bar pressure; Conical burr, 30 se
 Cons: Lowest owner rating of the picks here at 4.0★; 4.0★ owner rating is only average for this price bracket
 Verdict: Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €399 Krups bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for.
 
-### 6. Ninja Luxury Premier 3-in-1 Coffee Maker (ES601EU)  [Smart Alternative]
-Brand: Ninja
-Price: ~€489
+### 6. De'Longhi La Specialista Arte (EC9155)  [Smart Alternative]
+Brand: De'Longhi
+Price: ~€490
 Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.63/hour at €0.38/kWh
-Drinks: Espresso, filter, cold brew
-Grinder: Built-in, 25 settings
-Frother: Hands-free, 4 presets
-Extras: Integrated scale
-Power: 1650 W
-Pros: Espresso, filter and cold brew in one; Built-in grinder and scale; Hands-free frothing for dairy and plant milk
-Cons: €90 more than our top pick, with the same 4.3★ owner rating; 17 kg and deep on the counter
-Verdict: Ninja's Luxury Premier is a 3-in-1 that brews filter coffee and cold brew as well as espresso, which no other machine on this page does. A built-in grinder with 25 settings, an integrated scale and a hands-free frother with four foam presets do much of the barista work for you. At €489 it's well above our €399 Krups pick and shares its 4.3-star owner rating, while the €414 Magnifica S rates higher at 4.6. The flexibility is genuine; whether it's worth €90 more than a dedicated bean-to-cup depends on whether you'll actually drink filter and cold brew too.
+Running cost: €0.59/hour at €0.38/kWh
+Grinder: Built-in, 8 settings, sensor dosing
+Tamping: Built-in lever station
+Milk: MyLatte Art steam wand (Flat/Foam)
+Water tank: 1.2 L
+Power: 1550 W
+Pros: Built-in grinder with sensor dosing; Lever tamping inside the machine, no mess; Steam wand with Flat and Foam settings
+Cons: €91 more than our top pick, with the same 4.3★ owner rating; Not one-touch: you pull each shot and steam the milk yourself
+Verdict: De'Longhi's La Specialista Arte is for people who want to make the espresso themselves without a separate grinder and tamper on the counter. A sensor-dosed grinder with eight settings feeds a built-in lever tamping station, and the MyLatte Art wand has Flat and Foam settings for milk. At €490 it's well above our €399 Krups pick and shares its 4.3-star owner rating, while the €414 Magnifica S rates higher at 4.6. It isn't push-button, so it suits people who enjoy the ritual rather than anyone after one-touch lattes.
 
 #### Why does grind quality matter more than milk features on a bean-to-cup machine?
 Every bean-to-cup machine grinds on demand, but not all grinders inside them are equal. Cheaper units around the €300 mark generally use a single conical steel burr with a fairly narrow adjustment range, which is fine for medium roasts but struggles with darker, oilier beans or very light ones; machines from roughly €500 upward widen that range and grind more consistently shot after shot. Inconsistent particle size is the single biggest cause of a sour or bitter cup from an otherwise capable machine. Ceramic burrs, found on some higher-tier models, run cooler and last longer than steel but cost more to replace on the rare occasion they need it. None of this shows up on a spec sheet as clearly as milk features do, which is exactly why it gets underweighted when comparing machines side by side in a shop.
