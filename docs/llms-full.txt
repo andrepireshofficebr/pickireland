@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-18 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-24 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -325,10 +325,10 @@ A: Usually, yes — budget air fryers see frequent discounting around Black Frid
 ------------------------------------------------------------------------------
 ## GUIDE: Best Dual Zone Air Fryers in Ireland
 URL: https://pickireland.best/air-fryers/best-dual-zone-air-fryers-ireland.html
-Summary: Dual-drawer air fryers compared for Irish families: Ninja, Tefal, Tower and more on sync cooking, capacity and value. Compared for 2026.
+Summary: Dual-drawer air fryers compared for Irish families: Ninja, Daewoo, Cuisinart and more on sync cooking, capacity and value. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Dual-zone is the air fryer feature with the highest keep-rate: once a family cooks mains and sides simultaneously with both finishing together, there's no going back to juggling. Ninja invented the category and still leads it, but Tefal and Tower now attack on capacity and price. We compared the seven dual-drawer machines worth Irish counter space.
+Dual-zone is the air fryer feature with the highest keep-rate: once a family cooks mains and sides simultaneously with both finishing together, there's no going back to juggling. Ninja invented the category and still leads it, but Daewoo and Cuisinart now attack on capacity and price. We compared the seven dual-drawer machines worth Irish counter space.
 
 ### 1. Ninja Foodi Dual Zone 7.6L (AF300UK)  [Best Dual Zone Overall]
 Brand: Ninja
@@ -408,17 +408,18 @@ Pros: €72 less than our top pick; 8 L capacity; Strong 4.6★ owner rating
 Cons: 2 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.9★
 Verdict: Russell Hobbs' XXL gives you 8 litres for €78, roughly half the Ninja's €150, with a strong 4.6-star owner rating. The catch on this page is that it's a single large basket, not two independent drawers — so it can't run chips and fish at different temperatures, which is the whole point of dual zone. Better value if you've decided one big basket is enough.
 
-### 7. Tower T17102 Vortx Vizion Dual Compartment Air Fryer (11L)  [Reader Favourite]
-Brand: Tower
-Price: ~€113
-Rating: 4.3/5 (Amazon.ie)
-Capacity: 11 L (2× 5.5 L)
-Functions: Air fry, roast, bake, grill, dehydrate
-Presets: 10
-Controls: Digital touch panel
-Pros: €37 less than our top pick; 11 L (2× 5.5 L) capacity; 10 one-touch presets
-Cons: Lowest owner rating of the picks here at 4.3★; Our top pick still rates higher with owners at 4.9★
-Verdict: Tower's Vortx Vizion splits 11 litres into two 5.5-litre compartments, the largest total capacity on this page, at €113 against the Ninja Foodi's €150. Owners rate it 4.3 stars to the Ninja's 4.9, the lowest score here, so you're trading proven finish for space and price. Ten one-touch presets and five cooking modes, including dehydrate, cover more than most families will use. Worth the saving if raw capacity matters most; otherwise the Ninja's extra €37 buys the better-rated machine.
+### 7. Cuisinart XXL 10.4L Dual Drawer Air Fryer (2× 5.2L)  [Reader Favourite]
+Brand: Cuisinart
+Price: ~€114
+Rating: 4.4/5 (Amazon.ie)
+Running cost: €0.91/hour at €0.38/kWh
+Capacity: 10.4 L (2× 5.2 L)
+Functions: Air fry, roast, grill, bake, dehydrate, max crisp
+Power: 2,400 W
+Coating: PFAS-free ceramic
+Pros: €36 less than our top pick; 10.4 L (2× 5.2 L) capacity; PFAS-free ceramic coating
+Cons: Joint-lowest owner rating of the picks here at 4.4★; Our top pick still rates higher with owners at 4.9★
+Verdict: Cuisinart's XXL splits 10.4 litres across two 5.2-litre drawers, the largest total capacity on this page, at €114 against the Ninja Foodi's €150. Owners rate it 4.4 stars to the Ninja's 4.9, level with the cheapest dual drawers here, so the extra money over those buys space rather than a better track record. Its ceramic coating is PFAS-free, a rarity at this price, and sync cooking finishes both drawers together. Worth it if capacity and coating matter most; otherwise the Ninja's extra €36 buys the better-rated machine.
 
 #### What does ‘dual zone’ actually mean on an air fryer?
 True dual-zone means two separate heating elements and two separate fans, one per drawer, each running its own temperature and timer — letting one side finish chips at 200°C while the other reheats gravy at 100°C. Cheaper 'dual basket' machines share a single element and fan pushed through a divided housing, so both sides are locked to the same temperature and time regardless of what's cooking in each. The spec sheet rarely states this plainly; look for the word 'independent' next to the zone controls, or check whether the two baskets have separate digital displays versus one shared display toggling between them. A shared-element machine still lets you cook two different foods, just not at genuinely different settings, which matters most for combinations like chips and fish that need different temperatures.
