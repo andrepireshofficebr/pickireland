@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-26 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-27 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -1506,7 +1506,7 @@ URL: https://pickireland.best/coffee-machines/best-bean-to-cup-coffee-machines-i
 Summary: Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €283 to €535+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.
+Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €283 to €590, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.
 
 ### 1. Krups Arabica EA8110 Bean-to-Cup  [Best Entry Bean-to-Cup]
 Brand: Krups
@@ -1535,19 +1535,18 @@ Pros: The proven Magnifica S platform; Parts and service everywhere; Espresso qu
 Cons: Dated display; Wand learning curve
 Verdict: Europe's bestselling automatic for a reason — the default answer for daily coffee.
 
-### 3. De'Longhi Magnifica Evo Next (ECAM310.80.SB)  [Best Milk Drinks]
-Brand: De'Longhi
+### 3. Philips 5500 Series LatteGo Bean-to-Cup (EP5546/70)  [Best Milk Drinks]
+Brand: Philips
 Price: ~€521
 Rating: 4.4/5 (Amazon.ie)
-Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
-Milk: LatteCrema system
-Display: Modern controls
-Drinks: One-touch milk
-Power: 1450 W
-Pros: One-touch flat whites; Modern interface; Auto-cleaning milk carafe
-Cons: Price step up; Bigger footprint
-Verdict: The milk-drink automatic: lattes and flat whites at one literal button.
+Milk: LatteGo, 2 parts, no tubes
+Drinks: 20 hot & iced
+Water tank: 1.8 L
+Noise: 40% quieter than earlier models
+Pros: 20 hot and iced recipes, milk drinks included; LatteGo milk system rinses clean in under 10 seconds; QuickStart: brew straight after switching on
+Cons: Price step up for the milk automation; Owner rating 4.4★, below the Magnifica S's 4.6★
+Verdict: The one to buy if most of your cups have milk in them: twenty hot and iced recipes at a touch, and a tube-free LatteGo jug that's rinsed in seconds.
 
 ### 4. Philips 5400 Series LatteGo Bean-to-Cup (EP5446/70)  [Best Flagship]
 Brand: Philips
