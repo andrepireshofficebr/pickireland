@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-10-27 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-10-28 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -3703,18 +3703,18 @@ Pros: €56 less than our top pick; 700–1500 W power; 70° oscillation
 Cons: Fan heater, not oil-filled; Stops warming when it switches off
 Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €90 against €146, and owners actually rate it higher, 4.5 stars against 4.3. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
 
-### 7. Dimplex Studio G 2.5kW Ceramic Tower  [Worth Considering]
-Brand: Dimplex
-Price: ~€150
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.95/hour at €0.38/kWh
-Power: 2500 W
-Oscillation: 76°
-Timer: 12-hr runback
-Control: Digital + remote
-Pros: 2.5 kW power; 76° oscillation
-Cons: 3 of the 7 picks here are better rated by owners; €4 more than our top pick, which owners rate the same at 4.3★
-Verdict: Dimplex is a name with genuine service presence in Ireland, and this 2.5kW ceramic tower is the most powerful unit on this page at €150. Like the Dreo above it's a ceramic tower rather than an oil-filled radiator, so it heats quickly and stops just as quickly. Its 4.3-star owner rating trails the Midea, MYLEK and Dreo above. Consider it for a large room that needs heat fast; for the slow, retained warmth this page ranks on, the Rowenta is the better buy at €146.
+### 7. De'Longhi TRDX40820E Oil-Filled Radiator (2000W, Programmable)  [Worth Considering]
+Brand: De'Longhi
+Price: ~€187
+Rating: 4.5/5 (Amazon.ie)
+Running cost: €0.76/hour at €0.38/kWh
+Power: 2,000 W
+Type: Oil-filled
+Timer: Daily & weekly programming
+Modes: Night, Comfort, Antifreeze, Chrono
+Pros: Daily and weekly programming, with remote; Child-safety mode lowers the surface temperature; Joint highest owner rating on this page at 4.5★
+Cons: Most expensive pick on this page at €187; €41 more than our top pick for the same 2,000 W
+Verdict: De'Longhi's TRDX40820E is a true oil-filled radiator, and at €187 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.3. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €41 less.
 
 #### Why do oil-filled radiators stay warm after the thermostat switches off?
 An oil-filled radiator heats a sealed reservoir of thermal oil rather than air or a person directly, and that oil holds heat far longer than the metal casing of a fan or ceramic heater. In practice the thermostat can switch the element off well before the room stops feeling warm, because the oil keeps radiating stored heat for a good while afterwards. The trade-off is a slower start — you feel a fan heater's output within seconds, but an oil radiator can take fifteen to twenty minutes to noticeably warm a room. For anywhere you're settling in for an evening rather than passing through, that slow, steady, even heat is usually the more comfortable and often the cheaper option over the full session, because the element spends less of the evening actually drawing power.

@@ -210,8 +210,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/best-oil-filled-radiators-ireland": {
-  "hash": "67c8ab5d85b63868",
-  "modified": "2026-10-13",
+  "hash": "65ac9a06cdeea326",
+  "modified": "2026-10-28",
   "published": "2026-07-31"
  },
  "electric-heaters/best-panel-heaters-ireland": {
@@ -225,8 +225,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/electric-heater-running-costs-ireland": {
-  "hash": "f5484961f40322e0",
-  "modified": "2026-10-16",
+  "hash": "1310eb9544791ada",
+  "modified": "2026-10-28",
   "published": "2026-09-01"
  },
  "electric-heaters/index": {
@@ -380,8 +380,8 @@
   "published": "2026-08-15"
  },
  "running-cost-calculator-ireland": {
-  "hash": "b814fa3eddbef81b",
-  "modified": "2026-10-17",
+  "hash": "7c54f6df136d7555",
+  "modified": "2026-10-28",
   "published": "2026-09-28"
  }
 }
