@@ -322,6 +322,18 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 .search-res .meta{color:var(--mut);font-weight:500;font-size:.78rem}
 .search-res .sp{font-family:'Bricolage Grotesque';font-weight:800;color:var(--green-d);flex:none}
 .search-hint{padding:14px 24px;color:var(--mut);font-size:.85rem}
+/* caixa 'Our top pick' no topo das guias + botao fixo no celular (02/11/2026) */
+.tp-box{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:var(--card);border:2px solid var(--gold);border-radius:16px;padding:16px 20px;margin:0 0 22px;max-width:850px;box-shadow:0 10px 30px -16px rgba(240,164,28,.4)}
+.tp-box .tp-l{flex:1;min-width:220px}
+.tp-box .tp-k{display:block;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--green-d);margin-bottom:6px}
+.tp-box .badge{margin-bottom:6px}
+.tp-box .tp-n{display:block;font-size:1.08rem;line-height:1.35;margin-bottom:4px}
+.tp-box .tp-n a{color:var(--ink)}
+.tp-box .pricerow{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.tp-box .price{font-size:1.25rem}
+.tp-box .btn{padding:13px 22px;font-size:.95rem;white-space:nowrap}
+.tp-sticky,.tp-space{display:none}
+@media(max-width:720px){.tp-box .btn{width:100%;justify-content:center}.tp-space{display:block;height:76px}.tp-sticky.on{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:110;align-items:center;gap:10px;background:#0E1B26;color:#fff;padding:10px 12px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -8px 24px -10px rgba(0,0,0,.45)}.tp-sticky .tp-sn{flex:1;min-width:0;font-size:.85rem;font-weight:700;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tp-sticky .btn{flex:none;padding:10px 14px;font-size:.86rem;white-space:nowrap}}
 
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://pickireland.best/#organization", "name": "PickIreland", "url": "https://pickireland.best/", "logo": {"@type": "ImageObject", "url": "https://pickireland.best/apple-touch-icon.png", "width": 180, "height": 180}, "image": "https://pickireland.best/assets/og-default.png", "description": "Independent product comparison guides for Irish shoppers, factoring in Irish prices, electricity costs, weather and rules.", "areaServed": {"@type": "Country", "name": "Ireland"}, "knowsLanguage": "en-IE", "contactPoint": {"@type": "ContactPoint", "email": "hello@pickireland.best", "contactType": "customer support", "availableLanguage": "en"}, "address": {"@type": "PostalAddress", "addressCountry": "IE"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://pickireland.best/#website", "name": "PickIreland", "url": "https://pickireland.best/", "description": "Independent product comparison guides for Irish shoppers.", "inLanguage": "en-IE", "areaServed": {"@type": "Country", "name": "Ireland"}, "publisher": {"@id": "https://pickireland.best/#organization"}}</script>

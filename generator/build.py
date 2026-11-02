@@ -1057,6 +1057,18 @@ body.search-open .search-overlay{display:flex;animation:fadeIn .2s ease}
 .search-res .meta{color:var(--mut);font-weight:500;font-size:.78rem}
 .search-res .sp{font-family:'Bricolage Grotesque';font-weight:800;color:var(--green-d);flex:none}
 .search-hint{padding:14px 24px;color:var(--mut);font-size:.85rem}
+/* caixa 'Our top pick' no topo das guias + botao fixo no celular (02/11/2026) */
+.tp-box{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:var(--card);border:2px solid var(--gold);border-radius:16px;padding:16px 20px;margin:0 0 22px;max-width:850px;box-shadow:0 10px 30px -16px rgba(240,164,28,.4)}
+.tp-box .tp-l{flex:1;min-width:220px}
+.tp-box .tp-k{display:block;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.8px;color:var(--green-d);margin-bottom:6px}
+.tp-box .badge{margin-bottom:6px}
+.tp-box .tp-n{display:block;font-size:1.08rem;line-height:1.35;margin-bottom:4px}
+.tp-box .tp-n a{color:var(--ink)}
+.tp-box .pricerow{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.tp-box .price{font-size:1.25rem}
+.tp-box .btn{padding:13px 22px;font-size:.95rem;white-space:nowrap}
+.tp-sticky,.tp-space{display:none}
+@media(max-width:720px){.tp-box .btn{width:100%;justify-content:center}.tp-space{display:block;height:76px}.tp-sticky.on{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:110;align-items:center;gap:10px;background:#0E1B26;color:#fff;padding:10px 12px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -8px 24px -10px rgba(0,0,0,.45)}.tp-sticky .tp-sn{flex:1;min-width:0;font-size:.85rem;font-weight:700;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tp-sticky .btn{flex:none;padding:10px 14px;font-size:.86rem;white-space:nowrap}}
 
 """
 
@@ -1248,6 +1260,39 @@ def product_card(p, rank, cat_key):
 <p class="verdict"><strong>Our verdict:</strong> {esc(p['verdict'])}</p>
 <a class="btn btn-foot" href="{esc(url)}" target="_blank" rel="{rel}">{btn_foot}</a>
 </article>"""
+
+def top_pick_blocks(products, cat_key):
+    """Caixa "Our top pick" (topo da guia) + botao fixo no celular. Usa SO dados que o card
+    #1 ja mostra (nome, badge, nota, preco, link). O #1 e products[0]: a ordem ja vem com os
+    indisponiveis no fim (logica de estoque); se ate o #1 estiver indisponivel, nao ha caixa.
+    Fica FORA do hash de page_dates de proposito: tudo aqui deriva de campos que ja estao
+    no hash (nome, preco) ou no card (badge, nota) — nao e conteudo novo."""
+    if not products:
+        return "", ""
+    p = products[0]
+    if stock_state(p):
+        return "", ""
+    url, has_aff = product_url(p)
+    rel = 'sponsored noopener' if has_aff else 'nofollow noopener'
+    price = product_price(p)
+    price_label = "on Amazon.ie" if live_info(p).get("price") is not None else "typical price"
+    box = (f'<aside class="tp-box" id="top-pick-box" aria-label="Our top pick">'
+           f'<div class="tp-l"><span class="tp-k">Our top pick</span>'
+           f'<span class="badge">{esc(p["badge"])}</span>'
+           f'<b class="tp-n"><a href="#{p["id"]}">{esc(p["name"])}</a></b>'
+           f'<div class="pricerow"><div class="price">€{price}<small>{esc(price_label)}</small></div>'
+           f'<div class="stars" aria-label="Rated {p["rating"]} out of 5">{stars(p["rating"])}</div></div></div>'
+           f'<a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">Check Price on Amazon.ie {ARROW}</a>'
+           f'</aside>')
+    sticky = (f'<div class="tp-space"></div>'
+              f'<div class="tp-sticky" id="tp-sticky"><span class="tp-sn">{esc(_short(p["name"], 34))}</span>'
+              f'<a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">Check price on Amazon.ie</a></div>'
+              "<script>(function(){var s=document.getElementById('tp-sticky');if(!s||!window.matchMedia)return;"
+              "var mq=matchMedia('(max-width:720px)'),t=0;function u(){t=0;var c=document.getElementById('ckb');"
+              "var ck=c&&c.style.display==='flex';s.classList.toggle('on',mq.matches&&!ck&&window.scrollY>600)}"
+              "function q(){if(!t)t=requestAnimationFrame(u)}addEventListener('scroll',q,{passive:true});"
+              "addEventListener('resize',q);document.addEventListener('click',function(e){if(e.target&&/^ckb-/.test(e.target.id||''))setTimeout(u,0)});u()})();</script>")
+    return box, sticky
 
 def comparison_table(products):
     spec_keys = []
@@ -1830,6 +1875,7 @@ for cat in CATS:
         qa_html, _ = quick_answer(page, cat)
         toc = "".join(f'<li><a href="#{p["id"]}">{esc(p["name"])}</a> <i>— {esc(p["badge"])}</i></li>' for p in page["products"])
         cards = "".join(product_card(p, i + 1, cat["category"]) for i, p in enumerate(page["products"]))
+        tp_box, tp_sticky = top_pick_blocks(page["products"], cat["category"])
         # Buying guide: prefere o unico da pagina; cai pro da categoria se ainda nao escrito
         guide = "".join(f"<h3>{esc(h)}</h3><p>{esc(t)}</p>" for h, t in (page.get("guide") or cat["guide"]))
         others = [pg for pg in cat["pages"] if pg["slug"] != page["slug"]]
@@ -1843,7 +1889,7 @@ for cat in CATS:
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(page['h1'])}</nav>
 <h1>{esc(page['h1'])}</h1>
 <div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
-{qa_html}
+{tp_box}{qa_html}
 <p class="intro">{esc(page['intro'])}</p>
 <div class="toc"><b>{icon(cat['category'], 18)} Our top {len(page['products'])} at a glance</b><ol>{toc}</ol></div>
 <h2>Quick comparison</h2>
@@ -1859,6 +1905,7 @@ for cat in CATS:
 <div class="related"><h2>More {esc(cat['name'].lower())} guides</h2>{related}{law_rel}</div>
 {cross_links_html(cat['category'], CATS_BY_SLUG)}
 <p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Prices are indicative, in EUR, and fluctuate — always confirm the live price. We select products based on specifications, owner feedback and value analysis.</p>
+{tp_sticky}
 """
         out = page_shell(page["title"], page["desc"], canonical, body, depth=1,
                          jsonld=jsonld_page(page, cat, faqs, pub, mod),
