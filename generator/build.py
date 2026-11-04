@@ -541,6 +541,199 @@ RC_ARTICLES = {
     },
 }
 
+# ---------------------------------------------------------------- grupo de aquecedores (04/11/2026)
+# Plano "€1.000/mes": aquecedor e a unica categoria que ja ranqueia no Google. Este bloco cria
+# paginas informativas do mesmo assunto, todas ligando para os 5 guias de compra, e melhora a
+# tabela de custo de aquecedores (que JA cobre "quanto custa rodar um aquecedor na Irlanda" —
+# por isso nao ha artigo separado com essa pergunta: seria canibalizacao da propria tabela).
+#
+# Regras (mesmas do resto do site, nao afrouxar):
+#  - todo euro vem de watts publicados x KWH_RATE / KWH_RATE_NIGHT. Nada digitado a mao.
+#  - o TIPO do aquecedor vem do campo Type da spec ou do nome do anuncio. Onde nenhum dos dois
+#    diz, entra no override abaixo com a razao. Aquecedor sem tipo derruba o build (assert).
+#  - nunca afirmar que um tipo "gasta menos" por hora: a mesma potencia custa o mesmo. A
+#    diferenca real vem de potencia e de termostato. Dito na pagina.
+HEATER_TYPE_OVERRIDE = {
+    # o nome do anuncio nao diz o tipo; a linha Dragon 4 (TRD4/TRDX4) da De'Longhi e de
+    # radiadores a oleo — mesma familia do TRDX40820E, que o anuncio chama de Oil-Filled.
+    "De'Longhi Dragon 4 Pro TRDX41025E (Digital)": "oil",
+}
+HEATER_TYPE_ORDER = ("oil", "panel", "fan")
+HEATER_TYPE_LABEL = {"oil": "Oil-filled radiator", "panel": "Panel or wall heater",
+                     "fan": "Fan or ceramic heater"}
+HEATER_TYPE_TXT = {
+    "oil": {"speed": "Slowest to get going: the oil has to warm up first, then it keeps giving "
+                     "off heat for a while after it switches off",
+            "best": "Long, steady heat: a living room for the evening or a bedroom overnight",
+            "watch": "The fins get hot to the touch; heavy to move; poor for a 20-minute warm-up"},
+    "panel": {"speed": "Medium: warms the room by convection, with little stored heat",
+              "best": "Wall-mounting, timers and smart control; bathrooms only if the model is IP-rated",
+              "watch": "A slim 1 kW panel will struggle in a large or draughty room"},
+    "fan": {"speed": "Fastest: blows warm air at you within minutes",
+            "best": "Short bursts: a cold room before you dress, a home office for an hour",
+            "watch": "Noisy; a model without a thermostat runs flat out until you switch it off; "
+                     "keep it clear of bedding and curtains"},
+}
+HEATER_LOAD = 0.60   # fracao do tempo em potencia plena com termostato — MESMA suposicao do
+                     # calculador (CALC_DEF load 60). Declarada como suposicao na pagina.
+HEATER_EVENING_H = 5 # mesma janela da tabela de referencia (hours_day 5)
+
+def _heater_type(p):
+    if p["name"] in HEATER_TYPE_OVERRIDE:
+        return HEATER_TYPE_OVERRIDE[p["name"]]
+    t = str((p.get("specs") or {}).get("Type", "")).lower()
+    n = p["name"].lower()
+    if "oil" in t or "oil" in n:
+        return "oil"
+    if "panel" in t or "panel" in n or "electric radiator" in n:
+        return "panel"
+    if any(k in t or k in n for k in ("fan", "ceramic", "ptc", "tower")):
+        return "fan"
+    return None
+
+def _heater_models():
+    """Um registro por modelo de aquecedor com potencia publicada, do menor ao maior watt."""
+    cat = next(c for c in CATS if c["category"] == "electric-heaters")
+    seen, out = set(), []
+    for pg in cat["pages"]:
+        for p in pg["products"]:
+            key = re.sub(r"\s+", " ", p["name"]).strip().lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            w = _watts(p.get("specs") or {})
+            if not w:
+                continue
+            t = _heater_type(p)
+            assert t, f"aquecedor sem tipo (acrescente ao HEATER_TYPE_OVERRIDE): {p['name']}"
+            out.append({"p": p, "w": w, "t": t, "price": product_price(p),
+                        "href": f'{pg["slug"]}.html#{p["id"]}'})
+    out.sort(key=lambda r: (r["w"], r["p"]["name"]))
+    return out
+
+def _kw(w):
+    return f"{w / 1000:g} kW" if w >= 1000 else f"{w:g} W"
+
+def _e2(x):
+    return f"€{x:,.2f}"
+
+def _hlink(r):
+    return f'<a href="{r["href"]}">{esc(r["p"]["name"])}</a>'
+
+def _by_id(models, pid):
+    r = next((m for m in models if m["p"]["id"] == pid), None)
+    assert r, f"produto {pid} sumiu dos dados de aquecedor — revisar a pagina do quarto"
+    return r
+
+def heater_type_table(models, price_col=False):
+    rows = ""
+    for t in HEATER_TYPE_ORDER:
+        ms = [m for m in models if m["t"] == t]
+        if not ms:
+            continue
+        lo, hi = ms[0]["w"], ms[-1]["w"]
+        wr = _kw(lo) if lo == hi else f"{_kw(lo)}–{_kw(hi)}"
+        cr = (rc_eur(lo / 1000 * KWH_RATE) if lo == hi else
+              f"{rc_eur(lo / 1000 * KWH_RATE)}–{rc_eur(hi / 1000 * KWH_RATE)}")
+        prices = sorted(m["price"] for m in ms if m["price"])
+        pc = ""
+        if price_col:
+            pc = (f"<td>€{prices[0]:g}–€{prices[-1]:g}</td>" if prices else "<td>—</td>")
+        tx = HEATER_TYPE_TXT[t]
+        rows += (f"<tr><td><b>{HEATER_TYPE_LABEL[t]}</b><br><small>{len(ms)} models we track</small></td>"
+                 f"<td>{wr}</td><td>{cr}</td>{pc}<td>{esc(tx['speed'])}</td>"
+                 f"<td>{esc(tx['best'])}</td><td>{esc(tx['watch'])}</td></tr>")
+    head = ("<tr><th>Type</th><th>Power range</th><th>Cost per hour at full power (day rate)</th>"
+            + ("<th>Price in our guides</th>" if price_col else "")
+            + "<th>How fast it heats</th><th>Best for</th><th>Watch out for</th></tr>")
+    return f'<div class="tbl-scroll"><table class="cmp">{head}{rows}</table></div>'
+
+def heater_power_table(models):
+    by_w = {}
+    for m in models:
+        by_w.setdefault(m["w"], []).append(m)
+    rows = ""
+    for w in sorted(by_w):
+        ms = by_w[w]
+        names = ", ".join(_hlink(m) for m in ms[:3]) + (f" and {len(ms) - 3} more" if len(ms) > 3 else "")
+        rows += (f"<tr><td><b>{_kw(w)}</b></td><td>{rc_eur(w / 1000 * KWH_RATE)}</td>"
+                 f"<td>{rc_eur(w / 1000 * KWH_RATE_NIGHT)}</td>"
+                 f"<td>{_e2(w / 1000 * KWH_RATE * HEATER_EVENING_H)}</td><td>{names}</td></tr>")
+    head = ("<tr><th>Heater power</th><th>Per hour (day)</th><th>Per hour (night)</th>"
+            f"<th>{HEATER_EVENING_H}-hour evening, flat out (day)</th><th>Models in our guides</th></tr>")
+    return f'<div class="tbl-scroll"><table class="cmp">{head}{rows}</table></div>'
+
+def _mode_watts(models):
+    cnt = {}
+    for m in models:
+        cnt[m["w"]] = cnt.get(m["w"], 0) + 1
+    return max(cnt, key=lambda w: (cnt[w], w))
+
+def heater_ref_extras():
+    """Acrescimos da tabela de custo de aquecedores: resposta direta, tabela por potencia, por
+    tipo, FAQ e links para o grupo. So para electric-heaters; as outras categorias nao mudam."""
+    ms = _heater_models()
+    mode = _mode_watts(ms)
+    assert any(m["w"] == 2000 for m in ms), "FAQ de 2 kW sem nenhum aquecedor de 2 kW"
+    lead = (f"A {_kw(mode)} electric heater, the most common size in our guides, costs "
+            f"{rc_eur(mode / 1000 * KWH_RATE)} an hour at full power in Ireland. ")
+    lo2 = ms[:2]
+    links = "".join(f'<a href="{t["slug"]}.html">{esc(t["hub_text"])} {ARROW}</a>' for t in HEATER_TOPICS)
+    html_ = f"""
+<h2>Cost per hour by heater power</h2>
+<p>What you pay depends on the wattage, not the shape of the heater. Every row below is the
+rated power times the unit rate; the last column shows which heaters in our guides draw that
+much. Heaters with two or three settings are listed at their highest one.</p>
+{heater_power_table(ms)}
+<h2>Cost per hour by type of heater</h2>
+<p>Oil-filled radiators, panel heaters and fan heaters all turn the electricity they use into
+heat, so at the same wattage they cost the same per hour. They differ in power range, in how
+quickly they warm a room and in what they are good for.
+<a href="{HEATER_TOPICS[0]['slug']}.html">Which type is cheapest to run, compared side by side</a>.</p>
+{heater_type_table(ms)}
+"""
+    faqs = [
+        {"q": "How much does a 2 kW heater cost per hour in Ireland?",
+         "a": (f"{rc_eur(2 * KWH_RATE)} an hour at full power on a day rate of {_e2(KWH_RATE)}/kWh, "
+               f"and {rc_eur(2 * KWH_RATE_NIGHT)} on a smart-meter night rate of {_e2(KWH_RATE_NIGHT)}/kWh. "
+               f"With a thermostat it spends part of each hour switched off, so the real cost is lower.")},
+        {"q": "Is an oil-filled radiator cheaper to run than a fan heater?",
+         "a": (f"Not per hour at the same wattage: a 2 kW oil radiator and a 2 kW fan heater both cost "
+               f"{rc_eur(2 * KWH_RATE)} an hour at full power. The oil radiator usually works out cheaper "
+               f"over a long evening because its thermostat cycles and the oil keeps releasing heat. A fan "
+               f"heater is cheaper for a short burst.")},
+        {"q": "How much does it cost to run an electric heater all night?",
+         "a": (f"Eight hours at full power costs {_e2(2 * 8 * KWH_RATE)} for a 2 kW heater and "
+               f"{_e2(1 * 8 * KWH_RATE)} for a 1 kW heater at the day rate, or {_e2(2 * 8 * KWH_RATE_NIGHT)} "
+               f"and {_e2(1 * 8 * KWH_RATE_NIGHT)} on a night rate. A thermostat and a timer bring that down.")},
+        {"q": "What is the cheapest electric heater to run?",
+         "a": (f"The one with the lowest wattage that still heats your room. The lowest-power heaters in our "
+               f"guides are the {lo2[0]['p']['name']} ({_kw(lo2[0]['w'])}, {rc_eur(lo2[0]['w'] / 1000 * KWH_RATE)} an hour) "
+               f"and the {lo2[1]['p']['name']} ({_kw(lo2[1]['w'])}, {rc_eur(lo2[1]['w'] / 1000 * KWH_RATE)} an hour). "
+               f"Both suit a small room only.")},
+    ]
+    hsh = (json.dumps([[m["p"]["name"], m["w"], m["t"]] for m in ms], ensure_ascii=False)
+           + lead + html_ + json.dumps(faqs, ensure_ascii=False))
+    return {"lead": lead, "html": html_, "faqs": faqs, "links": links, "hash": hsh}
+
+HEATER_TOPICS = [
+    {"slug": "oil-filled-radiator-vs-panel-heater-vs-fan-heater-ireland", "kind": "types",
+     "title": "Oil vs Panel vs Fan Heater: Cheapest to Run in Ireland?",
+     "h1": "Oil-filled radiator vs panel heater vs fan heater: which is cheapest to run in Ireland?",
+     "desc": "Oil-filled radiator, panel heater or fan heater? Cost per hour at Irish electricity "
+             "rates, how fast each heats, where it fits and how safe it is.",
+     "crumb": "Oil vs panel vs fan heater",
+     "hub_text": "Oil-filled radiator vs panel heater vs fan heater: which is cheapest to run?"},
+    {"slug": "cheapest-way-to-heat-a-bedroom-ireland", "kind": "bedroom",
+     "title": "Cheapest Way to Heat a Bedroom in Ireland (2026)",
+     "h1": "The cheapest way to heat a bedroom in Ireland",
+     "desc": "What heating a bedroom costs per hour at Irish electricity rates, how big a heater "
+             "you need, and when an electric blanket beats a heater.",
+     "crumb": "Heating a bedroom",
+     "hub_text": "The cheapest way to heat a bedroom in Ireland"},
+]
+
+
 # Artigos de regulamentacao (semana 5 da fila, 19/09/2026). Um por categoria, no maximo.
 # Por que existem separados de RC_ARTICLES: a fonte nao e o nosso proprio dado de produto,
 # e o texto da lei. Logo a regra de honestidade e outra — cada numero tem de vir de uma
@@ -1885,6 +2078,10 @@ for cat in CATS:
         # categorias sem artigo de lei e mudaria o hash delas sem o conteudo ter mudado.
         _lw = LAW_ARTICLES.get(cat["category"])
         law_rel = (f'<a href="{_lw["slug"]}.html">{esc(_lw["hub_text"])} {ARROW}</a>') if _lw else ""
+        # ponte das guias de aquecedor para o grupo de paginas de custo (04/11/2026). Colado em
+        # {related}, mesma licao de 29/08: vazio nas outras categorias, sem mudar o HTML delas.
+        heat_rel = ("".join(f'<a href="{t["slug"]}.html">{esc(t["hub_text"])} {ARROW}</a>' for t in HEATER_TOPICS)
+                    if cat["category"] == "electric-heaters" else "")
         body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(page['h1'])}</nav>
 <h1>{esc(page['h1'])}</h1>
@@ -1902,7 +2099,7 @@ for cat in CATS:
 {sources_html(page, faqs, guide_src)}
 <h2>Frequently asked questions</h2>
 {faq_html(faqs)}
-<div class="related"><h2>More {esc(cat['name'].lower())} guides</h2>{related}{law_rel}</div>
+<div class="related"><h2>More {esc(cat['name'].lower())} guides</h2>{related}{law_rel}{heat_rel}</div>
 {cross_links_html(cat['category'], CATS_BY_SLUG)}
 <p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Prices are indicative, in EUR, and fluctuate — always confirm the live price. We select products based on specifications, owner feedback and value analysis.</p>
 {tp_sticky}
@@ -1925,9 +2122,11 @@ for cat in CATS:
     # falso em paginas que nao mudaram.
     _ha = RC_ARTICLES.get(cat["category"])
     hub_art = (f'<a href="{_ha["slug"]}.html">{esc(_ha["hub_text"])} {ARROW}</a>') if _ha else ""
+    hub_heat = ("".join(f'<a href="{t["slug"]}.html">{esc(t["hub_text"])} {ARROW}</a>' for t in HEATER_TOPICS)
+                if cat["category"] == "electric-heaters" else "")
     hub_ref = ('<div class="related"><h2>Running costs, in one table</h2>'
                f'<a href="{_hr["slug"]}.html">{esc(_hr["h1"])} {ARROW}</a>'
-               f'{hub_art}</div>') if _hr else ""
+               f'{hub_art}{hub_heat}</div>') if _hr else ""
     _hl = LAW_ARTICLES.get(cat["category"])
     hub_law = ('<div class="related"><h2>The law, in plain English</h2>'
                f'<a href="{_hl["slug"]}.html">{esc(_hl["hub_text"])} {ARROW}</a></div>') if _hl else ""
@@ -1975,8 +2174,16 @@ def rc_reference_page(cat):
     withp.sort(key=lambda t: t[1])
 
     _eur = rc_eur
+    # acrescimos so da tabela de aquecedores (04/11/2026); nas outras categorias tudo fica ""
+    _ex = heater_ref_extras() if cat["category"] == "electric-heaters" else None
+    _ex_html = _ex["html"] if _ex else ""
+    _ex_faq = (f'<h2>Frequently asked questions</h2>{faq_html(_ex["faqs"])}') if _ex else ""
 
     def _amt(p):
+        # aquecedores (04/11/2026): a coluna "Heater type" saia "—" em 20 de 25 linhas porque
+        # so 5 anuncios tem o campo Type. Agora usa a mesma classificacao das paginas do grupo.
+        if _ex:
+            return HEATER_TYPE_LABEL[_heater_type(p)]
         return esc(str((p.get("specs") or {}).get(AMT_SPEC, "—"))) if AMT_SPEC else ""
 
     rows = []
@@ -2027,7 +2234,7 @@ def rc_reference_page(cat):
     else:
         miss_table = ""
 
-    qa = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> '
+    qa = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> {_ex["lead"] if _ex else ""}'
           f'At Ireland’s domestic day rate of about {_eur(KWH_RATE)}/kWh, the '
           f'{cfg["noun_pl"]} we track cost between {_eur(lo_h)} and {_eur(hi_h)} per hour '
           f'at full power — {_eur(lo_h * HRS * 30)} to '
@@ -2041,6 +2248,8 @@ def rc_reference_page(cat):
     # ponte para o artigo (a versao em prosa desta tabela), quando a categoria tem um
     _art = RC_ARTICLES.get(cat["category"])
     art_link = (f'<a href="{_art["slug"]}.html">{esc(_art["h1"])} {ARROW}</a>') if _art else ""
+    if _ex:
+        art_link += _ex["links"]
 
     per_unit_step = (f"""<li><strong>Cost per {cfg['unit']}</strong> = a full 24 hours at
 rated power, divided by the rated daily extraction. It is the fairest way to compare a
@@ -2088,7 +2297,7 @@ this page — the rated wattages, the tariff, and the arithmetic — so the numb
 checked rather than taken on trust. Spot an error or a wattage we have wrong?
 <a href="../contact.html">Tell us</a> and we will correct it.</p>
 <h2>The guides these {cfg['noun_pl']} come from</h2>
-<div class="related">{art_link}{guides}</div>
+<div class="related">{art_link}{guides}</div>{_ex_faq}
 """
 
     body = f"""
@@ -2107,9 +2316,8 @@ unit rate.</p>
 {_eur(KWH_RATE_NIGHT)}/kWh night rate, cross-checked against
 <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener"
 target="_blank">SEAI energy price statistics</a> and published supplier standard rates, July
-2026. Rated power{f" and {AMT_HEAD.lower()}" if AMT_SPEC else ""} are the manufacturers’
-own published figures.</p>
-{miss_table}
+2026. {"Rated power is each manufacturer’s own published figure; the heater type comes from the product listing." if _ex else (f"Rated power{f' and {AMT_HEAD.lower()}' if AMT_SPEC else ''} are the manufacturers’" + chr(10) + "own published figures.")}</p>
+{miss_table}{_ex_html}
 {method}
 """
     key = f"{cat['category']}/{cfg['slug']}"
@@ -2119,7 +2327,7 @@ own published figures.</p>
         # SO quando existe — se entrasse sempre (como "" nas 3 categorias sem artigo), o
         # proprio separador "||" mudaria o hash delas e as marcaria como modificadas hoje
         # sem uma letra ter mudado no HTML. Mesmo bug de frescor falso de 22/08 e 29/08.
-        ] + ([art_link] if art_link else []) + [
+        ] + ([art_link] if art_link else []) + ([_ex["hash"]] if _ex else []) + [
         json.dumps([[p["name"], w, lpd] for p, w, lpd in withp], ensure_ascii=False),
         json.dumps([p["name"] for p in without], ensure_ascii=False)])
     body = body.replace("{MOD}", mod).replace(
@@ -2156,8 +2364,11 @@ own published figures.</p>
          "item": f"{DOMAIN}/{cat['category']}/"},
         {"@type": "ListItem", "position": 3, "name": "Running costs", "item": canonical}]}
     dataset["@id"] = canonical + "#dataset"
+    _faqpage = ({"@context": "https://schema.org", "@type": "FAQPage", "@id": canonical + "#faq",
+                 "mainEntity": [{"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+                                for f in _ex["faqs"]]},) if _ex else ()
     jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
-                     for x in (dataset, webpage, crumb))
+                     for x in (dataset, webpage, crumb) + _faqpage)
     out = page_shell(cfg["title"], cfg["desc"], canonical, body, depth=1, jsonld=jsonld,
                      og_image=cat_og_image(cat["category"]))
     with open(os.path.join(OUT, cat["category"], cfg["slug"] + ".html"), "w",
@@ -2478,6 +2689,288 @@ calculated from manufacturer-published rated power and are indicative, not measu
 
 for cat in CATS:
     running_cost_article(cat)
+
+# ---------------------------------------------------------------- paginas do grupo de aquecedores (04/11/2026)
+# Configuracao e regras em HEATER_TOPICS (la em cima). Cada pagina: resposta direta nas 2-3
+# primeiras frases (.quick-answer, o trecho que o ChatGPT cita), tabela, FAQ curto, links para
+# os 5 guias, para a tabela de referencia e para a outra pagina do grupo. Todo numero e conta.
+def _heater_guides_html(cat):
+    return "".join(f'<a href="{pg["slug"]}.html">{esc(pg["h1"])} {ARROW}</a>' for pg in cat["pages"])
+
+def _heater_types_body(ms, cat, ref):
+    k2 = 2.0
+    hr2 = k2 * KWH_RATE
+    lo = ms[0]
+    by_t = {t: [m for m in ms if m["t"] == t] for t in HEATER_TYPE_ORDER}
+    burst = k2 * 0.5 * KWH_RATE
+    eve_flat = k2 * HEATER_EVENING_H * KWH_RATE
+    eve_stat = k2 * HEATER_EVENING_H * HEATER_LOAD * KWH_RATE
+    qa = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> At the same '
+          f'wattage none of them is cheaper to run: an oil-filled radiator, a panel heater and a fan '
+          f'heater all turn the electricity they use into heat, so a 2&nbsp;kW model of any type costs '
+          f'{rc_eur(hr2)} an hour at full power on Ireland’s day rate of {_e2(KWH_RATE)}/kWh. '
+          f'The cheapest to run is the lowest-wattage heater with a thermostat that still warms your '
+          f'room. For a short burst a fan heater costs least; for a long evening an oil-filled radiator '
+          f'or a panel heater with a thermostat usually does.</p>')
+    same = "".join(f"<tr><td><b>{_kw(w)}</b></td>"
+                   + "".join(f"<td>{rc_eur(w / 1000 * KWH_RATE)}</td>" for _t in HEATER_TYPE_ORDER)
+                   + "</tr>" for w in (1000, 1500, 2000))
+    same_tbl = ('<div class="tbl-scroll"><table class="cmp"><tr><th>Power</th>'
+                + "".join(f"<th>{HEATER_TYPE_LABEL[t]}</th>" for t in HEATER_TYPE_ORDER)
+                + f"</tr>{same}</table></div>")
+    tip = [m for m in ms if "tip" in str((m["p"].get("specs") or {}).get("Safety", "")).lower()]
+    ip = [m for m in ms if re.search(r"\bIP\d{2}\b", m["p"]["name"])]
+    ex = {t: by_t[t][0] for t in HEATER_TYPE_ORDER if by_t[t]}
+    faqs = [
+        {"q": "Which type of electric heater is cheapest to run in Ireland?",
+         "a": (f"Per hour, none: at the same wattage every type costs the same, {rc_eur(hr2)} an hour for "
+               f"2 kW at {_e2(KWH_RATE)}/kWh. Over a whole evening, a thermostat-controlled oil-filled "
+               f"radiator or panel heater usually costs less than a fan heater left running, because it "
+               f"spends part of each hour switched off.")},
+        {"q": "Do oil-filled radiators use less electricity?",
+         "a": ("No. A 2 kW oil-filled radiator draws 2 kWh in an hour at full power, exactly like a 2 kW "
+               "fan heater. It feels cheaper because the oil stores heat and the thermostat cycles, so "
+               "over a long evening it is at full power for less of the time.")},
+        {"q": "Is a fan heater expensive to run?",
+         "a": (f"Not for short use: 30 minutes on a 2 kW fan heater costs {_e2(burst)}. It gets expensive "
+               f"when it is left on all evening without a thermostat: {HEATER_EVENING_H} hours flat out is "
+               f"{_e2(eve_flat)} at the day rate.")},
+        {"q": "Which type of heater is safest?",
+         "a": ("None should be left unattended near curtains, bedding or clothes, covered, or run from an "
+               "extension lead. For long use, a thermostat-controlled oil-filled radiator or panel heater "
+               "with overheat protection is the usual choice; a fan heater is best for short, supervised "
+               "use. In a bathroom, use only a heater rated for it (an IP rating such as IP24).")},
+    ]
+    exs = "".join(f"<li><b>{HEATER_TYPE_LABEL[t]}:</b> {_hlink(m)}, {_kw(m['w'])}, "
+                  f"{rc_eur(m['w'] / 1000 * KWH_RATE)} an hour at full power.</li>" for t, m in ex.items())
+    tip_txt = (f" On a heater that stands on the floor, look for tip-over protection, which the {_hlink(tip[0])} lists in its specifications."
+               if tip else "")
+    ip_txt = (f" For a bathroom, use only a heater rated for it, like the {_hlink(ip[0])}." if ip else "")
+    body = f"""
+{qa}
+<p class="intro">Ask which electric heater is cheapest to run and most answers point to oil-filled
+radiators. That is half right. Below is what each type costs per hour at Irish electricity prices,
+how quickly it heats, what it is good for and what to watch out for, using the {len(ms)} heaters
+with a published power rating in our five buying guides.</p>
+<h2>Oil vs panel vs fan heater at a glance</h2>
+{heater_type_table(ms, price_col=True)}
+<p class="sources"><strong>How the cost is worked out:</strong> rated power in kW &times; {_e2(KWH_RATE)}
+per kWh (domestic day rate, cross-checked against
+<a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener"
+target="_blank">SEAI energy price statistics</a>, July 2026). Prices are indicative Amazon.ie prices
+from our guides and change often.</p>
+<h2>Same watts, same cost per hour</h2>
+<p>Every electric heater turns essentially all of the electricity it draws into heat in the room.
+No type makes more heat out of a kilowatt-hour than another, so at full power the cost per hour
+depends only on the wattage:</p>
+{same_tbl}
+<p>The lowest-power heater in our guides is the {_hlink(lo)} at {_kw(lo['w'])}, which costs
+{rc_eur(lo['w'] / 1000 * KWH_RATE)} an hour, but it suits a small room only. A low-wattage heater in
+a room that is too big for it simply runs flat out and never gets the room warm.</p>
+<h2>Where the real difference comes from</h2>
+<p><strong>Short bursts: the fan heater wins.</strong> Thirty minutes on a 2&nbsp;kW fan heater costs
+{_e2(burst)} and you feel the warm air almost at once. A 2&nbsp;kW oil-filled radiator uses the same
+{_e2(burst)} in those 30 minutes, but much of that heat is still in the oil when you leave the room.</p>
+<p><strong>Long evenings: the thermostat wins.</strong> A 2&nbsp;kW heater left on for
+{HEATER_EVENING_H} hours at full power costs {_e2(eve_flat)} at the day rate. If a thermostat holds
+it at full power for {HEATER_LOAD:.0%} of the time, the same evening costs {_e2(eve_stat)}. The
+{HEATER_LOAD:.0%} figure is an assumption (the same one our <a href="../{CALC_SLUG}">running cost
+calculator</a> uses), not a measurement; a well-insulated room needs less, a draughty one more.
+Oil-filled radiators and panel heaters are built for this kind of steady use, and the oil keeps
+releasing heat while the element is off.</p>
+<p><strong>Night rate.</strong> On a smart-meter night rate of about {_e2(KWH_RATE_NIGHT)}/kWh, every
+figure above roughly halves: 2&nbsp;kW costs {rc_eur(2 * KWH_RATE_NIGHT)} an hour.</p>
+<h2>Examples from our guides</h2>
+<ul>{exs}</ul>
+<h2>Safety</h2>
+<p>Oil-filled radiators and panel heaters get hot on the surface, so keep children and pets from
+leaning on them. Fan heaters blow hot air, so keep them well clear of curtains, bedding and clothes.
+Whatever the type, never cover a heater or dry clothes on it, plug it straight into a wall socket
+rather than an extension lead, and switch it off when you leave the room.{tip_txt}{ip_txt}</p>
+<h2>Frequently asked questions</h2>
+{faq_html(faqs)}
+<div class="related"><h2>Which heater to buy</h2>{_heater_guides_html(cat)}</div>
+<div class="related"><h2>Running costs</h2><a href="{ref['slug']}.html">{esc(ref['h1'])} {ARROW}</a><a href="{HEATER_TOPICS[1]['slug']}.html">{esc(HEATER_TOPICS[1]['hub_text'])} {ARROW}</a><a href="../{CALC_SLUG}">Heater running cost calculator {ARROW}</a></div>
+"""
+    return body, faqs
+
+def _heater_bedroom_body(ms, cat, ref):
+    wpm2 = {k: v for k, _lbl, v in CALC_INSUL}
+    room = CALC_DEF["room"]
+    need = room * wpm2["average"]
+    fit = next((m for m in ms if m["w"] >= need), None)
+    assert fit, "nenhum aquecedor cobre o quarto padrao"
+    bl_cat = next(c for c in CATS if c["category"] == "electric-blankets")
+    bl = sorted({_watts(p.get("specs") or {}) for pg in bl_cat["pages"] for p in pg["products"]} - {None})
+    assert bl, "cobertores sem potencia"
+    bl_lo, bl_hi = bl[0], bl[-1]
+    bl_guide = bl_cat["pages"][0]
+    qa = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> The cheapest way to '
+          f'heat a bedroom in Ireland is a heater sized to the room, run on a thermostat and a timer. A '
+          f'typical {room}&nbsp;m² bedroom in an averagely insulated house needs about {need:g}&nbsp;W, so a '
+          f'{_kw(fit["w"])} heater such as the {esc(fit["p"]["name"])} costs at most '
+          f'{rc_eur(fit["w"] / 1000 * KWH_RATE)} an hour at the day rate of {_e2(KWH_RATE)}/kWh, or '
+          f'{rc_eur(fit["w"] / 1000 * KWH_RATE_NIGHT)} on a night rate. If you only need a warm bed, an '
+          f'electric blanket at {bl_lo:g}–{bl_hi:g}&nbsp;W costs {rc_eur(bl_lo / 1000 * KWH_RATE)}–'
+          f'{rc_eur(bl_hi / 1000 * KWH_RATE)} an hour.</p>')
+    opts = [("Electric underblanket", bl_lo, bl_hi,
+             f'<a href="../electric-blankets/{bl_guide["slug"]}.html">{esc(bl_guide["h1"])}</a>')]
+    for pid in ("eht-006", "eht-007", "eht-001", "eht-012"):
+        m = _by_id(ms, pid)
+        opts.append((HEATER_TYPE_LABEL[m["t"]], m["w"], m["w"], _hlink(m)))
+    rows = ""
+    for lbl, lo, hi, link in opts:
+        def rng(f, fmt):
+            a, b = lo / 1000 * f, hi / 1000 * f
+            return fmt(a) if lo == hi else f"{fmt(a)}–{fmt(b)}"
+        pw = _kw(lo) if lo == hi else f"{lo:g}–{hi:g} W"
+        rows += (f"<tr><td><b>{lbl}</b><br><small>{link}</small></td><td>{pw}</td>"
+                 f"<td>{rng(KWH_RATE, rc_eur)}</td><td>{rng(KWH_RATE_NIGHT, rc_eur)}</td>"
+                 f"<td>{rng(KWH_RATE, _e2)}</td><td>{rng(KWH_RATE_NIGHT * 8, _e2)}</td></tr>")
+    opt_tbl = ('<div class="tbl-scroll"><table class="cmp"><tr><th>Option</th><th>Power</th>'
+               '<th>Per hour (day)</th><th>Per hour (night)</th><th>1-hour warm-up before bed (day)</th>'
+               f'<th>8 hours overnight, flat out (night rate)</th></tr>{rows}</table></div>')
+    srows = ""
+    for rm in (9, 12, 15):
+        cells = ""
+        for _k, _lbl, v in CALC_INSUL:
+            n = rm * v
+            f = next((m for m in ms if m["w"] >= n), None)
+            cells += (f"<td>{n:g}&nbsp;W<br><small>{_kw(f['w'])} heater: {rc_eur(f['w'] / 1000 * KWH_RATE)}/hour</small></td>"
+                      if f else f"<td>{n:g}&nbsp;W</td>")
+        srows += f"<tr><td><b>{rm}&nbsp;m²</b></td>{cells}</tr>"
+    size_tbl = ('<div class="tbl-scroll"><table class="cmp"><tr><th>Bedroom</th>'
+                + "".join(f"<th>{esc(lbl)}</th>" for _k, lbl, _v in CALC_INSUL)
+                + f"</tr>{srows}</table></div>")
+    eve = fit["w"] / 1000 * KWH_RATE
+    fit_txt = _kw(fit["w"]).replace(" ", " ")
+    faqs = [
+        {"q": "What size heater do I need for a bedroom?",
+         "a": (f"Roughly {wpm2['average']} W per square metre in an averagely insulated Irish house, "
+               f"{wpm2['poor']} W in a draughty older one and {wpm2['good']} W in a well-insulated one. "
+               f"A {room} m² bedroom therefore needs about {room * wpm2['good']:g}–{room * wpm2['poor']:g} W.")},
+        {"q": "Is an electric blanket cheaper than a heater?",
+         "a": (f"Much cheaper, if what you want is a warm bed. An underblanket at {bl_lo:g}–{bl_hi:g} W costs "
+               f"{rc_eur(bl_lo / 1000 * KWH_RATE)}–{rc_eur(bl_hi / 1000 * KWH_RATE)} an hour, against "
+               f"{rc_eur(eve)} for a {fit_txt} heater. It warms the bed, not the room.")},
+        {"q": "Is it safe to leave a heater on overnight in a bedroom?",
+         "a": ("Use a heater with a thermostat, a timer and overheat protection, keep it well clear of "
+               "bedding and curtains, plug it into a wall socket rather than an extension lead and never "
+               "cover it. A timer that switches it off after you fall asleep is cheaper and safer than "
+               "leaving it on all night.")},
+        {"q": "Is a night rate worth it for heating a bedroom?",
+         "a": (f"If you have a smart meter on a time-of-use tariff, yes: eight hours of a 1 kW heater costs "
+               f"{_e2(8 * KWH_RATE_NIGHT)} at {_e2(KWH_RATE_NIGHT)}/kWh against {_e2(8 * KWH_RATE)} at the "
+               f"day rate of {_e2(KWH_RATE)}/kWh. Check the hours of your night rate on your bill.")},
+    ]
+    o_oil, o_pan, o_fan = _by_id(ms, "eht-006"), _by_id(ms, "eht-007"), _by_id(ms, "eht-001")
+    body = f"""
+{qa}
+<p class="intro">Heating a bedroom is a different job from heating a living room: you want it warm
+for an hour before bed and maybe first thing in the morning, not all day. That changes which option
+is cheapest. Below are the real options with their cost per hour at Irish electricity prices, how
+big a heater a bedroom needs, and the habits that cut the bill.</p>
+<h2>What each option costs</h2>
+{opt_tbl}
+<p class="sources"><strong>How the cost is worked out:</strong> rated power in kW &times;
+{_e2(KWH_RATE)} per kWh (day) or {_e2(KWH_RATE_NIGHT)} per kWh (smart-meter night rate),
+cross-checked against <a href="https://www.seai.ie/data-and-insights/seai-statistics/prices"
+rel="nofollow noopener" target="_blank">SEAI energy price statistics</a>, July 2026. Power figures
+are the manufacturers’ published ratings. Every figure is a ceiling at full power; a thermostat
+brings it down.</p>
+<h2>How big a heater does a bedroom need?</h2>
+<p>A heater that is too small runs flat out and never gets the room warm; one that is far too big
+is fine on a thermostat but costs more to buy. Our sizing rule is the same one our
+<a href="../{CALC_SLUG}">running cost calculator</a> uses: watts per square metre of floor,
+depending on how well the house holds heat. Under each figure is the smallest heater size in our
+guides that covers it and what it costs per hour at full power.</p>
+{size_tbl}
+<h2>Five habits that cut the cost</h2>
+<ol class="method">
+<li><strong>Warm the room, then let the thermostat take over.</strong> One hour on a
+{_kw(fit['w'])} heater before bed costs at most {_e2(eve)}. After that, a thermostat keeps it
+topped up instead of running flat out.</li>
+<li><strong>Use the timer.</strong> Set it to switch off after you fall asleep and on again before
+the alarm. Eight hours flat out on the same heater would cost {_e2(eve * 8)} at the day rate.</li>
+<li><strong>Use the night rate if you have one.</strong> On a smart meter with a night rate of about
+{_e2(KWH_RATE_NIGHT)}/kWh, every hour costs roughly half.</li>
+<li><strong>Close the door and the curtains.</strong> The smaller the space you heat, the less
+power you need.</li>
+<li><strong>Warm the bed, not the room.</strong> If the room temperature does not bother you, an
+electric underblanket does the job for a fraction of the cost. See our
+<a href="../electric-blankets/{bl_guide['slug']}.html">electric blanket guide</a>.</li>
+</ol>
+<h2>Which heater suits a bedroom</h2>
+<p>An <strong>oil-filled radiator</strong> is quiet and gives steady heat, so it suits a bedroom
+you heat for hours; the {_hlink(o_oil)} ({_kw(o_oil['w'])}) is the smallest oil-filled radiator in
+our guides. A slim <strong>panel heater</strong> with Wi-Fi control, like the {_hlink(o_pan)}
+({_kw(o_pan['w'])}), can be switched on from your phone before you go up. A <strong>fan or ceramic heater</strong> such as the {_hlink(o_fan)}
+({_kw(o_fan['w'])}) warms the room fastest, but it makes noise and is best switched off before you
+sleep. The full comparison is in <a href="{HEATER_TOPICS[0]['slug']}.html">oil-filled radiator vs
+panel heater vs fan heater</a>.</p>
+<h2>Frequently asked questions</h2>
+{faq_html(faqs)}
+<div class="related"><h2>Which heater to buy</h2>{_heater_guides_html(cat)}</div>
+<div class="related"><h2>Running costs</h2><a href="{ref['slug']}.html">{esc(ref['h1'])} {ARROW}</a><a href="{HEATER_TOPICS[0]['slug']}.html">{esc(HEATER_TOPICS[0]['hub_text'])} {ARROW}</a><a href="../{CALC_SLUG}">Heater running cost calculator {ARROW}</a></div>
+"""
+    return body, faqs
+
+def heater_topic_page(cfg):
+    cat = next(c for c in CATS if c["category"] == "electric-heaters")
+    ref = RC_REF_PAGES["electric-heaters"]
+    ms = _heater_models()
+    if cfg["kind"] == "types":
+        inner, faqs = _heater_types_body(ms, cat, ref)
+    else:
+        inner, faqs = _heater_bedroom_body(ms, cat, ref)
+    key = f"electric-heaters/{cfg['slug']}"
+    pub, mod = page_dates(key, [cfg["h1"], cfg["title"], cfg["desc"], inner])
+    body = f"""
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(cfg['crumb'])}</nav>
+<h1>{esc(cfg['h1'])}</h1>
+<div class="updated"><span class="trust-chip">{SHIELD} Method published in full</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
+{inner}
+{cross_links_html(cat['category'], CATS_BY_SLUG)}
+<p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we
+may earn an affiliate commission at no extra cost to you. Running costs on this page are
+calculated from manufacturer-published rated power and are indicative, not measured.</p>
+"""
+    canonical = f"{DOMAIN}/electric-heaters/{cfg['slug']}.html"
+    ref_url = f"{DOMAIN}/electric-heaters/{ref['slug']}.html"
+    article = {
+        "@context": "https://schema.org", "@type": "Article", "@id": canonical + "#article",
+        "headline": cfg["h1"], "description": cfg["desc"],
+        "mainEntityOfPage": {"@type": "WebPage", "@id": canonical},
+        "inLanguage": "en-IE", "datePublished": pub, "dateModified": mod,
+        "author": author_schema(), "publisher": {"@id": DOMAIN + "/#organization"},
+        "image": cat_og_image("electric-heaters"),
+        "about": {"@type": "Thing", "name": cfg["crumb"]},
+        "citation": {"@type": "Dataset", "@id": ref_url + "#dataset", "url": ref_url},
+        "isBasedOn": ref_url}
+    webpage = {
+        "@context": "https://schema.org", "@type": "WebPage", "@id": canonical,
+        "url": canonical, "name": cfg["title"], "description": cfg["desc"],
+        "inLanguage": "en-IE", "datePublished": pub, "dateModified": mod,
+        "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".quick-answer", "h1"]}}
+    faqpage = {
+        "@context": "https://schema.org", "@type": "FAQPage", "@id": canonical + "#faq",
+        "mainEntity": [{"@type": "Question", "name": f["q"],
+                        "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in faqs]}
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+        {"@type": "ListItem", "position": 2, "name": cat["name"], "item": f"{DOMAIN}/electric-heaters/"},
+        {"@type": "ListItem", "position": 3, "name": cfg["crumb"], "item": canonical}]}
+    jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
+                     for x in (article, webpage, faqpage, crumb))
+    out = page_shell(cfg["title"], cfg["desc"], canonical, body, depth=1, jsonld=jsonld,
+                     og_image=cat_og_image("electric-heaters"))
+    with open(os.path.join(OUT, "electric-heaters", cfg["slug"] + ".html"), "w", encoding="utf-8") as f:
+        f.write(out)
+    all_pages.append(f"electric-heaters/{cfg['slug']}.html")
+    print(f"  [heater-topic] {canonical}")
+
+for _ht in HEATER_TOPICS:
+    heater_topic_page(_ht)
 
 # ---------------------------------------------------------------- artigo de regulamentacao
 # Semana 5 da fila (secao 7 do plano, 19/09/2026).
@@ -3163,6 +3656,9 @@ for cat in CATS:
     if _a:
         _refs.append(f"- [{_a['h1']}]({DOMAIN}/{cat['category']}/{_a['slug']}.html) — "
                      f"{_a['desc']}")
+    if cat["category"] == "electric-heaters":
+        for _t in HEATER_TOPICS:
+            _refs.append(f"- [{_t['h1']}]({DOMAIN}/electric-heaters/{_t['slug']}.html) — {_t['desc']}")
 _refs.insert(0, f"- [Heater & dehumidifier running cost calculator (Ireland)]({DOMAIN}/{CALC_SLUG}) — "
               "interactive: heater size for a room, winter electricity cost at Irish rates, and "
               "every model we compare ranked by total cost (heaters) or cost per litre removed (dehumidifiers).")
@@ -3281,6 +3777,9 @@ for cat in CATS:
     if _art:
         _full += [f"Running cost explained, with the arithmetic: {_art['h1']} — "
                   f"{DOMAIN}/{ck}/{_art['slug']}.html", ""]
+    if ck == "electric-heaters":
+        for _t in HEATER_TOPICS:
+            _full += [f"{_t['h1']} — {DOMAIN}/electric-heaters/{_t['slug']}.html", ""]
     _law = LAW_ARTICLES.get(ck)
     if _law:
         _full += [f"Irish law for this category, with the statute cited and the date it was "

@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-11-02 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-11-04 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -3340,6 +3340,10 @@ At ~36c/kWh standard rate: a 2 kW heater flat-out costs ~72c/hour; a 1 kW settin
 Electric heating a whole Irish house is brutal on bills. The winning strategy: keep central heating low, spot-heat the occupied room. A 1 kW oil radiator in a home office for 8 hours (~€1.50–2.50 with thermostat cycling) beats firing gas through the whole house.
 
 Full running-cost table for every heater we track: https://pickireland.best/electric-heaters/electric-heater-running-costs-ireland.html
+
+Oil-filled radiator vs panel heater vs fan heater: which is cheapest to run in Ireland? — https://pickireland.best/electric-heaters/oil-filled-radiator-vs-panel-heater-vs-fan-heater-ireland.html
+
+The cheapest way to heat a bedroom in Ireland — https://pickireland.best/electric-heaters/cheapest-way-to-heat-a-bedroom-ireland.html
 
 
 ------------------------------------------------------------------------------
