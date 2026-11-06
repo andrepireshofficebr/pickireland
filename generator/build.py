@@ -731,7 +731,345 @@ HEATER_TOPICS = [
              "you need, and when an electric blanket beats a heater.",
      "crumb": "Heating a bedroom",
      "hub_text": "The cheapest way to heat a bedroom in Ireland"},
+    {"slug": "safest-electric-heaters-children-pets-ireland", "kind": "safety",
+     "title": "Safest Electric Heaters for Children and Pets (Ireland)",
+     "h1": "The safest electric heaters for homes with children and pets in Ireland",
+     "desc": "Which electric heaters list tip-over and overheat cut-outs, thermostats, a child "
+             "mode or a bathroom IP rating, with prices and running costs at Irish rates.",
+     "crumb": "Heater safety: children and pets",
+     "hub_text": "The safest electric heaters for homes with children and pets"},
+    {"slug": "cheapest-way-to-heat-a-home-office-ireland", "kind": "office",
+     "title": "Cheapest Way to Heat a Home Office in Ireland",
+     "h1": "The cheapest way to heat a home office in Ireland",
+     "desc": "What a heater costs for a working day at Irish electricity rates, how big it needs "
+             "to be for a box room, and the Remote Working Relief you can claim.",
+     "crumb": "Heating a home office",
+     "hub_text": "The cheapest way to heat a home office in Ireland"},
 ]
+# ---- 06/11/2026: seguranca (criancas e animais), home office e resposta direta das 5 guias.
+# REGRA: recurso de seguranca so aparece se estiver nas specs ou nos pros do produto (o que a
+# ficha do fabricante/anuncio confirma). O veredito NAO conta: ele as vezes diz "confira o IP".
+def _heater_safety(p):
+    sp = p.get("specs") or {}
+    blob = (" ".join(f"{k} {v}" for k, v in sp.items()) + " " + " ".join(p.get("pros") or [])).lower()
+    f = {}
+    f["tip"] = bool(re.search(r"tip[- ]?over", blob))
+    f["overheat"] = "overheat" in blob
+    f["thermostat"] = "thermostat" in blob
+    f["child"] = bool(re.search(r"child[- ]?safety", blob))
+    ip = re.search(r"\bip(\d{2})\b", blob + " " + p["name"].lower())
+    f["ip"] = f"IP{ip.group(1)}" if ip else ""
+    f["window"] = "open-window" in blob
+    f["timer"] = "timer" in blob
+    f["wall"] = "wall" in str(sp.get("Mount", "")).lower()
+    f["cool"] = bool(re.search(r"cool[- ]to[- ]the[- ]touch|cool[- ]touch", blob))
+    return f
+
+def _safety_score(m):
+    f = _heater_safety(m["p"])
+    core = f["tip"] + f["overheat"] + f["thermostat"]
+    extra = f["child"] + bool(f["ip"]) + f["window"] + f["wall"]
+    return (core, extra, m["p"]["rating"])
+
+def _safety_extras_txt(f):
+    out = []
+    if f["child"]:
+        out.append("child-safety mode that lowers the surface temperature")
+    if f["ip"]:
+        out.append(f"{f['ip']} splash-proof rating")
+    if f["window"]:
+        out.append("open-window detection")
+    if f["wall"]:
+        out.append("wall-mountable")
+    if f["timer"]:
+        out.append("timer")
+    return out
+
+def _heater_safety_body(ms, cat, ref):
+    rows_m = [m for m in ms if any(_heater_safety(m["p"])[k] for k in ("tip", "overheat", "child", "ip", "window"))]
+    assert len(rows_m) >= 4, "poucos aquecedores com recurso de seguranca listado"
+    instock = [m for m in rows_m if not stock_state(m["p"])]
+    top = max(instock or rows_m, key=_safety_score)
+    tf = _heater_safety(top["p"])
+    core_txt = [t for k, t in (("tip", "a tip-over cut-out"), ("overheat", "overheat protection"),
+                               ("thermostat", "a thermostat")) if tf[k]]
+    assert len(core_txt) >= 2
+    child = [m for m in rows_m if _heater_safety(m["p"])["child"]]
+    ipm = [m for m in rows_m if _heater_safety(m["p"])["ip"]]
+    n_tip = sum(1 for m in ms if _heater_safety(m["p"])["tip"])
+    n_cool = sum(1 for m in ms if _heater_safety(m["p"])["cool"])
+    def _join(xs):
+        return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
+    qa = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> With children or '
+          f'pets in the house, choose a heater that switches itself off if it is knocked over or '
+          f'overheats, has a thermostat, and sits where it cannot be pulled or touched. Of the '
+          f'{len(ms)} heaters in our guides, the {esc(top["p"]["name"])} (about €{top["price"]:g}) lists '
+          f'{_join(core_txt)}, and costs {rc_eur(top["w"] / 1000 * KWH_RATE)} an hour at full power. '
+          + (f'The {esc(child[0]["p"]["name"])} adds a child-safety mode that lowers its surface '
+             f'temperature. ' if child else "")
+          + (f'For a bathroom, only use an IP-rated heater such as the {esc(ipm[0]["p"]["name"])}'
+             + ("" if _heater_safety(ipm[0]["p"])["ip"] in ipm[0]["p"]["name"] else f' ({_heater_safety(ipm[0]["p"])["ip"]})') + '.' if ipm else "") + '</p>')
+    yes = "✓"
+    rows = ""
+    for m in sorted(rows_m, key=_safety_score, reverse=True):
+        f = _heater_safety(m["p"])
+        ex = _safety_extras_txt(f)
+        rows += (f"<tr><td><b>{_hlink(m)}</b><br><small>{HEATER_TYPE_LABEL[m['t']]}</small></td>"
+                 f"<td>{_kw(m['w'])}</td>"
+                 f"<td>{yes if f['tip'] else 'not listed'}</td><td>{yes if f['overheat'] else 'not listed'}</td>"
+                 f"<td>{yes if f['thermostat'] else 'not listed'}</td>"
+                 f"<td>{esc(', '.join(ex)) if ex else '—'}</td>"
+                 f"<td>{'€' + format(m['price'], 'g') if m['price'] else '—'}</td></tr>")
+    tbl = ('<div class="tbl-scroll"><table class="cmp"><tr><th>Heater</th><th>Power</th>'
+           '<th>Tip-over cut-out</th><th>Overheat protection</th><th>Thermostat</th><th>Other safety features</th>'
+           f'<th>Price in our guides</th></tr>{rows}</table></div>')
+    wall = [m for m in ms if _heater_safety(m["p"])["wall"]]
+    wall_txt = (" Wall-mountable models in our guides: " + ", ".join(_hlink(m) for m in wall) + "."
+                if wall else "")
+    cool_txt = ("None of the heaters in our guides lists a cool-to-the-touch casing in its specifications, "
+                "so assume every one of them gets hot." if n_cool == 0 else
+                f"{n_cool} of the heaters in our guides list a cool-to-the-touch casing.")
+    faqs = [
+        {"q": "What is the safest type of electric heater for children?",
+         "a": ("No type is safe to leave where a child can touch it: oil-filled radiators and panel heaters "
+               "get hot on the surface and fan heaters have a hot grille and blow hot air. The safer choice is "
+               "a heater with a tip-over cut-out, overheat protection and a thermostat, placed out of reach or "
+               "fixed to the wall, and switched off when nobody is in the room.")},
+        {"q": "Are oil-filled radiators safe around pets?",
+         "a": ("They have no exposed element and no fan, and a model with a tip-over cut-out switches off if a "
+               "dog knocks it over. The fins still get hot, so keep pets from sleeping against them and never "
+               "dry blankets or bedding on them.")},
+        {"q": "What does tip-over protection do?",
+         "a": (f"A switch in the base cuts the power if the heater is knocked over. It matters most on a "
+               f"heater that stands on the floor where children or pets play. {n_tip} of the {len(ms)} heaters "
+               f"in our guides list it in their specifications; for the rest, check the listing before buying.")},
+        {"q": "Can I use a normal heater in a bathroom?",
+         "a": ("No. In a bathroom use only a heater made for it, with an IP rating such as IP24 against "
+               "splashes, installed where it cannot be reached from the bath or shower. A portable fan heater "
+               "plugged in near water is dangerous.")},
+    ]
+    body = f"""
+{qa}
+<p class="intro">Every electric heater gets hot, so no heater is child-proof or pet-proof on its
+own. What separates the safer ones is what happens when something goes wrong: a dog knocks it over,
+a toddler drapes a blanket on it, it is left on in an empty room. Below are the safety features each
+heater in our guides lists, then where to put it and what to avoid.</p>
+<h2>Safety features, heater by heater</h2>
+<p>A tick means the feature is in the manufacturer’s specifications or the listing as we recorded
+them. “Not listed” does not mean the heater lacks it, only that we could not confirm it, so check
+the listing before you buy.</p>
+{tbl}
+<p class="sources"><strong>Where these come from:</strong> manufacturer specifications and
+Amazon.ie listings for each model, as recorded in our buying guides. Running costs are rated power
+&times; {_e2(KWH_RATE)} per kWh (day rate, cross-checked against
+<a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener"
+target="_blank">SEAI energy price statistics</a>, July 2026).</p>
+<h2>The four features that matter</h2>
+<ol class="method">
+<li><strong>Tip-over cut-out.</strong> Switches the heater off if it falls. Essential on any heater
+that stands on the floor where children or pets move about.</li>
+<li><strong>Overheat protection.</strong> Cuts the power if the heater gets too hot, for example
+because something has been thrown over it.</li>
+<li><strong>Thermostat.</strong> Switches the heating off once the room is warm instead of
+running flat out for hours, which is safer when nobody is watching it and costs less.</li>
+<li><strong>Surface temperature.</strong> {cool_txt}{(" The " + _hlink(child[0]) + " has a child-safety mode that lowers its surface temperature.") if child else ""}</li>
+</ol>
+<h2>Where to put a heater in a home with children or pets</h2>
+<ul>
+<li>Out of reach, or fixed to the wall.{wall_txt}</li>
+<li>Well clear of curtains, bedding, sofas, clothes and pet beds, and never covered.</li>
+<li>Plugged straight into a wall socket, not an extension lead, with the cable where it cannot be
+pulled or chewed.</li>
+<li>Off when you leave the room; a timer helps if you forget.</li>
+<li>In a bathroom, only an IP-rated heater{(", like the " + _hlink(ipm[0])) if ipm else ""}.</li>
+</ul>
+<h2>Which type suits a family home</h2>
+<p>For long, steady heating, an <strong>oil-filled radiator</strong> or a <strong>panel
+heater</strong> on a thermostat is the usual choice: no fan, no exposed element, and a panel can go
+on the wall. A <strong>fan or ceramic heater</strong> heats fastest but is best for short,
+supervised use. Running costs per type are compared in <a href="{HEATER_TOPICS[0]['slug']}.html">oil-filled
+radiator vs panel heater vs fan heater</a>.</p>
+<h2>Frequently asked questions</h2>
+{faq_html(faqs)}
+<div class="related"><h2>Which heater to buy</h2>{_heater_guides_html(cat)}</div>
+"""
+    return body, faqs
+
+OFFICE_H = 8       # horas de um dia de trabalho — suposicao declarada na pagina
+OFFICE_DAYS = 5    # dias por semana — idem
+OFFICE_ROOM = 9    # m2 do exemplo (um "box room"); so entrada de exemplo, nao estatistica
+
+def _heater_office_body(ms, cat, ref):
+    wpm2 = {k: v for k, _lbl, v in CALC_INSUL}
+    need = OFFICE_ROOM * wpm2["average"]
+    fit = next((m for m in ms if m["w"] >= need), None)
+    assert fit, "nenhum aquecedor cobre o escritorio padrao"
+    hr = fit["w"] / 1000 * KWH_RATE
+    day_flat = hr * OFFICE_H
+    day_stat = day_flat * HEATER_LOAD
+    opts = [m for m in ms if m["w"] <= 1000]
+    big = next((m for m in ms if m["w"] == 1500 and _heater_safety(m["p"])["thermostat"]), None)
+    if big:
+        opts.append(big)
+    assert len(opts) >= 3
+    rows = ""
+    for m in opts:
+        h = m["w"] / 1000 * KWH_RATE
+        rows += (f"<tr><td><b>{_hlink(m)}</b><br><small>{HEATER_TYPE_LABEL[m['t']]}</small></td>"
+                 f"<td>{_kw(m['w'])}</td><td>{rc_eur(h)}</td><td>{_e2(h * OFFICE_H)}</td>"
+                 f"<td>{_e2(h * OFFICE_H * HEATER_LOAD)}</td><td>{_e2(h * OFFICE_H * HEATER_LOAD * OFFICE_DAYS)}</td></tr>")
+    tbl = ('<div class="tbl-scroll"><table class="cmp"><tr><th>Heater</th><th>Power</th><th>Per hour</th>'
+           f'<th>{OFFICE_H}-hour day, flat out</th><th>{OFFICE_H}-hour day on a thermostat ({HEATER_LOAD:.0%})</th>'
+           f'<th>{OFFICE_DAYS}-day week on a thermostat</th></tr>{rows}</table></div>')
+    srows = ""
+    for rm in (6, 9, 12):
+        cells = ""
+        for _k, _lbl, v in CALC_INSUL:
+            n = rm * v
+            f = next((m for m in ms if m["w"] >= n), None)
+            cells += (f"<td>{n:g}&nbsp;W<br><small>{_kw(f['w'])} heater: {_e2(f['w'] / 1000 * KWH_RATE * OFFICE_H * HEATER_LOAD)}/day</small></td>"
+                      if f else f"<td>{n:g}&nbsp;W</td>")
+        srows += f"<tr><td><b>{rm}&nbsp;m²</b></td>{cells}</tr>"
+    size_tbl = ('<div class="tbl-scroll"><table class="cmp"><tr><th>Office</th>'
+                + "".join(f"<th>{esc(lbl)}</th>" for _k, lbl, _v in CALC_INSUL)
+                + f"</tr>{srows}</table></div>")
+    rev = ('<a href="https://www.revenue.ie/en/jobs-and-pensions/eworking/what-costs-can-you-claim-for.aspx" '
+           'rel="nofollow noopener" target="_blank">Revenue</a>')
+    qa = (f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> Heat the room you work '
+          f'in, not the house, with a small heater on a thermostat. A {OFFICE_ROOM}&nbsp;m² box room in an '
+          f'averagely insulated house needs about {need:g}&nbsp;W, so a {_kw(fit["w"])} heater such as the '
+          f'{esc(fit["p"]["name"])} costs at most {rc_eur(hr)} an hour at the day rate of {_e2(KWH_RATE)}/kWh: '
+          f'{_e2(day_flat)} for an {OFFICE_H}-hour working day flat out, or about {_e2(day_stat)} if the '
+          f'thermostat keeps it at full power {HEATER_LOAD:.0%} of the time. Remote Working Relief lets you '
+          f'claim 30% of your electricity and heating costs, apportioned by the days you work from home.</p>')
+    faqs = [
+        {"q": "How much does it cost to heat a home office for a day?",
+         "a": (f"A {_kw(fit['w'])} heater costs {rc_eur(hr)} an hour at {_e2(KWH_RATE)}/kWh, so an {OFFICE_H}-hour "
+               f"working day costs at most {_e2(day_flat)}, and about {_e2(day_stat)} if a thermostat keeps it at "
+               f"full power {HEATER_LOAD:.0%} of the time. A 2 kW heater left on flat out all day costs "
+               f"{_e2(2 * KWH_RATE * OFFICE_H)}.")},
+        {"q": "Can I claim tax relief on heating when working from home in Ireland?",
+         "a": ("Yes. Revenue's Remote Working Relief lets you attribute 30% of the cost of electricity, heating "
+               "and broadband to remote working, apportioned by the number of days you worked from home in "
+               "the year. Any remote working allowance your employer pays you is deducted first.")},
+        {"q": "What size heater do I need for a home office?",
+         "a": (f"Roughly {wpm2['average']} W per square metre in an averagely insulated house, {wpm2['poor']} W "
+               f"in a draughty one and {wpm2['good']} W in a well-insulated one. A {OFFICE_ROOM} m² box room "
+               f"needs about {OFFICE_ROOM * wpm2['good']:g}–{OFFICE_ROOM * wpm2['poor']:g} W.")},
+        {"q": "Is a fan heater or an oil radiator better for a home office?",
+         "a": ("For a full working day, an oil-filled radiator or a panel heater on a thermostat: it is quiet "
+               "on video calls and gives steady heat. A fan heater warms the room fastest in the morning but "
+               "makes noise, so it suits a short blast before you sit down.")},
+    ]
+    body = f"""
+{qa}
+<p class="intro">Working from home in an Irish winter usually means one cold box room and the
+choice between heating the whole house all day or heating just that room. Heating one room with a
+small electric heater is almost always cheaper. Below is what it costs per hour, per working day and
+per week at Irish electricity prices, how big a heater the room needs, and the tax relief you can
+claim back.</p>
+<h2>What a working day costs</h2>
+<p>All figures use the day rate of {_e2(KWH_RATE)}/kWh, since office hours fall in the day. The
+thermostat columns assume the heater runs at full power {HEATER_LOAD:.0%} of the time, the same
+assumption our <a href="../{CALC_SLUG}">running cost calculator</a> uses; a well-insulated room
+needs less, a draughty one more.</p>
+{tbl}
+<p class="sources"><strong>How the cost is worked out:</strong> rated power in kW &times;
+{_e2(KWH_RATE)} per kWh &times; hours, cross-checked against
+<a href="https://www.seai.ie/data-and-insights/seai-statistics/prices" rel="nofollow noopener"
+target="_blank">SEAI energy price statistics</a>, July 2026. Power figures are the manufacturers’
+published ratings.</p>
+<h2>How big a heater does a home office need?</h2>
+<p>Watts per square metre of floor, depending on how well the house holds heat. Under each figure
+is the smallest heater in our guides that covers it and what it costs for an {OFFICE_H}-hour day
+on a thermostat.</p>
+{size_tbl}
+<h2>Claim some of it back: Remote Working Relief</h2>
+<p>If you work from home, {rev} lets you attribute 30% of the cost of electricity, heating and
+broadband to remote working, apportioned by the number of days you worked from home in the year.
+Weekends, public holidays and annual leave do not count. If your employer pays you a remote working
+allowance, that is deducted first; you can claim the relief if your employer pays less than €3.20
+a day. The relief is given at your highest rate of tax, so keep your electricity bills.</p>
+<h2>Four habits that cut the cost</h2>
+<ol class="method">
+<li><strong>Close the door.</strong> A small heater only keeps up with a small space.</li>
+<li><strong>Let the thermostat work.</strong> Warm the room before you sit down, then let the
+thermostat hold it instead of running flat out.</li>
+<li><strong>Use a timer.</strong> Have it switch on half an hour before you start and off at lunch
+and at the end of the day.</li>
+<li><strong>Heat yourself first.</strong> A low-wattage heater pointed at your desk does more for you
+than a big one heating the far corner.</li>
+</ol>
+<h2>Frequently asked questions</h2>
+{faq_html(faqs)}
+<div class="related"><h2>Which heater to buy</h2>{_heater_guides_html(cat)}</div>
+"""
+    return body, faqs
+
+HEATER_GUIDE_JOB = {
+    "best-electric-heaters-ireland": "For most Irish homes",
+    "cheapest-electric-heaters-to-run-ireland": "For the lowest running cost",
+    "best-oil-filled-radiators-ireland": "For steady all-evening heat",
+    "best-panel-heaters-ireland": "For a slim heater you can fix to the wall",
+    "best-bathroom-small-room-heaters-ireland": "For a bathroom",
+}
+
+def heater_guide_answer(page):
+    """Resposta direta das 5 guias de aquecedor (06/11/2026): produto recomendado, motivo e
+    preco, tudo tirado dos dados (nome, preco, specs, pros, nota). Nenhum numero digitado."""
+    prods = page["products"]
+    job = HEATER_GUIDE_JOB.get(page["slug"])
+    if not prods or not job or stock_state(prods[0]):
+        return None
+    top = prods[0]
+    w = _watts(top.get("specs") or {})
+    t = _heater_type(top)
+    if not w or not t:
+        return None
+    f = _heater_safety(top)
+    feats = []
+    if f["ip"]:
+        feats.append(f"an {f['ip']} splash-proof rating")
+    if f["tip"] and f["overheat"]:
+        feats.append("tip-over and overheat cut-outs")
+    elif f["tip"]:
+        feats.append("a tip-over cut-out")
+    elif f["overheat"]:
+        feats.append("overheat protection")
+    if f["thermostat"]:
+        feats.append("a thermostat")
+    ctl = str((top.get("specs") or {}).get("Control", ""))
+    if "wifi" in ctl.lower().replace("-", ""):
+        feats.append("Wi-Fi app control")
+    if f["timer"] and len(feats) < 2:
+        feats.append("a timer")
+    feats = feats[:2]
+    kind = HEATER_TYPE_LABEL[t].lower()
+    if t == "fan" and "ceramic" in (str((top.get("specs") or {}).get("Type", "")) + top["name"]).lower():
+        kind = "ceramic heater"
+    elif t == "panel":
+        kind = "panel heater" if "panel" in top["name"].lower() else "electric radiator"
+    txt = f"{job}, our pick is the {top['name']} at about €{product_price(top)}. "
+    if page["slug"].startswith("cheapest-"):
+        txt += ("Every plug-in electric heater turns practically all the electricity it uses into heat, "
+                "so the most energy-efficient choice is the lowest-wattage heater that still warms your space. ")
+    txt += (f"It is a {_kw(w)} {kind}" + (f" with {' and '.join(feats)}" if feats else "")
+            + f", rated {top['rating']}/5 by owners, and costs {rc_eur(w / 1000 * KWH_RATE)} an hour at "
+            f"full power on Ireland's day rate of {_e2(KWH_RATE)}/kWh.")
+    # alternativa mais barata so do MESMO tipo e porte (nada de termoventilador na pagina de
+    # banheiro, nem 2 kW na pagina de menor custo de uso, nem mini de 650 W na de oleo 2 kW)
+    hi = w if page["slug"].startswith("cheapest-") else 1.5 * w
+    alt = [p for p in prods[1:] if not stock_state(p) and product_price(p) < product_price(top)
+           and _heater_type(p) == t and _watts(p.get("specs") or {})
+           and 0.6 * w <= _watts(p.get("specs") or {}) <= hi
+           and (not f["ip"] or _heater_safety(p)["ip"])]
+    if alt:
+        c = min(alt, key=lambda p: product_price(p))
+        txt += (f" On a tighter budget, the {c['name']} costs about €{product_price(c)} "
+                f"({_kw(_watts(c.get('specs') or {}))}).")
+    html_out = f'<p class="quick-answer" id="quick-answer"><strong>Quick answer:</strong> {esc(txt)}</p>'
+    return html_out, txt
+
 
 
 # Artigos de regulamentacao (semana 5 da fila, 19/09/2026). Um por categoria, no maximo.
@@ -2052,8 +2390,11 @@ for cat in CATS:
         _cc_lines = [c for c in (charge_cost_line(pr.get("specs") or {}, cat["category"])
                                  for pr in page["products"]) if c]
         calc_cta = CALC_CTA.get(cat["category"], "")
+        # resposta direta das guias de aquecedor (06/11): entra no hash SO quando existe,
+        # para nao remarcar as outras 50 guias (licao do separador "||").
+        _hqa = heater_guide_answer(page) if cat["category"] == "electric-heaters" else None
         pub, mod = page_dates(f"{cat['category']}/{page['slug']}",
-            ([rc_html] if rc_html else []) + ([calc_cta] if calc_cta else [])
+            ([_hqa[1]] if _hqa else []) + ([rc_html] if rc_html else []) + ([calc_cta] if calc_cta else [])
             + ([json.dumps(_cc_lines, sort_keys=True)] if _cc_lines else []) + [
             page["h1"], page["intro"], page["title"], page["desc"],
             json.dumps(guide_src, ensure_ascii=False, sort_keys=True),
@@ -2066,6 +2407,8 @@ for cat in CATS:
                         for p in page["products"]],
                        ensure_ascii=False, sort_keys=True)])
         qa_html, _ = quick_answer(page, cat)
+        if _hqa:
+            qa_html = _hqa[0]
         toc = "".join(f'<li><a href="#{p["id"]}">{esc(p["name"])}</a> <i>— {esc(p["badge"])}</i></li>' for p in page["products"])
         cards = "".join(product_card(p, i + 1, cat["category"]) for i, p in enumerate(page["products"]))
         tp_box, tp_sticky = top_pick_blocks(page["products"], cat["category"])
@@ -2790,7 +3133,6 @@ rather than an extension lead, and switch it off when you leave the room.{tip_tx
 <h2>Frequently asked questions</h2>
 {faq_html(faqs)}
 <div class="related"><h2>Which heater to buy</h2>{_heater_guides_html(cat)}</div>
-<div class="related"><h2>Running costs</h2><a href="{ref['slug']}.html">{esc(ref['h1'])} {ARROW}</a><a href="{HEATER_TOPICS[1]['slug']}.html">{esc(HEATER_TOPICS[1]['hub_text'])} {ARROW}</a><a href="../{CALC_SLUG}">Heater running cost calculator {ARROW}</a></div>
 """
     return body, faqs
 
@@ -2911,7 +3253,6 @@ panel heater vs fan heater</a>.</p>
 <h2>Frequently asked questions</h2>
 {faq_html(faqs)}
 <div class="related"><h2>Which heater to buy</h2>{_heater_guides_html(cat)}</div>
-<div class="related"><h2>Running costs</h2><a href="{ref['slug']}.html">{esc(ref['h1'])} {ARROW}</a><a href="{HEATER_TOPICS[0]['slug']}.html">{esc(HEATER_TOPICS[0]['hub_text'])} {ARROW}</a><a href="../{CALC_SLUG}">Heater running cost calculator {ARROW}</a></div>
 """
     return body, faqs
 
@@ -2921,15 +3262,24 @@ def heater_topic_page(cfg):
     ms = _heater_models()
     if cfg["kind"] == "types":
         inner, faqs = _heater_types_body(ms, cat, ref)
+    elif cfg["kind"] == "safety":
+        inner, faqs = _heater_safety_body(ms, cat, ref)
+    elif cfg["kind"] == "office":
+        inner, faqs = _heater_office_body(ms, cat, ref)
     else:
         inner, faqs = _heater_bedroom_body(ms, cat, ref)
+    # links cruzados entre as paginas do grupo (fora do hash: e navegacao, nao conteudo)
+    group = ("".join(f'<a href="{t["slug"]}.html">{esc(t["hub_text"])} {ARROW}</a>'
+                     for t in HEATER_TOPICS if t["slug"] != cfg["slug"])
+             + f'<a href="{ref["slug"]}.html">{esc(ref["h1"])} {ARROW}</a>'
+             + f'<a href="../{CALC_SLUG}">Heater running cost calculator {ARROW}</a>')
     key = f"electric-heaters/{cfg['slug']}"
     pub, mod = page_dates(key, [cfg["h1"], cfg["title"], cfg["desc"], inner])
     body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(cfg['crumb'])}</nav>
 <h1>{esc(cfg['h1'])}</h1>
 <div class="updated"><span class="trust-chip">{SHIELD} Method published in full</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
-{inner}
+{inner}<div class="related"><h2>More on heating and running costs</h2>{group}</div>
 {cross_links_html(cat['category'], CATS_BY_SLUG)}
 <p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we
 may earn an affiliate commission at no extra cost to you. Running costs on this page are

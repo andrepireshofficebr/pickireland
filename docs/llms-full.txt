@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-11-04 | 12 categories | 52 guides | 312 product entries
+Generated: 2026-11-06 | 12 categories | 52 guides | 312 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -3345,6 +3345,10 @@ Oil-filled radiator vs panel heater vs fan heater: which is cheapest to run in I
 
 The cheapest way to heat a bedroom in Ireland — https://pickireland.best/electric-heaters/cheapest-way-to-heat-a-bedroom-ireland.html
 
+The safest electric heaters for homes with children and pets in Ireland — https://pickireland.best/electric-heaters/safest-electric-heaters-children-pets-ireland.html
+
+The cheapest way to heat a home office in Ireland — https://pickireland.best/electric-heaters/cheapest-way-to-heat-a-home-office-ireland.html
+
 
 ------------------------------------------------------------------------------
 ## GUIDE: The Best Electric Heaters in Ireland (2026)
@@ -3500,7 +3504,7 @@ Brand: Warmlite
 Price: ~€21
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.25/hour at €0.38/kWh
-Power: 650 W (~23c/h)
+Power: 650 W
 Fins: 5
 Size: Mini
 Thermostat: Adjustable
@@ -3602,6 +3606,9 @@ Not as much as people hope, because comfort heating happens when you're in the r
 Draught-proofing a door and window, closing internal doors so you're only heating one room, and hanging thermal or lined curtains after dark will cut a heater's runtime more than swapping one model for a slightly more efficient one. A heater in a room that's constantly losing warmth through gaps has to run almost continuously regardless of its thermostat quality. SEAI grants don't cover heaters themselves, but they do fund attic and wall insulation and can meaningfully lower your home's BER rating over time, which reduces how hard any heater — or your central heating — has to work to hold a temperature. For a rented room where insulation upgrades aren't an option, a draught excluder and heavy curtains are the closest cheap equivalent, and they cost a fraction of a heater upgrade.
 
 #### Frequently asked questions
+Q: What is the most energy-efficient electric heater?
+A: Every plug-in electric heater, whether oil-filled, panel, fan or ceramic, turns practically all the electricity it draws into heat, so none is more efficient than another per kilowatt-hour. The heater that costs least to run is the one with the lowest wattage that still warms your space, controlled by a thermostat and a timer so it is not running flat out when it does not need to.
+
 Q: Does night rate electricity make heaters cheaper to run?
 A: Only if you're actually heating the room during the night-rate window, which for most smart-meter tariffs runs from around 11pm to 8am in winter. Night rates currently sit roughly €0.15-€0.22 per kWh against a day rate near €0.38, so a heater running during those hours genuinely costs 50-60% less. The catch is that plug-in heaters don't store heat the way storage heaters do — an oil radiator or panel heater loses most of its warmth within an hour or two of switching off, so you can't pre-heat overnight and expect the saving to carry through an evening you're actually sitting in the room.
 
@@ -3686,7 +3693,7 @@ Brand: Warmlite
 Price: ~€21
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.25/hour at €0.38/kWh
-Power: 650 W (~23c/h)
+Power: 650 W
 Fins: 5
 Size: Mini
 Thermostat: Adjustable
@@ -3761,7 +3768,7 @@ URL: https://pickireland.best/electric-heaters/best-panel-heaters-ireland.html
 Summary: Slim electric panel heaters for Irish rooms compared: smart scheduling, wall mounting, Lot 20 compliance and running costs. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Panel heaters are the fitted-look option: slim, silent, wall-mountable, and increasingly smart enough to schedule around cheap-rate electricity windows. They suit sealed modern rooms and background heating — not draughty period homes needing fast recovery. We compared thermostat accuracy, scheduling intelligence and build across the seven best sold here.
+Panel heaters are the fitted-look option: slim, silent, wall-mountable, and increasingly smart enough to schedule around cheap-rate electricity windows. They suit sealed modern rooms and background heating — not draughty period homes needing fast recovery. We compared thermostat accuracy, scheduling intelligence and build across the six best sold here.
 
 ### 1. Devola 1500W Smart Glass Panel Heater (Grey)  [Best Panel Overall]
 Brand: Devola
@@ -3883,7 +3890,7 @@ URL: https://pickireland.best/electric-heaters/best-bathroom-small-room-heaters-
 Summary: Fast, splash-safe heaters for Irish bathrooms and small rooms — IP ratings, heat-up speed and safety compared. Our picks 2026.
 ------------------------------------------------------------------------------
 
-Bathroom heating is its own discipline: you need serious warmth in under two minutes, splash-proof safety (look for IP21 minimum, IP24 ideally), and ideally wall mounting away from water. The classic Irish cold bathroom has seven good answers, from a €45 quick fix to permanent fitted solutions. Heat-up speed and IP ratings led our ranking.
+Bathroom heating is its own discipline: you need serious warmth in under two minutes, splash-proof safety (look for IP21 minimum, IP24 ideally), and ideally wall mounting away from water. The classic Irish cold bathroom has seven good answers, from a cheap fan heater for a quick blast to permanent fitted solutions. Heat-up speed and IP ratings led our ranking.
 
 ### 1. Purus 600W Electric Radiator (Bathroom Safe, IP24)  [Best Bathroom Fitted]
 Brand: Purus

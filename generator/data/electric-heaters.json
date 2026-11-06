@@ -330,7 +330,7 @@
           "rating": 4.0,
           "badge": "Cheapest Personal Heat",
           "specs": {
-            "Power": "650 W (~23c/h)",
+            "Power": "650 W",
             "Fins": "5",
             "Size": "Mini",
             "Thermostat": "Adjustable"
@@ -520,6 +520,10 @@
       ],
       "faqs": [
         {
+          "q": "What is the most energy-efficient electric heater?",
+          "a": "Every plug-in electric heater, whether oil-filled, panel, fan or ceramic, turns practically all the electricity it draws into heat, so none is more efficient than another per kilowatt-hour. The heater that costs least to run is the one with the lowest wattage that still warms your space, controlled by a thermostat and a timer so it is not running flat out when it does not need to."
+        },
+        {
           "q": "Does night rate electricity make heaters cheaper to run?",
           "a": "Only if you're actually heating the room during the night-rate window, which for most smart-meter tariffs runs from around 11pm to 8am in winter. Night rates currently sit roughly €0.15-€0.22 per kWh against a day rate near €0.38, so a heater running during those hours genuinely costs 50-60% less. The catch is that plug-in heaters don't store heat the way storage heaters do — an oil radiator or panel heater loses most of its warmth within an hour or two of switching off, so you can't pre-heat overnight and expect the saving to carry through an evening you're actually sitting in the room."
         },
@@ -666,7 +670,7 @@
           "rating": 4.0,
           "badge": "Best Mini/Desk",
           "specs": {
-            "Power": "650 W (~23c/h)",
+            "Power": "650 W",
             "Fins": "5",
             "Size": "Mini",
             "Thermostat": "Adjustable"
@@ -787,7 +791,7 @@
       "title": "Best Panel Heaters in Ireland 2026",
       "desc": "Slim electric panel heaters for Irish rooms compared: smart scheduling, wall mounting, Lot 20 compliance and running costs. Compared for 2026.",
       "h1": "Best Panel Heaters in Ireland",
-      "intro": "Panel heaters are the fitted-look option: slim, silent, wall-mountable, and increasingly smart enough to schedule around cheap-rate electricity windows. They suit sealed modern rooms and background heating — not draughty period homes needing fast recovery. We compared thermostat accuracy, scheduling intelligence and build across the seven best sold here.",
+      "intro": "Panel heaters are the fitted-look option: slim, silent, wall-mountable, and increasingly smart enough to schedule around cheap-rate electricity windows. They suit sealed modern rooms and background heating — not draughty period homes needing fast recovery. We compared thermostat accuracy, scheduling intelligence and build across the six best sold here.",
       "faq_idx": [
         5,
         6,
@@ -1000,7 +1004,7 @@
       "title": "Best Bathroom & Small Room Heaters Ireland 2026",
       "desc": "Fast, splash-safe heaters for Irish bathrooms and small rooms — IP ratings, heat-up speed and safety compared. Our picks 2026.",
       "h1": "Best Bathroom & Small Room Heaters in Ireland",
-      "intro": "Bathroom heating is its own discipline: you need serious warmth in under two minutes, splash-proof safety (look for IP21 minimum, IP24 ideally), and ideally wall mounting away from water. The classic Irish cold bathroom has seven good answers, from a €45 quick fix to permanent fitted solutions. Heat-up speed and IP ratings led our ranking.",
+      "intro": "Bathroom heating is its own discipline: you need serious warmth in under two minutes, splash-proof safety (look for IP21 minimum, IP24 ideally), and ideally wall mounting away from water. The classic Irish cold bathroom has seven good answers, from a cheap fan heater for a quick blast to permanent fitted solutions. Heat-up speed and IP ratings led our ranking.",
       "faq_idx": [
         4,
         7,
