@@ -59,91 +59,15 @@
   {
    "slug": "best-electric-scooters-ireland",
    "title": "Best Road-Legal Electric Scooters in Ireland 2026",
-   "desc": "We compared Ireland's best road-legal electric scooters for 2026 — range, hills, rain-readiness and value. See our picks with full specs and prices.",
+   "desc": "Ireland's road-legal electric scooters for 2026 — range, hills, rain-readiness and value. Stock is thin this winter: see what's in stock now.",
    "h1": "The 5 Best Electric Scooters in Ireland (2026)",
-   "intro": "E-scooters have been street-legal in Ireland since May 2024, and the market has been flooded — including plenty of models that don't meet Irish rules or survive Irish weather. We compared five scooters that handle wet roads, real hills and daily commuting on range, brakes, tyres and total value — and we flag, model by model, where a manufacturer's own declared speed sits above Ireland's 20 km/h limit.",
+   "intro": "E-scooters have been street-legal in Ireland since May 2024, and the market has been flooded — including plenty of models that don't meet Irish rules or survive Irish weather. We compare scooters that handle wet roads, real hills and daily commuting on range, brakes, tyres and total value — and we flag, model by model, where a manufacturer's own declared speed sits above Ireland's 20 km/h limit. This winter almost every model we recommended is out of stock on Amazon.ie, so only one scooter is listed below until stock returns.",
    "faq_idx": [
     0,
     1,
     3
    ],
    "products": [
-    {
-     "id": "esc-001",
-     "asin": "B0F9SQPB5G",
-     "name": "Xiaomi Mi Electric Scooter 4 Ultra",
-     "brand": "Xiaomi",
-     "price": 1002,
-     "rating": 4.6,
-     "badge": "Best Premium",
-     "specs": {
-      "Motor": "Powerful (940W peak)",
-      "Range": "Up to 70 km",
-      "Tyres": "10\" self-sealing",
-      "Build": "Flagship",
-      "Weight": "24.5 kg"
-     },
-     "pros": [
-      "Flagship range and ride quality",
-      "Self-sealing tyres for Irish roads",
-      "Xiaomi parts ecosystem"
-     ],
-     "cons": [
-      "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
-     ],
-     "verdict": "The Xiaomi Mi Electric Scooter 4 Ultra is the flagship here, with a 940W peak motor and up to 70km of claimed range well ahead of everything else on this page. The 10-inch self-sealing tyres are a genuine advantage on Irish roads littered with potholes, and buying into Xiaomi means easy access to spare parts and accessories down the line. None of that comes cheap — at over €1,000 it's by far the most expensive scooter here — and because Irish law caps an e-scooter's maximum design speed at 20 km/h, this is not a machine you can simply ride out of the box on a public road — check what the manufacturer's plate declares before you buy. Best for riders who want flagship build quality and range and are prepared to pay for it; overkill for short commutes."
-    },
-    {
-     "id": "esc-002",
-     "asin": "B0FT89WX5B",
-     "name": "KuKirin G2 Electric Scooter (48V 15.6Ah)",
-     "brand": "KuKirin",
-     "price": 509,
-     "rating": 4.5,
-     "badge": "Best Range (Limit for Road)",
-     "specs": {
-      "Battery": "48V 15.6Ah",
-      "Range": "Up to 55 km",
-      "Display": "Turn signals + LCD",
-      "Power": "Strong hills"
-     },
-     "pros": [
-      "Huge battery and range",
-      "Indicators included",
-      "Strong hill climbing"
-     ],
-     "cons": [
-      "Must be speed-limited for Irish roads",
-      "Heavy to carry"
-     ],
-     "verdict": "With a 48V 15.6Ah battery good for up to 55km and enough power for strong hill climbing, the KuKirin G2 offers range that rivals scooters costing twice as much, all for €509. Built-in turn signals and an LCD display are extras you'd normally expect only on pricier models, and the 4.5★ rating suggests owners find it reliable in daily use. Two things to plan around: like the Xiaomi above, its speed sits above the 20 km/h Irish design-speed limit, and that big battery adds weight, so it's not the scooter you want to carry up several flights of stairs daily. A strong fit for anyone doing longer commutes or hilly routes who doesn't mind the extra bulk."
-    },
-    {
-     "id": "esc-003",
-     "asin": "B0FN7FS8ZR",
-     "name": "11\" Folding Electric Scooter (48V 18Ah)",
-     "brand": "Generic",
-     "price": 499,
-     "rating": 4.3,
-     "badge": "Best Battery Value",
-     "specs": {
-      "Battery": "48V 18Ah",
-      "Range": "50–55 km",
-      "Tyres": "11 inch",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "Biggest battery at the price",
-      "11\" tyres absorb potholes",
-      "Folds for storage"
-     ],
-     "cons": [
-      "Unbranded support",
-      "Heavy"
-     ],
-     "verdict": "This unbranded 11-inch Folding Electric Scooter packs the largest battery on this page for the money — 48V 18Ah, good for a claimed 50–55km — undercutting the KuKirin above on price while matching its range. The larger 11-inch tyres also smooth out potholes better than the smaller wheels found on cheaper scooters, and it still folds down for storage. The absence of a recognisable brand name is the main risk here — support and spare parts aren't guaranteed the way they are with Xiaomi or KuKirin — and the big battery makes it one of the heavier folding scooters in this comparison. Worth considering if maximum range per euro matters more to you than brand reassurance."
-    },
     {
      "id": "esc-004",
      "asin": "B0D8QBL343",
@@ -167,32 +91,7 @@
       "Real range ~20 km",
       "Build is budget-grade"
      ],
-     "verdict": "The iScooter i8 trades range and power for portability, and at €330 with a 350W motor it's positioned as the budget folding option for shorter trips. It folds quickly, which matters for anyone combining it with a bus or train commute, and the companion app lets you switch between speed modes rather than being stuck with one setting. Owners note that real-world range sits closer to 20km rather than the 50-plus kilometres the pricier scooters above claim, and the build quality feels noticeably lighter-duty than the KuKirin or the 11-inch model. A sensible choice for teens or adults doing short station-to-office hops where folding and price matter more than long-distance range."
-    },
-    {
-     "id": "esc-005",
-     "asin": "B0FF9YNRT2",
-     "name": "8.5\" Adult Electric Scooter (25 km/h)",
-     "brand": "Generic",
-     "price": 300,
-     "rating": 4.3,
-     "badge": "Cheapest Entry Point",
-     "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
-      "Range": "~30 km",
-      "Tyres": "8.5\" solid",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "No app or settings menu to set up",
-      "Decent 30 km claimed range",
-      "Puncture-free tyres"
-     ],
-     "cons": [
-      "Solid tyres ride firm",
-      "Generic brand"
-     ],
-     "verdict": "The 8.5-inch Adult Electric Scooter ships with a fixed 25 km/h cap and no app or settings menu, which is the simplest setup on this page. It is also the number to be careful about: Ireland's limit is a 20 km/h maximum design speed, so 25 km/h is over it, and a factory cap of 25 km/h is not the same thing as Irish compliance. Solid, puncture-free tyres mean no risk of flats, and the claimed 30km range is reasonable for a scooter at €300. The trade-off for puncture-proof tyres is a firmer ride that transmits more road vibration than the air-filled tyres on the pricier models, and like the 11-inch scooter above, it comes from a generic rather than established brand. Best for first-time buyers who want a no-fuss scooter — provided you check with the seller what design speed the manufacturer's plate declares."
+     "verdict": "The iScooter i8 trades range and power for portability, and at €330 with a 350W motor it's positioned as the budget folding option for shorter trips. It folds quickly, which matters for anyone combining it with a bus or train commute, and the companion app lets you switch between speed modes rather than being stuck with one setting. Owners note that real-world range sits closer to 20km rather than the 50-plus kilometres pricier scooters claim, and owners describe the build as budget-grade. A sensible choice for teens or adults doing short station-to-office hops where folding and price matter more than long-distance range."
     }
    ],
    "guide": [
@@ -242,45 +141,25 @@
      "q": "Is it true under-18s might be banned from riding e-scooters?",
      "a": "It's proposed, not yet law. In July 2026 the Government agreed to extend age restrictions and work toward legislation, later in the year, that would ban selling e-scooters to under-18s and require licensing and registration; officials have also said an outright ban remains on the table. As it stands, the legal minimum age to ride is still 16, but anyone buying a scooter for a teenager should expect the rules around that to tighten before the scooter wears out."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "Almost every e-scooter we recommended is out of stock on Amazon.ie this winter, so this guide lists only the one model we could confirm in stock. Before you buy any scooter, check it meets Irish rules:",
+    "href": "e-scooter-law-ireland-2026.html",
+    "label": "E-scooter law in Ireland (2026)"
+   }
   },
   {
    "slug": "best-budget-electric-scooters-under-500-ireland",
    "title": "Best Electric Scooters Under €500 in Ireland 2026",
-   "desc": "Five road-legal electric scooters under €500 that don't cut corners on brakes, tyres or rain protection. Compared for Irish commuters on a budget.",
+   "desc": "Road-legal electric scooters under €500 that don't cut corners on brakes, tyres or rain protection — what's in stock on Amazon.ie now.",
    "h1": "Best Electric Scooters Under €500 in Ireland",
-   "intro": "Under €500 is where most Irish buyers shop — and where most of the junk lives. The trick is knowing which corners manufacturers cut: solid tyres that slide on wet tarmac, single brakes, no water rating. These five models keep the safety-critical features and trim the luxuries instead, so you get a rain-ready commuter without crossing the €500 line — with each one's declared speed checked against the Irish limit rather than assumed.",
+   "intro": "Under €500 is where most Irish buyers shop — and where most of the junk lives. The trick is knowing which corners manufacturers cut: solid tyres that slide on wet tarmac, single brakes, no water rating. The model below keeps the safety-critical features and trims the luxuries instead, with its declared speed checked against the Irish limit rather than assumed. This winter almost every model we recommended is out of stock on Amazon.ie, so only one scooter is listed below until stock returns.",
    "faq_idx": [
     4,
     2,
     5
    ],
    "products": [
-    {
-     "id": "esc-007",
-     "asin": "B0FF9YNRT2",
-     "name": "8.5\" Adult Electric Scooter (25 km/h)",
-     "brand": "Generic",
-     "price": 300,
-     "rating": 4.3,
-     "badge": "Simplest Set-Up",
-     "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
-      "Range": "~30 km",
-      "Tyres": "8.5\" solid",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "No app or settings menu to set up",
-      "Decent 30 km claimed range",
-      "Puncture-free tyres"
-     ],
-     "cons": [
-      "Solid tyres ride firm",
-      "Generic brand"
-     ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
-    },
     {
      "id": "esc-006",
      "asin": "B0D8QBL343",
@@ -305,82 +184,6 @@
       "Build is budget-grade"
      ],
      "verdict": "The budget folding commuter: station-to-office legs and apartment storage friendly."
-    },
-    {
-     "id": "esc-009",
-     "asin": "B0FN7FS8ZR",
-     "name": "11\" Folding Electric Scooter (48V 18Ah)",
-     "brand": "Generic",
-     "price": 499,
-     "rating": 4.3,
-     "badge": "Best Just-Under €500",
-     "specs": {
-      "Battery": "48V 18Ah",
-      "Range": "50–55 km",
-      "Tyres": "11 inch",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "Biggest battery at the price",
-      "11\" tyres absorb potholes",
-      "Folds for storage"
-     ],
-     "cons": [
-      "Unbranded support",
-      "Heavy"
-     ],
-     "verdict": "Maximum battery per euro: a long-range commuter for under €500."
-    },
-    {
-     "id": "esc-010",
-     "asin": "B0F9SQPB5G",
-     "name": "Xiaomi Mi Electric Scooter 4 Ultra",
-     "brand": "Xiaomi",
-     "price": 1002,
-     "rating": 4.6,
-     "badge": "Above budget — premium reference",
-     "specs": {
-      "Motor": "Powerful (940W peak)",
-      "Range": "Up to 70 km",
-      "Tyres": "10\" self-sealing",
-      "Build": "Flagship",
-      "Weight": "24.5 kg"
-     },
-     "pros": [
-      "Flagship range and ride quality",
-      "Self-sealing tyres for Irish roads",
-      "Xiaomi parts ecosystem"
-     ],
-     "cons": [
-      "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
-     ],
-     "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
-    },
-    {
-     "id": "esc-008",
-     "asin": "B0B3RZDXLT",
-     "name": "Segway Ninebot C2 Pro E (Kids, ages 6–14)",
-     "brand": "Segway",
-     "price": 299,
-     "rating": 4.4,
-     "badge": "Kids' Scooter — Not for Adults",
-     "specs": {
-      "Rider weight limit": "50 kg",
-      "Age range": "6–14 years",
-      "Motor": "150 W",
-      "Weight": "10.7 kg"
-     },
-     "pros": [
-      "Genuinely well-built for a child's scooter",
-      "Segway safety engineering at €299",
-      "10.7 kg — a parent can carry it"
-     ],
-     "cons": [
-      "50 kg rider weight limit — unusable by most adults",
-      "Rated for ages 6–14 — and Ireland's minimum age is 16"
-     ],
-     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. There is a second problem specific to Ireland: the legal minimum age to use an e-scooter in a public place is 16, so a scooter rated for ages 6–14 has no lawful use on a road, footpath or any other public place here — private property only. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
     }
    ],
    "guide": [
@@ -430,121 +233,25 @@
      "q": "Is third-party insurance available for e-scooters even though it's not required?",
      "a": "Compulsory motor insurance doesn't apply to compliant e-scooters, but some Irish home insurance policies and a small number of standalone providers offer optional personal or third-party liability cover for e-scooter use. It's not required to ride legally, but if you'd be financially exposed by causing an accident that injures someone else or damages property, it's worth asking your existing home insurer whether e-scooter liability can be added — cover and pricing vary a lot between providers."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "Almost every e-scooter we recommended is out of stock on Amazon.ie this winter, so this guide lists only the one model we could confirm in stock. Before you buy any scooter, check it meets Irish rules:",
+    "href": "e-scooter-law-ireland-2026.html",
+    "label": "E-scooter law in Ireland (2026)"
+   }
   },
   {
    "slug": "best-long-range-electric-scooters-ireland",
    "title": "Best Long-Range Electric Scooters Ireland 2026",
    "desc": "Need 40+ km of real range? We compared Ireland's best premium long-range e-scooters on battery, comfort and build. Compared for 2026.",
    "h1": "Best Long-Range & Premium Electric Scooters in Ireland",
-   "intro": "If your commute is 15 km+ each way, or you simply hate charging every night, you need a genuine 40+ km of real-world range — which means a claimed range of 60 km and up. These five premium machines deliver big batteries plus the comfort features (suspension, wide decks, bigger tyres) that long rides demand. All remain within Irish legal limits.",
+   "intro": "If your commute is 15 km+ each way, or you simply hate charging every night, you need a genuine 40+ km of real-world range — which means a claimed range of 60 km and up. That takes a big battery plus the comfort features (suspension, wide decks, bigger tyres) that long rides demand. Every long-range model we recommended is out of stock on Amazon.ie this winter; the only scooter below is a budget model with about 20 km of real range, listed so you can compare, not as a long-range pick.",
    "faq_idx": [
     3,
     5,
     7
    ],
    "products": [
-    {
-     "id": "esc-011",
-     "asin": "B0F9SQPB5G",
-     "name": "Xiaomi Mi Electric Scooter 4 Ultra",
-     "brand": "Xiaomi",
-     "price": 1002,
-     "rating": 4.6,
-     "badge": "Best Premium Range",
-     "specs": {
-      "Motor": "Powerful (940W peak)",
-      "Range": "Up to 70 km",
-      "Tyres": "10\" self-sealing",
-      "Build": "Flagship",
-      "Weight": "24.5 kg"
-     },
-     "pros": [
-      "Flagship range and ride quality",
-      "Self-sealing tyres for Irish roads",
-      "Xiaomi parts ecosystem"
-     ],
-     "cons": [
-      "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
-     ],
-     "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
-    },
-    {
-     "id": "esc-012",
-     "asin": "B0FT89WX5B",
-     "name": "KuKirin G2 Electric Scooter (48V 15.6Ah)",
-     "brand": "KuKirin",
-     "price": 509,
-     "rating": 4.5,
-     "badge": "Best Range Per Euro",
-     "specs": {
-      "Battery": "48V 15.6Ah",
-      "Range": "Up to 55 km",
-      "Display": "Turn signals + LCD",
-      "Power": "Strong hills"
-     },
-     "pros": [
-      "Huge battery and range",
-      "Indicators included",
-      "Strong hill climbing"
-     ],
-     "cons": [
-      "Must be speed-limited for Irish roads",
-      "Heavy to carry"
-     ],
-     "verdict": "The range monster under €520 — well above Ireland's 20 km/h limit, so check the plate, but a commuting tank."
-    },
-    {
-     "id": "esc-013",
-     "asin": "B0FN7FS8ZR",
-     "name": "11\" Folding Electric Scooter (48V 18Ah)",
-     "brand": "Generic",
-     "price": 499,
-     "rating": 4.3,
-     "badge": "Best Value Long-Range",
-     "specs": {
-      "Battery": "48V 18Ah",
-      "Range": "50–55 km",
-      "Tyres": "11 inch",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "Biggest battery at the price",
-      "11\" tyres absorb potholes",
-      "Folds for storage"
-     ],
-     "cons": [
-      "Unbranded support",
-      "Heavy"
-     ],
-     "verdict": "Maximum battery per euro: a long-range commuter for under €500."
-    },
-    {
-     "id": "esc-014",
-     "asin": "B0FF9YNRT2",
-     "name": "8.5\" Adult Electric Scooter (25 km/h)",
-     "brand": "Generic",
-     "price": 300,
-     "rating": 4.3,
-     "badge": "Best Commuter Range",
-     "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
-      "Range": "~30 km",
-      "Tyres": "8.5\" solid",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "No app or settings menu to set up",
-      "Decent 30 km claimed range",
-      "Puncture-free tyres"
-     ],
-     "cons": [
-      "Solid tyres ride firm",
-      "Generic brand"
-     ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
-    },
     {
      "id": "esc-015",
      "asin": "B0D8QBL343",
@@ -618,14 +325,19 @@
      "q": "How often should I recharge a long-range battery to protect its lifespan?",
      "a": "Lithium batteries generally last longest when kept roughly between 20% and 80% charge for daily use, rather than routinely running to empty or sitting at 100% for long periods. With a bigger battery you have more flexibility to top up little and often without needing a full overnight charge every time, which can extend the number of years before you notice real range loss compared with regularly draining a smaller pack to zero."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "Almost every e-scooter we recommended is out of stock on Amazon.ie this winter, so this guide lists only the one model we could confirm in stock. Before you buy any scooter, check it meets Irish rules:",
+    "href": "e-scooter-law-ireland-2026.html",
+    "label": "E-scooter law in Ireland (2026)"
+   }
   },
   {
    "slug": "best-lightweight-folding-electric-scooters-ireland",
    "title": "Best Lightweight Folding Electric Scooters Ireland 2026",
    "desc": "The lightest folding e-scooters sold in Ireland, compared on verified carry weight, fold quality and whether range survives the weight diet.",
    "h1": "Best Lightweight & Folding Electric Scooters in Ireland",
-   "intro": "Mixed commuting — scooter to the DART, carry on board, scoot to the office — is the killer use case in Dublin, but only if your scooter weighs little enough to actually lift. The picks below are ranked on verified carry weight — from 10.7 kg up — with one heavyweight included as the reference point for what you trade away by going light. We weighted portability, fold mechanism quality and whether the range survives the weight diet.",
+   "intro": "Mixed commuting — scooter to the DART, carry on board, scoot to the office — is the killer use case in Dublin, but only if your scooter weighs little enough to actually lift. We rank on verified carry weight, fold mechanism quality and whether the range survives the weight diet. This winter almost every model we recommended is out of stock on Amazon.ie, so only one scooter is listed below until stock returns.",
    "faq_idx": [
     7,
     0,
@@ -656,107 +368,6 @@
       "Build is budget-grade"
      ],
      "verdict": "The budget folding commuter: station-to-office legs and apartment storage friendly."
-    },
-    {
-     "id": "esc-017",
-     "asin": "B0FF9YNRT2",
-     "name": "8.5\" Adult Electric Scooter (25 km/h)",
-     "brand": "Generic",
-     "price": 300,
-     "rating": 4.3,
-     "badge": "Simplest Folder",
-     "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
-      "Range": "~30 km",
-      "Tyres": "8.5\" solid",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "No app or settings menu to set up",
-      "Decent 30 km claimed range",
-      "Puncture-free tyres"
-     ],
-     "cons": [
-      "Solid tyres ride firm",
-      "Generic brand"
-     ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
-    },
-    {
-     "id": "esc-019",
-     "asin": "B0FN7FS8ZR",
-     "name": "11\" Folding Electric Scooter (48V 18Ah)",
-     "brand": "Generic",
-     "price": 499,
-     "rating": 4.3,
-     "badge": "Best Folding Range",
-     "specs": {
-      "Battery": "48V 18Ah",
-      "Range": "50–55 km",
-      "Tyres": "11 inch",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "Biggest battery at the price",
-      "11\" tyres absorb potholes",
-      "Folds for storage"
-     ],
-     "cons": [
-      "Unbranded support",
-      "Heavy"
-     ],
-     "verdict": "Maximum battery per euro: a long-range commuter for under €500."
-    },
-    {
-     "id": "esc-020",
-     "asin": "B0F9SQPB5G",
-     "name": "Xiaomi Mi Electric Scooter 4 Ultra",
-     "brand": "Xiaomi",
-     "price": 1002,
-     "rating": 4.6,
-     "badge": "Premium — but 24.5 kg, not lightweight",
-     "specs": {
-      "Motor": "Powerful (940W peak)",
-      "Range": "Up to 70 km",
-      "Tyres": "10\" self-sealing",
-      "Build": "Flagship",
-      "Weight": "24.5 kg"
-     },
-     "pros": [
-      "Flagship range and ride quality",
-      "Self-sealing tyres for Irish roads",
-      "Xiaomi parts ecosystem"
-     ],
-     "cons": [
-      "24.5 kg — well over this page's 15 kg brief",
-      "Not carryable for mixed commuting"
-     ],
-     "verdict": "At 24.5 kg the Mi 4 Ultra is far outside this page's under-15 kg remit — it is the most capable scooter here, with 70 km range, dual suspension and IP55, but carrying it up stairs or onto a DART is not realistic. Listed as the reference point for what you give up by going light: range, suspension and build. If portability is the reason you're on this page, it isn't the answer."
-    },
-    {
-     "id": "esc-018",
-     "asin": "B0B3RZDXLT",
-     "name": "Segway Ninebot C2 Pro E (Kids, ages 6–14)",
-     "brand": "Segway",
-     "price": 299,
-     "rating": 4.4,
-     "badge": "Kids' Scooter — Not for Adults",
-     "specs": {
-      "Rider weight limit": "50 kg",
-      "Age range": "6–14 years",
-      "Motor": "150 W",
-      "Weight": "10.7 kg"
-     },
-     "pros": [
-      "Genuinely well-built for a child's scooter",
-      "Segway safety engineering at €299",
-      "10.7 kg — a parent can carry it"
-     ],
-     "cons": [
-      "50 kg rider weight limit — unusable by most adults",
-      "Rated for ages 6–14 — and Ireland's minimum age is 16"
-     ],
-     "verdict": "Important: despite appearing on adult shortlists, Segway rates the C2 Pro for riders aged 6–14 with a maximum rider weight of 50 kg and a 150 W motor — it is a children's scooter, not a commuter machine, and an adult cannot legally or safely ride it. There is a second problem specific to Ireland: the legal minimum age to use an e-scooter in a public place is 16, so a scooter rated for ages 6–14 has no lawful use on a road, footpath or any other public place here — private property only. Its 4.4-star owner rating reflects happy parents, not commuters. Included here only because it is frequently returned in Irish searches for cheap scooters; if you are buying for yourself, every other pick on this page is the relevant one."
     }
    ],
    "guide": [
@@ -806,121 +417,25 @@
      "q": "Is it safe to store an e-scooter battery indoors?",
      "a": "Generally yes, if you follow basic lithium-ion battery precautions: charge on a hard, non-flammable surface, don't leave it charging unattended overnight in a small bedroom, avoid charging immediately after riding in the rain until it's dried off, and don't store it somewhere it could be damaged or punctured. This matters more for apartment dwellers storing a scooter in a hallway or small flat than for someone with a shed, simply because there's less separation between the battery and where people are sleeping."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "Almost every e-scooter we recommended is out of stock on Amazon.ie this winter, so this guide lists only the one model we could confirm in stock. Before you buy any scooter, check it meets Irish rules:",
+    "href": "e-scooter-law-ireland-2026.html",
+    "label": "E-scooter law in Ireland (2026)"
+   }
   },
   {
    "slug": "best-electric-scooters-heavy-adults-ireland",
    "title": "Best Electric Scooters for Heavy Adults Ireland 2026",
    "desc": "The best electric scooters for riders over 95 kg in Ireland — high load ratings, strong motors for hills, wide decks. Compared and ranked for 2026.",
    "h1": "Best Electric Scooters for Heavier Riders in Ireland",
-   "intro": "Most scooters are rated to 100 kg — and ride poorly long before that. For riders 95 kg and up, the wrong purchase means crawling up hills, halved range and early brake wear. These five models carry 118–150 kg ratings, torque that holds the 20 km/h legal limit on inclines with a heavier rider, and frames built to take it. Ratings and realistic expectations below.",
+   "intro": "Most scooters are rated to 100 kg — and ride poorly long before that. For riders 95 kg and up, the wrong purchase means crawling up hills, halved range and early brake wear. You want a 118–150 kg rating, torque that holds the 20 km/h legal limit on inclines with a heavier rider, and a frame built to take it. Every heavy-duty model we recommended is out of stock on Amazon.ie this winter; the only scooter below is a budget model, listed so you can compare, not as a heavy-rider pick.",
    "faq_idx": [
     6,
     3,
     2
    ],
    "products": [
-    {
-     "id": "esc-021",
-     "asin": "B0FT89WX5B",
-     "name": "KuKirin G2 Electric Scooter (48V 15.6Ah)",
-     "brand": "KuKirin",
-     "price": 509,
-     "rating": 4.5,
-     "badge": "Best for Heavier Riders",
-     "specs": {
-      "Battery": "48V 15.6Ah",
-      "Range": "Up to 55 km",
-      "Display": "Turn signals + LCD",
-      "Power": "Strong hills"
-     },
-     "pros": [
-      "Huge battery and range",
-      "Indicators included",
-      "Strong hill climbing"
-     ],
-     "cons": [
-      "Must be speed-limited for Irish roads",
-      "Heavy to carry"
-     ],
-     "verdict": "The range monster under €520 — well above Ireland's 20 km/h limit, so check the plate, but a commuting tank."
-    },
-    {
-     "id": "esc-022",
-     "asin": "B0FN7FS8ZR",
-     "name": "11\" Folding Electric Scooter (48V 18Ah)",
-     "brand": "Generic",
-     "price": 499,
-     "rating": 4.3,
-     "badge": "Best Battery Under Load",
-     "specs": {
-      "Battery": "48V 18Ah",
-      "Range": "50–55 km",
-      "Tyres": "11 inch",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "Biggest battery at the price",
-      "11\" tyres absorb potholes",
-      "Folds for storage"
-     ],
-     "cons": [
-      "Unbranded support",
-      "Heavy"
-     ],
-     "verdict": "Maximum battery per euro: a long-range commuter for under €500."
-    },
-    {
-     "id": "esc-023",
-     "asin": "B0F9SQPB5G",
-     "name": "Xiaomi Mi Electric Scooter 4 Ultra",
-     "brand": "Xiaomi",
-     "price": 1002,
-     "rating": 4.6,
-     "badge": "Best Premium Build",
-     "specs": {
-      "Motor": "Powerful (940W peak)",
-      "Range": "Up to 70 km",
-      "Tyres": "10\" self-sealing",
-      "Build": "Flagship",
-      "Weight": "24.5 kg"
-     },
-     "pros": [
-      "Flagship range and ride quality",
-      "Self-sealing tyres for Irish roads",
-      "Xiaomi parts ecosystem"
-     ],
-     "cons": [
-      "€1,000 territory",
-      "Plate speed is above Ireland's 20 km/h limit"
-     ],
-     "verdict": "The premium pick on Amazon.ie: flagship comfort and range — confirm the road-legal mode before riding."
-    },
-    {
-     "id": "esc-024",
-     "asin": "B0FF9YNRT2",
-     "name": "8.5\" Adult Electric Scooter (25 km/h)",
-     "brand": "Generic",
-     "price": 300,
-     "rating": 4.3,
-     "badge": "Best Value Sturdy",
-     "specs": {
-      "Speed": "25 km/h — above the 20 km/h Irish limit",
-      "Range": "~30 km",
-      "Tyres": "8.5\" solid",
-      "Fold": "Yes"
-     },
-     "pros": [
-      "No app or settings menu to set up",
-      "Decent 30 km claimed range",
-      "Puncture-free tyres"
-     ],
-     "cons": [
-      "Solid tyres ride firm",
-      "Generic brand"
-     ],
-     "verdict": "The simplicity pick: one fixed speed from the factory, no settings to worry about — but the 25 km/h it ships at is above Ireland's 20 km/h limit."
-    },
     {
      "id": "esc-025",
      "asin": "B0D8QBL343",
@@ -994,7 +509,12 @@
      "q": "Is there a rider weight where an e-scooter stops making sense compared to an e-bike?",
      "a": "For riders well above most scooters' load ratings, or whose commute is long and hilly, an e-bike is often the more comfortable option since e-bike motors, frames and braking systems are generally built around a wider weight range and the seated riding position distributes load differently than standing. There's no strict cutoff, but if you're consistently having to choose the most heavy-duty scooter available and still reading cautious owner reports about wear, that's a signal worth taking seriously rather than working around."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "Almost every e-scooter we recommended is out of stock on Amazon.ie this winter, so this guide lists only the one model we could confirm in stock. Before you buy any scooter, check it meets Irish rules:",
+    "href": "e-scooter-law-ireland-2026.html",
+    "label": "E-scooter law in Ireland (2026)"
+   }
   }
  ]
 }

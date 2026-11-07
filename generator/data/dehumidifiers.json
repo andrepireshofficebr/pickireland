@@ -61,7 +61,7 @@
       "title": "Best Dehumidifiers in Ireland 2026 for Damp Homes",
       "desc": "Ireland's best dehumidifiers compared: extraction, running costs at Irish electricity rates, noise and laundry drying. Compared for 2026.",
       "h1": "The Best Dehumidifiers in Ireland (2026)",
-      "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The seven below cover every budget from €54 to €259. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
+      "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The six below cover every budget from €54 to €226. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
       "faq_idx": [
         0,
         1,
@@ -70,29 +70,29 @@
       "products": [
         {
           "id": "deh-001",
-          "asin": "B0CTKPZ5FJ",
-          "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+          "asin": "B09TBKCCSS",
+          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 259,
-          "rating": 4.8,
+          "price": 226,
+          "rating": 4.6,
           "badge": "Best Overall",
           "specs": {
             "Extraction": "12 L/day",
-            "Filter": "HEPA built in",
-            "Noise": "~36 dB",
-            "Smart": "App + voice",
+            "Filter": "H13 HEPA built in",
+            "Noise": "35 dB",
+            "Tank": "2.5 L",
             "Power": "136 W"
           },
           "pros": [
-            "Ultra-quiet, low-energy compressor",
-            "HEPA air purifier built in",
-            "App scheduling for night-rate electricity"
+            "Quiet enough for a bedroom at 35 dB",
+            "H13 HEPA air purifier built in",
+            "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price",
-            "Tank is modest for severe damp"
+            "Premium price for a 12 L unit",
+            "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "Running at around 36 decibels, this Meaco is quiet enough to leave on overnight in a bedroom, and it doubles as a HEPA air purifier, so it's tackling damp and airborne particles with one appliance rather than two. App and voice control let you schedule runs around night-rate electricity, which matters given how long a dehumidifier typically stays plugged in during an Irish winter. At €259 it's the most expensive standard-size unit on this list, and the tank itself is on the modest side, so anyone dealing with genuinely severe damp will need to empty it more often than the higher-capacity Nyxi below. Best suited to buyers prioritising quiet, efficient, everyday running over raw extraction volume."
+          "verdict": "The Arete One 12L earns Best Overall because it does the two jobs an Irish home most often needs from one box: it pulls up to 12 litres a day out of the air and pushes that air through a built-in H13 HEPA filter, so damp and airborne dust, pollen and spores are dealt with together. Meaco rates it at 35 dB, quiet enough to run in a bedroom, and at 136 W it is one of the cheaper machines here to leave running through a wet winter. A 6-hour laundry mode switches itself off, and it is sold and shipped by Meaco Ireland with a 5-year warranty. At around €226 it is the dearest machine on this page and the 2.5-litre tank fills quickly in a genuinely wet house, where the bigger Nyxi below copes better. Best for buyers who want quiet, low-running-cost dehumidifying with air cleaning thrown in."
         },
         {
           "id": "deh-002",
@@ -121,32 +121,6 @@
           "verdict": "Twenty litres a day of extraction is enough to cover a 3-4 bedroom house rather than just a single room, and getting that capacity under €140 undercuts what similarly rated units from bigger names charge. A continuous drain option and dedicated laundry mode make it genuinely useful for drying clothes indoors during wet Irish spells, not just managing ambient humidity. Nyxi isn't a widely recognised brand compared with Meaco, so buyers are leaning more on the 4.5-star Amazon.ie score than brand history, and several owners note it gets noticeably louder than the Meaco above when the fan runs at full speed. The clear pick for anyone with a bigger house and a tighter budget than the Meaco allows."
         },
         {
-          "id": "deh-003",
-          "asin": "B0060MY2KQ",
-          "name": "Meaco DD8L Junior Desiccant Dehumidifier",
-          "brand": "Meaco",
-          "price": 165,
-          "rating": 4.7,
-          "badge": "Best for Cold Rooms",
-          "specs": {
-            "Extraction": "8 L/day",
-            "Type": "Desiccant",
-            "Cold rooms": "Full power at 5°C",
-            "Laundry mode": "Yes",
-            "Power": "330 W"
-          },
-          "pros": [
-            "Full extraction in cold Irish rooms",
-            "Gently warms as it dries",
-            "Excellent laundry drying"
-          ],
-          "cons": [
-            "Higher wattage than compressors",
-            "Smaller tank"
-          ],
-          "verdict": "Desiccant technology is the key difference here: unlike compressor-based units that lose extraction power as temperatures drop, this Meaco holds full performance down to 5°C, which matters for garages, attics or older Irish homes that stay genuinely cold in winter. It gently warms the air as it dries, which helps with laundry drying specifically, an area where it performs excellently according to owner feedback. The desiccant method draws more wattage than a compressor unit of similar output, so running costs are higher, and the 8-litre-a-day extraction comes with a smaller tank that needs emptying more frequently than the Nyxi's. Right for cold, unheated spaces where compressor dehumidifiers underperform; for a warm, insulated living room, the cheaper compressor models are more efficient."
-        },
-        {
           "id": "deh-004",
           "asin": "B0GTWLDCS3",
           "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
@@ -170,7 +144,7 @@
             "Mid-size tank",
             "Newer product line"
           ],
-          "verdict": "Three functions in one box — dehumidifying, air purifying and ionising — means this Masterplug can replace more than one appliance, and WiFi app control lets you schedule runs remotely, similar to the Meaco's smart features but at a lower €196 price. Auto-defrost keeps it working properly in colder rooms without manual intervention. Its 12-litre-a-day extraction sits in the middle of this list rather than at the top, and the tank size is unremarkable rather than a strength. As a newer product line, it doesn't yet carry the multi-year reputation that Meaco has built. A good fit for anyone wanting combined purifying and dehumidifying functions with smart scheduling at a mid-range price; those chasing maximum single-function extraction should look at the Nyxi."
+          "verdict": "Three functions in one box — dehumidifying, air purifying and ionising — means this Masterplug can replace more than one appliance, and WiFi app control lets you schedule runs remotely, at €196, about €30 less than our Meaco top pick. Auto-defrost keeps it working properly in colder rooms without manual intervention. Its 12-litre-a-day extraction sits in the middle of this list rather than at the top, and the tank size is unremarkable rather than a strength. As a newer product line, it doesn't yet carry the multi-year reputation that Meaco has built. A good fit for anyone wanting combined purifying and dehumidifying functions with smart scheduling at a mid-range price; those chasing maximum single-function extraction should look at the Nyxi."
         },
         {
           "id": "deh-005",
@@ -195,7 +169,7 @@
             "Light damp only",
             "Slows in cold rooms"
           ],
-          "verdict": "At €54 and with extraction rated up to 650ml a day, this EasyAcc is built for a single mildly damp space rather than whole-house drying — think a wardrobe, ensuite or small bathroom with condensation. It runs quietly, operation is genuinely simple with no modes to configure, and auto shut-off stops it overflowing once the 2-litre tank fills. Extraction slows further in cold rooms, a limitation the desiccant Meaco above is specifically built to avoid, so it's not the right choice for an unheated space in winter. The right pick for light, localised damp problems on a tight budget; anyone with a genuinely damp room or whole floor needs one of the higher-capacity units on this list."
+          "verdict": "At €54 and with extraction rated up to 650ml a day, this EasyAcc is built for a single mildly damp space rather than whole-house drying — think a wardrobe, ensuite or small bathroom with condensation. It runs quietly, operation is genuinely simple with no modes to configure, and auto shut-off stops it overflowing once the 2-litre tank fills. Extraction slows further in cold rooms, a limitation desiccant dehumidifiers are built to avoid, so it's not the right choice for an unheated space in winter. The right pick for light, localised damp problems on a tight budget; anyone with a genuinely damp room or whole floor needs one of the higher-capacity units on this list."
         },
         {
           "id": "deh-028",
@@ -210,13 +184,12 @@
             "Power": "210 W"
           },
           "pros": [
-            "€159 less than our top pick",
+            "€126 less than our top pick",
             "12 L/day extraction",
             "Strong 4.6★ owner rating"
           ],
           "cons": [
-            "2 of the 7 picks here are better rated by owners",
-            "Our top pick still rates higher with owners at 4.8★"
+            "Matches our top pick's 4.6★ owner rating"
           ],
           "verdict": "Twelve litres a day of extraction with a continuous drainage option puts this HOMCOM's specs close to the pricier Masterplug and Meaco Arete above, but at roughly €100 it costs meaningfully less than either. Its 4.6-star owner rating is actually higher than several machines ranked above it here, and buying through Amazon.ie keeps the warranty and returns process straightforward. It hasn't taken our top overall spot because it lacks the HEPA purification and app scheduling that set the Meaco Arete apart, so it's a specs-and-price play rather than a features play. Worth comparing closely against the Masterplug if smart features aren't essential; a strong option for anyone who wants solid extraction without paying for extras."
         },
@@ -235,15 +208,15 @@
             "Noise": "32 dB (sleep mode)"
           },
           "pros": [
-            "€129 less than our top pick",
+            "€96 less than our top pick",
             "Quiet 32 dB sleep mode",
             "24-hour timer and auto shut-off"
           ],
           "cons": [
             "Lesser-known brand",
-            "Our top pick still rates higher with owners at 4.8★"
+            "Our top pick still rates higher with owners at 4.6★"
           ],
-          "verdict": "OKYUK's 10-litre compressor unit is sized for rooms up to 30 m², with a 2.5-litre tank that shuts the machine off when full and a 24-hour timer for running it while you're out. Its sleep mode is rated at 32 dB, and owners give it 4.4 stars. At €130 it costs half what our Meaco top pick does, but it's a lesser-known brand without Meaco's years of track record on durability. A sensible mid-budget pick for a single damp room; buyers wanting the best-proven machine should still default to the Meaco Arete."
+          "verdict": "OKYUK's 10-litre compressor unit is sized for rooms up to 30 m², with a 2.5-litre tank that shuts the machine off when full and a 24-hour timer for running it while you're out. Its sleep mode is rated at 32 dB, and owners give it 4.4 stars. At €130 it costs about €96 less than our Meaco top pick, but it's a lesser-known brand without Meaco's years of track record on durability. A sensible mid-budget pick for a single damp room; buyers wanting the best-proven machine should still default to the Meaco Arete."
         }
       ],
       "guide": [
@@ -410,29 +383,29 @@
         },
         {
           "id": "deh-010",
-          "asin": "B0CTKPZ5FJ",
-          "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+          "asin": "B09TBKCCSS",
+          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 259,
-          "rating": 4.8,
+          "price": 226,
+          "rating": 4.6,
           "badge": "Best Premium Quiet",
           "specs": {
             "Extraction": "12 L/day",
-            "Filter": "HEPA built in",
-            "Noise": "~36 dB",
-            "Smart": "App + voice",
+            "Filter": "H13 HEPA built in",
+            "Noise": "35 dB",
+            "Tank": "2.5 L",
             "Power": "136 W"
           },
           "pros": [
-            "Ultra-quiet, low-energy compressor",
-            "HEPA air purifier built in",
-            "App scheduling for night-rate electricity"
+            "Quiet enough for a bedroom at 35 dB",
+            "H13 HEPA air purifier built in",
+            "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price",
-            "Tank is modest for severe damp"
+            "Premium price for a 12 L unit",
+            "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+          "verdict": "The bigger sibling of our top pick: the same quiet 35 dB Meaco design and built-in H13 HEPA filter, but with 12 litres a day of extraction for a damp bedroom that the 6-litre model can't keep up with. It costs more and the 2.5-litre tank still needs emptying daily in bad spells."
         },
         {
           "id": "deh-026",
@@ -515,7 +488,7 @@
       "title": "Best High-Capacity Dehumidifiers for Large Irish Homes",
       "desc": "High-capacity dehumidifiers for large or very damp Irish houses — extraction rates from 12L to 20L a day, continuous drainage and running costs compared.",
       "h1": "Best High-Capacity Dehumidifiers for Large Irish Homes",
-      "intro": "Older Irish housing stock — solid walls, single glazing, suspect ventilation — can produce damp faster than small machines remove it. For 4+ bedrooms, persistent mould or post-leak drying, you want 20–25L of daily extraction, a big tank or hose drainage, and efficiency that doesn't punish all-day running. These seven are the heavy lifters.",
+      "intro": "Older Irish housing stock — solid walls, single glazing, suspect ventilation — can produce damp faster than small machines remove it. For 4+ bedrooms, persistent mould or post-leak drying, you want 20–25L of daily extraction, a big tank or hose drainage, and efficiency that doesn't punish all-day running. These six are the heavy lifters.",
       "faq_idx": [
         0,
         4,
@@ -550,29 +523,29 @@
         },
         {
           "id": "deh-012",
-          "asin": "B0CTKPZ5FJ",
-          "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+          "asin": "B09TBKCCSS",
+          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 259,
-          "rating": 4.8,
-          "badge": "Best Premium Large",
+          "price": 226,
+          "rating": 4.6,
+          "badge": "Best Quiet Premium Pick",
           "specs": {
             "Extraction": "12 L/day",
-            "Filter": "HEPA built in",
-            "Noise": "~36 dB",
-            "Smart": "App + voice",
+            "Filter": "H13 HEPA built in",
+            "Noise": "35 dB",
+            "Tank": "2.5 L",
             "Power": "136 W"
           },
           "pros": [
-            "Ultra-quiet, low-energy compressor",
-            "HEPA air purifier built in",
-            "App scheduling for night-rate electricity"
+            "Quiet enough for a bedroom at 35 dB",
+            "H13 HEPA air purifier built in",
+            "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price",
-            "Tank is modest for severe damp"
+            "Premium price for a 12 L unit",
+            "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+          "verdict": "Not a 20-litre machine, but the quietest serious option here: 12 litres a day, an H13 HEPA filter and 35 dB, at 136 W. Put it where people sleep and let a bigger unit handle the wettest room. The 2.5-litre tank is small for a whole large house."
         },
         {
           "id": "deh-013",
@@ -599,32 +572,6 @@
             "Newer product line"
           ],
           "verdict": "The smart all-rounder: three appliances in one box, scheduled from your phone."
-        },
-        {
-          "id": "deh-014",
-          "asin": "B0060MY2KQ",
-          "name": "Meaco DD8L Junior Desiccant Dehumidifier",
-          "brand": "Meaco",
-          "price": 165,
-          "rating": 4.7,
-          "badge": "Best for Cold Big Spaces",
-          "specs": {
-            "Extraction": "8 L/day",
-            "Type": "Desiccant",
-            "Cold rooms": "Full power at 5°C",
-            "Laundry mode": "Yes",
-            "Power": "330 W"
-          },
-          "pros": [
-            "Full extraction in cold Irish rooms",
-            "Gently warms as it dries",
-            "Excellent laundry drying"
-          ],
-          "cons": [
-            "Higher wattage than compressors",
-            "Smaller tank"
-          ],
-          "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
         },
         {
           "id": "deh-015",
@@ -664,11 +611,11 @@
             "Power": "185 W"
           },
           "pros": [
-            "€140 — 4th-cheapest of the 7 picks here",
+            "€140 — 4th-cheapest of the 6 picks here",
             "12 L/day extraction"
           ],
           "cons": [
-            "4 of the 7 picks here are better rated by owners",
+            "3 of the 6 picks here are better rated by owners",
             "€6 more than our top pick, which owners rate higher at 4.5★"
           ],
           "verdict": "HUMILABS extracts 12 litres a day at €140 against the Nyxi's 20 litres at €134 — so you're paying slightly more for meaningfully less extraction on a page specifically about large, damp homes. Its 4.4-star rating is a shade below the Nyxi's 4.5. The low-energy positioning is genuine and it would suit a single damp room well, but for whole-house drying the Nyxi is the better buy."
@@ -692,7 +639,7 @@
             "2.5 L tank"
           ],
           "cons": [
-            "2 of the 7 picks here are better rated by owners",
+            "1 of the 6 picks here is better rated by owners",
             "Not our category winner — compare against the Nyxi 20L/Day Dehumidifier"
           ],
           "verdict": "Devology's 12L/day unit is €118 against our €134 Nyxi pick and matches it on owner rating at 4.5 stars. The reason it isn't first on a page about large, damp homes is extraction: 12 litres a day against the Nyxi's 20 is a meaningful gap once you're covering a whole house rather than one floor, and its 2.5-litre tank needs emptying more often. Good value for a single damp room; undersized for the job this page is about."
@@ -717,7 +664,7 @@
         ],
         [
           "Will a dehumidifier work in an unheated garage or attic?",
-          "Compressor dehumidifiers lose extraction capacity as the room gets colder and can ice up their coils below roughly 15°C, which rules them out for most unheated Irish outbuildings for a good chunk of the year. Desiccant models sidestep this entirely — Meaco's DD8L Junior, for example, is rated to run at full extraction down to 5°C because it uses a rotating absorbent wheel and a heating element rather than a refrigerant coil, at the cost of higher power draw per litre removed. For a converted attic used as storage, a garden shed with tools that rust, or a garage where a car sits over winter, a desiccant unit run on a timer through the coldest months will outperform a compressor model that simply can't operate at rated capacity in those temperatures."
+          "Compressor dehumidifiers lose extraction capacity as the room gets colder and can ice up their coils below roughly 15°C, which rules them out for most unheated Irish outbuildings for a good chunk of the year. Desiccant models sidestep this entirely — they are typically rated to keep extracting down to around 5°C because they use a rotating absorbent wheel and a heating element rather than a refrigerant coil, at the cost of higher power draw per litre removed. For a converted attic used as storage, a garden shed with tools that rust, or a garage where a car sits over winter, a desiccant unit run on a timer through the coldest months will outperform a compressor model that simply can't operate at rated capacity in those temperatures."
         ]
       ],
       "faqs": [
@@ -813,29 +760,29 @@
         },
         {
           "id": "deh-018",
-          "asin": "B0CTKPZ5FJ",
-          "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+          "asin": "B09TBKCCSS",
+          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 259,
-          "rating": 4.8,
+          "price": 226,
+          "rating": 4.6,
           "badge": "Best Quiet Overnight",
           "specs": {
             "Extraction": "12 L/day",
-            "Filter": "HEPA built in",
-            "Noise": "~36 dB",
-            "Smart": "App + voice",
+            "Filter": "H13 HEPA built in",
+            "Noise": "35 dB",
+            "Tank": "2.5 L",
             "Power": "136 W"
           },
           "pros": [
-            "Ultra-quiet, low-energy compressor",
-            "HEPA air purifier built in",
-            "App scheduling for night-rate electricity"
+            "Quiet enough for a bedroom at 35 dB",
+            "H13 HEPA air purifier built in",
+            "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price",
-            "Tank is modest for severe damp"
+            "Premium price for a 12 L unit",
+            "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+          "verdict": "Built for running overnight: Meaco rates it at 35 dB, its laundry mode runs for 6 hours and then switches off, and it draws 136 W. The H13 HEPA filter is a bonus in a bedroom. At 12 litres a day it dries a load more slowly than our 20-litre top pick."
         },
         {
           "id": "deh-019",
@@ -906,7 +853,7 @@
             "12 L/day extraction"
           ],
           "cons": [
-            "Lowest owner rating of the picks here at 4.4★",
+            "Joint-lowest owner rating of the picks here at 4.4★",
             "Our top pick still rates higher with owners at 4.5★"
           ],
           "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, and its 4.4-star owner rating trails the bigger model's 4.5. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
@@ -931,7 +878,6 @@
             "36–40 dB noise"
           ],
           "cons": [
-            "1 of the 7 picks here is better rated by owners",
             "€31 less than our top pick, but extracts 12 L/day rather than 20"
           ],
           "verdict": "The MeacoDry ABC comes from a brand with a genuine track record in Ireland, and its 4.7-star owner rating is higher than our top pick's 4.5. It extracts 12 litres a day against the Pro Breeze's 20, so big family loads take longer, but at 36–40 dB it is just as easy to live beside. Like the Pro Breeze it's a compressor unit, so it slows down in a cold room. At €199 against €230, pick it if you value Meaco's record over raw extraction."
@@ -991,7 +937,7 @@
       "title": "Best Dehumidifiers for Mould & Serious Damp Ireland 2026",
       "desc": "Fighting black mould or persistent damp in an Irish home? The best dehumidifiers with HEPA/UV air treatment and high extraction, compared.",
       "h1": "Best Dehumidifiers for Mould & Serious Damp in Ireland",
-      "intro": "Black mould on walls is a humidity problem wearing a scary costume: keep a room under 60% RH and mould physically cannot grow. For homes already showing spots — window reveals, cold corners, behind wardrobes — you want strong extraction plus air filtration to catch spores. These six pair the muscle with the filters, ranked by how fast they make mould's life impossible.",
+      "intro": "Black mould on walls is a humidity problem wearing a scary costume: keep a room under 60% RH and mould physically cannot grow. For homes already showing spots — window reveals, cold corners, behind wardrobes — you want strong extraction plus air filtration to catch spores. These five pair the muscle with the filters, ranked by how fast they make mould's life impossible.",
       "faq_idx": [
         2,
         7,
@@ -1000,29 +946,29 @@
       "products": [
         {
           "id": "deh-021",
-          "asin": "B0CTKPZ5FJ",
-          "name": "MeacoDry Arete Two 12L Dehumidifier & Air Purifier",
+          "asin": "B09TBKCCSS",
+          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 259,
-          "rating": 4.8,
+          "price": 226,
+          "rating": 4.6,
           "badge": "Best Anti-Mould (HEPA)",
           "specs": {
             "Extraction": "12 L/day",
-            "Filter": "HEPA built in",
-            "Noise": "~36 dB",
-            "Smart": "App + voice",
+            "Filter": "H13 HEPA built in",
+            "Noise": "35 dB",
+            "Tank": "2.5 L",
             "Power": "136 W"
           },
           "pros": [
-            "Ultra-quiet, low-energy compressor",
-            "HEPA air purifier built in",
-            "App scheduling for night-rate electricity"
+            "Quiet enough for a bedroom at 35 dB",
+            "H13 HEPA air purifier built in",
+            "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price",
-            "Tank is modest for severe damp"
+            "Premium price for a 12 L unit",
+            "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "The new Irish benchmark: silent, frugal, and it purifies the air while drying your home."
+          "verdict": "For mould, this is the pick: 12 litres a day of extraction to take away the damp that feeds it, plus a built-in H13 HEPA filter to catch airborne spores, in one 35 dB machine sold by Meaco Ireland with a 5-year warranty. The 2.5-litre tank means daily emptying in a badly affected room."
         },
         {
           "id": "deh-022",
@@ -1077,32 +1023,6 @@
           "verdict": "The most litres per euro on Amazon.ie — a big-house workhorse at a small-house price."
         },
         {
-          "id": "deh-024",
-          "asin": "B0060MY2KQ",
-          "name": "Meaco DD8L Junior Desiccant Dehumidifier",
-          "brand": "Meaco",
-          "price": 165,
-          "rating": 4.7,
-          "badge": "Best Cold Mouldy Rooms",
-          "specs": {
-            "Extraction": "8 L/day",
-            "Type": "Desiccant",
-            "Cold rooms": "Full power at 5°C",
-            "Laundry mode": "Yes",
-            "Power": "330 W"
-          },
-          "pros": [
-            "Full extraction in cold Irish rooms",
-            "Gently warms as it dries",
-            "Excellent laundry drying"
-          ],
-          "cons": [
-            "Higher wattage than compressors",
-            "Smaller tank"
-          ],
-          "verdict": "The cold-room specialist: desiccant tech that keeps pulling water where compressor units stall."
-        },
-        {
           "id": "deh-025",
           "asin": "B0FJR8RWC7",
           "name": "EasyAcc 2000ml Dehumidifier Pro",
@@ -1139,14 +1059,14 @@
             "Power": "305 W"
           },
           "pros": [
-            "€78 less than our top pick",
+            "€45 less than our top pick",
             "Strong 4.5★ owner rating"
           ],
           "cons": [
-            "2 of the 6 picks here are better rated by owners",
-            "Our top pick still rates higher with owners at 4.8★"
+            "1 of the 5 picks here is better rated by owners",
+            "Our top pick still rates higher with owners at 4.6★"
           ],
-          "verdict": "De'Longhi is a genuinely established name and this AriaDry sits mid-range here at €181 with a solid 4.5-star rating. Our €259 Meaco pick beats it on owner sentiment at 4.8 and pairs extraction with HEPA filtration, which is what a mould-focused page ranks on — dealing with spores as well as the damp that feeds them. Good value if you want brand reassurance and are treating damp rather than visible mould."
+          "verdict": "De'Longhi is a genuinely established name and this AriaDry sits mid-range here at €181 with a solid 4.5-star rating. Our €226 Meaco pick beats it on owner sentiment at 4.6 and pairs extraction with HEPA filtration, which is what a mould-focused page ranks on — dealing with spores as well as the damp that feeds them. Good value if you want brand reassurance and are treating damp rather than visible mould."
         }
       ],
       "guide": [

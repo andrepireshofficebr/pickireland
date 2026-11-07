@@ -61,7 +61,7 @@ def load_links():
             def col(name):
                 return headers.index(name) if name in headers else None
             id_i, link_i = col("id"), col("affiliate_link")
-            price_i, img_i = col("price_eur"), col("image_url")
+            price_i, img_i, asin_i = col("price_eur"), col("image_url"), col("asin")
             for row in ws.iter_rows(min_row=2, values_only=True):
                 if not row or id_i is None or not row[id_i]:
                     continue
@@ -69,7 +69,8 @@ def load_links():
                 def val(i):
                     if i is None or row[i] is None: return ""
                     return str(row[i]).strip()
-                links[pid] = {"link": val(link_i), "price": row[price_i] if price_i is not None else None, "image": val(img_i)}
+                links[pid] = {"link": val(link_i), "price": row[price_i] if price_i is not None else None, "image": val(img_i),
+                              "asin": val(asin_i)}
             return links
         except Exception as e:
             print("! Could not read affiliate_links.xlsx:", e)
@@ -911,6 +912,14 @@ def _heater_office_body(ms, cat, ref):
     big = next((m for m in ms if m["w"] == 1500 and _heater_safety(m["p"])["thermostat"]), None)
     if big:
         opts.append(big)
+    # 07/11/2026: com Warmlite 650W e MYLEK 1kW fora de estoque sobrou 1 modelo de ate 1 kW;
+    # completa a tabela com os proximos menores modelos (ms ja vem do menor ao maior watt).
+    for m in ms:
+        if len(opts) >= 3:
+            break
+        if m not in opts:
+            opts.append(m)
+    opts.sort(key=lambda m: m["w"])
     assert len(opts) >= 3
     rows = ""
     for m in opts:
@@ -1192,10 +1201,9 @@ def product_price(p):
     _lp = live_info(p).get("price")
     if _lp is not None:
         return int(round(_lp))
-    info = LINKS.get(p["id"], {})
-    if info.get("price"):
-        try: return int(float(info["price"]))
-        except (TypeError, ValueError): pass
+    # 07/11/2026: sem API, o preco exibido e o do JSON (p["price"]), o mesmo que os textos usam.
+    # Antes vinha da coluna price_eur do xlsx, que nunca foi atualizada nas trocas: 43 cards
+    # mostravam o preco do produto ANTIGO (ex.: Philips 5500 a €521, preco do Magnifica Evo).
     return p["price"]
 
 def product_image(p):
@@ -1536,6 +1544,7 @@ footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr
 footer h4{color:#fff;font-size:.92rem;margin-bottom:13px;font-family:'Bricolage Grotesque';letter-spacing:.2px}
 footer .legal{border-top:1px solid #1E2E3C;padding-top:20px;font-size:.76rem;line-height:1.6}
 .notice{font-size:.78rem;color:var(--mut);margin:34px 0 10px;line-height:1.6}
+.guide-note{border:2px solid var(--green);border-radius:var(--rad);padding:12px 16px;margin:14px 0;background:var(--green-l)}.guide-note p{margin:0;line-height:1.55}
 /* back to top */
 .top-btn{position:fixed;bottom:24px;right:24px;width:46px;height:46px;border-radius:50%;background:var(--green);color:#fff;border:0;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-md);opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;z-index:60}
 .top-btn.show{opacity:1;pointer-events:auto}
@@ -2393,8 +2402,14 @@ for cat in CATS:
         # resposta direta das guias de aquecedor (06/11): entra no hash SO quando existe,
         # para nao remarcar as outras 50 guias (licao do separador "||").
         _hqa = heater_guide_answer(page) if cat["category"] == "electric-heaters" else None
+        # aviso de estoque (07/11/2026): guia que ficou com poucos cards disponiveis ganha, no topo,
+        # um aviso honesto e um link para o guia irmao. Entra no hash SO quando existe.
+        _sn = page.get("stock_note")
+        sn_html = (f'<div class="guide-note"><p>{esc(_sn["text"])} <a href="{esc(_sn["href"])}"><strong>{esc(_sn["label"])}</strong> {ARROW}</a></p></div>'
+                   if _sn else "")
         pub, mod = page_dates(f"{cat['category']}/{page['slug']}",
-            ([_hqa[1]] if _hqa else []) + ([rc_html] if rc_html else []) + ([calc_cta] if calc_cta else [])
+            ([json.dumps(_sn, ensure_ascii=False, sort_keys=True)] if _sn else [])
+            + ([_hqa[1]] if _hqa else []) + ([rc_html] if rc_html else []) + ([calc_cta] if calc_cta else [])
             + ([json.dumps(_cc_lines, sort_keys=True)] if _cc_lines else []) + [
             page["h1"], page["intro"], page["title"], page["desc"],
             json.dumps(guide_src, ensure_ascii=False, sort_keys=True),
@@ -2429,7 +2444,7 @@ for cat in CATS:
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(page['h1'])}</nav>
 <h1>{esc(page['h1'])}</h1>
 <div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
-{tp_box}{qa_html}
+{sn_html}{tp_box}{qa_html}
 <p class="intro">{esc(page['intro'])}</p>
 <div class="toc"><b>{icon(cat['category'], 18)} Our top {len(page['products'])} at a glance</b><ol>{toc}</ol></div>
 <h2>Quick comparison</h2>
@@ -3157,7 +3172,9 @@ def _heater_bedroom_body(ms, cat, ref):
           f'{rc_eur(bl_hi / 1000 * KWH_RATE)} an hour.</p>')
     opts = [("Electric underblanket", bl_lo, bl_hi,
              f'<a href="../electric-blankets/{bl_guide["slug"]}.html">{esc(bl_guide["h1"])}</a>')]
-    for pid in ("eht-006", "eht-007", "eht-001", "eht-012"):
+    # 07/11/2026: Warmlite 650W (eht-006 antigo) e MYLEK 1kW (eht-007) sairam por falta de estoque;
+    # eht-006 agora e o Purus 600W e o painel Wi-Fi e o Devola (eht-003).
+    for pid in ("eht-006", "eht-003", "eht-001", "eht-012"):
         m = _by_id(ms, pid)
         opts.append((HEATER_TYPE_LABEL[m["t"]], m["w"], m["w"], _hlink(m)))
     rows = ""
@@ -3205,7 +3222,8 @@ def _heater_bedroom_body(ms, cat, ref):
                f"{_e2(8 * KWH_RATE_NIGHT)} at {_e2(KWH_RATE_NIGHT)}/kWh against {_e2(8 * KWH_RATE)} at the "
                f"day rate of {_e2(KWH_RATE)}/kWh. Check the hours of your night rate on your bill.")},
     ]
-    o_oil, o_pan, o_fan = _by_id(ms, "eht-006"), _by_id(ms, "eht-007"), _by_id(ms, "eht-001")
+    o_oil = min((m for m in ms if m["t"] == "oil"), key=lambda m: m["w"])
+    o_pan, o_fan = _by_id(ms, "eht-003"), _by_id(ms, "eht-001")
     body = f"""
 {qa}
 <p class="intro">Heating a bedroom is a different job from heating a living room: you want it warm

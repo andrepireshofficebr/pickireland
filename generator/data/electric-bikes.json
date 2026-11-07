@@ -59,7 +59,7 @@
   {
    "slug": "best-electric-bikes-ireland",
    "title": "Best Electric Bikes in Ireland 2026 — Compared",
-   "desc": "Ireland's best electric bikes for 2026, compared on motor, real range, hills and value — with 3 of the 5 picks under the €1,500 Cycle to Work ceiling.",
+   "desc": "Ireland's best electric bikes for 2026, compared on motor, real range, hills and value — with 2 of the 4 picks under the €1,500 Cycle to Work ceiling.",
    "h1": "The 5 Best Electric Bikes in Ireland (2026)",
    "intro": "The Irish e-bike market has matured fast: you can now get a genuinely good commuter for under €1,200 and a superb one under €2,000. We compared motors, honest range, braking, and weather-readiness across the most popular models sold here, flagging which qualify for the €1,500 Cycle to Work ceiling — because for most PAYE workers that scheme is an instant ~30–50% discount.",
    "faq_idx": [
@@ -70,7 +70,7 @@
    "guide": [
     [
      "How do you actually pick the right e-bike category for your commute?",
-     "Work out which category you need before comparing wattage and battery size. A flat 4km commute on quiet roads barely needs assistance, so a mid-range hub-motor bike is plenty; add hills, headwind or 10km-plus each way and torque starts to matter more than top speed; apartment living or a shared hallway points toward a folding frame; and weekend trail riding needs wider tyres, more suspension travel and a frame rated for repeated impact. The five bikes below span four very different use cases, and the best one depends entirely on yours. Skipping this step is why so many Irish e-bike buyers end up swapping bikes within a year: the spec sheet was good, the category was wrong."
+     "Work out which category you need before comparing wattage and battery size. A flat 4km commute on quiet roads barely needs assistance, so a mid-range hub-motor bike is plenty; add hills, headwind or 10km-plus each way and torque starts to matter more than top speed; apartment living or a shared hallway points toward a folding frame; and weekend trail riding needs wider tyres, more suspension travel and a frame rated for repeated impact. The four bikes below span very different use cases, and the best one depends entirely on yours. Skipping this step is why so many Irish e-bike buyers end up swapping bikes within a year: the spec sheet was good, the category was wrong."
     ],
     [
      "The €1,500 Cycle to Work ceiling and where it bites",
@@ -215,40 +215,15 @@
       "Style splits opinion"
      ],
      "verdict": "The low step-through frame is the reason to pick this over the other ENGWE models: mounting and dismounting is far easier in a skirt, a long coat, or if bending a leg over a high crossbar is uncomfortable. Fat 20x4.0 tyres smooth out rough Irish road surfaces, and 7 gears give enough range to manage hills without a motor doing all the work. The trade-off with smaller 20-inch wheels is that they transmit speed bumps and potholes more directly than the bigger wheels on other models, and the fat-tyre, step-through look is distinctive enough that it won't suit everyone's taste. Ideal for riders who prioritise easy mounting and comfort over top-spec range or a conventional bike silhouette."
-    },
-    {
-     "id": "ebk-005",
-     "asin": "B0C7VPVX5B",
-     "name": "VARUN 24\"/26\" Electric Bike (250W, Removable Battery)",
-     "brand": "VARUN",
-     "price": 549,
-     "rating": 4.4,
-     "badge": "Best Budget Overall",
-     "specs": {
-      "Motor": "250 W EU-legal",
-      "Battery": "Removable",
-      "Range": "45–60 km",
-      "Price": "Entry hero"
-     },
-     "pros": [
-      "EU-legal pedelec",
-      "Removable battery",
-      "Now €549 — price dropped"
-     ],
-     "cons": [
-      "Cadence assist",
-      "Basic components"
-     ],
-     "verdict": "A 250W motor keeps this VARUN within EU pedelec rules, and at €549 — following a recent price drop — it's by far the cheapest e-bike on this list, undercutting the next-cheapest ENGWE by around €500. The battery is removable for indoor charging, and the claimed 45-60km range covers a realistic daily commute for most riders. Assist comes from a basic cadence sensor rather than a torque sensor, so pedal feel is less refined than the pricier ENGWE and Fafrees models, and components generally are built to a price rather than a premium spec. The obvious entry point for anyone wanting a legal, functional e-bike without committing four figures; riders wanting refined assist or maximum range should budget for one of the ENGWE models instead."
     }
    ]
   },
   {
    "slug": "best-electric-bikes-under-1000-ireland",
    "title": "Best Electric Bikes Under €1,000 in Ireland 2026",
-   "desc": "Five electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
+   "desc": "Four electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
    "h1": "Best Electric Bikes Under €1,000 in Ireland",
-   "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These five keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
+   "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These four keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
    "faq_idx": [
     5,
     1,
@@ -303,31 +278,6 @@
     }
    ],
    "products": [
-    {
-     "id": "ebk-006",
-     "asin": "B0C7VPVX5B",
-     "name": "VARUN 24\"/26\" Electric Bike (250W, Removable Battery)",
-     "brand": "VARUN",
-     "price": 549,
-     "rating": 4.4,
-     "badge": "Best Under €600",
-     "specs": {
-      "Motor": "250 W EU-legal",
-      "Battery": "Removable",
-      "Range": "45–60 km",
-      "Price": "Entry hero"
-     },
-     "pros": [
-      "EU-legal pedelec",
-      "Removable battery",
-      "Now €549 — price dropped"
-     ],
-     "cons": [
-      "Cadence assist",
-      "Basic components"
-     ],
-     "verdict": "The Amazon.ie entry hero — legal, practical, and now even cheaper at €549."
-    },
     {
      "id": "ebk-007",
      "asin": "B0DW8LNFT7",
@@ -809,7 +759,7 @@
    "title": "Best Commuter Electric Bikes Ireland 2026",
    "desc": "The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison.",
    "h1": "Best Commuter Electric Bikes in Ireland",
-   "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared five commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
+   "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared four commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
    "faq_idx": [
     4,
     1,
@@ -938,31 +888,6 @@
       "Cadence assist"
      ],
      "verdict": "The traditional commuter: full-size wheels and removable battery without folding-bike compromises."
-    },
-    {
-     "id": "ebk-024",
-     "asin": "B0C7VPVX5B",
-     "name": "VARUN 24\"/26\" Electric Bike (250W, Removable Battery)",
-     "brand": "VARUN",
-     "price": 549,
-     "rating": 4.4,
-     "badge": "Best Budget Commuter",
-     "specs": {
-      "Motor": "250 W EU-legal",
-      "Battery": "Removable",
-      "Range": "45–60 km",
-      "Price": "Entry hero"
-     },
-     "pros": [
-      "EU-legal pedelec",
-      "Removable battery",
-      "Now €549 — price dropped"
-     ],
-     "cons": [
-      "Cadence assist",
-      "Basic components"
-     ],
-     "verdict": "The Amazon.ie entry hero — legal, practical, and now even cheaper at €549."
     },
     {
      "id": "ebk-025",

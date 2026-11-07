@@ -61,7 +61,7 @@
       "title": "Best Air Purifiers in Ireland 2026 — HEPA Picks Compared",
       "desc": "Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026.",
       "h1": "The Best Air Purifiers in Ireland (2026)",
-      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €121.",
+      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €165.",
       "faq_idx": [
         0,
         2,
@@ -144,29 +144,30 @@
         },
         {
           "id": "apr-002",
-          "asin": "B0CMQPZC72",
-          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "asin": "B0FDWK7YL2",
+          "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 121,
-          "rating": 4.7,
+          "price": 165,
+          "rating": 4.6,
           "badge": "Best Smart Large-Room",
           "specs": {
-            "Coverage": "Up to 70 m²",
-            "Filter": "H13 HEPA",
+            "Coverage": "Up to 108 m² (54 m² twice an hour)",
+            "CADR": "258 m³/h",
+            "Sensor": "PM2.5 laser",
             "Smart": "Alexa + app",
-            "Modes": "Auto, sleep",
-            "Power": "37 W"
+            "Sleep noise": "24 dB",
+            "Power": "39 W"
           },
           "pros": [
-            "Covers open-plan spaces",
-            "Excellent app and auto mode",
-            "Cheap, available filters"
+            "Laser PM2.5 sensor drives auto mode",
+            "24 dB sleep mode",
+            "Alexa and VeSync app control"
           ],
           "cons": [
-            "Big white cylinder",
-            "Top speed is loud"
+            "Dearer than the Philips and the bedroom Levoit",
+            "Filter swap every 6–8 months"
           ],
-          "verdict": "With coverage rated up to 70 square metres and an H13 HEPA filter, this Levoit is sized for open-plan living rooms or knocked-through spaces that smaller purifiers can't keep up with. Alexa and app integration let it run in auto mode, adjusting itself to conditions, and replacement filters are inexpensive and easy to find, which keeps running costs down over the 4.7-star-rated unit's lifetime. It's a large white cylinder that's hard to disguise in a small room, and at top fan speed several owners note it gets noticeably loud — fine for daytime background running, less ideal right beside a bed at night. Best suited to bigger, open-plan spaces; the smaller Levoit bedroom model below is the better fit for sleeping areas."
+          "verdict": "Levoit's upgraded Core 300S is the pick for a living room or an open-plan space: a CADR of 258 m³/h is enough to clean 54 m² twice an hour, and Levoit rates it for rooms up to 108 m² at one change an hour. A laser PM2.5 sensor runs the auto mode, the VeSync app and Alexa handle schedules, and sleep mode drops to 24 dB with the lights off, so it can also sit in a bedroom. Over 600 owners rate it 4.6 stars, and it is sold and shipped by Amazon. At around €165 it costs about twice the Philips above, and the filter needs replacing every 6–8 months, so budget for that. Best for buyers who want one smart purifier that covers a big room."
         },
         {
           "id": "apr-003",
@@ -354,29 +355,30 @@
         },
         {
           "id": "apr-007",
-          "asin": "B0CMQPZC72",
-          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "asin": "B0FDWK7YL2",
+          "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 121,
-          "rating": 4.7,
+          "price": 165,
+          "rating": 4.6,
           "badge": "Best Whole-Room Allergy",
           "specs": {
-            "Coverage": "Up to 70 m²",
-            "Filter": "H13 HEPA",
+            "Coverage": "Up to 108 m² (54 m² twice an hour)",
+            "CADR": "258 m³/h",
+            "Sensor": "PM2.5 laser",
             "Smart": "Alexa + app",
-            "Modes": "Auto, sleep",
-            "Power": "37 W"
+            "Sleep noise": "24 dB",
+            "Power": "39 W"
           },
           "pros": [
-            "Covers open-plan spaces",
-            "Excellent app and auto mode",
-            "Cheap, available filters"
+            "Laser PM2.5 sensor drives auto mode",
+            "24 dB sleep mode",
+            "Alexa and VeSync app control"
           ],
           "cons": [
-            "Big white cylinder",
-            "Top speed is loud"
+            "Dearer than the Philips and the bedroom Levoit",
+            "Filter swap every 6–8 months"
           ],
-          "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
+          "verdict": "The whole-room allergy pick: 258 m³/h of HEPA filtration, a laser PM2.5 sensor that ramps up when pollen gets in, and a 24 dB sleep mode for the night."
         },
         {
           "id": "apr-008",
@@ -642,29 +644,30 @@
         },
         {
           "id": "apr-015",
-          "asin": "B0CMQPZC72",
-          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "asin": "B0FDWK7YL2",
+          "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 121,
-          "rating": 4.7,
+          "price": 165,
+          "rating": 4.6,
           "badge": "Best Quiet Large Room",
           "specs": {
-            "Coverage": "Up to 70 m²",
-            "Filter": "H13 HEPA",
+            "Coverage": "Up to 108 m² (54 m² twice an hour)",
+            "CADR": "258 m³/h",
+            "Sensor": "PM2.5 laser",
             "Smart": "Alexa + app",
-            "Modes": "Auto, sleep",
-            "Power": "37 W"
+            "Sleep noise": "24 dB",
+            "Power": "39 W"
           },
           "pros": [
-            "Covers open-plan spaces",
-            "Excellent app and auto mode",
-            "Cheap, available filters"
+            "Laser PM2.5 sensor drives auto mode",
+            "24 dB sleep mode",
+            "Alexa and VeSync app control"
           ],
           "cons": [
-            "Big white cylinder",
-            "Top speed is loud"
+            "Dearer than the Philips and the bedroom Levoit",
+            "Filter swap every 6–8 months"
           ],
-          "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
+          "verdict": "For a large bedroom or a bedsit: 24 dB in sleep mode with the display off, but 258 m³/h when it needs to work. It costs more than the bedroom-sized picks above."
         },
         {
           "id": "apr-026",
@@ -723,7 +726,7 @@
       "title": "Best Air Purifiers for Large & Open-Plan Rooms Ireland 2026",
       "desc": "High-CADR air purifiers for large Irish living rooms and open-plan spaces — 300+ m³/h units compared on coverage and cost. Compared for 2026.",
       "h1": "Best Air Purifiers for Large Rooms in Ireland",
-      "intro": "Open-plan living — the default in newer Irish builds — defeats small purifiers: they clean their corner while the kitchen end pumps out cooking particles. Big spaces need CADR of 300+ m³/h to manage 3+ air changes hourly. These six movers handle 60–100 m² honestly, ranked on airflow, noise at useful speeds, and cost per cubic metre cleaned.",
+      "intro": "Open-plan living — the default in newer Irish builds — defeats small purifiers: they clean their corner while the kitchen end pumps out cooking particles. Big spaces need CADR of 300+ m³/h to manage 3+ air changes hourly. Only our top pick clears that bar on its own; the other four are ranked as support for the rest of the space, on airflow, noise at useful speeds, and cost per cubic metre cleaned.",
       "faq_idx": [
         2,
         6,
@@ -779,30 +782,29 @@
       ],
       "products": [
         {
-          "id": "apr-016",
-          "asin": "B0CMQPZC72",
-          "name": "LEVOIT Smart HEPA Air Purifier (70 m²)",
+          "id": "apr-030",
+          "asin": "B08R794ZMX",
+          "name": "Levoit Core 400S Smart Air Purifier (83 m²)",
           "brand": "Levoit",
-          "price": 121,
-          "rating": 4.7,
+          "price": 379,
+          "rating": 4.6,
           "badge": "Best Large-Room Overall",
           "specs": {
-            "Coverage": "Up to 70 m²",
-            "Filter": "H13 HEPA",
-            "Smart": "Alexa + app",
-            "Modes": "Auto, sleep",
-            "Power": "37 W"
+            "Coverage": "83 m² twice an hour",
+            "CADR": "400 m³/h",
+            "Sensor": "PM2.5 laser",
+            "Control": "App + Alexa"
           },
           "pros": [
-            "Covers open-plan spaces",
-            "Excellent app and auto mode",
-            "Cheap, available filters"
+            "Clears this page's 300 m³/h CADR bar",
+            "PM2.5 sensor drives auto mode",
+            "4.6★ from 15,000+ owners"
           ],
           "cons": [
-            "Big white cylinder",
-            "Top speed is loud"
+            "Most expensive on this page",
+            "Third-party seller, ships in 6–10 days"
           ],
-          "verdict": "The open-plan answer: serious clean-air throughput with the best app in the class."
+          "verdict": "The Core 400S is the only machine on this page that clears the 300 m³/h bar open-plan spaces need: its 400 m³/h CADR cycles an 83 m² room twice an hour. A PM2.5 laser sensor runs its auto mode, it works with Alexa and the app, and more than 15,000 owners rate it 4.6 stars. At around €379 it is by far the dearest pick here, and on Amazon.ie it currently comes from a third-party seller with 6–10 days' delivery. Worth it if your kitchen-living space is genuinely large; for one big room, the cheaper units below are enough."
         },
         {
           "id": "apr-017",
@@ -906,31 +908,6 @@
             "Basic controls"
           ],
           "verdict": "The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries."
-        },
-        {
-          "id": "apr-030",
-          "asin": "B08R794ZMX",
-          "name": "Levoit Core 400S Smart Air Purifier (83 m²)",
-          "brand": "Levoit",
-          "price": 415,
-          "rating": 4.6,
-          "badge": "Smart Alternative",
-          "specs": {
-            "Coverage": "83 m² twice an hour",
-            "CADR": "400 m³/h",
-            "Sensor": "PM2.5 laser",
-            "Control": "App + Alexa"
-          },
-          "pros": [
-            "Clears this page's 300 m³/h CADR bar",
-            "PM2.5 sensor drives auto mode",
-            "4.6★ from 15,000+ owners"
-          ],
-          "cons": [
-            "Most expensive on this page",
-            "€294 more than our top pick, which owners rate higher at 4.7★"
-          ],
-          "verdict": "The Core 400S is the most expensive machine on this page at €415, and its 400 m³/h CADR is enough to cycle an 83 m² room twice an hour, which is the open-plan scale this page is about. A PM2.5 laser sensor runs its auto mode, it works with Alexa, and more than 15,000 owners rate it 4.6 stars. The awkward part is our €121 top pick, also a Levoit, which covers up to 70 m² and rates slightly higher at 4.7. Pay the difference only if your space is clearly bigger than 70 m²."
         }
       ]
     },
