@@ -221,9 +221,9 @@
   {
    "slug": "best-electric-bikes-under-1000-ireland",
    "title": "Best Electric Bikes Under €1,000 in Ireland 2026",
-   "desc": "Four electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
+   "desc": "Three electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.",
    "h1": "Best Electric Bikes Under €1,000 in Ireland",
-   "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These four keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
+   "intro": "Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These three keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.",
    "faq_idx": [
     5,
     1,
@@ -329,31 +329,6 @@
      "verdict": "The big-battery do-it-all, now €50 cheaper: trails Saturday, commutes Monday."
     },
     {
-     "id": "ebk-009",
-     "asin": "B0CY2672XJ",
-     "name": "VARUN 26\"×4.0 Fat Tyre E-Bike (48V 18Ah)",
-     "brand": "VARUN",
-     "price": 799,
-     "rating": 4.4,
-     "badge": "Best Fat Tyre Under €800",
-     "specs": {
-      "Battery": "48V 18Ah",
-      "Tyres": "26×4.0 fat",
-      "Terrain": "Sand, gravel, mud",
-      "Range": "Long"
-     },
-     "pros": [
-      "18Ah battery at €799",
-      "Full-size fat capability",
-      "All-terrain confidence"
-     ],
-     "cons": [
-      "Heavy",
-      "Fat tyres drag on tarmac"
-     ],
-     "verdict": "Full-size fat-tyre freedom under €800 — beach, boreen and bog-road ready."
-    },
-    {
      "id": "ebk-010",
      "asin": "B09QGCQ6GH",
      "name": "Fafrees F20 Folding Fat E-Bike (20\")",
@@ -378,14 +353,19 @@
      ],
      "verdict": "The folding fat bestseller: comfort, storage and price in the sweet spot."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "Two of the bikes we recommended under €1,000 are out of stock on Amazon.ie, so this guide lists only three. For more e-bikes in stock, see",
+    "href": "best-electric-bikes-ireland.html",
+    "label": "Best electric bikes in Ireland"
+   }
   },
   {
    "slug": "best-folding-electric-bikes-ireland",
    "title": "Best Folding Electric Bikes Ireland 2026",
    "desc": "The best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.",
    "h1": "Best Folding Electric Bikes in Ireland",
-   "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these five on fold speed, carry weight, and how much riding quality survives the hinge.",
+   "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these four on fold speed, carry weight, and how much riding quality survives the hinge.",
    "faq_idx": [
     7,
     3,
@@ -517,16 +497,16 @@
     },
     {
      "id": "ebk-014",
-     "asin": "B0CZLBRLH7",
+     "asin": "B0CZLCXD1R",
      "name": "VARUN 20\"×4.0 Fat Folding E-Bike (48V 13Ah)",
      "brand": "VARUN",
-     "price": 849,
-     "rating": 4.6,
+     "price": 829,
+     "rating": 4.5,
      "badge": "Best-Rated Compact",
      "specs": {
       "Type": "Folding fat 20\"",
       "Battery": "48V 13Ah",
-      "Rating": "4.6★",
+      "Rating": "4.5★",
       "Use": "Compact adventure"
      },
      "pros": [
@@ -539,31 +519,6 @@
       "Firm ride"
      ],
      "verdict": "The compact adventure folder owners love — 4.6 stars don't lie."
-    },
-    {
-     "id": "ebk-015",
-     "asin": "B0FVRT9WBW",
-     "name": "VARUN 14\" Folding Electric Bike",
-     "brand": "VARUN",
-     "price": 459,
-     "rating": 4.2,
-     "badge": "Cheapest Folder",
-     "specs": {
-      "Wheel": "14\" folding",
-      "Battery": "36V 280Wh",
-      "Range": "~45 km",
-      "Weight": "Light"
-     },
-     "pros": [
-      "Cheapest e-bike here",
-      "Genuinely portable",
-      "Train and apartment friendly"
-     ],
-     "cons": [
-      "Small wheels feel bumps",
-      "Modest battery"
-     ],
-     "verdict": "The €459 entry ticket: last-mile legs, hallway storage, e-bike smiles."
     }
    ]
   },
@@ -726,31 +681,6 @@
       "Newer model line"
      ],
      "verdict": "The connected tourer: app-tuned power, huge range and torque feel for serious distance."
-    },
-    {
-     "id": "ebk-020",
-     "asin": "B0CY2672XJ",
-     "name": "VARUN 26\"×4.0 Fat Tyre E-Bike (48V 18Ah)",
-     "brand": "VARUN",
-     "price": 799,
-     "rating": 4.4,
-     "badge": "Best Fat-Tyre Trail",
-     "specs": {
-      "Battery": "48V 18Ah",
-      "Tyres": "26×4.0 fat",
-      "Terrain": "Sand, gravel, mud",
-      "Range": "Long"
-     },
-     "pros": [
-      "18Ah battery at €799",
-      "Full-size fat capability",
-      "All-terrain confidence"
-     ],
-     "cons": [
-      "Heavy",
-      "Fat tyres drag on tarmac"
-     ],
-     "verdict": "Full-size fat-tyre freedom under €800 — beach, boreen and bog-road ready."
     }
    ]
   },

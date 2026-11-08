@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-11-07 | 12 categories | 52 guides | 257 product entries
+Generated: 2026-11-08 | 12 categories | 52 guides | 239 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -655,7 +655,7 @@ A: In electricity terms, an air fryer costs more per cook than a microwave, roug
 ==============================================================================
 # CATEGORY: Air Purifiers
 URL: https://pickireland.best/air-purifiers/
-5 guides, 29 product entries
+5 guides, 27 product entries
 ==============================================================================
 
 Irish homes have an indoor air problem nobody talks about: damp-driven mould spores, dust mites thriving in humidity, pollen seasons that now run March to September, and solid-fuel smoke drifting through winter estates. A true HEPA purifier removes 99.95%+ of these particles. We compare real performance — CADR, filter costs, noise — across every budget.
@@ -803,7 +803,7 @@ URL: https://pickireland.best/air-purifiers/best-air-purifiers-allergies-hay-fev
 Summary: Suffer hay fever or dust allergies in Ireland? The best HEPA air purifiers for pollen, dust mites and pet dander, compared for 2026.
 ------------------------------------------------------------------------------
 
-Irish grass pollen season now stretches from May into August, with tree pollen from March — and a third of us react. A bedroom HEPA purifier won't fix outdoors, but it gives allergy sufferers what antihistamines can't: eight hours of genuinely low-pollen sleep. We ranked these six on allergen capture, sleep-mode silence and certified performance.
+Irish grass pollen season now stretches from May into August, with tree pollen from March — and a third of us react. A bedroom HEPA purifier won't fix outdoors, but it gives allergy sufferers what antihistamines can't: eight hours of genuinely low-pollen sleep. We ranked these five on allergen capture, sleep-mode silence and certified performance.
 
 ### 1. Philips 600 Series Air Purifier  [Best Allergy Pick]
 Brand: Philips
@@ -872,17 +872,6 @@ Pros: H13 HEPA under €50; Under 25 dB on the lowest speed; Night light can be 
 Cons: Medium rooms only (35 m²); Aroma pads add nothing to filtration
 Verdict: H13 filtration for a bedroom-sized room at €48 — the low-cost route to a lower-pollen night.
 
-### 6. Blueair Blue 511i Max Smart WiFi Air Purifier  [Challenger Pick]
-Brand: Blueair
-Price: ~€160
-Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.006/hour at €0.38/kWh
-Coverage: 52 m²
-Power: 17 W
-Pros: 52 m² coverage; Strong 4.5★ owner rating
-Cons: 3 of the 6 picks here are better rated by owners; €80 more than our top pick, which owners rate higher at 4.6★
-Verdict: Blueair's Blue 511i Max covers a stated 52 m², well beyond the room size our €80 Philips pick targets, and carries a 4.5-star owner rating against the Philips's 4.6. At €160 it's double the price for coverage most Irish bedrooms and sitting rooms don't need. Genuinely the better machine for a large open-plan space; overkill, and overpriced, for the allergy-in-one-room job this page is about.
-
 #### When does hay fever season actually run in Ireland?
 Irish allergy season is really three overlapping ones: hazel and alder from February, birch and ash from March to May, and grass — the main hay-fever trigger — from mid-May through July, peaking around mid-June. Met Éireann publishes a daily pollen forecast from 1 February to 30 September, the practical window for keeping windows shut and a purifier running. Weed pollen and outdoor mould spores then carry the load into September, especially after warm damp spells. If you react only in June you can run the machine seasonally, but most Irish sufferers are sensitised to more than one trigger and do better leaving it on from early spring, with auto mode throttling it back on quiet days.
 
@@ -924,7 +913,7 @@ URL: https://pickireland.best/air-purifiers/best-quiet-air-purifiers-bedroom-ire
 Summary: The quietest air purifiers for Irish bedrooms — all under 25 dB in sleep mode, displays off, real HEPA. Compared for 2026.
 ------------------------------------------------------------------------------
 
-A bedroom purifier that's too loud gets switched off, and a switched-off purifier cleans nothing. The seven below all run below 25 dB in sleep mode — quieter than a ticking clock — with dimmed or killed displays. We ranked on sleep-mode CADR (how much cleaning survives the silence), because some units go quiet by going useless.
+A bedroom purifier that's too loud gets switched off, and a switched-off purifier cleans nothing. The six below all run below 25 dB in sleep mode — quieter than a ticking clock — with dimmed or killed displays. We ranked on sleep-mode CADR (how much cleaning survives the silence), because some units go quiet by going useless.
 
 ### 1. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Quietest Overall]
 Brand: Levoit
@@ -993,19 +982,7 @@ Pros: Laser PM2.5 sensor drives auto mode; 24 dB sleep mode; Alexa and VeSync ap
 Cons: Dearer than the Philips and the bedroom Levoit; Filter swap every 6–8 months
 Verdict: For a large bedroom or a bedsit: 24 dB in sleep mode with the display off, but 258 m³/h when it needs to work. It costs more than the bedroom-sized picks above.
 
-### 6. GoveeLife Smart Mini Air Purifier (App & Alexa)  [Strong Alternative]
-Brand: GoveeLife
-Price: ~€76
-Rating: 4.6/5 (Amazon.ie)
-Coverage: 376 ft² once an hour
-Filter: HEPA
-Control: App, Alexa, Google Assistant
-Sensor: None (no auto mode)
-Pros: App, Alexa and Google control; Scheduled custom speed modes; Compact with 360° air intake
-Cons: No PM2.5 sensor, so no auto mode; 2.4 GHz Wi-Fi only
-Verdict: GoveeLife's mini purifier carries the same 4.6-star owner rating as our quietest pick for €76 against €61, and its pitch is control rather than power: app, Alexa and Google Assistant support, plus custom modes that switch fan speed at times you set. It's sized for a bedroom at 376 sq ft once an hour, which suits this page, but it has no PM2.5 sensor, so there's no automatic mode reacting to the air. Worth the extra €15 if you want to schedule it from your phone; for plain quiet overnight running, the LEVOIT does the job for less.
-
-### 7. Blueair Blue Max 3450i Smart WiFi  [Notable Mention]
+### 6. Blueair Blue Max 3450i Smart WiFi  [Notable Mention]
 Brand: Blueair
 Price: ~€364
 Rating: 4.3/5 (Amazon.ie)
@@ -1016,7 +993,7 @@ Filtration: 3-stage HEPASilent
 Pre-filter: Washable fabric
 Power: 38 W
 Pros: 510 m³/h cadr; Up to 103 m² coverage
-Cons: 5 of the 7 picks here are better rated by owners; €303 more than our top pick, which owners rate higher at 4.6★
+Cons: 4 of the 6 picks here are better rated by owners; €303 more than our top pick, which owners rate higher at 4.6★
 Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €61 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
 
 #### What does a 25 dB air purifier actually sound like?
@@ -1275,7 +1252,7 @@ A: Buy the cheap one if the filter costs are sane and the room is small — a �
 ==============================================================================
 # CATEGORY: Coffee Machines
 URL: https://pickireland.best/coffee-machines/
-5 guides, 29 product entries
+5 guides, 27 product entries
 ==============================================================================
 
 Ireland's coffee culture grew up fast — flat whites outsell tea in Dublin cafés — and the €3.80 daily habit maths pushed serious machines into Irish kitchens. The home setup question spans €100 pod machines to €700 bean-to-cup automatics, with wildly different running costs: pods cost ~45c a cup, fresh beans ~28c. We compare every route to better home coffee.
@@ -1423,7 +1400,7 @@ URL: https://pickireland.best/coffee-machines/best-bean-to-cup-coffee-machines-i
 Summary: Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €283 to €590+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.
+Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €399 to €535+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.
 
 ### 1. Krups Arabica EA8110 Bean-to-Cup  [Best Entry Bean-to-Cup]
 Brand: Krups
@@ -1452,20 +1429,7 @@ Pros: The proven Magnifica S platform; Parts and service everywhere; Espresso qu
 Cons: Dated display; Wand learning curve
 Verdict: Europe's bestselling automatic for a reason — the default answer for daily coffee.
 
-### 3. Philips 5500 Series LatteGo Bean-to-Cup (EP5546/70)  [Best Milk Drinks]
-Brand: Philips
-Price: ~€590
-Rating: 4.4/5 (Amazon.ie)
-Type: Bean-to-cup
-Milk: LatteGo, 2 parts, no tubes
-Drinks: 20 hot & iced
-Water tank: 1.8 L
-Noise: 40% quieter than earlier models
-Pros: 20 hot and iced recipes, milk drinks included; LatteGo milk system rinses clean in under 10 seconds; QuickStart: brew straight after switching on
-Cons: Price step up for the milk automation; Owner rating 4.4★, below the Magnifica S's 4.6★
-Verdict: The one to buy if most of your cups have milk in them: twenty hot and iced recipes at a touch, and a tube-free LatteGo jug that's rinsed in seconds.
-
-### 4. Philips 5400 Series LatteGo Bean-to-Cup (EP5446/70)  [Best Flagship]
+### 3. Philips 5400 Series LatteGo Bean-to-Cup (EP5446/70)  [Best Flagship]
 Brand: Philips
 Price: ~€535
 Rating: 4.4/5 (Amazon.ie)
@@ -1478,19 +1442,7 @@ Pros: 12 one-touch coffees incl. milk drinks; LatteGo milk system: two parts, no
 Cons: €500+; Owner rating 4.4★, below the Magnifica S's 4.6★
 Verdict: The automatic flagship: twelve drinks at a touch, and a milk system that rinses clean in seconds.
 
-### 5. Chefman Crema Supreme 15-Bar Espresso  [Challenger Pick]
-Brand: Chefman
-Price: ~€283
-Rating: 4.0/5 (Amazon.ie)
-Pressure: 15 bar
-Grinder: Conical burr, 30 settings
-Water tank: 3 L
-Milk: Steam wand
-Pros: Cheapest pick on this page at €283; 15 bar pressure; Conical burr, 30 settings grinder
-Cons: Lowest owner rating of the picks here at 4.0★; 4.0★ owner rating is only average for this price bracket
-Verdict: Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €399 Krups bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for.
-
-### 6. De'Longhi La Specialista Arte (EC9155)  [Smart Alternative]
+### 4. De'Longhi La Specialista Arte (EC9155)  [Smart Alternative]
 Brand: De'Longhi
 Price: ~€490
 Rating: 4.3/5 (Amazon.ie)
@@ -2525,7 +2477,7 @@ A: Often yes, because they solve different timescales of the same problem. An ex
 ==============================================================================
 # CATEGORY: Electric Bikes
 URL: https://pickireland.best/electric-bikes/
-5 guides, 22 product entries
+5 guides, 19 product entries
 ==============================================================================
 
 Ireland is quietly becoming an e-bike country: the Cycle to Work scheme covers e-bikes up to €1,500, fuel and parking costs keep climbing, and EU-legal pedelecs (250 W, assist to 25 km/h) need no licence, tax or insurance. We compare every e-bike worth buying on Amazon.ie — from €459 folders to 1,440 Wh range flagships at €2,000.
@@ -2640,10 +2592,10 @@ A: Yes, conversion kits are widely available and can be cheaper than a new bike 
 ------------------------------------------------------------------------------
 ## GUIDE: Best Electric Bikes Under €1,000 in Ireland
 URL: https://pickireland.best/electric-bikes/best-electric-bikes-under-1000-ireland.html
-Summary: Four electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.
+Summary: Three electric bikes under €1,000 actually worth buying in Ireland: honest range, decent brakes, real warranties. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These four keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.
+Under €1,000, e-bike shopping is a minefield of no-name frames and warranty ghosts. But a handful of models deliver real quality at this price — and with Cycle to Work knocking up to 52% off, a €999 bike can cost a higher-rate taxpayer around €500 net. These three keep the essentials: branded cells, disc brakes, and someone to call when things go wrong.
 
 ### 1. Fafrees 26" Hailong-One E-Bike  [Best Classic 26"]
 Brand: Fafrees
@@ -2671,20 +2623,7 @@ Pros: Big 624 Wh battery; Real trail capability; Price dropped to €749
 Cons: Entry-level suspension; Heavier than analog MTB
 Verdict: The big-battery do-it-all, now €50 cheaper: trails Saturday, commutes Monday.
 
-### 3. VARUN 26"×4.0 Fat Tyre E-Bike (48V 18Ah)  [Best Fat Tyre Under €800]
-Brand: VARUN
-Price: ~€799
-Rating: 4.4/5 (Amazon.ie)
-Cost per charge: €0.33 per full charge at €0.38/kWh
-Battery: 48V 18Ah
-Tyres: 26×4.0 fat
-Terrain: Sand, gravel, mud
-Range: Long
-Pros: 18Ah battery at €799; Full-size fat capability; All-terrain confidence
-Cons: Heavy; Fat tyres drag on tarmac
-Verdict: Full-size fat-tyre freedom under €800 — beach, boreen and bog-road ready.
-
-### 4. Fafrees F20 Folding Fat E-Bike (20")  [Best Folding Under €1,000]
+### 3. Fafrees F20 Folding Fat E-Bike (20")  [Best Folding Under €1,000]
 Brand: Fafrees
 Price: ~€899
 Rating: 4.4/5 (Amazon.ie)
@@ -2737,7 +2676,7 @@ URL: https://pickireland.best/electric-bikes/best-folding-electric-bikes-ireland
 Summary: The best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.
 ------------------------------------------------------------------------------
 
-Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these five on fold speed, carry weight, and how much riding quality survives the hinge.
+Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these four on fold speed, carry weight, and how much riding quality survives the hinge.
 
 ### 1. ENGWE Folding E-Bike (48V 15Ah, Torque Sensor, 130 km)  [Best Premium Folder]
 Brand: ENGWE
@@ -2779,29 +2718,16 @@ Verdict: The folding fat bestseller: comfort, storage and price in the sweet spo
 
 ### 4. VARUN 20"×4.0 Fat Folding E-Bike (48V 13Ah)  [Best-Rated Compact]
 Brand: VARUN
-Price: ~€849
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€829
+Rating: 4.5/5 (Amazon.ie)
 Cost per charge: €0.24 per full charge at €0.38/kWh
 Type: Folding fat 20"
 Battery: 48V 13Ah
-Rating: 4.6★
+Rating: 4.5★
 Use: Compact adventure
 Pros: 4.6★ owner rating; Folds with fat-tyre fun; Strong battery
 Cons: 20" wheel trade-offs; Firm ride
 Verdict: The compact adventure folder owners love — 4.6 stars don't lie.
-
-### 5. VARUN 14" Folding Electric Bike  [Cheapest Folder]
-Brand: VARUN
-Price: ~€459
-Rating: 4.2/5 (Amazon.ie)
-Cost per charge: €0.11 per full charge at €0.38/kWh
-Wheel: 14" folding
-Battery: 36V 280Wh
-Range: ~45 km
-Weight: Light
-Pros: Cheapest e-bike here; Genuinely portable; Train and apartment friendly
-Cons: Small wheels feel bumps; Modest battery
-Verdict: The €459 entry ticket: last-mile legs, hallway storage, e-bike smiles.
 
 #### Why does a folding e-bike solve specifically Irish problems?
 Folding e-bikes address three problems more acute in Ireland than the marketing usually admits: theft, since a bike that lives in a hallway or under a desk isn't exposed to the street; the weather, since Irish Rail permits folded bikes on board without booking bike space in advance; and storage, since apartment blocks and older terraced houses often have nowhere to keep a full-size bike except outside. Bike theft in Irish cities is common enough that insurers routinely ask where a bike is stored overnight. On the train, full-size bikes need pre-booking and are sometimes refused on busy services, so a folder turns a wet commute into a fold-and-train option rather than a soaking. And a folded bike fits in a hall press or under a stairs that a full-size frame never will.
@@ -2896,19 +2822,6 @@ Type: All-road
 Pros: App control and digital lock; 135 km touring range; Torque-sensor smoothness
 Cons: Mid-premium price; Newer model line
 Verdict: The connected tourer: app-tuned power, huge range and torque feel for serious distance.
-
-### 5. VARUN 26"×4.0 Fat Tyre E-Bike (48V 18Ah)  [Best Fat-Tyre Trail]
-Brand: VARUN
-Price: ~€799
-Rating: 4.4/5 (Amazon.ie)
-Cost per charge: €0.33 per full charge at €0.38/kWh
-Battery: 48V 18Ah
-Tyres: 26×4.0 fat
-Terrain: Sand, gravel, mud
-Range: Long
-Pros: 18Ah battery at €799; Full-size fat capability; All-terrain confidence
-Cons: Heavy; Fat tyres drag on tarmac
-Verdict: Full-size fat-tyre freedom under €800 — beach, boreen and bog-road ready.
 
 #### Why does torque matter more than top speed for an Irish eMTB?
 Every eMTB in Ireland is legally capped at the same 25km/h assistance limit as any other e-bike, so top speed is identical across this entire comparison — what separates a good eMTB on Irish terrain is torque, measured in newton-metres. Figures in the 40–85Nm range are typical at this price point, and higher generally means a more natural climbing feel and less battery drain per climb. Trail centres like Ticknock in Dublin, Ballyhoura in Limerick and the climbs around the Wicklow Gap involve sustained gradients rather than short sharp ramps, and a motor with meaningfully more torque keeps cadence comfortable on a 15–20 minute continuous climb where a weaker motor forces you to stand and grind. Don't assume a bigger battery compensates for lower torque — a weak motor drains a big battery just as fast fighting the same hill.
@@ -4132,7 +4045,7 @@ Verdict: This covered dryer uses a 1,000 W PTC ceramic heater and a fan inside a
 ==============================================================================
 # CATEGORY: Home Office
 URL: https://pickireland.best/home-office/
-5 guides, 28 product entries
+5 guides, 23 product entries
 ==============================================================================
 
 Remote and hybrid work stuck in Ireland — Dublin's tech sector normalised it and the housing market spread it nationwide. That makes the home office chair and desk health equipment, not furniture: most people sit 6–9 hours daily on seats designed for dinner. We compare ergonomic chairs and standing desks across budgets, focused on what your back actually needs.
@@ -4206,19 +4119,7 @@ Pros: Flip-up arms save space; Headrest included at €80; Decent recline range
 Cons: Basic mechanism; Modest padding
 Verdict: This €80 Mesh Desk Chair earns the Best Compact badge by fitting a headrest and flip-up armrests into a small-office footprint — features that are easy to find on chairs costing far more but rare at this price. A 90–120° recline range gives some flexibility for leaning back between tasks, and the arms flip up so the chair slides fully under a desk when the room is needed for something else. The recline mechanism itself is basic rather than the smoother multi-position tilt on pricier chairs, and the padding is noticeably thinner than what you'd get from the SIHOO options above. Ideal for a small bedroom office or an occasional-use desk; less suited to someone sitting eight hours a day.
 
-### 5. naspaluro Ergonomic Office Chair  [Best Budget]
-Brand: naspaluro
-Price: ~€65
-Rating: 4.4/5 (Amazon.ie)
-Back: Mesh
-Arms: Flip-up
-Height: Adjustable
-Use: Home office
-Pros: €65 with real ergonomic shape; Light and compact; Easy assembly
-Cons: Fixed lumbar; Lighter build
-Verdict: At €65, the naspaluro is the cheapest chair on this page, yet it still holds a genuine ergonomic shape rather than the flat, unsupportive seat you'd expect at this price — a point owner reviews on Amazon.ie consistently highlight. It's light and compact, which suits a small room, and assembly is reportedly quick and straightforward compared with the SIHOO models above. The lumbar support is fixed rather than adjustable, so it won't mould to every back shape, and the overall build is lighter-duty, meaning it's better suited to moderate daily use than an all-day, every-day workload. A sound choice for students or anyone furnishing a home office on a tight budget.
-
-### 6. SIHOO M57 Ergonomic Office Chair (3-Way Adjustable Arms)  [Worth Considering]
+### 5. SIHOO M57 Ergonomic Office Chair (3-Way Adjustable Arms)  [Worth Considering]
 Brand: SIHOO
 Price: ~€250
 Rating: 4.3/5 (Amazon.ie)
@@ -4230,7 +4131,7 @@ Pros: 150 kg max load; 90°–126° recline
 Cons: Joint-lowest owner rating of the picks here at 4.3★; €90 more than our top pick, the M102C
 Verdict: The SIHOO M57 adds 3-way adjustable arms to the SIHOO ergonomic lineup and holds a solid 4.3★ owner rating on Amazon.ie, with typical pricing around €200 putting it above the M102C and M18 already covered here. As with those chairs, buying through Amazon.ie means the returns process is straightforward if it doesn't suit. It's newer to our comparison than the top picks, so there's less accumulated feedback to lean on, and because SIHOO chairs are listed through multiple sellers, the support experience can vary depending on who you buy from. Worth a look if you specifically want 3-way arm adjustment and are happy paying more for it, but the M102C remains the stronger all-round value.
 
-### 7. Ticova Ergonomic Office Chair (High Back, Adjustable Lumbar & Headrest)  [Notable Mention]
+### 6. Ticova Ergonomic Office Chair (High Back, Adjustable Lumbar & Headrest)  [Notable Mention]
 Brand: Ticova
 Price: ~€120
 Rating: 4.8/5 (Amazon.ie)
@@ -4283,7 +4184,7 @@ URL: https://pickireland.best/home-office/best-budget-office-chairs-under-200-ir
 Summary: Five office chairs under €200 with real ergonomic credentials for Irish home workers — honest comparisons, no gaming-chair traps. 2026.
 ------------------------------------------------------------------------------
 
-Under €200 is booby-trapped territory: racing-style 'gaming chairs' with cosmetic ergonomics, and foam that retires before your next phone does. The escape route is mesh, simple proven mechanisms, and brands with actual warranties. These seven maximise spine-per-euro — including what to deliberately sacrifice (looks, recline range) and what never to (lumbar, height range).
+Under €200 is booby-trapped territory: racing-style 'gaming chairs' with cosmetic ergonomics, and foam that retires before your next phone does. The escape route is mesh, simple proven mechanisms, and brands with actual warranties. These four maximise spine-per-euro — including what to deliberately sacrifice (looks, recline range) and what never to (lumbar, height range).
 
 ### 1. SIHOO M18 Ergonomic Office Chair  [Best Under €200]
 Brand: SIHOO
@@ -4321,44 +4222,12 @@ Pros: Flip-up arms save space; Headrest included at €80; Decent recline range
 Cons: Basic mechanism; Modest padding
 Verdict: The small-room space saver: arms up, slide under desk, floor reclaimed.
 
-### 4. ELFORDSON High-Back Chair with Headrest  [Best Cushioned]
-Brand: ELFORDSON
-Price: ~€95
-Rating: 4.2/5 (Amazon.ie)
-Back: High with headrest
-Support: Lumbar cushion
-Recline: Yes
-Padding: Generous
-Pros: Plush padding for long days; Headrest standard; Solid mid-budget pick
-Cons: Foam softens over years; Bulkier look
-Verdict: The comfort-first mid-ranger for those who prefer cushion to mesh.
-
-### 5. naspaluro Ergonomic Office Chair  [Best Under €70]
-Brand: naspaluro
-Price: ~€65
-Rating: 4.4/5 (Amazon.ie)
-Back: Mesh
-Arms: Flip-up
-Height: Adjustable
-Use: Home office
-Pros: €65 with real ergonomic shape; Light and compact; Easy assembly
-Cons: Fixed lumbar; Lighter build
-Verdict: The honest budget chair: correct shape, sensible features, student-friendly price.
-
-### 6. ELFORDSON Ergonomic Mesh Office Chair (Adjustable Lumbar)  [Strong Alternative]
-Brand: ELFORDSON
-Price: ~€85
-Rating: 4.6/5 (Amazon.ie)
-Pros: €65 less than our top pick; Owners rate it 4.6★, above our top pick's 4.5★
-Cons: Full specs not confirmed — check the current listing before buying; Not our category winner — compare against the SIHOO M18 Ergonomic Office Chair
-Verdict: At €85 this ELFORDSON mesh chair is the cheapest option on the page and carries the highest owner rating here at 4.6 stars, above our €150 SIHOO pick's 4.5. It has the adjustable lumbar support this page treats as non-negotiable. It sits second because it's sold under a generic brand with no established warranty or parts route in Ireland, which matters on a chair — a gas lift that fails in year two is the most common office-chair failure. Excellent value if you accept that risk.
-
-### 7. FlexiSpot ErgoX Ergonomic Office Chair  [Above budget — upgrade path]
+### 4. FlexiSpot ErgoX Ergonomic Office Chair  [Above budget — upgrade path]
 Brand: FlexiSpot
 Price: ~€250
 Rating: 4.4/5 (Amazon.ie)
 Pros: Listed on Amazon.ie at €250
-Cons: 4 of the 7 picks here are better rated by owners; €100 more than our top pick, which owners rate higher at 4.5★
+Cons: 3 of the 4 picks here are better rated by owners; €100 more than our top pick, which owners rate higher at 4.5★
 Verdict: FlexiSpot is a well-established name in home-office furniture and the ErgoX is the most feature-complete chair here, but at €250 it sits €50 above this page's under-€200 remit and €100 above our SIHOO pick, while rating slightly lower with owners at 4.4 stars against 4.5. Included as the obvious step up if the budget cap is soft; if €200 is firm, the SIHOO does the job for less.
 
 #### What should you never sacrifice on an office chair under €200?
@@ -4402,7 +4271,7 @@ URL: https://pickireland.best/home-office/best-standing-desks-ireland.html
 Summary: Electric standing desks compared for Irish home offices: dual motors, stability, warranties and real prices. Compared for 2026.
 ------------------------------------------------------------------------------
 
-The sit-stand desk won the ergonomic argument by making movement effortless — and the market matured from wobbly novelties to €300–700 frames with decade warranties. Motors, stability at height, and warranty depth separate the tiers; tabletop fashion is the cheap part. Five desks across the realistic budget range, ranked on the engineering you can't see.
+The sit-stand desk won the ergonomic argument by making movement effortless — and the market matured from wobbly novelties to €300–700 frames with decade warranties. Motors, stability at height, and warranty depth separate the tiers; tabletop fashion is the cheap part. Four desks across the realistic budget range, ranked on the engineering you can't see.
 
 ### 1. ErGear Electric Standing Desk 120×60 cm  [Best Value Electric]
 Brand: ErGear
@@ -4416,9 +4285,9 @@ Pros: Electric sit-stand under €100; Memory height presets; Solid for the pric
 Cons: Single motor; 60 cm depth is snug
 Verdict: The price breakthrough: a real electric standing desk for €91.
 
-### 2. FlexiSpot E1 Plus Electric Standing Desk  [Best Frame Quality]
+### 2. FlexiSpot E1 Plus Electric Standing Desk (One-Piece Top, 120×60 cm)  [Best Frame Quality]
 Brand: FlexiSpot
-Price: ~€200
+Price: ~€161
 Rating: 4.5/5 (Amazon.ie)
 Drive: Electric
 Frame: One-piece
@@ -4427,19 +4296,7 @@ Pros: FlexiSpot frame engineering; Stable at height; Trusted warranty
 Cons: Dearer than ErGear; Top options vary
 Verdict: The brand-quality frame: pay ~€100 more for the engineering and warranty depth.
 
-### 3. HUANUO Electric Standing Desk 160×80 cm  [Best Large Surface]
-Brand: HUANUO
-Price: ~€173
-Rating: 4.6/5 (Amazon.ie)
-Size: 160×80 cm
-Height: 72–118 cm
-Memory: 4 presets
-Tested: 50,000 lift cycles
-Pros: Big 160×80 surface; Four memory presets; Wide 72–118 cm height range
-Cons: Needs the wall space; Pricier than the 120 cm desks here
-Verdict: The big-surface pick: dual-monitor real estate with four memory heights.
-
-### 4. ERGOMAKER Electric Standing Desk 90×60 cm  [Best Compact]
+### 3. ERGOMAKER Electric Standing Desk 90×60 cm  [Best Compact]
 Brand: ERGOMAKER
 Price: ~€144
 Rating: 4.5/5 (Amazon.ie)
@@ -4451,9 +4308,9 @@ Pros: Compact 90 cm width; Electric with two presets; Box-room friendly
 Cons: Small surface; Spliced two-piece tabletop
 Verdict: The box-room sit-stand: full electric function squeezed into 90 cm.
 
-### 5. Claiks Electric Standing Desk 120×60 cm  [Cheapest Electric]
+### 4. Claiks Electric Standing Desk 120×60 cm  [Cheapest Electric]
 Brand: Claiks
-Price: ~€78
+Price: ~€100
 Rating: 4.3/5 (Amazon.ie)
 Drive: Electric
 Size: 120×60 cm
@@ -4520,7 +4377,7 @@ Verdict: The box-room sit-stand: full electric function squeezed into 90 cm.
 
 ### 2. Claiks Electric Standing Desk 120×60 cm  [Cheapest electric — 120 cm wide]
 Brand: Claiks
-Price: ~€78
+Price: ~€100
 Rating: 4.3/5 (Amazon.ie)
 Drive: Electric
 Size: 120×60 cm
@@ -4696,7 +4553,7 @@ A: A monitor arm and a decent chair upgrade generally deliver more comfort impro
 ==============================================================================
 # CATEGORY: Robot Lawn Mowers
 URL: https://pickireland.best/robot-lawn-mowers/
-5 guides, 28 product entries
+5 guides, 22 product entries
 ==============================================================================
 
 Irish grass grows nine months a year and rains don't pause it — which makes the robot mower arguably more useful here than anywhere. The new wire-free generation (GPS/vision navigation) removed the old installation pain, and prices now start under €600. Constant micro-mowing also means clippings vanish as mulch and lawns visibly thicken. We compare wire and wire-free options for every garden size.
@@ -4720,7 +4577,7 @@ URL: https://pickireland.best/robot-lawn-mowers/best-robot-lawn-mowers-ireland.h
 Summary: Ireland's best robot lawn mowers compared: wire-free GPS models, slope handling, Irish weather readiness and value. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,618 across our six picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.
+Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,618 across our five picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.
 
 ### 1. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Best Overall Wire-Free]
 Brand: eufy
@@ -4768,19 +4625,7 @@ Pros: AWD climbs serious slopes; 1,000 m² capability; Handles rough rural lawns
 Cons: Premium price; Complex setup options
 Verdict: The LUBA mini 2 AWD is built for the gardens other robot mowers can't handle: all-wheel drive for climbing steep slopes, tri-camera plus RTK navigation for accuracy, and coverage up to 1,000 m² that makes it the largest-capacity mower in this comparison. That combination suits rough, rural, or sloped terrain that would defeat the vision-only navigation on the eufy or Bosch above. It's priced accordingly — at over €1,600 it's the most expensive item on this page — and the range of setup options and navigation modes means it takes more configuration than the simpler walk-around setup on the eufy E15. Best reserved for large or difficult gardens where AWD and top-tier navigation genuinely earn their cost.
 
-### 5. SUNTEK Wireless Robot Mower (AI Vision)  [Best Budget Vision]
-Brand: SUNTEK
-Price: ~€563
-Rating: 4.1/5 (Amazon.ie)
-Navigation: AI + vision
-Boundary: None
-Coverage: Mid-size lawns
-Price: Value
-Pros: Wire-free under €600; AI obstacle detection; Good mid-size coverage
-Cons: Lesser-known brand; Software still maturing
-Verdict: SUNTEK's Wireless Robot Mower gets vision-based, wire-free navigation with AI obstacle detection under €600, undercutting the similarly capable Mammotion YUKA above while still covering a mid-size lawn respectably. For anyone who wants to skip wire installation without paying eufy or Mammotion prices, it's the most accessible option on this list that still relies on genuine AI vision rather than a buried perimeter cable. The trade-offs are honest ones: SUNTEK carries less brand recognition than Bosch or eufy, and the lowest rating on this page (4.1★) reflects software that reviewers describe as still maturing rather than fully polished. A reasonable budget entry point into wire-free mowing for patient early adopters, not the pick for anyone wanting a finished, proven product.
-
-### 6. Yard Force Classic 500 (up to 500 m²)  [Worth Considering]
+### 5. Yard Force Classic 500 (up to 500 m²)  [Worth Considering]
 Brand: Yard Force
 Price: ~€496
 Rating: 3.9/5 (Amazon.ie)
@@ -4827,7 +4672,7 @@ URL: https://pickireland.best/robot-lawn-mowers/best-robot-mowers-small-gardens-
 Summary: Compact robot lawn mowers for typical Irish suburban and city gardens under 400 m² — quiet, affordable models compared. Compared for 2026.
 ------------------------------------------------------------------------------
 
-The typical Irish estate back garden — 80 to 250 m², a strip of side passage, maybe a trampoline — doesn't need a €1,500 land tractor. The small-garden class costs €500–800, runs quiet enough for evening cuts, and squeezes through gaps big robots refuse. Six compact options, including wire-free picks, ranked on small-space intelligence.
+The typical Irish estate back garden — 80 to 250 m², a strip of side passage, maybe a trampoline — doesn't need a €1,500 land tractor. The small-garden class costs €500–800, runs quiet enough for evening cuts, and squeezes through gaps big robots refuse. Four compact options, including wire-free picks, ranked on small-space intelligence.
 
 ### 1. Bosch VISIMOW 18V-100 Robot Mower  [Best Small Garden Overall]
 Brand: Bosch
@@ -4863,19 +4708,7 @@ Pros: 500 m² wire-free at €799; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: The mid-size wire-free value play — most coverage per euro in its class.
 
-### 4. SUNTEK Wireless Robot Mower (AI Vision)  [Best Value Vision]
-Brand: SUNTEK
-Price: ~€563
-Rating: 4.1/5 (Amazon.ie)
-Navigation: AI + vision
-Boundary: None
-Coverage: Mid-size lawns
-Price: Value
-Pros: Wire-free under €600; AI obstacle detection; Good mid-size coverage
-Cons: Lesser-known brand; Software still maturing
-Verdict: The budget wire-free bet: real vision navigation at nearly half big-brand money.
-
-### 5. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Room to grow — 1,000 m²]
+### 4. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Room to grow — 1,000 m²]
 Brand: eufy
 Price: ~€1499
 Rating: 4.7/5 (Amazon.ie)
@@ -4885,18 +4718,6 @@ Setup: App walk-around
 Pros: No wire, no RTK station — just works; Best-rated mower on Amazon.ie; Anker-grade app and support
 Cons: Premium price; Needs decent light
 Verdict: The wire-free mower done right: top ratings, simple setup, Anker reliability.
-
-### 6. Gardena Sileno Minimo 250 Robotic Mower  [Strong Alternative]
-Brand: Gardena
-Price: ~€449
-Rating: 4.2/5 (Amazon.ie)
-Working area: 250 m²
-Cutting width: 16 cm
-Max slope: 25%
-Cutting height: 20–45 mm
-Pros: €449 — second-cheapest of the 6 picks here; 250 m² working area; 16 cm cutting width
-Cons: 3 of the 6 picks here are better rated by owners; €90 more than our top pick, which owners rate higher at 4.4★
-Verdict: Gardena is one of the most established robot mower brands sold in Ireland, and the Sileno Minimo 250 is built for exactly the small garden this page covers. It costs €449 against our Bosch pick's €359 and is rated slightly lower by owners at 4.2 stars against 4.4. It's also a boundary-wire machine, so setup means laying and pegging perimeter wire rather than the wire-free convenience this page favours. Worth the premium if you want Gardena's dealer and parts network behind it.
 
 #### What actually counts as a small garden for a robot mower in Ireland?
 This covers the garden that's typical, not exceptional, for Ireland: an estate back garden roughly 80–250 m², often with a side passage, a shed, a small patio or decking area, and a boundary that isn't a clean rectangle. Irish planning guidance sets a bare minimum of 25 m² for rear private open space on new housing, and plenty of terraced and semi-detached properties sit not far above that floor. At this scale, the coverage figures on the box — often quoted up to 500 m² or more — are almost irrelevant. The real questions are whether the mower fits through your gate, turns inside a tight corner without repeated manoeuvring, and doesn't spend half its battery re-orienting around furniture in a garden a fraction of its rated capacity. Newer estates built to the current minimum tend to compress the garden further still once a shed, bin store and patio are accounted for.
@@ -4984,19 +4805,7 @@ Pros: Typical Irish estate garden size; Wire-free vision navigation; Bosch deale
 Cons: 200 m² ceiling; Single zone focus
 Verdict: The standard Irish back garden, solved: 200 m² of Bosch-managed grass.
 
-### 5. SUNTEK Wireless Robot Mower (AI Vision)  [Budget Large Support]
-Brand: SUNTEK
-Price: ~€563
-Rating: 4.1/5 (Amazon.ie)
-Navigation: AI + vision
-Boundary: None
-Coverage: Mid-size lawns
-Price: Value
-Pros: Wire-free under €600; AI obstacle detection; Good mid-size coverage
-Cons: Lesser-known brand; Software still maturing
-Verdict: The budget wire-free bet: real vision navigation at nearly half big-brand money.
-
-### 6. Flymo EasiLife GO 400 Robotic Lawnmower  [Smaller sites — 400 m²]
+### 5. Flymo EasiLife GO 400 Robotic Lawnmower  [Smaller sites — 400 m²]
 Brand: Flymo
 Price: ~€720
 Rating: 3.9/5 (Amazon.ie)
@@ -5094,18 +4903,6 @@ Pros: AWD climbs serious slopes; 1,000 m² capability; Handles rough rural lawns
 Cons: Premium price; Complex setup options
 Verdict: The rural terrain specialist: slopes and rough ground other robots refuse.
 
-### 5. SUNTEK Wireless Robot Mower (AI Vision)  [Best Budget Wire-Free]
-Brand: SUNTEK
-Price: ~€563
-Rating: 4.1/5 (Amazon.ie)
-Navigation: AI + vision
-Boundary: None
-Coverage: Mid-size lawns
-Price: Value
-Pros: Wire-free under €600; AI obstacle detection; Good mid-size coverage
-Cons: Lesser-known brand; Software still maturing
-Verdict: The budget wire-free bet: real vision navigation at nearly half big-brand money.
-
 #### How do wire-free robot mowers actually know where your lawn ends?
 Wire-free robot mowers navigate using one of three core technologies, often combined. RTK (Real-Time Kinematic) GPS uses a base station on your property to correct standard satellite positioning down to centimetre-level accuracy. Camera-based vision systems build a visual map during setup and recognise the boundary and obstacles the way a self-driving car reads a road, which helps in tree-shaded areas where satellite signal weakens. Some budget models use fixed beacons placed around the garden as reference points instead. Higher-end machines combine RTK with camera vision so each system compensates for the other's weak spots — satellite for open ground, cameras for shaded or signal-poor corners. Beacon-based systems are becoming less common as RTK hardware costs fall, but they remain a reasonable budget option for a simple, open garden where centimetre-level precision isn't essential.
 
@@ -5168,19 +4965,7 @@ Pros: Typical Irish estate garden size; Wire-free vision navigation; Bosch deale
 Cons: 200 m² ceiling; Single zone focus
 Verdict: The standard Irish back garden, solved: 200 m² of Bosch-managed grass.
 
-### 3. SUNTEK Wireless Robot Mower (AI Vision)  [Best Vision Under €600]
-Brand: SUNTEK
-Price: ~€563
-Rating: 4.1/5 (Amazon.ie)
-Navigation: AI + vision
-Boundary: None
-Coverage: Mid-size lawns
-Price: Value
-Pros: Wire-free under €600; AI obstacle detection; Good mid-size coverage
-Cons: Lesser-known brand; Software still maturing
-Verdict: The budget wire-free bet: real vision navigation at nearly half big-brand money.
-
-### 4. Mammotion YUKA mini 2 500 (No Boundary)  [Above budget — €799]
+### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Above budget — €799]
 Brand: Mammotion
 Price: ~€799
 Rating: 4.2/5 (Amazon.ie)
@@ -5192,7 +4977,7 @@ Pros: 500 m² wire-free at €799; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: At €799 this sits just above the €700 line this page draws, and it's here to show what the next €100 buys: 500 m² of coverage against the 100–200 m² the Bosch pair manage, with vision-plus-RTK navigation and no boundary wire. Owners rate it 4.2 stars, below both Bosch models. If your garden is genuinely under 200 m², the budget picks above do the job and you keep the €280.
 
-### 5. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Above budget — premium reference]
+### 4. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Above budget — premium reference]
 Brand: eufy
 Price: ~€1499
 Rating: 4.7/5 (Amazon.ie)

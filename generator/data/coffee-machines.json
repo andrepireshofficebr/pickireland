@@ -278,7 +278,7 @@
       "title": "Best Bean-to-Cup Coffee Machines Ireland 2026 — Automatics",
       "desc": "Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Compared for 2026.",
       "h1": "Best Bean-to-Cup Coffee Machines in Ireland",
-      "intro": "Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €283 to €590+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.",
+      "intro": "Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €399 to €535+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.",
       "faq_idx": [
         0,
         7,
@@ -338,32 +338,6 @@
           "verdict": "Europe's bestselling automatic for a reason — the default answer for daily coffee."
         },
         {
-          "id": "cfm-009",
-          "asin": "B0CTCQXZ3G",
-          "name": "Philips 5500 Series LatteGo Bean-to-Cup (EP5546/70)",
-          "brand": "Philips",
-          "price": 590,
-          "rating": 4.4,
-          "badge": "Best Milk Drinks",
-          "specs": {
-            "Type": "Bean-to-cup",
-            "Milk": "LatteGo, 2 parts, no tubes",
-            "Drinks": "20 hot & iced",
-            "Water tank": "1.8 L",
-            "Noise": "40% quieter than earlier models"
-          },
-          "pros": [
-            "20 hot and iced recipes, milk drinks included",
-            "LatteGo milk system rinses clean in under 10 seconds",
-            "QuickStart: brew straight after switching on"
-          ],
-          "cons": [
-            "Price step up for the milk automation",
-            "Owner rating 4.4★, below the Magnifica S's 4.6★"
-          ],
-          "verdict": "The one to buy if most of your cups have milk in them: twenty hot and iced recipes at a touch, and a tube-free LatteGo jug that's rinsed in seconds."
-        },
-        {
           "id": "cfm-010",
           "asin": "B09NH4RQ9S",
           "name": "Philips 5400 Series LatteGo Bean-to-Cup (EP5446/70)",
@@ -388,31 +362,6 @@
             "Owner rating 4.4★, below the Magnifica S's 4.6★"
           ],
           "verdict": "The automatic flagship: twelve drinks at a touch, and a milk system that rinses clean in seconds."
-        },
-        {
-          "id": "cfm-028",
-          "asin": "B0FX38CN23",
-          "name": "Chefman Crema Supreme 15-Bar Espresso",
-          "brand": "Chefman",
-          "price": 283,
-          "rating": 4.0,
-          "badge": "Challenger Pick",
-          "specs": {
-            "Pressure": "15 bar",
-            "Grinder": "Conical burr, 30 settings",
-            "Water tank": "3 L",
-            "Milk": "Steam wand"
-          },
-          "pros": [
-            "Cheapest pick on this page at €283",
-            "15 bar pressure",
-            "Conical burr, 30 settings grinder"
-          ],
-          "cons": [
-            "Lowest owner rating of the picks here at 4.0★",
-            "4.0★ owner rating is only average for this price bracket"
-          ],
-          "verdict": "Chefman's Crema Supreme is a 15-bar espresso machine at €283, undercutting our €399 Krups bean-to-cup pick. The important difference is category: this is a pump espresso machine, so you're grinding and tamping yourself rather than pressing a button. Its 4.0-star owner rating is also the weakest on this page. Reasonable if you actually want the manual workflow, but it isn't the automatic this page ranks for."
         },
         {
           "id": "cfm-030",

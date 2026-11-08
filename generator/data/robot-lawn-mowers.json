@@ -61,7 +61,7 @@
    "title": "Best Robot Lawn Mowers in Ireland 2026 — Wire & Wire-Free",
    "desc": "Ireland's best robot lawn mowers compared: wire-free GPS models, slope handling, Irish weather readiness and value. Compared for 2026.",
    "h1": "The Best Robot Lawn Mowers in Ireland (2026)",
-   "intro": "Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,618 across our six picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.",
+   "intro": "Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,618 across our five picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.",
    "faq_idx": [
     1,
     0,
@@ -211,31 +211,6 @@
      "verdict": "The LUBA mini 2 AWD is built for the gardens other robot mowers can't handle: all-wheel drive for climbing steep slopes, tri-camera plus RTK navigation for accuracy, and coverage up to 1,000 m² that makes it the largest-capacity mower in this comparison. That combination suits rough, rural, or sloped terrain that would defeat the vision-only navigation on the eufy or Bosch above. It's priced accordingly — at over €1,600 it's the most expensive item on this page — and the range of setup options and navigation modes means it takes more configuration than the simpler walk-around setup on the eufy E15. Best reserved for large or difficult gardens where AWD and top-tier navigation genuinely earn their cost."
     },
     {
-     "id": "rlm-005",
-     "asin": "B0F4CDDFRP",
-     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
-     "brand": "SUNTEK",
-     "price": 563,
-     "rating": 4.1,
-     "badge": "Best Budget Vision",
-     "specs": {
-      "Navigation": "AI + vision",
-      "Boundary": "None",
-      "Coverage": "Mid-size lawns",
-      "Price": "Value"
-     },
-     "pros": [
-      "Wire-free under €600",
-      "AI obstacle detection",
-      "Good mid-size coverage"
-     ],
-     "cons": [
-      "Lesser-known brand",
-      "Software still maturing"
-     ],
-     "verdict": "SUNTEK's Wireless Robot Mower gets vision-based, wire-free navigation with AI obstacle detection under €600, undercutting the similarly capable Mammotion YUKA above while still covering a mid-size lawn respectably. For anyone who wants to skip wire installation without paying eufy or Mammotion prices, it's the most accessible option on this list that still relies on genuine AI vision rather than a buried perimeter cable. The trade-offs are honest ones: SUNTEK carries less brand recognition than Bosch or eufy, and the lowest rating on this page (4.1★) reflects software that reviewers describe as still maturing rather than fully polished. A reasonable budget entry point into wire-free mowing for patient early adopters, not the pick for anyone wanting a finished, proven product."
-    },
-    {
      "id": "rlm-027",
      "asin": "B08H1Y3KXZ",
      "name": "Yard Force Classic 500 (up to 500 m²)",
@@ -263,7 +238,7 @@
    "title": "Best Robot Mowers for Small Irish Gardens 2026",
    "desc": "Compact robot lawn mowers for typical Irish suburban and city gardens under 400 m² — quiet, affordable models compared. Compared for 2026.",
    "h1": "Best Robot Mowers for Small Gardens in Ireland",
-   "intro": "The typical Irish estate back garden — 80 to 250 m², a strip of side passage, maybe a trampoline — doesn't need a €1,500 land tractor. The small-garden class costs €500–800, runs quiet enough for evening cuts, and squeezes through gaps big robots refuse. Six compact options, including wire-free picks, ranked on small-space intelligence.",
+   "intro": "The typical Irish estate back garden — 80 to 250 m², a strip of side passage, maybe a trampoline — doesn't need a €1,500 land tractor. The small-garden class costs €500–800, runs quiet enough for evening cuts, and squeezes through gaps big robots refuse. Four compact options, including wire-free picks, ranked on small-space intelligence.",
    "faq_idx": [
     2,
     5,
@@ -388,31 +363,6 @@
      "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
     },
     {
-     "id": "rlm-009",
-     "asin": "B0F4CDDFRP",
-     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
-     "brand": "SUNTEK",
-     "price": 563,
-     "rating": 4.1,
-     "badge": "Best Value Vision",
-     "specs": {
-      "Navigation": "AI + vision",
-      "Boundary": "None",
-      "Coverage": "Mid-size lawns",
-      "Price": "Value"
-     },
-     "pros": [
-      "Wire-free under €600",
-      "AI obstacle detection",
-      "Good mid-size coverage"
-     ],
-     "cons": [
-      "Lesser-known brand",
-      "Software still maturing"
-     ],
-     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
-    },
-    {
      "id": "rlm-010",
      "asin": "B0DRW11XCJ",
      "name": "eufy E15 Robot Lawnmower (No Wire, No RTK)",
@@ -435,31 +385,6 @@
       "Needs decent light"
      ],
      "verdict": "The wire-free mower done right: top ratings, simple setup, Anker reliability."
-    },
-    {
-     "id": "rlm-026",
-     "asin": "B08M3PWZB8",
-     "name": "Gardena Sileno Minimo 250 Robotic Mower",
-     "brand": "Gardena",
-     "price": 449,
-     "rating": 4.2,
-     "badge": "Strong Alternative",
-     "specs": {
-      "Working area": "250 m²",
-      "Cutting width": "16 cm",
-      "Max slope": "25%",
-      "Cutting height": "20–45 mm"
-     },
-     "pros": [
-      "€449 — second-cheapest of the 6 picks here",
-      "250 m² working area",
-      "16 cm cutting width"
-     ],
-     "cons": [
-      "3 of the 6 picks here are better rated by owners",
-      "€90 more than our top pick, which owners rate higher at 4.4★"
-     ],
-     "verdict": "Gardena is one of the most established robot mower brands sold in Ireland, and the Sileno Minimo 250 is built for exactly the small garden this page covers. It costs €449 against our Bosch pick's €359 and is rated slightly lower by owners at 4.2 stars against 4.4. It's also a boundary-wire machine, so setup means laying and pegging perimeter wire rather than the wire-free convenience this page favours. Worth the premium if you want Gardena's dealer and parts network behind it."
     }
    ]
   },
@@ -616,31 +541,6 @@
       "Single zone focus"
      ],
      "verdict": "The standard Irish back garden, solved: 200 m² of Bosch-managed grass."
-    },
-    {
-     "id": "rlm-015",
-     "asin": "B0F4CDDFRP",
-     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
-     "brand": "SUNTEK",
-     "price": 563,
-     "rating": 4.1,
-     "badge": "Budget Large Support",
-     "specs": {
-      "Navigation": "AI + vision",
-      "Boundary": "None",
-      "Coverage": "Mid-size lawns",
-      "Price": "Value"
-     },
-     "pros": [
-      "Wire-free under €600",
-      "AI obstacle detection",
-      "Good mid-size coverage"
-     ],
-     "cons": [
-      "Lesser-known brand",
-      "Software still maturing"
-     ],
-     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
     },
     {
      "id": "rlm-028",
@@ -822,31 +722,6 @@
       "Complex setup options"
      ],
      "verdict": "The rural terrain specialist: slopes and rough ground other robots refuse."
-    },
-    {
-     "id": "rlm-020",
-     "asin": "B0F4CDDFRP",
-     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
-     "brand": "SUNTEK",
-     "price": 563,
-     "rating": 4.1,
-     "badge": "Best Budget Wire-Free",
-     "specs": {
-      "Navigation": "AI + vision",
-      "Boundary": "None",
-      "Coverage": "Mid-size lawns",
-      "Price": "Value"
-     },
-     "pros": [
-      "Wire-free under €600",
-      "AI obstacle detection",
-      "Good mid-size coverage"
-     ],
-     "cons": [
-      "Lesser-known brand",
-      "Software still maturing"
-     ],
-     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
     }
    ]
   },
@@ -953,31 +828,6 @@
       "Single zone focus"
      ],
      "verdict": "The standard Irish back garden, solved: 200 m² of Bosch-managed grass."
-    },
-    {
-     "id": "rlm-023",
-     "asin": "B0F4CDDFRP",
-     "name": "SUNTEK Wireless Robot Mower (AI Vision)",
-     "brand": "SUNTEK",
-     "price": 563,
-     "rating": 4.1,
-     "badge": "Best Vision Under €600",
-     "specs": {
-      "Navigation": "AI + vision",
-      "Boundary": "None",
-      "Coverage": "Mid-size lawns",
-      "Price": "Value"
-     },
-     "pros": [
-      "Wire-free under €600",
-      "AI obstacle detection",
-      "Good mid-size coverage"
-     ],
-     "cons": [
-      "Lesser-known brand",
-      "Software still maturing"
-     ],
-     "verdict": "The budget wire-free bet: real vision navigation at nearly half big-brand money."
     },
     {
      "id": "rlm-024",

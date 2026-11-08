@@ -45,13 +45,13 @@
   "published": "2026-06-01"
  },
  "air-purifiers/air-purifier-running-costs-ireland": {
-  "hash": "9d28e4ccc53c3dd6",
-  "modified": "2026-11-07",
+  "hash": "5e7beb01a4db00d9",
+  "modified": "2026-11-08",
   "published": "2026-09-01"
  },
  "air-purifiers/best-air-purifiers-allergies-hay-fever-ireland": {
-  "hash": "c46859c79fff2bb5",
-  "modified": "2026-11-07",
+  "hash": "854708eef8656431",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "air-purifiers/best-air-purifiers-ireland": {
@@ -70,8 +70,8 @@
   "published": "2026-07-31"
  },
  "air-purifiers/best-quiet-air-purifiers-bedroom-ireland": {
-  "hash": "0a15b2eb68276ab6",
-  "modified": "2026-11-07",
+  "hash": "78e2d00c6d0b55e7",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "air-purifiers/index": {
@@ -85,8 +85,8 @@
   "published": "2026-10-17"
  },
  "coffee-machines/best-bean-to-cup-coffee-machines-ireland": {
-  "hash": "efd140c64e678a36",
-  "modified": "2026-11-07",
+  "hash": "ab345a0add81863e",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "coffee-machines/best-budget-coffee-machines-under-150-ireland": {
@@ -170,23 +170,23 @@
   "published": "2026-07-31"
  },
  "electric-bikes/best-electric-bikes-under-1000-ireland": {
-  "hash": "aa7efe714aaaa114",
-  "modified": "2026-11-07",
+  "hash": "65950ca22282828e",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "electric-bikes/best-electric-mountain-bikes-ireland": {
-  "hash": "150412d24f10c106",
-  "modified": "2026-09-06",
+  "hash": "11ec8b7d2f2b2b80",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "electric-bikes/best-folding-electric-bikes-ireland": {
-  "hash": "50378425e44787ff",
-  "modified": "2026-09-06",
+  "hash": "500db2bd43b22eb1",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "electric-bikes/index": {
-  "hash": "f3761721f6041b09",
-  "modified": "2026-11-07",
+  "hash": "208e9a423be02717",
+  "modified": "2026-11-08",
   "published": "2026-08-15"
  },
  "electric-blankets/best-electric-blankets-ireland": {
@@ -300,18 +300,18 @@
   "published": "2026-09-28"
  },
  "home-office/best-budget-office-chairs-under-200-ireland": {
-  "hash": "3cb4a441541cb757",
-  "modified": "2026-07-31",
+  "hash": "fb071899f68de6af",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "home-office/best-desks-small-spaces-ireland": {
-  "hash": "b96cc26a96d048f0",
-  "modified": "2026-11-07",
+  "hash": "269f94210815cb46",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "home-office/best-ergonomic-office-chairs-ireland": {
-  "hash": "fa5ae703f3c07220",
-  "modified": "2026-10-12",
+  "hash": "d495d857d6492de2",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "home-office/best-standing-desk-converters-accessories-ireland": {
@@ -320,8 +320,8 @@
   "published": "2026-07-31"
  },
  "home-office/best-standing-desks-ireland": {
-  "hash": "44efee6ada084033",
-  "modified": "2026-11-07",
+  "hash": "70916b351b267b83",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "home-office/index": {
@@ -330,8 +330,8 @@
   "published": "2026-08-15"
  },
  "index": {
-  "hash": "d9d6750c92ce99cc",
-  "modified": "2026-11-07",
+  "hash": "051cc884ee726a1e",
+  "modified": "2026-11-08",
   "published": "2026-07-28"
  },
  "privacy": {
@@ -340,28 +340,28 @@
   "published": "2026-08-15"
  },
  "robot-lawn-mowers/best-budget-robot-mowers-ireland": {
-  "hash": "00897f9de7b9186d",
-  "modified": "2026-07-31",
+  "hash": "4a1b64b820b28f71",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-robot-lawn-mowers-ireland": {
-  "hash": "b28abc0a6bb87654",
-  "modified": "2026-07-31",
+  "hash": "17f0e5e0a67e49be",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-robot-mowers-large-lawns-ireland": {
-  "hash": "0aa3baf9b9440f05",
-  "modified": "2026-07-31",
+  "hash": "05a3f29273cbc621",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-robot-mowers-small-gardens-ireland": {
-  "hash": "fa8805eff6d98a5e",
-  "modified": "2026-07-31",
+  "hash": "28f83c2b77094244",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-wire-free-robot-mowers-ireland": {
-  "hash": "911d6a0797c9c5ba",
-  "modified": "2026-07-31",
+  "hash": "fc1e92c22e021233",
+  "modified": "2026-11-08",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/index": {
