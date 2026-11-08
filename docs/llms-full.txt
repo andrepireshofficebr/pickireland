@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-11-08 | 12 categories | 52 guides | 239 product entries
+Generated: 2026-11-08 | 12 categories | 52 guides | 229 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -26,7 +26,7 @@ Cost of one full charge = battery capacity in Wh ÷ 1,000 × €0.38 per kWh, at
 ==============================================================================
 # CATEGORY: Air Fryers
 URL: https://pickireland.best/air-fryers/
-5 guides, 30 product entries
+5 guides, 28 product entries
 ==============================================================================
 
 The air fryer conquered the Irish kitchen for one simple reason: with electricity prices among Europe's highest, heating a whole oven to cook for two people stopped making sense. A typical air fryer uses 50–70% less energy than a conventional oven for everyday meals — and does chips better. We compare every size and budget, from compact singles to dual-drawer family machines.
@@ -52,7 +52,7 @@ URL: https://pickireland.best/air-fryers/best-air-fryers-ireland.html
 Summary: Ireland's best air fryers compared on cooking quality, energy savings at Irish electricity rates, capacity and value. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Seven machines stood out, across budgets from €60 to €149.
+Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Seven machines stood out, across budgets from €68 to €149.
 
 ### 1. Ninja Dual Zone 7.6L (DZ300UK)  [Best Overall for Families]
 Brand: Ninja
@@ -83,7 +83,7 @@ Verdict: At €95 this is the cheapest way into Ninja's crisping performance, an
 
 ### 3. Philips 2000 Series Air Fryer 4.2L  [Most Even Cooking]
 Brand: Philips
-Price: ~€89
+Price: ~€108
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Capacity: 4.2 L
@@ -97,7 +97,7 @@ Verdict: Philips essentially created this category, and the RapidAir system here
 
 ### 4. Tower Vortx T17147 4.2L Digital  [Best Mid-Range Value]
 Brand: Tower
-Price: ~€60
+Price: ~€68
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.53/hour at €0.38/kWh
 Capacity: 4.2 L
@@ -107,7 +107,7 @@ Warranty: 3 yr (registered)
 Power: 1400 W
 Pros: 8 calibrated presets; 3-year registered warranty; Strong mid-size value
 Cons: Needs a mid-cook shake; Basket quality is fair, not premium
-Verdict: Eight calibrated presets and a 60-minute timer give this Tower proper digital control at a price closer to a basic analogue fryer, and the three-year warranty (once registered) is longer cover than most competitors offer at €60. At 4.2 litres it handles a normal family portion without the bulk of the bigger dual-zone units. The basket itself is fair rather than premium — it won't feel as solid as the Ninja or Philips baskets — and unlike the Philips above, it does need a manual shake partway through cooking to crisp evenly. Good value-focused buyers who don't mind a bit of hands-on attention will get the most out of it; anyone wanting true set-and-forget should pay more.
+Verdict: Eight calibrated presets and a 60-minute timer give this Tower proper digital control at a price closer to a basic analogue fryer, and the three-year warranty (once registered) is longer cover than most competitors offer at €68. At 4.2 litres it handles a normal family portion without the bulk of the bigger dual-zone units. The basket itself is fair rather than premium — it won't feel as solid as the Ninja or Philips baskets — and unlike the Philips above, it does need a manual shake partway through cooking to crisp evenly. Good value-focused buyers who don't mind a bit of hands-on attention will get the most out of it; anyone wanting true set-and-forget should pay more.
 
 ### 5. Daewoo 9L Dual Air Fryer (2× 4.5L Drawers)  [Notable Mention]
 Brand: Daewoo
@@ -186,7 +186,7 @@ URL: https://pickireland.best/air-fryers/best-budget-air-fryers-under-100-irelan
 Summary: Five air fryers under €100 that actually cook well — compared on results, capacity and warranty for Irish budgets in 2026.
 ------------------------------------------------------------------------------
 
-Under €100 is where most first air fryers are bought — and where the gap between 'cheap and good' and 'cheap and disposable' is widest. The five below all crisp properly and carry real warranties; the differences are capacity, controls and how much shaking the basket demands. One of them embarrasses machines twice its price.
+Under €100 is where most first air fryers are bought — and where the gap between 'cheap and good' and 'cheap and disposable' is widest. The four below all crisp properly and carry real warranties; the differences are capacity, controls and how much shaking the basket demands. One of them embarrasses machines twice its price.
 
 ### 1. Ninja Air Fryer PRO 4.7L (4-in-1)  [Best Under €100 Overall]
 Brand: Ninja
@@ -201,23 +201,9 @@ Pros: Ninja crisping quality under €100; 4.7L suits couples and small families
 Cons: Single drawer; No window
 Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price.
 
-### 2. Philips 2000 Series Air Fryer 4.2L  [Best Brand Quality]
-Brand: Philips
-Price: ~€89
-Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.57/hour at €0.38/kWh
-Capacity: 4.2 L
-Tech: RapidAir
-Functions: 7 presets
-Dishwasher safe: Yes
-Power: 1500 W
-Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
-Cons: 200°C ceiling; Plain looks
-Verdict: From the inventors of the category: the most forgiving set-and-forget air fryer here.
-
-### 3. Tower Vortx T17147 4.2L Digital  [Best Features Per Euro]
+### 2. Tower Vortx T17147 4.2L Digital  [Best Features Per Euro]
 Brand: Tower
-Price: ~€60
+Price: ~€68
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.53/hour at €0.38/kWh
 Capacity: 4.2 L
@@ -229,7 +215,7 @@ Pros: 8 calibrated presets; 3-year registered warranty; Strong mid-size value
 Cons: Needs a mid-cook shake; Basket quality is fair, not premium
 Verdict: The sweet-spot Tower: digital controls and real capacity at a price Ninja can't touch.
 
-### 4. Daewoo 2L Compact Manual Air Fryer  [Best Mini Budget]
+### 3. Daewoo 2L Compact Manual Air Fryer  [Best Mini Budget]
 Brand: Daewoo
 Price: ~€43
 Rating: 4.5/5 (Amazon.ie)
@@ -243,14 +229,14 @@ Pros: Simple dial controls; Space-saving design; Trusted budget brand
 Cons: Small batches only; No presets
 Verdict: The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend.
 
-### 5. Tower T17176 Vortx Vizion 8L (Digital)  [Challenger Pick]
+### 4. Tower T17176 Vortx Vizion 8L (Digital)  [Challenger Pick]
 Brand: Tower
-Price: ~€71
+Price: ~€80
 Rating: 4.5/5 (Amazon.ie)
 Capacity: 8 L
-Pros: €24 less than our top pick; 8 L capacity; Second-best owner rating on this page at 4.5★
-Cons: 1 of the 5 picks here is better rated by owners; Our top pick still rates higher with owners at 4.8★
-Verdict: Tower's Vortx Vizion gives you an 8-litre basket for €71, nearly twice the capacity of our €95 Ninja pick at a lower price, with a viewing window and a solid 4.5-star owner score. The Ninja keeps the top spot on cooking consistency and Tower's rating sits just below it, but if raw basket size per euro is what you're after under €100, this is the better-value box.
+Pros: €15 less than our top pick; 8 L capacity; Second-best owner rating on this page at 4.5★
+Cons: 1 of the 4 picks here is better rated by owners; Our top pick still rates higher with owners at 4.8★
+Verdict: Tower's Vortx Vizion gives you an 8-litre basket for €80, nearly twice the capacity of our €95 Ninja pick at a lower price, with a viewing window and a solid 4.5-star owner score. The Ninja keeps the top spot on cooking consistency and Tower's rating sits just below it, but if raw basket size per euro is what you're after under €100, this is the better-value box.
 
 #### What do you actually lose buying an air fryer under €100?
 Under €100, wattage typically drops from the 1700–1800W common on mid-range machines to 1000–1400W, which stretches cook times by roughly a third rather than ruining results, and controls move from a digital touchscreen with presets to a mechanical dial with no shake reminder. The non-stick coating is rarely cut, since decent coating is the cheapest component and common even at €30. Manufacturers hit a sub-€100 price by trimming specific things, not everything at once. Baskets shrink in depth before they shrink in width, since a shallow basket is cheaper to manufacture and still photographs well. What genuinely separates a good sub-€100 machine from a bad one is fan placement and basket shape, not the number printed on the box.
@@ -323,7 +309,7 @@ Verdict: The dual-zone bargain: two 4.5-litre drawers with a sync finish for wel
 
 ### 3. Cooks Professional 8L Dual Digital Air Fryer  [Best Stainless Dual]
 Brand: Cooks Professional
-Price: ~€90
+Price: ~€111
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.65/hour at €0.38/kWh
 Capacity: 8 L (twin basket)
@@ -350,7 +336,7 @@ Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-
 
 ### 5. Philips 2000 Series Air Fryer 4.2L  [Premium Single Alternative]
 Brand: Philips
-Price: ~€89
+Price: ~€108
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Capacity: 4.2 L
@@ -434,7 +420,7 @@ Verdict: The family dinner machine — two drawers, one finish time, weeknights 
 
 ### 2. Cooks Professional 8L Dual Digital Air Fryer  [Best Big Stainless]
 Brand: Cooks Professional
-Price: ~€90
+Price: ~€111
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.65/hour at €0.38/kWh
 Capacity: 8 L (twin basket)
@@ -473,7 +459,7 @@ Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-
 
 ### 5. Tower Vortx T17147 4.2L Digital  [Smaller family — 4.2 L]
 Brand: Tower
-Price: ~€60
+Price: ~€68
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.53/hour at €0.38/kWh
 Capacity: 4.2 L
@@ -487,14 +473,14 @@ Verdict: The sweet-spot Tower: digital controls and real capacity at a price Nin
 
 ### 6. Cecotec Cecofry Supreme 8000 (8L, 1800W)  [Solid Backup Choice]
 Brand: Cecotec
-Price: ~€85
+Price: ~€111
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.68/hour at €0.38/kWh
 Capacity: 8 L
 Power: 1800 W
-Pros: €64 less than our top pick; 8 L capacity; 1800 W power
+Pros: €38 less than our top pick; 8 L capacity; 1800 W power
 Cons: 4 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
-Verdict: Cecotec's 8-litre, 1800W Supreme 8000 matches the capacity bracket our family pick occupies and undercuts it at €85 against €149, with a respectable 4.4-star owner score. What it doesn't have is the dual-zone cooking that makes the Ninja genuinely useful for a full family meal, so it's one large basket rather than two independent ones. The right call if you want maximum single-basket volume for the money and don't need to cook two things at different temperatures.
+Verdict: Cecotec's 8-litre, 1800W Supreme 8000 matches the capacity bracket our family pick occupies and undercuts it at €111 against €149, with a respectable 4.4-star owner score. What it doesn't have is the dual-zone cooking that makes the Ninja genuinely useful for a full family meal, so it's one large basket rather than two independent ones. The right call if you want maximum single-basket volume for the money and don't need to cook two things at different temperatures.
 
 ### 7. Russell Hobbs XXL 8L Air Fryer (10 Programmes)  [Strong Alternative]
 Brand: Russell Hobbs
@@ -550,7 +536,7 @@ URL: https://pickireland.best/air-fryers/best-compact-air-fryers-small-kitchens-
 Summary: Small air fryers for apartments, small kitchens and singles in Ireland — compact footprints, real capacity, low energy. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Apartment kitchens — and Ireland builds a lot of them now — force a question the air fryer industry ignores: what fits? A machine can be brilliant and still useless if it can't live on your counter. These five deliver real air-fried results from footprints smaller than a sheet of A4 (well, nearly), ranked on cooking quality per square centimetre.
+Apartment kitchens — and Ireland builds a lot of them now — force a question the air fryer industry ignores: what fits? A machine can be brilliant and still useless if it can't live on your counter. These four deliver real air-fried results from footprints smaller than a sheet of A4 (well, nearly), ranked on cooking quality per square centimetre.
 
 ### 1. Daewoo 2L Compact Manual Air Fryer  [Best Manual Mini]
 Brand: Daewoo
@@ -581,7 +567,7 @@ Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-
 
 ### 3. Philips 2000 Series Air Fryer 4.2L  [Best Premium Compact]
 Brand: Philips
-Price: ~€89
+Price: ~€108
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Capacity: 4.2 L
@@ -593,29 +579,18 @@ Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operati
 Cons: 200°C ceiling; Plain looks
 Verdict: From the inventors of the category: the most forgiving set-and-forget air fryer here.
 
-### 4. Berdsen XXL 8L Air Fryer (Touchscreen, 1700W)  [Worth Considering]
-Brand: Berdsen
-Price: ~€59
-Rating: 4.4/5 (Amazon.ie)
-Running cost: €0.65/hour at €0.38/kWh
-Capacity: 8 L
-Power: 1700 W
-Pros: €59 — 2nd-cheapest of the 5 picks here; 8 L capacity; 1700 W power
-Cons: 4 of the 5 picks here are better rated by owners; €16 more than our top pick
-Verdict: Berdsen's 8-litre touchscreen model is well rated at 4.4 stars and reasonable at €59, but it lands on a compact-kitchen page as the opposite of compact: an 8-litre body needs far more counter run than the 2-litre Daewoo that tops this list at €43. Worth a look only if you've measured your counter and found you had more space than you thought.
-
-### 5. Salter EK4548 Dual Drawer Air Fryer  [Value Contender]
+### 4. Salter EK4548 Dual Drawer Air Fryer  [Value Contender]
 Brand: Salter
-Price: ~€92
+Price: ~€104
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.99/hour at €0.38/kWh
 Capacity: 8.2 L (2 drawers)
 Power: 2200–2600 W
 Presets: 12
 Sync: Sync & Match cook
-Pros: €92 — 4th-cheapest of the 5 picks here; 8.2 L (2 drawers) capacity; 2200–2600 W power
-Cons: 1 of the 5 picks here is better rated by owners; €49 more than our top pick
-Verdict: Salter's dual-drawer model is the most expensive option here at €92 and rates a solid 4.5 stars. Two drawers inevitably mean a wider footprint than the single-basket compacts this page is built around, so it's the choice for someone who wants dual-zone cooking and is willing to give up counter space to get it — the opposite trade-off from our €20 Midea pick.
+Pros: €104 — 3rd-cheapest of the 4 picks here; 8.2 L (2 drawers) capacity; 2200–2600 W power
+Cons: 1 of the 4 picks here is better rated by owners; €61 more than our top pick
+Verdict: Salter's dual-drawer model is one of the dearer options here at €104 and rates a solid 4.5 stars. Two drawers inevitably mean a wider footprint than the single-basket compacts this page is built around, so it's the choice for someone who wants dual-zone cooking and is willing to give up counter space to get it — the opposite trade-off from our €20 Midea pick.
 
 #### How much counter space does a compact air fryer actually need?
 Litre capacity says nothing about counter footprint. A 4-litre compact machine typically measures around 30x30cm at the base, while an 8-litre family machine can run 35x40cm or more, and most air fryers need a further 10–15cm of clearance behind for hot air venting out the back or top. Footprint is the number that actually matters in a Dublin or Cork apartment kitchen, where the usable counter run between sink and hob is often 60–90cm and already shared with a kettle, toaster and microwave — the difference between those two sizes decides whether the machine lives permanently on the counter or gets lifted in and out of a press daily. Pushed flush against a wall or under a cabinet, that exhaust has nowhere to go, which measurably slows cooking and shortens the appliance's working life.
@@ -685,8 +660,8 @@ Between damp-loving mould spores, lengthening pollen seasons and winter smoke, I
 
 ### 1. Philips 600 Series Air Purifier  [Best Overall]
 Brand: Philips
-Price: ~€80
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€71
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
@@ -714,8 +689,8 @@ Verdict: Levoit's upgraded Core 300S is the pick for a living room or an open-pl
 
 ### 3. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Best for Bedrooms]
 Brand: Levoit
-Price: ~€61
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€68
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
@@ -728,7 +703,7 @@ Verdict: Built specifically around sleep rather than maximum coverage, this Levo
 
 ### 4. AZEUS True HEPA Air Purifier (GL-FS32)  [Best 4-Stage Filtration]
 Brand: AZEUS
-Price: ~€90
+Price: ~€128
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.02/hour at €0.38/kWh
 Filtration: 4-stage
@@ -758,8 +733,8 @@ Verdict: €29 is a genuinely low entry price for a unit that still uses a real 
 Brand: MIKO
 Price: ~€95
 Rating: 4.4/5 (Amazon.ie)
-Pros: €95 — 5th-cheapest of the 6 picks here
-Cons: 3 of the 6 picks here are better rated by owners; €15 more than our top pick, which owners rate higher at 4.6★
+Pros: €95 — 4th-cheapest of the 6 picks here
+Cons: 1 of the 6 picks here is better rated by owners; €24 more than our top pick
 Verdict: MIKO's HEPA purifier holds a 4.4-star owner rating on Amazon.ie at a €95 price point that sits squarely between the AZEUS and the Levoit large-room model, making it a reasonable middle-ground option if neither of those quite fits your budget. Buying through Amazon.ie means the usual full returns protection if the fit isn't right for your room. It's a newer addition to our comparison set than the Philips or Levoit models, so there's less accumulated owner history to draw on, and post-purchase support has been reported to vary depending on the specific seller fulfilling the order. Worth a look for buyers comparison-shopping on price who are comfortable with a less-established brand; those wanting maximum certainty should default to Philips or Levoit.
 
 #### What are Irish air purifiers actually filtering out?
@@ -807,8 +782,8 @@ Irish grass pollen season now stretches from May into August, with tree pollen f
 
 ### 1. Philips 600 Series Air Purifier  [Best Allergy Pick]
 Brand: Philips
-Price: ~€80
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€71
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
@@ -836,8 +811,8 @@ Verdict: The whole-room allergy pick: 258 m³/h of HEPA filtration, a laser PM2.
 
 ### 3. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Best Bedroom Allergy]
 Brand: Levoit
-Price: ~€61
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€68
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
@@ -850,13 +825,13 @@ Verdict: The bedroom specialist: clean air all night without a sound you'll noti
 
 ### 4. MELEDEN Small Air Purifier (HEPA13, Pet)  [Best Pet Dander Budget]
 Brand: MELEDEN
-Price: ~€31
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€27
+Rating: 4.1/5 (Amazon.ie)
 Filter: True HEPA H13
 Extras: Aroma pad
 Use: Bedroom/pets
 Noise: Quiet
-Pros: H13 filtration at €31; Pet-focused filter; Aroma pad bonus
+Pros: H13 filtration at €27; Pet-focused filter; Aroma pad bonus
 Cons: Limited coverage; No auto mode
 Verdict: The pet-corner purifier: H13 spore and dander capture for pocket money.
 
@@ -917,8 +892,8 @@ A bedroom purifier that's too loud gets switched off, and a switched-off purifie
 
 ### 1. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Quietest Overall]
 Brand: Levoit
-Price: ~€61
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€68
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
@@ -931,8 +906,8 @@ Verdict: The bedroom specialist: clean air all night without a sound you'll noti
 
 ### 2. Philips 600 Series Air Purifier  [Best Quiet All-Rounder]
 Brand: Philips
-Price: ~€80
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€71
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
@@ -945,13 +920,13 @@ Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to r
 
 ### 3. MELEDEN Small Air Purifier (HEPA13, Pet)  [Best Quiet Budget]
 Brand: MELEDEN
-Price: ~€31
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€27
+Rating: 4.1/5 (Amazon.ie)
 Filter: True HEPA H13
 Extras: Aroma pad
 Use: Bedroom/pets
 Noise: Quiet
-Pros: H13 filtration at €31; Pet-focused filter; Aroma pad bonus
+Pros: H13 filtration at €27; Pet-focused filter; Aroma pad bonus
 Cons: Limited coverage; No auto mode
 Verdict: The pet-corner purifier: H13 spore and dander capture for pocket money.
 
@@ -993,8 +968,8 @@ Filtration: 3-stage HEPASilent
 Pre-filter: Washable fabric
 Power: 38 W
 Pros: 510 m³/h cadr; Up to 103 m² coverage
-Cons: 4 of the 6 picks here are better rated by owners; €303 more than our top pick, which owners rate higher at 4.6★
-Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €61 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
+Cons: 3 of the 6 picks here are better rated by owners; €296 more than our top pick, which owners rate higher at 4.4★
+Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €68 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
 
 #### What does a 25 dB air purifier actually sound like?
 Decibels are logarithmic, so the gap between 25 dB and 35 dB is far wider than it reads — every 10 dB is roughly a doubling of perceived loudness. A quiet Irish bedroom sits around 20-30 dB of background noise at night, so a purifier at 24 dB effectively disappears into it, while one at 38 dB is impossible to ignore at 3am. The catch is measurement. Manufacturer figures are taken in an anechoic chamber at one metre; the same unit on a hard bedside locker 40 cm from your ear, reflecting off a wall, reads higher in practice. Treat quoted sleep-mode numbers as a ranking tool between models rather than a promise. Any figure given without a distance, or as an "as low as" range with no speed named, is not really a specification.
@@ -1039,21 +1014,22 @@ Summary: High-CADR air purifiers for large Irish living rooms and open-plan spac
 
 Open-plan living — the default in newer Irish builds — defeats small purifiers: they clean their corner while the kitchen end pumps out cooking particles. Big spaces need CADR of 300+ m³/h to manage 3+ air changes hourly. Only our top pick clears that bar on its own; the other four are ranked as support for the rest of the space, on airflow, noise at useful speeds, and cost per cubic metre cleaned.
 
-### 1. Levoit Core 400S Smart Air Purifier (83 m²)  [Best Large-Room Overall]
-Brand: Levoit
-Price: ~€379
+### 1. Philips Air Purifier 2200 Series (109 m²)  [Best Large-Room Overall]
+Brand: Philips
+Price: ~€179
 Rating: 4.6/5 (Amazon.ie)
-Coverage: 83 m² twice an hour
-CADR: 400 m³/h
-Sensor: PM2.5 laser
-Control: App + Alexa
-Pros: Clears this page's 300 m³/h CADR bar; PM2.5 sensor drives auto mode; 4.6★ from 15,000+ owners
-Cons: Most expensive on this page; Third-party seller, ships in 6–10 days
-Verdict: The Core 400S is the only machine on this page that clears the 300 m³/h bar open-plan spaces need: its 400 m³/h CADR cycles an 83 m² room twice an hour. A PM2.5 laser sensor runs its auto mode, it works with Alexa and the app, and more than 15,000 owners rate it 4.6 stars. At around €379 it is by far the dearest pick here, and on Amazon.ie it currently comes from a third-party seller with 6–10 days' delivery. Worth it if your kitchen-living space is genuinely large; for one big room, the cheaper units below are enough.
+Coverage: Up to 109 m²
+CADR: 420 m³/h
+Filter: 3-layer HEPA + active carbon
+Noise: From 13 dB(A)
+Filter life: Up to 3 years (FY2200)
+Pros: Clears this page's 300 m³/h CADR bar (420 m³/h); ECARF-certified for allergy sufferers; Sold and shipped by Amazon.ie
+Cons: Dearest pick on this page; Replacement filter (FY2200) is a Philips part
+Verdict: The Philips 2200 is the one machine on this page that clears the 300 m³/h bar open-plan spaces need: Philips rates it at 420 m³/h CADR and up to 109 m² of coverage, with a 3-layer HEPA and active carbon filter that it says lasts up to three years. It runs from 13 dB(A) on its quietest setting, carries ECARF certification for allergy sufferers, and is sold and shipped by Amazon.ie at around €179. If your kitchen-living space is genuinely large, start here; for one ordinary room, the cheaper units below are enough.
 
 ### 2. AZEUS True HEPA Air Purifier (GL-FS32)  [Best Airflow Value]
 Brand: AZEUS
-Price: ~€90
+Price: ~€128
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.02/hour at €0.38/kWh
 Filtration: 4-stage
@@ -1067,8 +1043,8 @@ Verdict: The 4-stage workhorse for bigger rooms — filtration depth at a fair p
 
 ### 3. Philips 600 Series Air Purifier  [Best Efficient Large]
 Brand: Philips
-Price: ~€80
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€71
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
@@ -1150,8 +1126,8 @@ Under €150, air purifiers split into two species: genuine HEPA machines from s
 
 ### 1. Philips 600 Series Air Purifier  [Best Under €150]
 Brand: Philips
-Price: ~€80
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€71
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
 Filter: True HEPA
@@ -1164,8 +1140,8 @@ Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to r
 
 ### 2. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Best Value Bedroom]
 Brand: Levoit
-Price: ~€61
-Rating: 4.6/5 (Amazon.ie)
+Price: ~€68
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
 Filter: HEPA
@@ -1190,13 +1166,13 @@ Verdict: H13 filtration and a 2/4/8-hour timer for under €50 — honest bedroo
 
 ### 4. MELEDEN Small Air Purifier (HEPA13, Pet)  [Best Pet Budget]
 Brand: MELEDEN
-Price: ~€31
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€27
+Rating: 4.1/5 (Amazon.ie)
 Filter: True HEPA H13
 Extras: Aroma pad
 Use: Bedroom/pets
 Noise: Quiet
-Pros: H13 filtration at €31; Pet-focused filter; Aroma pad bonus
+Pros: H13 filtration at €27; Pet-focused filter; Aroma pad bonus
 Cons: Limited coverage; No auto mode
 Verdict: The pet-corner purifier: H13 spore and dander capture for pocket money.
 
@@ -1252,7 +1228,7 @@ A: Buy the cheap one if the filter costs are sane and the room is small — a �
 ==============================================================================
 # CATEGORY: Coffee Machines
 URL: https://pickireland.best/coffee-machines/
-5 guides, 27 product entries
+5 guides, 26 product entries
 ==============================================================================
 
 Ireland's coffee culture grew up fast — flat whites outsell tea in Dublin cafés — and the €3.80 daily habit maths pushed serious machines into Irish kitchens. The home setup question spans €100 pod machines to €700 bean-to-cup automatics, with wildly different running costs: pods cost ~45c a cup, fresh beans ~28c. We compare every route to better home coffee.
@@ -1288,12 +1264,12 @@ Grinder: 3 settings
 Temperatures: 3 settings
 Water tank: 1.7 L
 Pros: Fresh-ground espresso at a button; 15-bar pump with 3 grind and 3 temperature settings; Compact 38 cm-wide footprint
-Cons: Only 3 grind settings vs 13 on the Magnifica S; 4.3★ owner rating trails the Magnifica S's 4.6★
+Cons: Only 3 grind settings vs 13 on the Magnifica S; 4.3★ owner rating trails the Magnifica S's 4.4★
 Verdict: Krups' Arabica EA8110 grinds fresh beans for every cup and pushes them through a 15-bar pump, with three grind settings and three temperature settings to tune the result. At €399 it is the cheapest bean-to-cup machine on this page, just under the Magnifica S, and its 38 cm width suits smaller Irish kitchens. The trade-off is control and track record: three grind steps is a narrow range next to the Magnifica S's thirteen, and its 4.3-star owner rating sits below the De'Longhi's 4.6. A sensible entry into fresh-bean coffee if you want push-button espresso for less; buyers who want finer grind control should spend a little more on the Magnifica S.
 
 ### 2. Krups Virtuoso+ Pump Espresso Machine (15 Bar)  [Best Manual Entry]
 Brand: Krups
-Price: ~€137
+Price: ~€153
 Rating: 4.4/5 (Amazon.ie)
 Type: Manual espresso
 Pressure: 15 bar
@@ -1321,7 +1297,7 @@ Verdict: Every cup comes out the same way in about 30 seconds with zero techniqu
 ### 4. De'Longhi Magnifica S (ECAM21.117.SB)  [Best Proven Automatic]
 Brand: De'Longhi
 Price: ~€414
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Grinder: 13-setting burr
@@ -1349,15 +1325,15 @@ Verdict: The easiest machine here for a mixed household: each Tassimo pod carrie
 ### 6. Ariete 1318R Moderna Espresso (15 Bar)  [Worth Considering]
 Brand: Ariete
 Price: ~€204
-Rating: 3.8/5 (Amazon.ie)
+Rating: 3.6/5 (Amazon.ie)
 Running cost: €0.41/hour at €0.38/kWh
 Pressure: 15 bar
 Power: 1080 W
 Water tank: 800 ml
 Grinder: Built-in, 250 g hopper
 Pros: €195 less than our top pick; 15 bar pressure; 1080 W power
-Cons: Lowest owner rating of the picks here at 3.8★; 3.8★ owner rating is only average for this price bracket
-Verdict: Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.8-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Krups Virtuoso+ or the Magnifica S achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Krups Virtuoso+ at a lower price instead.
+Cons: Lowest owner rating of the picks here at 3.6★; 3.6★ owner rating is only average for this price bracket
+Verdict: Ariete's retro-styled Moderna brings 15-bar pump pressure into a similar price bracket as the Nespresso Vertuo, positioning it as a manual-espresso alternative for buyers who like the styling. Its 3.6-star owner rating is the lowest of any machine on this page, which is worth weighing honestly against the €204 asking price — it's a noticeably softer score than the Krups Virtuoso+ or the Magnifica S achieve. Buying via Amazon.ie still gives full standard returns cover, and it hasn't built up the multi-year track record that De'Longhi's proven platforms have, with owners reporting inconsistent seller support. Only worth considering if the retro design is a genuine priority; buyers focused purely on reliability and score should choose the Krups Virtuoso+ at a lower price instead.
 
 #### What type of coffee machine actually fits how you drink coffee?
 Start from your habit, not the spec sheet: one or two cups a day, mostly black or with a splash of milk, points at a pod machine or a simple filter brewer; a household making six to ten milk-based drinks a day with different people wanting different strengths is exactly what bean-to-cup automatics were built for; and manual espresso rewards anyone who enjoys grinding and tamping with better coffee per euro than any automatic. A pod or filter setup means minimal fuss, minimal counter space and no skill required. A bean-to-cup automatic means pressing a button and getting a repeatable flat white without a queue forming before work. Manual espresso repays the time you put in but punishes anyone who wants to grab a cup and leave. None of these is objectively best; each is a poor fit for the wrong household, which is why one single machine rarely tops every list here.
@@ -1400,7 +1376,7 @@ URL: https://pickireland.best/coffee-machines/best-bean-to-cup-coffee-machines-i
 Summary: Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €399 to €535+, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.
+Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €314 to €419, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.
 
 ### 1. Krups Arabica EA8110 Bean-to-Cup  [Best Entry Bean-to-Cup]
 Brand: Krups
@@ -1412,13 +1388,13 @@ Grinder: 3 settings
 Temperatures: 3 settings
 Water tank: 1.7 L
 Pros: Fresh-ground espresso at a button; 15-bar pump with 3 grind and 3 temperature settings; Compact 38 cm-wide footprint
-Cons: Only 3 grind settings vs 13 on the Magnifica S; 4.3★ owner rating trails the Magnifica S's 4.6★
+Cons: Only 3 grind settings vs 13 on the Magnifica S; 4.3★ owner rating trails the Magnifica S's 4.4★
 Verdict: The entry ticket to fresh-bean espresso: 15-bar pump, three grind settings and a compact footprint.
 
 ### 2. De'Longhi Magnifica S (ECAM21.117.SB)  [Best Proven Platform]
 Brand: De'Longhi
 Price: ~€414
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.55/hour at €0.38/kWh
 Type: Bean-to-cup
 Grinder: 13-setting burr
@@ -1431,7 +1407,7 @@ Verdict: Europe's bestselling automatic for a reason — the default answer for 
 
 ### 3. Philips 5400 Series LatteGo Bean-to-Cup (EP5446/70)  [Best Flagship]
 Brand: Philips
-Price: ~€535
+Price: ~€419
 Rating: 4.4/5 (Amazon.ie)
 Type: Bean-to-cup
 Milk: LatteGo, fully automatic
@@ -1439,22 +1415,21 @@ Drinks: 12 one-touch
 Grinder: Ceramic, 12 steps
 Display: Touch
 Pros: 12 one-touch coffees incl. milk drinks; LatteGo milk system: two parts, no tubes; Ceramic grinder with 12 settings
-Cons: €500+; Owner rating 4.4★, below the Magnifica S's 4.6★
+Cons: Dearest machine on this page at around €419; Owner rating 4.4★, level with the Magnifica S
 Verdict: The automatic flagship: twelve drinks at a touch, and a milk system that rinses clean in seconds.
 
-### 4. De'Longhi La Specialista Arte (EC9155)  [Smart Alternative]
-Brand: De'Longhi
-Price: ~€490
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.59/hour at €0.38/kWh
-Grinder: Built-in, 8 settings, sensor dosing
-Tamping: Built-in lever station
-Milk: MyLatte Art steam wand (Flat/Foam)
-Water tank: 1.2 L
-Power: 1550 W
-Pros: Built-in grinder with sensor dosing; Lever tamping inside the machine, no mess; Steam wand with Flat and Foam settings
-Cons: €91 more than our top pick, with the same 4.3★ owner rating; Not one-touch: you pull each shot and steam the milk yourself
-Verdict: De'Longhi's La Specialista Arte is for people who want to make the espresso themselves without a separate grinder and tamper on the counter. A sensor-dosed grinder with eight settings feeds a built-in lever tamping station, and the MyLatte Art wand has Flat and Foam settings for milk. At €490 it's well above our €399 Krups pick and shares its 4.3-star owner rating, while the €414 Magnifica S rates higher at 4.6. It isn't push-button, so it suits people who enjoy the ritual rather than anyone after one-touch lattes.
+### 4. Philips 2200 Series Bean-to-Cup (2 one-touch drinks)  [Cheapest Bean-to-Cup Here]
+Brand: Philips
+Price: ~€314
+Rating: 4.2/5 (Amazon.ie)
+Type: Bean-to-cup
+Drinks: 2 one-touch (espresso, coffee)
+Milk: Classic manual milk frother
+Adjustable: Grind, strength, quantity, temperature
+Limescale: AquaClean filter compatible (not included)
+Pros: Cheapest bean-to-cup on this page; Grind, strength, quantity and temperature all adjustable; Milk frother has just two dishwasher-safe parts
+Cons: Only two one-touch drinks; you froth the milk yourself; Lowest owner rating on this page
+Verdict: The Philips 2200 is the cheapest way into fresh-bean coffee on this page. It makes espresso and a longer coffee at a touch, lets you adjust grind, strength, quantity and temperature, and its classic frother comes apart into two dishwasher-safe pieces. Milk drinks are manual, and its owner rating is the lowest here, so pay more for the Krups or the Magnifica S if you want a longer track record.
 
 #### Why does grind quality matter more than milk features on a bean-to-cup machine?
 Every bean-to-cup machine grinds on demand, but not all grinders inside them are equal. Cheaper units around the €300 mark generally use a single conical steel burr with a fairly narrow adjustment range, which is fine for medium roasts but struggles with darker, oilier beans or very light ones; machines from roughly €500 upward widen that range and grind more consistently shot after shot. Inconsistent particle size is the single biggest cause of a sour or bitter cup from an otherwise capable machine. Ceramic burrs, found on some higher-tier models, run cooler and last longer than steel but cost more to replace on the rare occasion they need it. None of this shows up on a spec sheet as clearly as milk features do, which is exactly why it gets underweighted when comparing machines side by side in a shop.
@@ -1497,7 +1472,7 @@ URL: https://pickireland.best/coffee-machines/best-budget-coffee-machines-under-
 Summary: Real coffee under €150: the best budget espresso, pod and filter machines for Irish kitchens compared honestly. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Under €150 buys genuinely good coffee if you pick the right architecture: superb pod machines, very capable filter brewers, and entry espresso that punches up with technique. What it doesn't buy: bean-to-cup automation or auto-milk. Seven machines that maximise their euro honestly — plus what each one demands from you in return.
+Under €150 buys genuinely good coffee if you pick the right architecture: superb pod machines, very capable filter brewers, and entry espresso that punches up with technique. What it doesn't buy: bean-to-cup automation or auto-milk. Six machines that maximise their euro honestly — plus what each one demands from you in return.
 
 ### 1. Nespresso Vertuo Pop (Pacific Blue)  [Best Budget Pod]
 Brand: Nespresso
@@ -1513,20 +1488,7 @@ Pros: Total consistency, zero effort; 5 cup sizes incl. mug; Compact and colourf
 Cons: Pod costs add up; Closed ecosystem
 Verdict: The one-good-cup-a-day machine: unbeatable simplicity, just mind the pod maths.
 
-### 2. Krups Virtuoso+ Pump Espresso Machine (15 Bar)  [Best Budget Espresso]
-Brand: Krups
-Price: ~€137
-Rating: 4.4/5 (Amazon.ie)
-Type: Manual espresso
-Pressure: 15 bar
-Milk: Steam nozzle (froth + heat)
-Shot control: Auto flow-stop
-Controls: 4 buttons
-Pros: Real 15-bar pump espresso + steam; Auto flow-stop for repeatable shots; Compact footprint
-Cons: Needs technique (and ideally a separate grinder); Milk frothing takes practice
-Verdict: The budget route to real espresso craft: 15 bars, a steam nozzle and flow-stop for under €140.
-
-### 3. Tassimo by Bosch Finesse  [Best Multi-Drink]
+### 2. Tassimo by Bosch Finesse  [Best Multi-Drink]
 Brand: Bosch
 Price: ~€47
 Rating: 4.5/5 (Amazon.ie)
@@ -1540,7 +1502,7 @@ Pros: Barcode pods self-program; Costa range at home; Bosch reliability
 Cons: Pod range narrowing; Coffee purists will sniff
 Verdict: The zero-thought machine: scan, brew, done — with Costa on the menu.
 
-### 4. NESCAFÉ Dolce Gusto Genio S (De'Longhi EDG226.A)  [Cheapest Multi-Drink]
+### 3. NESCAFÉ Dolce Gusto Genio S (De'Longhi EDG226.A)  [Cheapest Multi-Drink]
 Brand: De'Longhi
 Price: ~€60
 Rating: 4.5/5 (Amazon.ie)
@@ -1554,10 +1516,10 @@ Pros: Hot, iced and chocolate drinks; Eco mode switches off after 1 min; Strong 
 Cons: Pods cost more than Nespresso Original; Mostly plastic build
 Verdict: Around €60, the Genio S is the low-cost way into pods that do more than coffee: hot chocolate, tea and iced drinks are all in the Dolce Gusto range, and the cup size is adjustable. Over 4,700 owners rate it 4.5 stars on Amazon.ie. The machine is cheap; the pods are where the money goes, and they cost more per cup than Nespresso Original compatibles, so budget for that if you drink several cups a day.
 
-### 5. Quest Digital Filter Coffee Machine 1.5L  [Best for Volume]
+### 4. Quest Digital Filter Coffee Machine 1.5L  [Best for Volume]
 Brand: Quest
-Price: ~€29
-Rating: 4.1/5 (Amazon.ie)
+Price: ~€33
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.34/hour at €0.38/kWh
 Type: Filter
 Capacity: 12 cups
@@ -1568,15 +1530,15 @@ Pros: Cheapest per-cup coffee going; Wake-up timer brewing; 12 cups for guests
 Cons: No espresso drinks; Hotplate taste after 30 min
 Verdict: The volume economist: mugs not shots, brewed before you wake, ~13c each.
 
-### 6. Cuisinart Coffee Burr Grinder  [Strong Alternative]
+### 5. Cuisinart Coffee Burr Grinder  [Strong Alternative]
 Brand: Cuisinart
 Price: ~€60
-Rating: 4.3/5 (Amazon.ie)
-Pros: €5 less than our top pick; Owners rate it 4.3★, above our top pick's 4.2★
-Cons: 3 of the 7 picks here are better rated by owners; Full specs not confirmed — check the current listing before buying
-Verdict: This is a grinder, not a coffee machine — which is exactly why it's on a budget page. Pairing a €60 Cuisinart burr grinder with one of the cheaper espresso machines above gets you fresher coffee than spending the same total on a single all-in-one, and its 4.3-star owner rating is solid. Buy it as the second half of a two-part setup rather than as a machine in its own right.
+Rating: 4.0/5 (Amazon.ie)
+Pros: €5 less than our top pick
+Cons: 5 of the 6 picks here are better rated by owners; Full specs not confirmed — check the current listing before buying
+Verdict: This is a grinder, not a coffee machine — which is exactly why it's on a budget page. Pairing a €60 Cuisinart burr grinder with one of the cheaper espresso machines above gets you fresher coffee than spending the same total on a single all-in-one, though its 4.0-star owner rating is the lowest on this page. Buy it as the second half of a two-part setup rather than as a machine in its own right.
 
-### 7. Breville Barista Max Espresso Machine (Grinder)  [Above budget — upgrade path]
+### 6. Breville Barista Max Espresso Machine (Grinder)  [Above budget — upgrade path]
 Brand: Breville
 Price: ~€394
 Rating: 4.2/5 (Amazon.ie)
@@ -1587,7 +1549,7 @@ Water tank: 2.8 L
 Portafilter: 58 mm
 Power: 1300 W
 Pros: 15 bar pressure; Conical burr, 30 settings grinder; Matches our top pick's 4.2★ owner rating
-Cons: 4 of the 7 picks here are better rated by owners; €329 more than our top pick
+Cons: 3 of the 6 picks here are better rated by owners; €329 more than our top pick
 Verdict: At €394 the Barista Max sits far outside this page's under-€150 remit, and we've kept it here only as the obvious upgrade path: it's an espresso machine with an integrated grinder, which is the thing no genuine sub-€150 machine can offer. Its 4.2-star owner rating is middling for the money. Relevant if the budget cap is soft and you'd rather buy once; ignore it entirely if €150 is a hard ceiling.
 
 #### What can't a coffee machine under €150 actually do?
@@ -1635,7 +1597,7 @@ Pod machines run on a printer-ink business model — cheap machine, profitable p
 
 ### 1. Nespresso Inissia (De'Longhi EN80.B)  [Best Open-Ecosystem Value]
 Brand: Nespresso
-Price: ~€107
+Price: ~€94
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.48/hour at €0.38/kWh
 Type: Pod (Original line)
@@ -1748,7 +1710,7 @@ Home espresso is a learnable fortnight, not a dark art — if the machine forgiv
 
 ### 1. Krups Virtuoso+ Pump Espresso Machine (15 Bar)  [Best First Espresso]
 Brand: Krups
-Price: ~€137
+Price: ~€153
 Rating: 4.4/5 (Amazon.ie)
 Type: Manual espresso
 Pressure: 15 bar
@@ -1761,7 +1723,7 @@ Verdict: The beginner-friendly manual: flow-stop takes the guesswork out of the 
 
 ### 2. Chefman CraftBrew 15-Bar Espresso Machine  [Best Guided Starter]
 Brand: Chefman
-Price: ~€98
+Price: ~€111
 Rating: 4.3/5 (Amazon.ie)
 Type: Manual espresso
 Pressure: 15 bar
@@ -1787,7 +1749,7 @@ Verdict: The cheapest complete espresso setup — a fair first rung on the baris
 
 ### 4. Nespresso Inissia (De'Longhi EN80.B)  [Easiest Pod Alternative]
 Brand: Nespresso
-Price: ~€107
+Price: ~€94
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.48/hour at €0.38/kWh
 Type: Pod (Original line)
@@ -1896,8 +1858,8 @@ Verdict: The Arete One 12L earns Best Overall because it does the two jobs an Ir
 
 ### 2. Nyxi 20L/Day Dehumidifier  [Best Big-Capacity Value]
 Brand: Nyxi
-Price: ~€134
-Rating: 4.5/5 (Amazon.ie)
+Price: ~€179
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.12/hour at €0.38/kWh
 Extraction: 20 L/day
 Coverage: 3–4 bed house
@@ -1906,7 +1868,7 @@ Drain: Continuous option
 Power: 320 W
 Pros: Serious 20L extraction under €140; Handles whole-floor damp; Strong laundry mode
 Cons: Less-known brand; Louder at full fan
-Verdict: Twenty litres a day of extraction is enough to cover a 3-4 bedroom house rather than just a single room, and getting that capacity under €140 undercuts what similarly rated units from bigger names charge. A continuous drain option and dedicated laundry mode make it genuinely useful for drying clothes indoors during wet Irish spells, not just managing ambient humidity. Nyxi isn't a widely recognised brand compared with Meaco, so buyers are leaning more on the 4.5-star Amazon.ie score than brand history, and several owners note it gets noticeably louder than the Meaco above when the fan runs at full speed. The clear pick for anyone with a bigger house and a tighter budget than the Meaco allows.
+Verdict: Twenty litres a day of extraction is enough to cover a 3-4 bedroom house rather than just a single room, and getting that capacity under €140 undercuts what similarly rated units from bigger names charge. A continuous drain option and dedicated laundry mode make it genuinely useful for drying clothes indoors during wet Irish spells, not just managing ambient humidity. Nyxi isn't a widely recognised brand compared with Meaco, so buyers are leaning more on the 4.2-star Amazon.ie score than brand history, and several owners note it gets noticeably louder than the Meaco above when the fan runs at full speed. The clear pick for anyone with a bigger house and a tighter budget than the Meaco allows.
 
 ### 3. Masterplug 3-in-1 Smart Dehumidifier 12L  [Best Smart 3-in-1]
 Brand: Masterplug
@@ -1936,14 +1898,14 @@ Verdict: At €54 and with extraction rated up to 650ml a day, this EasyAcc is b
 
 ### 5. HOMCOM 12L/Day Dehumidifier (Continuous Drainage)  [Challenger Pick]
 Brand: HOMCOM
-Price: ~€100
+Price: ~€147
 Rating: 4.6/5 (Amazon.ie)
 Running cost: €0.08/hour at €0.38/kWh
 Extraction: 12 L/day
 Power: 210 W
-Pros: €126 less than our top pick; 12 L/day extraction; Strong 4.6★ owner rating
+Pros: €79 less than our top pick; 12 L/day extraction; Strong 4.6★ owner rating
 Cons: Matches our top pick's 4.6★ owner rating
-Verdict: Twelve litres a day of extraction with a continuous drainage option puts this HOMCOM's specs close to the pricier Masterplug and Meaco Arete above, but at roughly €100 it costs meaningfully less than either. Its 4.6-star owner rating is actually higher than several machines ranked above it here, and buying through Amazon.ie keeps the warranty and returns process straightforward. It hasn't taken our top overall spot because it lacks the HEPA purification and app scheduling that set the Meaco Arete apart, so it's a specs-and-price play rather than a features play. Worth comparing closely against the Masterplug if smart features aren't essential; a strong option for anyone who wants solid extraction without paying for extras.
+Verdict: Twelve litres a day of extraction with a continuous drainage option puts this HOMCOM's specs close to the pricier Masterplug and Meaco Arete above, but at roughly €147 it costs meaningfully less than either. Its 4.6-star owner rating is actually higher than several machines ranked above it here, and buying through Amazon.ie keeps the warranty and returns process straightforward. It hasn't taken our top overall spot because it lacks the HEPA purification and app scheduling that set the Meaco Arete apart, so it's a specs-and-price play rather than a features play. Worth comparing closely against the Masterplug if smart features aren't essential; a strong option for anyone who wants solid extraction without paying for extras.
 
 ### 6. OKYUK 10L/Day Compressor Dehumidifier (30 m²)  [Notable Mention]
 Brand: OKYUK
@@ -2016,8 +1978,8 @@ Verdict: The bedroom and apartment pick: whisper-quiet condensation control from
 
 ### 2. Morphy Richards PureFresh Compact Dehumidifier  [Best Brand Mini]
 Brand: Morphy Richards
-Price: ~€38
-Rating: 4.1/5 (Amazon.ie)
+Price: ~€49
+Rating: 4.4/5 (Amazon.ie)
 Tank: 0.9 L
 Noise: Quiet
 Extras: Ambient light
@@ -2066,16 +2028,16 @@ Verdict: The bigger sibling of our top pick: the same quiet 35 dB Meaco design a
 
 ### 6. UniBond AERO 360 Moisture Absorber  [Strong Alternative]
 Brand: UniBond
-Price: ~€11
+Price: ~€15
 Rating: 4.4/5 (Amazon.ie)
 Type: Passive — no electricity
 Coverage: Up to 20 m²
 Refill: 450 g tab
 Tab life: Up to 3 months
 Power: None (non-electric)
-Pros: Cheapest pick on this page at €11; Passive — no electricity type; Up to 20 m² coverage
+Pros: Cheapest pick on this page at €15; Passive — no electricity type; Up to 20 m² coverage
 Cons: 2 of the 6 picks here are better rated by owners; Our top pick still rates higher with owners at 4.6★
-Verdict: At €11 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one.
+Verdict: At €15 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one.
 
 #### Why do bedrooms fog up faster than any other room in an Irish house?
 An adult breathes out roughly half a litre of water vapour overnight, and two people sharing a room double that, all released into a space that's closed off, unheated once the radiator goes down, and often fitted with older single glazing that runs cold to the touch. That combination is exactly what condensation needs: warm moist air meeting a cold surface. It's why bedroom windows are wet by morning even in houses that seem dry everywhere else. A dehumidifier pulls that moisture out of the air before it can land on the glass or the wall behind the headboard, usually the coldest, least ventilated corner in the room and the first place mould shows up on wallpaper or paint. Two adults sharing a double bed in a poorly ventilated room can push local humidity noticeably higher than the rest of the house by morning, even in a home that otherwise reads dry.
@@ -2122,8 +2084,8 @@ Older Irish housing stock — solid walls, single glazing, suspect ventilation �
 
 ### 1. Nyxi 20L/Day Dehumidifier  [Best 20L Overall]
 Brand: Nyxi
-Price: ~€134
-Rating: 4.5/5 (Amazon.ie)
+Price: ~€179
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.12/hour at €0.38/kWh
 Extraction: 20 L/day
 Coverage: 3–4 bed house
@@ -2181,20 +2143,20 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.07/hour at €0.38/kWh
 Extraction: 12 L/day
 Power: 185 W
-Pros: €140 — 4th-cheapest of the 6 picks here; 12 L/day extraction
-Cons: 3 of the 6 picks here are better rated by owners; €6 more than our top pick, which owners rate higher at 4.5★
-Verdict: HUMILABS extracts 12 litres a day at €140 against the Nyxi's 20 litres at €134 — so you're paying slightly more for meaningfully less extraction on a page specifically about large, damp homes. Its 4.4-star rating is a shade below the Nyxi's 4.5. The low-energy positioning is genuine and it would suit a single damp room well, but for whole-house drying the Nyxi is the better buy.
+Pros: €39 less than our top pick; 12 L/day extraction
+Cons: 1 of the 6 picks here is better rated by owners; Extracts 8 L/day less than our top pick
+Verdict: HUMILABS extracts 12 litres a day at €140 against the Nyxi's 20 litres at €179, so it saves you money but gives up a lot of extraction on a page specifically about large, damp homes. Owners rate it 4.4 stars, a little above the Nyxi's 4.2. The low-energy positioning is genuine and it would suit a single damp room well, but for whole-house drying the Nyxi's extra capacity is what you are paying for.
 
 ### 6. Devology 12L/Day Digital Dehumidifier (2.5L Tank)  [Reader Favourite]
 Brand: Devology
-Price: ~€118
-Rating: 4.5/5 (Amazon.ie)
+Price: ~€98
+Rating: 4.3/5 (Amazon.ie)
 Extraction: 12 L/day
 Tank: 2.5 L
 Display: Digital humidity
-Pros: €16 less than our top pick; 12 L/day extraction; 2.5 L tank
-Cons: 1 of the 6 picks here is better rated by owners; Not our category winner — compare against the Nyxi 20L/Day Dehumidifier
-Verdict: Devology's 12L/day unit is €118 against our €134 Nyxi pick and matches it on owner rating at 4.5 stars. The reason it isn't first on a page about large, damp homes is extraction: 12 litres a day against the Nyxi's 20 is a meaningful gap once you're covering a whole house rather than one floor, and its 2.5-litre tank needs emptying more often. Good value for a single damp room; undersized for the job this page is about.
+Pros: €81 less than our top pick; 12 L/day extraction; 2.5 L tank
+Cons: 3 of the 6 picks here are better rated by owners; Not our category winner — compare against the Nyxi 20L/Day Dehumidifier
+Verdict: Devology's 12L/day unit is €98 against our €179 Nyxi pick and rates a little higher with owners, 4.3 stars against 4.2. The reason it isn't first on a page about large, damp homes is extraction: 12 litres a day against the Nyxi's 20 is a meaningful gap once you're covering a whole house rather than one floor, and its 2.5-litre tank needs emptying more often. Good value for a single damp room; undersized for the job this page is about.
 
 #### How many litres a day of extraction does a 4-bedroom Irish house need?
 A 4-bedroom Irish semi with normal occupancy — cooking, showering, drying the odd load of washing indoors — generates several litres of airborne moisture a day before you even factor in a damp problem. A single 20L/day-rated unit placed centrally, on a landing or in a hallway with doors left ajar, can realistically manage a house this size, though the lab-rated figure assumes 80% humidity and you'll see less in practice. For a genuinely damp house, or one with a basement, converted attic or ground floor that stays noticeably colder than upstairs, two units — one per floor — will dry the place faster and more evenly than one large machine trying to pull air through stairwells and closed doors from a single point.
@@ -2254,8 +2216,8 @@ Verdict: The big-load laundry pick: 20 litres a day, a laundry setting and quiet
 
 ### 2. Nyxi 20L/Day Dehumidifier  [Best Big-Load Capacity]
 Brand: Nyxi
-Price: ~€134
-Rating: 4.5/5 (Amazon.ie)
+Price: ~€179
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.12/hour at €0.38/kWh
 Extraction: 20 L/day
 Coverage: 3–4 bed house
@@ -2316,7 +2278,7 @@ Running cost: €0.08/hour at €0.38/kWh
 Extraction: 12 L/day
 Power: 200 W
 Pros: €80 less than our top pick; 12 L/day extraction
-Cons: Joint-lowest owner rating of the picks here at 4.4★; Our top pick still rates higher with owners at 4.5★
+Cons: Extracts 8 L/day less than our top pick; Our top pick still rates higher with owners at 4.5★
 Verdict: Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, and its 4.4-star owner rating trails the bigger model's 4.5. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model.
 
 ### 7. Meaco MeacoDry ABC 12L (Ultra-Quiet)  [Strong Alternative]
@@ -2405,8 +2367,8 @@ Verdict: The smart all-rounder: three appliances in one box, scheduled from your
 
 ### 3. Nyxi 20L/Day Dehumidifier  [Best for Severe Damp]
 Brand: Nyxi
-Price: ~€134
-Rating: 4.5/5 (Amazon.ie)
+Price: ~€179
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.12/hour at €0.38/kWh
 Extraction: 20 L/day
 Coverage: 3–4 bed house
@@ -2431,13 +2393,13 @@ Verdict: The cheap fix for one mildly damp room, wardrobe or ensuite.
 
 ### 5. De'Longhi Tasciugo AriaDry Dehumidifier  [Value Contender]
 Brand: De'Longhi
-Price: ~€181
+Price: ~€244
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.12/hour at €0.38/kWh
 Power: 305 W
-Pros: €45 less than our top pick; Strong 4.5★ owner rating
-Cons: 1 of the 5 picks here is better rated by owners; Our top pick still rates higher with owners at 4.6★
-Verdict: De'Longhi is a genuinely established name and this AriaDry sits mid-range here at €181 with a solid 4.5-star rating. Our €226 Meaco pick beats it on owner sentiment at 4.6 and pairs extraction with HEPA filtration, which is what a mould-focused page ranks on — dealing with spores as well as the damp that feeds them. Good value if you want brand reassurance and are treating damp rather than visible mould.
+Pros: Strong 4.5★ owner rating
+Cons: 1 of the 5 picks here is better rated by owners; €18 more than our top pick, which owners rate higher at 4.6★
+Verdict: De'Longhi is a genuinely established name and this AriaDry is the dearest machine here at €244, with a solid 4.5-star rating. Our €226 Meaco pick costs less, beats it on owner sentiment at 4.6 and pairs extraction with HEPA filtration, which is what a mould-focused page ranks on: dealing with spores as well as the damp that feeds them. Worth it if you want De'Longhi's brand reassurance and are treating damp rather than visible mould.
 
 #### Why does mould need humidity above 60% to spread?
 Mould spores are present in essentially all air, indoors and out — the question is never whether they exist in your house but whether conditions let them germinate. Below roughly 60% relative humidity, sustained, most common household mould species can't establish a colony on an ordinary surface; above 70%, held for days, growth becomes close to inevitable given a food source, and painted plaster, wallpaper paste and timber all qualify. This is why the advice isn't 'reduce dampness' in the abstract but a specific number: get the room to 50–55% and hold it there with a humidistat, rather than running a dehumidifier occasionally and hoping. Spot-checking with a cheap hygrometer in the worst-affected room tells you whether you're actually below the threshold or just assuming you are.
@@ -2477,7 +2439,7 @@ A: Often yes, because they solve different timescales of the same problem. An ex
 ==============================================================================
 # CATEGORY: Electric Bikes
 URL: https://pickireland.best/electric-bikes/
-5 guides, 19 product entries
+5 guides, 16 product entries
 ==============================================================================
 
 Ireland is quietly becoming an e-bike country: the Cycle to Work scheme covers e-bikes up to €1,500, fuel and parking costs keep climbing, and EU-legal pedelecs (250 W, assist to 25 km/h) need no licence, tax or insurance. We compare every e-bike worth buying on Amazon.ie — from €459 folders to 1,440 Wh range flagships at €2,000.
@@ -2516,20 +2478,7 @@ Pros: Torque sensor — premium pedal feel; Up to 130 km of range; Best-rated e-
 Cons: Premium price; Heavy like all fat folders
 Verdict: A torque sensor rather than a basic cadence sensor is the headline spec here — it reads how hard you're actually pedalling and adjusts assist accordingly, giving a noticeably more natural ride feel than the cheaper cadence-based ENGWE below. The 48V 15Ah battery is rated for up to 130km, among the longest ranges on this list, and it currently holds the highest owner rating of any e-bike we track on Amazon.ie at 4.8 stars. That performance comes at the top price point here, and like every fat-tyre folding e-bike, it's genuinely heavy to lift or carry up stairs. The right choice for someone who wants the most natural-feeling assist and longest range and is prepared to pay for it; budget-focused buyers should look to the VARUN instead.
 
-### 2. ENGWE Folding E-Bike (48V 13Ah, up to 120 km)  [Best Range Value]
-Brand: ENGWE
-Price: ~€1049
-Rating: 4.3/5 (Amazon.ie)
-Cost per charge: €0.24 per full charge at €0.38/kWh
-Battery: 48V 13Ah removable
-Range: Up to 120 km
-Type: Folding
-Charge: Indoors, battery out
-Pros: 120 km claimed range; Removable battery; ENGWE build pedigree
-Cons: Cadence assist (not torque); Bulky folded
-Verdict: Claimed range of up to 120km comes from the same ENGWE build quality as the flagship above, but at roughly €650 less, making this the range-per-euro option on this list. The battery is removable, so it can be charged indoors overnight without hauling the whole bike inside — handy for apartment living. Assist comes from a cadence sensor rather than the flagship's torque sensor, meaning the motor responds to pedal rotation rather than pedalling force, which feels less refined on hills. It also folds down to a bulkier package than some rivals, so storage space matters. A strong pick for commuters chasing maximum range on a mid-size budget; riders who prioritise ride feel over range should pay up for the torque-sensor model.
-
-### 3. Fafrees F20 X-MAX (48V 30Ah / 1440Wh)  [Best Range Flagship]
+### 2. Fafrees F20 X-MAX (48V 30Ah / 1440Wh)  [Best Range Flagship]
 Brand: Fafrees
 Price: ~€1999
 Rating: 4.5/5 (Amazon.ie)
@@ -2542,7 +2491,7 @@ Pros: 1440 Wh: double most rivals; Genuine all-week range; Flagship components
 Cons: €2,000 territory; Very heavy
 Verdict: At 1440Wh, the battery on this Fafrees is roughly double the capacity of most other e-bikes on this list, translating into range built for a full week of commuting between charges rather than the usual few days. Components across the board are pitched at flagship level to match that battery size. All of that pushes the price into the €2,000 range, the highest here, and the bike itself is very heavy — even more so than the already-substantial ENGWE fat folders — a real factor if you need to carry it up steps or into storage regularly. Suited to riders who want to charge as rarely as possible and don't mind the weight; most commuters will find the ENGWE models cover their needs for considerably less money.
 
-### 4. ENGWE 20"×4.0 Fat Step-Through E-Bike (7-Speed)  [Best Step-Through]
+### 3. ENGWE 20"×4.0 Fat Step-Through E-Bike (7-Speed)  [Best Step-Through]
 Brand: ENGWE
 Price: ~€1149
 Rating: 4.5/5 (Amazon.ie)
@@ -2600,14 +2549,14 @@ Under €1,000, e-bike shopping is a minefield of no-name frames and warranty gh
 ### 1. Fafrees 26" Hailong-One E-Bike  [Best Classic 26"]
 Brand: Fafrees
 Price: ~€699
-Rating: 4.2/5 (Amazon.ie)
+Rating: 5.0/5 (Amazon.ie)
 Cost per charge: €0.18 per full charge at €0.38/kWh
 Wheel: 26" classic
 Battery: 36V 13Ah removable
 Style: Traditional commuter
 Value: Under €700
 Pros: Classic full-size feel; Removable Hailong battery; Honest price
-Cons: Plain spec sheet; Cadence assist
+Cons: Only one owner review on this Amazon.ie listing so far; Cadence assist
 Verdict: The traditional commuter: full-size wheels and removable battery without folding-bike compromises.
 
 ### 2. VARUN 27.5" Electric Mountain Bike (624Wh, App)  [Best MTB Under €1,000]
@@ -2676,7 +2625,7 @@ URL: https://pickireland.best/electric-bikes/best-folding-electric-bikes-ireland
 Summary: The best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.
 ------------------------------------------------------------------------------
 
-Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these four on fold speed, carry weight, and how much riding quality survives the hinge.
+Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these three on fold speed, carry weight, and how much riding quality survives the hinge.
 
 ### 1. ENGWE Folding E-Bike (48V 15Ah, Torque Sensor, 130 km)  [Best Premium Folder]
 Brand: ENGWE
@@ -2691,20 +2640,7 @@ Pros: Torque sensor — premium pedal feel; Up to 130 km of range; Best-rated e-
 Cons: Premium price; Heavy like all fat folders
 Verdict: The best e-bike on Amazon.ie right now: massive range, natural torque-sensor assist, top owner ratings.
 
-### 2. ENGWE Folding E-Bike (48V 13Ah, up to 120 km)  [Best Range Folder]
-Brand: ENGWE
-Price: ~€1049
-Rating: 4.3/5 (Amazon.ie)
-Cost per charge: €0.24 per full charge at €0.38/kWh
-Battery: 48V 13Ah removable
-Range: Up to 120 km
-Type: Folding
-Charge: Indoors, battery out
-Pros: 120 km claimed range; Removable battery; ENGWE build pedigree
-Cons: Cadence assist (not torque); Bulky folded
-Verdict: The range-per-euro king: week-of-commutes battery in a folding frame at €1,049.
-
-### 3. Fafrees F20 Folding Fat E-Bike (20")  [Best Value Fat Folder]
+### 2. Fafrees F20 Folding Fat E-Bike (20")  [Best Value Fat Folder]
 Brand: Fafrees
 Price: ~€899
 Rating: 4.4/5 (Amazon.ie)
@@ -2716,7 +2652,7 @@ Pros: The proven F20 formula; Folds for storage; Fat-tyre comfort
 Cons: 20" wheels on rough roads; Basic display
 Verdict: The folding fat bestseller: comfort, storage and price in the sweet spot.
 
-### 4. VARUN 20"×4.0 Fat Folding E-Bike (48V 13Ah)  [Best-Rated Compact]
+### 3. VARUN 20"×4.0 Fat Folding E-Bike (48V 13Ah)  [Best-Rated Compact]
 Brand: VARUN
 Price: ~€829
 Rating: 4.5/5 (Amazon.ie)
@@ -2799,7 +2735,7 @@ Verdict: The marathon hardtail: more amp-hours than bikes twice the price.
 
 ### 3. Lohang Dual-Motor Electric Bike (52V 24Ah)  [Most Powerful (Private Land)]
 Brand: Lohang
-Price: ~€1099
+Price: ~€899
 Rating: 4.6/5 (Amazon.ie)
 Cost per charge: €0.47 per full charge at €0.38/kWh
 Motors: Dual
@@ -2864,7 +2800,7 @@ URL: https://pickireland.best/electric-bikes/best-commuter-electric-bikes-irelan
 Summary: The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison.
 ------------------------------------------------------------------------------
 
-A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared four commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.
+A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared three commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.
 
 ### 1. ENGWE 20"×4.0 Fat Step-Through E-Bike (7-Speed)  [Best Comfort Commuter]
 Brand: ENGWE
@@ -2878,33 +2814,20 @@ Pros: Step-through — easiest mounting; Fat tyres smooth Irish roads; 7 gears f
 Cons: Smaller wheels feel speed bumps; Style splits opinion
 Verdict: The accessibility champion: swing a leg through, not over — comfort-first fat-tyre riding.
 
-### 2. ENGWE Folding E-Bike (48V 13Ah, up to 120 km)  [Best Range Commuter]
-Brand: ENGWE
-Price: ~€1049
-Rating: 4.3/5 (Amazon.ie)
-Cost per charge: €0.24 per full charge at €0.38/kWh
-Battery: 48V 13Ah removable
-Range: Up to 120 km
-Type: Folding
-Charge: Indoors, battery out
-Pros: 120 km claimed range; Removable battery; ENGWE build pedigree
-Cons: Cadence assist (not torque); Bulky folded
-Verdict: The range-per-euro king: week-of-commutes battery in a folding frame at €1,049.
-
-### 3. Fafrees 26" Hailong-One E-Bike  [Best Classic Commuter]
+### 2. Fafrees 26" Hailong-One E-Bike  [Best Classic Commuter]
 Brand: Fafrees
 Price: ~€699
-Rating: 4.2/5 (Amazon.ie)
+Rating: 5.0/5 (Amazon.ie)
 Cost per charge: €0.18 per full charge at €0.38/kWh
 Wheel: 26" classic
 Battery: 36V 13Ah removable
 Style: Traditional commuter
 Value: Under €700
 Pros: Classic full-size feel; Removable Hailong battery; Honest price
-Cons: Plain spec sheet; Cadence assist
+Cons: Only one owner review on this Amazon.ie listing so far; Cadence assist
 Verdict: The traditional commuter: full-size wheels and removable battery without folding-bike compromises.
 
-### 4. Fafrees F20 Mate Electric Tricycle (873 Wh)  [Best Stability/Cargo Trike]
+### 3. Fafrees F20 Mate Electric Tricycle (873 Wh)  [Best Stability/Cargo Trike]
 Brand: Fafrees
 Price: ~€1800
 Rating: 4.6/5 (Amazon.ie)
@@ -2996,7 +2919,7 @@ Verdict: The Cosi Home double underblanket is the most-reviewed blanket we found
 
 ### 2. Russell Hobbs Dual Control King Underblanket (120W)  [Best Dual Control]
 Brand: Russell Hobbs
-Price: ~€52
+Price: ~€46
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.05/hour at €0.38/kWh
 Controls: Dual (2 detachable)
@@ -3035,7 +2958,7 @@ Verdict: Daewoo's double blanket is the value pick: about €34, 85 W, three set
 
 ### 5. STATUS Double Electric Underblanket (70W)  [Cheapest to Run]
 Brand: STATUS
-Price: ~€28
+Price: ~€25
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.03/hour at €0.38/kWh
 Power: 70 W
@@ -3061,7 +2984,7 @@ Verdict: Wärmer's fully fitted double blanket has the highest owner rating in t
 
 ### 7. Bauer Professional Electric Heated Throw, 120 x 160 cm  [Best Heated Throw]
 Brand: Bauer
-Price: ~€36
+Price: ~€50
 Rating: 4.4/5 (Amazon.ie)
 Size: 120 x 160 cm
 Type: Heated throw (over-blanket)
@@ -3074,7 +2997,7 @@ Verdict: The Bauer heated throw is for the hours you are not in bed: on the sofa
 ==============================================================================
 # CATEGORY: Electric Heaters
 URL: https://pickireland.best/electric-heaters/
-5 guides, 27 product entries
+5 guides, 26 product entries
 ==============================================================================
 
 With Irish electricity among the priciest in Europe, the wrong electric heater is a money bonfire — but the right one, used to heat the person instead of the whole house, cuts bills. The maths matters: every heater converts electricity to heat at ~100% efficiency, so the differences are in how they deliver it (radiant vs convection vs oil), how well they hold it, and thermostat intelligence. We compare them honestly, running costs included.
@@ -3112,7 +3035,7 @@ Every winter, Irish households panic-buy heaters that triple their bills. The fi
 
 ### 1. Dreo 1500W Ceramic Space Heater  [Best Overall]
 Brand: Dreo
-Price: ~€49
+Price: ~€60
 Rating: 4.7/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1,500 W
@@ -3121,7 +3044,7 @@ Thermostat: Digital
 Safety: Tip-over + overheat
 Pros: Heats in seconds; Accurate digital thermostat; Quiet for a fan heater
 Cons: Room-size limits; No app
-Verdict: At €49, the Dreo 1500W Ceramic Space Heater earns the Best Overall badge by getting the fundamentals right: ceramic PTC heating that warms a room in seconds, paired with a digital thermostat owner reviews on Amazon.ie describe as unusually precise for the price. It also runs quieter than typical fan heaters, and tip-over plus overheat protection cover the safety basics. Where it falls short is scale — 1,500W suits a bedroom or home office, not an open-plan living area, and there's no app, so scheduling means walking over and pressing a button. Buy this if you want fast, accurate heat in one room without paying for smart features you won't use; skip it if you're heating a large space.
+Verdict: At €60, the Dreo 1500W Ceramic Space Heater earns the Best Overall badge by getting the fundamentals right: ceramic PTC heating that warms a room in seconds, paired with a digital thermostat owner reviews on Amazon.ie describe as unusually precise for the price. It also runs quieter than typical fan heaters, and tip-over plus overheat protection cover the safety basics. Where it falls short is scale — 1,500W suits a bedroom or home office, not an open-plan living area, and there's no app, so scheduling means walking over and pressing a button. Buy this if you want fast, accurate heat in one room without paying for smart features you won't use; skip it if you're heating a large space.
 
 ### 2. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator]
 Brand: Rowenta
@@ -3169,21 +3092,21 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.87/hour at €0.38/kWh
 Power: 2300 W
 Pros: €89 — 3rd-cheapest of the 6 picks here; 2300 W power
-Cons: 1 of the 6 picks here is better rated by owners; €40 more than our top pick, which owners rate higher at 4.7★
+Cons: 1 of the 6 picks here is better rated by owners; €29 more than our top pick, which owners rate higher at 4.7★
 Verdict: The Zanussi 2300W Oil Filled Radiator sits just outside our top picks but is worth a look on value alone: an 11-fin, 2,300W design at €89 undercuts the Rowenta oil radiator above by a significant margin while still holding a 4.4★ owner rating on Amazon.ie. It ships with the standard Amazon.ie returns protection, which takes some of the risk out of trying a less familiar name. Set against that, it hasn't been in our comparison as long as the established picks, and because Zanussi products are sold through multiple sellers, the level of support you get can vary. A reasonable pick for anyone who wants oil-radiator style heat without paying big-brand money, provided they're comfortable with a shorter track record.
 
 ### 6. De'Longhi Radia S (Rooms up to 60 m³)  [Strong Alternative]
 Brand: De'Longhi
-Price: ~€135
+Price: ~€100
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2000 W
 Heat settings: 3
 Room size: Up to 60 m³
 Type: Oil-filled radiator
-Pros: €135 — 5th-cheapest of the 6 picks here; 2000 W power; 3 heat settings
-Cons: 1 of the 6 picks here is better rated by owners; €86 more than our top pick, which owners rate higher at 4.7★
-Verdict: The De'Longhi Radia S is sized for rooms up to 60 m³ and holds a solid 4.4★ from Amazon.ie owners at €135, a touch above the 4.3★ of our Rowenta oil radiator winner. It offers honest value for what's on the spec sheet, and buying through Amazon.ie keeps warranty and returns simple. It didn't take the category badge here, so it's positioned as an alternative rather than the outright pick, and given how close it's priced to the Rowenta above, it's worth comparing both spec sheets before deciding. Reasonable for buyers who prefer this model's size or styling to the Rowenta, but not an obvious upgrade over our top choice.
+Pros: €100 — 4th-cheapest of the 6 picks here; 2000 W power; 3 heat settings
+Cons: 1 of the 6 picks here is better rated by owners; €40 more than our top pick, which owners rate higher at 4.7★
+Verdict: The De'Longhi Radia S is sized for rooms up to 60 m³ and holds a solid 4.4★ from Amazon.ie owners at €100, a touch above the 4.3★ of our Rowenta oil radiator winner. It offers honest value for what's on the spec sheet, and buying through Amazon.ie keeps warranty and returns simple. It didn't take the category badge here, so it's positioned as an alternative rather than the outright pick, and given how close it's priced to the Rowenta above, it's worth comparing both spec sheets before deciding. Reasonable for buyers who prefer this model's size or styling to the Rowenta, but not an obvious upgrade over our top choice.
 
 #### How do you actually pick the right electric heater for a room?
 Answer three questions before comparing wattage or price: how big is the room, how well does it hold heat, and how long will the heater run each time you switch it on. A draughty period-house bedroom with single glazing loses heat far faster than a sealed 2020s apartment with the same floor area, so the same heater behaves completely differently in each. Rooms you occupy for hours — a sitting room in the evening, a home office all day — suit heaters with thermal mass or accurate thermostats that hold a set temperature efficiently. Rooms you pass through briefly — a hallway, a bathroom before a shower — suit fast radiant or fan heat that warms a person, not the air. Getting this match wrong is the single biggest reason Irish households end up with a heater that either never feels warm enough or runs constantly and produces a bill to match.
@@ -3241,7 +3164,7 @@ Verdict: This page ranks on running cost, and at 600 W the Purus draws less than
 
 ### 2. Dreo 1500W Ceramic Space Heater  [Best Thermostat Efficiency]
 Brand: Dreo
-Price: ~€49
+Price: ~€60
 Rating: 4.7/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1,500 W
@@ -3254,14 +3177,14 @@ Verdict: The best small heater on Amazon.ie: fast, precise and safe — the pani
 
 ### 3. Daewoo 2000W Oil Filled Radiator  [Cheapest Room Oil]
 Brand: Daewoo
-Price: ~€38
+Price: ~€53
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Thermostat: Adjustable
 Portable: Castors
 Settings: 3
-Pros: 2 kW oil for €38; Portable on castors; Simple and silent
+Pros: 2 kW oil for €53; Portable on castors; Simple and silent
 Cons: Basic thermostat; Fins run hot
 Verdict: The cheapest real oil radiator on the site — all-evening warmth, pocket-money price.
 
@@ -3287,7 +3210,7 @@ Power: 900 / 1,300 / 2,000 W
 Modes: 3 heat + fan only
 Thermostat: Adjustable
 Safety: Overheat + tip-over
-Pros: €40 — 2nd-cheapest of the 5 picks here; Owners rate it 4.4★, above our top pick's 4.2★
+Pros: Owners rate it 4.4★, above our top pick's 4.2★
 Cons: 1 of the 5 picks here is better rated by owners; Draws 2,000 W on its top setting
 Verdict: A €40 mini ceramic heater with three power levels — 900, 1,300 and 2,000 W — plus a fan-only mode, an adjustable thermostat and tip-over protection, rated 4.4 stars by more than 1,000 owners. Ceramic heats fast and aims warmth at a person, which is the right principle for this page, and the 900 W setting costs about €0.34 an hour at €0.38/kWh. It sits below our top pick only because that Purus draws 600 W, and this page ranks on running cost first. Strong choice if you want a thermostat and a low setting in a heater small enough for a desk.
 
@@ -3352,14 +3275,14 @@ Verdict: The steady all-evening heater: quiet, Eco-mode thrifty, with full tip-o
 
 ### 2. Midea 2000W Oil-Filled Radiator (9-Fin)  [Best Value 9-Fin]
 Brand: Midea
-Price: ~€86
+Price: ~€73
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Fins: 9
 Thermostat: Adjustable
 Safety: Tip-over
-Pros: Strong 9-fin heat output; Quality build for €86; Silent
+Pros: Strong 9-fin heat output; Quality build for €73; Silent
 Cons: Slow warm-up like all oil; No digital display
 Verdict: The value 2 kW oil radiator: most metal per euro for all-evening heating.
 
@@ -3378,33 +3301,33 @@ Verdict: An oil radiator with an 800 W setting, which makes it cheaper to run th
 
 ### 4. Daewoo 2000W Oil Filled Radiator  [Best Budget 2kW]
 Brand: Daewoo
-Price: ~€38
+Price: ~€53
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Thermostat: Adjustable
 Portable: Castors
 Settings: 3
-Pros: 2 kW oil for €38; Portable on castors; Simple and silent
+Pros: 2 kW oil for €53; Portable on castors; Simple and silent
 Cons: Basic thermostat; Fins run hot
 Verdict: The cheapest real oil radiator on the site — all-evening warmth, pocket-money price.
 
 ### 5. Dreo 25" Oscillating Tower Heater (70°)  [Solid Backup Choice]
 Brand: Dreo
-Price: ~€90
+Price: ~€122
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 700–1500 W
 Oscillation: 70°
 Noise: From 25 dB
 Timer: 1–12 h
-Pros: €56 less than our top pick; 700–1500 W power; 70° oscillation
+Pros: €24 less than our top pick; 700–1500 W power; 70° oscillation
 Cons: Fan heater, not oil-filled; Stops warming when it switches off
-Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €90 against €146, and owners actually rate it higher, 4.5 stars against 4.3. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
+Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €122 against €146, and owners actually rate it higher, 4.5 stars against 4.3. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
 
 ### 6. De'Longhi TRDX40820E Oil-Filled Radiator (2000W, Programmable)  [Worth Considering]
 Brand: De'Longhi
-Price: ~€187
+Price: ~€244
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
@@ -3412,8 +3335,8 @@ Type: Oil-filled
 Timer: Daily & weekly programming
 Modes: Night, Comfort, Antifreeze, Chrono
 Pros: Daily and weekly programming, with remote; Child-safety mode lowers the surface temperature; Joint highest owner rating on this page at 4.5★
-Cons: Most expensive pick on this page at €187; €41 more than our top pick for the same 2,000 W
-Verdict: De'Longhi's TRDX40820E is a true oil-filled radiator, and at €187 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.3. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €41 less.
+Cons: Most expensive pick on this page at €244; €98 more than our top pick for the same 2,000 W
+Verdict: De'Longhi's TRDX40820E is a true oil-filled radiator, and at €244 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.3. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €98 less.
 
 #### Why do oil-filled radiators stay warm after the thermostat switches off?
 An oil-filled radiator heats a sealed reservoir of thermal oil rather than air or a person directly, and that oil holds heat far longer than the metal casing of a fan or ceramic heater. In practice the thermostat can switch the element off well before the room stops feeling warm, because the oil keeps radiating stored heat for a good while afterwards. The trade-off is a slower start — you feel a fan heater's output within seconds, but an oil radiator can take fifteen to twenty minutes to noticeably warm a room. For anywhere you're settling in for an evening rather than passing through, that slow, steady, even heat is usually the more comfortable and often the cheaper option over the full session, because the element spends less of the evening actually drawing power.
@@ -3456,7 +3379,7 @@ URL: https://pickireland.best/electric-heaters/best-panel-heaters-ireland.html
 Summary: Slim electric panel heaters for Irish rooms compared: smart scheduling, wall mounting, Lot 20 compliance and running costs. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Panel heaters are the fitted-look option: slim, silent, wall-mountable, and increasingly smart enough to schedule around cheap-rate electricity windows. They suit sealed modern rooms and background heating — not draughty period homes needing fast recovery. We compared thermostat accuracy, scheduling intelligence and build across the five best sold here.
+Panel heaters are the fitted-look option: slim, silent, wall-mountable, and increasingly smart enough to schedule around cheap-rate electricity windows. They suit sealed modern rooms and background heating — not draughty period homes needing fast recovery. We compared thermostat accuracy, scheduling intelligence and build across the four best sold here.
 
 ### 1. Devola 1500W Smart Glass Panel Heater (Grey)  [Best Panel Overall]
 Brand: Devola
@@ -3498,22 +3421,9 @@ Pros: 70° oscillation with remote control; ECO mode adjusts power to the room; 
 Cons: Fan heater, not a panel; Compact 26.2 cm unit, not a tower
 Verdict: Dreo's compact ceramic heater costs €80 against our €124 Devola panel pick and carries a stronger 4.5-star owner rating from more than 5,000 buyers. Like the other fan heaters on this page, though, it isn't a panel: it pushes warm air quickly across a 70° sweep, with fan noise, rather than giving off the silent background heat a wall-mounted panel is bought for. The ECO mode and 1–12 hour timer help keep running time in check. A good quick-heat backup for a desk or bedside; not a replacement for a fitted panel.
 
-### 4. Philips 5000 Series Connected Tower Heater  [Value Contender]
-Brand: Philips
-Price: ~€114
-Rating: 4.3/5 (Amazon.ie)
-Running cost: €0.76/hour at €0.38/kWh
-Power: 1200 / 2000 W
-Coverage: Up to 20 m²
-Oscillation: 60°
-Smart: Air+ app connected
-Pros: €114 — 3rd-cheapest of the 5 picks here; 1200 / 2000 W power; Up to 20 m² coverage
-Cons: 2 of the 5 picks here are better rated by owners; €10 less than our top pick, with the same 4.3★ owner rating
-Verdict: Philips' Connected Tower is €114 against our €124 Devola pick, so slightly cheaper, and matches the Devola's 4.3-star owner rating. The difference that matters here is format: this is a tower fan heater, not a wall-mountable panel, so it delivers fast directional warmth with fan noise rather than the silent, fitted background heat this page is about. Fine heater, wrong shape for this list.
-
-### 5. De'Longhi Bend Line Ceramic Heater (Remote)  [Challenger Pick]
+### 4. De'Longhi Bend Line Ceramic Heater (Remote)  [Challenger Pick]
 Brand: De'Longhi
-Price: ~€155
+Price: ~€96
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 1200 / 2000 W
@@ -3521,8 +3431,8 @@ Room size: Up to 60 m³
 Timer: 24 h
 Control: Digital + remote
 Pros: 1200 / 2000 W power; Up to 60 m³ room size; Second-best owner rating on this page at 4.4★
-Cons: 1 of the 5 picks here is better rated by owners; €31 more than our top pick, the Devola panel
-Verdict: De'Longhi's Bend Line is the most expensive option on this page at €155 and carries a good 4.4-star rating from a brand with real service presence in Ireland. Like the other towers here it's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it only if you'd rather have De'Longhi's build than a true panel.
+Cons: 1 of the 4 picks here is better rated by owners; A ceramic fan heater, not a true panel
+Verdict: De'Longhi's Bend Line costs around €96, less than our €124 Devola panel, and carries a good 4.4-star rating from a brand with real service presence in Ireland. It's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it if you'd rather have De'Longhi's build and fast heat than a true panel.
 
 #### What kind of room does a panel heater actually work best in?
 Panel heaters carry little thermal mass and rely on either convection or a flat infrared element to warm a room steadily rather than in a fast burst, which suits newer builds with a BER rating of B or A, tight window and door seals, and good attic and wall insulation. In that kind of airtight room the heat has nowhere to escape, so a modest wattage running in the background holds a comfortable temperature all evening. A panel heater's slim profile and wall-mounted design make it the closest thing to a fitted heating solution in the plug-in category, but that design is also what defines where it performs. Put the same heater in a draughty older room with single glazing and gaps around the frames and it will cycle almost constantly, trying to keep pace with heat leaking out as fast as it's produced — at which point wattage stops being the limiting factor and insulation becomes the real problem.
@@ -3583,7 +3493,7 @@ Verdict: The fitted-look bathroom answer: IP24-rated, slim and wall-mountable fo
 
 ### 2. Dreo 1500W Ceramic Space Heater  [Best Portable Quick Heat]
 Brand: Dreo
-Price: ~€49
+Price: ~€60
 Rating: 4.7/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1,500 W
@@ -3596,26 +3506,26 @@ Verdict: The best small heater on Amazon.ie: fast, precise and safe — the pani
 
 ### 3. Ventox 2000W Fan Heater with Fan Mode  [Best All-Season]
 Brand: Ventox
-Price: ~€16
+Price: ~€25
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Modes: 2 heat + cool fan
 Thermostat: Adjustable
 Size: Compact
-Pros: Summer fan mode included; Adjustable thermostat; €16
+Pros: Summer fan mode included; Adjustable thermostat; €25
 Cons: Fan tone audible; Plastic body
-Verdict: Year-round value: heater in January, desk fan in July, €16 once.
+Verdict: Year-round value: heater in January, desk fan in July, €25 once.
 
 ### 4. Morphy Richards HeatFlux Digital Oil Radiator  [Worth Considering]
 Brand: Morphy Richards
-Price: ~€51
+Price: ~€99
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1500 W
-Pros: €29 less than our top pick; Owners rate it 4.4★, above our top pick's 4.2★
-Cons: 1 of the 5 picks here is better rated by owners; Full specs not confirmed — check the current listing before buying
-Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars and cheap at €51, undercutting our €80 Purus pick. The problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It's also not bathroom-rated the way the Purus is. A good buy for a small bedroom; the wrong tool for a wet room.
+Pros: Owners rate it 4.4★, above our top pick's 4.2★
+Cons: 1 of the 5 picks here is better rated by owners; €19 more than our top pick
+Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars, but at around €99 it now costs more than our €80 Purus pick. The bigger problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It's also not bathroom-rated the way the Purus is. A good buy for a small bedroom; the wrong tool for a wet room.
 
 ### 5. Midea 2000W PTC Ceramic Tower Heater  [Notable Mention]
 Brand: Midea
@@ -4097,20 +4007,20 @@ Verdict: At €123, this generic-brand High-Back Chair outscores the SIHOO M102C
 
 ### 3. SIHOO M18 Ergonomic Office Chair  [Best Value Full-Feature]
 Brand: SIHOO
-Price: ~€150
-Rating: 4.5/5 (Amazon.ie)
+Price: ~€220
+Rating: 4.3/5 (Amazon.ie)
 Back: Mesh
 Lumbar: Adjustable depth
 Weight rating: 150 kg
 Headrest: Adjustable
 Pros: Proven bestseller design; 150 kg rating; Adjustable lumbar + headrest
 Cons: 2D arms only; Mesh coarser than premium
-Verdict: The SIHOO M18 has sold in enough volume to earn genuine bestseller status, and at €150 it packs in adjustable lumbar support and an adjustable headrest alongside a 150kg weight rating that comfortably covers most body types — details that don't always show up together at this price. It's a proven, well-reviewed design rather than a gamble on an unknown. The arms are 2D rather than the more flexible 4D found on pricier chairs, and the mesh has a coarser weave than the premium options on this list. A solid, low-risk choice for someone who wants adjustable lumbar and headrest support without paying for arm articulation they may never use.
+Verdict: The SIHOO M18 has sold in enough volume to earn genuine bestseller status, and at around €220 it packs in adjustable lumbar support and an adjustable headrest alongside a 150kg weight rating that comfortably covers most body types — details that don't always show up together at this price. It's a proven, well-reviewed design rather than a gamble on an unknown. The arms are 2D rather than the more flexible 4D found on pricier chairs, and the mesh has a coarser weave than the premium options on this list. A solid, low-risk choice for someone who wants adjustable lumbar and headrest support without paying for arm articulation they may never use.
 
 ### 4. Mesh Desk Chair with Flip-Up Armrests & Headrest  [Best Compact]
 Brand: Generic
 Price: ~€80
-Rating: 4.5/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Back: Mesh + headrest
 Arms: Flip-up
 Recline: 90–120°
@@ -4128,20 +4038,20 @@ Recline: 90°–126°
 Armrests: 3D adjustable
 Lumbar: Height + depth adjustable
 Pros: 150 kg max load; 90°–126° recline
-Cons: Joint-lowest owner rating of the picks here at 4.3★; €90 more than our top pick, the M102C
-Verdict: The SIHOO M57 adds 3-way adjustable arms to the SIHOO ergonomic lineup and holds a solid 4.3★ owner rating on Amazon.ie, with typical pricing around €200 putting it above the M102C and M18 already covered here. As with those chairs, buying through Amazon.ie means the returns process is straightforward if it doesn't suit. It's newer to our comparison than the top picks, so there's less accumulated feedback to lean on, and because SIHOO chairs are listed through multiple sellers, the support experience can vary depending on who you buy from. Worth a look if you specifically want 3-way arm adjustment and are happy paying more for it, but the M102C remains the stronger all-round value.
+Cons: Same 4.3★ owner rating as our cheaper top pick; €90 more than our top pick, the M102C
+Verdict: The SIHOO M57 adds 3-way adjustable arms to the SIHOO ergonomic lineup and holds a solid 4.3★ owner rating on Amazon.ie, at around €250 it costs more than the M102C and M18 already covered here. As with those chairs, buying through Amazon.ie means the returns process is straightforward if it doesn't suit. It's newer to our comparison than the top picks, so there's less accumulated feedback to lean on, and because SIHOO chairs are listed through multiple sellers, the support experience can vary depending on who you buy from. Worth a look if you specifically want 3-way arm adjustment and are happy paying more for it, but the M102C remains the stronger all-round value.
 
 ### 6. Ticova Ergonomic Office Chair (High Back, Adjustable Lumbar & Headrest)  [Notable Mention]
 Brand: Ticova
 Price: ~€120
-Rating: 4.8/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Max load: 127 kg
 Recline: Up to 130°
 Armrests: 3D metal
 Headrest: Height + angle adjustable
 Pros: €40 less than our top pick; 127 kg max load; Up to 130° recline
-Cons: Not our category winner — compare against the SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)
-Verdict: The Ticova Ergonomic Office Chair posts the highest owner rating on this entire page at 4.8★, combining a high back with adjustable lumbar support and headrest — the same core feature set as the SIHOO chairs above. Amazon.ie listings show it available in Ireland right now, and reviewers consistently rate it well despite the generic build behind the Ticova name. Set against that near-perfect score, it has less of a track record in our own comparison than the established SIHOO picks, so it's worth reading a few current reviews and double-checking the exact spec listing matches what you need before buying, since generic-brand listings can vary. An intriguing alternative for anyone chasing the single highest rating on this list.
+Cons: Joint-lowest owner rating on this page at 4.1★; Not our category winner — compare against the SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)
+Verdict: The Ticova Ergonomic Office Chair combines a high back with adjustable lumbar support and a headrest, the same core feature set as the SIHOO chairs above, for around €120. More than 2,000 owners rate it 4.1 stars on Amazon.ie, which ties it for the lowest score on this page, and generic-brand listings like this one can vary in exact spec, so check the current listing matches what you need. A reasonable lower-cost alternative; the SIHOO M102C is the safer buy for €40 more.
 
 #### What actually makes an office chair adjustable enough for real bodies?
 Height range, seat depth adjustment and armrest travel decide whether a chair works for one body or a household. A chair with only 5cm of seat height travel forces taller or shorter users into compromise postures — knees above hips, or feet dangling — and a fixed-depth seat that's too long presses on the back of the knees, cutting circulation over a workday. Look for seat pan sliders (usually 4–6cm of travel), independently adjustable armrests (height, width, and ideally pivot), and a backrest that reclines with tension control rather than a single locked angle. Ergonomic research consistently points to adjustability, not padding thickness, as the strongest predictor of whether a chair still feels supportive after month three. Cheap chairs fake this with a lever that does nothing.
@@ -4186,17 +4096,17 @@ Summary: Five office chairs under €200 with real ergonomic credentials for Iri
 
 Under €200 is booby-trapped territory: racing-style 'gaming chairs' with cosmetic ergonomics, and foam that retires before your next phone does. The escape route is mesh, simple proven mechanisms, and brands with actual warranties. These four maximise spine-per-euro — including what to deliberately sacrifice (looks, recline range) and what never to (lumbar, height range).
 
-### 1. SIHOO M18 Ergonomic Office Chair  [Best Under €200]
+### 1. SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)  [Best Under €200]
 Brand: SIHOO
-Price: ~€150
-Rating: 4.5/5 (Amazon.ie)
-Back: Mesh
-Lumbar: Adjustable depth
-Weight rating: 150 kg
+Price: ~€160
+Rating: 4.3/5 (Amazon.ie)
+Back: Mesh, high
+Lumbar: Up/down, 6 cm range
+Arms: 3D, flip-up
 Headrest: Adjustable
-Pros: Proven bestseller design; 150 kg rating; Adjustable lumbar + headrest
-Cons: 2D arms only; Mesh coarser than premium
-Verdict: The global budget-ergo classic — millions sold, backs supported, price still fair.
+Pros: Separate mesh lumbar with 6 cm of travel; Flip-up arms slide under the desk; Full mesh breathability
+Cons: Lumbar moves up and down only, not in depth; Dearest chair here that stays under €200
+Verdict: The SIHOO M102C is the chair to beat under €200: at around €160 it has a separate mesh lumbar pad with 6 cm of vertical travel, an adjustable headrest, and 3D armrests that flip up so the chair slides under a desk. Full mesh keeps it breathable through long working days, and nearly 2,000 owners rate it 4.3 stars. The lumbar adjusts in height only, not depth, but no other chair on this page gives you as much adjustment for the money.
 
 ### 2. Ergonomic High-Back Chair with Adjustable Lumbar  [Best Features Under €130]
 Brand: Generic
@@ -4213,7 +4123,7 @@ Verdict: Feature density at €123: the lumbar and recline essentials without br
 ### 3. Mesh Desk Chair with Flip-Up Armrests & Headrest  [Best Space Saver]
 Brand: Generic
 Price: ~€80
-Rating: 4.5/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Back: Mesh + headrest
 Arms: Flip-up
 Recline: 90–120°
@@ -4225,10 +4135,10 @@ Verdict: The small-room space saver: arms up, slide under desk, floor reclaimed.
 ### 4. FlexiSpot ErgoX Ergonomic Office Chair  [Above budget — upgrade path]
 Brand: FlexiSpot
 Price: ~€250
-Rating: 4.4/5 (Amazon.ie)
+Rating: 3.7/5 (Amazon.ie)
 Pros: Listed on Amazon.ie at €250
-Cons: 3 of the 4 picks here are better rated by owners; €100 more than our top pick, which owners rate higher at 4.5★
-Verdict: FlexiSpot is a well-established name in home-office furniture and the ErgoX is the most feature-complete chair here, but at €250 it sits €50 above this page's under-€200 remit and €100 above our SIHOO pick, while rating slightly lower with owners at 4.4 stars against 4.5. Included as the obvious step up if the budget cap is soft; if €200 is firm, the SIHOO does the job for less.
+Cons: 3 of the 4 picks here are better rated by owners; €90 more than our top pick, which owners rate higher at 4.3★
+Verdict: FlexiSpot is a well-established name in home-office furniture and the ErgoX is the most feature-complete chair here, but at €250 it sits €50 above this page's under-€200 remit and €90 above our SIHOO pick, while rating lower with owners at 3.7 stars against 4.3. Included as the obvious step up if the budget cap is soft; if €200 is firm, the SIHOO does the job for less.
 
 #### What should you never sacrifice on an office chair under €200?
 At this budget something gives, and the trick is choosing what. Recline range, headrests, premium upholstery and multi-position armrests are the first things worth dropping — they're comfort extras, not the features tied to injury prevention or all-day support. What shouldn't be sacrificed is seat height adjustment covering your actual range, a lumbar mechanism that does something (even a simple height-slide pad beats none), and a weight rating with genuine margin over your body weight. A €150 chair with basic-but-real lumbar adjustment and a narrow feature list will serve a desk job better than a €190 chair loaded with a headrest and 3D armrests but a fixed backrest angle and no seat depth adjustment. Decide your two non-negotiables before browsing, because marketing photos make every chair at this price look similarly loaded.
@@ -4275,15 +4185,15 @@ The sit-stand desk won the ergonomic argument by making movement effortless — 
 
 ### 1. ErGear Electric Standing Desk 120×60 cm  [Best Value Electric]
 Brand: ErGear
-Price: ~€91
+Price: ~€142
 Rating: 4.5/5 (Amazon.ie)
 Drive: Electric motor
 Size: 120×60 cm
 Memory: Presets
 Range: Sit to stand
-Pros: Electric sit-stand under €100; Memory height presets; Solid for the price
+Pros: Electric sit-stand for around €142; Memory height presets; Solid for the price
 Cons: Single motor; 60 cm depth is snug
-Verdict: The price breakthrough: a real electric standing desk for €91.
+Verdict: A real electric standing desk with memory presets for around €142, rated 4.5 stars by owners.
 
 ### 2. FlexiSpot E1 Plus Electric Standing Desk (One-Piece Top, 120×60 cm)  [Best Frame Quality]
 Brand: FlexiSpot
@@ -4298,7 +4208,7 @@ Verdict: The brand-quality frame: pay ~€100 more for the engineering and warra
 
 ### 3. ERGOMAKER Electric Standing Desk 90×60 cm  [Best Compact]
 Brand: ERGOMAKER
-Price: ~€144
+Price: ~€126
 Rating: 4.5/5 (Amazon.ie)
 Drive: Electric
 Size: 90×60 cm compact
@@ -4365,7 +4275,7 @@ The Irish 'home office' is usually a box room, a bedroom corner, or a stretch of
 
 ### 1. ERGOMAKER Electric Standing Desk 90×60 cm  [Best Small Sit-Stand]
 Brand: ERGOMAKER
-Price: ~€144
+Price: ~€126
 Rating: 4.5/5 (Amazon.ie)
 Drive: Electric
 Size: 90×60 cm compact
@@ -4390,7 +4300,7 @@ Verdict: The absolute entry price for powered sit-stand — €78, presets inclu
 ### 3. Mesh Desk Chair with Flip-Up Armrests & Headrest  [Not a desk — space-saving chair]
 Brand: Generic
 Price: ~€80
-Rating: 4.5/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Back: Mesh + headrest
 Arms: Flip-up
 Recline: 90–120°
@@ -4456,7 +4366,7 @@ Not every setup starts from scratch: converters add sit-stand to existing desks,
 
 ### 1. ERGOMAKER 81 cm Standing Desk Converter  [Best Converter Overall]
 Brand: ERGOMAKER
-Price: ~€100
+Price: ~€116
 Rating: 4.4/5 (Amazon.ie)
 Type: Converter
 Top: 80 × 40 cm
@@ -4505,13 +4415,13 @@ Verdict: The single best €43 upgrade: correct screen height fixes the posture 
 
 ### 5. Amazon Basics Single Monitor Arm  [Cheapest Ergo Win]
 Brand: Amazon Basics
-Price: ~€18
+Price: ~€23
 Rating: 4.4/5 (Amazon.ie)
 Fits: Standard monitors
 Motion: Height + tilt
 Mount: Clamp
 Price: €18
-Pros: €18 ergonomic win; Amazon-backed returns; Simple install
+Pros: €23 ergonomic win; Amazon-backed returns; Simple install
 Cons: Less articulation; Lighter monitors only
 Verdict: The cheapest correct-posture purchase on the site. Just buy it.
 
@@ -4553,7 +4463,7 @@ A: A monitor arm and a decent chair upgrade generally deliver more comfort impro
 ==============================================================================
 # CATEGORY: Robot Lawn Mowers
 URL: https://pickireland.best/robot-lawn-mowers/
-5 guides, 22 product entries
+5 guides, 19 product entries
 ==============================================================================
 
 Irish grass grows nine months a year and rains don't pause it — which makes the robot mower arguably more useful here than anywhere. The new wire-free generation (GPS/vision navigation) removed the old installation pain, and prices now start under €600. Constant micro-mowing also means clippings vanish as mulch and lawns visibly thicken. We compare wire and wire-free options for every garden size.
@@ -4577,7 +4487,7 @@ URL: https://pickireland.best/robot-lawn-mowers/best-robot-lawn-mowers-ireland.h
 Summary: Ireland's best robot lawn mowers compared: wire-free GPS models, slope handling, Irish weather readiness and value. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,618 across our five picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.
+Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,499 across our four picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.
 
 ### 1. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Best Overall Wire-Free]
 Brand: eufy
@@ -4593,7 +4503,7 @@ Verdict: The eufy E15 takes the top badge by solving robot mowing's biggest hass
 ### 2. Bosch VISIMOW 18V-100 Robot Mower  [Best Small-Garden Value]
 Brand: Bosch
 Price: ~€359
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4604,7 +4514,7 @@ Verdict: The Bosch VISIMOW brings a trusted power-tool name into wire-free robot
 ### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Best Mid-Size Wire-Free]
 Brand: Mammotion
 Price: ~€799
-Rating: 4.2/5 (Amazon.ie)
+Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
@@ -4613,22 +4523,10 @@ Pros: 500 m² wire-free at €799; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: Mammotion's YUKA mini 2 500 sits between the small-garden Bosch and the premium eufy above, covering up to 500 m² without any boundary wire for €799 — a specification sheet that reads as strong value for the coverage on offer. The app's zone control lets you map out sections of the garden individually, which owners note is a genuinely useful touch. Mammotion is a newer name than Bosch or eufy, though, and early reviews are more mixed than the top two picks, meaning there's a bit more uncertainty around long-term support and reliability. Worth considering if 500 m² matches your garden size and you're comfortable buying into a less established brand for the price advantage.
 
-### 4. Mammotion LUBA mini 2 AWD 1000  [Best Large/AWD]
-Brand: Mammotion
-Price: ~€1618
-Rating: 4.2/5 (Amazon.ie)
-Coverage: 1,000 m²
-Drive: AWD — steep slopes
-Navigation: Tri-camera + RTK
-Terrain: Rough ground
-Pros: AWD climbs serious slopes; 1,000 m² capability; Handles rough rural lawns
-Cons: Premium price; Complex setup options
-Verdict: The LUBA mini 2 AWD is built for the gardens other robot mowers can't handle: all-wheel drive for climbing steep slopes, tri-camera plus RTK navigation for accuracy, and coverage up to 1,000 m² that makes it the largest-capacity mower in this comparison. That combination suits rough, rural, or sloped terrain that would defeat the vision-only navigation on the eufy or Bosch above. It's priced accordingly — at over €1,600 it's the most expensive item on this page — and the range of setup options and navigation modes means it takes more configuration than the simpler walk-around setup on the eufy E15. Best reserved for large or difficult gardens where AWD and top-tier navigation genuinely earn their cost.
-
-### 5. Yard Force Classic 500 (up to 500 m²)  [Worth Considering]
+### 4. Yard Force Classic 500 (up to 500 m²)  [Worth Considering]
 Brand: Yard Force
 Price: ~€496
-Rating: 3.9/5 (Amazon.ie)
+Rating: 3.6/5 (Amazon.ie)
 Coverage: 500 m²
 Pros: €1003 less than our top pick; 500 m² coverage
 Cons: Lowest owner rating of the picks here at 3.9★; 3.9★ owner rating is only average for this price bracket
@@ -4677,7 +4575,7 @@ The typical Irish estate back garden — 80 to 250 m², a strip of side passage,
 ### 1. Bosch VISIMOW 18V-100 Robot Mower  [Best Small Garden Overall]
 Brand: Bosch
 Price: ~€359
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4687,8 +4585,8 @@ Verdict: The small-garden no-brainer: Bosch engineering, wire-free, €359.
 
 ### 2. Bosch VISIMOW 18V-200 Robot Mower  [Best Standard Estate Garden]
 Brand: Bosch
-Price: ~€519
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€439
+Rating: 3.8/5 (Amazon.ie)
 Coverage: Up to 200 m²
 Navigation: Vision, no wire
 Battery: 18V system
@@ -4699,7 +4597,7 @@ Verdict: The standard Irish back garden, solved: 200 m² of Bosch-managed grass.
 ### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Room to grow — 500 m²]
 Brand: Mammotion
 Price: ~€799
-Rating: 4.2/5 (Amazon.ie)
+Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
@@ -4759,19 +4657,7 @@ Summary: Robot mowers for big Irish gardens and rural sites — coverage, multi-
 
 Rural Ireland's lawns — the half-acre site, the long road frontage, the orchard patch — used to mean a ride-on and a Saturday. Large-capacity robots now cover 1,000 m² and up, manage multiple zones, and handle the slopes that make push-mowing dangerous. Capacity honesty matters most at this scale, so we cross-checked manufacturer coverage claims against owner reports from complex, multi-zone Irish gardens.
 
-### 1. Mammotion LUBA mini 2 AWD 1000  [Best Large Lawn Overall]
-Brand: Mammotion
-Price: ~€1618
-Rating: 4.2/5 (Amazon.ie)
-Coverage: 1,000 m²
-Drive: AWD — steep slopes
-Navigation: Tri-camera + RTK
-Terrain: Rough ground
-Pros: AWD climbs serious slopes; 1,000 m² capability; Handles rough rural lawns
-Cons: Premium price; Complex setup options
-Verdict: We rank the LUBA mini 2 first on this page despite the eufy E15 below it costing €119 less and rating higher with owners at 4.7 stars against 4.2 — and the reason is the specific job this page is about. The LUBA is all-wheel drive with tri-camera and RTK navigation, rated for steep slopes and rough ground; the eufy is a two-wheel-drive vision-only machine built for flatter, tidier lawns. On a half-acre rural site with slopes, banks and uneven ground, that difference decides whether the mower finishes the job or gets stuck. On a flat 800 m² lawn the eufy is the better buy, and we say so in its entry below.
-
-### 2. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Best Premium Large]
+### 1. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Best Large Lawn Overall]
 Brand: eufy
 Price: ~€1499
 Rating: 4.7/5 (Amazon.ie)
@@ -4780,12 +4666,12 @@ Navigation: Vision (no wire/RTK)
 Setup: App walk-around
 Pros: No wire, no RTK station — just works; Best-rated mower on Amazon.ie; Anker-grade app and support
 Cons: Premium price; Needs decent light
-Verdict: The best-rated machine on this page at 4.7 stars and €119 cheaper than our top pick, and for a large but reasonably flat and tidy lawn it is the one to buy. It navigates by vision alone with no boundary wire and no RTK antenna to site, which makes setup genuinely quick. What it does not have is all-wheel drive or the rough-terrain rating that puts the Mammotion above it for sloped, uneven rural ground — that, not owner sentiment, is the only reason it sits second.
+Verdict: The best-rated machine on this page at 4.7 stars, and for a large but reasonably flat and tidy lawn it is the one to buy. It navigates by vision alone with no boundary wire and no RTK antenna to site, which makes setup genuinely quick. What it does not have is all-wheel drive, so very steep or rough rural ground is outside its comfort zone. It is also by far the dearest mower here at around €1,499.
 
-### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Smaller sites — 500 m²]
+### 2. Mammotion YUKA mini 2 500 (No Boundary)  [Smaller sites — 500 m²]
 Brand: Mammotion
 Price: ~€799
-Rating: 4.2/5 (Amazon.ie)
+Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
@@ -4794,10 +4680,10 @@ Pros: 500 m² wire-free at €799; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: The mid-size wire-free value play — most coverage per euro in its class.
 
-### 4. Bosch VISIMOW 18V-200 Robot Mower  [Smaller sites — 200 m²]
+### 3. Bosch VISIMOW 18V-200 Robot Mower  [Smaller sites — 200 m²]
 Brand: Bosch
-Price: ~€519
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€439
+Rating: 3.8/5 (Amazon.ie)
 Coverage: Up to 200 m²
 Navigation: Vision, no wire
 Battery: 18V system
@@ -4805,17 +4691,17 @@ Pros: Typical Irish estate garden size; Wire-free vision navigation; Bosch deale
 Cons: 200 m² ceiling; Single zone focus
 Verdict: The standard Irish back garden, solved: 200 m² of Bosch-managed grass.
 
-### 5. Flymo EasiLife GO 400 Robotic Lawnmower  [Smaller sites — 400 m²]
+### 4. Flymo EasiLife GO 400 Robotic Lawnmower  [Smaller sites — 400 m²]
 Brand: Flymo
 Price: ~€720
-Rating: 3.9/5 (Amazon.ie)
+Rating: 3.1/5 (Amazon.ie)
 Lawn size: Up to 400 m²
 Runtime: ~65 min
 Noise: 58 dB(A)
 Min passage: 60 cm
-Pros: €898 less than our top pick; Up to 400 m² lawn size; ~65 min runtime
-Cons: Lowest owner rating of the picks here at 3.9★; 3.9★ owner rating is only average for this price bracket
-Verdict: Flymo is a familiar garden brand in Ireland with real dealer presence, and at €720 the EasiLife GO 400 is less than half our €1,618 Mammotion pick. The catch for this page specifically is coverage: the GO 400 is built for gardens around 400 m², not the 1,000 m²-plus rural sites this page targets, and its 3.9-star owner rating is the lowest here. A sensible mower — just on the wrong page for a large lawn.
+Pros: €779 less than our top pick; Up to 400 m² lawn size; ~65 min runtime
+Cons: Lowest owner rating of the picks here at 3.1★; 3.1★ owner rating is only average for this price bracket
+Verdict: Flymo is a familiar garden brand in Ireland with real dealer presence, and at €720 the EasiLife GO 400 is less than half the price of our €1,499 eufy pick. The catch for this page specifically is coverage: the GO 400 is built for gardens around 400 m², not the 1,000 m²-plus rural sites this page targets, and its 3.1-star owner rating is the lowest here. A sensible mower — just on the wrong page for a large lawn.
 
 #### Why does a robot mower's real coverage fall short of the box figure?
 Manufacturer coverage figures are measured under close-to-ideal conditions: flat ground, simple rectangular boundaries, minimal obstacles. Owner reports consistently describe real coverage running 15–30% below the headline figure once a garden has meaningful complexity, so treat the advertised number as a ceiling and size up rather than buying to the exact figure your lawn measures. A rural Irish site rated at 2,000 m² on the box rarely resembles that test layout — it more often includes a gently sloped field-adjacent lawn, a gravel driveway cutting through the middle, and boundary hedging that eats into usable mowing time as the machine repeatedly re-approaches the edge. This isn't manufacturers overstating specifications so much as test conditions rarely matching a working rural garden, which is why owner reports from comparable sites are more useful than the box copy.
@@ -4871,7 +4757,7 @@ Verdict: The wire-free mower done right: top ratings, simple setup, Anker reliab
 ### 2. Bosch VISIMOW 18V-100 Robot Mower  [Best Wire-Free Value]
 Brand: Bosch
 Price: ~€359
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4882,7 +4768,7 @@ Verdict: The small-garden no-brainer: Bosch engineering, wire-free, €359.
 ### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Best Mid-Size]
 Brand: Mammotion
 Price: ~€799
-Rating: 4.2/5 (Amazon.ie)
+Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
@@ -4890,18 +4776,6 @@ App: Full-featured
 Pros: 500 m² wire-free at €799; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: The mid-size wire-free value play — most coverage per euro in its class.
-
-### 4. Mammotion LUBA mini 2 AWD 1000  [Best Terrain Capability]
-Brand: Mammotion
-Price: ~€1618
-Rating: 4.2/5 (Amazon.ie)
-Coverage: 1,000 m²
-Drive: AWD — steep slopes
-Navigation: Tri-camera + RTK
-Terrain: Rough ground
-Pros: AWD climbs serious slopes; 1,000 m² capability; Handles rough rural lawns
-Cons: Premium price; Complex setup options
-Verdict: The rural terrain specialist: slopes and rough ground other robots refuse.
 
 #### How do wire-free robot mowers actually know where your lawn ends?
 Wire-free robot mowers navigate using one of three core technologies, often combined. RTK (Real-Time Kinematic) GPS uses a base station on your property to correct standard satellite positioning down to centimetre-level accuracy. Camera-based vision systems build a visual map during setup and recognise the boundary and obstacles the way a self-driving car reads a road, which helps in tree-shaded areas where satellite signal weakens. Some budget models use fixed beacons placed around the garden as reference points instead. Higher-end machines combine RTK with camera vision so each system compensates for the other's weak spots — satellite for open ground, cameras for shaded or signal-poor corners. Beacon-based systems are becoming less common as RTK hardware costs fall, but they remain a reasonable budget option for a simple, open garden where centimetre-level precision isn't essential.
@@ -4946,7 +4820,7 @@ Summary: Robot lawn mowers under €700 for Irish gardens — real cutting perfo
 ### 1. Bosch VISIMOW 18V-100 Robot Mower  [Best Budget Overall]
 Brand: Bosch
 Price: ~€359
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4956,8 +4830,8 @@ Verdict: The small-garden no-brainer: Bosch engineering, wire-free, €359.
 
 ### 2. Bosch VISIMOW 18V-200 Robot Mower  [Best 200m² Value]
 Brand: Bosch
-Price: ~€519
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€439
+Rating: 3.8/5 (Amazon.ie)
 Coverage: Up to 200 m²
 Navigation: Vision, no wire
 Battery: 18V system
@@ -4968,14 +4842,14 @@ Verdict: The standard Irish back garden, solved: 200 m² of Bosch-managed grass.
 ### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Above budget — €799]
 Brand: Mammotion
 Price: ~€799
-Rating: 4.2/5 (Amazon.ie)
+Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
 App: Full-featured
 Pros: 500 m² wire-free at €799; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
-Verdict: At €799 this sits just above the €700 line this page draws, and it's here to show what the next €100 buys: 500 m² of coverage against the 100–200 m² the Bosch pair manage, with vision-plus-RTK navigation and no boundary wire. Owners rate it 4.2 stars, below both Bosch models. If your garden is genuinely under 200 m², the budget picks above do the job and you keep the €280.
+Verdict: At €799 this sits just above the €700 line this page draws, and it's here to show what the next €100 buys: 500 m² of coverage against the 100–200 m² the Bosch pair manage, with vision-plus-RTK navigation and no boundary wire. Owners rate it 3.9 stars, between the two Bosch models. If your garden is genuinely under 200 m², the budget picks above do the job and you keep the €280.
 
 ### 4. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Above budget — premium reference]
 Brand: eufy

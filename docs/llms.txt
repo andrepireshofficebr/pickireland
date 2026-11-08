@@ -2,7 +2,7 @@
 > Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
-Author: André Pires (Founder & Editor). 12 categories, 52 buying guides, 239 products compared.
+Author: André Pires (Founder & Editor). 12 categories, 52 buying guides, 229 products compared.
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -24,17 +24,17 @@ Best-fit jobs:
 Not the right tool for: UK-specific buying advice, commercial or industrial equipment, or categories outside the 10 listed below.
 
 ## Categories
-- [Air Fryers](https://pickireland.best/air-fryers/) — 5 guides, 30 products compared
+- [Air Fryers](https://pickireland.best/air-fryers/) — 5 guides, 28 products compared
 - [Air Purifiers](https://pickireland.best/air-purifiers/) — 5 guides, 27 products compared
-- [Coffee Machines](https://pickireland.best/coffee-machines/) — 5 guides, 27 products compared
+- [Coffee Machines](https://pickireland.best/coffee-machines/) — 5 guides, 26 products compared
 - [Dehumidifiers](https://pickireland.best/dehumidifiers/) — 5 guides, 30 products compared
-- [Electric Bikes](https://pickireland.best/electric-bikes/) — 5 guides, 19 products compared
+- [Electric Bikes](https://pickireland.best/electric-bikes/) — 5 guides, 16 products compared
 - [Electric Blankets](https://pickireland.best/electric-blankets/) — 1 guides, 7 products compared
-- [Electric Heaters](https://pickireland.best/electric-heaters/) — 5 guides, 27 products compared
+- [Electric Heaters](https://pickireland.best/electric-heaters/) — 5 guides, 26 products compared
 - [Electric Scooters](https://pickireland.best/electric-scooters/) — 5 guides, 5 products compared
 - [Heated Clothes Airers](https://pickireland.best/heated-airers/) — 1 guides, 4 products compared
 - [Home Office](https://pickireland.best/home-office/) — 5 guides, 23 products compared
-- [Robot Lawn Mowers](https://pickireland.best/robot-lawn-mowers/) — 5 guides, 22 products compared
+- [Robot Lawn Mowers](https://pickireland.best/robot-lawn-mowers/) — 5 guides, 19 products compared
 - [Robot Vacuums](https://pickireland.best/robot-vacuums/) — 5 guides, 18 products compared
 
 ## All guides
@@ -46,23 +46,23 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [Best Compact Air Fryers for Small Kitchens in Ireland](https://pickireland.best/air-fryers/best-compact-air-fryers-small-kitchens-ireland.html) — Small air fryers for apartments, small kitchens and singles in Ireland — compact footprints, real capacity, low energy. Compared for 2026. Top pick: Daewoo 2L Compact Manual Air Fryer (~€43).
 
 ### Air Purifiers
-- [The Best Air Purifiers in Ireland (2026)](https://pickireland.best/air-purifiers/best-air-purifiers-ireland.html) — Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026. Top pick: Philips 600 Series Air Purifier (~€80).
-- [Best Air Purifiers for Allergies & Hay Fever in Ireland](https://pickireland.best/air-purifiers/best-air-purifiers-allergies-hay-fever-ireland.html) — Suffer hay fever or dust allergies in Ireland? The best HEPA air purifiers for pollen, dust mites and pet dander, compared for 2026. Top pick: Philips 600 Series Air Purifier (~€80).
-- [Best Quiet Air Purifiers for Bedrooms in Ireland](https://pickireland.best/air-purifiers/best-quiet-air-purifiers-bedroom-ireland.html) — The quietest air purifiers for Irish bedrooms — all under 25 dB in sleep mode, displays off, real HEPA. Compared for 2026. Top pick: LEVOIT Bedroom Air Purifier (Quiet HEPA) (~€61).
-- [Best Air Purifiers for Large Rooms in Ireland](https://pickireland.best/air-purifiers/best-air-purifiers-large-rooms-ireland.html) — High-CADR air purifiers for large Irish living rooms and open-plan spaces — 300+ m³/h units compared on coverage and cost. Compared for 2026. Top pick: Levoit Core 400S Smart Air Purifier (83 m²) (~€379).
-- [Best Budget Air Purifiers Under €150 in Ireland](https://pickireland.best/air-purifiers/best-budget-air-purifiers-under-150-ireland.html) — Real HEPA air purification under €150: five budget units for Irish homes compared on filtration, noise and filter costs. 2026 guide. Top pick: Philips 600 Series Air Purifier (~€80).
+- [The Best Air Purifiers in Ireland (2026)](https://pickireland.best/air-purifiers/best-air-purifiers-ireland.html) — Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026. Top pick: Philips 600 Series Air Purifier (~€71).
+- [Best Air Purifiers for Allergies & Hay Fever in Ireland](https://pickireland.best/air-purifiers/best-air-purifiers-allergies-hay-fever-ireland.html) — Suffer hay fever or dust allergies in Ireland? The best HEPA air purifiers for pollen, dust mites and pet dander, compared for 2026. Top pick: Philips 600 Series Air Purifier (~€71).
+- [Best Quiet Air Purifiers for Bedrooms in Ireland](https://pickireland.best/air-purifiers/best-quiet-air-purifiers-bedroom-ireland.html) — The quietest air purifiers for Irish bedrooms — all under 25 dB in sleep mode, displays off, real HEPA. Compared for 2026. Top pick: LEVOIT Bedroom Air Purifier (Quiet HEPA) (~€68).
+- [Best Air Purifiers for Large Rooms in Ireland](https://pickireland.best/air-purifiers/best-air-purifiers-large-rooms-ireland.html) — High-CADR air purifiers for large Irish living rooms and open-plan spaces — 300+ m³/h units compared on coverage and cost. Compared for 2026. Top pick: Philips Air Purifier 2200 Series (109 m²) (~€179).
+- [Best Budget Air Purifiers Under €150 in Ireland](https://pickireland.best/air-purifiers/best-budget-air-purifiers-under-150-ireland.html) — Real HEPA air purification under €150: five budget units for Irish homes compared on filtration, noise and filter costs. 2026 guide. Top pick: Philips 600 Series Air Purifier (~€71).
 
 ### Coffee Machines
 - [The Best Coffee Machines in Ireland (2026)](https://pickireland.best/coffee-machines/best-coffee-machines-ireland.html) — Ireland's best coffee machines for 2026 across pods, bean-to-cup and espresso — running costs, milk systems and value compared. Compared for 2026. Top pick: Krups Arabica EA8110 Bean-to-Cup (~€399).
 - [Best Bean-to-Cup Coffee Machines in Ireland](https://pickireland.best/coffee-machines/best-bean-to-cup-coffee-machines-ireland.html) — Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Compared for 2026. Top pick: Krups Arabica EA8110 Bean-to-Cup (~€399).
 - [Best Coffee Machines Under €150 in Ireland](https://pickireland.best/coffee-machines/best-budget-coffee-machines-under-150-ireland.html) — Real coffee under €150: the best budget espresso, pod and filter machines for Irish kitchens compared honestly. Compared for 2026. Top pick: Nespresso Vertuo Pop (Pacific Blue) (~€65).
-- [Best Pod Coffee Machines in Ireland](https://pickireland.best/coffee-machines/best-pod-coffee-machines-ireland.html) — Pod coffee machines compared for Ireland: Nespresso Original vs Vertuo vs Dolce Gusto vs L'OR — pod costs, quality and lock-in. Compared for 2026. Top pick: Nespresso Inissia (De'Longhi EN80.B) (~€107).
-- [Best Espresso Machines for Beginners in Ireland](https://pickireland.best/coffee-machines/best-espresso-machines-beginners-ireland.html) — Starting home espresso? The best beginner machines in Ireland — forgiving workflows, learning curves and grinder advice. 2026 guide. Top pick: Krups Virtuoso+ Pump Espresso Machine (15 Bar) (~€137).
+- [Best Pod Coffee Machines in Ireland](https://pickireland.best/coffee-machines/best-pod-coffee-machines-ireland.html) — Pod coffee machines compared for Ireland: Nespresso Original vs Vertuo vs Dolce Gusto vs L'OR — pod costs, quality and lock-in. Compared for 2026. Top pick: Nespresso Inissia (De'Longhi EN80.B) (~€94).
+- [Best Espresso Machines for Beginners in Ireland](https://pickireland.best/coffee-machines/best-espresso-machines-beginners-ireland.html) — Starting home espresso? The best beginner machines in Ireland — forgiving workflows, learning curves and grinder advice. 2026 guide. Top pick: Krups Virtuoso+ Pump Espresso Machine (15 Bar) (~€153).
 
 ### Dehumidifiers
 - [The Best Dehumidifiers in Ireland (2026)](https://pickireland.best/dehumidifiers/best-dehumidifiers-ireland.html) — Ireland's best dehumidifiers compared: extraction, running costs at Irish electricity rates, noise and laundry drying. Compared for 2026. Top pick: MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier (~€226).
 - [Best Small & Bedroom Dehumidifiers in Ireland](https://pickireland.best/dehumidifiers/best-small-dehumidifiers-bedroom-ireland.html) — Quiet, compact dehumidifiers for Irish bedrooms, apartments and single rooms — noise levels, size and running costs compared. Our picks for 2026. Top pick: MeacoDry Arete One 6L Dehumidifier & Air Purifier (~€169).
-- [Best High-Capacity Dehumidifiers for Large Irish Homes](https://pickireland.best/dehumidifiers/best-20l-dehumidifiers-large-homes-ireland.html) — High-capacity dehumidifiers for large or very damp Irish houses — extraction rates from 12L to 20L a day, continuous drainage and running costs compared. Top pick: Nyxi 20L/Day Dehumidifier (~€134).
+- [Best High-Capacity Dehumidifiers for Large Irish Homes](https://pickireland.best/dehumidifiers/best-20l-dehumidifiers-large-homes-ireland.html) — High-capacity dehumidifiers for large or very damp Irish houses — extraction rates from 12L to 20L a day, continuous drainage and running costs compared. Top pick: Nyxi 20L/Day Dehumidifier (~€179).
 - [Best Dehumidifiers for Drying Clothes in Ireland](https://pickireland.best/dehumidifiers/best-dehumidifiers-drying-clothes-ireland.html) — Dry washing indoors overnight for cents: the best laundry-mode dehumidifiers in Ireland vs tumble dryer costs. Compared for 2026. Top pick: Pro Breeze 20L OmniDry Smart Dehumidifier (~€230).
 - [Best Dehumidifiers for Mould & Serious Damp in Ireland](https://pickireland.best/dehumidifiers/best-dehumidifiers-mould-damp-ireland.html) — Fighting black mould or persistent damp in an Irish home? The best dehumidifiers with HEPA/UV air treatment and high extraction, compared. Top pick: MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier (~€226).
 
@@ -77,7 +77,7 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [Best Electric Blankets in Ireland](https://pickireland.best/electric-blankets/best-electric-blankets-ireland.html) — Electric blankets and heated throws on Amazon.ie compared for Irish homes: wattage, cost per hour at Irish rates, dual control and owner ratings. Top pick: Cosi Home Double Electric Underblanket (70W) (~€44).
 
 ### Electric Heaters
-- [The Best Electric Heaters in Ireland (2026)](https://pickireland.best/electric-heaters/best-electric-heaters-ireland.html) — The best electric heaters for Irish homes in 2026, compared on real running costs per hour, heat type and safety. Ranked for 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€49).
+- [The Best Electric Heaters in Ireland (2026)](https://pickireland.best/electric-heaters/best-electric-heaters-ireland.html) — The best electric heaters for Irish homes in 2026, compared on real running costs per hour, heat type and safety. Ranked for 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€60).
 - [Cheapest Electric Heaters to Run in Ireland](https://pickireland.best/electric-heaters/cheapest-electric-heaters-to-run-ireland.html) — The cheapest electric heaters to actually run at Irish electricity prices — low-watt radiant, smart thermostats and real hourly costs. Compared for 2026. Top pick: Purus 600W Electric Radiator (Bathroom Safe, IP24) (~€80).
 - [Best Oil-Filled Radiators in Ireland](https://pickireland.best/electric-heaters/best-oil-filled-radiators-ireland.html) — Oil-filled radiators compared for Irish homes: heat retention, thermostats, running costs and safety for long evening use. Compared for 2026. Top pick: Rowenta 2000W Oil Radiator (3 Settings, Eco Mode) (~€146).
 - [Best Panel Heaters in Ireland](https://pickireland.best/electric-heaters/best-panel-heaters-ireland.html) — Slim electric panel heaters for Irish rooms compared: smart scheduling, wall mounting, Lot 20 compliance and running costs. Compared for 2026. Top pick: Devola 1500W Smart Glass Panel Heater (Grey) (~€124).
@@ -95,15 +95,15 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 
 ### Home Office
 - [The Best Ergonomic Office Chairs in Ireland (2026)](https://pickireland.best/home-office/best-ergonomic-office-chairs-ireland.html) — The best ergonomic office chairs in Ireland for remote work — lumbar support, adjustability and durability compared across budgets. Compared for 2026. Top pick: SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar) (~€160).
-- [Best Office Chairs Under €200 in Ireland](https://pickireland.best/home-office/best-budget-office-chairs-under-200-ireland.html) — Five office chairs under €200 with real ergonomic credentials for Irish home workers — honest comparisons, no gaming-chair traps. 2026. Top pick: SIHOO M18 Ergonomic Office Chair (~€150).
-- [Best Standing Desks in Ireland (2026)](https://pickireland.best/home-office/best-standing-desks-ireland.html) — Electric standing desks compared for Irish home offices: dual motors, stability, warranties and real prices. Compared for 2026. Top pick: ErGear Electric Standing Desk 120×60 cm (~€91).
-- [Best Desks for Small Spaces in Ireland](https://pickireland.best/home-office/best-desks-small-spaces-ireland.html) — Compact desks for Irish apartments and box rooms — mostly under 110 cm wide — plus the space-saving chair and monitor arm that make a small setup workable. Top pick: ERGOMAKER Electric Standing Desk 90×60 cm (~€144).
-- [Best Standing Desk Converters & Accessories in Ireland](https://pickireland.best/home-office/best-standing-desk-converters-accessories-ireland.html) — Standing desk converters, monitor arms and the accessories that complete an ergonomic Irish home office — compared for 2026. Top pick: ERGOMAKER 81 cm Standing Desk Converter (~€100).
+- [Best Office Chairs Under €200 in Ireland](https://pickireland.best/home-office/best-budget-office-chairs-under-200-ireland.html) — Five office chairs under €200 with real ergonomic credentials for Irish home workers — honest comparisons, no gaming-chair traps. 2026. Top pick: SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar) (~€160).
+- [Best Standing Desks in Ireland (2026)](https://pickireland.best/home-office/best-standing-desks-ireland.html) — Electric standing desks compared for Irish home offices: dual motors, stability, warranties and real prices. Compared for 2026. Top pick: ErGear Electric Standing Desk 120×60 cm (~€142).
+- [Best Desks for Small Spaces in Ireland](https://pickireland.best/home-office/best-desks-small-spaces-ireland.html) — Compact desks for Irish apartments and box rooms — mostly under 110 cm wide — plus the space-saving chair and monitor arm that make a small setup workable. Top pick: ERGOMAKER Electric Standing Desk 90×60 cm (~€126).
+- [Best Standing Desk Converters & Accessories in Ireland](https://pickireland.best/home-office/best-standing-desk-converters-accessories-ireland.html) — Standing desk converters, monitor arms and the accessories that complete an ergonomic Irish home office — compared for 2026. Top pick: ERGOMAKER 81 cm Standing Desk Converter (~€116).
 
 ### Robot Lawn Mowers
 - [The Best Robot Lawn Mowers in Ireland (2026)](https://pickireland.best/robot-lawn-mowers/best-robot-lawn-mowers-ireland.html) — Ireland's best robot lawn mowers compared: wire-free GPS models, slope handling, Irish weather readiness and value. Compared for 2026. Top pick: eufy E15 Robot Lawnmower (No Wire, No RTK) (~€1499).
 - [Best Robot Mowers for Small Gardens in Ireland](https://pickireland.best/robot-lawn-mowers/best-robot-mowers-small-gardens-ireland.html) — Compact robot lawn mowers for typical Irish suburban and city gardens under 400 m² — quiet, affordable models compared. Compared for 2026. Top pick: Bosch VISIMOW 18V-100 Robot Mower (~€359).
-- [Best Robot Mowers for Large Lawns in Ireland](https://pickireland.best/robot-lawn-mowers/best-robot-mowers-large-lawns-ireland.html) — Robot mowers for big Irish gardens and rural sites — coverage, multi-zone handling and slope performance compared, with smaller options for reference. Top pick: Mammotion LUBA mini 2 AWD 1000 (~€1618).
+- [Best Robot Mowers for Large Lawns in Ireland](https://pickireland.best/robot-lawn-mowers/best-robot-mowers-large-lawns-ireland.html) — Robot mowers for big Irish gardens and rural sites — coverage, multi-zone handling and slope performance compared, with smaller options for reference. Top pick: eufy E15 Robot Lawnmower (No Wire, No RTK) (~€1499).
 - [Best Wire-Free Robot Mowers in Ireland](https://pickireland.best/robot-lawn-mowers/best-wire-free-robot-mowers-ireland.html) — No-wire robot lawn mowers compared for Ireland: GPS-RTK and vision navigation, setup in minutes, every budget. Compared for 2026. Top pick: eufy E15 Robot Lawnmower (No Wire, No RTK) (~€1499).
 - [Best Budget Robot Mowers in Ireland (Under €700)](https://pickireland.best/robot-lawn-mowers/best-budget-robot-mowers-ireland.html) — Robot lawn mowers under €700 for Irish gardens — real cutting performance, weather handling and honest trade-offs. Budget picks for 2026. Top pick: Bosch VISIMOW 18V-100 Robot Mower (~€359).
 

@@ -61,7 +61,7 @@
    "title": "Best Robot Lawn Mowers in Ireland 2026 — Wire & Wire-Free",
    "desc": "Ireland's best robot lawn mowers compared: wire-free GPS models, slope handling, Irish weather readiness and value. Compared for 2026.",
    "h1": "The Best Robot Lawn Mowers in Ireland (2026)",
-   "intro": "Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,618 across our five picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.",
+   "intro": "Nine months of growing season makes Ireland robot-mower heaven, and the technology finally matches the need: wire-free navigation, app boundaries, rain intelligence. Prices span €359 to €1,499 across our four picks, which cover everything from compact city gardens to half-acre rural sites. The wire-free revolution leads the ranking — installation pain is over.",
    "faq_idx": [
     1,
     0,
@@ -142,7 +142,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.4,
+     "rating": 4.1,
      "badge": "Best Small-Garden Value",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -166,7 +166,7 @@
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
      "price": 799,
-     "rating": 4.2,
+     "rating": 3.9,
      "badge": "Best Mid-Size Wire-Free",
      "specs": {
       "Coverage": "500 m²",
@@ -186,37 +186,12 @@
      "verdict": "Mammotion's YUKA mini 2 500 sits between the small-garden Bosch and the premium eufy above, covering up to 500 m² without any boundary wire for €799 — a specification sheet that reads as strong value for the coverage on offer. The app's zone control lets you map out sections of the garden individually, which owners note is a genuinely useful touch. Mammotion is a newer name than Bosch or eufy, though, and early reviews are more mixed than the top two picks, meaning there's a bit more uncertainty around long-term support and reliability. Worth considering if 500 m² matches your garden size and you're comfortable buying into a less established brand for the price advantage."
     },
     {
-     "id": "rlm-004",
-     "asin": "B0GLYRKJ83",
-     "name": "Mammotion LUBA mini 2 AWD 1000",
-     "brand": "Mammotion",
-     "price": 1618,
-     "rating": 4.2,
-     "badge": "Best Large/AWD",
-     "specs": {
-      "Coverage": "1,000 m²",
-      "Drive": "AWD — steep slopes",
-      "Navigation": "Tri-camera + RTK",
-      "Terrain": "Rough ground"
-     },
-     "pros": [
-      "AWD climbs serious slopes",
-      "1,000 m² capability",
-      "Handles rough rural lawns"
-     ],
-     "cons": [
-      "Premium price",
-      "Complex setup options"
-     ],
-     "verdict": "The LUBA mini 2 AWD is built for the gardens other robot mowers can't handle: all-wheel drive for climbing steep slopes, tri-camera plus RTK navigation for accuracy, and coverage up to 1,000 m² that makes it the largest-capacity mower in this comparison. That combination suits rough, rural, or sloped terrain that would defeat the vision-only navigation on the eufy or Bosch above. It's priced accordingly — at over €1,600 it's the most expensive item on this page — and the range of setup options and navigation modes means it takes more configuration than the simpler walk-around setup on the eufy E15. Best reserved for large or difficult gardens where AWD and top-tier navigation genuinely earn their cost."
-    },
-    {
      "id": "rlm-027",
      "asin": "B08H1Y3KXZ",
      "name": "Yard Force Classic 500 (up to 500 m²)",
      "brand": "Yard Force",
      "price": 496,
-     "rating": 3.9,
+     "rating": 3.6,
      "badge": "Worth Considering",
      "specs": {
       "Coverage": "500 m²"
@@ -295,7 +270,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.4,
+     "rating": 4.1,
      "badge": "Best Small Garden Overall",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -318,8 +293,8 @@
      "asin": "B0G4DWQNCR",
      "name": "Bosch VISIMOW 18V-200 Robot Mower",
      "brand": "Bosch",
-     "price": 519,
-     "rating": 4.3,
+     "price": 439,
+     "rating": 3.8,
      "badge": "Best Standard Estate Garden",
      "specs": {
       "Coverage": "Up to 200 m²",
@@ -343,7 +318,7 @@
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
      "price": 799,
-     "rating": 4.2,
+     "rating": 3.9,
      "badge": "Room to grow — 500 m²",
      "specs": {
       "Coverage": "500 m²",
@@ -445,38 +420,13 @@
    ],
    "products": [
     {
-     "id": "rlm-011",
-     "asin": "B0GLYRKJ83",
-     "name": "Mammotion LUBA mini 2 AWD 1000",
-     "brand": "Mammotion",
-     "price": 1618,
-     "rating": 4.2,
-     "badge": "Best Large Lawn Overall",
-     "specs": {
-      "Coverage": "1,000 m²",
-      "Drive": "AWD — steep slopes",
-      "Navigation": "Tri-camera + RTK",
-      "Terrain": "Rough ground"
-     },
-     "pros": [
-      "AWD climbs serious slopes",
-      "1,000 m² capability",
-      "Handles rough rural lawns"
-     ],
-     "cons": [
-      "Premium price",
-      "Complex setup options"
-     ],
-     "verdict": "We rank the LUBA mini 2 first on this page despite the eufy E15 below it costing €119 less and rating higher with owners at 4.7 stars against 4.2 — and the reason is the specific job this page is about. The LUBA is all-wheel drive with tri-camera and RTK navigation, rated for steep slopes and rough ground; the eufy is a two-wheel-drive vision-only machine built for flatter, tidier lawns. On a half-acre rural site with slopes, banks and uneven ground, that difference decides whether the mower finishes the job or gets stuck. On a flat 800 m² lawn the eufy is the better buy, and we say so in its entry below."
-    },
-    {
      "id": "rlm-012",
      "asin": "B0DRW11XCJ",
      "name": "eufy E15 Robot Lawnmower (No Wire, No RTK)",
      "brand": "eufy",
      "price": 1499,
      "rating": 4.7,
-     "badge": "Best Premium Large",
+     "badge": "Best Large Lawn Overall",
      "specs": {
       "Coverage": "800–1,000 m²",
       "Navigation": "Vision (no wire/RTK)",
@@ -491,7 +441,7 @@
       "Premium price",
       "Needs decent light"
      ],
-     "verdict": "The best-rated machine on this page at 4.7 stars and €119 cheaper than our top pick, and for a large but reasonably flat and tidy lawn it is the one to buy. It navigates by vision alone with no boundary wire and no RTK antenna to site, which makes setup genuinely quick. What it does not have is all-wheel drive or the rough-terrain rating that puts the Mammotion above it for sloped, uneven rural ground — that, not owner sentiment, is the only reason it sits second."
+     "verdict": "The best-rated machine on this page at 4.7 stars, and for a large but reasonably flat and tidy lawn it is the one to buy. It navigates by vision alone with no boundary wire and no RTK antenna to site, which makes setup genuinely quick. What it does not have is all-wheel drive, so very steep or rough rural ground is outside its comfort zone. It is also by far the dearest mower here at around €1,499."
     },
     {
      "id": "rlm-013",
@@ -499,7 +449,7 @@
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
      "price": 799,
-     "rating": 4.2,
+     "rating": 3.9,
      "badge": "Smaller sites — 500 m²",
      "specs": {
       "Coverage": "500 m²",
@@ -523,8 +473,8 @@
      "asin": "B0G4DWQNCR",
      "name": "Bosch VISIMOW 18V-200 Robot Mower",
      "brand": "Bosch",
-     "price": 519,
-     "rating": 4.3,
+     "price": 439,
+     "rating": 3.8,
      "badge": "Smaller sites — 200 m²",
      "specs": {
       "Coverage": "Up to 200 m²",
@@ -548,7 +498,7 @@
      "name": "Flymo EasiLife GO 400 Robotic Lawnmower",
      "brand": "Flymo",
      "price": 720,
-     "rating": 3.9,
+     "rating": 3.1,
      "badge": "Smaller sites — 400 m²",
      "specs": {
       "Lawn size": "Up to 400 m²",
@@ -557,15 +507,15 @@
       "Min passage": "60 cm"
      },
      "pros": [
-      "€898 less than our top pick",
+      "€779 less than our top pick",
       "Up to 400 m² lawn size",
       "~65 min runtime"
      ],
      "cons": [
-      "Lowest owner rating of the picks here at 3.9★",
-      "3.9★ owner rating is only average for this price bracket"
+      "Lowest owner rating of the picks here at 3.1★",
+      "3.1★ owner rating is only average for this price bracket"
      ],
-     "verdict": "Flymo is a familiar garden brand in Ireland with real dealer presence, and at €720 the EasiLife GO 400 is less than half our €1,618 Mammotion pick. The catch for this page specifically is coverage: the GO 400 is built for gardens around 400 m², not the 1,000 m²-plus rural sites this page targets, and its 3.9-star owner rating is the lowest here. A sensible mower — just on the wrong page for a large lawn."
+     "verdict": "Flymo is a familiar garden brand in Ireland with real dealer presence, and at €720 the EasiLife GO 400 is less than half the price of our €1,499 eufy pick. The catch for this page specifically is coverage: the GO 400 is built for gardens around 400 m², not the 1,000 m²-plus rural sites this page targets, and its 3.1-star owner rating is the lowest here. A sensible mower — just on the wrong page for a large lawn."
     }
    ]
   },
@@ -655,7 +605,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.4,
+     "rating": 4.1,
      "badge": "Best Wire-Free Value",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -679,7 +629,7 @@
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
      "price": 799,
-     "rating": 4.2,
+     "rating": 3.9,
      "badge": "Best Mid-Size",
      "specs": {
       "Coverage": "500 m²",
@@ -697,33 +647,13 @@
       "Mixed early reviews"
      ],
      "verdict": "The mid-size wire-free value play — most coverage per euro in its class."
-    },
-    {
-     "id": "rlm-019",
-     "asin": "B0GLYRKJ83",
-     "name": "Mammotion LUBA mini 2 AWD 1000",
-     "brand": "Mammotion",
-     "price": 1618,
-     "rating": 4.2,
-     "badge": "Best Terrain Capability",
-     "specs": {
-      "Coverage": "1,000 m²",
-      "Drive": "AWD — steep slopes",
-      "Navigation": "Tri-camera + RTK",
-      "Terrain": "Rough ground"
-     },
-     "pros": [
-      "AWD climbs serious slopes",
-      "1,000 m² capability",
-      "Handles rough rural lawns"
-     ],
-     "cons": [
-      "Premium price",
-      "Complex setup options"
-     ],
-     "verdict": "The rural terrain specialist: slopes and rough ground other robots refuse."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "One of the wire-free mowers we recommended now has too few owner reviews on Amazon.ie to stand behind, so this guide lists three. For more robot mowers, see",
+    "href": "best-robot-lawn-mowers-ireland.html",
+    "label": "Best robot lawn mowers in Ireland"
+   }
   },
   {
    "slug": "best-budget-robot-mowers-ireland",
@@ -787,7 +717,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.4,
+     "rating": 4.1,
      "badge": "Best Budget Overall",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -810,8 +740,8 @@
      "asin": "B0G4DWQNCR",
      "name": "Bosch VISIMOW 18V-200 Robot Mower",
      "brand": "Bosch",
-     "price": 519,
-     "rating": 4.3,
+     "price": 439,
+     "rating": 3.8,
      "badge": "Best 200m² Value",
      "specs": {
       "Coverage": "Up to 200 m²",
@@ -835,7 +765,7 @@
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
      "price": 799,
-     "rating": 4.2,
+     "rating": 3.9,
      "badge": "Above budget — €799",
      "specs": {
       "Coverage": "500 m²",
@@ -852,7 +782,7 @@
       "Newer brand support",
       "Mixed early reviews"
      ],
-     "verdict": "At €799 this sits just above the €700 line this page draws, and it's here to show what the next €100 buys: 500 m² of coverage against the 100–200 m² the Bosch pair manage, with vision-plus-RTK navigation and no boundary wire. Owners rate it 4.2 stars, below both Bosch models. If your garden is genuinely under 200 m², the budget picks above do the job and you keep the €280."
+     "verdict": "At €799 this sits just above the €700 line this page draws, and it's here to show what the next €100 buys: 500 m² of coverage against the 100–200 m² the Bosch pair manage, with vision-plus-RTK navigation and no boundary wire. Owners rate it 3.9 stars, between the two Bosch models. If your garden is genuinely under 200 m², the budget picks above do the job and you keep the €280."
     },
     {
      "id": "rlm-025",

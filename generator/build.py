@@ -2026,6 +2026,24 @@ for fn in sorted(os.listdir(DATA)):
 
 CATS_BY_SLUG = {c["category"]: c for c in CATS}
 
+# ---------------------------------------------------------------- Black Friday por categoria (08/11/2026)
+# Uma pagina de Black Friday por categoria (URL permanente, nunca apagar). Os links da home e dos
+# hubs para elas so aparecem entre 18/11 e 01/12 (BF_WINDOW): fora da janela, a pagina continua no
+# ar, mas sai da navegacao. Sem API nao ha preco do dia nem desconto: o botao diz "check today's price".
+BF_CATS = {
+    "electric-heaters": ("electric heaters", "Heaters run for hours, so the running cost at Irish rates matters more than a few euro off the sticker. Decide the type first: oil-filled radiators keep giving heat after the thermostat clicks off, while fan and ceramic heaters warm a room fast and stop just as fast."),
+    "electric-blankets": ("electric blankets", "An electric blanket warms the bed rather than the whole room, which is why it is the cheapest way to stay warm at night. Check the size against your mattress and look for dual controls if two people share the bed."),
+    "dehumidifiers": ("dehumidifiers", "Compressor dehumidifiers pull the most water in a heated room; in a cold room or garage they lose output. Size it to the problem: a single damp bedroom and a whole house with drying laundry need very different machines."),
+    "air-fryers": ("air fryers", "Basket size decides everything: a 2 to 4 litre basket suits one or two people, while families usually want a dual-drawer model so the main and the side finish together."),
+    "coffee-machines": ("coffee machines", "Pick the type before the deal: pods are the simplest, bean-to-cup machines grind fresh beans at a touch, and pump espresso machines reward a bit of practice with café-style coffee."),
+    "robot-vacuums": ("robot vacuums", "Navigation is what you pay for: LiDAR models map the house and clean in neat lines, while cheaper ones work more by bump and pattern. A mop is useful on hard floors; on carpet, suction matters more."),
+    "air-purifiers": ("air purifiers", "Match the purifier to the room: check the coverage or CADR figure against your room size, and remember that replacement filters are a running cost every year."),
+}
+BF_START, BF_END = datetime.date(2026, 11, 18), datetime.date(2026, 12, 1)
+BF_WINDOW = BF_START <= datetime.date.today() <= BF_END
+def bf_cat_slug(ck):
+    return f"black-friday-{ck}-ireland-2026"
+
 STOCK_MOVED = []   # (pagina, produto) que desceram por estoque nesta execucao
 if STOCK_ON:
     for _c in CATS:
@@ -2488,11 +2506,13 @@ for cat in CATS:
     _hl = LAW_ARTICLES.get(cat["category"])
     hub_law = ('<div class="related"><h2>The law, in plain English</h2>'
                f'<a href="{_hl["slug"]}.html">{esc(_hl["hub_text"])} {ARROW}</a></div>') if _hl else ""
+    hub_bf = (f'<div class="related"><h2>Black Friday 2026</h2><a href="{bf_cat_slug(cat["category"])}.html">Black Friday {esc(BF_CATS[cat["category"]][0])}: our in-stock picks {ARROW}</a></div>'
+              if (BF_WINDOW and cat["category"] in BF_CATS) else "")
     body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › {esc(cat['name'])}</nav>
 <h1>Best {esc(cat['name'])} in Ireland — All Guides</h1>
 <p class="intro">{esc(cat['hub_intro'])}</p>
-<div class="grid">{tiles}</div>{hub_ref}{hub_law}{CALC_CTA.get(cat["category"], "")}
+<div class="grid">{tiles}</div>{hub_ref}{hub_law}{CALC_CTA.get(cat["category"], "")}{hub_bf}
 <h2>{esc(cat['name'])}: frequently asked questions</h2>
 {hub_faq}
 """
@@ -3674,14 +3694,15 @@ def black_friday_page():
             _rc = running_cost_line(dict(p.get("specs") or {}), ck)
             _rc_txt = f'<br><small>Running cost: {esc(_rc)}</small>' if _rc else ""
             rows += (f'<tr><td><b>{esc(p["name"])}</b><br><small>{esc(p["badge"])} · {p["rating"]}/5 owner rating</small>{_rc_txt}</td>'
-                     f'<td style="white-space:nowrap"><b>€{product_price(p)}</b></td>'
-                     f'<td><a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">Today\'s price {ARROW}</a></td></tr>')
+                     + (f'<td style="white-space:nowrap"><b>€{product_price(p)}</b></td>' if LIVE else "")
+                     + f'<td><a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">{"Today" if LIVE else "Check today"}\'s price {ARROW}</a></td></tr>')
             items.append({"@type": "ListItem", "position": len(items) + 1, "name": p["name"],
                           "url": f'{DOMAIN}/{ck}/{pg["slug"]}.html#{p["id"]}'})
+        _bfc = (f' Black Friday shortlist: <a href="{ck}/{bf_cat_slug(ck)}.html">{esc(BF_CATS[ck][0])}</a>.' if ck in BF_CATS else "")
         sections.append(
             f'<h2 style="margin-top:34px">{esc(cat["name"])}</h2>'
-            f'<p>Our top in-stock picks from <a href="{ck}/{pg["slug"]}.html">{esc(pg["h1"])}</a> — the full guide compares every option.</p>'
-            f'<div class="tbl-scroll"><table class="cmp"><thead><tr><th>Product</th><th>Price now</th><th></th></tr></thead><tbody>{rows}</tbody></table></div>')
+            f'<p>Our top in-stock picks from <a href="{ck}/{pg["slug"]}.html">{esc(pg["h1"])}</a> — the full guide compares every option.{_bfc}</p>'
+            f'<div class="tbl-scroll"><table class="cmp"><thead><tr><th>Product</th>{"<th>Price now</th>" if LIVE else ""}<th></th></tr></thead><tbody>{rows}</tbody></table></div>')
     faqs = [
         ("When is Black Friday 2026 in Ireland?",
          BF_WHEN + " Amazon.ie usually opens its Black Friday sale several days before the Friday itself and runs it through Cyber Monday."),
@@ -3690,18 +3711,21 @@ def black_friday_page():
         ("What is worth buying for an Irish winter?",
          "Electric heaters, dehumidifiers, electric blankets and heated airers are the categories Irish homes lean on from November to March. For anything that runs for hours, the running cost at Irish electricity rates matters more than a few euro off the sticker price — our running cost calculator works it out for you."),
         ("How often are the prices on this page updated?",
-         "Prices come directly from Amazon.ie and refresh automatically twice a day, rising to six times a day between 20 November and 1 December. Products that go out of stock drop off the list automatically."),
+         ("Prices come directly from Amazon.ie and refresh automatically twice a day, rising to six times a day between 20 November and 1 December. Products that go out of stock drop off the list automatically."
+          if LIVE else
+          "Amazon.ie prices change several times a day in the run-up to Black Friday, so this page does not quote them: each button opens the product on Amazon.ie with its current price. We re-check every product's stock every two days and remove anything that can't be bought.")),
     ]
     faq_block = "".join(f"<h3 style='margin-top:22px'>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in faqs)
     title = "Black Friday 2026 Ireland: What's Worth Buying on Amazon.ie"
-    desc = "Black Friday 2026 in Ireland is on 27 November. Our in-stock picks for heaters, dehumidifiers, air fryers and more, with today's Amazon.ie prices."
+    desc = ("Black Friday 2026 in Ireland is on 27 November. Our in-stock picks for heaters, dehumidifiers, air fryers and more, with today's Amazon.ie prices."
+            if LIVE else "Black Friday 2026 in Ireland is on 27 November. Our in-stock picks for heaters, dehumidifiers, air fryers and more, and how to spot a real deal.")
     url = f"{DOMAIN}/{BF_SLUG}"
     body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › Black Friday 2026</nav>
 <h1 style="margin-top:20px">{esc(title)}</h1>
-<div class="quick-answer"><p><strong>Quick answer:</strong> {BF_WHEN} Below are our current top in-stock picks in each category, with today's Amazon.ie price, so you can see whether a Black Friday deal is a real saving. Prices refresh automatically from Amazon.ie.</p></div>
+<div class="quick-answer"><p><strong>Quick answer:</strong> {BF_WHEN} Below are our current top in-stock picks in each category{", with today's Amazon.ie price, so you can see whether a Black Friday deal is a real saving. Prices refresh automatically from Amazon.ie." if LIVE else ". Each button opens the product on Amazon.ie with its current price, so you can see whether a Black Friday deal is a real saving."}</p></div>
 <p>Black Friday in Ireland lands at the start of the heating season, so the products that sell hardest are the ones that run for hours: heaters, dehumidifiers, electric blankets and heated airers. On those, the running cost at Irish electricity rates (about €0.38/kWh day rate) can outweigh a Black Friday discount within a single winter — use our <a href="{CALC_SLUG}">running cost calculator</a> before you buy.</p>
-<p><strong>How to use this page:</strong> note the price now on the items you want. When the sale starts, come back and compare. If the "deal" price isn't clearly below today's, it isn't a deal.</p>
+<p><strong>How to use this page:</strong> check and note the price now on the items you want. When the sale starts, come back and compare. If the "deal" price isn't clearly below the one you noted, it isn't a deal.</p>
 {''.join(sections)}
 <h2 style="margin-top:34px">Black Friday 2026: common questions</h2>
 {faq_block}
@@ -3727,7 +3751,224 @@ def black_friday_page():
 
 black_friday_page()
 
+
+def black_friday_cat_page(ck):
+    cat = CATS_BY_SLUG.get(ck)
+    if not cat:
+        return
+    noun, tip = BF_CATS[ck]
+    picks, seen = [], set()
+    for rank in range(6):
+        for pg in cat["pages"]:
+            if rank < len(pg["products"]):
+                p = pg["products"][rank]
+                a = product_asin(p) or p["id"]
+                if a in seen or stock_state(p):
+                    continue
+                seen.add(a); picks.append((p, pg))
+        if len(picks) >= 6:
+            break
+    picks = picks[:6]
+    rows, items, hashsrc = "", [], []
+    for p, pg in picks:
+        url, has_aff = product_url(p)
+        rel = "sponsored noopener" if has_aff else "nofollow noopener"
+        _rc = running_cost_line(dict(p.get("specs") or {}), ck)
+        _rc_txt = f'<br><small>Running cost: {esc(_rc)}</small>' if _rc else ""
+        price_td = f'<td style="white-space:nowrap"><b>€{product_price(p)}</b></td>' if LIVE else ""
+        rows += (f'<tr><td><b>{esc(p["name"])}</b><br><small>{esc(p["badge"])} in <a href="{pg["slug"]}.html#{p["id"]}">{esc(pg["h1"])}</a> · {p["rating"]}/5 owner rating</small>{_rc_txt}</td>'
+                 + price_td +
+                 f'<td><a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">{"Today" if LIVE else "Check today"}\'s price {ARROW}</a></td></tr>')
+        items.append({"@type": "ListItem", "position": len(items) + 1, "name": p["name"],
+                      "url": f'{DOMAIN}/{ck}/{pg["slug"]}.html#{p["id"]}'})
+        hashsrc.append([p["id"], p["name"], p["badge"], p["rating"], pg["slug"], _rc])
+    guides = "".join(f'<a href="{pg["slug"]}.html">{esc(pg["h1"])} {ARROW}</a>' for pg in cat["pages"])
+    title = f"Black Friday {noun.title()} Ireland 2026"
+    if len(title) > 60:
+        title = f"Black Friday {noun.title()} 2026"
+    h1 = f"Black Friday 2026: the {noun} worth buying in Ireland"
+    desc = f"Black Friday 2026 is on 27 November. Our in-stock {noun} picks for Irish homes, and how to tell a real deal from a fake one."[:155]
+    faqs = [
+        ("When is Black Friday 2026 in Ireland?",
+         BF_WHEN + " Amazon.ie usually starts its Black Friday deals several days before the Friday and runs them through Cyber Monday."),
+        (f"Are Black Friday {noun} deals real?",
+         "Some are, some aren't. A deal is only real if the price is clearly below what the product normally sells for. Open the product now, note the price, and compare when the sale starts; if the 'deal' isn't below what you noted, it isn't a saving."),
+        (f"What should I check before buying {noun} on Black Friday?", tip),
+        ("Why doesn't this page show prices?" if not LIVE else "How often are prices updated?",
+         ("Amazon.ie prices change several times a day in the run-up to Black Friday, so we don't quote them here: each button opens the product on Amazon.ie with its current price. We re-check stock on every product every two days and remove anything that can't be bought."
+          if not LIVE else "Prices come directly from Amazon.ie and refresh automatically several times a day.")),
+    ]
+    faq_block = "".join(f"<h3 style='margin-top:22px'>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in faqs)
+    key = f"{ck}/{bf_cat_slug(ck)}"
+    pub, mod = page_dates(key, [title, h1, desc, tip, json.dumps(hashsrc, ensure_ascii=False), json.dumps(faqs, ensure_ascii=False)])
+    url = f"{DOMAIN}/{ck}/{bf_cat_slug(ck)}.html"
+    body = f"""
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › Black Friday 2026</nav>
+<h1>{esc(h1)}</h1>
+<div class="updated"><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
+<div class="quick-answer"><p><strong>Quick answer:</strong> {BF_WHEN} These are the {noun} from our buying guides that are in stock on Amazon.ie right now. {"Prices refresh automatically from Amazon.ie." if LIVE else "Each button opens the product on Amazon.ie with its current price, so you can compare it with the Black Friday price on the day."}</p></div>
+<p>{esc(tip)}</p>
+<p><strong>How to use this page:</strong> open the {noun} you are interested in and note today's price. When the sale starts, compare. If the Black Friday price isn't clearly lower, wait: none of these will be cheaper just because the banner says so.</p>
+<h2 style="margin-top:34px">Our in-stock picks</h2>
+<div class="tbl-scroll"><table class="cmp"><thead><tr><th>Product</th>{"<th>Price now</th>" if LIVE else ""}<th></th></tr></thead><tbody>{rows}</tbody></table></div>
+<div class="related"><h2>Full buying guides</h2>{guides}<a href="../{BF_SLUG}">Black Friday 2026: every category {ARROW}</a></div>
+<h2 style="margin-top:34px">Black Friday {esc(noun)}: common questions</h2>
+{faq_block}
+<p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. <a href="../affiliate-disclosure.html">How this works</a>.</p>
+"""
+    page_ld = {"@context": "https://schema.org", "@type": "WebPage", "@id": url, "name": title, "url": url,
+               "description": desc, "inLanguage": "en-IE", "datePublished": pub, "dateModified": mod,
+               "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/"},
+               "mainEntity": {"@type": "ItemList", "itemListElement": items}}
+    faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+        {"@type": "ListItem", "position": 2, "name": cat["name"], "item": f"{DOMAIN}/{ck}/"},
+        {"@type": "ListItem", "position": 3, "name": "Black Friday 2026", "item": url}]}
+    jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
+                     for x in (page_ld, faq_ld, crumb))
+    with open(os.path.join(OUT, ck, bf_cat_slug(ck) + ".html"), "w", encoding="utf-8") as f:
+        f.write(page_shell(title, desc, url, body, depth=1, jsonld=jsonld, og_image=cat_og_image(ck)))
+    all_pages.append(f"{ck}/{bf_cat_slug(ck)}.html")
+    print(f"  [bf-cat] {url} — {len(picks)} picks")
+
+for _bk in BF_CATS:
+    black_friday_cat_page(_bk)
+
+
+# ---------------------------------------------------------------- guias de presente de Natal (08/11/2026)
+# Tres paginas (ate €50, €100, €300) so com produtos dos guias, em estoque, com 1-2 frases proprias
+# por item. Sem promessa de prazo de entrega. Links da home ate 25/12 (GIFT_WINDOW). URLs permanentes.
+GIFT_PAGES = [
+    {"slug": "christmas-gifts-under-50-ireland-2026", "cap": 50,
+     "title": "Christmas Gifts Under €50 Ireland 2026",
+     "h1": "Christmas gifts under €50 for Irish homes (2026)",
+     "desc": "Practical Christmas gifts under €50 from Amazon.ie, picked from our Irish buying guides: warm, useful and in stock.",
+     "intro": "The best cheap gifts are the ones that get used every day of an Irish winter. Everything here comes from one of our buying guides, was in stock on Amazon.ie when we last checked, and costs under €50.",
+     "items": [
+        ("ebl-001", "A double underblanket that warms the bed before you get in, for a lot less than heating the bedroom. A safe bet for anyone who complains about the cold."),
+        ("ebl-007", "A heated fleece throw for the sofa: the person who always has a blanket over their knees will use this every evening."),
+        ("cfm-031", "A pod machine for under €50, and the Tassimo range covers hot chocolate and tea as well as coffee."),
+        ("afr-010", "A two-litre air fryer with a dial and a timer and nothing to learn. Right for a student, a first flat or someone cooking for one."),
+        ("eht-025", "A small 2,000 W fan heater that warms a cold box room or home office quickly. A practical present for someone working from a chilly spare room."),
+        ("apr-010", "A quiet H13 HEPA purifier for a bedroom, useful for anyone with dust or pet allergies."),
+        ("deh-007", "A compact dehumidifier for a damp bedroom or wardrobe, the kind of gift that solves a problem people put up with for years."),
+        ("ofc-019", "A monitor arm that frees up desk space and lifts the screen to eye level. Cheap and noticed every working day."),
+        ("deh-026", "A moisture absorber that needs no electricity: a useful stocking filler for anyone with a condensation-prone room."),
+     ]},
+    {"slug": "christmas-gifts-under-100-ireland-2026", "cap": 100,
+     "title": "Christmas Gifts Under €100 Ireland 2026",
+     "h1": "Christmas gifts under €100 for Irish homes (2026)",
+     "desc": "Christmas gifts under €100 from Amazon.ie, chosen from our Irish buying guides: kitchen, coffee, warmth and cleaner air.",
+     "intro": "Under €100 buys a proper appliance rather than a gadget. These are picks from our buying guides that were in stock on Amazon.ie when we last checked, each under €100.",
+     "items": [
+        ("afr-002", "Ninja's 4.7-litre single-drawer air fryer is one of the best-rated in our guides and a gift that gets used several times a week."),
+        ("cfm-003", "Nespresso's Vertuo Pop makes a mug or an espresso from a barcoded pod with one button. Easy for anyone, and it looks good on a counter."),
+        ("cfm-033", "A Dolce Gusto pod machine that also does hot chocolate, tea and iced drinks, so it suits households where not everyone drinks coffee."),
+        ("cfm-016", "The Inissia is Nespresso's compact original-pod machine: small, quick to heat and very simple."),
+        ("ebl-006", "A fully fitted double electric blanket with a control for each side, so two people can choose their own heat."),
+        ("eht-001", "The best-rated heater in our guides: a 1,500 W ceramic heater with a digital thermostat for a bedroom or home office."),
+        ("apr-001", "Philips' small HEPA purifier is quiet enough for a bedroom and cheap to run, a thoughtful gift for an allergy sufferer."),
+        ("afr-028", "An 8-litre air fryer with a viewing window, for a family that cooks bigger batches."),
+        ("eht-012", "An oil-filled radiator gives steady, quiet heat all evening: a practical gift for a cold room."),
+     ]},
+    {"slug": "christmas-gifts-under-300-ireland-2026", "cap": 300,
+     "title": "Christmas Gifts Under €300 Ireland 2026",
+     "h1": "Christmas gifts under €300 for Irish homes (2026)",
+     "desc": "Bigger Christmas gifts under €300 from Amazon.ie: robot vacuums, coffee, air purifiers, dehumidifiers and home-office upgrades.",
+     "intro": "For a bigger family present or a shared gift, these are the picks from our buying guides that do the most for an Irish home. All were in stock on Amazon.ie when we last checked and cost under €300.",
+     "items": [
+        ("rvc-033", "Xiaomi's S40 is the best-rated robot vacuum in our guides, a gift that gives back time every week."),
+        ("rvc-003", "A step up in the Xiaomi range with laser navigation, for a bigger home or one with more rooms to map."),
+        ("afr-001", "Ninja's dual-zone air fryer cooks two things at once and finishes them together, with thousands of owner reviews behind it."),
+        ("cfm-002", "A pump espresso machine with a steam nozzle, for someone who wants to make café-style coffee themselves."),
+        ("cfm-018", "Nespresso's CitiZ is a solid, good-looking pod machine for someone who wants espresso without any fuss."),
+        ("deh-034", "Meaco's ABC 12L is one of the best-rated dehumidifiers in our guides and quiet enough to run in a living space."),
+        ("deh-001", "A dehumidifier with a HEPA filter, so it tackles damp and airborne particles in one machine."),
+        ("apr-030", "A large-room purifier for an open-plan kitchen and living area, sold and shipped by Amazon.ie."),
+        ("ofc-001", "A mesh office chair with adjustable lumbar support and flip-up arms, for anyone working from home on a kitchen chair."),
+        ("ofc-012", "An electric standing desk with a one-piece top, the home-office upgrade people rarely buy for themselves."),
+     ]},
+]
+GIFT_END = datetime.date(2026, 12, 25)
+GIFT_WINDOW = datetime.date.today() <= GIFT_END
+
+def _find_prod(pid):
+    for c in CATS:
+        for pg in c["pages"]:
+            for p in pg["products"]:
+                if p["id"] == pid:
+                    return c, pg, p
+    return None, None, None
+
+def gift_page(cfg):
+    rows, items, hashsrc = "", [], []
+    for pid, blurb in cfg["items"]:
+        c, pg, p = _find_prod(pid)
+        if not p or stock_state(p) or product_price(p) > cfg["cap"]:
+            print(f"  [gift] {cfg['slug']}: {pid} fora (estoque/preco)")
+            continue
+        url, has_aff = product_url(p)
+        rel = "sponsored noopener" if has_aff else "nofollow noopener"
+        ck = c["category"]
+        rows += (f'<div class="insight" style="margin:18px 0"><h3 style="margin:0 0 6px">{esc(p["name"])}</h3>'
+                 f'<p style="margin:0 0 8px">{esc(blurb)}</p>'
+                 f'<p style="margin:0 0 10px"><small>€{product_price(p)} when we last checked · {p["rating"]}/5 owner rating · from <a href="{ck}/{pg["slug"]}.html#{p["id"]}">{esc(pg["h1"])}</a></small></p>'
+                 f'<a class="btn" href="{esc(url)}" target="_blank" rel="{rel}">Check today\'s price {ARROW}</a></div>')
+        items.append({"@type": "ListItem", "position": len(items) + 1, "name": p["name"],
+                      "url": f'{DOMAIN}/{ck}/{pg["slug"]}.html#{p["id"]}'})
+        hashsrc.append([pid, p["name"], product_price(p), p["rating"], blurb])
+    faqs = [
+        ("Will these arrive before Christmas?",
+         "We can't promise delivery dates. Amazon.ie shows the expected delivery date for your Eircode on each product page before you order, so check it there, and order early in December if the date matters."),
+        ("Are these prices final?",
+         "No. Prices on Amazon.ie change often, especially around Black Friday and in December. The price shown is the one we last checked; each button opens the product with today's price."),
+        ("How did you choose these gifts?",
+         f"Every item comes from one of our {SITE_NAME} buying guides, where it is compared against the alternatives on specifications, owner ratings and Irish running costs. We only list products that were in stock on Amazon.ie when we last checked."),
+        ("Can a gift be returned?",
+         "Return windows depend on the product and seller. The returns information is shown on each Amazon.ie product page and at checkout; check it before buying a gift."),
+    ]
+    faq_block = "".join(f"<h3 style='margin-top:22px'>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in faqs)
+    others = "".join(f'<a href="{g["slug"]}.html">Christmas gifts under €{g["cap"]} {ARROW}</a>' for g in GIFT_PAGES if g["slug"] != cfg["slug"])
+    pub, mod = page_dates(cfg["slug"], [cfg["title"], cfg["h1"], cfg["desc"], cfg["intro"],
+                                        json.dumps(hashsrc, ensure_ascii=False), json.dumps(faqs, ensure_ascii=False)])
+    url = f"{DOMAIN}/{cfg['slug']}.html"
+    body = f"""
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › Christmas gifts under €{cfg['cap']}</nav>
+<h1>{esc(cfg['h1'])}</h1>
+<div class="updated"><span>By <a href="about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="affiliate-disclosure.html">How we make money</a></div>
+<div class="quick-answer"><p><strong>Quick answer:</strong> {esc(cfg['intro'])}</p></div>
+{rows}
+<div class="related"><h2>More gift ideas</h2>{others}<a href="{BF_SLUG}">Black Friday 2026: what's worth buying {ARROW}</a></div>
+<h2 style="margin-top:34px">Christmas gifts: common questions</h2>
+{faq_block}
+<p class="notice">{SITE_NAME} is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. <a href="affiliate-disclosure.html">How this works</a>.</p>
+"""
+    page_ld = {"@context": "https://schema.org", "@type": "WebPage", "@id": url, "name": cfg["title"], "url": url,
+               "description": cfg["desc"], "inLanguage": "en-IE", "datePublished": pub, "dateModified": mod,
+               "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": DOMAIN + "/"},
+               "mainEntity": {"@type": "ItemList", "itemListElement": items}}
+    faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
+        {"@type": "ListItem", "position": 2, "name": f"Christmas gifts under €{cfg['cap']}", "item": url}]}
+    jsonld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
+                     for x in (page_ld, faq_ld, crumb))
+    with open(os.path.join(OUT, cfg["slug"] + ".html"), "w", encoding="utf-8") as f:
+        f.write(page_shell(cfg["title"], cfg["desc"], url, body, depth=0, jsonld=jsonld))
+    all_pages.append(cfg["slug"] + ".html")
+    print(f"  [gift] {url} — {len(items)} itens")
+
+for _g in GIFT_PAGES:
+    gift_page(_g)
+
 # ---------------------------------------------------------------- homepage
+GIFT_HOME_LINKS = ("".join(f'<a href="{g["slug"]}.html"><span style="display:flex;align-items:center;gap:10px"><b>Christmas:</b>&nbsp;gifts under €{g["cap"]}</span> {ARROW}</a>'
+                           for g in GIFT_PAGES) if GIFT_WINDOW else "")
+BF_HOME_LINKS = ("".join(f'<a href="{ck}/{bf_cat_slug(ck)}.html"><span style="display:flex;align-items:center;gap:10px"><b>Black Friday:</b>&nbsp;{esc(n)}</span> {ARROW}</a>'
+                         for ck, (n, _t) in BF_CATS.items() if ck in CATS_BY_SLUG) if BF_WINDOW else "")
 tiles = ""
 for cat in CATS:
     tiles += f"""<div class="tile"><a href="{cat['category']}/index.html"><span class="go">{ARROW}</span><div class="icw">{icon(cat['category'], 24)}</div><h3>{esc(cat['name'])}</h3><p>{len(cat['pages'])} buying guides · {sum(len(p['products']) for p in cat['pages'])} products compared</p></a></div>"""
@@ -3770,7 +4011,7 @@ body_home = f"""
 <h2 id="categories">Browse by category</h2>
 <div class="grid">{tiles}</div>
 <h2>Featured guides</h2>
-<div class="related"><a href="{BF_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>Black Friday 2026:</b>&nbsp;what's worth buying, with today's Amazon.ie prices</span> {ARROW}</a>{featured}<a href="{CALC_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>New:</b>&nbsp;What will a heater or dehumidifier cost you this winter? Free calculator</span> {ARROW}</a></div>
+<div class="related"><a href="{BF_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>Black Friday 2026:</b>&nbsp;what's worth buying{", with today's Amazon.ie prices" if LIVE else " on Amazon.ie"}</span> {ARROW}</a>{BF_HOME_LINKS}{GIFT_HOME_LINKS}{featured}<a href="{CALC_SLUG}"><span style="display:flex;align-items:center;gap:10px"><b>New:</b>&nbsp;What will a heater or dehumidifier cost you this winter? Free calculator</span> {ARROW}</a></div>
 <h2>How {SITE_NAME} works</h2>
 <p>Every guide compares five carefully selected products using manufacturer specifications, verified owner feedback and Irish-specific factors — electricity rates, weather, legal rules and local availability. When you buy through our links we may earn a commission from Amazon.ie or other retailers, at no cost to you. That's the entire business model: useful guides, honest picks. <a href="affiliate-disclosure.html">Full disclosure here</a>.</p>
 """

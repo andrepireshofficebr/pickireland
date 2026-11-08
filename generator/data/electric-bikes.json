@@ -142,31 +142,6 @@
      "verdict": "A torque sensor rather than a basic cadence sensor is the headline spec here — it reads how hard you're actually pedalling and adjusts assist accordingly, giving a noticeably more natural ride feel than the cheaper cadence-based ENGWE below. The 48V 15Ah battery is rated for up to 130km, among the longest ranges on this list, and it currently holds the highest owner rating of any e-bike we track on Amazon.ie at 4.8 stars. That performance comes at the top price point here, and like every fat-tyre folding e-bike, it's genuinely heavy to lift or carry up stairs. The right choice for someone who wants the most natural-feeling assist and longest range and is prepared to pay for it; budget-focused buyers should look to the VARUN instead."
     },
     {
-     "id": "ebk-002",
-     "asin": "B0FJKTFCCT",
-     "name": "ENGWE Folding E-Bike (48V 13Ah, up to 120 km)",
-     "brand": "ENGWE",
-     "price": 1049,
-     "rating": 4.3,
-     "badge": "Best Range Value",
-     "specs": {
-      "Battery": "48V 13Ah removable",
-      "Range": "Up to 120 km",
-      "Type": "Folding",
-      "Charge": "Indoors, battery out"
-     },
-     "pros": [
-      "120 km claimed range",
-      "Removable battery",
-      "ENGWE build pedigree"
-     ],
-     "cons": [
-      "Cadence assist (not torque)",
-      "Bulky folded"
-     ],
-     "verdict": "Claimed range of up to 120km comes from the same ENGWE build quality as the flagship above, but at roughly €650 less, making this the range-per-euro option on this list. The battery is removable, so it can be charged indoors overnight without hauling the whole bike inside — handy for apartment living. Assist comes from a cadence sensor rather than the flagship's torque sensor, meaning the motor responds to pedal rotation rather than pedalling force, which feels less refined on hills. It also folds down to a bulkier package than some rivals, so storage space matters. A strong pick for commuters chasing maximum range on a mid-size budget; riders who prioritise ride feel over range should pay up for the torque-sensor model."
-    },
-    {
      "id": "ebk-003",
      "asin": "B0CLB7ZZCS",
      "name": "Fafrees F20 X-MAX (48V 30Ah / 1440Wh)",
@@ -216,7 +191,12 @@
      ],
      "verdict": "The low step-through frame is the reason to pick this over the other ENGWE models: mounting and dismounting is far easier in a skirt, a long coat, or if bending a leg over a high crossbar is uncomfortable. Fat 20x4.0 tyres smooth out rough Irish road surfaces, and 7 gears give enough range to manage hills without a motor doing all the work. The trade-off with smaller 20-inch wheels is that they transmit speed bumps and potholes more directly than the bigger wheels on other models, and the fat-tyre, step-through look is distinctive enough that it won't suit everyone's taste. Ideal for riders who prioritise easy mounting and comfort over top-spec range or a conventional bike silhouette."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "One of the e-bikes we recommended here ships only in 3–5 weeks on Amazon.ie, so this guide lists three until stock returns in spring. For more e-bikes in stock, see",
+    "href": "best-electric-bikes-under-1000-ireland.html",
+    "label": "Best electric bikes under €1,000"
+   }
   },
   {
    "slug": "best-electric-bikes-under-1000-ireland",
@@ -284,7 +264,7 @@
      "name": "Fafrees 26\" Hailong-One E-Bike",
      "brand": "Fafrees",
      "price": 699,
-     "rating": 4.2,
+     "rating": 5.0,
      "badge": "Best Classic 26\"",
      "specs": {
       "Wheel": "26\" classic",
@@ -298,7 +278,7 @@
       "Honest price"
      ],
      "cons": [
-      "Plain spec sheet",
+      "Only one owner review on this Amazon.ie listing so far",
       "Cadence assist"
      ],
      "verdict": "The traditional commuter: full-size wheels and removable battery without folding-bike compromises."
@@ -365,7 +345,7 @@
    "title": "Best Folding Electric Bikes Ireland 2026",
    "desc": "The best folding e-bikes in Ireland for commuters using Irish Rail, DART or short on storage. Weight, fold size and range compared.",
    "h1": "Best Folding Electric Bikes in Ireland",
-   "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these four on fold speed, carry weight, and how much riding quality survives the hinge.",
+   "intro": "Folding e-bikes solve the three most Irish bike problems at once: theft (it lives indoors), rain (take the train when it lashes, folded bikes travel free on Irish Rail), and apartment storage. The compromise is small wheels and weight — so we ranked these three on fold speed, carry weight, and how much riding quality survives the hinge.",
    "faq_idx": [
     7,
     3,
@@ -446,31 +426,6 @@
      "verdict": "The best e-bike on Amazon.ie right now: massive range, natural torque-sensor assist, top owner ratings."
     },
     {
-     "id": "ebk-012",
-     "asin": "B0FJKTFCCT",
-     "name": "ENGWE Folding E-Bike (48V 13Ah, up to 120 km)",
-     "brand": "ENGWE",
-     "price": 1049,
-     "rating": 4.3,
-     "badge": "Best Range Folder",
-     "specs": {
-      "Battery": "48V 13Ah removable",
-      "Range": "Up to 120 km",
-      "Type": "Folding",
-      "Charge": "Indoors, battery out"
-     },
-     "pros": [
-      "120 km claimed range",
-      "Removable battery",
-      "ENGWE build pedigree"
-     ],
-     "cons": [
-      "Cadence assist (not torque)",
-      "Bulky folded"
-     ],
-     "verdict": "The range-per-euro king: week-of-commutes battery in a folding frame at €1,049."
-    },
-    {
      "id": "ebk-013",
      "asin": "B09QGCQ6GH",
      "name": "Fafrees F20 Folding Fat E-Bike (20\")",
@@ -520,7 +475,12 @@
      ],
      "verdict": "The compact adventure folder owners love — 4.6 stars don't lie."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "One of the e-bikes we recommended here ships only in 3–5 weeks on Amazon.ie, so this guide lists three until stock returns in spring. For more e-bikes in stock, see",
+    "href": "best-electric-bikes-ireland.html",
+    "label": "Best electric bikes in Ireland"
+   }
   },
   {
    "slug": "best-electric-mountain-bikes-ireland",
@@ -637,7 +597,7 @@
      "asin": "B0F18KS9SK",
      "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
      "brand": "Lohang",
-     "price": 1099,
+     "price": 899,
      "rating": 4.6,
      "badge": "Most Powerful (Private Land)",
      "specs": {
@@ -689,7 +649,7 @@
    "title": "Best Commuter Electric Bikes Ireland 2026",
    "desc": "The best commuter e-bikes in Ireland for daily, year-round riding: integrated lights, mudguards, racks and real range. 2026 comparison.",
    "h1": "Best Commuter Electric Bikes in Ireland",
-   "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared four commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
+   "intro": "A proper commuter e-bike earns its keep every single weekday: integrated lights you never charge, mudguards that keep work clothes dry, a rack for the laptop bag, and a lock-friendly frame. We compared three commute-ready machines on the boring details that decide whether you're still riding in February — not just the spec-sheet heroes.",
    "faq_idx": [
     4,
     1,
@@ -770,37 +730,12 @@
      "verdict": "The accessibility champion: swing a leg through, not over — comfort-first fat-tyre riding."
     },
     {
-     "id": "ebk-022",
-     "asin": "B0FJKTFCCT",
-     "name": "ENGWE Folding E-Bike (48V 13Ah, up to 120 km)",
-     "brand": "ENGWE",
-     "price": 1049,
-     "rating": 4.3,
-     "badge": "Best Range Commuter",
-     "specs": {
-      "Battery": "48V 13Ah removable",
-      "Range": "Up to 120 km",
-      "Type": "Folding",
-      "Charge": "Indoors, battery out"
-     },
-     "pros": [
-      "120 km claimed range",
-      "Removable battery",
-      "ENGWE build pedigree"
-     ],
-     "cons": [
-      "Cadence assist (not torque)",
-      "Bulky folded"
-     ],
-     "verdict": "The range-per-euro king: week-of-commutes battery in a folding frame at €1,049."
-    },
-    {
      "id": "ebk-023",
      "asin": "B0DW8LNFT7",
      "name": "Fafrees 26\" Hailong-One E-Bike",
      "brand": "Fafrees",
      "price": 699,
-     "rating": 4.2,
+     "rating": 5.0,
      "badge": "Best Classic Commuter",
      "specs": {
       "Wheel": "26\" classic",
@@ -814,7 +749,7 @@
       "Honest price"
      ],
      "cons": [
-      "Plain spec sheet",
+      "Only one owner review on this Amazon.ie listing so far",
       "Cadence assist"
      ],
      "verdict": "The traditional commuter: full-size wheels and removable battery without folding-bike compromises."
@@ -844,7 +779,12 @@
      ],
      "verdict": "The stability pick: shopping, dogs, confidence — three wheels open e-biking to everyone."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "One of the e-bikes we recommended here ships only in 3–5 weeks on Amazon.ie, so this guide lists three until stock returns in spring. For more e-bikes in stock, see",
+    "href": "best-electric-bikes-ireland.html",
+    "label": "Best electric bikes in Ireland"
+   }
   }
  ]
 }
