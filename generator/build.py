@@ -3869,7 +3869,7 @@ GIFT_PAGES = [
         ("cfm-016", "The Inissia is Nespresso's compact original-pod machine: small, quick to heat and very simple."),
         ("ebl-006", "A fully fitted double electric blanket with a control for each side, so two people can choose their own heat."),
         ("eht-001", "The best-rated heater in our guides: a 1,500 W ceramic heater with a digital thermostat for a bedroom or home office."),
-        ("apr-001", "Philips' small HEPA purifier is quiet enough for a bedroom and cheap to run, a thoughtful gift for an allergy sufferer."),
+        ("apr-003", "Levoit's compact HEPA purifier is quiet enough for a bedroom and draws little power, a thoughtful gift for an allergy sufferer."),
         ("afr-028", "An 8-litre air fryer with a viewing window, for a family that cooks bigger batches."),
         ("eht-012", "An oil-filled radiator gives steady, quiet heat all evening: a practical gift for a cold room."),
      ]},

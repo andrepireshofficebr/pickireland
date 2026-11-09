@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-11-08 | 12 categories | 52 guides | 229 product entries
+Generated: 2026-11-09 | 12 categories | 52 guides | 229 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -473,14 +473,14 @@ Verdict: The sweet-spot Tower: digital controls and real capacity at a price Nin
 
 ### 6. Cecotec Cecofry Supreme 8000 (8L, 1800W)  [Solid Backup Choice]
 Brand: Cecotec
-Price: ~€111
+Price: ~€94
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.68/hour at €0.38/kWh
 Capacity: 8 L
 Power: 1800 W
-Pros: €38 less than our top pick; 8 L capacity; 1800 W power
+Pros: €55 less than our top pick; 8 L capacity; 1800 W power
 Cons: 4 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
-Verdict: Cecotec's 8-litre, 1800W Supreme 8000 matches the capacity bracket our family pick occupies and undercuts it at €111 against €149, with a respectable 4.4-star owner score. What it doesn't have is the dual-zone cooking that makes the Ninja genuinely useful for a full family meal, so it's one large basket rather than two independent ones. The right call if you want maximum single-basket volume for the money and don't need to cook two things at different temperatures.
+Verdict: Cecotec's 8-litre, 1800W Supreme 8000 matches the capacity bracket our family pick occupies and undercuts it at €94 against €149, with a respectable 4.4-star owner score. What it doesn't have is the dual-zone cooking that makes the Ninja genuinely useful for a full family meal, so it's one large basket rather than two independent ones. The right call if you want maximum single-basket volume for the money and don't need to cook two things at different temperatures.
 
 ### 7. Russell Hobbs XXL 8L Air Fryer (10 Programmes)  [Strong Alternative]
 Brand: Russell Hobbs
@@ -658,19 +658,19 @@ Summary: Ireland's best air purifiers for mould spores, pollen and dust — true
 
 Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €165.
 
-### 1. Philips 600 Series Air Purifier  [Best Overall]
+### 1. Philips 600 Series Air Purifier (App Control)  [Best Overall]
 Brand: Philips
-Price: ~€71
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€144
+Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
-Filter: True HEPA
-Energy: Ultra-efficient
-Noise: Very quiet
+Filter: HEPA (NanoProtect)
+CADR: 170 m³/h
+Noise: 19 dB (sleep mode)
 Power: 12 W
-Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
-Cons: No app on base model; Filter replacements yearly
-Verdict: Rated to cover up to 44 square metres with a true HEPA filter, this Philips pairs sensor-driven accuracy with ultra-low energy consumption, which matters if it's going to run most of the day in an Irish home. Owners on Amazon.ie regularly point to the near-silent sleep mode as the standout feature — it's quiet enough for a bedroom without a dedicated bedroom model. The base unit skips app connectivity, so there's no remote monitoring or scheduling from your phone, and filters need replacing yearly, an ongoing cost worth budgeting for. It suits anyone wanting reliable everyday coverage for a living room or bedroom-sized space without smart-home features; buyers who want app control should look at the Levoit instead.
+Pros: AeraSense PM2.5 sensor with display; App control via the Philips Air+ app; 19 dB sleep mode with dimmed display
+Cons: Sized for rooms up to 44 m²; Replacement filters are an ongoing cost
+Verdict: Rated for rooms up to 44 square metres with a CADR of 170 m³/h, this Philips pairs its AeraSense particle sensor with a 12 W maximum draw, which matters if it's going to run most of the day in an Irish home. This is the app-control version: the Air+ app shows the sensor readings and lets you change modes from your phone, and the 19 dB sleep mode dims the display for bedrooms. It's sized for a living room or bedroom rather than an open-plan ground floor, and replacement filters are an ongoing cost worth budgeting for. It suits anyone wanting reliable everyday coverage for one room; for bigger spaces, look at the Levoit Core 300S.
 
 ### 2. Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)  [Best Smart Large-Room]
 Brand: Levoit
@@ -689,7 +689,7 @@ Verdict: Levoit's upgraded Core 300S is the pick for a living room or an open-pl
 
 ### 3. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Best for Bedrooms]
 Brand: Levoit
-Price: ~€68
+Price: ~€56
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
@@ -733,8 +733,8 @@ Verdict: €29 is a genuinely low entry price for a unit that still uses a real 
 Brand: MIKO
 Price: ~€95
 Rating: 4.4/5 (Amazon.ie)
-Pros: €95 — 4th-cheapest of the 6 picks here
-Cons: 1 of the 6 picks here is better rated by owners; €24 more than our top pick
+Pros: €95 — 3rd-cheapest of the 6 picks here; €49 less than our top pick
+Cons: 2 of the 6 picks here are better rated by owners; Post-purchase support varies by seller
 Verdict: MIKO's HEPA purifier holds a 4.4-star owner rating on Amazon.ie at a €95 price point that sits squarely between the AZEUS and the Levoit large-room model, making it a reasonable middle-ground option if neither of those quite fits your budget. Buying through Amazon.ie means the usual full returns protection if the fit isn't right for your room. It's a newer addition to our comparison set than the Philips or Levoit models, so there's less accumulated owner history to draw on, and post-purchase support has been reported to vary depending on the specific seller fulfilling the order. Worth a look for buyers comparison-shopping on price who are comfortable with a less-established brand; those wanting maximum certainty should default to Philips or Levoit.
 
 #### What are Irish air purifiers actually filtering out?
@@ -780,18 +780,18 @@ Summary: Suffer hay fever or dust allergies in Ireland? The best HEPA air purifi
 
 Irish grass pollen season now stretches from May into August, with tree pollen from March — and a third of us react. A bedroom HEPA purifier won't fix outdoors, but it gives allergy sufferers what antihistamines can't: eight hours of genuinely low-pollen sleep. We ranked these five on allergen capture, sleep-mode silence and certified performance.
 
-### 1. Philips 600 Series Air Purifier  [Best Allergy Pick]
+### 1. Philips 600 Series Air Purifier (App Control)  [Best Allergy Pick]
 Brand: Philips
-Price: ~€71
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€144
+Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
-Filter: True HEPA
-Energy: Ultra-efficient
-Noise: Very quiet
+Filter: HEPA (NanoProtect)
+CADR: 170 m³/h
+Noise: 19 dB (sleep mode)
 Power: 12 W
-Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
-Cons: No app on base model; Filter replacements yearly
+Pros: AeraSense PM2.5 sensor with display; App control via the Philips Air+ app; 19 dB sleep mode with dimmed display
+Cons: Sized for rooms up to 44 m²; Replacement filters are an ongoing cost
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
 
 ### 2. Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)  [Best Whole-Room Allergy]
@@ -811,7 +811,7 @@ Verdict: The whole-room allergy pick: 258 m³/h of HEPA filtration, a laser PM2.
 
 ### 3. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Best Bedroom Allergy]
 Brand: Levoit
-Price: ~€68
+Price: ~€56
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
@@ -892,7 +892,7 @@ A bedroom purifier that's too loud gets switched off, and a switched-off purifie
 
 ### 1. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Quietest Overall]
 Brand: Levoit
-Price: ~€68
+Price: ~€56
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
@@ -904,18 +904,18 @@ Pros: Designed for sleep — very quiet; Optional gentle fragrance; Compact beds
 Cons: Smaller rooms only; Basic display
 Verdict: The bedroom specialist: clean air all night without a sound you'll notice.
 
-### 2. Philips 600 Series Air Purifier  [Best Quiet All-Rounder]
+### 2. Philips 600 Series Air Purifier (App Control)  [Best Quiet All-Rounder]
 Brand: Philips
-Price: ~€71
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€144
+Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
-Filter: True HEPA
-Energy: Ultra-efficient
-Noise: Very quiet
+Filter: HEPA (NanoProtect)
+CADR: 170 m³/h
+Noise: 19 dB (sleep mode)
 Power: 12 W
-Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
-Cons: No app on base model; Filter replacements yearly
+Pros: AeraSense PM2.5 sensor with display; App control via the Philips Air+ app; 19 dB sleep mode with dimmed display
+Cons: Sized for rooms up to 44 m²; Replacement filters are an ongoing cost
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
 
 ### 3. MELEDEN Small Air Purifier (HEPA13, Pet)  [Best Quiet Budget]
@@ -968,8 +968,8 @@ Filtration: 3-stage HEPASilent
 Pre-filter: Washable fabric
 Power: 38 W
 Pros: 510 m³/h cadr; Up to 103 m² coverage
-Cons: 3 of the 6 picks here are better rated by owners; €296 more than our top pick, which owners rate higher at 4.4★
-Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €68 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
+Cons: 4 of the 6 picks here are better rated by owners; €308 more than our top pick, which owners rate higher at 4.4★
+Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs more than six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €56 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
 
 #### What does a 25 dB air purifier actually sound like?
 Decibels are logarithmic, so the gap between 25 dB and 35 dB is far wider than it reads — every 10 dB is roughly a doubling of perceived loudness. A quiet Irish bedroom sits around 20-30 dB of background noise at night, so a purifier at 24 dB effectively disappears into it, while one at 38 dB is impossible to ignore at 3am. The catch is measurement. Manufacturer figures are taken in an anechoic chamber at one metre; the same unit on a hard bedside locker 40 cm from your ear, reflecting off a wall, reads higher in practice. Treat quoted sleep-mode numbers as a ranking tool between models rather than a promise. Any figure given without a distance, or as an "as low as" range with no speed named, is not really a specification.
@@ -1041,18 +1041,18 @@ Pros: 4-stage filtration; Strong large-room airflow; Quiet for its size
 Cons: Brand less known in Ireland; Filter sourcing online
 Verdict: The 4-stage workhorse for bigger rooms — filtration depth at a fair price.
 
-### 3. Philips 600 Series Air Purifier  [Best Efficient Large]
+### 3. Philips 600 Series Air Purifier (App Control)  [Best Efficient Large]
 Brand: Philips
-Price: ~€71
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€144
+Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
-Filter: True HEPA
-Energy: Ultra-efficient
-Noise: Very quiet
+Filter: HEPA (NanoProtect)
+CADR: 170 m³/h
+Noise: 19 dB (sleep mode)
 Power: 12 W
-Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
-Cons: No app on base model; Filter replacements yearly
+Pros: AeraSense PM2.5 sensor with display; App control via the Philips Air+ app; 19 dB sleep mode with dimmed display
+Cons: Sized for rooms up to 44 m²; Replacement filters are an ongoing cost
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
 
 ### 4. AIRTOK H13 HEPA Air Purifier (AP0601)  [Best Mid-Room Support]
@@ -1124,23 +1124,23 @@ Summary: Real HEPA air purification under €150: five budget units for Irish ho
 
 Under €150, air purifiers split into two species: genuine HEPA machines from serious brands' entry lines, and glowing plastic that moves air past a sponge. Every unit below is the first kind — verified true-HEPA filtration with filters you can actually buy next year. The differences left are room size, noise and small luxuries.
 
-### 1. Philips 600 Series Air Purifier  [Best Under €150]
+### 1. Philips 600 Series Air Purifier (App Control)  [Best Under €150]
 Brand: Philips
-Price: ~€71
-Rating: 4.3/5 (Amazon.ie)
+Price: ~€144
+Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.005/hour at €0.38/kWh
 Coverage: Up to 44 m²
-Filter: True HEPA
-Energy: Ultra-efficient
-Noise: Very quiet
+Filter: HEPA (NanoProtect)
+CADR: 170 m³/h
+Noise: 19 dB (sleep mode)
 Power: 12 W
-Pros: Philips sensor accuracy; Ultra-low energy use; Near-silent sleep mode
-Cons: No app on base model; Filter replacements yearly
+Pros: AeraSense PM2.5 sensor with display; App control via the Philips Air+ app; 19 dB sleep mode with dimmed display
+Cons: Sized for rooms up to 44 m²; Replacement filters are an ongoing cost
 Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to run all day.
 
 ### 2. LEVOIT Bedroom Air Purifier (Quiet HEPA)  [Best Value Bedroom]
 Brand: Levoit
-Price: ~€68
+Price: ~€56
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.003/hour at €0.38/kWh
 Coverage: Bedrooms
@@ -3048,7 +3048,7 @@ Verdict: At €60, the Dreo 1500W Ceramic Space Heater earns the Best Overall ba
 
 ### 2. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator]
 Brand: Rowenta
-Price: ~€146
+Price: ~€164
 Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
@@ -3097,16 +3097,16 @@ Verdict: The Zanussi 2300W Oil Filled Radiator sits just outside our top picks b
 
 ### 6. De'Longhi Radia S (Rooms up to 60 m³)  [Strong Alternative]
 Brand: De'Longhi
-Price: ~€100
+Price: ~€179
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2000 W
 Heat settings: 3
 Room size: Up to 60 m³
 Type: Oil-filled radiator
-Pros: €100 — 4th-cheapest of the 6 picks here; 2000 W power; 3 heat settings
-Cons: 1 of the 6 picks here is better rated by owners; €40 more than our top pick, which owners rate higher at 4.7★
-Verdict: The De'Longhi Radia S is sized for rooms up to 60 m³ and holds a solid 4.4★ from Amazon.ie owners at €100, a touch above the 4.3★ of our Rowenta oil radiator winner. It offers honest value for what's on the spec sheet, and buying through Amazon.ie keeps warranty and returns simple. It didn't take the category badge here, so it's positioned as an alternative rather than the outright pick, and given how close it's priced to the Rowenta above, it's worth comparing both spec sheets before deciding. Reasonable for buyers who prefer this model's size or styling to the Rowenta, but not an obvious upgrade over our top choice.
+Pros: €179 — 6th-cheapest of the 6 picks here; 2000 W power; 3 heat settings
+Cons: 1 of the 6 picks here is better rated by owners; €119 more than our top pick, which owners rate higher at 4.7★
+Verdict: The De'Longhi Radia S is sized for rooms up to 60 m³ and holds a solid 4.4★ from Amazon.ie owners at €179, a touch above the 4.3★ of our Rowenta oil radiator winner. It offers honest value for what's on the spec sheet, and buying through Amazon.ie keeps warranty and returns simple. It didn't take the category badge here, so it's positioned as an alternative rather than the outright pick, and given how close it's priced to the Rowenta above, it's worth comparing both spec sheets before deciding. Reasonable for buyers who prefer this model's size or styling to the Rowenta, but not an obvious upgrade over our top choice.
 
 #### How do you actually pick the right electric heater for a room?
 Answer three questions before comparing wattage or price: how big is the room, how well does it hold heat, and how long will the heater run each time you switch it on. A draughty period-house bedroom with single glazing loses heat far faster than a sealed 2020s apartment with the same floor area, so the same heater behaves completely differently in each. Rooms you occupy for hours — a sitting room in the evening, a home office all day — suit heaters with thermal mass or accurate thermostats that hold a set temperature efficiently. Rooms you pass through briefly — a hallway, a bathroom before a shower — suit fast radiant or fan heat that warms a person, not the air. Getting this match wrong is the single biggest reason Irish households end up with a heater that either never feels warm enough or runs constantly and produces a bill to match.
@@ -3262,7 +3262,7 @@ For hours-long heating of a closed room, nothing plug-in beats an oil-filled rad
 
 ### 1. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator Overall]
 Brand: Rowenta
-Price: ~€146
+Price: ~€164
 Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
@@ -3275,14 +3275,14 @@ Verdict: The steady all-evening heater: quiet, Eco-mode thrifty, with full tip-o
 
 ### 2. Midea 2000W Oil-Filled Radiator (9-Fin)  [Best Value 9-Fin]
 Brand: Midea
-Price: ~€73
+Price: ~€89
 Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Fins: 9
 Thermostat: Adjustable
 Safety: Tip-over
-Pros: Strong 9-fin heat output; Quality build for €73; Silent
+Pros: Strong 9-fin heat output; Quality build for €89; Silent
 Cons: Slow warm-up like all oil; No digital display
 Verdict: The value 2 kW oil radiator: most metal per euro for all-evening heating.
 
@@ -3321,9 +3321,9 @@ Power: 700–1500 W
 Oscillation: 70°
 Noise: From 25 dB
 Timer: 1–12 h
-Pros: €24 less than our top pick; 700–1500 W power; 70° oscillation
+Pros: €42 less than our top pick; 700–1500 W power; 70° oscillation
 Cons: Fan heater, not oil-filled; Stops warming when it switches off
-Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €122 against €146, and owners actually rate it higher, 4.5 stars against 4.3. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
+Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €122 against €164, and owners actually rate it higher, 4.5 stars against 4.3. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
 
 ### 6. De'Longhi TRDX40820E Oil-Filled Radiator (2000W, Programmable)  [Worth Considering]
 Brand: De'Longhi
@@ -3335,7 +3335,7 @@ Type: Oil-filled
 Timer: Daily & weekly programming
 Modes: Night, Comfort, Antifreeze, Chrono
 Pros: Daily and weekly programming, with remote; Child-safety mode lowers the surface temperature; Joint highest owner rating on this page at 4.5★
-Cons: Most expensive pick on this page at €244; €98 more than our top pick for the same 2,000 W
+Cons: Most expensive pick on this page at €244; €80 more than our top pick for the same 2,000 W
 Verdict: De'Longhi's TRDX40820E is a true oil-filled radiator, and at €244 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.3. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €98 less.
 
 #### Why do oil-filled radiators stay warm after the thermostat switches off?
@@ -3423,7 +3423,7 @@ Verdict: Dreo's compact ceramic heater costs €80 against our €124 Devola pan
 
 ### 4. De'Longhi Bend Line Ceramic Heater (Remote)  [Challenger Pick]
 Brand: De'Longhi
-Price: ~€96
+Price: ~€126
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 1200 / 2000 W
@@ -3432,7 +3432,7 @@ Timer: 24 h
 Control: Digital + remote
 Pros: 1200 / 2000 W power; Up to 60 m³ room size; Second-best owner rating on this page at 4.4★
 Cons: 1 of the 4 picks here is better rated by owners; A ceramic fan heater, not a true panel
-Verdict: De'Longhi's Bend Line costs around €96, less than our €124 Devola panel, and carries a good 4.4-star rating from a brand with real service presence in Ireland. It's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it if you'd rather have De'Longhi's build and fast heat than a true panel.
+Verdict: De'Longhi's Bend Line costs around €126, about the same as our €124 Devola panel, and carries a good 4.4-star rating from a brand with real service presence in Ireland. It's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it if you'd rather have De'Longhi's build and fast heat than a true panel.
 
 #### What kind of room does a panel heater actually work best in?
 Panel heaters carry little thermal mass and rely on either convection or a flat infrared element to warm a room steadily rather than in a fast burst, which suits newer builds with a BER rating of B or A, tight window and door seals, and good attic and wall insulation. In that kind of airtight room the heat has nowhere to escape, so a modest wattage running in the background holds a comfortable temperature all evening. A panel heater's slim profile and wall-mounted design make it the closest thing to a fitted heating solution in the plug-in category, but that design is also what defines where it performs. Put the same heater in a draughty older room with single glazing and gaps around the frames and it will cycle almost constantly, trying to keep pace with heat leaking out as fast as it's produced — at which point wattage stops being the limiting factor and insulation becomes the real problem.
@@ -3529,13 +3529,13 @@ Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars, but a
 
 ### 5. Midea 2000W PTC Ceramic Tower Heater  [Notable Mention]
 Brand: Midea
-Price: ~€73
+Price: ~€93
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2000 W
-Pros: €7 less than our top pick; 2000 W power; Owners rate it 4.4★, above our top pick's 4.2★
-Cons: 1 of the 5 picks here is better rated by owners; Not our category winner — compare against the Purus 600W Electric Radiator (Bathroom Safe, IP24)
-Verdict: Midea's 2000W PTC ceramic tower is cheaper than our bathroom pick at €73 against €80 and better rated at 4.4 stars against 4.2. The reason it isn't first is placement: our pick is a bathroom-rated electric radiator, and a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom.
+Pros: 2000 W power; Owners rate it 4.4★, above our top pick's 4.2★
+Cons: 1 of the 5 picks here is better rated by owners; €13 more than our top pick; Not our category winner — compare against the Purus 600W Electric Radiator (Bathroom Safe, IP24)
+Verdict: Midea's 2000W PTC ceramic tower costs a little more than our bathroom pick at €93 against €80 but is better rated at 4.4 stars against 4.2. The reason it isn't first is placement: our pick is a bathroom-rated electric radiator, and a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom.
 
 #### Why does speed matter more than efficiency for a bathroom heater?
 A typical Irish bathroom is small enough in volume that even a modest-wattage heater can raise its temperature quickly — a 2m x 2m bathroom with a 2.4m ceiling is under 10 cubic metres, a fraction of a bedroom or sitting room. The catch is that bathroom heating isn't judged by whether a heater can eventually get the room warm, but by whether it gets there before you're out of the shower and cold. That makes speed of response matter more here than in any other room in the house. A slow-building oil radiator that would be ideal for an evening in the sitting room is the wrong tool here, however small the room is, because you need meaningful warmth within a minute or two, not fifteen to twenty. Radiant elements and fan heaters with PTC ceramic cores lead in this room specifically because they respond fast, not because they're more efficient.
@@ -4185,15 +4185,15 @@ The sit-stand desk won the ergonomic argument by making movement effortless — 
 
 ### 1. ErGear Electric Standing Desk 120×60 cm  [Best Value Electric]
 Brand: ErGear
-Price: ~€142
+Price: ~€117
 Rating: 4.5/5 (Amazon.ie)
 Drive: Electric motor
 Size: 120×60 cm
 Memory: Presets
 Range: Sit to stand
-Pros: Electric sit-stand for around €142; Memory height presets; Solid for the price
+Pros: Electric sit-stand for around €117; Memory height presets; Solid for the price
 Cons: Single motor; 60 cm depth is snug
-Verdict: A real electric standing desk with memory presets for around €142, rated 4.5 stars by owners.
+Verdict: A real electric standing desk with memory presets for around €117, rated 4.5 stars by owners.
 
 ### 2. FlexiSpot E1 Plus Electric Standing Desk (One-Piece Top, 120×60 cm)  [Best Frame Quality]
 Brand: FlexiSpot
@@ -4204,7 +4204,7 @@ Frame: One-piece
 Warranty: Long frame cover
 Pros: FlexiSpot frame engineering; Stable at height; Trusted warranty
 Cons: Dearer than ErGear; Top options vary
-Verdict: The brand-quality frame: pay ~€100 more for the engineering and warranty depth.
+Verdict: The brand-quality frame: pay ~€45 more for the engineering and warranty depth.
 
 ### 3. ERGOMAKER Electric Standing Desk 90×60 cm  [Best Compact]
 Brand: ERGOMAKER
@@ -4586,7 +4586,7 @@ Verdict: The small-garden no-brainer: Bosch engineering, wire-free, €359.
 ### 2. Bosch VISIMOW 18V-200 Robot Mower  [Best Standard Estate Garden]
 Brand: Bosch
 Price: ~€439
-Rating: 3.8/5 (Amazon.ie)
+Rating: 3.6/5 (Amazon.ie)
 Coverage: Up to 200 m²
 Navigation: Vision, no wire
 Battery: 18V system
@@ -4683,7 +4683,7 @@ Verdict: The mid-size wire-free value play — most coverage per euro in its cla
 ### 3. Bosch VISIMOW 18V-200 Robot Mower  [Smaller sites — 200 m²]
 Brand: Bosch
 Price: ~€439
-Rating: 3.8/5 (Amazon.ie)
+Rating: 3.6/5 (Amazon.ie)
 Coverage: Up to 200 m²
 Navigation: Vision, no wire
 Battery: 18V system
@@ -4831,7 +4831,7 @@ Verdict: The small-garden no-brainer: Bosch engineering, wire-free, €359.
 ### 2. Bosch VISIMOW 18V-200 Robot Mower  [Best 200m² Value]
 Brand: Bosch
 Price: ~€439
-Rating: 3.8/5 (Amazon.ie)
+Rating: 3.6/5 (Amazon.ie)
 Coverage: Up to 200 m²
 Navigation: Vision, no wire
 Battery: 18V system

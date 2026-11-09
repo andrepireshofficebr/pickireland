@@ -118,29 +118,29 @@
       "products": [
         {
           "id": "apr-001",
-          "asin": "B0BX4LB7HL",
-          "name": "Philips 600 Series Air Purifier",
+          "asin": "B0CCF2KFHR",
+          "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 71,
-          "rating": 4.3,
+          "price": 144,
+          "rating": 4.5,
           "badge": "Best Overall",
           "specs": {
             "Coverage": "Up to 44 m²",
-            "Filter": "True HEPA",
-            "Energy": "Ultra-efficient",
-            "Noise": "Very quiet",
+            "Filter": "HEPA (NanoProtect)",
+            "CADR": "170 m³/h",
+            "Noise": "19 dB (sleep mode)",
             "Power": "12 W"
           },
           "pros": [
-            "Philips sensor accuracy",
-            "Ultra-low energy use",
-            "Near-silent sleep mode"
+            "AeraSense PM2.5 sensor with display",
+            "App control via the Philips Air+ app",
+            "19 dB sleep mode with dimmed display"
           ],
           "cons": [
-            "No app on base model",
-            "Filter replacements yearly"
+            "Sized for rooms up to 44 m²",
+            "Replacement filters are an ongoing cost"
           ],
-          "verdict": "Rated to cover up to 44 square metres with a true HEPA filter, this Philips pairs sensor-driven accuracy with ultra-low energy consumption, which matters if it's going to run most of the day in an Irish home. Owners on Amazon.ie regularly point to the near-silent sleep mode as the standout feature — it's quiet enough for a bedroom without a dedicated bedroom model. The base unit skips app connectivity, so there's no remote monitoring or scheduling from your phone, and filters need replacing yearly, an ongoing cost worth budgeting for. It suits anyone wanting reliable everyday coverage for a living room or bedroom-sized space without smart-home features; buyers who want app control should look at the Levoit instead."
+          "verdict": "Rated for rooms up to 44 square metres with a CADR of 170 m³/h, this Philips pairs its AeraSense particle sensor with a 12 W maximum draw, which matters if it's going to run most of the day in an Irish home. This is the app-control version: the Air+ app shows the sensor readings and lets you change modes from your phone, and the 19 dB sleep mode dims the display for bedrooms. It's sized for a living room or bedroom rather than an open-plan ground floor, and replacement filters are an ongoing cost worth budgeting for. It suits anyone wanting reliable everyday coverage for one room; for bigger spaces, look at the Levoit Core 300S."
         },
         {
           "id": "apr-002",
@@ -174,7 +174,7 @@
           "asin": "B0CG1N11DV",
           "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
           "brand": "Levoit",
-          "price": 68,
+          "price": 56,
           "rating": 4.4,
           "badge": "Best for Bedrooms",
           "specs": {
@@ -257,11 +257,12 @@
           "badge": "Worth Considering",
           "specs": {},
           "pros": [
-            "€95 — 4th-cheapest of the 6 picks here"
+            "€95 — 3rd-cheapest of the 6 picks here",
+            "€49 less than our top pick"
           ],
           "cons": [
-            "1 of the 6 picks here is better rated by owners",
-            "€24 more than our top pick"
+            "2 of the 6 picks here are better rated by owners",
+            "Post-purchase support varies by seller"
           ],
           "verdict": "MIKO's HEPA purifier holds a 4.4-star owner rating on Amazon.ie at a €95 price point that sits squarely between the AZEUS and the Levoit large-room model, making it a reasonable middle-ground option if neither of those quite fits your budget. Buying through Amazon.ie means the usual full returns protection if the fit isn't right for your room. It's a newer addition to our comparison set than the Philips or Levoit models, so there's less accumulated owner history to draw on, and post-purchase support has been reported to vary depending on the specific seller fulfilling the order. Worth a look for buyers comparison-shopping on price who are comfortable with a less-established brand; those wanting maximum certainty should default to Philips or Levoit."
         }
@@ -329,27 +330,27 @@
       "products": [
         {
           "id": "apr-006",
-          "asin": "B0BX4LB7HL",
-          "name": "Philips 600 Series Air Purifier",
+          "asin": "B0CCF2KFHR",
+          "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 71,
-          "rating": 4.3,
+          "price": 144,
+          "rating": 4.5,
           "badge": "Best Allergy Pick",
           "specs": {
             "Coverage": "Up to 44 m²",
-            "Filter": "True HEPA",
-            "Energy": "Ultra-efficient",
-            "Noise": "Very quiet",
+            "Filter": "HEPA (NanoProtect)",
+            "CADR": "170 m³/h",
+            "Noise": "19 dB (sleep mode)",
             "Power": "12 W"
           },
           "pros": [
-            "Philips sensor accuracy",
-            "Ultra-low energy use",
-            "Near-silent sleep mode"
+            "AeraSense PM2.5 sensor with display",
+            "App control via the Philips Air+ app",
+            "19 dB sleep mode with dimmed display"
           ],
           "cons": [
-            "No app on base model",
-            "Filter replacements yearly"
+            "Sized for rooms up to 44 m²",
+            "Replacement filters are an ongoing cost"
           ],
           "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
         },
@@ -385,7 +386,7 @@
           "asin": "B0CG1N11DV",
           "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
           "brand": "Levoit",
-          "price": 68,
+          "price": 56,
           "rating": 4.4,
           "badge": "Best Bedroom Allergy",
           "specs": {
@@ -523,7 +524,7 @@
           "asin": "B0CG1N11DV",
           "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
           "brand": "Levoit",
-          "price": 68,
+          "price": 56,
           "rating": 4.4,
           "badge": "Quietest Overall",
           "specs": {
@@ -546,27 +547,27 @@
         },
         {
           "id": "apr-012",
-          "asin": "B0BX4LB7HL",
-          "name": "Philips 600 Series Air Purifier",
+          "asin": "B0CCF2KFHR",
+          "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 71,
-          "rating": 4.3,
+          "price": 144,
+          "rating": 4.5,
           "badge": "Best Quiet All-Rounder",
           "specs": {
             "Coverage": "Up to 44 m²",
-            "Filter": "True HEPA",
-            "Energy": "Ultra-efficient",
-            "Noise": "Very quiet",
+            "Filter": "HEPA (NanoProtect)",
+            "CADR": "170 m³/h",
+            "Noise": "19 dB (sleep mode)",
             "Power": "12 W"
           },
           "pros": [
-            "Philips sensor accuracy",
-            "Ultra-low energy use",
-            "Near-silent sleep mode"
+            "AeraSense PM2.5 sensor with display",
+            "App control via the Philips Air+ app",
+            "19 dB sleep mode with dimmed display"
           ],
           "cons": [
-            "No app on base model",
-            "Filter replacements yearly"
+            "Sized for rooms up to 44 m²",
+            "Replacement filters are an ongoing cost"
           ],
           "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
         },
@@ -667,10 +668,10 @@
             "Up to 103 m² coverage"
           ],
           "cons": [
-            "3 of the 6 picks here are better rated by owners",
-            "€296 more than our top pick, which owners rate higher at 4.4★"
+            "4 of the 6 picks here are better rated by owners",
+            "€308 more than our top pick, which owners rate higher at 4.4★"
           ],
-          "verdict": "Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs roughly six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €68 LEVOIT does the bedroom job this page is about for a fraction of the outlay."
+          "verdict": "Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs more than six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €56 LEVOIT does the bedroom job this page is about for a fraction of the outlay."
         }
       ]
     },
@@ -788,27 +789,27 @@
         },
         {
           "id": "apr-018",
-          "asin": "B0BX4LB7HL",
-          "name": "Philips 600 Series Air Purifier",
+          "asin": "B0CCF2KFHR",
+          "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 71,
-          "rating": 4.3,
+          "price": 144,
+          "rating": 4.5,
           "badge": "Best Efficient Large",
           "specs": {
             "Coverage": "Up to 44 m²",
-            "Filter": "True HEPA",
-            "Energy": "Ultra-efficient",
-            "Noise": "Very quiet",
+            "Filter": "HEPA (NanoProtect)",
+            "CADR": "170 m³/h",
+            "Noise": "19 dB (sleep mode)",
             "Power": "12 W"
           },
           "pros": [
-            "Philips sensor accuracy",
-            "Ultra-low energy use",
-            "Near-silent sleep mode"
+            "AeraSense PM2.5 sensor with display",
+            "App control via the Philips Air+ app",
+            "19 dB sleep mode with dimmed display"
           ],
           "cons": [
-            "No app on base model",
-            "Filter replacements yearly"
+            "Sized for rooms up to 44 m²",
+            "Replacement filters are an ongoing cost"
           ],
           "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
         },
@@ -927,27 +928,27 @@
       "products": [
         {
           "id": "apr-021",
-          "asin": "B0BX4LB7HL",
-          "name": "Philips 600 Series Air Purifier",
+          "asin": "B0CCF2KFHR",
+          "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 71,
-          "rating": 4.3,
+          "price": 144,
+          "rating": 4.5,
           "badge": "Best Under €150",
           "specs": {
             "Coverage": "Up to 44 m²",
-            "Filter": "True HEPA",
-            "Energy": "Ultra-efficient",
-            "Noise": "Very quiet",
+            "Filter": "HEPA (NanoProtect)",
+            "CADR": "170 m³/h",
+            "Noise": "19 dB (sleep mode)",
             "Power": "12 W"
           },
           "pros": [
-            "Philips sensor accuracy",
-            "Ultra-low energy use",
-            "Near-silent sleep mode"
+            "AeraSense PM2.5 sensor with display",
+            "App control via the Philips Air+ app",
+            "19 dB sleep mode with dimmed display"
           ],
           "cons": [
-            "No app on base model",
-            "Filter replacements yearly"
+            "Sized for rooms up to 44 m²",
+            "Replacement filters are an ongoing cost"
           ],
           "verdict": "The right purifier for most Irish rooms: quiet, accurate and cheap to run all day."
         },
@@ -956,7 +957,7 @@
           "asin": "B0CG1N11DV",
           "name": "LEVOIT Bedroom Air Purifier (Quiet HEPA)",
           "brand": "Levoit",
-          "price": 68,
+          "price": 56,
           "rating": 4.4,
           "badge": "Best Value Bedroom",
           "specs": {
