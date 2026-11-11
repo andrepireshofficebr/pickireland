@@ -45,7 +45,7 @@
    "title": "Best Electric Blankets Ireland 2026 (Cost Per Night)",
    "desc": "Electric blankets and heated throws on Amazon.ie compared for Irish homes: wattage, cost per hour at Irish rates, dual control and owner ratings.",
    "h1": "Best Electric Blankets in Ireland",
-   "intro": "Heating a bedroom with a 2 kW heater costs about 76 cent an hour. Warming the bed with an electric underblanket costs 3–5 cent. That gap is why electric blankets are the most cost-effective winter buy in Ireland. We compared six underblankets and a heated throw on wattage, controls, size and verified owner ratings on Amazon.ie.",
+   "intro": "Heating a bedroom with a 2 kW heater costs about 76 cent an hour. Warming the bed with an electric underblanket costs 3–5 cent. That gap is why electric blankets are the most cost-effective winter buy in Ireland. We compared five underblankets and a heated throw on wattage, controls, size and verified owner ratings on Amazon.ie.",
    "faq_idx": [
     0,
     1,
@@ -77,31 +77,6 @@
       "Single control for both sides"
      ],
      "verdict": "The Cosi Home double underblanket is the most-reviewed blanket we found on Amazon.ie, with a 4.3-star average from more than 12,000 owners. It covers the basics well: 70 W, three heat settings, a fitted microfleece design and a machine-washable cover. At €0.38/kWh it costs €0.027 an hour on the highest setting, joint-lowest in this guide. The one thing it lacks is dual control, so both sides of the bed run at the same heat. Buy this if you want a proven, low-cost double blanket; pick a dual-control model if you and your partner disagree on temperature."
-    },
-    {
-     "id": "ebl-002",
-     "asin": "B07V5JK3V2",
-     "name": "Russell Hobbs Dual Control King Underblanket (120W)",
-     "brand": "Russell Hobbs",
-     "price": 46,
-     "rating": 4.4,
-     "badge": "Best Dual Control",
-     "specs": {
-      "Controls": "Dual (2 detachable)",
-      "Size": "King, 150 x 200 cm",
-      "Heat settings": "3",
-      "Power": "120 W"
-     },
-     "pros": [
-      "Separate control for each side",
-      "BEAB approved, overheat protection",
-      "Machine washable at 40°C"
-     ],
-     "cons": [
-      "Joint-highest wattage in this guide (120 W)",
-      "Tie-on rather than fully fitted"
-     ],
-     "verdict": "Russell Hobbs' king-size underblanket gives each side of the bed its own detachable controller with three heat settings, which is the feature that ends the 'too hot / too cold' argument for couples. It has a 4.4-star average from more than 1,400 owners on Amazon.ie, is BEAB approved with overheat protection, and machine washes at 40°C once the controls are off. At 120 W it's joint-highest in this guide, which still works out at €0.046 an hour flat out at €0.38/kWh. Buy this if you share the bed and want separate heat; skip it if you sleep alone, where a single-control blanket does the same job for less."
     },
     {
      "id": "ebl-003",
@@ -159,7 +134,7 @@
      "asin": "B00EO2VRJ8",
      "name": "STATUS Double Electric Underblanket (70W)",
      "brand": "STATUS",
-     "price": 25,
+     "price": 30,
      "rating": 4.0,
      "badge": "Cheapest to Run",
      "specs": {

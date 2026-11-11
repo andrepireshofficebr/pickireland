@@ -61,7 +61,7 @@
       "title": "Best Air Purifiers in Ireland 2026 — HEPA Picks Compared",
       "desc": "Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026.",
       "h1": "The Best Air Purifiers in Ireland (2026)",
-      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €165.",
+      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €191.",
       "faq_idx": [
         0,
         2,
@@ -121,7 +121,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 144,
+          "price": 120,
           "rating": 4.5,
           "badge": "Best Overall",
           "specs": {
@@ -147,8 +147,8 @@
           "asin": "B0FDWK7YL2",
           "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 165,
-          "rating": 4.6,
+          "price": 191,
+          "rating": 4.5,
           "badge": "Best Smart Large-Room",
           "specs": {
             "Coverage": "Up to 108 m² (54 m² twice an hour)",
@@ -167,7 +167,7 @@
             "Dearer than the Philips and the bedroom Levoit",
             "Filter swap every 6–8 months"
           ],
-          "verdict": "Levoit's upgraded Core 300S is the pick for a living room or an open-plan space: a CADR of 258 m³/h is enough to clean 54 m² twice an hour, and Levoit rates it for rooms up to 108 m² at one change an hour. A laser PM2.5 sensor runs the auto mode, the VeSync app and Alexa handle schedules, and sleep mode drops to 24 dB with the lights off, so it can also sit in a bedroom. Over 600 owners rate it 4.6 stars, and it is sold and shipped by Amazon. At around €165 it costs about twice the Philips above, and the filter needs replacing every 6–8 months, so budget for that. Best for buyers who want one smart purifier that covers a big room."
+          "verdict": "Levoit's upgraded Core 300S is the pick for a living room or an open-plan space: a CADR of 258 m³/h is enough to clean 54 m² twice an hour, and Levoit rates it for rooms up to 108 m² at one change an hour. A laser PM2.5 sensor runs the auto mode, the VeSync app and Alexa handle schedules, and sleep mode drops to 24 dB with the lights off, so it can also sit in a bedroom. Over 600 owners rate it 4.6 stars, and it is sold and shipped by Amazon. At around €191 it costs about €70 more than the Philips above, and the filter needs replacing every 6–8 months, so budget for that. Best for buyers who want one smart purifier that covers a big room."
         },
         {
           "id": "apr-003",
@@ -258,7 +258,7 @@
           "specs": {},
           "pros": [
             "€95 — 3rd-cheapest of the 6 picks here",
-            "€49 less than our top pick"
+            "€25 less than our top pick"
           ],
           "cons": [
             "2 of the 6 picks here are better rated by owners",
@@ -333,7 +333,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 144,
+          "price": 120,
           "rating": 4.5,
           "badge": "Best Allergy Pick",
           "specs": {
@@ -359,8 +359,8 @@
           "asin": "B0FDWK7YL2",
           "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 165,
-          "rating": 4.6,
+          "price": 191,
+          "rating": 4.5,
           "badge": "Best Whole-Room Allergy",
           "specs": {
             "Coverage": "Up to 108 m² (54 m² twice an hour)",
@@ -550,7 +550,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 144,
+          "price": 120,
           "rating": 4.5,
           "badge": "Best Quiet All-Rounder",
           "specs": {
@@ -626,8 +626,8 @@
           "asin": "B0FDWK7YL2",
           "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 165,
-          "rating": 4.6,
+          "price": 191,
+          "rating": 4.5,
           "badge": "Best Quiet Large Room",
           "specs": {
             "Coverage": "Up to 108 m² (54 m² twice an hour)",
@@ -792,7 +792,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 144,
+          "price": 120,
           "rating": 4.5,
           "badge": "Best Efficient Large",
           "specs": {
@@ -931,7 +931,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 144,
+          "price": 120,
           "rating": 4.5,
           "badge": "Best Under €150",
           "specs": {

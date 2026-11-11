@@ -122,11 +122,11 @@
         },
         {
           "id": "cfm-003",
-          "asin": "B0BB7KPPRH",
-          "name": "Nespresso Vertuo Pop (Pacific Blue)",
+          "asin": "B0BB7KK5Y6",
+          "name": "Nespresso Vertuo Pop (Black)",
           "brand": "Nespresso",
-          "price": 65,
-          "rating": 4.2,
+          "price": 60,
+          "rating": 4.1,
           "badge": "Best Pod System",
           "specs": {
             "Type": "Pod (Vertuo)",
@@ -138,13 +138,13 @@
           "pros": [
             "Total consistency, zero effort",
             "5 cup sizes incl. mug",
-            "Compact and colourful"
+            "Small countertop footprint"
           ],
           "cons": [
             "Pod costs add up",
             "Closed ecosystem"
           ],
-          "verdict": "Every cup comes out the same way in about 30 seconds with zero technique required, and five different cup-size formats — including a full mug — cover more than the usual single-shot pod machine. At about €65 it's one of the cheaper entries here, and the compact, colourful design suits a small kitchen or office desk. The catch is ongoing cost: Vertuo pods aren't cheap and you're locked into Nespresso's closed capsule system, so the per-cup price climbs well above a bean-to-cup machine's roughly 28-cent shot over time. Right for someone who drinks one or two consistent cups a day and values zero-hassle simplicity; heavy daily drinkers will find the pod spend adds up faster than a grinder-based machine."
+          "verdict": "Every cup comes out the same way in about 30 seconds with zero technique required, and five different cup-size formats — including a full mug — cover more than the usual single-shot pod machine. At about €60 it's one of the cheaper entries here, and the compact design suits a small kitchen or office desk. The catch is ongoing cost: Vertuo pods aren't cheap and you're locked into Nespresso's closed capsule system, so the per-cup price climbs well above a bean-to-cup machine's roughly 28-cent shot over time. Right for someone who drinks one or two consistent cups a day and values zero-hassle simplicity; heavy daily drinkers will find the pod spend adds up faster than a grinder-based machine."
         },
         {
           "id": "cfm-004",
@@ -253,7 +253,7 @@
         },
         {
           "q": "Should I buy based on machine price or running cost?",
-          "a": "Running cost, if you drink coffee daily and plan to keep the machine more than a year or two. A €68 pod machine paired with genuine capsules at roughly 40 cent each can end up costing more over three years than a €300 bean-to-cup machine run on supermarket beans, once every cup is added up honestly. The purchase price matters more for occasional drinkers, students, or anyone likely to replace the machine within twelve months — in those cases the cheapest reasonable option usually wins outright, because the format cost never gets enough time to genuinely compound against the household budget."
+          "a": "Running cost, if you drink coffee daily and plan to keep the machine more than a year or two. A €60 pod machine paired with genuine capsules at roughly 40 cent each can end up costing more over three years than a €300 bean-to-cup machine run on supermarket beans, once every cup is added up honestly. The purchase price matters more for occasional drinkers, students, or anyone likely to replace the machine within twelve months — in those cases the cheapest reasonable option usually wins outright, because the format cost never gets enough time to genuinely compound against the household budget."
         },
         {
           "q": "Is it worth buying two machines instead of one that does everything?",
@@ -453,11 +453,11 @@
       "products": [
         {
           "id": "cfm-011",
-          "asin": "B0BB7KPPRH",
-          "name": "Nespresso Vertuo Pop (Pacific Blue)",
+          "asin": "B0BB7KK5Y6",
+          "name": "Nespresso Vertuo Pop (Black)",
           "brand": "Nespresso",
-          "price": 65,
-          "rating": 4.2,
+          "price": 60,
+          "rating": 4.1,
           "badge": "Best Budget Pod",
           "specs": {
             "Type": "Pod (Vertuo)",
@@ -469,7 +469,7 @@
           "pros": [
             "Total consistency, zero effort",
             "5 cup sizes incl. mug",
-            "Compact and colourful"
+            "Small countertop footprint"
           ],
           "cons": [
             "Pod costs add up",
@@ -565,7 +565,7 @@
           "badge": "Strong Alternative",
           "specs": {},
           "pros": [
-            "€5 less than our top pick"
+            "Burr grinder for fresher grounds"
           ],
           "cons": [
             "5 of the 6 picks here are better rated by owners",
@@ -591,11 +591,11 @@
           "pros": [
             "15 bar pressure",
             "Conical burr, 30 settings grinder",
-            "Matches our top pick's 4.2★ owner rating"
+            "Owners rate it 4.2★, above our top pick's 4.1★"
           ],
           "cons": [
             "3 of the 6 picks here are better rated by owners",
-            "€329 more than our top pick"
+            "€334 more than our top pick"
           ],
           "verdict": "At €394 the Barista Max sits far outside this page's under-€150 remit, and we've kept it here only as the obvious upgrade path: it's an espresso machine with an integrated grinder, which is the thing no genuine sub-€150 machine can offer. Its 4.2-star owner rating is middling for the money. Relevant if the budget cap is soft and you'd rather buy once; ignore it entirely if €150 is a hard ceiling."
         }
@@ -666,7 +666,7 @@
           "asin": "B00G5YOVZA",
           "name": "Nespresso Inissia (De'Longhi EN80.B)",
           "brand": "Nespresso",
-          "price": 94,
+          "price": 117,
           "rating": 4.4,
           "badge": "Best Open-Ecosystem Value",
           "specs": {
@@ -689,11 +689,11 @@
         },
         {
           "id": "cfm-017",
-          "asin": "B0BB7KPPRH",
-          "name": "Nespresso Vertuo Pop (Pacific Blue)",
+          "asin": "B0BB7KK5Y6",
+          "name": "Nespresso Vertuo Pop (Black)",
           "brand": "Nespresso",
-          "price": 65,
-          "rating": 4.2,
+          "price": 60,
+          "rating": 4.1,
           "badge": "Best for Mug Drinkers",
           "specs": {
             "Type": "Pod (Vertuo)",
@@ -705,7 +705,7 @@
           "pros": [
             "Total consistency, zero effort",
             "5 cup sizes incl. mug",
-            "Compact and colourful"
+            "Small countertop footprint"
           ],
           "cons": [
             "Pod costs add up",
@@ -935,7 +935,7 @@
           "asin": "B00G5YOVZA",
           "name": "Nespresso Inissia (De'Longhi EN80.B)",
           "brand": "Nespresso",
-          "price": 94,
+          "price": 117,
           "rating": 4.4,
           "badge": "Easiest Pod Alternative",
           "specs": {

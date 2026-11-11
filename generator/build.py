@@ -3194,8 +3194,11 @@ def _heater_bedroom_body(ms, cat, ref):
              f'<a href="../electric-blankets/{bl_guide["slug"]}.html">{esc(bl_guide["h1"])}</a>')]
     # 07/11/2026: Warmlite 650W (eht-006 antigo) e MYLEK 1kW (eht-007) sairam por falta de estoque;
     # eht-006 agora e o Purus 600W e o painel Wi-Fi e o Devola (eht-003).
+    # 11/11/2026: Purus 600W (eht-006) saiu sem estoque; a lista pula ids ausentes.
     for pid in ("eht-006", "eht-003", "eht-001", "eht-012"):
-        m = _by_id(ms, pid)
+        m = next((x for x in ms if x["p"]["id"] == pid), None)
+        if m is None:
+            continue
         opts.append((HEATER_TYPE_LABEL[m["t"]], m["w"], m["w"], _hlink(m)))
     rows = ""
     for lbl, lo, hi, link in opts:

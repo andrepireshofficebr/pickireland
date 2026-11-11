@@ -61,7 +61,7 @@
       "title": "Best Dehumidifiers in Ireland 2026 for Damp Homes",
       "desc": "Ireland's best dehumidifiers compared: extraction, running costs at Irish electricity rates, noise and laundry drying. Compared for 2026.",
       "h1": "The Best Dehumidifiers in Ireland (2026)",
-      "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The six below cover every budget from €54 to €226. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
+      "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The six below cover every budget from €51 to €226. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
       "faq_idx": [
         0,
         1,
@@ -148,28 +148,29 @@
         },
         {
           "id": "deh-005",
-          "asin": "B0FJR8RWC7",
-          "name": "EasyAcc 2000ml Dehumidifier Pro",
+          "asin": "B0FGJFK7YD",
+          "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
-          "price": 54,
-          "rating": 4.2,
+          "price": 51,
+          "rating": 4.3,
           "badge": "Best Budget",
           "specs": {
-            "Extraction": "Up to 650 ml/day",
+            "Extraction": "Up to 1 L/day (rated)",
             "Tank": "2 L",
-            "Noise": "Very low",
+            "Power": "85 W",
+            "Modes": "Turbo and sleep",
             "Safety": "Auto shut-off"
           },
           "pros": [
             "Bargain entry price",
-            "Quiet, simple operation",
-            "Auto shut-off when full"
+            "Sleep mode for bedrooms",
+            "Auto shut-off when the 2 L tank is full"
           ],
           "cons": [
-            "Light damp only",
-            "Slows in cold rooms"
+            "Semiconductor, not compressor: light damp only",
+            "Best under about 20 m³; slows in cold rooms"
           ],
-          "verdict": "At €54 and with extraction rated up to 650ml a day, this EasyAcc is built for a single mildly damp space rather than whole-house drying — think a wardrobe, ensuite or small bathroom with condensation. It runs quietly, operation is genuinely simple with no modes to configure, and auto shut-off stops it overflowing once the 2-litre tank fills. Extraction slows further in cold rooms, a limitation desiccant dehumidifiers are built to avoid, so it's not the right choice for an unheated space in winter. The right pick for light, localised damp problems on a tight budget; anyone with a genuinely damp room or whole floor needs one of the higher-capacity units on this list."
+          "verdict": "At about €51 and rated to remove up to a litre a day, this EasyAcc is built for one mildly damp small space rather than whole-house drying: a wardrobe, an ensuite or a small bathroom with condensation. It draws 85 W, has a quiet sleep mode, and auto shut-off stops it overflowing once the 2-litre tank fills. It is a semiconductor (Peltier) unit, not a compressor, and EasyAcc itself says it suits spaces under about 20 m³; extraction slows further in cold rooms. The right pick for light, localised damp on a tight budget; a genuinely damp room or a whole floor needs one of the compressor units on this list."
         },
         {
           "id": "deh-028",
@@ -333,28 +334,29 @@
         },
         {
           "id": "deh-008",
-          "asin": "B0FJR8RWC7",
-          "name": "EasyAcc 2000ml Dehumidifier Pro",
+          "asin": "B0FGJFK7YD",
+          "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
-          "price": 54,
-          "rating": 4.2,
+          "price": 51,
+          "rating": 4.3,
           "badge": "Best Value Mini",
           "specs": {
-            "Extraction": "Up to 650 ml/day",
+            "Extraction": "Up to 1 L/day (rated)",
             "Tank": "2 L",
-            "Noise": "Very low",
+            "Power": "85 W",
+            "Modes": "Turbo and sleep",
             "Safety": "Auto shut-off"
           },
           "pros": [
             "Bargain entry price",
-            "Quiet, simple operation",
-            "Auto shut-off when full"
+            "Sleep mode for bedrooms",
+            "Auto shut-off when the 2 L tank is full"
           ],
           "cons": [
-            "Light damp only",
-            "Slows in cold rooms"
+            "Semiconductor, not compressor: light damp only",
+            "Best under about 20 m³; slows in cold rooms"
           ],
-          "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
+          "verdict": "The cheap fix for one mildly damp small room, wardrobe or ensuite."
         },
         {
           "id": "deh-009",
@@ -488,7 +490,7 @@
       "title": "Best High-Capacity Dehumidifiers for Large Irish Homes",
       "desc": "High-capacity dehumidifiers for large or very damp Irish houses — extraction rates from 12L to 20L a day, continuous drainage and running costs compared.",
       "h1": "Best High-Capacity Dehumidifiers for Large Irish Homes",
-      "intro": "Older Irish housing stock — solid walls, single glazing, suspect ventilation — can produce damp faster than small machines remove it. For 4+ bedrooms, persistent mould or post-leak drying, you want 20–25L of daily extraction, a big tank or hose drainage, and efficiency that doesn't punish all-day running. These six are the heavy lifters.",
+      "intro": "Older Irish housing stock — solid walls, single glazing, suspect ventilation — can produce damp faster than small machines remove it. For 4+ bedrooms, persistent mould or post-leak drying, you want 20–25L of daily extraction, a big tank or hose drainage, and efficiency that doesn't punish all-day running. These five are the heavy lifters.",
       "faq_idx": [
         0,
         4,
@@ -575,50 +577,29 @@
         },
         {
           "id": "deh-015",
-          "asin": "B0FJR8RWC7",
-          "name": "EasyAcc 2000ml Dehumidifier Pro",
+          "asin": "B0FGJFK7YD",
+          "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
-          "price": 54,
-          "rating": 4.2,
+          "price": 51,
+          "rating": 4.3,
           "badge": "Secondary-Room Support",
           "specs": {
-            "Extraction": "Up to 650 ml/day",
+            "Extraction": "Up to 1 L/day (rated)",
             "Tank": "2 L",
-            "Noise": "Very low",
+            "Power": "85 W",
+            "Modes": "Turbo and sleep",
             "Safety": "Auto shut-off"
           },
           "pros": [
             "Bargain entry price",
-            "Quiet, simple operation",
-            "Auto shut-off when full"
+            "Sleep mode for bedrooms",
+            "Auto shut-off when the 2 L tank is full"
           ],
           "cons": [
-            "Light damp only",
-            "Slows in cold rooms"
+            "Semiconductor, not compressor: light damp only",
+            "Best under about 20 m³; slows in cold rooms"
           ],
-          "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
-        },
-        {
-          "id": "deh-030",
-          "asin": "B0FVSGBHF9",
-          "name": "HUMILABS 12L/Day Low Energy Dehumidifier",
-          "brand": "HUMILABS",
-          "price": 140,
-          "rating": 4.4,
-          "badge": "Smart Alternative",
-          "specs": {
-            "Extraction": "12 L/day",
-            "Power": "185 W"
-          },
-          "pros": [
-            "€39 less than our top pick",
-            "12 L/day extraction"
-          ],
-          "cons": [
-            "1 of the 6 picks here is better rated by owners",
-            "Extracts 8 L/day less than our top pick"
-          ],
-          "verdict": "HUMILABS extracts 12 litres a day at €140 against the Nyxi's 20 litres at €179, so it saves you money but gives up a lot of extraction on a page specifically about large, damp homes. Owners rate it 4.4 stars, a little above the Nyxi's 4.2. The low-energy positioning is genuine and it would suit a single damp room well, but for whole-house drying the Nyxi's extra capacity is what you are paying for."
+          "verdict": "The cheap fix for one mildly damp small room, wardrobe or ensuite."
         },
         {
           "id": "deh-031",
@@ -639,7 +620,7 @@
             "2.5 L tank"
           ],
           "cons": [
-            "3 of the 6 picks here are better rated by owners",
+            "2 of the 5 picks here are better rated by owners",
             "Not our category winner — compare against the Nyxi 20L/Day Dehumidifier"
           ],
           "verdict": "Devology's 12L/day unit is €98 against our €179 Nyxi pick and rates a little higher with owners, 4.3 stars against 4.2. The reason it isn't first on a page about large, damp homes is extraction: 12 litres a day against the Nyxi's 20 is a meaningful gap once you're covering a whole house rather than one floor, and its 2.5-litre tank needs emptying more often. Good value for a single damp room; undersized for the job this page is about."
@@ -1024,48 +1005,55 @@
         },
         {
           "id": "deh-025",
-          "asin": "B0FJR8RWC7",
-          "name": "EasyAcc 2000ml Dehumidifier Pro",
+          "asin": "B0FGJFK7YD",
+          "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
-          "price": 54,
-          "rating": 4.2,
+          "price": 51,
+          "rating": 4.3,
           "badge": "Budget Mould Starter",
           "specs": {
-            "Extraction": "Up to 650 ml/day",
+            "Extraction": "Up to 1 L/day (rated)",
             "Tank": "2 L",
-            "Noise": "Very low",
+            "Power": "85 W",
+            "Modes": "Turbo and sleep",
             "Safety": "Auto shut-off"
           },
           "pros": [
             "Bargain entry price",
-            "Quiet, simple operation",
-            "Auto shut-off when full"
+            "Sleep mode for bedrooms",
+            "Auto shut-off when the 2 L tank is full"
           ],
           "cons": [
-            "Light damp only",
-            "Slows in cold rooms"
+            "Semiconductor, not compressor: light damp only",
+            "Best under about 20 m³; slows in cold rooms"
           ],
-          "verdict": "The cheap fix for one mildly damp room, wardrobe or ensuite."
+          "verdict": "The cheap fix for one mildly damp small room, wardrobe or ensuite."
         },
         {
           "id": "deh-033",
-          "asin": "B0CJ2RZQ12",
-          "name": "De'Longhi Tasciugo AriaDry Dehumidifier",
-          "brand": "De'Longhi",
-          "price": 244,
+          "asin": "B0CYZYR3NC",
+          "name": "Pro Breeze 20L OmniDry Smart Dehumidifier",
+          "brand": "Pro Breeze",
+          "price": 230,
           "rating": 4.5,
-          "badge": "Value Contender",
+          "badge": "Best Big-Room Extraction",
           "specs": {
-            "Power": "305 W"
+            "Extraction": "20 L/day",
+            "Type": "Compressor",
+            "Noise": "Under 38 dB",
+            "Laundry mode": "Yes",
+            "Tank": "2 L + drain hose"
           },
           "pros": [
-            "Strong 4.5★ owner rating"
+            "20 L/day extraction with a humidity sensor",
+            "Under 38 dB, fine to run overnight",
+            "Drain hose for continuous running"
           ],
           "cons": [
-            "1 of the 5 picks here is better rated by owners",
-            "€18 more than our top pick, which owners rate higher at 4.6★"
+            "Compressor output drops in cold, unheated rooms",
+            "No HEPA filter for airborne spores"
           ],
-          "verdict": "De'Longhi is a genuinely established name and this AriaDry is the dearest machine here at €244, with a solid 4.5-star rating. Our €226 Meaco pick costs less, beats it on owner sentiment at 4.6 and pairs extraction with HEPA filtration, which is what a mould-focused page ranks on: dealing with spores as well as the damp that feeds them. Worth it if you want De'Longhi's brand reassurance and are treating damp rather than visible mould."
+          "verdict": "Pro Breeze's OmniDry pulls up to 20 litres a day, matching the Nyxi for extraction, and holds a 4.5-star rating from about 770 Amazon.ie owners at around €230. It runs under 38 dB, measures room humidity so you can set a target level, and a drain hose lets it run continuously in a damp room. Like every compressor unit it slows in a cold, unheated space, and it has no HEPA filter, so our Meaco pick remains the better choice where visible mould and spores are the concern."
         }
       ],
       "guide": [

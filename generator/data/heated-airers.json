@@ -45,7 +45,7 @@
    "title": "Best Heated Clothes Airers Ireland 2026 (Running Cost)",
    "desc": "Heated clothes airers on Amazon.ie for drying laundry indoors in Ireland: wattage, cost per hour at Irish rates, capacity and owner ratings.",
    "h1": "Best Heated Clothes Airers in Ireland",
-   "intro": "Irish laundry spends half the year drying indoors. A heated airer does it faster than a plain clothes horse for about 9 cent an hour, a fraction of a tumble dryer. We compared four heated airers on Amazon.ie on wattage, capacity, size and verified owner ratings — and we say plainly where a listing does not publish its wattage.",
+   "intro": "Irish laundry spends half the year drying indoors. A heated airer does it faster than a plain clothes horse for about 9 cent an hour, a fraction of a tumble dryer. We compared three heated airers on Amazon.ie on wattage, capacity, size and verified owner ratings — and we say plainly where a listing does not publish its wattage.",
    "faq_idx": [
     0,
     1,
@@ -105,30 +105,6 @@
      "verdict": "Daewoo's foldable airer is the value pick and one of the few with a published wattage: 230 W, which is €0.087 an hour at €0.38/kWh, or about €0.52 for a six-hour load. Around 590 owners give it a 4.0-star average on Amazon.ie. It is a single level with wings, so it needs more floor space than a tower, and the 1.4 m cable means planning where it goes. Buy it for low-cost indoor drying; choose a three-tier airer if floor space is tight."
     },
     {
-     "id": "hta-003",
-     "asin": "B09HQZ9TQC",
-     "name": "GlamHaus EcoDry 3-Tier Heated Airer with Cover (220W)",
-     "brand": "GlamHaus",
-     "price": 155,
-     "rating": 4.0,
-     "badge": "Best With Cover",
-     "specs": {
-      "Power": "220 W",
-      "Type": "3-tier heated airer",
-      "Cover": "Included",
-      "Material": "Aluminium"
-     },
-     "pros": [
-      "Cover included, which traps heat",
-      "Low 220 W draw",
-      "Folds flat"
-     ],
-     "cons": [
-      "Most expensive airer here"
-     ],
-     "verdict": "The GlamHaus EcoDry is a three-tier airer that comes with a cover, which traps warm air around the laundry. It draws 220 W — €0.084 an hour at €0.38/kWh — and has a 4.0-star average from about 390 owners. At around €155 it is the most expensive airer in this guide. Buy it if you want a published wattage and a known running cost; the BLACK+DECKER, which now also comes with a cover, is slightly better rated."
-    },
-    {
      "id": "hta-005",
      "asin": "B0CYC12J64",
      "name": "2-Tier Heated Clothes Dryer with Cover and Timer (1000W)",
@@ -152,7 +128,12 @@
      ],
      "verdict": "This covered dryer uses a 1,000 W PTC ceramic heater and a fan inside a cover, so it dries faster than any open airer here — but at €0.380 an hour at €0.38/kWh it costs over four times as much to run as the 230 W Daewoo. Around 120 owners give it 3.9 stars, the lowest here. Buy it only if speed matters more than running cost; for most households a low-wattage airer, ideally with a dehumidifier in the room, is the cheaper way to dry clothes."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "One of the heated airers we recommended is currently unavailable on Amazon.ie, so this guide lists three. If you dry laundry indoors a lot, a dehumidifier with a laundry mode is the other option; see",
+    "href": "../dehumidifiers/best-dehumidifiers-drying-clothes-ireland.html",
+    "label": "Best dehumidifiers for drying clothes"
+   }
   }
  ]
 }
