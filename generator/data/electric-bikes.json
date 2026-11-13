@@ -593,31 +593,6 @@
      "verdict": "The marathon hardtail: more amp-hours than bikes twice the price."
     },
     {
-     "id": "ebk-018",
-     "asin": "B0F18KS9SK",
-     "name": "Lohang Dual-Motor Electric Bike (52V 24Ah)",
-     "brand": "Lohang",
-     "price": 899,
-     "rating": 4.6,
-     "badge": "Most Powerful (Private Land)",
-     "specs": {
-      "Motors": "Dual",
-      "Battery": "52V 24Ah",
-      "Power": "Off-road class",
-      "Note": "Private land use"
-     },
-     "pros": [
-      "Massive power and battery",
-      "Dual-motor traction",
-      "4.6★ rated"
-     ],
-     "cons": [
-      "Exceeds road-legal pedelec limits",
-      "Very heavy"
-     ],
-     "verdict": "The private-land powerhouse — beyond pedelec rules, built for trails and farms."
-    },
-    {
      "id": "ebk-019",
      "asin": "B0F2TFV2HD",
      "name": "ENGWE E-Bike with APP (48V 13.5Ah, 135 km)",
@@ -642,7 +617,12 @@
      ],
      "verdict": "The connected tourer: app-tuned power, huge range and torque feel for serious distance."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "One of the electric mountain bikes we recommended is no longer offered at a credible price by a reliable seller on Amazon.ie, so this guide lists three. For more e-bikes in stock, see",
+    "href": "best-electric-bikes-ireland.html",
+    "label": "Best electric bikes in Ireland"
+   }
   },
   {
    "slug": "best-commuter-electric-bikes-ireland",

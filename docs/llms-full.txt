@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-11-11 | 12 categories | 52 guides | 222 product entries
+Generated: 2026-11-13 | 12 categories | 52 guides | 218 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -26,7 +26,7 @@ Cost of one full charge = battery capacity in Wh ÷ 1,000 × €0.38 per kWh, at
 ==============================================================================
 # CATEGORY: Air Fryers
 URL: https://pickireland.best/air-fryers/
-5 guides, 28 product entries
+5 guides, 27 product entries
 ==============================================================================
 
 The air fryer conquered the Irish kitchen for one simple reason: with electricity prices among Europe's highest, heating a whole oven to cook for two people stopped making sense. A typical air fryer uses 50–70% less energy than a conventional oven for everyday meals — and does chips better. We compare every size and budget, from compact singles to dual-drawer family machines.
@@ -137,12 +137,12 @@ Verdict: Swan's retro-styled dual basket fryer carries a 4.5-star owner rating o
 ### 7. Cuisinart XXL 10.4L Dual Air Fryer (2×5.2L)  [Challenger Pick]
 Brand: Cuisinart
 Price: ~€110
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.91/hour at €0.38/kWh
 Capacity: 10.4 L
 Power: 2400 W
 Pros: €39 less than our top pick; 10.4 L capacity
-Cons: 5 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
+Cons: 6 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
 Verdict: Two 5.2-litre baskets add up to 10.4 litres total, more combined capacity than the Ninja Dual Zone above, and at €110 it undercuts that market leader by a real margin while still holding a 4.4-star owner score. Buying through Amazon.ie also means full standard returns cover if the unit doesn't suit. Cuisinart is a recognisable name in kitchen appliances generally, but this particular model is newer to our comparison than the established air-fryer specialists, and buyers have reported that support quality can vary depending on which seller fulfils the order. Large households wanting maximum dual-basket volume for less money are the target buyer; anyone prioritising a single proven seller relationship may prefer the Ninja.
 
 #### What actually makes an air fryer's air circulation work?
@@ -471,18 +471,7 @@ Pros: 10 food programmes incl. bake, grill and dehydrate; Up to 220 °C with a t
 Cons: 4 L basket: about 500 g of chips for best browning; Single basket, no dual-zone cooking
 Verdict: For two or three people: a 4-litre basket (about 500 g of chips for best browning) with ten programmes, at about €80.
 
-### 6. Cecotec Cecofry Supreme 8000 (8L, 1800W)  [Solid Backup Choice]
-Brand: Cecotec
-Price: ~€111
-Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.68/hour at €0.38/kWh
-Capacity: 8 L
-Power: 1800 W
-Pros: €38 less than our top pick; 8 L capacity; 1800 W power
-Cons: 4 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
-Verdict: Cecotec's 8-litre, 1800W Supreme 8000 matches the capacity bracket our family pick occupies and undercuts it at €111 against €149, with a respectable 4.4-star owner score. What it doesn't have is the dual-zone cooking that makes the Ninja genuinely useful for a full family meal, so it's one large basket rather than two independent ones. The right call if you want maximum single-basket volume for the money and don't need to cook two things at different temperatures.
-
-### 7. Russell Hobbs XXL 8L Air Fryer (10 Programmes)  [Strong Alternative]
+### 6. Russell Hobbs XXL 8L Air Fryer (10 Programmes)  [Strong Alternative]
 Brand: Russell Hobbs
 Price: ~€120
 Rating: 4.6/5 (Amazon.ie)
@@ -656,7 +645,7 @@ URL: https://pickireland.best/air-purifiers/best-air-purifiers-ireland.html
 Summary: Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €191.
+Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €23 to €191.
 
 ### 1. Philips 600 Series Air Purifier (App Control)  [Best Overall]
 Brand: Philips
@@ -717,17 +706,17 @@ Verdict: Four separate filtration stages built around a true HEPA core give this
 
 ### 5. MELEDEN HEPA Air Purifier  [Best Budget]
 Brand: MELEDEN
-Price: ~€29
-Rating: 4.1/5 (Amazon.ie)
+Price: ~€23
+Rating: 4.4/5 (Amazon.ie)
 Running cost: &lt;€0.001/hour at €0.38/kWh
 Filter: HEPA
 Targets: Smoke, pollen, dander
 Size: Compact
 Noise: Low
 Power: 2.5 W
-Pros: Real HEPA for €29; Tackles pollen and pet dander; Tiny footprint
+Pros: Real HEPA for €23; Tackles pollen and pet dander; Tiny footprint
 Cons: Small rooms strictly; Basic controls
-Verdict: €29 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above.
+Verdict: €23 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above.
 
 ### 6. MIKO HEPA Air Purifier for Home  [Worth Considering]
 Brand: MIKO
@@ -825,13 +814,13 @@ Verdict: The bedroom specialist: clean air all night without a sound you'll noti
 
 ### 4. MELEDEN Small Air Purifier (HEPA13, Pet)  [Best Pet Dander Budget]
 Brand: MELEDEN
-Price: ~€27
+Price: ~€31
 Rating: 4.1/5 (Amazon.ie)
 Filter: True HEPA H13
 Extras: Aroma pad
 Use: Bedroom/pets
 Noise: Quiet
-Pros: H13 filtration at €27; Pet-focused filter; Aroma pad bonus
+Pros: H13 filtration at €31; Pet-focused filter; Aroma pad bonus
 Cons: Limited coverage; No auto mode
 Verdict: The pet-corner purifier: H13 spore and dander capture for pocket money.
 
@@ -920,13 +909,13 @@ Verdict: The right purifier for most Irish rooms: quiet, accurate and cheap to r
 
 ### 3. MELEDEN Small Air Purifier (HEPA13, Pet)  [Best Quiet Budget]
 Brand: MELEDEN
-Price: ~€27
+Price: ~€31
 Rating: 4.1/5 (Amazon.ie)
 Filter: True HEPA H13
 Extras: Aroma pad
 Use: Bedroom/pets
 Noise: Quiet
-Pros: H13 filtration at €27; Pet-focused filter; Aroma pad bonus
+Pros: H13 filtration at €31; Pet-focused filter; Aroma pad bonus
 Cons: Limited coverage; No auto mode
 Verdict: The pet-corner purifier: H13 spore and dander capture for pocket money.
 
@@ -1069,15 +1058,15 @@ Verdict: A quiet H13 unit for the smaller rooms off an open-plan space: 35 m² t
 
 ### 5. MELEDEN HEPA Air Purifier  [Best Spot Support]
 Brand: MELEDEN
-Price: ~€29
-Rating: 4.1/5 (Amazon.ie)
+Price: ~€23
+Rating: 4.4/5 (Amazon.ie)
 Running cost: &lt;€0.001/hour at €0.38/kWh
 Filter: HEPA
 Targets: Smoke, pollen, dander
 Size: Compact
 Noise: Low
 Power: 2.5 W
-Pros: Real HEPA for €29; Tackles pollen and pet dander; Tiny footprint
+Pros: Real HEPA for €23; Tackles pollen and pet dander; Tiny footprint
 Cons: Small rooms strictly; Basic controls
 Verdict: The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries.
 
@@ -1166,27 +1155,27 @@ Verdict: H13 filtration and a 2/4/8-hour timer for under €50 — honest bedroo
 
 ### 4. MELEDEN Small Air Purifier (HEPA13, Pet)  [Best Pet Budget]
 Brand: MELEDEN
-Price: ~€27
+Price: ~€31
 Rating: 4.1/5 (Amazon.ie)
 Filter: True HEPA H13
 Extras: Aroma pad
 Use: Bedroom/pets
 Noise: Quiet
-Pros: H13 filtration at €27; Pet-focused filter; Aroma pad bonus
+Pros: H13 filtration at €31; Pet-focused filter; Aroma pad bonus
 Cons: Limited coverage; No auto mode
 Verdict: The pet-corner purifier: H13 spore and dander capture for pocket money.
 
 ### 5. MELEDEN HEPA Air Purifier  [Cheapest Real HEPA]
 Brand: MELEDEN
-Price: ~€29
-Rating: 4.1/5 (Amazon.ie)
+Price: ~€23
+Rating: 4.4/5 (Amazon.ie)
 Running cost: &lt;€0.001/hour at €0.38/kWh
 Filter: HEPA
 Targets: Smoke, pollen, dander
 Size: Compact
 Noise: Low
 Power: 2.5 W
-Pros: Real HEPA for €29; Tackles pollen and pet dander; Tiny footprint
+Pros: Real HEPA for €23; Tackles pollen and pet dander; Tiny footprint
 Cons: Small rooms strictly; Basic controls
 Verdict: The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries.
 
@@ -1257,7 +1246,7 @@ The €3.80 flat white habit costs serious money at scale — and the home alter
 ### 1. Krups Arabica EA8110 Bean-to-Cup  [Best Bean-to-Cup Value]
 Brand: Krups
 Price: ~€399
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Type: Bean-to-cup
 Pressure: 15 bar
 Grinder: 3 settings
@@ -1381,7 +1370,7 @@ Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh 
 ### 1. Krups Arabica EA8110 Bean-to-Cup  [Best Entry Bean-to-Cup]
 Brand: Krups
 Price: ~€399
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Type: Bean-to-cup
 Pressure: 15 bar
 Grinder: 3 settings
@@ -1736,7 +1725,7 @@ Verdict: The guided starter: touchscreen hand-holding makes first espresso shots
 ### 3. Quest 15-Bar Espresso Machine  [Cheapest Full Kit]
 Brand: Quest
 Price: ~€78
-Rating: 4.2/5 (Amazon.ie)
+Rating: 4.1/5 (Amazon.ie)
 Running cost: €0.42/hour at €0.38/kWh
 Type: Manual espresso
 Pressure: 15 bar
@@ -1764,7 +1753,7 @@ Verdict: The smart pod choice: the open Original ecosystem keeps per-cup costs h
 ### 5. Krups Arabica EA8110 Bean-to-Cup  [Skip-the-Learning Automatic]
 Brand: Krups
 Price: ~€399
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Type: Bean-to-cup
 Pressure: 15 bar
 Grinder: 3 settings
@@ -2439,7 +2428,7 @@ A: Often yes, because they solve different timescales of the same problem. An ex
 ==============================================================================
 # CATEGORY: Electric Bikes
 URL: https://pickireland.best/electric-bikes/
-5 guides, 16 product entries
+5 guides, 15 product entries
 ==============================================================================
 
 Ireland is quietly becoming an e-bike country: the Cycle to Work scheme covers e-bikes up to €1,500, fuel and parking costs keep climbing, and EU-legal pedelecs (250 W, assist to 25 km/h) need no licence, tax or insurance. We compare every e-bike worth buying on Amazon.ie — from €459 folders to 1,440 Wh range flagships at €2,000.
@@ -2733,20 +2722,7 @@ Pros: Huge 20.3Ah battery for the price; True MTB geometry; Doubles as commuter
 Cons: 36V system is gentler on hills; Brand support online only
 Verdict: The marathon hardtail: more amp-hours than bikes twice the price.
 
-### 3. Lohang Dual-Motor Electric Bike (52V 24Ah)  [Most Powerful (Private Land)]
-Brand: Lohang
-Price: ~€899
-Rating: 4.6/5 (Amazon.ie)
-Cost per charge: €0.47 per full charge at €0.38/kWh
-Motors: Dual
-Battery: 52V 24Ah
-Power: Off-road class
-Note: Private land use
-Pros: Massive power and battery; Dual-motor traction; 4.6★ rated
-Cons: Exceeds road-legal pedelec limits; Very heavy
-Verdict: The private-land powerhouse — beyond pedelec rules, built for trails and farms.
-
-### 4. ENGWE E-Bike with APP (48V 13.5Ah, 135 km)  [Best Long-Range Tourer]
+### 3. ENGWE E-Bike with APP (48V 13.5Ah, 135 km)  [Best Long-Range Tourer]
 Brand: ENGWE
 Price: ~€1399
 Rating: 4.4/5 (Amazon.ie)
@@ -2920,7 +2896,7 @@ Verdict: The Cosi Home double underblanket is the most-reviewed blanket we found
 ### 2. Warmer Double Electric Blanket, Dual Zones, 9 Settings (120W)  [Most Heat Settings]
 Brand: Warmer
 Price: ~€57
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.05/hour at €0.38/kWh
 Power: 120 W
 Size: Double, maximum coverage
@@ -3022,8 +2998,8 @@ Every winter, Irish households panic-buy heaters that triple their bills. The fi
 
 ### 1. Dreo 1500W Ceramic Space Heater  [Best Overall]
 Brand: Dreo
-Price: ~€60
-Rating: 4.7/5 (Amazon.ie)
+Price: ~€68
+Rating: 4.6/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1,500 W
 Type: Ceramic PTC
@@ -3031,7 +3007,7 @@ Thermostat: Digital
 Safety: Tip-over + overheat
 Pros: Heats in seconds; Accurate digital thermostat; Quiet for a fan heater
 Cons: Room-size limits; No app
-Verdict: At €60, the Dreo 1500W Ceramic Space Heater earns the Best Overall badge by getting the fundamentals right: ceramic PTC heating that warms a room in seconds, paired with a digital thermostat owner reviews on Amazon.ie describe as unusually precise for the price. It also runs quieter than typical fan heaters, and tip-over plus overheat protection cover the safety basics. Where it falls short is scale — 1,500W suits a bedroom or home office, not an open-plan living area, and there's no app, so scheduling means walking over and pressing a button. Buy this if you want fast, accurate heat in one room without paying for smart features you won't use; skip it if you're heating a large space.
+Verdict: At €68, the Dreo 1500W Ceramic Space Heater earns the Best Overall badge by getting the fundamentals right: ceramic PTC heating that warms a room in seconds, paired with a digital thermostat owner reviews on Amazon.ie describe as unusually precise for the price. It also runs quieter than typical fan heaters, and tip-over plus overheat protection cover the safety basics. Where it falls short is scale — 1,500W suits a bedroom or home office, not an open-plan living area, and there's no app, so scheduling means walking over and pressing a button. Buy this if you want fast, accurate heat in one room without paying for smart features you won't use; skip it if you're heating a large space.
 
 ### 2. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator]
 Brand: Rowenta
@@ -3079,7 +3055,7 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.87/hour at €0.38/kWh
 Power: 2300 W
 Pros: €89 — 3rd-cheapest of the 5 picks here; 2300 W power
-Cons: 1 of the 5 picks here is better rated by owners; €29 more than our top pick, which owners rate higher at 4.7★
+Cons: 1 of the 5 picks here is better rated by owners; €21 more than our top pick, which owners rate higher at 4.6★
 Verdict: The Zanussi 2300W Oil Filled Radiator sits just outside our top picks but is worth a look on value alone: an 11-fin, 2,300W design at €89 undercuts the Rowenta oil radiator above by a significant margin while still holding a 4.4★ owner rating on Amazon.ie. It ships with the standard Amazon.ie returns protection, which takes some of the risk out of trying a less familiar name. Set against that, it hasn't been in our comparison as long as the established picks, and because Zanussi products are sold through multiple sellers, the level of support you get can vary. A reasonable pick for anyone who wants oil-radiator style heat without paying big-brand money, provided they're comfortable with a shorter track record.
 
 #### How do you actually pick the right electric heater for a room?
@@ -3124,8 +3100,8 @@ Summary: The cheapest electric heaters to actually run at Irish electricity pric
 
 ### 1. Dreo 1500W Ceramic Space Heater  [Best Thermostat Efficiency]
 Brand: Dreo
-Price: ~€60
-Rating: 4.7/5 (Amazon.ie)
+Price: ~€68
+Rating: 4.6/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1,500 W
 Type: Ceramic PTC
@@ -3248,7 +3224,7 @@ Verdict: The value 2 kW oil radiator: most metal per euro for all-evening heatin
 
 ### 3. MYLEK 2000W Oil Filled Radiator (3 Settings)  [Best Low-Setting Oil]
 Brand: MYLEK
-Price: ~€72
+Price: ~€80
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 800 / 1,200 / 2,000 W
@@ -3257,7 +3233,7 @@ Safety: Tip-over + overheat cut-off
 Size: 55 x 39 x 24 cm
 Pros: 800 W low setting for smaller rooms; Tip-over and overheat cut-off; Rounded fins, carry handle
 Cons: No timer; Dial thermostat
-Verdict: An oil radiator with an 800 W setting, which makes it cheaper to run than most 2 kW boxes when the room is small: about €0.30 an hour at €0.38/kWh. Tip-over and overheat cut-offs, 4.4 stars from owners, around €72. No timer, so pair it with a plug-in timer if you want the room warm before you get up.
+Verdict: An oil radiator with an 800 W setting, which makes it cheaper to run than most 2 kW boxes when the room is small: about €0.30 an hour at €0.38/kWh. Tip-over and overheat cut-offs, 4.4 stars from owners, around €80. No timer, so pair it with a plug-in timer if you want the room warm before you get up.
 
 ### 4. Daewoo 2000W Oil Filled Radiator  [Best Budget 2kW]
 Brand: Daewoo
@@ -3369,7 +3345,7 @@ Verdict: Dreo's compact ceramic heater costs €80 against our €124 Devola pan
 
 ### 3. De'Longhi Bend Line Ceramic Heater (Remote)  [Challenger Pick]
 Brand: De'Longhi
-Price: ~€126
+Price: ~€106
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 1200 / 2000 W
@@ -3378,7 +3354,7 @@ Timer: 24 h
 Control: Digital + remote
 Pros: 1200 / 2000 W power; Up to 60 m³ room size; Second-best owner rating on this page at 4.4★
 Cons: 1 of the 3 picks here is better rated by owners; A ceramic fan heater, not a true panel
-Verdict: De'Longhi's Bend Line costs around €126, about the same as our €124 Devola panel, and carries a good 4.4-star rating from a brand with real service presence in Ireland. It's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it if you'd rather have De'Longhi's build and fast heat than a true panel.
+Verdict: De'Longhi's Bend Line costs around €106, a little less than our €124 Devola panel, and carries a good 4.4-star rating from a brand with real service presence in Ireland. It's a ceramic fan heater rather than a panel, so it heats quickly and stops just as quickly, with none of the silent wall-mounted discretion a panel heater is bought for. Worth it if you'd rather have De'Longhi's build and fast heat than a true panel.
 
 #### What kind of room does a panel heater actually work best in?
 Panel heaters carry little thermal mass and rely on either convection or a flat infrared element to warm a room steadily rather than in a fast burst, which suits newer builds with a BER rating of B or A, tight window and door seals, and good attic and wall insulation. In that kind of airtight room the heat has nowhere to escape, so a modest wattage running in the background holds a comfortable temperature all evening. A panel heater's slim profile and wall-mounted design make it the closest thing to a fitted heating solution in the plug-in category, but that design is also what defines where it performs. Put the same heater in a draughty older room with single glazing and gaps around the frames and it will cycle almost constantly, trying to keep pace with heat leaking out as fast as it's produced — at which point wattage stops being the limiting factor and insulation becomes the real problem.
@@ -3425,8 +3401,8 @@ Bathroom heating is its own discipline: you need serious warmth in under two min
 
 ### 1. Dreo 1500W Ceramic Space Heater  [Best Portable Quick Heat]
 Brand: Dreo
-Price: ~€60
-Rating: 4.7/5 (Amazon.ie)
+Price: ~€68
+Rating: 4.6/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1,500 W
 Type: Ceramic PTC
@@ -3439,7 +3415,7 @@ Verdict: The best small heater on Amazon.ie: fast, precise and safe — the pani
 ### 2. Ventox 2000W Fan Heater with Fan Mode  [Best All-Season]
 Brand: Ventox
 Price: ~€25
-Rating: 4.0/5 (Amazon.ie)
+Rating: 3.9/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Modes: 2 heat + cool fan
@@ -3456,8 +3432,8 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1500 W
 Pros: Oil-filled: keeps radiating after the thermostat cuts
-Cons: 1 of the 4 picks here is better rated by owners; €39 more than our top pick
-Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars, but at around €99 it costs more than our €60 Dreo pick. The bigger problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It is also not sold as bathroom-rated. A good buy for a small bedroom; the wrong tool for a wet room.
+Cons: 1 of the 4 picks here is better rated by owners; €31 more than our top pick
+Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars, but at around €99 it costs more than our €68 Dreo pick. The bigger problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It is also not sold as bathroom-rated. A good buy for a small bedroom; the wrong tool for a wet room.
 
 ### 4. Midea 2000W PTC Ceramic Tower Heater  [Notable Mention]
 Brand: Midea
@@ -3466,8 +3442,8 @@ Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2000 W
 Pros: 2000 W power; PTC ceramic: warms a small room quickly
-Cons: 1 of the 4 picks here is better rated by owners; €33 more than our top pick; Not our category winner — compare against the Dreo 1500W Ceramic Space Heater
-Verdict: Midea's 2000W PTC ceramic tower costs more than our top pick at €93 against €60, and owners rate it 4.4 stars against the Dreo's 4.7. It heats quickly, but a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom.
+Cons: 1 of the 4 picks here is better rated by owners; €25 more than our top pick; Not our category winner — compare against the Dreo 1500W Ceramic Space Heater
+Verdict: Midea's 2000W PTC ceramic tower costs more than our top pick at €93 against €68, and owners rate it 4.4 stars against the Dreo's 4.7. It heats quickly, but a free-standing tower heater is not something to site in a wet room without checking its IP rating against where you intend to put it. Good value for a small bedroom or landing; check the safety rating carefully before putting it in a bathroom.
 
 #### Why does speed matter more than efficiency for a bathroom heater?
 A typical Irish bathroom is small enough in volume that even a modest-wattage heater can raise its temperature quickly — a 2m x 2m bathroom with a 2.4m ceiling is under 10 cubic metres, a fraction of a bedroom or sitting room. The catch is that bathroom heating isn't judged by whether a heater can eventually get the room warm, but by whether it gets there before you're out of the shower and cold. That makes speed of response matter more here than in any other room in the house. A slow-building oil radiator that would be ideal for an evening in the sitting room is the wrong tool here, however small the room is, because you need meaningful warmth within a minute or two, not fifteen to twenty. Radiant elements and fan heaters with PTC ceramic cores lead in this room specifically because they respond fast, not because they're more efficient.
@@ -3874,7 +3850,7 @@ Verdict: This covered dryer uses a 1,000 W PTC ceramic heater and a fan inside a
 ==============================================================================
 # CATEGORY: Home Office
 URL: https://pickireland.best/home-office/
-5 guides, 23 product entries
+5 guides, 22 product entries
 ==============================================================================
 
 Remote and hybrid work stuck in Ireland — Dublin's tech sector normalised it and the housing market spread it nationwide. That makes the home office chair and desk health equipment, not furniture: most people sit 6–9 hours daily on seats designed for dinner. We compare ergonomic chairs and standing desks across budgets, focused on what your back actually needs.
@@ -3900,17 +3876,17 @@ Summary: The best ergonomic office chairs in Ireland for remote work — lumbar 
 
 Six-plus hours a day, five days a week: your office chair logs more body-hours than your bed gets credit for. The Irish market finally offers real ergonomics at every price — from €229 mesh workhorses to decade-warranty icons. We ranked on adjustability that fits real bodies, support that survives month six, and honest total-ownership value.
 
-### 1. SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)  [Best Overall]
+### 1. SIHOO M18 Ergonomic Office Chair  [Best Overall]
 Brand: SIHOO
-Price: ~€160
+Price: ~€170
 Rating: 4.3/5 (Amazon.ie)
-Back: Mesh, high
-Lumbar: Up/down, 6 cm range
-Arms: 3D, flip-up
+Back: Mesh
+Lumbar: Adjustable depth
+Weight rating: 150 kg
 Headrest: Adjustable
-Pros: Separate mesh lumbar with 6 cm of travel; Flip-up arms slide under the desk; Full mesh breathability
-Cons: Lumbar moves up and down only, not in depth; 4.3★ — below some cheaper chairs here
-Verdict: The SIHOO M102C keeps the Best Overall badge for the range of adjustment it packs in at €160: a separate mesh lumbar pad with 6 cm of vertical travel, an adjustable headrest, and 3D armrests that also flip up so the chair slides under a desk. Full mesh keeps it breathable through long sitting sessions. Its 4.3-star owner rating from nearly 2,000 buyers is lower than some cheaper chairs on this page, and the lumbar only moves up and down rather than in depth. A strong pick for long working hours if adjustability matters more to you than the rating; those wanting the best-scored budget option should look at the Ticova.
+Pros: Proven bestseller design; 150 kg rating; Adjustable lumbar + headrest
+Cons: 2D arms only; Mesh coarser than premium
+Verdict: The SIHOO M18 has sold in enough volume to earn genuine bestseller status, and at around €170 it packs in adjustable lumbar support and an adjustable headrest alongside a 150kg weight rating that comfortably covers most body types — details that don't always show up together at this price. It's a proven, well-reviewed design rather than a gamble on an unknown. The arms are 2D rather than the more flexible 4D found on pricier chairs, and the mesh has a coarser weave than the premium options on this list. A solid, low-risk choice for someone who wants adjustable lumbar and headrest support without paying for arm articulation they may never use.
 
 ### 2. Ergonomic High-Back Chair with Adjustable Lumbar  [Best Lumbar Adjustment]
 Brand: Generic
@@ -3922,21 +3898,9 @@ Recline: Lockable
 Arms: Flip-up
 Pros: Dedicated lumbar adjustment; Lockable recline; Flip-up arms tuck under desk
 Cons: Unbranded support; Plain styling
-Verdict: At €123, this generic-brand High-Back Chair outscores the SIHOO M102C's 4.3★ with a 4.6★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box.
+Verdict: At €123, this generic-brand High-Back Chair outscores the SIHOO M18's 4.3★ with a 4.6★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box.
 
-### 3. SIHOO M18 Ergonomic Office Chair  [Best Value Full-Feature]
-Brand: SIHOO
-Price: ~€220
-Rating: 4.3/5 (Amazon.ie)
-Back: Mesh
-Lumbar: Adjustable depth
-Weight rating: 150 kg
-Headrest: Adjustable
-Pros: Proven bestseller design; 150 kg rating; Adjustable lumbar + headrest
-Cons: 2D arms only; Mesh coarser than premium
-Verdict: The SIHOO M18 has sold in enough volume to earn genuine bestseller status, and at around €220 it packs in adjustable lumbar support and an adjustable headrest alongside a 150kg weight rating that comfortably covers most body types — details that don't always show up together at this price. It's a proven, well-reviewed design rather than a gamble on an unknown. The arms are 2D rather than the more flexible 4D found on pricier chairs, and the mesh has a coarser weave than the premium options on this list. A solid, low-risk choice for someone who wants adjustable lumbar and headrest support without paying for arm articulation they may never use.
-
-### 4. Mesh Desk Chair with Flip-Up Armrests & Headrest  [Best Compact]
+### 3. Mesh Desk Chair with Flip-Up Armrests & Headrest  [Best Compact]
 Brand: Generic
 Price: ~€80
 Rating: 4.1/5 (Amazon.ie)
@@ -3948,19 +3912,19 @@ Pros: Flip-up arms save space; Headrest included at €80; Decent recline range
 Cons: Basic mechanism; Modest padding
 Verdict: This €80 Mesh Desk Chair earns the Best Compact badge by fitting a headrest and flip-up armrests into a small-office footprint — features that are easy to find on chairs costing far more but rare at this price. A 90–120° recline range gives some flexibility for leaning back between tasks, and the arms flip up so the chair slides fully under a desk when the room is needed for something else. The recline mechanism itself is basic rather than the smoother multi-position tilt on pricier chairs, and the padding is noticeably thinner than what you'd get from the SIHOO options above. Ideal for a small bedroom office or an occasional-use desk; less suited to someone sitting eight hours a day.
 
-### 5. SIHOO M57 Ergonomic Office Chair (3-Way Adjustable Arms)  [Worth Considering]
+### 4. SIHOO M57 Ergonomic Office Chair (3-Way Adjustable Arms)  [Worth Considering]
 Brand: SIHOO
-Price: ~€250
+Price: ~€190
 Rating: 4.3/5 (Amazon.ie)
 Max load: 150 kg
 Recline: 90°–126°
 Armrests: 3D adjustable
 Lumbar: Height + depth adjustable
 Pros: 150 kg max load; 90°–126° recline
-Cons: Same 4.3★ owner rating as our cheaper top pick; €90 more than our top pick, the M102C
-Verdict: The SIHOO M57 adds 3-way adjustable arms to the SIHOO ergonomic lineup and holds a solid 4.3★ owner rating on Amazon.ie, at around €250 it costs more than the M102C and M18 already covered here. As with those chairs, buying through Amazon.ie means the returns process is straightforward if it doesn't suit. It's newer to our comparison than the top picks, so there's less accumulated feedback to lean on, and because SIHOO chairs are listed through multiple sellers, the support experience can vary depending on who you buy from. Worth a look if you specifically want 3-way arm adjustment and are happy paying more for it, but the M102C remains the stronger all-round value.
+Cons: Same 4.3★ owner rating as our cheaper top pick; €20 more than our top pick, the M18
+Verdict: The SIHOO M57 adds 3-way adjustable arms to the SIHOO ergonomic lineup and holds a solid 4.3★ owner rating on Amazon.ie, at around €190 it costs a little more than the M18 already covered here. As with those chairs, buying through Amazon.ie means the returns process is straightforward if it doesn't suit. It's newer to our comparison than the top picks, so there's less accumulated feedback to lean on, and because SIHOO chairs are listed through multiple sellers, the support experience can vary depending on who you buy from. Worth a look if you specifically want 3-way arm adjustment and are happy paying more for it, but the M18 remains the stronger all-round value.
 
-### 6. Ticova Ergonomic Office Chair (High Back, Adjustable Lumbar & Headrest)  [Notable Mention]
+### 5. Ticova Ergonomic Office Chair (High Back, Adjustable Lumbar & Headrest)  [Notable Mention]
 Brand: Ticova
 Price: ~€120
 Rating: 4.1/5 (Amazon.ie)
@@ -3968,9 +3932,9 @@ Max load: 127 kg
 Recline: Up to 130°
 Armrests: 3D metal
 Headrest: Height + angle adjustable
-Pros: €40 less than our top pick; 127 kg max load; Up to 130° recline
-Cons: Joint-lowest owner rating on this page at 4.1★; Not our category winner — compare against the SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)
-Verdict: The Ticova Ergonomic Office Chair combines a high back with adjustable lumbar support and a headrest, the same core feature set as the SIHOO chairs above, for around €120. More than 2,000 owners rate it 4.1 stars on Amazon.ie, which ties it for the lowest score on this page, and generic-brand listings like this one can vary in exact spec, so check the current listing matches what you need. A reasonable lower-cost alternative; the SIHOO M102C is the safer buy for €40 more.
+Pros: €50 less than our top pick; 127 kg max load; Up to 130° recline
+Cons: Joint-lowest owner rating on this page at 4.1★; Not our category winner — compare against the SIHOO M18 Ergonomic Office Chair
+Verdict: The Ticova Ergonomic Office Chair combines a high back with adjustable lumbar support and a headrest, the same core feature set as the SIHOO chairs above, for around €120. More than 2,000 owners rate it 4.1 stars on Amazon.ie, which ties it for the lowest score on this page, and generic-brand listings like this one can vary in exact spec, so check the current listing matches what you need. A reasonable lower-cost alternative; the SIHOO M18 is the safer buy for €50 more.
 
 #### What actually makes an office chair adjustable enough for real bodies?
 Height range, seat depth adjustment and armrest travel decide whether a chair works for one body or a household. A chair with only 5cm of seat height travel forces taller or shorter users into compromise postures — knees above hips, or feet dangling — and a fixed-depth seat that's too long presses on the back of the knees, cutting circulation over a workday. Look for seat pan sliders (usually 4–6cm of travel), independently adjustable armrests (height, width, and ideally pivot), and a backrest that reclines with tension control rather than a single locked angle. Ergonomic research consistently points to adjustability, not padding thickness, as the strongest predictor of whether a chair still feels supportive after month three. Cheap chairs fake this with a lever that does nothing.
@@ -4015,17 +3979,17 @@ Summary: Five office chairs under €200 with real ergonomic credentials for Iri
 
 Under €200 is booby-trapped territory: racing-style 'gaming chairs' with cosmetic ergonomics, and foam that retires before your next phone does. The escape route is mesh, simple proven mechanisms, and brands with actual warranties. These four maximise spine-per-euro — including what to deliberately sacrifice (looks, recline range) and what never to (lumbar, height range).
 
-### 1. SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar)  [Best Under €200]
+### 1. SIHOO M18 Ergonomic Office Chair  [Best Under €200]
 Brand: SIHOO
-Price: ~€160
+Price: ~€170
 Rating: 4.3/5 (Amazon.ie)
-Back: Mesh, high
-Lumbar: Up/down, 6 cm range
-Arms: 3D, flip-up
+Back: Mesh
+Lumbar: Adjustable depth
+Weight rating: 150 kg
 Headrest: Adjustable
-Pros: Separate mesh lumbar with 6 cm of travel; Flip-up arms slide under the desk; Full mesh breathability
-Cons: Lumbar moves up and down only, not in depth; Dearest chair here that stays under €200
-Verdict: The SIHOO M102C is the chair to beat under €200: at around €160 it has a separate mesh lumbar pad with 6 cm of vertical travel, an adjustable headrest, and 3D armrests that flip up so the chair slides under a desk. Full mesh keeps it breathable through long working days, and nearly 2,000 owners rate it 4.3 stars. The lumbar adjusts in height only, not depth, but no other chair on this page gives you as much adjustment for the money.
+Pros: Proven bestseller design; 150 kg rating; Adjustable lumbar + headrest
+Cons: 2D arms only; Mesh coarser than premium
+Verdict: The SIHOO M18 is the chair to beat under €200: at around €170 it combines adjustable lumbar support, an adjustable headrest and a 150 kg weight rating, backed by more than 15,000 owner ratings on Amazon.ie at 4.3★. The arms are 2D rather than 3D or 4D, and the mesh is coarser than on premium chairs. If you work from home most days and want proper back support without going over €200, this is the safe choice.
 
 ### 2. Ergonomic High-Back Chair with Adjustable Lumbar  [Best Features Under €130]
 Brand: Generic
@@ -4056,7 +4020,7 @@ Brand: FlexiSpot
 Price: ~€250
 Rating: 3.7/5 (Amazon.ie)
 Pros: Listed on Amazon.ie at €250
-Cons: 3 of the 4 picks here are better rated by owners; €90 more than our top pick, which owners rate higher at 4.3★
+Cons: 3 of the 4 picks here are better rated by owners; €80 more than our top pick, which owners rate higher at 4.3★
 Verdict: FlexiSpot is a well-established name in home-office furniture and the ErgoX is the most feature-complete chair here, but at €250 it sits €50 above this page's under-€200 remit and €90 above our SIHOO pick, while rating lower with owners at 3.7 stars against 4.3. Included as the obvious step up if the budget cap is soft; if €200 is firm, the SIHOO does the job for less.
 
 #### What should you never sacrifice on an office chair under €200?
@@ -4816,7 +4780,7 @@ A: Generally no — the navigation hardware (GPS-RTK modules, cameras, sensor ar
 ==============================================================================
 # CATEGORY: Robot Vacuums
 URL: https://pickireland.best/robot-vacuums/
-5 guides, 18 product entries
+5 guides, 17 product entries
 ==============================================================================
 
 Robot vacuums crossed the believability line around 2023: modern lidar navigation actually maps your home, mops actually mop, and self-empty docks mean weeks without thinking about floors. Prices run €150 to €1,500, and the right answer depends on floors, pets and tolerance for occasional robot nonsense. We compare what each euro tier really buys in an Irish home.
@@ -4840,7 +4804,7 @@ URL: https://pickireland.best/robot-vacuums/best-robot-vacuums-ireland.html
 Summary: Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Ranked for 2026.
 ------------------------------------------------------------------------------
 
-The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation, real pickup on carpet and hard floor, dock features and parts availability in Ireland. Stock on Amazon.ie is thin this winter, so this page lists only the four machines we could confirm in stock, from €240 to €516.
+The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation, real pickup on carpet and hard floor, dock features and parts availability in Ireland. Stock on Amazon.ie is thin this winter, so this page lists only the four machines we could confirm in stock, from €216 to €516.
 
 ### 1. Xiaomi Robot Vacuum X10 (LiDAR, Vacuum + Mop)  [Best Overall]
 Brand: Xiaomi
@@ -4857,7 +4821,7 @@ Verdict: Xiaomi's X10 maps the house with LiDAR, vacuums and mops in the same ru
 
 ### 2. Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)  [Best Mid-Range]
 Brand: Xiaomi
-Price: ~€253
+Price: ~€216
 Rating: 4.4/5 (Amazon.ie)
 Suction: 5,000 Pa
 Navigation: Laser
@@ -4866,7 +4830,7 @@ Water tank: 260 ml
 Battery: Up to 100 min
 Pros: Laser navigation and 5,000 Pa; Vacuums and mops in one pass; Large 520 ml dustbin
 Cons: Third-party seller; No self-empty dock
-Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
+Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
 
 ### 3. eufy L60 Robot Vacuum (5,000 Pa)  [Best Anti-Tangle]
 Brand: eufy
@@ -4882,7 +4846,7 @@ Verdict: The mapped mid-ranger: eufy quality navigation without paying for a doc
 
 ### 4. Xiaomi Mi Robot Vacuum-Mop P  [Best Value Vacuum-Mop]
 Brand: Xiaomi
-Price: ~€240
+Price: ~€351
 Rating: 4.3/5 (Amazon.ie)
 Suction: 2,100 Pa
 Modes: 3 cleaning modes
@@ -4931,7 +4895,7 @@ URL: https://pickireland.best/robot-vacuums/best-budget-robot-vacuums-under-300-
 Summary: Four robot vacuums under €300 in stock on Amazon.ie — laser mapping, mopping and honest trade-offs compared for Irish homes. 2026.
 ------------------------------------------------------------------------------
 
-Under €300 used to mean dumb bouncing discs; now it includes genuine laser mapping. The trade-offs moved to mopping quality, docks and obstacle avoidance. Several budget robots we recommended are out of stock on Amazon.ie this winter, so these are the four we could confirm in stock, and we're explicit about what each one gives up.
+Under €300 used to mean dumb bouncing discs; now it includes genuine laser mapping. The trade-offs moved to mopping quality, docks and obstacle avoidance. Several budget robots we recommended are out of stock on Amazon.ie this winter, so these are the three we could confirm in stock, and we're explicit about what each one gives up.
 
 ### 1. eufy L60 Robot Vacuum (5,000 Pa)  [Best Under €300]
 Brand: eufy
@@ -4947,7 +4911,7 @@ Verdict: The mapped mid-ranger: eufy quality navigation without paying for a doc
 
 ### 2. Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)  [Best Laser Navigation]
 Brand: Xiaomi
-Price: ~€253
+Price: ~€216
 Rating: 4.4/5 (Amazon.ie)
 Suction: 5,000 Pa
 Navigation: Laser
@@ -4956,31 +4920,18 @@ Water tank: 260 ml
 Battery: Up to 100 min
 Pros: Laser navigation and 5,000 Pa; Vacuums and mops in one pass; Large 520 ml dustbin
 Cons: Third-party seller; No self-empty dock
-Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
+Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
 
-### 3. Xiaomi Mi Robot Vacuum-Mop P  [Best Vacuum-Mop Value]
+### 3. Xiaomi Robot Vacuum S40  [Best Rated Under €200]
 Brand: Xiaomi
-Price: ~€240
-Rating: 4.3/5 (Amazon.ie)
-Suction: 2,100 Pa
-Modes: 3 cleaning modes
-Water tank: Smart-controlled
-Battery: Up to 110 min
-Cleaning width: 35 cm
-Pros: 4.3★ from over 1,500 owners; Smart water control protects wooden floors; Sold and shipped by Amazon.ie
-Cons: 2,100 Pa is modest for thick carpet; Older model
-Verdict: An older but proven vacuum-mop: 2,100 Pa, three cleaning modes and a water tank that meters water so wooden floors don't get soaked. Sold by Amazon.ie and rated 4.3 by over 1,500 owners. Fine on hard floors; thick carpet wants more suction.
-
-### 4. Xiaomi Robot Vacuum S40  [Best Rated Under €200]
-Brand: Xiaomi
-Price: ~€181
-Rating: 4.7/5 (Amazon.ie)
+Price: ~€211
+Rating: 4.6/5 (Amazon.ie)
 Battery: Up to 100 min
 Cleaning width: 32.5 cm
 In the box: Dock, mop pad, water tank
 Pros: Highest owner rating here (4.7★, 500+ ratings); Cheapest pick here; Vacuums and mops
 Cons: Listing publishes almost no specs; Third-party seller, low stock
-Verdict: The best-rated robot here, 4.7 stars from over 500 owners, at about €181. The Amazon listing publishes almost nothing beyond a 100-minute battery and a dock, mop pad and water tank in the box, and it comes from a third-party seller with low stock, so check the listing before you buy.
+Verdict: The best-rated robot here, 4.6 stars from over 500 owners, at about €211. The Amazon listing publishes almost nothing beyond a 100-minute battery and a dock, mop pad and water tank in the box, and it comes from a third-party seller with low stock, so check the listing before you buy.
 
 #### What kind of navigation do you actually get under €300 now?
 A few years ago, sub-€300 meant random-bounce navigation with no memory between cleans; that's no longer true across the board. Several budget-tier robots now ship with genuine lidar or basic vision mapping, giving room-by-room cleaning, resumable cleans after charging, and app-drawn no-go zones — features that were mid-range exclusives not long ago. What you still don't get at this price is the mapping precision or multi-floor memory of pricier models: budget lidar units typically hold one or two saved maps rather than several, and re-mapping after furniture moves takes longer. For a typical Irish terraced house or apartment with a fairly stable layout, that's rarely a practical problem. It becomes one if you rearrange furniture often or want separate saved maps for upstairs and downstairs — check the spec sheet's map-storage number specifically, not just whether it says smart navigation.
@@ -5049,7 +5000,7 @@ Verdict: The mapped mid-ranger: eufy quality navigation without paying for a doc
 
 ### 3. Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)  [Best Suction for Hair]
 Brand: Xiaomi
-Price: ~€253
+Price: ~€216
 Rating: 4.4/5 (Amazon.ie)
 Suction: 5,000 Pa
 Navigation: Laser
@@ -5058,11 +5009,11 @@ Water tank: 260 ml
 Battery: Up to 100 min
 Pros: Laser navigation and 5,000 Pa; Vacuums and mops in one pass; Large 520 ml dustbin
 Cons: Third-party seller; No self-empty dock
-Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
+Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
 
 ### 4. Xiaomi Mi Robot Vacuum-Mop P  [Budget Pet Pick]
 Brand: Xiaomi
-Price: ~€240
+Price: ~€351
 Rating: 4.3/5 (Amazon.ie)
 Suction: 2,100 Pa
 Modes: 3 cleaning modes
@@ -5128,7 +5079,7 @@ Verdict: Xiaomi's X10 maps the house with LiDAR, vacuums and mops in the same ru
 
 ### 2. Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)  [Best Value Combo]
 Brand: Xiaomi
-Price: ~€253
+Price: ~€216
 Rating: 4.4/5 (Amazon.ie)
 Suction: 5,000 Pa
 Navigation: Laser
@@ -5137,11 +5088,11 @@ Water tank: 260 ml
 Battery: Up to 100 min
 Pros: Laser navigation and 5,000 Pa; Vacuums and mops in one pass; Large 520 ml dustbin
 Cons: Third-party seller; No self-empty dock
-Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
+Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock.
 
 ### 3. Xiaomi Mi Robot Vacuum-Mop P  [Best Budget Combo]
 Brand: Xiaomi
-Price: ~€240
+Price: ~€351
 Rating: 4.3/5 (Amazon.ie)
 Suction: 2,100 Pa
 Modes: 3 cleaning modes

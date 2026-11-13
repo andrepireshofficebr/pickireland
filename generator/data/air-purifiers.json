@@ -61,7 +61,7 @@
       "title": "Best Air Purifiers in Ireland 2026 — HEPA Picks Compared",
       "desc": "Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026.",
       "h1": "The Best Air Purifiers in Ireland (2026)",
-      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €29 to €191.",
+      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €23 to €191.",
       "faq_idx": [
         0,
         2,
@@ -223,11 +223,11 @@
         },
         {
           "id": "apr-005",
-          "asin": "B0BXWYLSPP",
+          "asin": "B07KYFCB6S",
           "name": "MELEDEN HEPA Air Purifier",
           "brand": "MELEDEN",
-          "price": 29,
-          "rating": 4.1,
+          "price": 23,
+          "rating": 4.4,
           "badge": "Best Budget",
           "specs": {
             "Filter": "HEPA",
@@ -237,7 +237,7 @@
             "Power": "2.5 W"
           },
           "pros": [
-            "Real HEPA for €29",
+            "Real HEPA for €23",
             "Tackles pollen and pet dander",
             "Tiny footprint"
           ],
@@ -245,7 +245,7 @@
             "Small rooms strictly",
             "Basic controls"
           ],
-          "verdict": "€29 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above."
+          "verdict": "€23 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above."
         },
         {
           "id": "apr-027",
@@ -412,7 +412,7 @@
           "asin": "B0DYHQW1NN",
           "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
           "brand": "MELEDEN",
-          "price": 27,
+          "price": 31,
           "rating": 4.1,
           "badge": "Best Pet Dander Budget",
           "specs": {
@@ -422,7 +422,7 @@
             "Noise": "Quiet"
           },
           "pros": [
-            "H13 filtration at €27",
+            "H13 filtration at €31",
             "Pet-focused filter",
             "Aroma pad bonus"
           ],
@@ -576,7 +576,7 @@
           "asin": "B0DYHQW1NN",
           "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
           "brand": "MELEDEN",
-          "price": 27,
+          "price": 31,
           "rating": 4.1,
           "badge": "Best Quiet Budget",
           "specs": {
@@ -586,7 +586,7 @@
             "Noise": "Quiet"
           },
           "pros": [
-            "H13 filtration at €27",
+            "H13 filtration at €31",
             "Pet-focused filter",
             "Aroma pad bonus"
           ],
@@ -840,11 +840,11 @@
         },
         {
           "id": "apr-020",
-          "asin": "B0BXWYLSPP",
+          "asin": "B07KYFCB6S",
           "name": "MELEDEN HEPA Air Purifier",
           "brand": "MELEDEN",
-          "price": 29,
-          "rating": 4.1,
+          "price": 23,
+          "rating": 4.4,
           "badge": "Best Spot Support",
           "specs": {
             "Filter": "HEPA",
@@ -854,7 +854,7 @@
             "Power": "2.5 W"
           },
           "pros": [
-            "Real HEPA for €29",
+            "Real HEPA for €23",
             "Tackles pollen and pet dander",
             "Tiny footprint"
           ],
@@ -1008,7 +1008,7 @@
           "asin": "B0DYHQW1NN",
           "name": "MELEDEN Small Air Purifier (HEPA13, Pet)",
           "brand": "MELEDEN",
-          "price": 27,
+          "price": 31,
           "rating": 4.1,
           "badge": "Best Pet Budget",
           "specs": {
@@ -1018,7 +1018,7 @@
             "Noise": "Quiet"
           },
           "pros": [
-            "H13 filtration at €27",
+            "H13 filtration at €31",
             "Pet-focused filter",
             "Aroma pad bonus"
           ],
@@ -1030,11 +1030,11 @@
         },
         {
           "id": "apr-025",
-          "asin": "B0BXWYLSPP",
+          "asin": "B07KYFCB6S",
           "name": "MELEDEN HEPA Air Purifier",
           "brand": "MELEDEN",
-          "price": 29,
-          "rating": 4.1,
+          "price": 23,
+          "rating": 4.4,
           "badge": "Cheapest Real HEPA",
           "specs": {
             "Filter": "HEPA",
@@ -1044,7 +1044,7 @@
             "Power": "2.5 W"
           },
           "pros": [
-            "Real HEPA for €29",
+            "Real HEPA for €23",
             "Tackles pollen and pet dander",
             "Tiny footprint"
           ],

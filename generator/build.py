@@ -3890,7 +3890,7 @@ GIFT_PAGES = [
         ("deh-034", "Meaco's ABC 12L is one of the best-rated dehumidifiers in our guides and quiet enough to run in a living space."),
         ("deh-001", "A dehumidifier with a HEPA filter, so it tackles damp and airborne particles in one machine."),
         ("apr-030", "A large-room purifier for an open-plan kitchen and living area, sold and shipped by Amazon.ie."),
-        ("ofc-001", "A mesh office chair with adjustable lumbar support and flip-up arms, for anyone working from home on a kitchen chair."),
+        ("ofc-003", "A mesh office chair with adjustable lumbar support and an adjustable headrest, for anyone working from home on a kitchen chair."),
         ("ofc-012", "An electric standing desk with a one-piece top, the home-office upgrade people rarely buy for themselves."),
      ]},
 ]

@@ -61,7 +61,7 @@
    "title": "Best Robot Vacuums in Ireland 2026 — Ranked",
    "desc": "Ireland's best robot vacuums for 2026 across every budget — navigation, suction, self-empty docks and mopping compared. Ranked for 2026.",
    "h1": "The Best Robot Vacuums in Ireland (2026)",
-   "intro": "The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation, real pickup on carpet and hard floor, dock features and parts availability in Ireland. Stock on Amazon.ie is thin this winter, so this page lists only the four machines we could confirm in stock, from €240 to €516.",
+   "intro": "The robot vacuum market matured into clear tiers: random-bounce bargains, capable lidar mid-rangers, and full self-maintaining systems that wash their own mops. We compared navigation, real pickup on carpet and hard floor, dock features and parts availability in Ireland. Stock on Amazon.ie is thin this winter, so this page lists only the four machines we could confirm in stock, from €216 to €516.",
    "faq_idx": [
     0,
     4,
@@ -143,7 +143,7 @@
      "asin": "B0F4K1H6X5",
      "name": "Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)",
      "brand": "Xiaomi",
-     "price": 253,
+     "price": 216,
      "rating": 4.4,
      "badge": "Best Mid-Range",
      "specs": {
@@ -162,7 +162,7 @@
       "Third-party seller",
       "No self-empty dock"
      ],
-     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
+     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
     },
     {
      "id": "rvc-028",
@@ -194,7 +194,7 @@
      "asin": "B085BP7ZC5",
      "name": "Xiaomi Mi Robot Vacuum-Mop P",
      "brand": "Xiaomi",
-     "price": 240,
+     "price": 351,
      "rating": 4.3,
      "badge": "Best Value Vacuum-Mop",
      "specs": {
@@ -227,7 +227,7 @@
    "title": "Best Robot Vacuums Under €300 Ireland 2026 — Budget Picks",
    "desc": "Four robot vacuums under €300 in stock on Amazon.ie — laser mapping, mopping and honest trade-offs compared for Irish homes. 2026.",
    "h1": "Best Robot Vacuums Under €300 in Ireland",
-   "intro": "Under €300 used to mean dumb bouncing discs; now it includes genuine laser mapping. The trade-offs moved to mopping quality, docks and obstacle avoidance. Several budget robots we recommended are out of stock on Amazon.ie this winter, so these are the four we could confirm in stock, and we're explicit about what each one gives up.",
+   "intro": "Under €300 used to mean dumb bouncing discs; now it includes genuine laser mapping. The trade-offs moved to mopping quality, docks and obstacle avoidance. Several budget robots we recommended are out of stock on Amazon.ie this winter, so these are the three we could confirm in stock, and we're explicit about what each one gives up.",
    "faq_idx": [
     0,
     5,
@@ -308,7 +308,7 @@
      "asin": "B0F4K1H6X5",
      "name": "Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)",
      "brand": "Xiaomi",
-     "price": 253,
+     "price": 216,
      "rating": 4.4,
      "badge": "Best Laser Navigation",
      "specs": {
@@ -327,41 +327,15 @@
       "Third-party seller",
       "No self-empty dock"
      ],
-     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
-    },
-    {
-     "id": "rvc-009",
-     "asin": "B085BP7ZC5",
-     "name": "Xiaomi Mi Robot Vacuum-Mop P",
-     "brand": "Xiaomi",
-     "price": 240,
-     "rating": 4.3,
-     "badge": "Best Vacuum-Mop Value",
-     "specs": {
-      "Suction": "2,100 Pa",
-      "Modes": "3 cleaning modes",
-      "Water tank": "Smart-controlled",
-      "Battery": "Up to 110 min",
-      "Cleaning width": "35 cm"
-     },
-     "pros": [
-      "4.3★ from over 1,500 owners",
-      "Smart water control protects wooden floors",
-      "Sold and shipped by Amazon.ie"
-     ],
-     "cons": [
-      "2,100 Pa is modest for thick carpet",
-      "Older model"
-     ],
-     "verdict": "An older but proven vacuum-mop: 2,100 Pa, three cleaning modes and a water tank that meters water so wooden floors don't get soaked. Sold by Amazon.ie and rated 4.3 by over 1,500 owners. Fine on hard floors; thick carpet wants more suction."
+     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
     },
     {
      "id": "rvc-033",
      "asin": "B0FKC1QB1J",
      "name": "Xiaomi Robot Vacuum S40",
      "brand": "Xiaomi",
-     "price": 181,
-     "rating": 4.7,
+     "price": 211,
+     "rating": 4.6,
      "badge": "Best Rated Under €200",
      "specs": {
       "Battery": "Up to 100 min",
@@ -377,9 +351,14 @@
       "Listing publishes almost no specs",
       "Third-party seller, low stock"
      ],
-     "verdict": "The best-rated robot here, 4.7 stars from over 500 owners, at about €181. The Amazon listing publishes almost nothing beyond a 100-minute battery and a dock, mop pad and water tank in the box, and it comes from a third-party seller with low stock, so check the listing before you buy."
+     "verdict": "The best-rated robot here, 4.6 stars from over 500 owners, at about €211. The Amazon listing publishes almost nothing beyond a 100-minute battery and a dock, mop pad and water tank in the box, and it comes from a third-party seller with low stock, so check the listing before you buy."
     }
-   ]
+   ],
+   "stock_note": {
+    "text": "The Xiaomi vacuum-mop we listed here now costs more than €300 on Amazon.ie, so this guide lists three robots that are still under budget. For more robot vacuums, see",
+    "href": "best-robot-vacuums-ireland.html",
+    "label": "Best robot vacuums in Ireland"
+   }
   },
   {
    "slug": "best-robot-vacuums-pet-hair-ireland",
@@ -493,7 +472,7 @@
      "asin": "B0F4K1H6X5",
      "name": "Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)",
      "brand": "Xiaomi",
-     "price": 253,
+     "price": 216,
      "rating": 4.4,
      "badge": "Best Suction for Hair",
      "specs": {
@@ -512,14 +491,14 @@
       "Third-party seller",
       "No self-empty dock"
      ],
-     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
+     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
     },
     {
      "id": "rvc-015",
      "asin": "B085BP7ZC5",
      "name": "Xiaomi Mi Robot Vacuum-Mop P",
      "brand": "Xiaomi",
-     "price": 240,
+     "price": 351,
      "rating": 4.3,
      "badge": "Budget Pet Pick",
      "specs": {
@@ -634,7 +613,7 @@
      "asin": "B0F4K1H6X5",
      "name": "Xiaomi Robot Vacuum S40C (5,000 Pa, Laser)",
      "brand": "Xiaomi",
-     "price": 253,
+     "price": 216,
      "rating": 4.4,
      "badge": "Best Value Combo",
      "specs": {
@@ -653,14 +632,14 @@
       "Third-party seller",
       "No self-empty dock"
      ],
-     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €253, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
+     "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
     },
     {
      "id": "rvc-019",
      "asin": "B085BP7ZC5",
      "name": "Xiaomi Mi Robot Vacuum-Mop P",
      "brand": "Xiaomi",
-     "price": 240,
+     "price": 351,
      "rating": 4.3,
      "badge": "Best Budget Combo",
      "specs": {

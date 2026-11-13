@@ -2,7 +2,7 @@
 > Independent product comparison guides for Irish shoppers. Every pick factors in Irish prices, running costs on Irish electricity, weather and legal rules.
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
-Author: André Pires (Founder & Editor). 12 categories, 52 buying guides, 222 products compared.
+Author: André Pires (Founder & Editor). 12 categories, 52 buying guides, 218 products compared.
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -24,18 +24,18 @@ Best-fit jobs:
 Not the right tool for: UK-specific buying advice, commercial or industrial equipment, or categories outside the 10 listed below.
 
 ## Categories
-- [Air Fryers](https://pickireland.best/air-fryers/) — 5 guides, 28 products compared
+- [Air Fryers](https://pickireland.best/air-fryers/) — 5 guides, 27 products compared
 - [Air Purifiers](https://pickireland.best/air-purifiers/) — 5 guides, 27 products compared
 - [Coffee Machines](https://pickireland.best/coffee-machines/) — 5 guides, 26 products compared
 - [Dehumidifiers](https://pickireland.best/dehumidifiers/) — 5 guides, 29 products compared
-- [Electric Bikes](https://pickireland.best/electric-bikes/) — 5 guides, 16 products compared
+- [Electric Bikes](https://pickireland.best/electric-bikes/) — 5 guides, 15 products compared
 - [Electric Blankets](https://pickireland.best/electric-blankets/) — 1 guides, 6 products compared
 - [Electric Heaters](https://pickireland.best/electric-heaters/) — 5 guides, 22 products compared
 - [Electric Scooters](https://pickireland.best/electric-scooters/) — 5 guides, 5 products compared
 - [Heated Clothes Airers](https://pickireland.best/heated-airers/) — 1 guides, 3 products compared
-- [Home Office](https://pickireland.best/home-office/) — 5 guides, 23 products compared
+- [Home Office](https://pickireland.best/home-office/) — 5 guides, 22 products compared
 - [Robot Lawn Mowers](https://pickireland.best/robot-lawn-mowers/) — 5 guides, 19 products compared
-- [Robot Vacuums](https://pickireland.best/robot-vacuums/) — 5 guides, 18 products compared
+- [Robot Vacuums](https://pickireland.best/robot-vacuums/) — 5 guides, 17 products compared
 
 ## All guides
 ### Air Fryers
@@ -77,11 +77,11 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [Best Electric Blankets in Ireland](https://pickireland.best/electric-blankets/best-electric-blankets-ireland.html) — Electric blankets and heated throws on Amazon.ie compared for Irish homes: wattage, cost per hour at Irish rates, dual control and owner ratings. Top pick: Cosi Home Double Electric Underblanket (70W) (~€44).
 
 ### Electric Heaters
-- [The Best Electric Heaters in Ireland (2026)](https://pickireland.best/electric-heaters/best-electric-heaters-ireland.html) — The best electric heaters for Irish homes in 2026, compared on real running costs per hour, heat type and safety. Ranked for 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€60).
-- [Cheapest Electric Heaters to Run in Ireland](https://pickireland.best/electric-heaters/cheapest-electric-heaters-to-run-ireland.html) — The cheapest electric heaters to actually run at Irish electricity prices — low-watt radiant, smart thermostats and real hourly costs. Compared for 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€60).
+- [The Best Electric Heaters in Ireland (2026)](https://pickireland.best/electric-heaters/best-electric-heaters-ireland.html) — The best electric heaters for Irish homes in 2026, compared on real running costs per hour, heat type and safety. Ranked for 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€68).
+- [Cheapest Electric Heaters to Run in Ireland](https://pickireland.best/electric-heaters/cheapest-electric-heaters-to-run-ireland.html) — The cheapest electric heaters to actually run at Irish electricity prices — low-watt radiant, smart thermostats and real hourly costs. Compared for 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€68).
 - [Best Oil-Filled Radiators in Ireland](https://pickireland.best/electric-heaters/best-oil-filled-radiators-ireland.html) — Oil-filled radiators compared for Irish homes: heat retention, thermostats, running costs and safety for long evening use. Compared for 2026. Top pick: Rowenta 2000W Oil Radiator (3 Settings, Eco Mode) (~€164).
 - [Best Panel Heaters in Ireland](https://pickireland.best/electric-heaters/best-panel-heaters-ireland.html) — Slim electric panel heaters for Irish rooms compared: smart scheduling, wall mounting, Lot 20 compliance and running costs. Compared for 2026. Top pick: Devola 1500W Smart Glass Panel Heater (Grey) (~€124).
-- [Best Bathroom & Small Room Heaters in Ireland](https://pickireland.best/electric-heaters/best-bathroom-small-room-heaters-ireland.html) — Fast, splash-safe heaters for Irish bathrooms and small rooms — IP ratings, heat-up speed and safety compared. Our picks 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€60).
+- [Best Bathroom & Small Room Heaters in Ireland](https://pickireland.best/electric-heaters/best-bathroom-small-room-heaters-ireland.html) — Fast, splash-safe heaters for Irish bathrooms and small rooms — IP ratings, heat-up speed and safety compared. Our picks 2026. Top pick: Dreo 1500W Ceramic Space Heater (~€68).
 
 ### Electric Scooters
 - [The 5 Best Electric Scooters in Ireland (2026)](https://pickireland.best/electric-scooters/best-electric-scooters-ireland.html) — Ireland's road-legal electric scooters for 2026 — range, hills, rain-readiness and value. Stock is thin this winter: see what's in stock now. Top pick: iScooter i8 Folding Electric Scooter (350W) (~€330).
@@ -94,8 +94,8 @@ Not the right tool for: UK-specific buying advice, commercial or industrial equi
 - [Best Heated Clothes Airers in Ireland](https://pickireland.best/heated-airers/best-heated-clothes-airers-ireland.html) — Heated clothes airers on Amazon.ie for drying laundry indoors in Ireland: wattage, cost per hour at Irish rates, capacity and owner ratings. Top pick: BLACK+DECKER 3-Tier Heated Clothes Airer with Cover (63091) (~€153).
 
 ### Home Office
-- [The Best Ergonomic Office Chairs in Ireland (2026)](https://pickireland.best/home-office/best-ergonomic-office-chairs-ireland.html) — The best ergonomic office chairs in Ireland for remote work — lumbar support, adjustability and durability compared across budgets. Compared for 2026. Top pick: SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar) (~€160).
-- [Best Office Chairs Under €200 in Ireland](https://pickireland.best/home-office/best-budget-office-chairs-under-200-ireland.html) — Five office chairs under €200 with real ergonomic credentials for Irish home workers — honest comparisons, no gaming-chair traps. 2026. Top pick: SIHOO M102C Ergonomic Mesh Chair (Adjustable Lumbar) (~€160).
+- [The Best Ergonomic Office Chairs in Ireland (2026)](https://pickireland.best/home-office/best-ergonomic-office-chairs-ireland.html) — The best ergonomic office chairs in Ireland for remote work — lumbar support, adjustability and durability compared across budgets. Compared for 2026. Top pick: SIHOO M18 Ergonomic Office Chair (~€170).
+- [Best Office Chairs Under €200 in Ireland](https://pickireland.best/home-office/best-budget-office-chairs-under-200-ireland.html) — Five office chairs under €200 with real ergonomic credentials for Irish home workers — honest comparisons, no gaming-chair traps. 2026. Top pick: SIHOO M18 Ergonomic Office Chair (~€170).
 - [Best Standing Desks in Ireland (2026)](https://pickireland.best/home-office/best-standing-desks-ireland.html) — Electric standing desks compared for Irish home offices: dual motors, stability, warranties and real prices. Compared for 2026. Top pick: ErGear Electric Standing Desk 120×60 cm (~€117).
 - [Best Desks for Small Spaces in Ireland](https://pickireland.best/home-office/best-desks-small-spaces-ireland.html) — Compact desks for Irish apartments and box rooms — mostly under 110 cm wide — plus the space-saving chair and monitor arm that make a small setup workable. Top pick: ERGOMAKER Electric Standing Desk 90×60 cm (~€126).
 - [Best Standing Desk Converters & Accessories in Ireland](https://pickireland.best/home-office/best-standing-desk-converters-accessories-ireland.html) — Standing desk converters, monitor arms and the accessories that complete an ergonomic Irish home office — compared for 2026. Top pick: ERGOMAKER 81 cm Standing Desk Converter (~€116).
