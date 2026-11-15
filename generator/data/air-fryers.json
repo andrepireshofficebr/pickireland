@@ -61,7 +61,7 @@
       "title": "Best Air Fryers in Ireland 2026 — Compared & Ranked",
       "desc": "Ireland's best air fryers compared on cooking quality, energy savings at Irish electricity rates, capacity and value. Compared for 2026.",
       "h1": "The Best Air Fryers in Ireland (2026)",
-      "intro": "Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Seven machines stood out, across budgets from €80 to €149.",
+      "intro": "Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Seven machines stood out, across budgets from €79 to €149.",
       "faq_idx": [
         0,
         1,
@@ -121,29 +121,29 @@
         },
         {
           "id": "afr-003",
-          "asin": "B0CWNXKY9B",
-          "name": "Philips 2000 Series Air Fryer 4.2L",
+          "asin": "B0CWP7WXB6",
+          "name": "Philips 2000 Series Air Fryer 6.2L (Viewing Window)",
           "brand": "Philips",
-          "price": 108,
-          "rating": 4.5,
-          "badge": "Most Even Cooking",
+          "price": 79,
+          "rating": 4.6,
+          "badge": "Best With Viewing Window",
           "specs": {
-            "Capacity": "4.2 L",
+            "Capacity": "6.2 L",
             "Tech": "RapidAir",
-            "Functions": "7 presets",
+            "Functions": "13 cooking functions",
             "Dishwasher safe": "Yes",
-            "Power": "1500 W"
+            "Power": "1700 W"
           },
           "pros": [
-            "RapidAir = least shaking needed",
-            "Philips reliability record",
-            "Quiet operation"
+            "Viewing window — check food without opening",
+            "RapidAir hot-air system",
+            "Dishwasher-safe parts"
           ],
           "cons": [
-            "200°C ceiling",
-            "Plain looks"
+            "Large footprint (about 40 cm deep)",
+            "Single basket only"
           ],
-          "verdict": "Philips essentially created this category, and the RapidAir system here is built to circulate hot air evenly enough that food needs less mid-cook shaking than most rivals — useful if you tend to forget the basket exists until the timer beeps. Seven presets and dishwasher-safe parts keep daily use simple, and owner feedback on Amazon.ie points to Philips' long reliability record and notably quiet running. The catch is a 200°C ceiling, which rules out high-heat crisping some other machines allow, and the design is plain rather than a countertop statement piece. It suits anyone who wants a fuss-free, hands-off fryer over one with showy design or maximum temperature range."
+          "verdict": "This is the 6.2-litre version of Philips' 2000 Series, and the window in the drawer is the point: you can watch chips brown without pulling the basket out and losing heat. Philips lists 13 cooking functions, a 1,700 W element and dishwasher-safe parts, and over 690 Amazon.ie owners rate it 4.6 stars. At about €79 it is the cheapest machine on this page. The trade-offs are size, at roughly 40 cm deep it needs a proper slot on the counter, and a single basket, so it cannot cook two foods at different settings at once. It suits a couple or small family who want a bigger single drawer for little money."
         },
         {
           "id": "afr-004",
@@ -169,7 +169,7 @@
             "4 L basket: about 500 g of chips for best browning",
             "Single basket, no dual-zone cooking"
           ],
-          "verdict": "Ten food programmes, a touch screen and a 220 °C maximum give this Russell Hobbs proper digital control for about €80, below the Ninja and Philips picks above. The 4-litre basket takes up to 800 g of chips, though Russell Hobbs recommends about 500 g for the best browning, so it suits two or three people rather than a big family. Registering it within 28 days adds a third year to the two-year guarantee. It is a single basket, so you cannot cook two foods at different settings at once; for that, look at the dual-zone picks."
+          "verdict": "Ten food programmes, a touch screen and a 220 °C maximum give this Russell Hobbs proper digital control for about €80, below the two Ninja picks above. The 4-litre basket takes up to 800 g of chips, though Russell Hobbs recommends about 500 g for the best browning, so it suits two or three people rather than a big family. Registering it within 28 days adds a third year to the two-year guarantee. It is a single basket, so you cannot cook two foods at different settings at once; for that, look at the dual-zone picks."
         },
         {
           "id": "afr-029",
@@ -215,7 +215,7 @@
             "1700 W power"
           ],
           "cons": [
-            "3 of the 7 picks here are better rated by owners",
+            "4 of the 7 picks here are better rated by owners",
             "Our top pick still rates higher with owners at 4.8★"
           ],
           "verdict": "Swan's retro-styled dual basket fryer carries a 4.5-star owner rating on Amazon.ie, which puts it on par with several of the established names on this list, at a mid-range €102 price point. The dual-basket layout gives some of the same simultaneous-cooking convenience as the category leaders, wrapped in a design-forward look that plainer digital fryers don't offer. As with any newer entrant, though, it hasn't accumulated the years of owner history that Philips or Ninja have, so it's worth reading current reviews and checking the exact specs match your household before committing. Buyers who care about kitchen aesthetics alongside function are a good fit; those wanting the single safest bet should stick with a longer-proven brand."
@@ -295,7 +295,7 @@
     {
       "slug": "best-budget-air-fryers-under-100-ireland",
       "title": "Best Air Fryers Under €100 in Ireland 2026 — Cheap Picks",
-      "desc": "Five air fryers under €100 that actually cook well — compared on results, capacity and warranty for Irish budgets in 2026.",
+      "desc": "Four air fryers under €100 that actually cook well — compared on results, capacity and warranty for Irish budgets in 2026.",
       "h1": "Best Air Fryers Under €100 in Ireland",
       "intro": "Under €100 is where most first air fryers are bought — and where the gap between 'cheap and good' and 'cheap and disposable' is widest. The four below all crisp properly and carry real warranties; the differences are capacity, controls and how much shaking the basket demands. One of them embarrasses machines twice its price.",
       "faq_idx": [
@@ -357,29 +357,29 @@
         },
         {
           "id": "afr-010",
-          "asin": "B0CJ9FVK4Y",
-          "name": "Daewoo 2L Compact Manual Air Fryer",
-          "brand": "Daewoo",
-          "price": 43,
+          "asin": "B08KDQYFLT",
+          "name": "Midea Compact 2L Air Fryer",
+          "brand": "Midea",
+          "price": 49,
           "rating": 4.5,
           "badge": "Best Mini Budget",
           "specs": {
             "Capacity": "2 L",
             "Temp": "80–200°C",
-            "Timer": "30 min",
-            "Size": "Mini",
-            "Power": "900 W"
+            "Timer": "60 min",
+            "Size": "21.5 × 23 × 22 cm",
+            "Power": "1150 W"
           },
           "pros": [
             "Simple dial controls",
-            "Space-saving design",
-            "Trusted budget brand"
+            "Small footprint (about 23 cm wide)",
+            "Dishwasher-safe basket"
           ],
           "cons": [
             "Small batches only",
-            "No presets"
+            "Manual dials, no app"
           ],
-          "verdict": "The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend."
+          "verdict": "The no-fuss mini: two dials for time and temperature, a 2-litre basket and 1,150 W, for about €49. Over 1,200 owners rate it 4.5 stars."
         },
         {
           "id": "afr-028",
@@ -387,7 +387,7 @@
           "name": "Tower T17176 Vortx Vizion 8L (Digital)",
           "brand": "Tower",
           "price": 80,
-          "rating": 4.5,
+          "rating": 4.6,
           "badge": "Challenger Pick",
           "specs": {
             "Capacity": "8 L"
@@ -395,13 +395,13 @@
           "pros": [
             "€15 less than our top pick",
             "8 L capacity",
-            "Second-best owner rating on this page at 4.5★"
+            "Joint second-best owner rating on this page at 4.6★"
           ],
           "cons": [
-            "2 of the 4 picks here are better rated by owners",
+            "1 of the 4 picks here is better rated by owners",
             "Our top pick still rates higher with owners at 4.8★"
           ],
-          "verdict": "Tower's Vortx Vizion gives you an 8-litre basket for €80, nearly twice the capacity of our €95 Ninja pick at a lower price, with a viewing window and a solid 4.5-star owner score. The Ninja keeps the top spot on cooking consistency and Tower's rating sits just below it, but if raw basket size per euro is what you're after under €100, this is the better-value box."
+          "verdict": "Tower's Vortx Vizion gives you an 8-litre basket for €80, nearly twice the capacity of our €95 Ninja pick at a lower price, with a viewing window and a solid 4.6-star owner score. The Ninja keeps the top spot on cooking consistency and Tower's rating sits just below it, but if raw basket size per euro is what you're after under €100, this is the better-value box."
         }
       ],
       "guide": [
@@ -569,29 +569,29 @@
         },
         {
           "id": "afr-015",
-          "asin": "B0CWNXKY9B",
-          "name": "Philips 2000 Series Air Fryer 4.2L",
+          "asin": "B0CWP7WXB6",
+          "name": "Philips 2000 Series Air Fryer 6.2L (Viewing Window)",
           "brand": "Philips",
-          "price": 108,
-          "rating": 4.5,
-          "badge": "Premium Single Alternative",
+          "price": 79,
+          "rating": 4.6,
+          "badge": "Single Basket With Window",
           "specs": {
-            "Capacity": "4.2 L",
+            "Capacity": "6.2 L",
             "Tech": "RapidAir",
-            "Functions": "7 presets",
+            "Functions": "13 cooking functions",
             "Dishwasher safe": "Yes",
-            "Power": "1500 W"
+            "Power": "1700 W"
           },
           "pros": [
-            "RapidAir = least shaking needed",
-            "Philips reliability record",
-            "Quiet operation"
+            "Viewing window — check food without opening",
+            "RapidAir hot-air system",
+            "Dishwasher-safe parts"
           ],
           "cons": [
-            "200°C ceiling",
-            "Plain looks"
+            "Large footprint (about 40 cm deep)",
+            "Single basket only"
           ],
-          "verdict": "From the inventors of the category: the most forgiving set-and-forget air fryer here."
+          "verdict": "Not a dual-zone machine: a 6.2-litre single basket with a viewing window, for about €79, if you would rather have one big drawer than two small ones."
         },
         {
           "id": "afr-031",
@@ -897,29 +897,29 @@
       "products": [
         {
           "id": "afr-022",
-          "asin": "B0CJ9FVK4Y",
-          "name": "Daewoo 2L Compact Manual Air Fryer",
-          "brand": "Daewoo",
-          "price": 43,
+          "asin": "B08KDQYFLT",
+          "name": "Midea Compact 2L Air Fryer",
+          "brand": "Midea",
+          "price": 49,
           "rating": 4.5,
           "badge": "Best Manual Mini",
           "specs": {
             "Capacity": "2 L",
             "Temp": "80–200°C",
-            "Timer": "30 min",
-            "Size": "Mini",
-            "Power": "900 W"
+            "Timer": "60 min",
+            "Size": "21.5 × 23 × 22 cm",
+            "Power": "1150 W"
           },
           "pros": [
             "Simple dial controls",
-            "Space-saving design",
-            "Trusted budget brand"
+            "Small footprint (about 23 cm wide)",
+            "Dishwasher-safe basket"
           ],
           "cons": [
             "Small batches only",
-            "No presets"
+            "Manual dials, no app"
           ],
-          "verdict": "The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend."
+          "verdict": "About 23 cm wide and 22 cm tall, so it fits under wall cupboards: two dials, a 2-litre basket and nothing to learn. Right for one person."
         },
         {
           "id": "afr-024",
@@ -948,29 +948,29 @@
         },
         {
           "id": "afr-025",
-          "asin": "B0CWNXKY9B",
-          "name": "Philips 2000 Series Air Fryer 4.2L",
-          "brand": "Philips",
-          "price": 108,
-          "rating": 4.5,
-          "badge": "Best Premium Compact",
+          "asin": "B0BPD1PD22",
+          "name": "Russell Hobbs 4L Rapid Digital Air Fryer",
+          "brand": "Russell Hobbs",
+          "price": 80,
+          "rating": 4.6,
+          "badge": "Best Digital 4 L",
           "specs": {
-            "Capacity": "4.2 L",
-            "Tech": "RapidAir",
-            "Functions": "7 presets",
-            "Dishwasher safe": "Yes",
-            "Power": "1500 W"
+            "Capacity": "4 L",
+            "Programmes": "10",
+            "Max temp": "220 °C",
+            "Warranty": "2 yr (+1 if registered)",
+            "Power": "1350 W"
           },
           "pros": [
-            "RapidAir = least shaking needed",
-            "Philips reliability record",
-            "Quiet operation"
+            "10 food programmes incl. bake, grill and dehydrate",
+            "Up to 220 °C with a touch-screen panel",
+            "Third guarantee year when registered within 28 days"
           ],
           "cons": [
-            "200°C ceiling",
-            "Plain looks"
+            "4 L basket: about 500 g of chips for best browning",
+            "Single basket, no dual-zone cooking"
           ],
-          "verdict": "From the inventors of the category: the most forgiving set-and-forget air fryer here."
+          "verdict": "A 4-litre basket with ten programmes and a touch screen for about €80: enough for two or three people without giving up much counter space."
         },
         {
           "id": "afr-033",
@@ -993,7 +993,7 @@
           ],
           "cons": [
             "1 of the 4 picks here is better rated by owners",
-            "€73 more than our top pick"
+            "€67 more than our top pick"
           ],
           "verdict": "Salter's dual-drawer model is one of the dearer options here at €116 and rates a solid 4.5 stars. Two drawers inevitably mean a wider footprint than the single-basket compacts this page is built around, so it's the choice for someone who wants dual-zone cooking and is willing to give up counter space to get it — the opposite trade-off from our €20 Midea pick."
         }

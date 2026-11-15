@@ -98,7 +98,7 @@
           "asin": "B07F46PRST",
           "name": "Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)",
           "brand": "Rowenta",
-          "price": 164,
+          "price": 211,
           "rating": 4.4,
           "badge": "Best Oil Radiator",
           "specs": {
@@ -277,7 +277,7 @@
           "asin": "B018EQ1E5G",
           "name": "Daewoo 2000W Oil Filled Radiator",
           "brand": "Daewoo",
-          "price": 53,
+          "price": 44,
           "rating": 4.0,
           "badge": "Cheapest Room Oil",
           "specs": {
@@ -287,7 +287,7 @@
             "Settings": "3"
           },
           "pros": [
-            "2 kW oil for €53",
+            "2 kW oil for €44",
             "Portable on castors",
             "Simple and silent"
           ],
@@ -417,7 +417,7 @@
           "asin": "B07F46PRST",
           "name": "Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)",
           "brand": "Rowenta",
-          "price": 164,
+          "price": 211,
           "rating": 4.4,
           "badge": "Best Oil Radiator Overall",
           "specs": {
@@ -443,7 +443,7 @@
           "name": "Midea 2000W Oil-Filled Radiator (9-Fin)",
           "brand": "Midea",
           "price": 89,
-          "rating": 4.5,
+          "rating": 4.4,
           "badge": "Best Value 9-Fin",
           "specs": {
             "Power": "2,000 W",
@@ -492,7 +492,7 @@
           "asin": "B018EQ1E5G",
           "name": "Daewoo 2000W Oil Filled Radiator",
           "brand": "Daewoo",
-          "price": 53,
+          "price": 44,
           "rating": 4.0,
           "badge": "Best Budget 2kW",
           "specs": {
@@ -502,7 +502,7 @@
             "Settings": "3"
           },
           "pros": [
-            "2 kW oil for €53",
+            "2 kW oil for €44",
             "Portable on castors",
             "Simple and silent"
           ],
@@ -527,7 +527,7 @@
             "Timer": "1–12 h"
           },
           "pros": [
-            "€22 less than our top pick",
+            "€69 less than our top pick",
             "700–1500 W power",
             "70° oscillation"
           ],
@@ -535,7 +535,7 @@
             "Fan heater, not oil-filled",
             "Stops warming when it switches off"
           ],
-          "verdict": "Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €142 against €164, and owners rate the two the same, 4.4 stars. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about."
+          "verdict": "Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €142 against €211, and owners rate the two the same, 4.4 stars. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about."
         },
         {
           "id": "eht-034",
@@ -554,13 +554,13 @@
           "pros": [
             "Daily and weekly programming, with remote",
             "Child-safety mode lowers the surface temperature",
-            "Joint highest owner rating on this page at 4.5★"
+            "Highest owner rating on this page at 4.5★"
           ],
           "cons": [
             "Most expensive pick on this page at €244",
-            "€80 more than our top pick for the same 2,000 W"
+            "€33 more than our top pick for the same 2,000 W"
           ],
-          "verdict": "De'Longhi's TRDX40820E is a true oil-filled radiator, and at €244 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.3. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €98 less."
+          "verdict": "De'Longhi's TRDX40820E is a true oil-filled radiator, and at €244 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.4. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €33 less."
         }
       ],
       "guide": [
@@ -822,7 +822,7 @@
           "name": "Morphy Richards HeatFlux Digital Oil Radiator",
           "brand": "Morphy Richards",
           "price": 99,
-          "rating": 4.4,
+          "rating": 4.3,
           "badge": "Worth Considering",
           "specs": {
             "Power": "1500 W"
@@ -831,7 +831,7 @@
             "Oil-filled: keeps radiating after the thermostat cuts"
           ],
           "cons": [
-            "1 of the 4 picks here is better rated by owners",
+            "2 of the 4 picks here are better rated by owners",
             "€31 more than our top pick"
           ],
           "verdict": "Morphy Richards' digital oil radiator is well rated at 4.4 stars, but at around €99 it costs more than our €68 Dreo pick. The bigger problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It is also not sold as bathroom-rated. A good buy for a small bedroom; the wrong tool for a wet room."

@@ -4,7 +4,7 @@
 
 Site: https://pickireland.best/ | Market: Republic of Ireland | Language: en-IE | Currency: EUR
 Author: André Pires (Founder & Editor).
-Generated: 2026-11-13 | 12 categories | 52 guides | 218 product entries
+Generated: 2026-11-15 | 12 categories | 52 guides | 218 product entries
 
 ## Methodology
 Products are compared on manufacturer specifications, verified owner feedback and Amazon.ie ratings, running costs calculated at Irish electricity rates, and suitability for Irish conditions and law. We do not physically test products; guides are research- and specification-based, and say so. Rankings are never influenced by affiliate commission.
@@ -52,7 +52,7 @@ URL: https://pickireland.best/air-fryers/best-air-fryers-ireland.html
 Summary: Ireland's best air fryers compared on cooking quality, energy savings at Irish electricity rates, capacity and value. Compared for 2026.
 ------------------------------------------------------------------------------
 
-Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Seven machines stood out, across budgets from €80 to €149.
+Half of Irish kitchens now have an air fryer; the other half are deciding which one. We compared the bestsellers on the things that matter after the honeymoon: even cooking without constant shaking, drawers that survive the dishwasher, capacity honesty, and energy use at Irish rates. Seven machines stood out, across budgets from €79 to €149.
 
 ### 1. Ninja Dual Zone 7.6L (DZ300UK)  [Best Overall for Families]
 Brand: Ninja
@@ -81,19 +81,19 @@ Pros: Ninja crisping quality under €100; 4.7L suits couples and small families
 Cons: Single drawer; No window
 Verdict: At €95 this is the cheapest way into Ninja's crisping performance, and the 4.7-litre single drawer is sized right for couples or a small family rather than batch-cooking for a crowd. Four functions — fry, roast, reheat, dehydrate — cover most weeknight needs, and the 1,750W element plus dishwasher-safe parts keep it low-maintenance. What you don't get is a viewing window, so checking progress means pulling the drawer, and because it's single-basket, mains and sides still need separate timing rather than finishing together like the dual-zone models. Anyone who wants Ninja results without paying dual-zone prices, and doesn't mind one drawer at a time, should shortlist this one first.
 
-### 3. Philips 2000 Series Air Fryer 4.2L  [Most Even Cooking]
+### 3. Philips 2000 Series Air Fryer 6.2L (Viewing Window)  [Best With Viewing Window]
 Brand: Philips
-Price: ~€108
-Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.57/hour at €0.38/kWh
-Capacity: 4.2 L
+Price: ~€79
+Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.65/hour at €0.38/kWh
+Capacity: 6.2 L
 Tech: RapidAir
-Functions: 7 presets
+Functions: 13 cooking functions
 Dishwasher safe: Yes
-Power: 1500 W
-Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
-Cons: 200°C ceiling; Plain looks
-Verdict: Philips essentially created this category, and the RapidAir system here is built to circulate hot air evenly enough that food needs less mid-cook shaking than most rivals — useful if you tend to forget the basket exists until the timer beeps. Seven presets and dishwasher-safe parts keep daily use simple, and owner feedback on Amazon.ie points to Philips' long reliability record and notably quiet running. The catch is a 200°C ceiling, which rules out high-heat crisping some other machines allow, and the design is plain rather than a countertop statement piece. It suits anyone who wants a fuss-free, hands-off fryer over one with showy design or maximum temperature range.
+Power: 1700 W
+Pros: Viewing window — check food without opening; RapidAir hot-air system; Dishwasher-safe parts
+Cons: Large footprint (about 40 cm deep); Single basket only
+Verdict: This is the 6.2-litre version of Philips' 2000 Series, and the window in the drawer is the point: you can watch chips brown without pulling the basket out and losing heat. Philips lists 13 cooking functions, a 1,700 W element and dishwasher-safe parts, and over 690 Amazon.ie owners rate it 4.6 stars. At about €79 it is the cheapest machine on this page. The trade-offs are size, at roughly 40 cm deep it needs a proper slot on the counter, and a single basket, so it cannot cook two foods at different settings at once. It suits a couple or small family who want a bigger single drawer for little money.
 
 ### 4. Russell Hobbs 4L Rapid Digital Air Fryer  [Best Mid-Range Value]
 Brand: Russell Hobbs
@@ -107,7 +107,7 @@ Warranty: 2 yr (+1 if registered)
 Power: 1350 W
 Pros: 10 food programmes incl. bake, grill and dehydrate; Up to 220 °C with a touch-screen panel; Third guarantee year when registered within 28 days
 Cons: 4 L basket: about 500 g of chips for best browning; Single basket, no dual-zone cooking
-Verdict: Ten food programmes, a touch screen and a 220 °C maximum give this Russell Hobbs proper digital control for about €80, below the Ninja and Philips picks above. The 4-litre basket takes up to 800 g of chips, though Russell Hobbs recommends about 500 g for the best browning, so it suits two or three people rather than a big family. Registering it within 28 days adds a third year to the two-year guarantee. It is a single basket, so you cannot cook two foods at different settings at once; for that, look at the dual-zone picks.
+Verdict: Ten food programmes, a touch screen and a 220 °C maximum give this Russell Hobbs proper digital control for about €80, below the two Ninja picks above. The 4-litre basket takes up to 800 g of chips, though Russell Hobbs recommends about 500 g for the best browning, so it suits two or three people rather than a big family. Registering it within 28 days adds a third year to the two-year guarantee. It is a single basket, so you cannot cook two foods at different settings at once; for that, look at the dual-zone picks.
 
 ### 5. Daewoo 9L Dual Air Fryer (2× 4.5L Drawers)  [Notable Mention]
 Brand: Daewoo
@@ -131,7 +131,7 @@ Power: 1700 W
 Presets: 8
 Temp range: 40–200 °C
 Pros: €34 less than our top pick; 8 L (2× 4 L) capacity; 1700 W power
-Cons: 3 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
+Cons: 4 of the 7 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
 Verdict: Swan's retro-styled dual basket fryer carries a 4.5-star owner rating on Amazon.ie, which puts it on par with several of the established names on this list, at a mid-range €102 price point. The dual-basket layout gives some of the same simultaneous-cooking convenience as the category leaders, wrapped in a design-forward look that plainer digital fryers don't offer. As with any newer entrant, though, it hasn't accumulated the years of owner history that Philips or Ninja have, so it's worth reading current reviews and checking the exact specs match your household before committing. Buyers who care about kitchen aesthetics alongside function are a good fit; those wanting the single safest bet should stick with a longer-proven brand.
 
 ### 7. Cuisinart XXL 10.4L Dual Air Fryer (2×5.2L)  [Challenger Pick]
@@ -183,7 +183,7 @@ A: A shake reminder paired with an accurately proportioned basket, not a screen 
 ------------------------------------------------------------------------------
 ## GUIDE: Best Air Fryers Under €100 in Ireland
 URL: https://pickireland.best/air-fryers/best-budget-air-fryers-under-100-ireland.html
-Summary: Five air fryers under €100 that actually cook well — compared on results, capacity and warranty for Irish budgets in 2026.
+Summary: Four air fryers under €100 that actually cook well — compared on results, capacity and warranty for Irish budgets in 2026.
 ------------------------------------------------------------------------------
 
 Under €100 is where most first air fryers are bought — and where the gap between 'cheap and good' and 'cheap and disposable' is widest. The four below all crisp properly and carry real warranties; the differences are capacity, controls and how much shaking the basket demands. One of them embarrasses machines twice its price.
@@ -215,28 +215,28 @@ Pros: 10 food programmes incl. bake, grill and dehydrate; Up to 220 °C with a t
 Cons: 4 L basket: about 500 g of chips for best browning; Single basket, no dual-zone cooking
 Verdict: Ten programmes and a 220 °C touch-screen fryer for about €80, with a third guarantee year if you register it.
 
-### 3. Daewoo 2L Compact Manual Air Fryer  [Best Mini Budget]
-Brand: Daewoo
-Price: ~€43
+### 3. Midea Compact 2L Air Fryer  [Best Mini Budget]
+Brand: Midea
+Price: ~€49
 Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.34/hour at €0.38/kWh
+Running cost: €0.44/hour at €0.38/kWh
 Capacity: 2 L
 Temp: 80–200°C
-Timer: 30 min
-Size: Mini
-Power: 900 W
-Pros: Simple dial controls; Space-saving design; Trusted budget brand
-Cons: Small batches only; No presets
-Verdict: The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend.
+Timer: 60 min
+Size: 21.5 × 23 × 22 cm
+Power: 1150 W
+Pros: Simple dial controls; Small footprint (about 23 cm wide); Dishwasher-safe basket
+Cons: Small batches only; Manual dials, no app
+Verdict: The no-fuss mini: two dials for time and temperature, a 2-litre basket and 1,150 W, for about €49. Over 1,200 owners rate it 4.5 stars.
 
 ### 4. Tower T17176 Vortx Vizion 8L (Digital)  [Challenger Pick]
 Brand: Tower
 Price: ~€80
-Rating: 4.5/5 (Amazon.ie)
+Rating: 4.6/5 (Amazon.ie)
 Capacity: 8 L
-Pros: €15 less than our top pick; 8 L capacity; Second-best owner rating on this page at 4.5★
-Cons: 2 of the 4 picks here are better rated by owners; Our top pick still rates higher with owners at 4.8★
-Verdict: Tower's Vortx Vizion gives you an 8-litre basket for €80, nearly twice the capacity of our €95 Ninja pick at a lower price, with a viewing window and a solid 4.5-star owner score. The Ninja keeps the top spot on cooking consistency and Tower's rating sits just below it, but if raw basket size per euro is what you're after under €100, this is the better-value box.
+Pros: €15 less than our top pick; 8 L capacity; Joint second-best owner rating on this page at 4.6★
+Cons: 1 of the 4 picks here is better rated by owners; Our top pick still rates higher with owners at 4.8★
+Verdict: Tower's Vortx Vizion gives you an 8-litre basket for €80, nearly twice the capacity of our €95 Ninja pick at a lower price, with a viewing window and a solid 4.6-star owner score. The Ninja keeps the top spot on cooking consistency and Tower's rating sits just below it, but if raw basket size per euro is what you're after under €100, this is the better-value box.
 
 #### What do you actually lose buying an air fryer under €100?
 Under €100, wattage typically drops from the 1700–1800W common on mid-range machines to 1000–1400W, which stretches cook times by roughly a third rather than ruining results, and controls move from a digital touchscreen with presets to a mechanical dial with no shake reminder. The non-stick coating is rarely cut, since decent coating is the cheapest component and common even at €30. Manufacturers hit a sub-€100 price by trimming specific things, not everything at once. Baskets shrink in depth before they shrink in width, since a shallow basket is cheaper to manufacture and still photographs well. What genuinely separates a good sub-€100 machine from a bad one is fan placement and basket shape, not the number printed on the box.
@@ -334,19 +334,19 @@ Pros: Ninja crisping quality under €100; 4.7L suits couples and small families
 Cons: Single drawer; No window
 Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price.
 
-### 5. Philips 2000 Series Air Fryer 4.2L  [Premium Single Alternative]
+### 5. Philips 2000 Series Air Fryer 6.2L (Viewing Window)  [Single Basket With Window]
 Brand: Philips
-Price: ~€108
-Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.57/hour at €0.38/kWh
-Capacity: 4.2 L
+Price: ~€79
+Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.65/hour at €0.38/kWh
+Capacity: 6.2 L
 Tech: RapidAir
-Functions: 7 presets
+Functions: 13 cooking functions
 Dishwasher safe: Yes
-Power: 1500 W
-Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
-Cons: 200°C ceiling; Plain looks
-Verdict: From the inventors of the category: the most forgiving set-and-forget air fryer here.
+Power: 1700 W
+Pros: Viewing window — check food without opening; RapidAir hot-air system; Dishwasher-safe parts
+Cons: Large footprint (about 40 cm deep); Single basket only
+Verdict: Not a dual-zone machine: a 6.2-litre single basket with a viewing window, for about €79, if you would rather have one big drawer than two small ones.
 
 ### 6. Cuisinart XXL 10.4L Dual Drawer Air Fryer (2× 5.2L)  [Reader Favourite]
 Brand: Cuisinart
@@ -527,19 +527,19 @@ Summary: Small air fryers for apartments, small kitchens and singles in Ireland 
 
 Apartment kitchens — and Ireland builds a lot of them now — force a question the air fryer industry ignores: what fits? A machine can be brilliant and still useless if it can't live on your counter. These four deliver real air-fried results from footprints smaller than a sheet of A4 (well, nearly), ranked on cooking quality per square centimetre.
 
-### 1. Daewoo 2L Compact Manual Air Fryer  [Best Manual Mini]
-Brand: Daewoo
-Price: ~€43
+### 1. Midea Compact 2L Air Fryer  [Best Manual Mini]
+Brand: Midea
+Price: ~€49
 Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.34/hour at €0.38/kWh
+Running cost: €0.44/hour at €0.38/kWh
 Capacity: 2 L
 Temp: 80–200°C
-Timer: 30 min
-Size: Mini
-Power: 900 W
-Pros: Simple dial controls; Space-saving design; Trusted budget brand
-Cons: Small batches only; No presets
-Verdict: The no-fuss mini: dial, timer, crispy results — nothing to learn, little to spend.
+Timer: 60 min
+Size: 21.5 × 23 × 22 cm
+Power: 1150 W
+Pros: Simple dial controls; Small footprint (about 23 cm wide); Dishwasher-safe basket
+Cons: Small batches only; Manual dials, no app
+Verdict: About 23 cm wide and 22 cm tall, so it fits under wall cupboards: two dials, a 2-litre basket and nothing to learn. Right for one person.
 
 ### 2. Ninja Air Fryer PRO 4.7L (4-in-1)  [Best Compact Performer]
 Brand: Ninja
@@ -554,19 +554,19 @@ Pros: Ninja crisping quality under €100; 4.7L suits couples and small families
 Cons: Single drawer; No window
 Verdict: The best single-drawer value on Amazon.ie: full Ninja quality at a mid-range price.
 
-### 3. Philips 2000 Series Air Fryer 4.2L  [Best Premium Compact]
-Brand: Philips
-Price: ~€108
-Rating: 4.5/5 (Amazon.ie)
-Running cost: €0.57/hour at €0.38/kWh
-Capacity: 4.2 L
-Tech: RapidAir
-Functions: 7 presets
-Dishwasher safe: Yes
-Power: 1500 W
-Pros: RapidAir = least shaking needed; Philips reliability record; Quiet operation
-Cons: 200°C ceiling; Plain looks
-Verdict: From the inventors of the category: the most forgiving set-and-forget air fryer here.
+### 3. Russell Hobbs 4L Rapid Digital Air Fryer  [Best Digital 4 L]
+Brand: Russell Hobbs
+Price: ~€80
+Rating: 4.6/5 (Amazon.ie)
+Running cost: €0.51/hour at €0.38/kWh
+Capacity: 4 L
+Programmes: 10
+Max temp: 220 °C
+Warranty: 2 yr (+1 if registered)
+Power: 1350 W
+Pros: 10 food programmes incl. bake, grill and dehydrate; Up to 220 °C with a touch-screen panel; Third guarantee year when registered within 28 days
+Cons: 4 L basket: about 500 g of chips for best browning; Single basket, no dual-zone cooking
+Verdict: A 4-litre basket with ten programmes and a touch screen for about €80: enough for two or three people without giving up much counter space.
 
 ### 4. Salter EK4548 Dual Drawer Air Fryer  [Value Contender]
 Brand: Salter
@@ -578,7 +578,7 @@ Power: 2200–2600 W
 Presets: 12
 Sync: Sync & Match cook
 Pros: €116 — 4th-cheapest of the 4 picks here; 8.2 L (2 drawers) capacity; 2200–2600 W power
-Cons: 1 of the 4 picks here is better rated by owners; €73 more than our top pick
+Cons: 1 of the 4 picks here is better rated by owners; €67 more than our top pick
 Verdict: Salter's dual-drawer model is one of the dearer options here at €116 and rates a solid 4.5 stars. Two drawers inevitably mean a wider footprint than the single-basket compacts this page is built around, so it's the choice for someone who wants dual-zone cooking and is willing to give up counter space to get it — the opposite trade-off from our €20 Midea pick.
 
 #### How much counter space does a compact air fryer actually need?
@@ -949,7 +949,7 @@ Verdict: For a large bedroom or a bedsit: 24 dB in sleep mode with the display o
 ### 6. Blueair Blue Max 3450i Smart WiFi  [Notable Mention]
 Brand: Blueair
 Price: ~€364
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.01/hour at €0.38/kWh
 CADR: 510 m³/h
 Coverage: Up to 103 m²
@@ -958,7 +958,7 @@ Pre-filter: Washable fabric
 Power: 38 W
 Pros: 510 m³/h cadr; Up to 103 m² coverage
 Cons: 4 of the 6 picks here are better rated by owners; €308 more than our top pick, which owners rate higher at 4.4★
-Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.3-star owner score is the lowest of our top three here, though, and it costs more than six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €56 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
+Verdict: Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.2-star owner score is the second-lowest on this page, though, and it costs more than six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €56 LEVOIT does the bedroom job this page is about for a fraction of the outlay.
 
 #### What does a 25 dB air purifier actually sound like?
 Decibels are logarithmic, so the gap between 25 dB and 35 dB is far wider than it reads — every 10 dB is roughly a doubling of perceived loudness. A quiet Irish bedroom sits around 20-30 dB of background noise at night, so a purifier at 24 dB effectively disappears into it, while one at 38 dB is impossible to ignore at 3am. The catch is measurement. Manufacturer figures are taken in an anechoic chamber at one metre; the same unit on a hard bedside locker 40 cm from your ear, reflecting off a wall, reads higher in practice. Treat quoted sleep-mode numbers as a ranking tool between models rather than a promise. Any figure given without a distance, or as an "as low as" range with no speed named, is not really a specification.
@@ -1713,7 +1713,7 @@ Verdict: The beginner-friendly manual: flow-stop takes the guesswork out of the 
 ### 2. Chefman CraftBrew 15-Bar Espresso Machine  [Best Guided Starter]
 Brand: Chefman
 Price: ~€111
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.2/5 (Amazon.ie)
 Type: Manual espresso
 Pressure: 15 bar
 Display: Digital touchscreen
@@ -1876,7 +1876,7 @@ Verdict: Three functions in one box — dehumidifying, air purifying and ionisin
 ### 4. EasyAcc 2000ml Dehumidifier (Q22, 85 W)  [Best Budget]
 Brand: EasyAcc
 Price: ~€51
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.03/hour at €0.38/kWh
 Extraction: Up to 1 L/day (rated)
 Tank: 2 L
@@ -1956,7 +1956,7 @@ Condensation hits bedrooms hardest — we each breathe out half a litre of moist
 ### 1. MeacoDry Arete One 6L Dehumidifier & Air Purifier  [Best Bedroom Choice]
 Brand: Meaco
 Price: ~€169
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.04/hour at €0.38/kWh
 Extraction: 6 L/day
 Noise: 32 dB
@@ -1982,7 +1982,7 @@ Verdict: Brand-name mini for bedrooms and small damp corners.
 ### 3. EasyAcc 2000ml Dehumidifier (Q22, 85 W)  [Best Value Mini]
 Brand: EasyAcc
 Price: ~€51
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.03/hour at €0.38/kWh
 Extraction: Up to 1 L/day (rated)
 Tank: 2 L
@@ -2029,7 +2029,7 @@ Refill: 450 g tab
 Tab life: Up to 3 months
 Power: None (non-electric)
 Pros: Cheapest pick on this page at €15; Passive — no electricity type; Up to 20 m² coverage
-Cons: 2 of the 6 picks here are better rated by owners; Our top pick still rates higher with owners at 4.6★
+Cons: 1 of the 6 picks here is better rated by owners; Matches our top pick's 4.4★ owner rating
 Verdict: At €15 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one.
 
 #### Why do bedrooms fog up faster than any other room in an Irish house?
@@ -2120,7 +2120,7 @@ Verdict: The smart all-rounder: three appliances in one box, scheduled from your
 ### 4. EasyAcc 2000ml Dehumidifier (Q22, 85 W)  [Secondary-Room Support]
 Brand: EasyAcc
 Price: ~€51
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.03/hour at €0.38/kWh
 Extraction: Up to 1 L/day (rated)
 Tank: 2 L
@@ -2243,7 +2243,7 @@ Verdict: The smart all-rounder: three appliances in one box, scheduled from your
 ### 5. MeacoDry Arete One 6L Dehumidifier & Air Purifier  [Best Small-Space Laundry]
 Brand: Meaco
 Price: ~€169
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.04/hour at €0.38/kWh
 Extraction: 6 L/day
 Noise: 32 dB
@@ -2257,13 +2257,13 @@ Verdict: The bedroom and apartment pick: whisper-quiet condensation control from
 ### 6. Pro Breeze OmniDry 12L/Day Dehumidifier  [Solid Backup Choice]
 Brand: Pro Breeze
 Price: ~€150
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.5/5 (Amazon.ie)
 Running cost: €0.08/hour at €0.38/kWh
 Extraction: 12 L/day
 Power: 200 W
 Pros: €80 less than our top pick; 12 L/day extraction
-Cons: Extracts 8 L/day less than our top pick; Our top pick still rates higher with owners at 4.5★
-Verdict: Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, and its 4.4-star owner rating trails the bigger model's 4.5. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model.
+Cons: Extracts 8 L/day less than our top pick; Matches our top pick's 4.5★ owner rating
+Verdict: Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, though owners rate it 4.5 stars, the same as the bigger model. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model.
 
 ### 7. Meaco MeacoDry ABC 12L (Ultra-Quiet)  [Strong Alternative]
 Brand: Meaco
@@ -2366,7 +2366,7 @@ Verdict: The most litres per euro on Amazon.ie — a big-house workhorse at a sm
 ### 4. EasyAcc 2000ml Dehumidifier (Q22, 85 W)  [Budget Mould Starter]
 Brand: EasyAcc
 Price: ~€51
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.2/5 (Amazon.ie)
 Running cost: €0.03/hour at €0.38/kWh
 Extraction: Up to 1 L/day (rated)
 Tank: 2 L
@@ -2551,7 +2551,7 @@ Verdict: The traditional commuter: full-size wheels and removable battery withou
 ### 2. VARUN 27.5" Electric Mountain Bike (624Wh, App)  [Best MTB Under €1,000]
 Brand: VARUN
 Price: ~€749
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.5/5 (Amazon.ie)
 Cost per charge: €0.24 per full charge at €0.38/kWh
 Battery: 48V 624Wh
 Wheel: 27.5"
@@ -2700,7 +2700,7 @@ From Ticknock to Ballyhoura to the Wicklow gap roads, Ireland's trail scene rewa
 ### 1. VARUN 27.5" Electric Mountain Bike (624Wh, App)  [Best eMTB Value]
 Brand: VARUN
 Price: ~€749
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.5/5 (Amazon.ie)
 Cost per charge: €0.24 per full charge at €0.38/kWh
 Battery: 48V 624Wh
 Wheel: 27.5"
@@ -2725,7 +2725,7 @@ Verdict: The marathon hardtail: more amp-hours than bikes twice the price.
 ### 3. ENGWE E-Bike with APP (48V 13.5Ah, 135 km)  [Best Long-Range Tourer]
 Brand: ENGWE
 Price: ~€1399
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.5/5 (Amazon.ie)
 Cost per charge: €0.25 per full charge at €0.38/kWh
 Battery: 48V 13.5Ah — 135 km
 App: Full tuning + lock
@@ -3011,7 +3011,7 @@ Verdict: At €68, the Dreo 1500W Ceramic Space Heater earns the Best Overall ba
 
 ### 2. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator]
 Brand: Rowenta
-Price: ~€164
+Price: ~€211
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
@@ -3113,14 +3113,14 @@ Verdict: The best small heater on Amazon.ie: fast, precise and safe — the pani
 
 ### 2. Daewoo 2000W Oil Filled Radiator  [Cheapest Room Oil]
 Brand: Daewoo
-Price: ~€53
+Price: ~€44
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Thermostat: Adjustable
 Portable: Castors
 Settings: 3
-Pros: 2 kW oil for €53; Portable on castors; Simple and silent
+Pros: 2 kW oil for €44; Portable on castors; Simple and silent
 Cons: Basic thermostat; Fins run hot
 Verdict: The cheapest real oil radiator on the site — all-evening warmth, pocket-money price.
 
@@ -3198,7 +3198,7 @@ For hours-long heating of a closed room, nothing plug-in beats an oil-filled rad
 
 ### 1. Rowenta 2000W Oil Radiator (3 Settings, Eco Mode)  [Best Oil Radiator Overall]
 Brand: Rowenta
-Price: ~€164
+Price: ~€211
 Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
@@ -3212,7 +3212,7 @@ Verdict: The steady all-evening heater: quiet, Eco-mode thrifty, with full tip-o
 ### 2. Midea 2000W Oil-Filled Radiator (9-Fin)  [Best Value 9-Fin]
 Brand: Midea
 Price: ~€89
-Rating: 4.5/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Fins: 9
@@ -3237,14 +3237,14 @@ Verdict: An oil radiator with an 800 W setting, which makes it cheaper to run th
 
 ### 4. Daewoo 2000W Oil Filled Radiator  [Best Budget 2kW]
 Brand: Daewoo
-Price: ~€53
+Price: ~€44
 Rating: 4.0/5 (Amazon.ie)
 Running cost: €0.76/hour at €0.38/kWh
 Power: 2,000 W
 Thermostat: Adjustable
 Portable: Castors
 Settings: 3
-Pros: 2 kW oil for €53; Portable on castors; Simple and silent
+Pros: 2 kW oil for €44; Portable on castors; Simple and silent
 Cons: Basic thermostat; Fins run hot
 Verdict: The cheapest real oil radiator on the site — all-evening warmth, pocket-money price.
 
@@ -3257,9 +3257,9 @@ Power: 700–1500 W
 Oscillation: 70°
 Noise: From 25 dB
 Timer: 1–12 h
-Pros: €22 less than our top pick; 700–1500 W power; 70° oscillation
+Pros: €69 less than our top pick; 700–1500 W power; 70° oscillation
 Cons: Fan heater, not oil-filled; Stops warming when it switches off
-Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €142 against €164, and owners rate the two the same, 4.4 stars. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
+Verdict: Dreo's oscillating tower is a ceramic fan heater rather than an oil-filled radiator, so it belongs on this page as a contrast rather than a like-for-like rival. It's cheaper than our pick at €142 against €211, and owners rate the two the same, 4.4 stars. What it won't do is hold heat after the thermostat cuts, which is the entire reason to buy oil-filled. Right for fast warmth in a room you occupy briefly; wrong if you want the steady all-evening heat this page is about.
 
 ### 6. De'Longhi TRDX40820E Oil-Filled Radiator (2000W, Programmable)  [Worth Considering]
 Brand: De'Longhi
@@ -3270,9 +3270,9 @@ Power: 2,000 W
 Type: Oil-filled
 Timer: Daily & weekly programming
 Modes: Night, Comfort, Antifreeze, Chrono
-Pros: Daily and weekly programming, with remote; Child-safety mode lowers the surface temperature; Joint highest owner rating on this page at 4.5★
-Cons: Most expensive pick on this page at €244; €80 more than our top pick for the same 2,000 W
-Verdict: De'Longhi's TRDX40820E is a true oil-filled radiator, and at €244 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.3. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €98 less.
+Pros: Daily and weekly programming, with remote; Child-safety mode lowers the surface temperature; Highest owner rating on this page at 4.5★
+Cons: Most expensive pick on this page at €244; €33 more than our top pick for the same 2,000 W
+Verdict: De'Longhi's TRDX40820E is a true oil-filled radiator, and at €244 it is the most expensive pick on this page. The extra money buys control rather than heat: it runs at 2,000 W like the Rowenta, but adds daily and weekly programming, a remote, and night, comfort, antifreeze and Chrono modes, so it can warm the room before you get in without running all day. A child-safety setting lowers the surface temperature. Owners rate it 4.5 stars against the Rowenta's 4.4. Choose it if scheduled heating matters; for plain all-evening warmth, the Rowenta does the job for €33 less.
 
 #### Why do oil-filled radiators stay warm after the thermostat switches off?
 An oil-filled radiator heats a sealed reservoir of thermal oil rather than air or a person directly, and that oil holds heat far longer than the metal casing of a fan or ceramic heater. In practice the thermostat can switch the element off well before the room stops feeling warm, because the oil keeps radiating stored heat for a good while afterwards. The trade-off is a slower start — you feel a fan heater's output within seconds, but an oil radiator can take fifteen to twenty minutes to noticeably warm a room. For anywhere you're settling in for an evening rather than passing through, that slow, steady, even heat is usually the more comfortable and often the cheaper option over the full session, because the element spends less of the evening actually drawing power.
@@ -3428,11 +3428,11 @@ Verdict: Year-round value: heater in January, desk fan in July, €25 once.
 ### 3. Morphy Richards HeatFlux Digital Oil Radiator  [Worth Considering]
 Brand: Morphy Richards
 Price: ~€99
-Rating: 4.4/5 (Amazon.ie)
+Rating: 4.3/5 (Amazon.ie)
 Running cost: €0.57/hour at €0.38/kWh
 Power: 1500 W
 Pros: Oil-filled: keeps radiating after the thermostat cuts
-Cons: 1 of the 4 picks here is better rated by owners; €31 more than our top pick
+Cons: 2 of the 4 picks here are better rated by owners; €31 more than our top pick
 Verdict: Morphy Richards' digital oil radiator is well rated at 4.4 stars, but at around €99 it costs more than our €68 Dreo pick. The bigger problem on this page is speed: an oil radiator takes fifteen to twenty minutes to warm a room, and a bathroom needs meaningful heat before you're out of the shower. It is also not sold as bathroom-rated. A good buy for a small bedroom; the wrong tool for a wet room.
 
 ### 4. Midea 2000W PTC Ceramic Tower Heater  [Notable Mention]
@@ -3891,14 +3891,14 @@ Verdict: The SIHOO M18 has sold in enough volume to earn genuine bestseller stat
 ### 2. Ergonomic High-Back Chair with Adjustable Lumbar  [Best Lumbar Adjustment]
 Brand: Generic
 Price: ~€123
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.5/5 (Amazon.ie)
 Back: High mesh
 Lumbar: Adjustable
 Recline: Lockable
 Arms: Flip-up
 Pros: Dedicated lumbar adjustment; Lockable recline; Flip-up arms tuck under desk
 Cons: Unbranded support; Plain styling
-Verdict: At €123, this generic-brand High-Back Chair outscores the SIHOO M18's 4.3★ with a 4.6★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box.
+Verdict: At €123, this generic-brand High-Back Chair outscores the SIHOO M18's 4.3★ with a 4.5★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box.
 
 ### 3. Mesh Desk Chair with Flip-Up Armrests & Headrest  [Best Compact]
 Brand: Generic
@@ -3994,7 +3994,7 @@ Verdict: The SIHOO M18 is the chair to beat under €200: at around €170 it co
 ### 2. Ergonomic High-Back Chair with Adjustable Lumbar  [Best Features Under €130]
 Brand: Generic
 Price: ~€123
-Rating: 4.6/5 (Amazon.ie)
+Rating: 4.5/5 (Amazon.ie)
 Back: High mesh
 Lumbar: Adjustable
 Recline: Lockable
@@ -4069,7 +4069,7 @@ The sit-stand desk won the ergonomic argument by making movement effortless — 
 ### 1. ErGear Electric Standing Desk 120×60 cm  [Best Value Electric]
 Brand: ErGear
 Price: ~€117
-Rating: 4.5/5 (Amazon.ie)
+Rating: 4.6/5 (Amazon.ie)
 Drive: Electric motor
 Size: 120×60 cm
 Memory: Presets
@@ -4104,7 +4104,7 @@ Verdict: The box-room sit-stand: full electric function squeezed into 90 cm.
 ### 4. Claiks Electric Standing Desk 120×60 cm  [Cheapest Electric]
 Brand: Claiks
 Price: ~€100
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Drive: Electric
 Size: 120×60 cm
 Memory: 3 presets
@@ -4171,7 +4171,7 @@ Verdict: The box-room sit-stand: full electric function squeezed into 90 cm.
 ### 2. Claiks Electric Standing Desk 120×60 cm  [Cheapest electric — 120 cm wide]
 Brand: Claiks
 Price: ~€100
-Rating: 4.3/5 (Amazon.ie)
+Rating: 4.4/5 (Amazon.ie)
 Drive: Electric
 Size: 120×60 cm
 Memory: 3 presets
@@ -4386,7 +4386,7 @@ Verdict: The eufy E15 takes the top badge by solving robot mowing's biggest hass
 ### 2. Bosch VISIMOW 18V-100 Robot Mower  [Best Small-Garden Value]
 Brand: Bosch
 Price: ~€359
-Rating: 4.1/5 (Amazon.ie)
+Rating: 4.0/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4396,13 +4396,13 @@ Verdict: The Bosch VISIMOW brings a trusted power-tool name into wire-free robot
 
 ### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Best Mid-Size Wire-Free]
 Brand: Mammotion
-Price: ~€599
+Price: ~€799
 Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
 App: Full-featured
-Pros: 500 m² wire-free at €599; Neat app zone control; Strong spec sheet
+Pros: 500 m² wire-free, no boundary wire; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: Mammotion's YUKA mini 2 500 sits between the small-garden Bosch and the premium eufy above, covering up to 500 m² without any boundary wire for about €599 — a specification sheet that reads as strong value for the coverage on offer. The app's zone control lets you map out sections of the garden individually, which owners note is a genuinely useful touch. Mammotion is a newer name than Bosch or eufy, though, and early reviews are more mixed than the top two picks, meaning there's a bit more uncertainty around long-term support and reliability. Worth considering if 500 m² matches your garden size and you're comfortable buying into a less established brand for the price advantage.
 
@@ -4458,7 +4458,7 @@ The typical Irish estate back garden — 80 to 250 m², a strip of side passage,
 ### 1. Bosch VISIMOW 18V-100 Robot Mower  [Best Small Garden Overall]
 Brand: Bosch
 Price: ~€359
-Rating: 4.1/5 (Amazon.ie)
+Rating: 4.0/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4479,13 +4479,13 @@ Verdict: The standard Irish back garden, solved: 200 m² of Bosch-managed grass.
 
 ### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Room to grow — 500 m²]
 Brand: Mammotion
-Price: ~€599
+Price: ~€799
 Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
 App: Full-featured
-Pros: 500 m² wire-free at €599; Neat app zone control; Strong spec sheet
+Pros: 500 m² wire-free, no boundary wire; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: The mid-size wire-free value play — most coverage per euro in its class.
 
@@ -4553,13 +4553,13 @@ Verdict: The best-rated machine on this page at 4.7 stars, and for a large but r
 
 ### 2. Mammotion YUKA mini 2 500 (No Boundary)  [Smaller sites — 500 m²]
 Brand: Mammotion
-Price: ~€599
+Price: ~€799
 Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
 App: Full-featured
-Pros: 500 m² wire-free at €599; Neat app zone control; Strong spec sheet
+Pros: 500 m² wire-free, no boundary wire; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: The mid-size wire-free value play — most coverage per euro in its class.
 
@@ -4640,7 +4640,7 @@ Verdict: The wire-free mower done right: top ratings, simple setup, Anker reliab
 ### 2. Bosch VISIMOW 18V-100 Robot Mower  [Best Wire-Free Value]
 Brand: Bosch
 Price: ~€359
-Rating: 4.1/5 (Amazon.ie)
+Rating: 4.0/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4650,13 +4650,13 @@ Verdict: The small-garden no-brainer: Bosch engineering, wire-free, €359.
 
 ### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Best Mid-Size]
 Brand: Mammotion
-Price: ~€599
+Price: ~€799
 Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
 App: Full-featured
-Pros: 500 m² wire-free at €599; Neat app zone control; Strong spec sheet
+Pros: 500 m² wire-free, no boundary wire; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
 Verdict: The mid-size wire-free value play — most coverage per euro in its class.
 
@@ -4703,7 +4703,7 @@ Summary: Robot lawn mowers under €700 for Irish gardens — real cutting perfo
 ### 1. Bosch VISIMOW 18V-100 Robot Mower  [Best Budget Overall]
 Brand: Bosch
 Price: ~€359
-Rating: 4.1/5 (Amazon.ie)
+Rating: 4.0/5 (Amazon.ie)
 Coverage: Up to 100 m²
 Navigation: Vision, no wire
 Battery: 18V Power4All
@@ -4722,17 +4722,17 @@ Pros: Typical Irish estate garden size; Wire-free vision navigation; Bosch deale
 Cons: 200 m² ceiling; Single zone focus
 Verdict: The standard Irish back garden, solved: 200 m² of Bosch-managed grass.
 
-### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Best Wire-Free Coverage]
+### 3. Mammotion YUKA mini 2 500 (No Boundary)  [Above budget — wire-free 500 m²]
 Brand: Mammotion
-Price: ~€599
+Price: ~€799
 Rating: 3.9/5 (Amazon.ie)
 Coverage: 500 m²
 Navigation: Vision + RTK
 Boundary: None needed
 App: Full-featured
-Pros: 500 m² wire-free at €599; Neat app zone control; Strong spec sheet
+Pros: 500 m² wire-free, no boundary wire; Neat app zone control; Strong spec sheet
 Cons: Newer brand support; Mixed early reviews
-Verdict: At about €599 this now sits under the €700 line this page draws, and it buys more coverage than the Bosch pair: up to 500 m² against their 100–200 m², with vision-plus-RTK navigation and no boundary wire. Owners rate it 3.9 stars, between the two Bosch models, and Mammotion is a newer brand than Bosch. If your garden is genuinely under 200 m², the Bosch picks above do the job for less.
+Verdict: At about €799 this is back above the €700 line this page draws; it stays here as the step up if you need more coverage than the Bosch pair: up to 500 m² against their 100–200 m², with vision-plus-RTK navigation and no boundary wire. Owners rate it 3.9 stars, between the two Bosch models, and Mammotion is a newer brand than Bosch. If your garden is genuinely under 200 m², the Bosch picks above do the job for less.
 
 ### 4. eufy E15 Robot Lawnmower (No Wire, No RTK)  [Above budget — premium reference]
 Brand: eufy
@@ -4924,14 +4924,14 @@ Verdict: Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml wa
 
 ### 3. Xiaomi Robot Vacuum S40  [Best Rated Under €200]
 Brand: Xiaomi
-Price: ~€211
+Price: ~€243
 Rating: 4.6/5 (Amazon.ie)
 Battery: Up to 100 min
 Cleaning width: 32.5 cm
 In the box: Dock, mop pad, water tank
-Pros: Highest owner rating here (4.7★, 500+ ratings); Cheapest pick here; Vacuums and mops
+Pros: Highest owner rating here (4.6★, 500+ ratings); Cheapest pick here; Vacuums and mops
 Cons: Listing publishes almost no specs; Third-party seller, low stock
-Verdict: The best-rated robot here, 4.6 stars from over 500 owners, at about €211. The Amazon listing publishes almost nothing beyond a 100-minute battery and a dock, mop pad and water tank in the box, and it comes from a third-party seller with low stock, so check the listing before you buy.
+Verdict: The best-rated robot here, 4.6 stars from over 500 owners, at about €243. The Amazon listing publishes almost nothing beyond a 100-minute battery and a dock, mop pad and water tank in the box, and it comes from a third-party seller with low stock, so check the listing before you buy.
 
 #### What kind of navigation do you actually get under €300 now?
 A few years ago, sub-€300 meant random-bounce navigation with no memory between cleans; that's no longer true across the board. Several budget-tier robots now ship with genuine lidar or basic vision mapping, giving room-by-room cleaning, resumable cleans after charging, and app-drawn no-go zones — features that were mid-range exclusives not long ago. What you still don't get at this price is the mapping precision or multi-floor memory of pricier models: budget lidar units typically hold one or two saved maps rather than several, and re-mapping after furniture moves takes longer. For a typical Irish terraced house or apartment with a fairly stable layout, that's rarely a practical problem. It becomes one if you rearrange furniture often or want separate saved maps for upstairs and downstairs — check the spec sheet's map-storage number specifically, not just whether it says smart navigation.

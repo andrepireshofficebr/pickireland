@@ -152,7 +152,7 @@
           "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
           "price": 51,
-          "rating": 4.3,
+          "rating": 4.2,
           "badge": "Best Budget",
           "specs": {
             "Extraction": "Up to 1 L/day (rated)",
@@ -287,7 +287,7 @@
           "name": "MeacoDry Arete One 6L Dehumidifier & Air Purifier",
           "brand": "Meaco",
           "price": 169,
-          "rating": 4.6,
+          "rating": 4.4,
           "badge": "Best Bedroom Choice",
           "specs": {
             "Extraction": "6 L/day",
@@ -338,7 +338,7 @@
           "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
           "price": 51,
-          "rating": 4.3,
+          "rating": 4.2,
           "badge": "Best Value Mini",
           "specs": {
             "Extraction": "Up to 1 L/day (rated)",
@@ -430,8 +430,8 @@
             "Up to 20 m² coverage"
           ],
           "cons": [
-            "2 of the 6 picks here are better rated by owners",
-            "Our top pick still rates higher with owners at 4.6★"
+            "1 of the 6 picks here is better rated by owners",
+            "Matches our top pick's 4.4★ owner rating"
           ],
           "verdict": "At €15 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one."
         }
@@ -581,7 +581,7 @@
           "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
           "price": 51,
-          "rating": 4.3,
+          "rating": 4.2,
           "badge": "Secondary-Room Support",
           "specs": {
             "Extraction": "Up to 1 L/day (rated)",
@@ -797,7 +797,7 @@
           "name": "MeacoDry Arete One 6L Dehumidifier & Air Purifier",
           "brand": "Meaco",
           "price": 169,
-          "rating": 4.6,
+          "rating": 4.4,
           "badge": "Best Small-Space Laundry",
           "specs": {
             "Extraction": "6 L/day",
@@ -823,7 +823,7 @@
           "name": "Pro Breeze OmniDry 12L/Day Dehumidifier",
           "brand": "Pro Breeze",
           "price": 150,
-          "rating": 4.4,
+          "rating": 4.5,
           "badge": "Solid Backup Choice",
           "specs": {
             "Extraction": "12 L/day",
@@ -835,9 +835,9 @@
           ],
           "cons": [
             "Extracts 8 L/day less than our top pick",
-            "Our top pick still rates higher with owners at 4.5★"
+            "Matches our top pick's 4.5★ owner rating"
           ],
-          "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, and its 4.4-star owner rating trails the bigger model's 4.5. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
+          "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, though owners rate it 4.5 stars, the same as the bigger model. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
         },
         {
           "id": "deh-034",
@@ -1009,7 +1009,7 @@
           "name": "EasyAcc 2000ml Dehumidifier (Q22, 85 W)",
           "brand": "EasyAcc",
           "price": 51,
-          "rating": 4.3,
+          "rating": 4.2,
           "badge": "Budget Mould Starter",
           "specs": {
             "Extraction": "Up to 1 L/day (rated)",

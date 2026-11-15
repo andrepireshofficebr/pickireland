@@ -142,7 +142,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.1,
+     "rating": 4.0,
      "badge": "Best Small-Garden Value",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -165,7 +165,7 @@
      "asin": "B0GD79S7G4",
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
-     "price": 599,
+     "price": 799,
      "rating": 3.9,
      "badge": "Best Mid-Size Wire-Free",
      "specs": {
@@ -175,7 +175,7 @@
       "App": "Full-featured"
      },
      "pros": [
-      "500 m² wire-free at €599",
+      "500 m² wire-free, no boundary wire",
       "Neat app zone control",
       "Strong spec sheet"
      ],
@@ -270,7 +270,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.1,
+     "rating": 4.0,
      "badge": "Best Small Garden Overall",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -317,7 +317,7 @@
      "asin": "B0GD79S7G4",
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
-     "price": 599,
+     "price": 799,
      "rating": 3.9,
      "badge": "Room to grow — 500 m²",
      "specs": {
@@ -327,7 +327,7 @@
       "App": "Full-featured"
      },
      "pros": [
-      "500 m² wire-free at €599",
+      "500 m² wire-free, no boundary wire",
       "Neat app zone control",
       "Strong spec sheet"
      ],
@@ -448,7 +448,7 @@
      "asin": "B0GD79S7G4",
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
-     "price": 599,
+     "price": 799,
      "rating": 3.9,
      "badge": "Smaller sites — 500 m²",
      "specs": {
@@ -458,7 +458,7 @@
       "App": "Full-featured"
      },
      "pros": [
-      "500 m² wire-free at €599",
+      "500 m² wire-free, no boundary wire",
       "Neat app zone control",
       "Strong spec sheet"
      ],
@@ -605,7 +605,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.1,
+     "rating": 4.0,
      "badge": "Best Wire-Free Value",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -628,7 +628,7 @@
      "asin": "B0GD79S7G4",
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
-     "price": 599,
+     "price": 799,
      "rating": 3.9,
      "badge": "Best Mid-Size",
      "specs": {
@@ -638,7 +638,7 @@
       "App": "Full-featured"
      },
      "pros": [
-      "500 m² wire-free at €599",
+      "500 m² wire-free, no boundary wire",
       "Neat app zone control",
       "Strong spec sheet"
      ],
@@ -717,7 +717,7 @@
      "name": "Bosch VISIMOW 18V-100 Robot Mower",
      "brand": "Bosch",
      "price": 359,
-     "rating": 4.1,
+     "rating": 4.0,
      "badge": "Best Budget Overall",
      "specs": {
       "Coverage": "Up to 100 m²",
@@ -764,9 +764,9 @@
      "asin": "B0GD79S7G4",
      "name": "Mammotion YUKA mini 2 500 (No Boundary)",
      "brand": "Mammotion",
-     "price": 599,
+     "price": 799,
      "rating": 3.9,
-     "badge": "Best Wire-Free Coverage",
+     "badge": "Above budget — wire-free 500 m²",
      "specs": {
       "Coverage": "500 m²",
       "Navigation": "Vision + RTK",
@@ -774,7 +774,7 @@
       "App": "Full-featured"
      },
      "pros": [
-      "500 m² wire-free at €599",
+      "500 m² wire-free, no boundary wire",
       "Neat app zone control",
       "Strong spec sheet"
      ],
@@ -782,7 +782,7 @@
       "Newer brand support",
       "Mixed early reviews"
      ],
-     "verdict": "At about €599 this now sits under the €700 line this page draws, and it buys more coverage than the Bosch pair: up to 500 m² against their 100–200 m², with vision-plus-RTK navigation and no boundary wire. Owners rate it 3.9 stars, between the two Bosch models, and Mammotion is a newer brand than Bosch. If your garden is genuinely under 200 m², the Bosch picks above do the job for less."
+     "verdict": "At about €799 this is back above the €700 line this page draws; it stays here as the step up if you need more coverage than the Bosch pair: up to 500 m² against their 100–200 m², with vision-plus-RTK navigation and no boundary wire. Owners rate it 3.9 stars, between the two Bosch models, and Mammotion is a newer brand than Bosch. If your garden is genuinely under 200 m², the Bosch picks above do the job for less."
     },
     {
      "id": "rlm-025",

@@ -147,7 +147,7 @@
      "name": "Ergonomic High-Back Chair with Adjustable Lumbar",
      "brand": "Generic",
      "price": 123,
-     "rating": 4.6,
+     "rating": 4.5,
      "badge": "Best Lumbar Adjustment",
      "specs": {
       "Back": "High mesh",
@@ -164,7 +164,7 @@
       "Unbranded support",
       "Plain styling"
      ],
-     "verdict": "At €123, this generic-brand High-Back Chair outscores the SIHOO M18's 4.3★ with a 4.6★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box."
+     "verdict": "At €123, this generic-brand High-Back Chair outscores the SIHOO M18's 4.3★ with a 4.5★ rating while focusing squarely on the essentials: dedicated lumbar adjustment, a lockable recline for changing between working and leaning back, and flip-up arms that let it tuck fully under a desk when not in use. It delivers those core ergonomic features without the branding markup that comes with a recognised name. What you give up is the safety net of established brand support and a chair that looks more functional than stylish, so it won't be the centrepiece of a home office someone wants to show off. A smart pick for buyers who care about lumbar support and desk space more than the badge on the box."
     },
     {
      "id": "ofc-004",
@@ -333,7 +333,7 @@
      "name": "Ergonomic High-Back Chair with Adjustable Lumbar",
      "brand": "Generic",
      "price": 123,
-     "rating": 4.6,
+     "rating": 4.5,
      "badge": "Best Features Under €130",
      "specs": {
       "Back": "High mesh",
@@ -463,7 +463,7 @@
      "name": "ErGear Electric Standing Desk 120×60 cm",
      "brand": "ErGear",
      "price": 117,
-     "rating": 4.5,
+     "rating": 4.6,
      "badge": "Best Value Electric",
      "specs": {
       "Drive": "Electric motor",
@@ -537,7 +537,7 @@
      "name": "Claiks Electric Standing Desk 120×60 cm",
      "brand": "Claiks",
      "price": 100,
-     "rating": 4.3,
+     "rating": 4.4,
      "badge": "Cheapest Electric",
      "specs": {
       "Drive": "Electric",
@@ -649,7 +649,7 @@
      "name": "Claiks Electric Standing Desk 120×60 cm",
      "brand": "Claiks",
      "price": 100,
-     "rating": 4.3,
+     "rating": 4.4,
      "badge": "Cheapest electric — 120 cm wide",
      "specs": {
       "Drive": "Electric",

@@ -10,28 +10,28 @@
   "published": "2026-08-15"
  },
  "air-fryers/air-fryer-running-costs-ireland": {
-  "hash": "e4a4287630007920",
-  "modified": "2026-11-13",
+  "hash": "a88f688465a8ff3f",
+  "modified": "2026-11-15",
   "published": "2026-09-01"
  },
  "air-fryers/best-air-fryers-ireland": {
-  "hash": "1023811e7d3b6411",
-  "modified": "2026-11-13",
+  "hash": "b9b1945bc95cc84f",
+  "modified": "2026-11-15",
   "published": "2026-07-28"
  },
  "air-fryers/best-budget-air-fryers-under-100-ireland": {
-  "hash": "44408dc493427f23",
-  "modified": "2026-11-11",
+  "hash": "7d14fa9b03c92abc",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "air-fryers/best-compact-air-fryers-small-kitchens-ireland": {
-  "hash": "b57af1f485025c32",
-  "modified": "2026-11-11",
+  "hash": "90975094d9ea2501",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "air-fryers/best-dual-zone-air-fryers-ireland": {
-  "hash": "f1262d3f4c04d538",
-  "modified": "2026-11-08",
+  "hash": "7ec63ddc54f7d15c",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "air-fryers/best-large-air-fryers-families-ireland": {
@@ -40,13 +40,13 @@
   "published": "2026-07-31"
  },
  "air-fryers/black-friday-air-fryers-ireland-2026": {
-  "hash": "16cec8776d1f69ad",
-  "modified": "2026-11-11",
+  "hash": "e57e14ba2a187f99",
+  "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "air-fryers/index": {
-  "hash": "1b25296614ad5ad6",
-  "modified": "2026-10-24",
+  "hash": "80350a0ed4c164f6",
+  "modified": "2026-11-15",
   "published": "2026-06-01"
  },
  "air-purifiers/air-purifier-running-costs-ireland": {
@@ -75,8 +75,8 @@
   "published": "2026-07-31"
  },
  "air-purifiers/best-quiet-air-purifiers-bedroom-ireland": {
-  "hash": "ce977c0f30e664cf",
-  "modified": "2026-11-13",
+  "hash": "e1cbcacaa9e33235",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "air-purifiers/black-friday-air-purifiers-ireland-2026": {
@@ -90,23 +90,23 @@
   "published": "2026-08-15"
  },
  "black-friday-ireland-2026": {
-  "hash": "47df47d968d9d3b3",
-  "modified": "2026-11-13",
+  "hash": "0c068b2f248e8383",
+  "modified": "2026-11-15",
   "published": "2026-10-17"
  },
  "christmas-gifts-under-100-ireland-2026": {
-  "hash": "e491b804ecd43eaa",
-  "modified": "2026-11-13",
+  "hash": "7c7ee498e1549f08",
+  "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "christmas-gifts-under-300-ireland-2026": {
-  "hash": "80a8e8ca82b2e0ec",
-  "modified": "2026-11-13",
+  "hash": "97924d5f30fd4120",
+  "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "christmas-gifts-under-50-ireland-2026": {
-  "hash": "de4f354eb22988a3",
-  "modified": "2026-11-08",
+  "hash": "cd563c15cff9cceb",
+  "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "coffee-machines/best-bean-to-cup-coffee-machines-ireland": {
@@ -155,8 +155,8 @@
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-drying-clothes-ireland": {
-  "hash": "82dd2c9c9f941e64",
-  "modified": "2026-11-08",
+  "hash": "041b0888e5b4d68c",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "dehumidifiers/best-dehumidifiers-ireland": {
@@ -170,13 +170,13 @@
   "published": "2026-07-31"
  },
  "dehumidifiers/best-small-dehumidifiers-bedroom-ireland": {
-  "hash": "b58a8381558dc070",
-  "modified": "2026-11-11",
+  "hash": "e45dbc2db5a78840",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "dehumidifiers/black-friday-dehumidifiers-ireland-2026": {
-  "hash": "494493025ac9cfee",
-  "modified": "2026-11-08",
+  "hash": "0e15a043a2725835",
+  "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "dehumidifiers/dehumidifier-running-costs-ireland": {
@@ -240,18 +240,18 @@
   "published": "2026-09-28"
  },
  "electric-heaters/best-bathroom-small-room-heaters-ireland": {
-  "hash": "3dc96d83e2838ab2",
-  "modified": "2026-11-13",
+  "hash": "59c635c842f14a09",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "electric-heaters/best-electric-heaters-ireland": {
-  "hash": "bbf25d5eddf9c638",
-  "modified": "2026-11-13",
+  "hash": "fce4e5bc51f55d1c",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "electric-heaters/best-oil-filled-radiators-ireland": {
-  "hash": "991dd0d57f1d4330",
-  "modified": "2026-11-13",
+  "hash": "1e9b6365cc978977",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "electric-heaters/best-panel-heaters-ireland": {
@@ -260,13 +260,13 @@
   "published": "2026-07-31"
  },
  "electric-heaters/black-friday-electric-heaters-ireland-2026": {
-  "hash": "799233f59540be94",
-  "modified": "2026-11-13",
+  "hash": "3db8f16361c756cd",
+  "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "electric-heaters/cheapest-electric-heaters-to-run-ireland": {
-  "hash": "982d968d0d79688e",
-  "modified": "2026-11-13",
+  "hash": "ba72d3ee85981862",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "electric-heaters/cheapest-way-to-heat-a-bedroom-ireland": {
@@ -290,13 +290,13 @@
   "published": "2026-08-15"
  },
  "electric-heaters/oil-filled-radiator-vs-panel-heater-vs-fan-heater-ireland": {
-  "hash": "530865620bf66f76",
-  "modified": "2026-11-11",
+  "hash": "86b549ea9bc97b21",
+  "modified": "2026-11-15",
   "published": "2026-11-04"
  },
  "electric-heaters/safest-electric-heaters-children-pets-ireland": {
-  "hash": "3ec82044ff13f9ee",
-  "modified": "2026-11-13",
+  "hash": "9e3adf3f41979e06",
+  "modified": "2026-11-15",
   "published": "2026-11-06"
  },
  "electric-scooters/best-budget-electric-scooters-under-500-ireland": {
@@ -355,8 +355,8 @@
   "published": "2026-07-31"
  },
  "home-office/best-ergonomic-office-chairs-ireland": {
-  "hash": "002cfd43ff8e3cca",
-  "modified": "2026-11-13",
+  "hash": "a4a7ef337c5e0d9e",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "home-office/best-standing-desk-converters-accessories-ireland": {
@@ -385,28 +385,28 @@
   "published": "2026-08-15"
  },
  "robot-lawn-mowers/best-budget-robot-mowers-ireland": {
-  "hash": "434585854fd95716",
-  "modified": "2026-11-11",
+  "hash": "28974bd02dd68d7c",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-robot-lawn-mowers-ireland": {
-  "hash": "81b982746dafa2bb",
-  "modified": "2026-11-11",
+  "hash": "befbd00694e07a29",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-robot-mowers-large-lawns-ireland": {
-  "hash": "87fdb22d59f78a1e",
-  "modified": "2026-11-11",
+  "hash": "7992b2f85f4f4b34",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-robot-mowers-small-gardens-ireland": {
-  "hash": "f521a3d1e969ce81",
-  "modified": "2026-11-11",
+  "hash": "06dc31c9a494a064",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/best-wire-free-robot-mowers-ireland": {
-  "hash": "11473517b7f3b227",
-  "modified": "2026-11-11",
+  "hash": "cbe025cc555b0331",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/index": {
@@ -415,8 +415,8 @@
   "published": "2026-08-15"
  },
  "robot-vacuums/best-budget-robot-vacuums-under-300-ireland": {
-  "hash": "89044486c7edbab6",
-  "modified": "2026-11-13",
+  "hash": "b426de38c5cc2860",
+  "modified": "2026-11-15",
   "published": "2026-07-31"
  },
  "robot-vacuums/best-premium-self-empty-robot-vacuums-ireland": {
@@ -450,8 +450,8 @@
   "published": "2026-08-15"
  },
  "running-cost-calculator-ireland": {
-  "hash": "d1eb1df1edcc3bcc",
-  "modified": "2026-11-13",
+  "hash": "6328bcdd508b527b",
+  "modified": "2026-11-15",
   "published": "2026-09-28"
  }
 }
