@@ -2044,6 +2044,32 @@ BF_WINDOW = BF_START <= datetime.date.today() <= BF_END
 def bf_cat_slug(ck):
     return f"black-friday-{ck}-ireland-2026"
 
+# ---------------------------------------------------------------- FAQ de preco no hub (17/11/2026)
+# GSC: "how much does air purifier cost" (pos. ~8, hub de purificadores) caia num FAQ que so falava de
+# custo de USO. Esta pergunta e respondida com a faixa de preco CALCULADA dos produtos dos guias (preco
+# exibido no site, sem estoque fora), entao acompanha cada troca/atualizacao sem numero escrito a mao.
+def _hub_price_faq(ck, q, tail):
+    c = CATS_BY_SLUG.get(ck)
+    if not c:
+        return
+    seen = {}
+    for _pg in c["pages"]:
+        for _p in _pg["products"]:
+            if stock_state(_p) or _p["asin"] in seen:
+                continue
+            seen[_p["asin"]] = (product_price(_p), _p["name"])
+    if len(seen) < 3:
+        return
+    vals = sorted(seen.values())
+    lo, hi = vals[0], vals[-1]
+    n150 = sum(1 for v in vals if v[0] < 150)
+    c["faqs"].append({"q": q, "a": (f"Across the {len(vals)} purifiers in our guides, prices on Amazon.ie ran from about "
+                                     f"\u20ac{lo[0]} ({lo[1]}) to about \u20ac{hi[0]} ({hi[1]}) when we last checked, and "
+                                     f"{n150} of them cost under \u20ac150. " + tail)})
+_hub_price_faq("air-purifiers", "How much does an air purifier cost in Ireland?",
+               "Compact bedroom units sit at the bottom of that range and models for large or open-plan rooms at the top. "
+               "Replacement filters are a yearly cost on top of the machine, so check the filter price before you buy.")
+
 STOCK_MOVED = []   # (pagina, produto) que desceram por estoque nesta execucao
 if STOCK_ON:
     for _c in CATS:
@@ -3858,7 +3884,7 @@ GIFT_PAGES = [
         ("apr-010", "A quiet H13 HEPA purifier for a bedroom, useful for anyone with dust or pet allergies."),
         ("deh-007", "A compact dehumidifier for a damp bedroom or wardrobe, the kind of gift that solves a problem people put up with for years."),
         ("ofc-019", "A monitor arm that frees up desk space and lifts the screen to eye level. Cheap and noticed every working day."),
-        ("deh-026", "A moisture absorber that needs no electricity: a useful stocking filler for anyone with a condensation-prone room."),
+        ("cfm-015", "A 1.5-litre digital filter coffee machine for a house that drinks coffee by the pot rather than by the pod, with no capsules to keep buying."),
      ]},
     {"slug": "christmas-gifts-under-100-ireland-2026", "cap": 100,
      "title": "Christmas Gifts Under €100 Ireland 2026",
@@ -3869,7 +3895,7 @@ GIFT_PAGES = [
         ("afr-002", "Ninja's 4.7-litre single-drawer air fryer is one of the best-rated in our guides and a gift that gets used several times a week."),
         ("cfm-003", "Nespresso's Vertuo Pop makes a mug or an espresso from a barcoded pod with one button. Easy for anyone, and it looks good on a counter."),
         ("cfm-033", "A Dolce Gusto pod machine that also does hot chocolate, tea and iced drinks, so it suits households where not everyone drinks coffee."),
-        ("cfm-016", "The Inissia is Nespresso's compact original-pod machine: small, quick to heat and very simple."),
+        ("afr-004", "COSORI's 4.7-litre air fryer has nine one-touch functions and a 4.7-star rating from more than 34,000 owners, enough for a couple or a small family."),
         ("ebl-006", "A fully fitted double electric blanket with a control for each side, so two people can choose their own heat."),
         ("eht-001", "The best-rated heater in our guides: a 1,500 W ceramic heater with a digital thermostat for a bedroom or home office."),
         ("apr-003", "Levoit's compact HEPA purifier is quiet enough for a bedroom and draws little power, a thoughtful gift for an allergy sufferer."),
@@ -3882,7 +3908,7 @@ GIFT_PAGES = [
      "desc": "Bigger Christmas gifts under €300 from Amazon.ie: robot vacuums, coffee, air purifiers, dehumidifiers and home-office upgrades.",
      "intro": "For a bigger family present or a shared gift, these are the picks from our buying guides that do the most for an Irish home. All were in stock on Amazon.ie when we last checked and cost under €300.",
      "items": [
-        ("rvc-033", "Xiaomi's S40 is the best-rated robot vacuum in our guides, a gift that gives back time every week."),
+        ("rvc-006", "eufy's L60 maps the house with a laser and has an anti-tangle brush for long hair and pet hair, a gift that gives back time every week."),
         ("rvc-003", "A step up in the Xiaomi range with laser navigation, for a bigger home or one with more rooms to map."),
         ("afr-001", "Ninja's dual-zone air fryer cooks two things at once and finishes them together, with thousands of owner reviews behind it."),
         ("cfm-002", "A pump espresso machine with a steam nozzle, for someone who wants to make café-style coffee themselves."),

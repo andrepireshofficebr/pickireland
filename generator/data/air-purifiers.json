@@ -61,7 +61,7 @@
       "title": "Best Air Purifiers in Ireland 2026 — HEPA Picks Compared",
       "desc": "Ireland's best air purifiers for mould spores, pollen and dust — true HEPA, CADR and filter costs compared. Compared for 2026.",
       "h1": "The Best Air Purifiers in Ireland (2026)",
-      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked six winners across budgets from €23 to €191.",
+      "intro": "Between damp-loving mould spores, lengthening pollen seasons and winter smoke, Irish indoor air earns more attention than it gets. We compared true-HEPA purifiers on the numbers that matter — CADR per room size, five-year filter costs, and night-time noise — then picked five winners across budgets from €56 to €138.",
       "faq_idx": [
         0,
         2,
@@ -121,7 +121,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 120,
+          "price": 92,
           "rating": 4.5,
           "badge": "Best Overall",
           "specs": {
@@ -147,8 +147,8 @@
           "asin": "B0FDWK7YL2",
           "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 191,
-          "rating": 4.5,
+          "price": 138,
+          "rating": 4.6,
           "badge": "Best Smart Large-Room",
           "specs": {
             "Coverage": "Up to 108 m² (54 m² twice an hour)",
@@ -167,7 +167,7 @@
             "Dearer than the Philips and the bedroom Levoit",
             "Filter swap every 6–8 months"
           ],
-          "verdict": "Levoit's upgraded Core 300S is the pick for a living room or an open-plan space: a CADR of 258 m³/h is enough to clean 54 m² twice an hour, and Levoit rates it for rooms up to 108 m² at one change an hour. A laser PM2.5 sensor runs the auto mode, the VeSync app and Alexa handle schedules, and sleep mode drops to 24 dB with the lights off, so it can also sit in a bedroom. Over 600 owners rate it 4.6 stars, and it is sold and shipped by Amazon. At around €191 it costs about €70 more than the Philips above, and the filter needs replacing every 6–8 months, so budget for that. Best for buyers who want one smart purifier that covers a big room."
+          "verdict": "Levoit's upgraded Core 300S is the pick for a living room or an open-plan space: a CADR of 258 m³/h is enough to clean 54 m² twice an hour, and Levoit rates it for rooms up to 108 m² at one change an hour. A laser PM2.5 sensor runs the auto mode, the VeSync app and Alexa handle schedules, and sleep mode drops to 24 dB with the lights off, so it can also sit in a bedroom. Over 600 owners rate it 4.6 stars, and it is sold and shipped by Amazon. At around €138 it costs about €46 more than the Philips above, and the filter needs replacing every 6–8 months, so budget for that. Best for buyers who want one smart purifier that covers a big room."
         },
         {
           "id": "apr-003",
@@ -222,32 +222,6 @@
           "verdict": "Four separate filtration stages built around a true HEPA core give this AZEUS more filtration depth on paper than several single-stage competitors, and it's built with large-room airflow in mind rather than just a bedroom or office corner. Reviewers note it stays quiet given its size and output, which is a reasonable trade against the coverage on offer. AZEUS isn't a brand with much recognition in Ireland yet, so buyers are relying more on the 4.4-star Amazon.ie score than on established reputation, and replacement filters generally need to be sourced online rather than picked up locally. A sensible pick for anyone prioritising filtration stages and large-room power over brand familiarity; those who want a known name should look to Philips or Levoit."
         },
         {
-          "id": "apr-005",
-          "asin": "B07KYFCB6S",
-          "name": "MELEDEN HEPA Air Purifier",
-          "brand": "MELEDEN",
-          "price": 23,
-          "rating": 4.4,
-          "badge": "Best Budget",
-          "specs": {
-            "Filter": "HEPA",
-            "Targets": "Smoke, pollen, dander",
-            "Size": "Compact",
-            "Noise": "Low",
-            "Power": "2.5 W"
-          },
-          "pros": [
-            "Real HEPA for €23",
-            "Tackles pollen and pet dander",
-            "Tiny footprint"
-          ],
-          "cons": [
-            "Small rooms strictly",
-            "Basic controls"
-          ],
-          "verdict": "€23 is a genuinely low entry price for a unit that still uses a real HEPA filter rather than a cheaper alternative, and it's specifically aimed at smoke, pollen and pet dander rather than being a vague catch-all. The compact size and low noise output suit a desk, box room or small nursery where a bigger purifier would be overkill and overpriced. Its 4.1-star rating is the lowest on this list, reflecting controls that are basic — no auto mode or app, just simple manual settings — and coverage that's strictly for small rooms rather than anything open-plan. Right for anyone who wants HEPA filtration in a tight space on a tight budget; larger rooms need one of the pricier options above."
-        },
-        {
           "id": "apr-027",
           "asin": "B07T8ZQHN2",
           "name": "MIKO HEPA Air Purifier for Home",
@@ -257,14 +231,13 @@
           "badge": "Worth Considering",
           "specs": {},
           "pros": [
-            "€95 — 3rd-cheapest of the 6 picks here",
-            "€25 less than our top pick"
+            "€95 — 3rd-cheapest of the 5 picks here"
           ],
           "cons": [
-            "2 of the 6 picks here are better rated by owners",
+            "2 of the 5 picks here are better rated by owners",
             "Post-purchase support varies by seller"
           ],
-          "verdict": "MIKO's HEPA purifier holds a 4.4-star owner rating on Amazon.ie at a €95 price point that sits squarely between the AZEUS and the Levoit large-room model, making it a reasonable middle-ground option if neither of those quite fits your budget. Buying through Amazon.ie means the usual full returns protection if the fit isn't right for your room. It's a newer addition to our comparison set than the Philips or Levoit models, so there's less accumulated owner history to draw on, and post-purchase support has been reported to vary depending on the specific seller fulfilling the order. Worth a look for buyers comparison-shopping on price who are comfortable with a less-established brand; those wanting maximum certainty should default to Philips or Levoit."
+          "verdict": "MIKO's HEPA purifier holds a 4.4-star owner rating on Amazon.ie at €95, below both the AZEUS and the Levoit large-room model, making it a reasonable middle-ground option if neither of those fits your budget. Buying through Amazon.ie means the usual full returns protection if the fit isn't right for your room. It's a newer addition to our comparison set than the Philips or Levoit models, so there's less accumulated owner history to draw on, and post-purchase support has been reported to vary depending on the specific seller fulfilling the order. Worth a look for buyers comparison-shopping on price who are comfortable with a less-established brand; those wanting maximum certainty should default to Philips or Levoit."
         }
       ]
     },
@@ -333,7 +306,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 120,
+          "price": 92,
           "rating": 4.5,
           "badge": "Best Allergy Pick",
           "specs": {
@@ -359,8 +332,8 @@
           "asin": "B0FDWK7YL2",
           "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 191,
-          "rating": 4.5,
+          "price": 138,
+          "rating": 4.6,
           "badge": "Best Whole-Room Allergy",
           "specs": {
             "Coverage": "Up to 108 m² (54 m² twice an hour)",
@@ -550,7 +523,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 120,
+          "price": 92,
           "rating": 4.5,
           "badge": "Best Quiet All-Rounder",
           "specs": {
@@ -626,8 +599,8 @@
           "asin": "B0FDWK7YL2",
           "name": "Levoit Core 300S Smart HEPA Air Purifier (CADR 258 m³/h)",
           "brand": "Levoit",
-          "price": 191,
-          "rating": 4.5,
+          "price": 138,
+          "rating": 4.6,
           "badge": "Best Quiet Large Room",
           "specs": {
             "Coverage": "Up to 108 m² (54 m² twice an hour)",
@@ -653,7 +626,7 @@
           "asin": "B08KPK8NKN",
           "name": "Blueair Blue Max 3450i Smart WiFi",
           "brand": "Blueair",
-          "price": 364,
+          "price": 291,
           "rating": 4.2,
           "badge": "Notable Mention",
           "specs": {
@@ -669,9 +642,9 @@
           ],
           "cons": [
             "4 of the 6 picks here are better rated by owners",
-            "€308 more than our top pick, which owners rate higher at 4.4★"
+            "€235 more than our top pick, which owners rate higher at 4.4★"
           ],
-          "verdict": "Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €364. Its 4.2-star owner score is the second-lowest on this page, though, and it costs more than six times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €56 LEVOIT does the bedroom job this page is about for a fraction of the outlay."
+          "verdict": "Blueair is a genuinely well-regarded brand and the Blue Max 3450i is the most expensive machine on this page at €291. Its 4.2-star owner score is the second-lowest on this page, though, and it costs more than five times our quietest pick. Blueair's reputation is built on filtration rather than silence specifically, so unless you already want the brand, the €56 LEVOIT does the bedroom job this page is about for a fraction of the outlay."
         }
       ]
     },
@@ -792,7 +765,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 120,
+          "price": 92,
           "rating": 4.5,
           "badge": "Best Efficient Large",
           "specs": {
@@ -837,39 +810,13 @@
             "Aroma pads add nothing to filtration"
           ],
           "verdict": "A quiet H13 unit for the smaller rooms off an open-plan space: 35 m² twice an hour for €48."
-        },
-        {
-          "id": "apr-020",
-          "asin": "B07KYFCB6S",
-          "name": "MELEDEN HEPA Air Purifier",
-          "brand": "MELEDEN",
-          "price": 23,
-          "rating": 4.4,
-          "badge": "Best Spot Support",
-          "specs": {
-            "Filter": "HEPA",
-            "Targets": "Smoke, pollen, dander",
-            "Size": "Compact",
-            "Noise": "Low",
-            "Power": "2.5 W"
-          },
-          "pros": [
-            "Real HEPA for €23",
-            "Tackles pollen and pet dander",
-            "Tiny footprint"
-          ],
-          "cons": [
-            "Small rooms strictly",
-            "Basic controls"
-          ],
-          "verdict": "The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries."
         }
       ]
     },
     {
       "slug": "best-budget-air-purifiers-under-150-ireland",
       "title": "Best Budget Air Purifiers Under €150 Ireland 2026",
-      "desc": "Real HEPA air purification under €150: five budget units for Irish homes compared on filtration, noise and filter costs. 2026 guide.",
+      "desc": "Real HEPA air purification under €150: four budget units for Irish homes compared on filtration, noise and filter costs. 2026 guide.",
       "h1": "Best Budget Air Purifiers Under €150 in Ireland",
       "intro": "Under €150, air purifiers split into two species: genuine HEPA machines from serious brands' entry lines, and glowing plastic that moves air past a sponge. Every unit below is the first kind — verified true-HEPA filtration with filters you can actually buy next year. The differences left are room size, noise and small luxuries.",
       "faq_idx": [
@@ -931,7 +878,7 @@
           "asin": "B0CCF2KFHR",
           "name": "Philips 600 Series Air Purifier (App Control)",
           "brand": "Philips",
-          "price": 120,
+          "price": 92,
           "rating": 4.5,
           "badge": "Best Under €150",
           "specs": {
@@ -1027,32 +974,6 @@
             "No auto mode"
           ],
           "verdict": "The pet-corner purifier: H13 spore and dander capture for pocket money."
-        },
-        {
-          "id": "apr-025",
-          "asin": "B07KYFCB6S",
-          "name": "MELEDEN HEPA Air Purifier",
-          "brand": "MELEDEN",
-          "price": 23,
-          "rating": 4.4,
-          "badge": "Cheapest Real HEPA",
-          "specs": {
-            "Filter": "HEPA",
-            "Targets": "Smoke, pollen, dander",
-            "Size": "Compact",
-            "Noise": "Low",
-            "Power": "2.5 W"
-          },
-          "pros": [
-            "Real HEPA for €23",
-            "Tackles pollen and pet dander",
-            "Tiny footprint"
-          ],
-          "cons": [
-            "Small rooms strictly",
-            "Basic controls"
-          ],
-          "verdict": "The cheapest credible HEPA on Amazon.ie — desks, box rooms, nurseries."
         }
       ]
     }

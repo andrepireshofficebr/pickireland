@@ -225,9 +225,9 @@
   {
    "slug": "best-budget-robot-vacuums-under-300-ireland",
    "title": "Best Robot Vacuums Under €300 Ireland 2026 — Budget Picks",
-   "desc": "Four robot vacuums under €300 in stock on Amazon.ie — laser mapping, mopping and honest trade-offs compared for Irish homes. 2026.",
+   "desc": "Robot vacuums under €300 in stock on Amazon.ie — laser mapping, suction and honest trade-offs compared for Irish homes. 2026.",
    "h1": "Best Robot Vacuums Under €300 in Ireland",
-   "intro": "Under €300 used to mean dumb bouncing discs; now it includes genuine laser mapping. The trade-offs moved to mopping quality, docks and obstacle avoidance. Several budget robots we recommended are out of stock on Amazon.ie this winter, so these are the three we could confirm in stock, and we're explicit about what each one gives up.",
+   "intro": "Under €300 used to mean dumb bouncing discs; now it includes genuine laser mapping. The trade-offs moved to mopping quality, docks and obstacle avoidance. Several budget robots we recommended are out of stock on Amazon.ie this winter, so these are the two we could confirm in stock, and we're explicit about what each one gives up.",
    "faq_idx": [
     0,
     5,
@@ -328,34 +328,10 @@
       "No self-empty dock"
      ],
      "verdict": "Laser navigation, 5,000 Pa of suction, a 520 ml dustbin and a 260 ml water tank for mopping, for about €216, rated 4.4 by nearly 800 owners. It comes from a third-party seller and has no self-empty dock."
-    },
-    {
-     "id": "rvc-033",
-     "asin": "B0FKC1QB1J",
-     "name": "Xiaomi Robot Vacuum S40",
-     "brand": "Xiaomi",
-     "price": 243,
-     "rating": 4.6,
-     "badge": "Best Rated Under €200",
-     "specs": {
-      "Battery": "Up to 100 min",
-      "Cleaning width": "32.5 cm",
-      "In the box": "Dock, mop pad, water tank"
-     },
-     "pros": [
-      "Highest owner rating here (4.6★, 500+ ratings)",
-      "Cheapest pick here",
-      "Vacuums and mops"
-     ],
-     "cons": [
-      "Listing publishes almost no specs",
-      "Third-party seller, low stock"
-     ],
-     "verdict": "The best-rated robot here, 4.6 stars from over 500 owners, at about €243. The Amazon listing publishes almost nothing beyond a 100-minute battery and a dock, mop pad and water tank in the box, and it comes from a third-party seller with low stock, so check the listing before you buy."
     }
    ],
    "stock_note": {
-    "text": "The Xiaomi vacuum-mop we listed here now costs more than €300 on Amazon.ie, so this guide lists three robots that are still under budget. For more robot vacuums, see",
+    "text": "Several robot vacuums we listed here are out of stock on Amazon.ie or now cost more than €300, so this guide lists only two that are in stock and under budget. For more robot vacuums, see",
     "href": "best-robot-vacuums-ireland.html",
     "label": "Best robot vacuums in Ireland"
    }

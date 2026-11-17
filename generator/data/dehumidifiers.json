@@ -125,7 +125,7 @@
           "asin": "B0GTWLDCS3",
           "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
           "brand": "Masterplug",
-          "price": 196,
+          "price": 173,
           "rating": 4.4,
           "badge": "Best Smart 3-in-1",
           "specs": {
@@ -144,7 +144,7 @@
             "Mid-size tank",
             "Newer product line"
           ],
-          "verdict": "Three functions in one box — dehumidifying, air purifying and ionising — means this Masterplug can replace more than one appliance, and WiFi app control lets you schedule runs remotely, at €196, about €30 less than our Meaco top pick. Auto-defrost keeps it working properly in colder rooms without manual intervention. Its 12-litre-a-day extraction sits in the middle of this list rather than at the top, and the tank size is unremarkable rather than a strength. As a newer product line, it doesn't yet carry the multi-year reputation that Meaco has built. A good fit for anyone wanting combined purifying and dehumidifying functions with smart scheduling at a mid-range price; those chasing maximum single-function extraction should look at the Nyxi."
+          "verdict": "Three functions in one box — dehumidifying, air purifying and ionising — means this Masterplug can replace more than one appliance, and WiFi app control lets you schedule runs remotely, at €173, about €53 less than our Meaco top pick. Auto-defrost keeps it working properly in colder rooms without manual intervention. Its 12-litre-a-day extraction sits in the middle of this list rather than at the top, and the tank size is unremarkable rather than a strength. As a newer product line, it doesn't yet carry the multi-year reputation that Meaco has built. A good fit for anyone wanting combined purifying and dehumidifying functions with smart scheduling at a mid-range price; those chasing maximum single-function extraction should look at the Nyxi."
         },
         {
           "id": "deh-005",
@@ -274,7 +274,7 @@
       "title": "Best Small Dehumidifiers for Bedrooms Ireland 2026",
       "desc": "Quiet, compact dehumidifiers for Irish bedrooms, apartments and single rooms — noise levels, size and running costs compared. Our picks for 2026.",
       "h1": "Best Small & Bedroom Dehumidifiers in Ireland",
-      "intro": "Condensation hits bedrooms hardest — we each breathe out half a litre of moisture a night into a cold, closed room. The fix needs to be small enough for a corner and quiet enough to sleep beside. We ranked these six on noise first, then extraction and footprint, because a dehumidifier you switch off at bedtime is a dehumidifier that doesn't work.",
+      "intro": "Condensation hits bedrooms hardest — we each breathe out half a litre of moisture a night into a cold, closed room. The fix needs to be small enough for a corner and quiet enough to sleep beside. We ranked these four on noise first, then extraction and footprint, because a dehumidifier you switch off at bedtime is a dehumidifier that doesn't work.",
       "faq_idx": [
         6,
         5,
@@ -359,31 +359,6 @@
           "verdict": "The cheap fix for one mildly damp small room, wardrobe or ensuite."
         },
         {
-          "id": "deh-009",
-          "asin": "B0CH1JQPFH",
-          "name": "SA Products 500ml Portable Dehumidifier",
-          "brand": "SA Products",
-          "price": 41,
-          "rating": 4.3,
-          "badge": "Cheapest Worth Buying",
-          "specs": {
-            "Tank": "500 ml",
-            "Technology": "Thermo-electric (no compressor)",
-            "Shut-off": "Auto when full",
-            "Use": "Small rooms"
-          },
-          "pros": [
-            "€41 entry point",
-            "Whisper-quiet thermo-electric design",
-            "Auto shut-off when the tank fills"
-          ],
-          "cons": [
-            "Small rooms only",
-            "500 ml tank needs frequent emptying"
-          ],
-          "verdict": "The windowsill-class mini for light condensation spots, wardrobes and caravans."
-        },
-        {
           "id": "deh-010",
           "asin": "B09TBKCCSS",
           "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
@@ -408,32 +383,6 @@
             "2.5 L tank fills fast in severe damp"
           ],
           "verdict": "The bigger sibling of our top pick: the same quiet 35 dB Meaco design and built-in H13 HEPA filter, but with 12 litres a day of extraction for a damp bedroom that the 6-litre model can't keep up with. It costs more and the 2.5-litre tank still needs emptying daily in bad spells."
-        },
-        {
-          "id": "deh-026",
-          "asin": "B08JMFHLRB",
-          "name": "UniBond AERO 360 Moisture Absorber",
-          "brand": "UniBond",
-          "price": 15,
-          "rating": 4.4,
-          "badge": "Strong Alternative",
-          "specs": {
-            "Type": "Passive — no electricity",
-            "Coverage": "Up to 20 m²",
-            "Refill": "450 g tab",
-            "Tab life": "Up to 3 months",
-            "Power": "None (non-electric)"
-          },
-          "pros": [
-            "Cheapest pick on this page at €15",
-            "Passive — no electricity type",
-            "Up to 20 m² coverage"
-          ],
-          "cons": [
-            "1 of the 6 picks here is better rated by owners",
-            "Matches our top pick's 4.4★ owner rating"
-          ],
-          "verdict": "At €15 this isn't an appliance at all — it's a passive moisture absorber with a refillable tab, no power, no fan and no humidistat. Owners rate it 4.4 stars for what it is, and in a wardrobe, a car or a caravan it genuinely helps. It cannot dry a bedroom the way our €169 Meaco pick does, and it needs a replacement tab every few weeks. Useful alongside a real dehumidifier, not instead of one."
         }
       ],
       "guide": [
@@ -554,7 +503,7 @@
           "asin": "B0GTWLDCS3",
           "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
           "brand": "Masterplug",
-          "price": 196,
+          "price": 173,
           "rating": 4.4,
           "badge": "Best Smart Large",
           "specs": {
@@ -692,7 +641,7 @@
           "asin": "B0CYZYR3NC",
           "name": "Pro Breeze 20L OmniDry Smart Dehumidifier",
           "brand": "Pro Breeze",
-          "price": 230,
+          "price": 190,
           "rating": 4.5,
           "badge": "Best Laundry Performance",
           "specs": {
@@ -709,7 +658,7 @@
           ],
           "cons": [
             "Compressor output drops in cold, unheated rooms",
-            "€230 is above most picks here"
+            "€190: the Masterplug and Pro Breeze 12 L picks cost less"
           ],
           "verdict": "The big-load laundry pick: 20 litres a day, a laundry setting and quiet enough to run overnight — best in a heated room."
         },
@@ -770,7 +719,7 @@
           "asin": "B0GTWLDCS3",
           "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
           "brand": "Masterplug",
-          "price": 196,
+          "price": 173,
           "rating": 4.4,
           "badge": "Best Smart Scheduling",
           "specs": {
@@ -830,14 +779,14 @@
             "Power": "200 W"
           },
           "pros": [
-            "€80 less than our top pick",
+            "€40 less than our top pick",
             "12 L/day extraction"
           ],
           "cons": [
             "Extracts 8 L/day less than our top pick",
             "Matches our top pick's 4.5★ owner rating"
           ],
-          "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €230 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, though owners rate it 4.5 stars, the same as the bigger model. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
+          "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €190 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, though owners rate it 4.5 stars, the same as the bigger model. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
         },
         {
           "id": "deh-034",
@@ -854,12 +803,12 @@
             "Power": "165 W"
           },
           "pros": [
-            "€199 — 5th-cheapest of the 7 picks here",
+            "€199 — 6th-cheapest of the 7 picks here",
             "12 L/day extraction",
             "36–40 dB noise"
           ],
           "cons": [
-            "€31 less than our top pick, but extracts 12 L/day rather than 20"
+            "€9 more than our top pick, and extracts 12 L/day rather than 20"
           ],
           "verdict": "The MeacoDry ABC comes from a brand with a genuine track record in Ireland, and its 4.7-star owner rating is higher than our top pick's 4.5. It extracts 12 litres a day against the Pro Breeze's 20, so big family loads take longer, but at 36–40 dB it is just as easy to live beside. Like the Pro Breeze it's a compressor unit, so it slows down in a cold room. At €199 against €230, pick it if you value Meaco's record over raw extraction."
         }
@@ -956,7 +905,7 @@
           "asin": "B0GTWLDCS3",
           "name": "Masterplug 3-in-1 Smart Dehumidifier 12L",
           "brand": "Masterplug",
-          "price": 196,
+          "price": 173,
           "rating": 4.4,
           "badge": "Best Purifier Combo",
           "specs": {
@@ -1034,7 +983,7 @@
           "asin": "B0CYZYR3NC",
           "name": "Pro Breeze 20L OmniDry Smart Dehumidifier",
           "brand": "Pro Breeze",
-          "price": 230,
+          "price": 190,
           "rating": 4.5,
           "badge": "Best Big-Room Extraction",
           "specs": {
@@ -1053,7 +1002,7 @@
             "Compressor output drops in cold, unheated rooms",
             "No HEPA filter for airborne spores"
           ],
-          "verdict": "Pro Breeze's OmniDry pulls up to 20 litres a day, matching the Nyxi for extraction, and holds a 4.5-star rating from about 770 Amazon.ie owners at around €230. It runs under 38 dB, measures room humidity so you can set a target level, and a drain hose lets it run continuously in a damp room. Like every compressor unit it slows in a cold, unheated space, and it has no HEPA filter, so our Meaco pick remains the better choice where visible mould and spores are the concern."
+          "verdict": "Pro Breeze's OmniDry pulls up to 20 litres a day, matching the Nyxi for extraction, and holds a 4.5-star rating from about 770 Amazon.ie owners at around €190. It runs under 38 dB, measures room humidity so you can set a target level, and a drain hose lets it run continuously in a damp room. Like every compressor unit it slows in a cold, unheated space, and it has no HEPA filter, so our Meaco pick remains the better choice where visible mould and spores are the concern."
         }
       ],
       "guide": [

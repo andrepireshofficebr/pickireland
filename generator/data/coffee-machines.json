@@ -70,29 +70,29 @@
       "products": [
         {
           "id": "cfm-001",
-          "asin": "B079QZQ5KG",
-          "name": "Krups Arabica EA8110 Bean-to-Cup",
-          "brand": "Krups",
-          "price": 399,
-          "rating": 4.4,
+          "asin": "B09MD69Z35",
+          "name": "Philips 2200 Series Bean-to-Cup (2 one-touch drinks)",
+          "brand": "Philips",
+          "price": 285,
+          "rating": 4.2,
           "badge": "Best Bean-to-Cup Value",
           "specs": {
             "Type": "Bean-to-cup",
-            "Pressure": "15 bar",
-            "Grinder": "3 settings",
-            "Temperatures": "3 settings",
-            "Water tank": "1.7 L"
+            "Drinks": "2 one-touch (espresso, coffee)",
+            "Milk": "Classic manual milk frother",
+            "Adjustable": "Grind, strength, quantity, temperature",
+            "Limescale": "AquaClean filter compatible (not included)"
           },
           "pros": [
-            "Fresh-ground espresso at a button",
-            "15-bar pump with 3 grind and 3 temperature settings",
-            "Compact 38 cm-wide footprint"
+            "Cheapest bean-to-cup machine on this page",
+            "Grind, strength, quantity and temperature all adjustable",
+            "Milk frother has just two dishwasher-safe parts"
           ],
           "cons": [
-            "Only 3 grind settings vs 13 on the Magnifica S",
-            "4.3★ owner rating trails the Magnifica S's 4.4★"
+            "Only two one-touch drinks; you froth the milk yourself",
+            "4.2★ owner rating trails the Magnifica S's 4.4★"
           ],
-          "verdict": "Krups' Arabica EA8110 grinds fresh beans for every cup and pushes them through a 15-bar pump, with three grind settings and three temperature settings to tune the result. At €399 it is the cheapest bean-to-cup machine on this page, just under the Magnifica S, and its 38 cm width suits smaller Irish kitchens. The trade-off is control and track record: three grind steps is a narrow range next to the Magnifica S's thirteen, and its 4.3-star owner rating sits below the De'Longhi's 4.6. A sensible entry into fresh-bean coffee if you want push-button espresso for less; buyers who want finer grind control should spend a little more on the Magnifica S."
+          "verdict": "The Philips 2200 is the cheapest way into fresh-bean coffee on this page at about €285, well below the De'Longhi Magnifica S. It makes espresso and a longer coffee at a touch, lets you adjust grind, strength, quantity and temperature, and its classic frother comes apart into two dishwasher-safe pieces. Milk drinks are manual and its 4.2-star owner rating sits below the Magnifica S's 4.4, so spend more on the De'Longhi if a longer track record and finer grind control matter."
         },
         {
           "id": "cfm-002",
@@ -170,7 +170,7 @@
             "Dated display",
             "Wand learning curve"
           ],
-          "verdict": "This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Krups Arabica instead."
+          "verdict": "This is the platform De'Longhi has sold across Europe for years, which means spare parts, descaling kits and repair know-how are easy to find compared with newer or less common machines. The 13-setting burr grinder gives real control over grind fineness, and reviewers consistently rate the espresso quality above what the price alone would suggest. Its main dated element is the display — basic rather than the touchscreen interfaces on some newer rivals — and milk still relies on a manual wand rather than automation. At €414 it suits buyers who want a long-term daily machine backed by widespread service support; anyone on a tighter budget should look at the Philips 2200 instead."
         },
         {
           "id": "cfm-031",
@@ -213,7 +213,7 @@
             "Grinder": "Built-in, 250 g hopper"
           },
           "pros": [
-            "€195 less than our top pick",
+            "€81 less than our top pick",
             "15 bar pressure",
             "1080 W power"
           ],
@@ -278,7 +278,7 @@
       "title": "Best Bean-to-Cup Coffee Machines Ireland 2026 — Automatics",
       "desc": "Bean-to-cup machines compared for Irish homes: DeLonghi vs Philips vs Jura, milk systems, running costs and reliability. Compared for 2026.",
       "h1": "Best Bean-to-Cup Coffee Machines in Ireland",
-      "intro": "Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €314 to €419, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.",
+      "intro": "Bean-to-cup is the Irish household sweet spot: café-adjacent coffee from fresh beans, no barista cosplay at 7am, running costs ~20c per cup below pods. The tier ladder runs €285 to €500, mostly buying milk automation, quietness and longevity. We compared grind quality, milk systems and the cleaning reality nobody mentions across every price point.",
       "faq_idx": [
         0,
         7,
@@ -290,9 +290,9 @@
           "asin": "B079QZQ5KG",
           "name": "Krups Arabica EA8110 Bean-to-Cup",
           "brand": "Krups",
-          "price": 399,
+          "price": 500,
           "rating": 4.4,
-          "badge": "Best Entry Bean-to-Cup",
+          "badge": "Most Compact Bean-to-Cup",
           "specs": {
             "Type": "Bean-to-cup",
             "Pressure": "15 bar",
@@ -307,9 +307,9 @@
           ],
           "cons": [
             "Only 3 grind settings vs 13 on the Magnifica S",
-            "4.3★ owner rating trails the Magnifica S's 4.4★"
+            "Dearest machine on this page at the moment"
           ],
-          "verdict": "The entry ticket to fresh-bean espresso: 15-bar pump, three grind settings and a compact footprint."
+          "verdict": "Krups' Arabica grinds fresh beans for every cup through a 15-bar pump and is 38 cm wide, which is its reason to be here: it fits where the other machines on this page may not. At about €500 when we last checked it is also the dearest machine on this page, with only three grind settings against the Magnifica S's thirteen, so buy it for the footprint; otherwise the Magnifica S or the Philips 2200 cost less."
         },
         {
           "id": "cfm-007",
@@ -368,7 +368,7 @@
           "asin": "B09MD69Z35",
           "name": "Philips 2200 Series Bean-to-Cup (2 one-touch drinks)",
           "brand": "Philips",
-          "price": 314,
+          "price": 285,
           "rating": 4.2,
           "badge": "Cheapest Bean-to-Cup Here",
           "specs": {
@@ -958,29 +958,29 @@
         },
         {
           "id": "cfm-025",
-          "asin": "B079QZQ5KG",
-          "name": "Krups Arabica EA8110 Bean-to-Cup",
-          "brand": "Krups",
-          "price": 399,
-          "rating": 4.4,
+          "asin": "B09MD69Z35",
+          "name": "Philips 2200 Series Bean-to-Cup (2 one-touch drinks)",
+          "brand": "Philips",
+          "price": 285,
+          "rating": 4.2,
           "badge": "Skip-the-Learning Automatic",
           "specs": {
             "Type": "Bean-to-cup",
-            "Pressure": "15 bar",
-            "Grinder": "3 settings",
-            "Temperatures": "3 settings",
-            "Water tank": "1.7 L"
+            "Drinks": "2 one-touch (espresso, coffee)",
+            "Milk": "Classic manual milk frother",
+            "Adjustable": "Grind, strength, quantity, temperature",
+            "Limescale": "AquaClean filter compatible (not included)"
           },
           "pros": [
-            "Fresh-ground espresso at a button",
-            "15-bar pump with 3 grind and 3 temperature settings",
-            "Compact 38 cm-wide footprint"
+            "Grinds and brews at a touch: no tamping or dosing to learn",
+            "Grind, strength, quantity and temperature adjustable",
+            "Milk frother has just two dishwasher-safe parts"
           ],
           "cons": [
-            "Only 3 grind settings vs 13 on the Magnifica S",
-            "4.3★ owner rating trails the Magnifica S's 4.6★"
+            "Costs more than any manual machine here",
+            "You still froth milk yourself"
           ],
-          "verdict": "The entry ticket to fresh-bean espresso: 15-bar pump, three grind settings and a compact footprint."
+          "verdict": "If the learning curve is the problem, skip it: the Philips 2200 grinds the beans and pulls the shot at a touch, with no tamping or dosing. At about €285 it costs more than the manual machines on this page, but there is no separate grinder to buy. Milk is still frothed by hand with its two-piece frother."
         }
       ],
       "guide": [
