@@ -2037,6 +2037,7 @@ BF_CATS = {
     "air-fryers": ("air fryers", "Basket size decides everything: a 2 to 4 litre basket suits one or two people, while families usually want a dual-drawer model so the main and the side finish together."),
     "coffee-machines": ("coffee machines", "Pick the type before the deal: pods are the simplest, bean-to-cup machines grind fresh beans at a touch, and pump espresso machines reward a bit of practice with café-style coffee."),
     "robot-vacuums": ("robot vacuums", "Navigation is what you pay for: LiDAR models map the house and clean in neat lines, while cheaper ones work more by bump and pattern. A mop is useful on hard floors; on carpet, suction matters more."),
+    "heated-airers": ("heated clothes airers", "A heated airer only warms the rails, so it dries clothes slowly in a cold room and quickly in a warm one; a cover over the rails makes a big difference. Check the drying space and the wattage: most draw a few hundred watts, far less than a tumble dryer."),
     "home-office": ("office chairs and desks", "For a chair you sit in all day, adjustability beats extras: check seat height and depth, lumbar support and armrests against your height. For a standing desk, look at the height range and whether it has a dual motor if you will load it with monitors."),
     "air-purifiers": ("air purifiers", "Match the purifier to the room: check the coverage or CADR figure against your room size, and remember that replacement filters are a running cost every year."),
 }
@@ -2071,6 +2072,24 @@ def _hub_price_faq(ck, q, tail):
 _hub_price_faq("air-purifiers", "How much does an air purifier cost in Ireland?",
                "Compact bedroom units sit at the bottom of that range and models for large or open-plan rooms at the top. "
                "Replacement filters are a yearly cost on top of the machine, so check the filter price before you buy.")
+
+# FAQ de preco no guia de cadeiras ergonomicas (21/11/2026): GSC "ergonomic office chair cost" (pos. ~9,5)
+# cai no guia. Faixa CALCULADA dos cards em estoque do proprio guia, como o FAQ do hub de purificadores.
+def _guide_price_faq(ck, slug, q, noun, tail):
+    c = CATS_BY_SLUG.get(ck)
+    pg = next((x for x in (c or {}).get("pages", []) if x["slug"] == slug), None)
+    if not pg or "faqs" not in pg:
+        return
+    ps = [p for p in pg["products"] if not stock_state(p)]
+    if len(ps) < 3:
+        return
+    vals = sorted((product_price(p), p["name"]) for p in ps)
+    top = ps[0]
+    pg["faqs"].insert(0, {"q": q, "a": (f"The {len(ps)} {noun} in this guide ran from about \u20ac{vals[0][0]} ({vals[0][1]}) to about "
+                                         f"\u20ac{vals[-1][0]} ({vals[-1][1]}) on Amazon.ie when we last checked. Our top pick, the "
+                                         f"{top['name']}, is about \u20ac{product_price(top)}. " + tail)})
+_guide_price_faq("home-office", "best-ergonomic-office-chairs-ireland", "How much does an ergonomic office chair cost in Ireland?",
+                 "ergonomic chairs", "If your budget is fixed, our guide to the best office chairs under \u20ac200 compares the cheaper options.")
 
 STOCK_MOVED = []   # (pagina, produto) que desceram por estoque nesta execucao
 if STOCK_ON:
@@ -2559,8 +2578,21 @@ for cat in CATS:
 <h2>{esc(cat['name'])}: frequently asked questions</h2>
 {hub_faq}
 """
-    out = page_shell(f"Best {cat['name']} in Ireland 2026 | {SITE_NAME}",
-                     cat["hub_intro"][:155], f"{DOMAIN}/{cat['category']}/", body, depth=1,
+    # titulo/descricao do hub (21/11/2026): a descricao era o hub_intro cortado no meio da palavra
+    # (GSC: "coffee machine reviews" em pos. 1,9 com 76 impressoes e 0 cliques). Agora sai dos dados:
+    # quantos produtos em estoque, quantos guias e o top pick do guia principal. hub_title opcional no JSON.
+    _hp = [p for p in cat["pages"][0]["products"] if not stock_state(p)]
+    _hn = len({p["name"] for pg in cat["pages"] for p in pg["products"] if not stock_state(p)})
+    if _hp and _hn:
+        _top = _hp[0]
+        hub_desc = (f"{_hn} {cat['name'].lower()} compared across {len(cat['pages'])} Irish buying guide{'s' if len(cat['pages']) > 1 else ''}. "
+                    f"Top pick: {_top['name'].split(' (')[0]}, about €{product_price(_top)}, rated {_top['rating']}/5 by owners.")
+        if len(hub_desc) > 155:
+            hub_desc = f"{_hn} {cat['name'].lower()} compared across {len(cat['pages'])} Irish buying guide{'s' if len(cat['pages']) > 1 else ''}, with prices and owner ratings from Amazon.ie."
+    else:
+        hub_desc = cat["hub_intro"][:155]
+    out = page_shell(cat.get("hub_title") or f"Best {cat['name']} in Ireland 2026 | {SITE_NAME}",
+                     hub_desc, f"{DOMAIN}/{cat['category']}/", body, depth=1,
                      jsonld=jsonld_hub(cat), og_type="website",
                      og_image=cat_og_image(cat["category"]))
     with open(os.path.join(cdir, "index.html"), "w", encoding="utf-8") as f:

@@ -45,7 +45,7 @@
   "published": "2026-11-08"
  },
  "air-fryers/index": {
-  "hash": "ccccbb4e7acad467",
+  "hash": "3c0f5d3f616d15ea",
   "modified": "2026-11-21",
   "published": "2026-06-01"
  },
@@ -85,12 +85,12 @@
   "published": "2026-11-08"
  },
  "air-purifiers/index": {
-  "hash": "ddd1b6c310b5ad1f",
+  "hash": "509af47541e93cfc",
   "modified": "2026-11-21",
   "published": "2026-08-15"
  },
  "black-friday-ireland-2026": {
-  "hash": "9e383e728c33e77b",
+  "hash": "9ac4502520caf020",
   "modified": "2026-11-21",
   "published": "2026-10-17"
  },
@@ -140,7 +140,7 @@
   "published": "2026-11-08"
  },
  "coffee-machines/index": {
-  "hash": "be24ae82c87d8567",
+  "hash": "c89650cacf91b16d",
   "modified": "2026-11-21",
   "published": "2026-08-15"
  },
@@ -190,7 +190,7 @@
   "published": "2026-09-05"
  },
  "dehumidifiers/index": {
-  "hash": "218828bd05e42307",
+  "hash": "bd4fa79e1f5c6727",
   "modified": "2026-11-21",
   "published": "2026-08-15"
  },
@@ -220,8 +220,8 @@
   "published": "2026-07-31"
  },
  "electric-bikes/index": {
-  "hash": "208e9a423be02717",
-  "modified": "2026-11-08",
+  "hash": "481e15f9e047361c",
+  "modified": "2026-11-21",
   "published": "2026-08-15"
  },
  "electric-blankets/best-electric-blankets-ireland": {
@@ -235,7 +235,7 @@
   "published": "2026-11-08"
  },
  "electric-blankets/index": {
-  "hash": "a6c8c954a70c12d2",
+  "hash": "62b648e34389ab92",
   "modified": "2026-11-21",
   "published": "2026-09-28"
  },
@@ -250,8 +250,8 @@
   "published": "2026-07-31"
  },
  "electric-heaters/best-oil-filled-radiators-ireland": {
-  "hash": "2da08dd6024d01fa",
-  "modified": "2026-11-17",
+  "hash": "4d4480d20eacebcd",
+  "modified": "2026-11-21",
   "published": "2026-07-31"
  },
  "electric-heaters/best-panel-heaters-ireland": {
@@ -285,7 +285,7 @@
   "published": "2026-09-01"
  },
  "electric-heaters/index": {
-  "hash": "3fde4937b89882ce",
+  "hash": "148f69db3cd292b1",
   "modified": "2026-11-21",
   "published": "2026-08-15"
  },
@@ -339,9 +339,14 @@
   "modified": "2026-11-17",
   "published": "2026-09-28"
  },
+ "heated-airers/black-friday-heated-airers-ireland-2026": {
+  "hash": "22c9bd33a5a32726",
+  "modified": "2026-11-21",
+  "published": "2026-11-21"
+ },
  "heated-airers/index": {
-  "hash": "353862282a955711",
-  "modified": "2026-09-28",
+  "hash": "8b00a3f155d69cac",
+  "modified": "2026-11-21",
   "published": "2026-09-28"
  },
  "home-office/best-budget-office-chairs-under-200-ireland": {
@@ -355,8 +360,8 @@
   "published": "2026-07-31"
  },
  "home-office/best-ergonomic-office-chairs-ireland": {
-  "hash": "a4a7ef337c5e0d9e",
-  "modified": "2026-11-15",
+  "hash": "aaa3cbf98a35b861",
+  "modified": "2026-11-21",
   "published": "2026-07-31"
  },
  "home-office/best-standing-desk-converters-accessories-ireland": {
@@ -375,12 +380,12 @@
   "published": "2026-11-21"
  },
  "home-office/index": {
-  "hash": "82b9f3690929d869",
+  "hash": "dc1f15f584454ea7",
   "modified": "2026-11-21",
   "published": "2026-08-15"
  },
  "index": {
-  "hash": "4495374e0a9af6f2",
+  "hash": "160ec268acc8b81b",
   "modified": "2026-11-21",
   "published": "2026-07-28"
  },
@@ -415,8 +420,8 @@
   "published": "2026-07-31"
  },
  "robot-lawn-mowers/index": {
-  "hash": "671eee76d3b38d84",
-  "modified": "2026-09-28",
+  "hash": "39cd87b7f96c850d",
+  "modified": "2026-11-21",
   "published": "2026-08-15"
  },
  "robot-vacuums/best-budget-robot-vacuums-under-300-ireland": {
@@ -450,7 +455,7 @@
   "published": "2026-11-08"
  },
  "robot-vacuums/index": {
-  "hash": "9ea6395ccb2a4e7f",
+  "hash": "4a5a95774c8c22f4",
   "modified": "2026-11-21",
   "published": "2026-08-15"
  },
