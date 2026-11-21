@@ -2037,10 +2037,12 @@ BF_CATS = {
     "air-fryers": ("air fryers", "Basket size decides everything: a 2 to 4 litre basket suits one or two people, while families usually want a dual-drawer model so the main and the side finish together."),
     "coffee-machines": ("coffee machines", "Pick the type before the deal: pods are the simplest, bean-to-cup machines grind fresh beans at a touch, and pump espresso machines reward a bit of practice with café-style coffee."),
     "robot-vacuums": ("robot vacuums", "Navigation is what you pay for: LiDAR models map the house and clean in neat lines, while cheaper ones work more by bump and pattern. A mop is useful on hard floors; on carpet, suction matters more."),
+    "home-office": ("office chairs and desks", "For a chair you sit in all day, adjustability beats extras: check seat height and depth, lumbar support and armrests against your height. For a standing desk, look at the height range and whether it has a dual motor if you will load it with monitors."),
     "air-purifiers": ("air purifiers", "Match the purifier to the room: check the coverage or CADR figure against your room size, and remember that replacement filters are a running cost every year."),
 }
 BF_START, BF_END = datetime.date(2026, 11, 18), datetime.date(2026, 12, 1)
 BF_WINDOW = BF_START <= datetime.date.today() <= BF_END
+BF_SLUG = "black-friday-ireland-2026.html"  # tambem definido mais abaixo (mesmo valor); usado no aviso das guias
 def bf_cat_slug(ck):
     return f"black-friday-{ck}-ireland-2026"
 
@@ -2471,6 +2473,26 @@ for cat in CATS:
         toc = "".join(f'<li><a href="#{p["id"]}">{esc(p["name"])}</a> <i>— {esc(p["badge"])}</i></li>' for p in page["products"])
         cards = "".join(product_card(p, i + 1, cat["category"]) for i, p in enumerate(page["products"]))
         tp_box, tp_sticky = top_pick_blocks(page["products"], cat["category"])
+        # aviso de Black Friday (21/11/2026): so dentro da BF_WINDOW, FORA do hash de page_dates
+        # (navegacao temporaria, como os links da home/hubs). Sem preco nem desconto: so a data
+        # e o link para a lista de BF da categoria (ou a geral).
+        # guia sem nenhum card em estoque (21/11/2026, e-scooters no inverno): sem indice, tabela e
+        # secao de cards vazios; fica so o aviso (stock_note), o texto e o guia de compra.
+        picks_html = (f"""<div class="toc"><b>{icon(cat['category'], 18)} Our top {len(page['products'])} at a glance</b><ol>{toc}</ol></div>
+<h2>Quick comparison</h2>
+{comparison_table(page['products'])}
+{rc_html}{calc_cta}
+<h2>The picks, reviewed</h2>
+{cards}""" if page["products"] else f"{rc_html}{calc_cta}")
+        if BF_WINDOW and page["products"]:
+            _ck = cat["category"]
+            _bfh, _bfl = ((f"{bf_cat_slug(_ck)}.html", f"Black Friday {BF_CATS[_ck][0]}: our in-stock shortlist")
+                          if _ck in BF_CATS else (f"../{BF_SLUG}", "Black Friday 2026: our in-stock picks"))
+            bf_html = (f'<div class="guide-note bf-note"><p><strong>Black Friday 2026</strong> is on Friday 27 November, and Cyber Monday on 30 November. '
+                       f'Amazon.ie prices change often during the sale, so every button below opens the product with its current price. '
+                       f'<a href="{_bfh}"><strong>{esc(_bfl)}</strong> {ARROW}</a></p></div>')
+        else:
+            bf_html = ""
         # Buying guide: prefere o unico da pagina; cai pro da categoria se ainda nao escrito
         guide = "".join(f"<h3>{esc(h)}</h3><p>{esc(t)}</p>" for h, t in (page.get("guide") or cat["guide"]))
         others = [pg for pg in cat["pages"] if pg["slug"] != page["slug"]]
@@ -2488,14 +2510,9 @@ for cat in CATS:
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">{esc(cat['name'])}</a> › {esc(page['h1'])}</nav>
 <h1>{esc(page['h1'])}</h1>
 <div class="updated"><span class="trust-chip">{SHIELD} Independently researched</span><span class="dot"></span><span>By <a href="../about.html" rel="author">{esc(AUTHOR['name'])}</a></span><span class="dot"></span><span>Updated <time datetime="{mod}">{datetime.date.fromisoformat(mod).strftime('%d %B %Y')}</time></span><span class="dot"></span><a href="../affiliate-disclosure.html">How we make money</a></div>
-{sn_html}{tp_box}{qa_html}
+{sn_html}{bf_html}{tp_box}{qa_html}
 <p class="intro">{esc(page['intro'])}</p>
-<div class="toc"><b>{icon(cat['category'], 18)} Our top {len(page['products'])} at a glance</b><ol>{toc}</ol></div>
-<h2>Quick comparison</h2>
-{comparison_table(page['products'])}
-{rc_html}{calc_cta}
-<h2>The picks, reviewed</h2>
-{cards}
+{picks_html}
 <h2>Buying guide: how to choose</h2>
 <div class="guide" style="padding:18px 28px">{guide}</div>
 {sources_html(page, faqs, guide_src)}
@@ -3879,7 +3896,7 @@ GIFT_PAGES = [
         ("ebl-001", "A double underblanket that warms the bed before you get in, for a lot less than heating the bedroom. A safe bet for anyone who complains about the cold."),
         ("ebl-007", "A heated fleece throw for the sofa: the person who always has a blanket over their knees will use this every evening."),
         ("cfm-031", "A pod machine for under €50, and the Tassimo range covers hot chocolate and tea as well as coffee."),
-        ("afr-010", "A two-litre air fryer with a dial and a timer and nothing to learn. Right for a student, a first flat or someone cooking for one."),
+        ("eht-004", "A 1.5 kW tower heater that oscillates to spread warmth across a room, with tip-over protection. Handy for a cold bedroom or a spare room that never quite heats up."),
         ("eht-025", "A small 2,000 W fan heater that warms a cold box room or home office quickly. A practical present for someone working from a chilly spare room."),
         ("apr-010", "A quiet H13 HEPA purifier for a bedroom, useful for anyone with dust or pet allergies."),
         ("deh-007", "A compact dehumidifier for a damp bedroom or wardrobe, the kind of gift that solves a problem people put up with for years."),
@@ -4010,7 +4027,7 @@ n_prods = sum(len(p["products"]) for c in CATS for p in c["pages"])
 
 # spotlight featured products
 _spot_labels={'dehumidifiers':'Damp season essential','air-fryers':'Kitchen favourite','coffee-machines':'High-ticket pick','air-purifiers':'Allergy season pick','electric-heaters':'Winter essential','electric-bikes':'Commuter favourite','electric-scooters':'City mobility','home-office':'WFH upgrade','electric-blankets':'Cheapest winter warmth','heated-airers':'Indoor drying','robot-vacuums':'Hands-free cleaning','robot-lawn-mowers':'Garden on autopilot'}
-spot_keys=[(c['category'], _spot_labels.get(c['category'],'Editor pick')) for c in CATS]
+spot_keys=[(c['category'], _spot_labels.get(c['category'],'Editor pick')) for c in CATS if c['pages'][0]['products']]  # 21/11: categoria sem nenhum card em estoque sai do spotlight
 spot_tabs=""; spot_panels=""
 for si,(sk,slabel) in enumerate(spot_keys):
     scat=next(c for c in CATS if c['category']==sk)

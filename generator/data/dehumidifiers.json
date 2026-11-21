@@ -61,7 +61,7 @@
       "title": "Best Dehumidifiers in Ireland 2026 for Damp Homes",
       "desc": "Ireland's best dehumidifiers compared: extraction, running costs at Irish electricity rates, noise and laundry drying. Compared for 2026.",
       "h1": "The Best Dehumidifiers in Ireland (2026)",
-      "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The six below cover every budget from €51 to €226. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
+      "intro": "We compared the dehumidifiers Irish households actually buy — on extraction rates, electricity cost per litre removed, noise, and how fast they dry a winter washing load. The six below cover every budget from €51 to €215. One spoiler: the brand that dominates this market (Meaco) earns its position, but it isn't the right answer for every room.",
       "faq_idx": [
         0,
         1,
@@ -70,18 +70,18 @@
       "products": [
         {
           "id": "deh-001",
-          "asin": "B09TBKCCSS",
-          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
+          "asin": "B09TBHGQXR",
+          "name": "MeacoDry Arete One 10L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 226,
+          "price": 215,
           "rating": 4.6,
           "badge": "Best Overall",
           "specs": {
-            "Extraction": "12 L/day",
+            "Extraction": "10 L/day",
             "Filter": "H13 HEPA built in",
             "Noise": "35 dB",
             "Tank": "2.5 L",
-            "Power": "136 W"
+            "Power": "151 W"
           },
           "pros": [
             "Quiet enough for a bedroom at 35 dB",
@@ -89,17 +89,17 @@
             "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price for a 12 L unit",
+            "Premium price for a 10 L unit",
             "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "The Arete One 12L earns Best Overall because it does the two jobs an Irish home most often needs from one box: it pulls up to 12 litres a day out of the air and pushes that air through a built-in H13 HEPA filter, so damp and airborne dust, pollen and spores are dealt with together. Meaco rates it at 35 dB, quiet enough to run in a bedroom, and at 136 W it is one of the cheaper machines here to leave running through a wet winter. A 6-hour laundry mode switches itself off, and it is sold and shipped by Meaco Ireland with a 5-year warranty. At around €226 it is the dearest machine on this page and the 2.5-litre tank fills quickly in a genuinely wet house, where the bigger Nyxi below copes better. Best for buyers who want quiet, low-running-cost dehumidifying with air cleaning thrown in."
+          "verdict": "The Arete One 10L earns Best Overall because it does the two jobs an Irish home most often needs from one box: it pulls up to 10 litres a day out of the air and pushes that air through a built-in H13 HEPA filter, so damp and airborne dust, pollen and spores are dealt with together. Meaco rates it at 35 dB, quiet enough to run in a bedroom, and it draws 151 W, so it can be left running through a wet winter without a big bill. A 6-hour laundry mode switches itself off, and it is sold and shipped by Meaco Ireland with a 5-year warranty. At around €215 it is the dearest machine on this page and the 2.5-litre tank fills quickly in a genuinely wet house, where the bigger Nyxi below copes better. Best for buyers who want quiet, low-running-cost dehumidifying with air cleaning thrown in."
         },
         {
           "id": "deh-002",
           "asin": "B0CX5C84BX",
           "name": "Nyxi 20L/Day Dehumidifier",
           "brand": "Nyxi",
-          "price": 179,
+          "price": 141,
           "rating": 4.2,
           "badge": "Best Big-Capacity Value",
           "specs": {
@@ -185,7 +185,7 @@
             "Power": "210 W"
           },
           "pros": [
-            "€79 less than our top pick",
+            "€68 less than our top pick",
             "12 L/day extraction",
             "Strong 4.6★ owner rating"
           ],
@@ -209,7 +209,7 @@
             "Noise": "32 dB (sleep mode)"
           },
           "pros": [
-            "€96 less than our top pick",
+            "€85 less than our top pick",
             "Quiet 32 dB sleep mode",
             "24-hour timer and auto shut-off"
           ],
@@ -313,7 +313,7 @@
           "name": "Morphy Richards PureFresh Compact Dehumidifier",
           "brand": "Morphy Richards",
           "price": 49,
-          "rating": 4.4,
+          "rating": 4.3,
           "badge": "Best Brand Mini",
           "specs": {
             "Tank": "0.9 L",
@@ -360,18 +360,18 @@
         },
         {
           "id": "deh-010",
-          "asin": "B09TBKCCSS",
-          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
+          "asin": "B09TBHGQXR",
+          "name": "MeacoDry Arete One 10L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 226,
+          "price": 215,
           "rating": 4.6,
           "badge": "Best Premium Quiet",
           "specs": {
-            "Extraction": "12 L/day",
+            "Extraction": "10 L/day",
             "Filter": "H13 HEPA built in",
             "Noise": "35 dB",
             "Tank": "2.5 L",
-            "Power": "136 W"
+            "Power": "151 W"
           },
           "pros": [
             "Quiet enough for a bedroom at 35 dB",
@@ -379,10 +379,10 @@
             "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price for a 12 L unit",
+            "Premium price for a 10 L unit",
             "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "The bigger sibling of our top pick: the same quiet 35 dB Meaco design and built-in H13 HEPA filter, but with 12 litres a day of extraction for a damp bedroom that the 6-litre model can't keep up with. It costs more and the 2.5-litre tank still needs emptying daily in bad spells."
+          "verdict": "The bigger sibling of our top pick: the same quiet 35 dB Meaco design and built-in H13 HEPA filter, but with 10 litres a day of extraction for a damp bedroom that the 6-litre model can't keep up with. It costs more and the 2.5-litre tank still needs emptying daily in bad spells."
         }
       ],
       "guide": [
@@ -451,7 +451,7 @@
           "asin": "B0CX5C84BX",
           "name": "Nyxi 20L/Day Dehumidifier",
           "brand": "Nyxi",
-          "price": 179,
+          "price": 141,
           "rating": 4.2,
           "badge": "Best 20L Overall",
           "specs": {
@@ -474,29 +474,29 @@
         },
         {
           "id": "deh-012",
-          "asin": "B09TBKCCSS",
-          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
+          "asin": "B093TK2M7F",
+          "name": "MeacoDry Arete One 20L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 226,
-          "rating": 4.6,
+          "price": 307,
+          "rating": 4.5,
           "badge": "Best Quiet Premium Pick",
           "specs": {
-            "Extraction": "12 L/day",
+            "Extraction": "20 L/day",
             "Filter": "H13 HEPA built in",
-            "Noise": "35 dB",
-            "Tank": "2.5 L",
-            "Power": "136 W"
+            "Noise": "38 dB",
+            "Tank": "4.8 L",
+            "Power": "204 W"
           },
           "pros": [
-            "Quiet enough for a bedroom at 35 dB",
+            "20 L/day at 38 dB, quiet for its size",
             "H13 HEPA air purifier built in",
-            "6-hour laundry mode and 5-year warranty"
+            "Laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price for a 12 L unit",
-            "2.5 L tank fills fast in severe damp"
+            "Dearest machine on this page",
+            "Heavier than the 12 L units at 15 kg"
           ],
-          "verdict": "Not a 20-litre machine, but the quietest serious option here: 12 litres a day, an H13 HEPA filter and 35 dB, at 136 W. Put it where people sleep and let a bigger unit handle the wettest room. The 2.5-litre tank is small for a whole large house."
+          "verdict": "The quiet premium choice for a whole house: Meaco rates the 20-litre Arete One at 38 dB, it pulls up to 20 litres a day, pushes the air through a built-in H13 HEPA filter and has a 4.8-litre tank, so it can run longer between emptying. It draws 204 W and is sold by Meaco Ireland with a 5-year warranty. At around €307 it costs clearly more than the Nyxi, which matches its extraction for less; pay the difference for the lower noise and the air purifier."
         },
         {
           "id": "deh-013",
@@ -564,7 +564,7 @@
             "Display": "Digital humidity"
           },
           "pros": [
-            "€81 less than our top pick",
+            "€43 less than our top pick",
             "12 L/day extraction",
             "2.5 L tank"
           ],
@@ -572,7 +572,7 @@
             "2 of the 5 picks here are better rated by owners",
             "Not our category winner — compare against the Nyxi 20L/Day Dehumidifier"
           ],
-          "verdict": "Devology's 12L/day unit is €98 against our €179 Nyxi pick and rates a little higher with owners, 4.3 stars against 4.2. The reason it isn't first on a page about large, damp homes is extraction: 12 litres a day against the Nyxi's 20 is a meaningful gap once you're covering a whole house rather than one floor, and its 2.5-litre tank needs emptying more often. Good value for a single damp room; undersized for the job this page is about."
+          "verdict": "Devology's 12L/day unit is €98 against our €141 Nyxi pick and rates a little higher with owners, 4.3 stars against 4.2. The reason it isn't first on a page about large, damp homes is extraction: 12 litres a day against the Nyxi's 20 is a meaningful gap once you're covering a whole house rather than one floor, and its 2.5-litre tank needs emptying more often. Good value for a single damp room; undersized for the job this page is about."
         }
       ],
       "guide": [
@@ -667,7 +667,7 @@
           "asin": "B0CX5C84BX",
           "name": "Nyxi 20L/Day Dehumidifier",
           "brand": "Nyxi",
-          "price": 179,
+          "price": 141,
           "rating": 4.2,
           "badge": "Best Big-Load Capacity",
           "specs": {
@@ -690,18 +690,18 @@
         },
         {
           "id": "deh-018",
-          "asin": "B09TBKCCSS",
-          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
+          "asin": "B09TBHGQXR",
+          "name": "MeacoDry Arete One 10L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 226,
+          "price": 215,
           "rating": 4.6,
           "badge": "Best Quiet Overnight",
           "specs": {
-            "Extraction": "12 L/day",
+            "Extraction": "10 L/day",
             "Filter": "H13 HEPA built in",
             "Noise": "35 dB",
             "Tank": "2.5 L",
-            "Power": "136 W"
+            "Power": "151 W"
           },
           "pros": [
             "Quiet enough for a bedroom at 35 dB",
@@ -709,10 +709,10 @@
             "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price for a 12 L unit",
+            "Premium price for a 10 L unit",
             "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "Built for running overnight: Meaco rates it at 35 dB, its laundry mode runs for 6 hours and then switches off, and it draws 136 W. The H13 HEPA filter is a bonus in a bedroom. At 12 litres a day it dries a load more slowly than our 20-litre top pick."
+          "verdict": "Built for running overnight: Meaco rates it at 35 dB, its laundry mode runs for 6 hours and then switches off, and it draws 151 W. The H13 HEPA filter is a bonus in a bedroom. At 10 litres a day it dries a load more slowly than our 20-litre top pick."
         },
         {
           "id": "deh-019",
@@ -771,7 +771,7 @@
           "asin": "B0D1QYWM53",
           "name": "Pro Breeze OmniDry 12L/Day Dehumidifier",
           "brand": "Pro Breeze",
-          "price": 150,
+          "price": 131,
           "rating": 4.5,
           "badge": "Solid Backup Choice",
           "specs": {
@@ -779,14 +779,14 @@
             "Power": "200 W"
           },
           "pros": [
-            "€40 less than our top pick",
+            "€59 less than our top pick",
             "12 L/day extraction"
           ],
           "cons": [
             "Extracts 8 L/day less than our top pick",
             "Matches our top pick's 4.5★ owner rating"
           ],
-          "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €150 against €190 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, though owners rate it 4.5 stars, the same as the bigger model. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
+          "verdict": "Pro Breeze's 12-litre OmniDry is the smaller sibling of our 20-litre laundry pick, and at €131 against €190 it's the cheaper way into the same brand. It extracts 12 litres a day rather than 20, so a full family wash takes longer to dry, though owners rate it 4.5 stars, the same as the bigger model. Both are compressor units, which lose output below about 15°C, so either works best in a heated utility room. A good fit for couples or smaller loads; larger households should take the 20-litre model."
         },
         {
           "id": "deh-034",
@@ -876,18 +876,18 @@
       "products": [
         {
           "id": "deh-021",
-          "asin": "B09TBKCCSS",
-          "name": "MeacoDry Arete One 12L Dehumidifier & HEPA Air Purifier",
+          "asin": "B09TBHGQXR",
+          "name": "MeacoDry Arete One 10L Dehumidifier & HEPA Air Purifier",
           "brand": "Meaco",
-          "price": 226,
+          "price": 215,
           "rating": 4.6,
           "badge": "Best Anti-Mould (HEPA)",
           "specs": {
-            "Extraction": "12 L/day",
+            "Extraction": "10 L/day",
             "Filter": "H13 HEPA built in",
             "Noise": "35 dB",
             "Tank": "2.5 L",
-            "Power": "136 W"
+            "Power": "151 W"
           },
           "pros": [
             "Quiet enough for a bedroom at 35 dB",
@@ -895,10 +895,10 @@
             "6-hour laundry mode and 5-year warranty"
           ],
           "cons": [
-            "Premium price for a 12 L unit",
+            "Premium price for a 10 L unit",
             "2.5 L tank fills fast in severe damp"
           ],
-          "verdict": "For mould, this is the pick: 12 litres a day of extraction to take away the damp that feeds it, plus a built-in H13 HEPA filter to catch airborne spores, in one 35 dB machine sold by Meaco Ireland with a 5-year warranty. The 2.5-litre tank means daily emptying in a badly affected room."
+          "verdict": "For mould, this is the pick: 10 litres a day of extraction to take away the damp that feeds it, plus a built-in H13 HEPA filter to catch airborne spores, in one 35 dB machine sold by Meaco Ireland with a 5-year warranty. The 2.5-litre tank means daily emptying in a badly affected room."
         },
         {
           "id": "deh-022",
@@ -931,7 +931,7 @@
           "asin": "B0CX5C84BX",
           "name": "Nyxi 20L/Day Dehumidifier",
           "brand": "Nyxi",
-          "price": 179,
+          "price": 141,
           "rating": 4.2,
           "badge": "Best for Severe Damp",
           "specs": {
